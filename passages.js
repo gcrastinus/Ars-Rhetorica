@@ -40,7 +40,7 @@ window.PASSAGES = [
     "work": "First Oration against Catiline",
     "locus": "1.2",
     "cue": "The criminal still lives — and sits in the senate.",
-    "text": "Alas! what degenerate days are these! The senate is well aware of the facts, the consul can perceive them all; but the criminal still lives. Lives? Yes, lives; and even comes down to the senate, takes part in the public deliberations, and marks down with ominous glances every single one of us for massacre. And we, such is our bravery, think we are doing our duty to our country, if we merely keep ourselves out of the way of his reckless words and bloody deeds. No, Catilina, long ere now you should yourself have been led by the consul's orders to execution; and on your own head should have been brought down the destruction which you are now devising for us. The most eminent P. Scipio, the pontifex maximus, was not actually a magistrate when he executed Ti.",
+    "text": "Alas! what degenerate days are these! The senate is well aware of the facts, the consul can perceive them all; but the criminal still lives. Lives? Yes, lives; and even comes down to the senate, takes part in the public deliberations, and marks down with ominous glances every single one of us for massacre. And we, such is our bravery, think we are doing our duty to our country, if we merely keep ourselves out of the way of his reckless words and bloody deeds. No, Catilina, long ere now you should yourself have been led by the consul's orders to execution; and on your own head should have been brought down the destruction which you are now devising for us. The most eminent P. Scipio, the pontifex maximus, was not actually a magistrate when he executed Ti. Gracchus",
     "spans": [
       {
         "start": 0,
@@ -136,7 +136,7 @@ window.PASSAGES = [
     "work": "First Oration against Catiline",
     "locus": "1.6",
     "cue": "Nothing in Rome can please a man whom every loyal citizen fears and hates.",
-    "text": "What object indeed is there in this city, Catilina, in which you can feel any pleasure? There is not a man in Rome, outside your band of desperate conspirators, who does not fear you, not a man who does not hate you. Is there any form of personal immorality which has not stained your family life? Is there any scandal to be incurred by private conduct which has not attached itself to your reputation? Is there any evil passion which has not glared from your eyes, any evil deed which has not soiled your hands, any outrageous vice that has not left its mark upon your whole body? Is there any young man, once fascinated by your seductive wiles, whose violence you have not stimulated and whose lust you have not inflamed? What? Not long ago, after having by the death of your former wife created a vacancy in your house for a second match, did you not augment that crime by another too great to be credible? But this I pass over, and am content to leave it unnamed, lest it should be thought that in this community an outrage so brutal should either have been committed or have remained unpunished. I pass over the complete ruin of your financial position, which you will know to be inevitable on the Ides next ensuing. I turn now not to the personal infamy of your vicious life, not to your private embarrassments and iniquities, but to matters which affect the highest interests of the state and the lives and liberties of all of us. Can the light of the sun, Catilina, can the breath of heaven be pleasant to you, when you know that every member of this house knows well that on the 31st of December in the consulship of Lepidus and Tullus ** you had posted yourself in the comitium with a dagger in your hand?",
+    "text": "What object indeed is there in this city, Catilina, in which you can feel any pleasure? There is not a man in Rome, outside your band of desperate conspirators, who does not fear you, not a man who does not hate you. Is there any form of personal immorality which has not stained your family life? Is there any scandal to be incurred by private conduct which has not attached itself to your reputation? Is there any evil passion which has not glared from your eyes, any evil deed which has not soiled your hands, any outrageous vice that has not left its mark upon your whole body? Is there any young man, once fascinated by your seductive wiles, whose violence you have not stimulated and whose lust you have not inflamed? What? Not long ago, after having by the death of your former wife created a vacancy in your house for a second match, did you not augment that crime by another too great to be credible? But this I pass over, and am content to leave it unnamed, lest it should be thought that in this community an outrage so brutal should either have been committed or have remained unpunished. I pass over the complete ruin of your financial position, which you will know to be inevitable on the Ides next ensuing. I turn now not to the personal infamy of your vicious life, not to your private embarrassments and iniquities, but to matters which affect the highest interests of the state and the lives and liberties of all of us. Can the light of the sun, Catilina, can the breath of heaven be pleasant to you, when you know that every member of this house knows well that on the 31st of December in the consulship of Lepidus and Tullus you had posted yourself in the comitium with a dagger in your hand?",
     "spans": [
       {
         "start": 0,
@@ -426,7 +426,7 @@ window.PASSAGES = [
     "id": "cic-milo-1",
     "author": "Cicero",
     "work": "Pro Milone",
-    "locus": "1",
+    "locus": "1.1",
     "cue": "The defence of Milo opens by confessing fear — and making that fear an argument.",
     "text": "Although I am afraid, gentlemen of the jury, that fear is an unseemly condition in which to begin a speech in defence of the bravest of men; and that it is in the last degree unbecoming, seeing that Titus Annius himself is more anxious for the safety of the state than for his own, that I should be unable to bring to his case a greatness of spirit to equal his; still, the unprecedented aspect of this unprecedented trial alarms my eyes, which, turn where they may, look in vain for the familiar environment of the courts and the traditional procedure of the law. For your assembly is not thronged, as of old, by a ring of listeners; we are not encompassed by our customary concourse; and the troops which you see before all the temples, albeit posted there to prevent violence,",
     "spans": [
@@ -454,7 +454,7 @@ window.PASSAGES = [
     "id": "cic-marc-1",
     "author": "Cicero",
     "work": "Pro Marcello",
-    "locus": "1",
+    "locus": "1.1",
     "cue": "Caesar has pardoned Marcellus: Cicero finds his voice again.",
     "text": "To-day, conscript fathers, has brought to a close the long silence, due not to a feeling of fear, but to mingled feelings of grief and of diffidence, which I had observed during the recent troubles; to-day, too, marks the resumption of my old habit of expressing freely my desires and my opinions. For such humanity, such exceptional, nay, unheard-of clemency, such invariable moderation exhibited by one who has attained supreme power, such incredible and almost superhuman loftiness of mind I find it impossible to pass by in silence. For in the restoration of Marcus Marcellus, conscript fathers, to yourselves and to the state I feel that my own voice and influence, as well as his, have been preserved and restored to yourselves and to the state. For it was a grief to me, conscript fathers, and a bitter mortification, that so great a man, thou",
     "spans": [
@@ -947,10 +947,13 @@ window.PASSAGES = [
   {
     "id": "tac-cal-1",
     "author": "Tacitus",
-    "work": "Agricola",
+    "work": "Agricola (Murphy)",
     "locus": "30",
     "cue": "Calgacus before the battle: Britain at the world's end, and Rome as the last enemy.",
     "text": "When I reflect on the causes of the war, and the circumstances of our situation, I feel a strong persuasion that our united efforts on the present day will prove the beginning of universal liberty to Britain. For we are all undebased by slavery; and there is no land behind us, nor does even the sea afford a refuge, whilst the Roman fleet hovers around. Thus the use of arms, which is at all times honorable to the brave, now offers the only safety even to cowards. In all the battles which have yet been fought, with various success, against the Romans, our countrymen may be deemed to have reposed their final hopes and resources in us: for we, the noblest sons of Britain, and therefore stationed in its last recesses, far from the view of servile shores, have preserved even our eyes unpolluted by the contact of subjection. We, at the furthest limits both of land and liberty, have been defended to this day by the remoteness of our situation and of our fame.",
+    "src": [
+      "tacitus_murphy"
+    ],
     "spans": [
       {
         "start": 0,
@@ -975,10 +978,13 @@ window.PASSAGES = [
   {
     "id": "tac-cal-2",
     "author": "Tacitus",
-    "work": "Agricola",
+    "work": "Agricola (Murphy)",
     "locus": "30",
     "cue": "The most famous sentence in the Agricola: names stolen for crimes.",
-    "text": "To ravage, to slaughter, to usurp under false titles, they call empire; and where they make a desert, they call it peace. 31. \"Our children and relations are by the appointment of nature the dearest of all things to us. These are torn away by levies to serve in foreign lands. Our wives and sisters, though they should escape the violation of hostile force, are polluted under names of friendship and hospitality. Our estates and possessions are consumed in tributes; our grain in contributions. Even our bodies are worn down amidst stripes and insults in clearing woods and draining marshes. Wretches born to slavery are once bought, and afterwards maintained by their masters: Britain every day buys, every day feeds, her own servitude. And as among domestic slaves every new comer serves for the scorn and derision of his fellows; so, in this ancient household of the world, we, as the newest and vilest, are sought out to destruction.",
+    "text": "To ravage, to slaughter, to usurp under false titles, they call empire; and where they make a desert, they call it peace.",
+    "src": [
+      "tacitus_murphy"
+    ],
     "spans": [
       {
         "start": 0,
@@ -1040,23 +1046,23 @@ window.PASSAGES = [
     "work": "Life of Caesar",
     "locus": "32",
     "cue": "Caesar at the Rubicon: a proverb for an irreversible step.",
-    "text": "The die is cast,\" with these words he took the river. Once over, he used all expedition possible, and before it was day reached Ariminum, and took it.",
+    "text": "\"The die is cast,\" with these words he took the river. Once over, he used all expedition possible, and before it was day reached Ariminum, and took it.",
     "spans": [
       {
         "start": 0,
-        "end": 16,
+        "end": 18,
         "figure": "metaphor",
         "why": "A throw of dice for a crossing of a river: the game is the war."
       },
       {
         "start": 0,
-        "end": 16,
+        "end": 18,
         "figure": "sententia",
         "why": "The proverb is left to do the work of a speech."
       },
       {
-        "start": 18,
-        "end": 136,
+        "start": 19,
+        "end": 151,
         "figure": "hypotyposis",
         "why": "The night, the river, the town by dawn: the scene is made to move."
       }
@@ -1065,10 +1071,10 @@ window.PASSAGES = [
   {
     "id": "dem-1",
     "author": "Demosthenes",
-    "work": "Public Orations",
-    "locus": "On the Navy-Boards? / Forefathers",
+    "work": "On the Navy-Boards",
+    "locus": "14.1–2",
     "cue": "Praise of the ancestors is itself put on trial: Time, not the orator, is their monument.",
-    "text": "Those who praise your forefathers, men of Athens, desire, no doubt, to gratify you by their speeches; and yet I do not think that they are acting in the interests of those whom they praise. For the subject on which they attempt to speak is one to which no words can do justice; and so, although they thus win for themselves the reputation of capable speakers, the impression which they convey to their hearers of the merit of our forefathers is not adequate to our conception of it. For my part I believe that their highest praise is constituted by Time: for the time that has passed has been long, and still no generation has arisen, whose achievements could be compared with advantage to theirs. {2} As for myself, I shall attempt to point out the way in which, in my opinion, you can best make your preparations. For the truth is, that if all o",
+    "text": "Those who praise your forefathers, men of Athens, desire, no doubt, to gratify you by their speeches; and yet I do not think that they are acting in the interests of those whom they praise. For the subject on which they attempt to speak is one to which no words can do justice; and so, although they thus win for themselves the reputation of capable speakers, the impression which they convey to their hearers of the merit of our forefathers is not adequate to our conception of it. For my part I believe that their highest praise is constituted by Time: for the time that has passed has been long, and still no generation has arisen, whose achievements could be compared with advantage to theirs. As for myself, I shall attempt to point out the way in which, in my opinion, you can best make your preparations. For the truth is, that if all o",
     "spans": [
       {
         "start": 35,
@@ -1162,7 +1168,7 @@ window.PASSAGES = [
     "id": "greg-2",
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
-    "locus": "II",
+    "locus": "II.5",
     "cue": "The pastor is to be near in pity and high in prayer — and not to drop either.",
     "text": "The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself, and by loftiness of speculation transcend even himself in his aspiration after the invisible; lest either in seeking high things he despise the weak things of his neighbours, or in suiting himself to the weak things of his neighbours he relinquish his aspiration after high things. For hence it is that Paul is caught up into Paradise 2 Corinthians 12:3 and explores the secrets of the third heaven, and, yet, though borne aloft in that contemplation of things invisible, recalls the vision of his mind to the bed of the carnal, and directs how they should have intercourse with each other in their hidden privacy, saying, But on account of fornication let every man have his own wife, and let every woman have her own husband.",
     "spans": [
@@ -1508,7 +1514,7 @@ window.PASSAGES = [
     "work": "Third Oration against Catiline",
     "locus": "3.10",
     "cue": "A thanksgiving without blood: the gods are paid in festival, not in funerals.",
-    "text": "So, citizens of Rome, since a public thanksgiving has been voted to be held at all the sacred couches, keep the festal days with your wives and children. Many honours justly deserved have often ere now been paid to the immortal gods, but surely none more justly due to them than these. For you have been rescued from a most barbarous and heartrending destruction, and rescued without bloodshed, without slaughter, without an army, without a prolonged struggle; by civil weapons, and with me in my civil capacity as your only leader and general, you have won the day. Yes, recall to memory, men of Rome, all our internal dissensions, not only those of which you have heard, but those which you yourselves remember and have seen. L. Sulla crushed P. Sulpicius; C.",
+    "text": "So, citizens of Rome, since a public thanksgiving has been voted to be held at all the sacred couches, keep the festal days with your wives and children. Many honours justly deserved have often ere now been paid to the immortal gods, but surely none more justly due to them than these. For you have been rescued from a most barbarous and heartrending destruction, and rescued without bloodshed, without slaughter, without an army, without a prolonged struggle; by civil weapons, and with me in my civil capacity as your only leader and general, you have won the day. Yes, recall to memory, men of Rome, all our internal dissensions, not only those of which you have heard, but those which you yourselves remember and have seen. L. Sulla crushed P. Sulpicius; C. Marius",
     "spans": [
       {
         "start": 0,
@@ -1697,10 +1703,10 @@ window.PASSAGES = [
   {
     "id": "dem-2",
     "author": "Demosthenes",
-    "work": "Public Orations",
-    "locus": "Vol. II, opening",
+    "work": "On the Chersonese",
+    "locus": "8.1–2",
     "cue": "Before the advice, a law for advisers: no malice, no favour, the best policy only.",
-    "text": "It was the duty, men of Athens, of every speaker not to allow either malice or favour to influence any speech which he might make, but simply to declare the policy which he considered to be the best, particularly when your deliberations were concerned with public affairs of great importance. But since there are some who are led on to address you, partly out of contentiousness, partly from causes which I need not discuss, it is for you, men of Athens--you, the People--to dismiss all other considerations, and both in the votes that you give and in the measures that you take to attend solely to what you believe to be for the good of the city. {2} Now our present anxiety arises out of affairs in the Chersonese, and the campaign, now in its eleventh month, which Philip is conducting in Thrace. But most of the speeches which we have heard have been about the acts and intentions of Diopeithes.",
+    "text": "It was the duty, men of Athens, of every speaker not to allow either malice or favour to influence any speech which he might make, but simply to declare the policy which he considered to be the best, particularly when your deliberations were concerned with public affairs of great importance. But since there are some who are led on to address you, partly out of contentiousness, partly from causes which I need not discuss, it is for you, men of Athens--you, the People--to dismiss all other considerations, and both in the votes that you give and in the measures that you take to attend solely to what you believe to be for the good of the city. Now our present anxiety arises out of affairs in the Chersonese, and the campaign, now in its eleventh month, which Philip is conducting in Thrace. But most of the speeches which we have heard have been about the acts and intentions of Diopeithes.",
     "spans": [
       {
         "start": 17,
@@ -1728,7 +1734,7 @@ window.PASSAGES = [
     "work": "First Philippic",
     "locus": "34",
     "cue": "A deliberative period: money, then ships, then a law that the force remain at the war.",
-    "text": "If, men of Athens, you first supply the sum I have mentioned, and then, after making ready the rest of the armament--soldiers, ships, cavalry--bind the whole force in its entirety, by law, to remain at the seat of war; if you become your own paymasters, your own commissioners of supply, but require your general to account for the actual operations; {34} then there will be an end of these perpetual discussions of one and the same theme, which end in nothing but discussion: and in addition to this, men of Athens, you will, in the first place, deprive him of his chief source of supply. For what is this? Why, he carries on the war at the cost of your own allies, harrying and plundering those who sail the seas! And what will you gain besides this? You will place yourselves out of reach of disaster.",
+    "text": "If, men of Athens, you first supply the sum I have mentioned, and then, after making ready the rest of the armament--soldiers, ships, cavalry--bind the whole force in its entirety, by law, to remain at the seat of war; if you become your own paymasters, your own commissioners of supply, but require your general to account for the actual operations; then there will be an end of these perpetual discussions of one and the same theme, which end in nothing but discussion: and in addition to this, men of Athens, you will, in the first place, deprive him of his chief source of supply. For what is this? Why, he carries on the war at the cost of your own allies, harrying and plundering those who sail the seas! And what will you gain besides this? You will place yourselves out of reach of disaster.",
     "spans": [
       {
         "start": 0,
@@ -1937,6 +1943,9 @@ window.PASSAGES = [
     "locus": "1.1",
     "cue": "The opening of the Annals: a history of names for power, each shorter than the last.",
     "text": "Kings were the original Magistrates of Rome: Lucius Brutus founded Liberty and the Consulship: Dictators were chosen occasionally, and used only in pressing exigencies. Little more than two years prevailed the supreme power of the Decemvirate, and the consular jurisdiction of the military Tribunes not very many. The domination of Cinna was but short, that of Sylla not long. The authority of Pompey and Crassus was quickly swallowed up in Caesar; that of Lepidus and Anthony in Augustus. The Commonwealth, then long distressed and exhausted by the rage of her civil dissensions, fell easily into his hands, and over her he assumed a sovereign dominion; yet softened with a venerable name, that of Prince or Chief of the Senate. But the several revolutions in the ancient free state of Rome, and all her happy or disastrous events, are already recorded by writers of signal renown.",
+    "src": [
+      "tacitus_gordon"
+    ],
     "spans": [
       {
         "start": 0,
@@ -2064,7 +2073,7 @@ window.PASSAGES = [
     "id": "cic-marc-2",
     "author": "Cicero",
     "work": "Pro Marcello",
-    "locus": "1",
+    "locus": "1.1–2",
     "cue": "Caesar's clemency named as almost past the human, and therefore a new topic for praise.",
     "text": "For such humanity, such exceptional, nay, unheard-of clemency, such invariable moderation exhibited by one who has attained supreme power, such incredible and almost superhuman loftiness of mind I find it impossible to pass by in silence. For in the restoration of Marcus Marcellus, conscript fathers, to yourselves and to the state I feel that my own voice and influence, as well as his, have been preserved and restored to yourselves and to the state. For it was a grief to me, conscript fathers, and a bitter mortification, that so great a man, though serving the same cause as myself, should have met with a fate so different; and I could not bring myself, nor indeed did I think that it was right for me, to pursue my old path of life, when he who had been the rival and the imitator of my pursuits and my toils had been separated from me, viewing him, as I did, in the light of a comrade and a companion.",
     "spans": [
@@ -2092,7 +2101,7 @@ window.PASSAGES = [
     "id": "cic-ver-2",
     "author": "Cicero",
     "work": "Against Verres I",
-    "locus": "1",
+    "locus": "1.1 cont.",
     "cue": "The courts' bad name: a belief that hurts the nation and the order alike.",
     "text": "A belief has by this time established itself, as harmful to the whole nation as it is perilous to yourselves, and everywhere expressed not merely by our own people but by foreigners as well: the belief that these Courts, constituted as they now are, will never convict any man, however guilty, if only he has money. And now, at the moment of supreme danger for your Order and your judicial privileges, when preparations have been made for an attempt, by means of public meetings and proposals for legislation, to fan the flames of senatorial unpopularity, Gaius Verres appears, to stand his trial before you: a man already condemned, in the world's opinion, by his life and deeds; already acquitted, according to his own confident assertions, by his vast fortune.",
     "spans": [
@@ -2170,7 +2179,7 @@ window.PASSAGES = [
     "id": "sal-cat-3",
     "author": "Sallust",
     "work": "Conspiracy of Catiline",
-    "locus": "5",
+    "locus": "5 cont. 2",
     "cue": "Eloquence without wisdom: a portrait of the orator as conspirator.",
     "text": "He had abundance of eloquence, though but little wisdom. His insatiable ambition was always pursuing objects extravagant, romantic, and unattainable. Since the time of Sylla's dictatorship, a strong desire of seizing the government possessed him, nor did he at all care, provided that he secured power for himself, by what means he might arrive at it. His violent spirit was daily more and more hurried on by the diminution of his patrimony, and by his consciousness of guilt; both which evils he had increased by those practices which I have mentioned above.",
     "spans": [
@@ -2225,10 +2234,13 @@ window.PASSAGES = [
   {
     "id": "tac-cal-3",
     "author": "Tacitus",
-    "work": "Agricola",
+    "work": "Agricola (Murphy)",
     "locus": "30",
     "cue": "Rome as a thief of land and sea, of rich and poor alike.",
-    "text": "These plunderers of the world, after exhausting the land by their devastations, are rifling the ocean: stimulated by avarice, if their enemy be rich; by ambition, if poor; unsatiated by the East and by the West: the only people who behold wealth and indigence with equal avidity. To ravage, to slaughter, to usurp under false titles, they call empire; and where they make a desert, they call it peace. 31. \"Our children and relations are by the appointment of nature the dearest of all things to us. These are torn away by levies to serve in foreign lands. Our wives and sisters, though they should escape the violation of hostile force, are polluted under names of friendship and hospitality. Our estates and possessions are consumed in tributes; our grain in contributions.",
+    "text": "These plunderers of the world, after exhausting the land by their devastations, are rifling the ocean: stimulated by avarice, if their enemy be rich; by ambition, if poor; unsatiated by the East and by the West: the only people who behold wealth and indigence with equal avidity.",
+    "src": [
+      "tacitus_murphy"
+    ],
     "spans": [
       {
         "start": 0,
@@ -2794,7 +2806,7 @@ window.PASSAGES = [
     "work": "Histories",
     "locus": "1.6",
     "cue": "First of the barbarians to take Greeks: some by tribute, some by friendship.",
-    "text": "This Croesus, first of all the Barbarians of whom we have knowledge, subdued certain of the Hellenes and forced them to pay tribute, while others he gained over and made them his friends. Those whom he subdued were the Ionians, the Aiolians, and the Dorians who dwell in Asia; and those whom he made his friends were the Lacedemonians. But before the reign of Croesus all the Hellenes were free; for the expedition of the Kimmerians, which came upon Ionia before the time of Croesus, was not a conquest of the cities but a plundering incursion only. 6 7. Now the supremacy which had belonged to the",
+    "text": "This Croesus, first of all the Barbarians of whom we have knowledge, subdued certain of the Hellenes and forced them to pay tribute, while others he gained over and made them his friends. Those whom he subdued were the Ionians, the Aiolians, and the Dorians who dwell in Asia; and those whom he made his friends were the Lacedemonians. But before the reign of Croesus all the Hellenes were free; for the expedition of the Kimmerians, which came upon Ionia before the time of Croesus, was not a conquest of the cities but a plundering incursion only.",
     "spans": [
       {
         "start": 14,
@@ -2820,7 +2832,7 @@ window.PASSAGES = [
     "id": "sal-cat-4",
     "author": "Sallust",
     "work": "Conspiracy of Catiline",
-    "locus": "5",
+    "locus": "5 cont.",
     "cue": "Body and mind: three hardships endured, three tricks of mind.",
     "text": "His constitution could endure hunger, want of sleep, and cold, to a degree surpassing belief. His mind was daring, subtle, and versatile, capable of pretending or dissembling whatever he wished. He was covetous of other men's property, and prodigal of his own. He had abundance of eloquence, though but little wisdom. His insatiable ambition was always pursuing objects extravagant, romantic, and unattainable. Since the time of Sylla's dictatorship, a strong desire of seizing the government possessed him, nor did he at all care, provided that he secured power for himself, by what means he might arrive at it.",
     "spans": [
@@ -3783,7 +3795,7 @@ window.PASSAGES = [
     "species": "deliberative",
     "track": "blaisdell",
     "src": [
-      "sallust_watson"
+      "sallust_w"
     ]
   },
   {
@@ -3816,7 +3828,7 @@ window.PASSAGES = [
     "species": "deliberative",
     "track": "blaisdell",
     "src": [
-      "sallust_watson"
+      "sallust_w"
     ]
   },
   {
@@ -3950,8 +3962,7 @@ window.PASSAGES = [
     "track": "augustine",
     "src": [
       "aug_pusey"
-    ],
-    "species": "epideictic"
+    ]
   },
   {
     "id": "aug-love",
@@ -3985,8 +3996,7 @@ window.PASSAGES = [
     "track": "augustine",
     "src": [
       "aug_pusey"
-    ],
-    "species": "epideictic"
+    ]
   },
   {
     "id": "aug-time",
@@ -4014,8 +4024,7 @@ window.PASSAGES = [
     "track": "augustine",
     "src": [
       "aug_pusey"
-    ],
-    "species": "epideictic"
+    ]
   },
   {
     "id": "aug-pear",
@@ -4049,8 +4058,7 @@ window.PASSAGES = [
     "track": "augustine",
     "src": [
       "aug_pusey"
-    ],
-    "species": "epideictic"
+    ]
   },
   {
     "id": "aug-ddc-2",
@@ -4083,9 +4091,8 @@ window.PASSAGES = [
     "olang": "Latin",
     "track": "augustine",
     "src": [
-      "aug_ddc"
-    ],
-    "species": "deliberative"
+      "ddc"
+    ]
   },
   {
     "id": "aug-ddc-12",
@@ -4118,7 +4125,7 @@ window.PASSAGES = [
     "olang": "Latin",
     "track": "augustine",
     "src": [
-      "aug_ddc"
+      "ddc"
     ],
     "species": "epideictic"
   },
@@ -4153,7 +4160,7 @@ window.PASSAGES = [
     "olang": "Latin",
     "track": "augustine",
     "src": [
-      "aug_ddc"
+      "ddc"
     ],
     "species": "epideictic"
   },
@@ -4188,9 +4195,8 @@ window.PASSAGES = [
     "olang": "Latin",
     "track": "augustine",
     "src": [
-      "aug_ddc"
-    ],
-    "species": "deliberative"
+      "ddc"
+    ]
   },
   {
     "id": "aug-ep93",
@@ -4220,9 +4226,8 @@ window.PASSAGES = [
       }
     ],
     "track": "augustine",
-    "species": "forensic",
     "src": [
-      "aug_letters"
+      "aug_npnf"
     ]
   },
   {
@@ -4255,7 +4260,7 @@ window.PASSAGES = [
     "track": "augustine",
     "species": "epideictic",
     "src": [
-      "aug_sermons"
+      "aug_npnf"
     ]
   }
 ];
