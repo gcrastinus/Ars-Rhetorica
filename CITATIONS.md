@@ -13,24 +13,27 @@ A claim in this application is admitted only if it was read in one of these work
 - **Augustine**, *Confessions*, trans. E. B. Pusey. Public domain. Latin cells from augustinus.cc (Maurist), aligned by index with Pusey.
 - **Augustine**, Letters and Sermons, NPNF I.1 and I.6. Public domain.
 - **Thomas Aquinas**, *Summa theologiae* I–II qq. 22–48 (English Dominican translation). Public domain. Concupiscible and irascible passions.
-- **Gregory the Great**, *Liber regulae pastoralis*, trans. James Barmby, NPNF II.12. Public domain.
+- **Gregory the Great**, *Liber regulae pastoralis*, trans. James Barmby, NPNF II.12. Public domain. Book III pairs used as a doctrine of the hearer.
+- **John Chrysostom**, Homilies on the Statues, NPNF I.9, trans. W. R. W. Stephens. Public domain.
+- **Gregory of Nazianzus**, First Theological Oration (Or. 27) and Funeral Oration on St. Basil (Or. 43), NPNF II.7. Public domain.
+- **Jerome**, Letter 22 to Eustochium, NPNF II.6. Public domain.
 
 ## Primary — speeches and prose in the bank
 
 - **Cicero**, Catilinarians, trans. H. E. D. Blakiston (1894). Public domain. (The bank’s Catilinarian English is Blakiston, not Yonge.) *Pro Milone*, *Pro Marcello*, *Philippics* I–II, *In Verrem*: public-domain English as already in the bank.
-- **Cicero**, *Pro Archia*, *Pro Caelio*, *Pro Ligario*, Fourth Philippic, trans. C. D. Yonge. Public domain. Named Yonge on these excerpts; not filed under Blakiston.
+- **Cicero**, orations, trans. C. D. Yonge (Bohn). Public domain. Named Yonge on these excerpts; not filed under Blakiston. *Pro Roscio Amerino*, *Divinatio in Caecilium*, *In Verrem* II.4, *De lege Manilia*, *Pro Murena*, *Pro Sulla*, *Pro Flacco*, *Pro Cluentio*, *Pro Sestio*, *Pro Plancio*, *Pro Rabirio perduellionis reo*, *Pro rege Deiotaro*, Second Philippic stretches, besides *Pro Archia*, *Pro Caelio*, *Pro Ligario*, Fourth Philippic. The bank’s existing Verrines I opening is not refiled as Yonge.
 - **Gorgias**, *Encomium of Helen*, trans. Larue Van Hook, *The Classical Weekly* 6 (1913). Public domain.
-- **Lysias**, *On the Murder of Eratosthenes* and *Against Eratosthenes*, trans. W. R. M. Lamb, Loeb (1930). Public domain in the United States as of 2026.
-- **Aeschines**, *Against Ctesiphon*, trans. Charles Darwin Adams, Loeb (1919). Public domain.
-- **Isocrates**, *Panegyricus*, trans. George Norlin, Loeb (1928). Public domain in the United States.
+- **Lysias**, trans. W. R. M. Lamb, Loeb (1930). Public domain in the United States as of 2026. *Against Simon*, *For Mantitheus*, Funeral Oration, *Against Diogeiton*, *For the Invalid*, *On the Olive-Stump*, besides *On the Murder of Eratosthenes* and *Against Eratosthenes*.
+- **Aeschines**, trans. Charles Darwin Adams, Loeb (1919). Public domain. *On the Embassy* and *Against Ctesiphon*.
+- **Isocrates**, trans. George Norlin, Loeb vol. 1 (1928) and vol. 2 (1929). Public domain in the United States as of 2026. *Panegyricus*, *To Philip*, *Antidosis*, *On the Peace*. Vol. 3 (1945) is not PD: *Helen* is not used.
 - **Antiphon**, Second Tetralogy (3.1–3.4). English from the classroom translation of the javelin case supplied for this course. Cited by tetralogy and speech number.
-- **Thucydides**, *History of the Peloponnesian War*, trans. Richard Crawley. Public domain. Blaisdell course speeches: Archidamus (1.80), Sthenelaidas (1.86), Pericles (2.35, 2.37, and the war/funeral stretches), Cleon (3.37), Diodotus (3.42), Alcibiades (6.16), Nicias (6.9–10), Hermocrates (4.59, 6.33), Athenagoras (6.36), Plataeans (3.53), Thebans (3.61–62), Melian dialogue, Corcyra.
+- **Thucydides**, *History of the Peloponnesian War*, trans. Richard Crawley. Public domain. Blaisdell course speeches: Archidamus (1.80), Sthenelaidas (1.86), Pericles (2.35, 2.37, 2.61, 2.63, and the war/funeral stretches), Cleon (3.37), Diodotus (3.42), Alcibiades (6.16), Nicias (6.9–10), Hermocrates (4.59, 6.33), Athenagoras (6.36), Plataeans (3.53), Thebans (3.61–62), Corinthians (1.70), Athenians at Sparta (1.78), Melian dialogue, Corcyra.
 - **Herodotus**, *Histories*, trans. G. C. Macaulay. Public domain. (The bank’s English is Macaulay — Dareios, Artoxerxes, Hellas, Thermopylai, Tellos — not Rawlinson.)
 - **Plato**, *Apology*, *Crito*, *Phaedrus*, *Symposium*, *Menexenus*, *Protagoras*, trans. Benjamin Jowett. Public domain.
-- **Sallust**, *Bellum Catilinae*, trans. J. S. Watson. Public domain. Catiline 20; Caesar 51.
+- **Sallust**, *Bellum Catilinae*, trans. J. S. Watson. Public domain. Catiline 20; Caesar 51; Cato 52.
 - **Livy**, *Ab urbe condita*, public-domain English (Spillan; Canon Roberts).
 - **Tacitus**, *Annals*, trans. Thomas Gordon. Public domain. *Agricola* (Calgacus), trans. Arthur Murphy. Public domain. Murphy has “where they make a desert, they call it peace”; Church & Brodribb have “solitude,” not “desert.” C&B is not the English of these two excerpts.
-- **Demosthenes**, public orations, trans. A. W. Pickard-Cambridge (*The Public Orations of Demosthenes*). Public domain. (The bank’s English is Pickard, not Vince.) First Olynthiac; Third Philippic; On the Crown; On the Navy-Boards; On the Chersonese.
+- **Demosthenes**, public orations, trans. A. W. Pickard-Cambridge (*The Public Orations of Demosthenes*). Public domain. (The bank’s English is Pickard, not Vince.) Olynthiacs I–III; Philippics I–III; On the Peace; On the Chersonese; For the Megalopolitans; For the Freedom of the Rhodians; On the Embassy; On the Crown; On the Navy-Boards.
 - **Sophocles**, *Oedipus Tyrannus* and *Antigone*, trans. F. Storr, Loeb 1912–13. Public domain.
 - **Homer**, *Iliad*, trans. Alexander Pope. Public domain.
 - **Virgil**, *Aeneid*, trans. John Dryden. Public domain.

@@ -48,15 +48,15 @@ const SRC = {
   plato_jowett:{kind:'primary', short:'Plato, trans. Jowett',
     full:'Plato, Apology, Crito, Phaedrus, Symposium, Menexenus, Protagoras, Gorgias, trans. Benjamin Jowett. Public domain.', note:''},
   lysias_lamb:{kind:'primary', short:'Lysias, trans. Lamb',
-    full:'Lysias, <i>On the Murder of Eratosthenes</i> and <i>Against Eratosthenes</i>, trans. W. R. M. Lamb, Loeb (1930). Public domain in the United States as of 2026.', note:'Forensic: a husband\'s defence; an accusation of one of the Thirty.'},
+    full:'Lysias, trans. W. R. M. Lamb, Loeb (1930). Public domain in the United States as of 2026. The bank now draws on more than the two speeches first used: <i>Against Simon</i>, <i>For Mantitheus</i>, the Funeral Oration, <i>Against Diogeiton</i>, <i>For the Invalid</i>, <i>On the Olive-Stump</i>, besides <i>On the Murder of Eratosthenes</i> and <i>Against Eratosthenes</i>.', note:'Lamb 1930 is PD in the US as of 2026. Maidment is not used.'},
   cic_yonge:{kind:'primary', short:'Cicero, trans. Yonge',
-    full:'Cicero, <i>Pro Archia</i>, <i>Pro Caelio</i>, <i>Pro Ligario</i>, Fourth Philippic, trans. C. D. Yonge. Public domain. Distinct from the bank\'s Catilinarians (Blakiston).', note:'Yonge is named on these excerpts. Do not file them under Blakiston.'},
+    full:'Cicero, orations, trans. C. D. Yonge (Bohn). Public domain. Used for <i>Pro Roscio Amerino</i>, <i>Divinatio in Caecilium</i>, <i>In Verrem</i> II.4, <i>De lege Manilia</i>, <i>Pro Murena</i>, <i>Pro Sulla</i>, <i>Pro Flacco</i>, <i>Pro Cluentio</i>, <i>Pro Sestio</i>, <i>Pro Plancio</i>, <i>Pro Rabirio perduellionis reo</i>, <i>Pro rege Deiotaro</i>, Second Philippic stretches, besides <i>Pro Archia</i>, <i>Pro Caelio</i>, <i>Pro Ligario</i>, Fourth Philippic already in the bank. Distinct from the Catilinarians (Blakiston). The bank\'s existing Verrines I opening is not refiled as Yonge.', note:'Yonge is named on these excerpts. Do not file them under Blakiston.'},
   isoc_norlin:{kind:'primary', short:'Isocrates, trans. Norlin',
-    full:'Isocrates, <i>Panegyricus</i>, trans. George Norlin, Loeb (1928). Public domain in the United States.', note:''},
+    full:'Isocrates, trans. George Norlin, Loeb vol. 1 (1928) and vol. 2 (1929). Public domain in the United States as of 2026. <i>Panegyricus</i>, <i>To Philip</i>, <i>Antidosis</i>, <i>On the Peace</i>. Vol. 3 (1945) is not PD: <i>Helen</i> is not used.', note:'Norlin Helen (1945) is excluded.'},
   aesch_adams:{kind:'primary', short:'Aeschines, trans. Adams',
-    full:'Aeschines, <i>Against Ctesiphon</i>, trans. Charles Darwin Adams, Loeb (1919). Public domain.', note:''},
+    full:'Aeschines, trans. Charles Darwin Adams, Loeb (1919). Public domain. <i>On the Embassy</i> and <i>Against Ctesiphon</i>.', note:''},
   demosth:{kind:'primary', short:'Demosthenes, trans. Pickard',
-    full:'Demosthenes, public orations, trans. A. W. Pickard-Cambridge, <i>The Public Orations of Demosthenes</i>. Public domain. The bank’s English is Pickard (not Vince).', note:''},
+    full:'Demosthenes, public orations, trans. A. W. Pickard-Cambridge, <i>The Public Orations of Demosthenes</i>. Public domain. The bank’s English is Pickard (not Vince). Olynthiacs, Philippics, On the Peace, On the Chersonese, For the Megalopolitans, For the Freedom of the Rhodians, On the Embassy, On the Crown, On the Navy-Boards.', note:'Vince Loeb 1930 is also PD; the bank stays with Pickard for these excerpts.'},
   soph_storr:{kind:'primary', short:'Sophocles, trans. Storr',
     full:'Sophocles, Oedipus Tyrannus and Antigone, trans. F. Storr, Loeb 1912–13. Public domain.', note:''},
   homer:{kind:'primary', short:'Homer, trans. Pope',
@@ -72,7 +72,13 @@ const SRC = {
   appown:{kind:'study', short:'This course’s own arrangement',
     full:'The wording, the ordering of the acts, and the pedagogical scaffolding are this course’s own.', note:''},
   copeland:{kind:'study', short:'Copeland &amp; Sluiter',
-    full:'Rita Copeland and Ineke Sluiter, eds., Medieval Grammar and Rhetoric, Oxford, 2012.', note:''}
+    full:'Rita Copeland and Ineke Sluiter, eds., Medieval Grammar and Rhetoric, Oxford, 2012.', note:''},
+  chrys_npnf:{kind:'primary', short:'John Chrysostom, NPNF',
+    full:'John Chrysostom, Homilies on the Statues, NPNF I.9, trans. W. R. W. Stephens. Public domain.', note:'Rhetorical homilies after the Antiochine riot, not a dump of the whole NPNF.'},
+  naz_npnf:{kind:'primary', short:'Gregory of Nazianzus, NPNF',
+    full:'Gregory of Nazianzus, First Theological Oration (Or. 27) and Funeral Oration on St. Basil (Or. 43), NPNF II.7. Public domain.', note:''},
+  jerome_npnf:{kind:'primary', short:'Jerome, Letter 22',
+    full:'Jerome, Letter 22 to Eustochium, NPNF II.6. Public domain.', note:'A polemical exhortation in letter form, not a private note.'}
 };
 function srcLine(keys){
   if(!keys) return '';
@@ -214,7 +220,29 @@ const SPECIES_MAP = {
   'dem-1':'deliberative','dem-2':'deliberative','dem-3':'deliberative',
   'sal-cat-1':'deliberative','sal-cat-2':'deliberative','sal-cat-3':'deliberative','sal-cat-4':'deliberative',
   'aug-1':'epideictic','aug-2':'epideictic','aug-3':'epideictic',
-  'aug-ddc-12':'epideictic','aug-ddc-17':'epideictic'
+  'aug-ddc-12':'epideictic','aug-ddc-17':'epideictic',
+  'lys-3-1':'forensic',  'lys-3-6':'forensic',  'lys-16-1':'forensic',  'lys-16-13':'forensic',
+  'lys-2-1':'epideictic',  'lys-2-17':'epideictic',  'lys-32-1':'forensic',  'lys-32-12':'forensic',
+  'lys-24-1':'forensic',  'lys-7-1':'forensic',  'isoc-phil-1':'deliberative',  'isoc-phil-16':'deliberative',
+  'isoc-phil-127':'deliberative',  'isoc-antid-1':'forensic',  'isoc-antid-253':'forensic',  'isoc-pan-50':'epideictic',
+  'isoc-pan-158':'epideictic',  'isoc-peace-1':'deliberative',  'aesch-emb-1':'forensic',  'aesch-emb-20':'forensic',
+  'aesch-ctes-1':'forensic',  'aesch-ctes-8':'forensic',  'aesch-ctes-49':'forensic',  'aesch-ctes-260':'forensic',
+  'dem-olyn2-1':'deliberative',  'dem-olyn3-1':'deliberative',  'dem-peace-1':'deliberative',  'dem-phil2-1':'deliberative',
+  'dem-mega-1':'deliberative',  'dem-rhod-1':'deliberative',  'dem-emb-1':'forensic',  'dem-crown-208':'forensic',
+  'cic-rosc-1':'forensic',  'cic-rosc-13':'forensic',  'cic-rosc-26':'forensic',  'cic-man-1':'deliberative',
+  'cic-man-10':'deliberative',  'cic-mur-1':'forensic',  'cic-mur-11':'forensic',  'cic-sest-1':'forensic',
+  'cic-sest-45':'forensic',  'cic-phil2-1':'deliberative',  'cic-phil2-44':'deliberative',  'cic-phil2-46':'deliberative',
+  'cic-div-1':'forensic',  'cic-cluent-1':'forensic',  'cic-flacc-1':'forensic',  'cic-planc-1':'forensic',
+  'cic-rab-1':'forensic',  'cic-sul-1':'forensic',  'cic-deiot-1':'forensic',  'cic-ver4-1':'forensic',
+  'thuc-cor-1':'deliberative',  'thuc-per-last':'deliberative',  'thuc-mel-2':'deliberative',  'thuc-ath-sparta':'deliberative',
+  'thuc-per-tyr':'deliberative',  'dem-phil1-1':'deliberative',  'dem-chers-40':'deliberative',  'cic-mur-29':'forensic',
+  'cic-man-13':'deliberative',  'sal-cato-1':'deliberative',  'aug-tolle':'epideictic',  'aug-hort':'epideictic',
+  'aug-ostia':'epideictic',  'aug-mem':'epideictic',  'aug-fields':'epideictic',  'aug-study':'epideictic',
+  'aug-eyes':'epideictic',  'aug-ddc-1':'epideictic',  'aug-ddc-5':'epideictic',  'aug-ddc-6':'epideictic',
+  'aug-ddc-10':'epideictic',  'aug-ddc-13':'epideictic',  'aug-ddc-15':'epideictic',  'aug-ddc-18':'epideictic',
+  'aug-ddc-19':'epideictic',  'aug-ddc-26':'epideictic',  'aug-ddc-27':'epideictic',  'aug-serm-52':'epideictic',
+  'aug-ep137':'epideictic',  'chrys-stat-2':'epideictic',  'chrys-stat-1':'epideictic',  'naz-theol-1':'epideictic',
+  'naz-theol-2':'epideictic',  'naz-basil-1':'epideictic',  'jerome-22-1':'epideictic'
 };
 function speciesOf(p){ return p.species || SPECIES_MAP[p.id] || ''; }
 function srcOf(p){
@@ -245,6 +273,9 @@ function srcOf(p){
   if(p.author==='Plutarch') return 'plutarch_d';
   if(p.author==='Gorgias') return 'gorgias_vh';
   if(p.author==='Antiphon') return 'antiphon';
+  if(p.author==='John Chrysostom') return 'chrys_npnf';
+  if(/Nazianzus/.test(p.author)) return 'naz_npnf';
+  if(p.author==='Jerome') return 'jerome_npnf';
   return 'appown';
 }
 const ANT_SIDE = {
@@ -284,7 +315,19 @@ const TAXIS_ITEMS = [
   {id:'t21', part:'refutation', text:'it forbids not homicide, but the carrying of a weapon with a view to homicide', src:'cic_cat', cite:'Cicero, Pro Milone 11'},
   {id:'t22', part:'peroration', text:'By this discourse I have freed a woman from evil reputation; I have kept the promise which I made in the beginning.', src:'gorgias_vh', cite:'Gorgias, Helen 20–21'},
   {id:'t23', part:'division', text:'I take it, sirs, that what I have to show is that Eratosthenes had an intrigue with my wife, and not only corrupted her but inflicted disgrace upon my children and an outrage on myself by entering my house.', src:'lysias_lamb', cite:'Lysias, On the Murder of Eratosthenes 1.4 (Lamb)'},
-  {id:'t24', part:'proof', text:'he is at one and the same time general, master, and treasurer', src:'demosth', cite:'Demosthenes, First Olynthiac 1.4 (Pickard)'}
+  {id:'t24', part:'proof', text:'he is at one and the same time general, master, and treasurer', src:'demosth', cite:'Demosthenes, First Olynthiac 1.4 (Pickard)'},
+  {id:'t25', part:'exordium', text:'I imagine that you, O judges, are marvelling why it is that when so many most eminent orators and most noble men are sitting still, I above all others should get up.', src:'cic_yonge', cite:'Cicero, Pro Roscio Amerino 1 (Yonge)'},
+  {id:'t26', part:'exordium', text:'Although, O Romans, your numerous assembly has always seemed to me the most agreeable body that any one can address, and this place, which is most honourable to plead in.', src:'cic_yonge', cite:'Cicero, De lege Manilia 1 (Yonge)'},
+  {id:'t27', part:'division', text:'I have observed, O judges, that the whole speech of the accuser is divided into two parts, one of which appeared to me to rely upon, and to put its main trust in, the inveterate unpopularity of the trial before Junius.', src:'cic_yonge', cite:'Cicero, Pro Cluentio 1 (Yonge)'},
+  {id:'t28', part:'narration', text:'broke down the doors, and entered the women\'s rooms.', src:'lysias_lamb', cite:'Lysias, Against Simon 3.6 (Lamb)'},
+  {id:'t29', part:'proof', text:'This is the godlike and incredible virtue of that general. What more shall I say? How many and how great are his other exploits.', src:'cic_yonge', cite:'Cicero, De lege Manilia 13 (Yonge)'},
+  {id:'t30', part:'refutation', text:'It is obviously incumbent upon me, the complainant, to show this to you, that the praise given to Demosthenes is false.', src:'aesch_adams', cite:'Aeschines, Against Ctesiphon 3.50 (Adams)'},
+  {id:'t31', part:'peroration', text:'Be ye my witnesses, O Earth and Sun, and virtue and Conscience, and Education, by which we distinguish the honorable and the base.', src:'aesch_adams', cite:'Aeschines, Against Ctesiphon 3.260 (Adams)'},
+  {id:'t32', part:'exordium', text:'If the discourse which is now about to be read had been like the speeches which are produced either for the law-courts or for oratorical display.', src:'isoc_norlin', cite:'Isocrates, Antidosis 15.1 (Norlin)'},
+  {id:'t33', part:'exordium', text:'What shall I say, or what shall I speak of? The present season is one for tears, and not for words.', src:'chrys_npnf', cite:'John Chrysostom, Homilies on the Statues 2.1'},
+  {id:'t34', part:'proof', text:'For what you hold is, to speak somewhat plainly, a tyranny; to take it perhaps was wrong, but to let it go is unsafe.', src:'thuc_crawley', cite:'Thucydides 2.63, Pericles'},
+  {id:'t35', part:'narration', text:'Take up and read; Take up and read. Instantly, my countenance altered, I began to think most intently whether children were wont in any kind of play to sing such words.', src:'aug_pusey', cite:'Augustine, Confessions 8.12 (Pusey)'},
+  {id:'t36', part:'peroration', text:'But this single day, this very day that now is, this very moment while I am speaking, defend your conduct during this very moment, if you can.', src:'cic_yonge', cite:'Cicero, Second Philippic 2.44 (Yonge)'}
 ];
 const ENTHYMEMES = [
   {id:'e1', said:'Catiline still lives — and sits in the senate.', missing:'A man who plots the massacre of the senate ought not to sit in it.',
@@ -330,7 +373,31 @@ const ENTHYMEMES = [
   {id:'e21', said:'They will not be able to do us more hurt than we shall do them.', missing:'A great force far from home can be matched by the people of the country.',
     distractors:['Athens never left home','Hermocrates is urging surrender','Carthage has already landed'], src:'thuc_crawley', cite:'Thucydides 6.33, Hermocrates'},
   {id:'e22', said:'We must, I suppose, confess the truth; it would not now be in my power to deny it.', missing:'When the deed is confessed, the remaining office of the defence is pardon, not a second narration.',
-    distractors:['Ligarius denies he was in Africa','Caesar has no power to pardon','Tubero is the defendant'], src:'cic_yonge', cite:'Cicero, Pro Ligario 1 (Yonge)'}
+    distractors:['Ligarius denies he was in Africa','Caesar has no power to pardon','Tubero is the defendant'], src:'cic_yonge', cite:'Cicero, Pro Ligario 1 (Yonge)'},
+  {id:'e23', said:'I am the same man and do not alter, it is you who change.', missing:'A counsellor whose advice has not changed should not be blamed for a change in fortune.',
+    distractors:['Pericles is asking to be deposed','The plague proves the policy was wrong','The assembly has always opposed him'], src:'thuc_crawley', cite:'Thucydides 2.61, Pericles'},
+  {id:'e24', said:'For what you hold is, to speak somewhat plainly, a tyranny; to take it perhaps was wrong, but to let it go is unsafe.', missing:'Once a city holds an empire, the question of justice in taking it does not settle the question of safety in keeping it.',
+    distractors:['Athens should free the allies at once','Tyranny is always the safest constitution','Pericles denies that Athens has an empire'], src:'thuc_crawley', cite:'Thucydides 2.63, Pericles'},
+  {id:'e25', said:'It cannot, it cannot be that you were wrong, men of Athens, when you took upon you the struggle for freedom and deliverance.', missing:'A struggle shared with the men of Marathon cannot have been a crime, even if it failed.',
+    distractors:['Marathon was a Macedonian victory','Demosthenes is confessing the policy failed','The jury is being asked to forget Chaeronea'], src:'demosth', cite:'Demosthenes, On the Crown 18.208 (Pickard)'},
+  {id:'e26', said:'When the city is taken, no power is left to the vanquished.', missing:'Counsel about punishing conspirators is idle unless the city is first secured against them.',
+    distractors:['Cato is asking for exile not death','Caesar has already taken the city','The vanquished keep the courts'], src:'sallust_w', cite:'Sallust, Catiline 52, Cato (Watson)'},
+  {id:'e27', said:'we must beware of the man who abounds in eloquent nonsense.', missing:'Eloquence is not a sign that what is said is true.',
+    distractors:['Augustine forbids all rhetoric','Nonsense is harmless if it pleases','The hearer cannot be pleased by a lie'], src:'ddc', cite:'Augustine, De doctrina christiana 4.5 (Shaw)'},
+  {id:'e28', said:'the life of the speaker will count for more in securing the hearer\'s compliance.', missing:'Ethos of life outweighs even the majestic style when obedience is the end.',
+    distractors:['Style is more than character','Wicked preachers cannot instruct anyone','Augustine denies the three styles'], src:'ddc', cite:'Augustine, De doctrina christiana 4.27 (Shaw)'},
+  {id:'e29', said:'persuasion will be helpful in dealing with the Hellenes, so compulsion will be useful in dealing with the barbarians.', missing:'Greeks are moved by speech; barbarians, in this counsel, by force.',
+    distractors:['Philip should invade Sparta first','Isocrates is urging a war among Greeks','Barbarians have already asked for terms'], src:'isoc_norlin', cite:'Isocrates, To Philip 5.16 (Norlin)'},
+  {id:'e30', said:'I thought it shameful, while the majority were to face danger, to take the field with precaution for my own security.', missing:'A man who chooses the greater danger for himself is not the oligarch his accusers describe.',
+    distractors:['Mantitheus admits he avoided service','The cavalry were the first to fight','Orthobulus struck him for cowardice'], src:'lysias_lamb', cite:'Lysias, For Mantitheus 16.13 (Lamb)'},
+  {id:'e31', said:'so many most eminent orators and most noble men are sitting still.', missing:'If the best speakers are silent, the times themselves are the danger, and a younger man may have to rise.',
+    distractors:['Cicero is the most eminent man in court','Sulla has ordered the eminent to speak','The jury has forbidden famous orators'], src:'cic_yonge', cite:'Cicero, Pro Roscio Amerino 1 (Yonge)'},
+  {id:'e32', said:'Philip is at war with Athens, and has broken the Peace.', missing:'A peace already broken is not a reason to stay inactive, but a reason to name the war.',
+    distractors:['Demosthenes is proposing to renew the Peace','Philip has asked for arbitration','The Chersonese is already safe'], src:'demosth', cite:'Demosthenes, On the Chersonese 8.39 (Pickard)'},
+  {id:'e33', said:'The present season is one for tears, and not for words; for lamentation, not for discourse; for prayer, not for preaching.', missing:'When the deed is past speech, the fitting office is pathos and prayer, not a display of words.',
+    distractors:['Chrysostom is refusing to preach ever again','The riot is a small civic quarrel','Tears are forbidden in a Christian homily'], src:'chrys_npnf', cite:'John Chrysostom, Homilies on the Statues 2.1 (NPNF)'},
+  {id:'e34', said:'I have observed, O judges, that the whole speech of the accuser is divided into two parts.', missing:'A defence may begin by dividing the accusation, so that each part can be met in order.',
+    distractors:['Cicero is conceding both parts','The accuser gave no speech','Division belongs only to the prosecution'], src:'cic_yonge', cite:'Cicero, Pro Cluentio 1 (Yonge)'}
 ];
 const PASSIONS = [
   {id:'p1', name:'anger', appetite:'irascible', text:'How much further, Catilina, will you carry your abuse of our forbearance?', cite:'Cicero, Catilinarian 1.1', src:'cic_cat', why:'Aristotle II.2: anger is a desire, accompanied by pain, for conspicuous revenge, toward one who has slighted us.'},
@@ -350,7 +417,21 @@ const PASSIONS = [
   {id:'p15', name:'fear', appetite:'irascible', text:'We shall no longer feel his dagger pricking our sides; we shall not now quake with fear in the Campus, in the Forum, in the Senate-house, or in the privacy of our own homes.', cite:'Cicero, Catilinarian 2.1', src:'cic_cat', why:'Fear named in order to be dismissed: the future evil (II.5) has, he claims, walked out of the gates.'},
   {id:'p16', name:'pity', appetite:'concupiscible', text:'The native land of all of us, beset by the firebrands and swords of an infamous conspiracy, extends to you her suppliant hands.', cite:'Cicero, Catilinarian 4.9', src:'cic_cat', why:'Pity (II.8) for a sufferer who does not deserve the destruction. Rome herself is made the suppliant.'},
   {id:'p17', name:'anger', appetite:'irascible', text:'The long speech of the Athenians I do not pretend to understand. They said a good deal in praise of themselves, but nowhere denied that they are injuring our allies and Peloponnese.', cite:'Thucydides 1.86, Sthenelaidas', src:'thuc_crawley', why:'Anger (II.2) at a slight done to allies. The ephor refuses the long speech and names the injury.'},
-  {id:'p18', name:'confidence', appetite:'irascible', text:'They will not be able to do us more hurt than we shall do them; nor is the greatness of their armament altogether without advantage to us.', cite:'Thucydides 6.33, Hermocrates', src:'thuc_crawley', why:'Confidence (II.5) as imagined safety, even against a great force. Size is turned into a reason not to fear.'}
+  {id:'p18', name:'confidence', appetite:'irascible', text:'They will not be able to do us more hurt than we shall do them; nor is the greatness of their armament altogether without advantage to us.', cite:'Thucydides 6.33, Hermocrates', src:'thuc_crawley', why:'Confidence (II.5) as imagined safety, even against a great force. Size is turned into a reason not to fear.'},
+  {id:'p19', name:'anger', appetite:'irascible', text:'I went first and expressed my indignation to Hegemon, the husband of this man\'s daughter; I then discussed the matter with the other relations.', cite:'Lysias, Against Diogeiton 32.12 (Lamb)', src:'lysias_lamb', why:'Anger (II.2) at a guardian who should have been last to plunder orphans. The speaker names his indignation before the jury hears the mother.'},
+  {id:'p20', name:'pity', appetite:'concupiscible', text:'I closed her eyes; and there flowed withal a mighty sorrow into my heart, which was overflowing into tears.', cite:'Augustine, Confessions 9.12 (Pusey)', src:'aug_pusey', why:'Pity (II.8) for a death already holy: the passion is named in the body before doctrine checks the tears.'},
+  {id:'p21', name:'fear', appetite:'irascible', text:'When in the greatest perils of this city and empire, in the most important and terrible disasters of the republic, I was repelling slaughter from you, your wives, and your children.', cite:'Cicero, Pro Flacco 1 (Yonge)', src:'cic_yonge', why:'Fear (II.5) recalled as the city\'s recent danger, so that the present jury feel what was at stake.'},
+  {id:'p22', name:'shame', appetite:'irascible', text:'I went up to Orthobulus and told him to strike me off the roll, as I thought it shameful, while the majority were to face danger, to take the field with precaution for my own security.', cite:'Lysias, For Mantitheus 16.13 (Lamb)', src:'lysias_lamb', why:'Shame (II.6) named as the reason a cavalryman chose the infantry\'s danger.'},
+  {id:'p23', name:'indignation', appetite:'irascible', text:'you now propose to crown with a golden crown Demosthenes, a man who has not indeed “transported” the gold of the Medes, but has received it as a bribe, and keeps it to this day.', cite:'Aeschines, Against Ctesiphon 3.259 (Adams)', src:'aesch_adams', why:'Indignation (II.9) at unmerited honour: the crown is named as a wrong against the dead at Marathon.'},
+  {id:'p24', name:'confidence', appetite:'irascible', text:'In the first place, then, men of Athens, we must not be downhearted at our present situation, however wretched it may seem to be. For in the worst feature of the past lies our best hope for the future.', cite:'Demosthenes, First Philippic 4.2 (Pickard)', src:'demosth', why:'Confidence (II.5) as imagined safety drawn from a past failure: you were not doing your duty, therefore you can still do it.'},
+  {id:'p25', name:'love', appetite:'concupiscible', text:'This book of his contains an exhortation to philosophy, and is called “Hortensius.” But this book altered my affections, and turned my prayers to Thyself O Lord.', cite:'Augustine, Confessions 3.4 (Pusey)', src:'aug_pusey', why:'Love (II.4) as a turning of the affections: the pagan book is the instrument, God the object.'},
+  {id:'p26', name:'kindness', appetite:'concupiscible', text:'I can almost find it in me to be grateful to my accuser, gentlemen of the Council, for having involved me in these proceedings.', cite:'Lysias, For the Invalid 24.1 (Lamb)', src:'lysias_lamb', why:'Kindness (II.7) named ironically: the pensioner treats the accusation as a gift that lets him render an account.'},
+  {id:'p27', name:'calmness', appetite:'irascible', text:'I, O Cato, do not venture to find fault with your intentions, by reason of my extraordinarily high opinion of your virtue; but in some particulars I may perhaps be able slightly to amend and reform them.', cite:'Cicero, Pro Murena 30 (Yonge)', src:'cic_yonge', why:'Calmness (II.3) as the settling of anger: Cato is praised before he is guided, so that the rebuke not inflame him.'},
+  {id:'p28', name:'hate', appetite:'irascible', text:'My feelings, Conscript Fathers, are extremely different, when I contemplate our circumstances and dangers, and when I revolve in my mind the sentiments of some who have spoken before me.', cite:'Sallust, Catiline 52, Cato (Watson)', src:'sallust_w', why:'Hate (II.4) of traitors named as a different feeling from the last speakers\' mere wish to punish after the fact.'},
+  {id:'p29', name:'envy', appetite:'irascible', text:'I come now to what Verres himself calls his passion what his friends call his disease, his madness; what the Sicilians call his rapine; what I am to call it, I know not.', cite:'Cicero, Verrines II.4.1 (Yonge)', src:'cic_yonge', why:'Envy (II.10) is refused: the passion Verres claims is renamed rapine, so that the jury hate the taking, not admire the taste.'},
+  {id:'p30', name:'emulation', appetite:'irascible', text:'To the admirers of virtue a discourse is at once a pleasure and an incentive to virtue. For when I have learned the praises of men, I have a distinct idea of their progress.', cite:'Gregory of Nazianzus, Funeral Oration on Basil 43.1 (NPNF)', src:'naz_npnf', why:'Emulation (II.11) as the work of epideictic: praise is an incentive, not a decoration.'},
+  {id:'p31', name:'shamelessness', appetite:'irascible', text:'To what destiny of mine, O conscript fathers, shall I say that it is owing, that none for the last twenty years has been an enemy to the republic without at the same time declaring war against me?', cite:'Cicero, Second Philippic 2.1 (Yonge)', src:'cic_yonge', why:'Shamelessness (II.6) in the adversary: Antony\'s war on Cicero is named as of a piece with war on the republic.'},
+  {id:'p32', name:'unkindness', appetite:'concupiscible', text:'you enjoin us to let right alone and talk only of interest—that you should not destroy what is our common protection, the privilege of being allowed in danger to invoke what is fair and right.', cite:'Thucydides 5.90, Melians (Crawley)', src:'thuc_crawley', why:'Unkindness (II.7) as the withholding of the common protection of right: the Melians name the Athenian doctrine as already a harm.'}
 ];
 const DEBATES = [
   {id:'d-arch', title:'War with Athens', a:{who:'Archidamus', pid:'thuc-arch-1', claim:'Do not rush to war; experience teaches its cost.'}, b:{who:'Sthenelaidas', pid:'thuc-sthen-1', claim:'Vote the war; the Athenians are in the wrong.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.80 / 1.86'},
@@ -361,13 +442,47 @@ const DEBATES = [
   {id:'d-sic', title:'Sicily', a:{who:'Nicias', pid:'thuc-nic-1', claim:'Do not send the ships; the advertised vote is still the wrong question.'}, b:{who:'Alcibiades', pid:'thuc-alc-1', claim:'I have a better right to command; the display that is abused already profits the city.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 6.9 / 6.16'},
   {id:'d-syr', title:'The Athenian armament at Syracuse', a:{who:'Hermocrates', pid:'thuc-herm-1', claim:'The invasion is real; a great force far from home can still be beaten.'}, b:{who:'Athenagoras', pid:'thuc-athen-1', claim:'Those who credit the news are cowards or traitors; the Athenians will not come.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 6.33 / 6.36'},
   {id:'d-plat', title:'The surrendered Plataeans', a:{who:'The Plataeans', pid:'thuc-plat-1', claim:'We trusted you with the city and looked for a lawful trial.'}, b:{who:'The Thebans', pid:'thuc-theb-1', claim:'Their long self-praise is outside the question; the quarrel is older than this war.'}, species:'forensic', src:'thuc_crawley', locus:'Thucydides 3.53 / 3.61'},
-  {id:'d-cicsal', title:'Catiline in the city', a:{who:'Cicero', pid:'cic-cat1-1', claim:'The conspiracy is known; how much further will you abuse our forbearance?'}, b:{who:'Catiline', pid:'sal-cat-consp', claim:'The hour has come to dare; power is within reach if you are not irresolute.'}, species:'deliberative', src:'cic_cat', locus:'Cicero, Catilinarian 1.1 / Sallust, Catiline 20'}
+  {id:'d-cicsal', title:'Catiline in the city', a:{who:'Cicero', pid:'cic-cat1-1', claim:'The conspiracy is known; how much further will you abuse our forbearance?'}, b:{who:'Catiline', pid:'sal-cat-consp', claim:'The hour has come to dare; power is within reach if you are not irresolute.'}, species:'deliberative', src:'cic_cat', locus:'Cicero, Catilinarian 1.1 / Sallust, Catiline 20'},
+  {id:'d-crown', title:'The crown of Demosthenes', a:{who:'Aeschines', pid:'aesch-ctes-1', claim:'The preparations in the marketplace are an attempt to prevent a fair trial of an illegal motion.'}, b:{who:'Demosthenes', pid:'dem-crown-1', claim:'I pray first that the jury meet me with the goodwill I have ever felt toward the city.'}, species:'forensic', src:'aesch_adams', locus:'Aeschines, Against Ctesiphon 3.1 / Demosthenes, On the Crown 18.1'},
+  {id:'d-emb', title:'The embassy to Philip', a:{who:'Demosthenes', pid:'dem-emb-1', claim:'The embassy is on trial, and the city must hear how it was handled.'}, b:{who:'Aeschines', pid:'aesch-emb-1', claim:'Hear me with a willing mind: my accuser asked you not even to listen.'}, species:'forensic', src:'demosth', locus:'Demosthenes, On the Embassy 19.1 / Aeschines, On the Embassy 2.1'},
+  {id:'d-cato', title:'What to do with the conspirators', a:{who:'Julius Caesar', pid:'sal-caes-1', claim:'A novel penalty will become a precedent; keep to the laws already written.'}, b:{who:'Cato', pid:'sal-cato-1', claim:'The last speakers thought only of punishment; the city must first be secured.'}, species:'deliberative', src:'sallust_w', locus:'Sallust, Catiline 51 / 52'},
+  {id:'d-cor', title:'Athenian character at Sparta', a:{who:'The Corinthians', pid:'thuc-cor-1', claim:'The Athenians are addicted to innovation; you Spartans keep what you have.'}, b:{who:'Archidamus', pid:'thuc-arch-1', claim:'We are not to be hurried into war by a speech about their swiftness.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.70 / 1.80'},
+  {id:'d-mel2', title:'Right and interest at Melos', a:{who:'The Athenians', pid:'thuc-mel-1', claim:'The question is power, not names of right.'}, b:{who:'The Melians', pid:'thuc-mel-2', claim:'Even speaking only of interest, do not destroy the common protection of right.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 5.89 / 5.90'},
+  {id:'d-phil', title:'Who should lead against Persia', a:{who:'Isocrates', pid:'isoc-phil-16', claim:'Philip should champion concord among Greeks and a campaign against the barbarian.'}, b:{who:'Demosthenes', pid:'dem-phil2-1', claim:'Whenever we talk of Philip\'s outrages the speeches are just; the deeds do not follow.'}, species:'deliberative', src:'isoc_norlin', locus:'Isocrates, To Philip 5.1 / Demosthenes, Second Philippic 6.1'}
 ];
 const GREG_PAIRS = [
   {id:'g1', pair:'the joyful and the sad', why:'The joyful are to be checked lest they run to excess; the sad are to be comforted lest they break.', src:'greg'},
   {id:'g2', pair:'the humble and the proud', why:'The humble are to be praised carefully, lest praise become a snare; the proud are to be rebuked, lest silence confirm them.', src:'greg'},
   {id:'g3', pair:'the silent and the talkative', why:'The silent must be drawn to a useful word; the talkative must be taught to spare the hearer.', src:'greg'},
-  {id:'g4', pair:'the young and the old', why:'The young are to be admonished to keep order; the old to be asked for the example their years already claim.', src:'greg'}
+  {id:'g4', pair:'the young and the old', why:'The young are to be admonished to keep order; the old to be asked for the example their years already claim.', src:'greg'},
+  {id:'g5', pair:'men and women', why:'Men are to be urged to heavier things; women to milder, lest a burden they cannot bear break them.', src:'greg'},
+  {id:'g6', pair:'the poor and the rich', why:'The poor are to be comforted lest they break; the rich admonished lest they swell in what they hold.', src:'greg'},
+  {id:'g7', pair:'subjects and prelates', why:'Subjects are not to judge the life of those over them; prelates are not to lord it as over a possession.', src:'greg'},
+  {id:'g8', pair:'servants and masters', why:'Servants are to regard the humility of their condition; masters, the equality of their nature.', src:'greg'},
+  {id:'g9', pair:'the wise of this world and the dull', why:'The wise are not to be proud of what they understand; the dull not to despair of what they do not.', src:'greg'},
+  {id:'g10', pair:'the impudent and the bashful', why:'The impudent are to be rebuked that they may learn to fear; the bashful encouraged that they may learn to speak.', src:'greg'},
+  {id:'g11', pair:'the forward and the fainthearted', why:'The forward are to be repressed lest they run into danger; the fainthearted drawn on lest they do nothing.', src:'greg'},
+  {id:'g12', pair:'the impatient and the patient', why:'The impatient lose even the good they have by not enduring; the patient must not love the evil they endure.', src:'greg'},
+  {id:'g13', pair:'the kindly and the envious', why:'The kindly are to be warned lest they yield more than is just; the envious, that they are already punishing themselves.', src:'greg'},
+  {id:'g14', pair:'the simple and the insincere', why:'The simple are to be taught not to be deceived while intending well; the insincere, that God looks at the heart.', src:'greg'},
+  {id:'g15', pair:'the whole and the sick', why:'The whole are to use health for good; the sick neither to despair nor to waste the time of their trial.', src:'greg'},
+  {id:'g16', pair:'those who fear scourges and those grown hardened', why:'Those who fear are to be comforted lest fear consume them; the hardened to be threatened lest they feel nothing.', src:'greg'},
+  {id:'g17', pair:'the slothful and the hasty', why:'The slothful are to be urged not to put off; the hasty not to begin without counsel.', src:'greg'},
+  {id:'g18', pair:'the meek and the passionate', why:'The meek are not to be more silent than is good; the passionate are to set a guard on the tongue.', src:'greg'},
+  {id:'g19', pair:'the obstinate and the fickle', why:'The obstinate think more of themselves than they are, and will not take counsel; the fickle undervalue themselves and take every counsel.', src:'greg'},
+  {id:'g20', pair:'the gluttonous and the abstinent', why:'Superfluity of speech and lechery wait on the gluttonous; impatience and pride often wait on the abstinent.', src:'greg'},
+  {id:'g21', pair:'those who give of their own and those who seize others\' goods', why:'Those who already give are not to swell above those they help; those who seize must be told they are still empty.', src:'greg'},
+  {id:'g22', pair:'those who neither seize nor give, and those who give and still seize', why:'Those who keep their own and take none are to be taught to open the hand; those who give and still plunder give no alms.', src:'greg'},
+  {id:'g23', pair:'those at variance and those at peace', why:'Those at variance cannot become spiritual while they neglect to be united; those at peace must not love peace more than truth.', src:'greg'},
+  {id:'g24', pair:'sowers of strifes and peacemakers', why:'Sowers of strifes are to be shown whose followers they are; peacemakers, not to make a peace that conceals a wound.', src:'greg'},
+  {id:'g25', pair:'those who understand not the sacred Law and those who understand but speak not humbly', why:'Those who misread are to be told they turn food into poison; those who read aright, not to make a trumpet of the gift.', src:'greg'},
+  {id:'g26', pair:'those able to preach who shrink, and those who cannot yet rush', why:'Excessive humility must not bury a gift that would profit others; precipitancy must not take an office the life cannot carry.', src:'greg'},
+  {id:'g27', pair:'those who prosper temporally and those wearied by adversity', why:'The prosperous are to fear the gifts that puff them; the wearied are not to think the labour a proof they are abandoned.', src:'greg'},
+  {id:'g28', pair:'those bound in wedlock and those free of it', why:'The married are to please one another without displeasing God; the unmarried, not to condemn a bond they have not taken.', src:'greg'},
+  {id:'g29', pair:'those conscious of sins of the flesh and those who know them not', why:'Those who have suffered shipwreck are to fear the sea; those who have not, not to puff themselves as if the harbour were their own virtue.', src:'greg'},
+  {id:'g30', pair:'those who deplore sins of deed and those who deplore sins of thought', why:'Sins of deed need a perfected lament that washes out what was done; sins of thought must not be despised as if they were nothing.', src:'greg'},
+  {id:'g31', pair:'those who lament and forsake not, and those who forsake and lament not', why:'Tears without leaving the sin are a lie; leaving without tears forgets the wound that still needs a physician.', src:'greg'},
+  {id:'g32', pair:'those who praise the unlawful things they do, and those who censure them and yet avoid them not', why:'To praise the wrong is to offend twice; to censure it and still do it is to be a witness against oneself.', src:'greg'}
 ];
 const FIGURE_GLOSS = {
   anaphora:'the same word at the head of successive members',
@@ -518,7 +633,17 @@ EX.pisteis = {
       {pid:'gor-hel-6', pistis:'logos', why:'Four aitiai are laid down as a complete division: if any one holds, she is acquitted.'},
       {pid:'cic-lig-1', pistis:'logos', why:'The fact is confessed so that the remaining office is pardon, not a second narration.'},
       {pid:'dem-phil3-4', pistis:'logos', why:'The city\'s disease is named as a cause: speakers who seek favour, not what is best.'},
-      {pid:'aesch-ctes-6', pistis:'logos', why:'A juror against an illegal motion is said to be voting on his own freedom of speech.'}
+      {pid:'aesch-ctes-6', pistis:'logos', why:'A juror against an illegal motion is said to be voting on his own freedom of speech.'},
+      {pid:'cic-rosc-1', pistis:'ethos', why:'Young Cicero rises because the eminent are silent: the speaker\'s unworthiness is the proof of the times.'},
+      {pid:'lys-16-13', pistis:'ethos', why:'He struck his own name from the cavalry roll: character as a choice of danger.'},
+      {pid:'dem-crown-208', pistis:'pathos', why:'The oath by Marathon, Plataea, Salamis: the dead are made to forbid the jury\'s regret.'},
+      {pid:'isoc-antid-253', pistis:'logos', why:'A claim about what the art of discourse is, offered as the ground of the defence.'},
+      {pid:'thuc-per-last', pistis:'ethos', why:'I am the same man; it is you who change: constancy named as the speaker\'s character.'},
+      {pid:'sal-cato-1', pistis:'pathos', why:'Cato opens on a different feeling from the last speakers, and on danger still hanging over the city.'},
+      {pid:'aesch-ctes-1', pistis:'logos', why:'The marketplace preparations are named as an attempt to override law: the charge is a description of cause.'},
+      {pid:'chrys-stat-2', pistis:'pathos', why:'Tears, not words: the homily begins by putting the city into mourning before it argues.'},
+      {pid:'cic-phil2-1', pistis:'pathos', why:'Twenty years of enemies who declared war on him with the republic: indignation before the narrative.'},
+      {pid:'naz-theol-1', pistis:'ethos', why:'He speaks against those who pride themselves on eloquence: the speaker\'s character is a refusal of their tone.'}
     ];
     const item = pickSeen(bank, x => 'pi:'+x.pid);
     const p = passages().find(x => x.id === item.pid) || pickPass(null, 'pi');
@@ -678,8 +803,8 @@ EX.figgorgias = figSet('figgorgias', 'Figures · Gorgias’s Helen',
   'Almost all Gorgias. Van Hook’s English is built of antithesis, isocolon, homoeoteleuton. The bank is six; it will not repeat in the same set.',
   x => x.track==='gorgias', ['gorgias_vh']);
 EX.figaugustine = figSet('figaugustine', 'Figures · Augustine',
-  'Confessions, De doctrina IV, a letter, a sermon. Latin on the original-text button where we have it.',
-  x => x.author==='Augustine', ['aug_pusey','ddc']);
+  'Confessions (Pusey), De doctrina IV (Shaw), letters and sermons (NPNF). Latin on the original-text button where we honestly have it.',
+  x => x.author==='Augustine', ['aug_pusey','ddc','aug_npnf']);
 EX.figcicero = figSet('figcicero', 'Figures · Cicero',
   'The Catilinarians and the rest of the Latin backbone. Ten, no repeats in the set.',
   x => x.author==='Cicero', ['cic_cat']);
@@ -736,8 +861,8 @@ EX.antiphon = {
 };
 EX.debates = {
   id:'debates', title:'Paired Debates',
-  instr:'Archidamus / Sthenelaidas; Cleon / Diodotus; Pericles’ funeral; Catiline / Caesar; Antiphon’s two sides. Ten unique items: species of the pair, then the claim of a voice.',
-  src:['thuc_crawley','sallust_w','antiphon'],
+  instr:'Two genuine opposing voices, public-domain English. Species of the pair, then the claim of a voice. The bank is larger than a single set; items will not exhaust it.',
+  src:['thuc_crawley','sallust_w','antiphon','demosth','aesch_adams','isoc_norlin','cic_yonge'],
   gen(diff){
     const kinds = [];
     DEBATES.forEach(d => { kinds.push({d, kind:'species'}); kinds.push({d, kind:'claim'}); });
@@ -819,7 +944,7 @@ EX.whole = {
 };
 EX.greg = {
   id:'greg', title:'Gregory’s Hearers',
-  instr:'The Pastoral Care is a book of pairs. The same vice is not admonished in the same way.',
+  instr:'Gregory the Great, Pastoral Care Book III, is a doctrine of the hearer: thirty-two pairs. The same vice is not admonished in the same way. Four make a set; the bank is not exhausted.',
   src:['greg'],
   gen(diff){
     const g = pickSeen(GREG_PAIRS, x => 'gr:'+x.id);

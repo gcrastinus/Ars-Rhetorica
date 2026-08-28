@@ -5435,5 +5435,2766 @@ window.PASSAGES = [
     "src": [
       "aesch_adams"
     ]
+  },
+  {
+    "id": "lys-3-1",
+    "author": "Lysias",
+    "work": "Against Simon",
+    "locus": "3.1–4",
+    "cue": "A defence before the Council: the accuser is the man who should be punished.",
+    "text": "Although I was aware of much that was outrageous about Simon, gentlemen of the Council, I did not believe that he would ever have carried audacity to the pitch of lodging a complaint as the injured party to a case where he was the person who should be punished, and of taking that great and solemn affidavit and so coming before you. Now if it were any other court that was to make a decision upon me, I should be terrified by the danger, considering what strange machinations and chances occur at times to cause a variety of surprises to those who are standing their trial: but as it is before you that I appear, I hope to obtain justice. What especially vexes me, gentlemen, is that I shall be compelled to speak to you of the facts of this case: for it was my feeling of shame at the mere thought of these becoming widely known that made me put up with my wrongs. But since Simon has placed me in such a necessity, I will relate to you the whole of the facts without the slightest reserve. If I am guilty, gentlemen, I expect to get no indulgence; but if I prove my innocence as regards the counts of Simon's affidavit, while for the rest you consider my attitude towards the boy too senseless for a man of my age, I ask you not to think the worse of me for that, since you know that all mankind are liable to desire, but that he may be the best and most temperate who is able to bear its misfortunes in the most orderly spirit. All my efforts in this way have been thwarted by the plaintiff Simon, as I shall make clear to you.",
+    "spans": [
+      {
+        "start": 62,
+        "end": 86,
+        "figure": "apostrophe",
+        "why": "The Council is named as the judging hearer."
+      },
+      {
+        "start": 227,
+        "end": 260,
+        "figure": "antithesis",
+        "why": "Accuser and accused change places."
+      },
+      {
+        "start": 276,
+        "end": 307,
+        "figure": "epithet",
+        "why": "The oath is loaded so that Simon's audacity may be felt."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-3-6",
+    "author": "Lysias",
+    "work": "Against Simon",
+    "locus": "3.6–8",
+    "cue": "Night, drink, and broken doors: the narrative makes Simon the aggressor.",
+    "text": "Hearing that the boy was at my house, he came there at night in a drunken state, broke down the doors, and entered the women's rooms: within were my sister and my nieces, whose lives have been so well-ordered that they are ashamed to be seen even by their kinsmen. This man, then, carried insolence to such a pitch that he refused to go away until the people who appeared on the spot, and those who had accompanied him, feeling it a monstrous thing that he should intrude on young girls and orphans, drove him out by force. Far from repenting of his outrageous proceedings, he found out where we were dining, and acted in the strangest, the most incredible manner, as it might seem to those unacquainted with his madness. He called me out of doors, and, as soon as I went outside, made an immediate attempt to strike me. When I beat him off, he stood out of reach and began pelting me with stones. He missed me, but Aristocritus, who had accompanied him to my house, was struck by a stone which broke his forehead.",
+    "spans": [
+      {
+        "start": 81,
+        "end": 132,
+        "figure": "hypotyposis",
+        "why": "The invasion of the house is set before the eyes."
+      },
+      {
+        "start": 281,
+        "end": 314,
+        "figure": "hyperbole",
+        "why": "The pitch of insolence is named so that the jury feel it."
+      },
+      {
+        "start": 475,
+        "end": 498,
+        "figure": "pathos",
+        "why": "The hearers are asked to pity those the doors should have kept."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-16-1",
+    "author": "Lysias",
+    "work": "For Mantitheus",
+    "locus": "16.1–3",
+    "cue": "A young cavalryman treats the scrutiny as a service, not a snare.",
+    "text": "If I were not conscious, gentlemen of the Council, that my accusers are seeking every possible means of injuring me, I should feel most grateful to them for this accusation; since I consider that the victims of unjust slander have the greatest service rendered to them by anyone who will compel them to undergo an examination of the record of their lives. For I have so strong a confidence in myself that, if there is anyone who is inclined to dislike me, I hope that when he has heard me speak of my conduct in the past he will change his mind, and will think much better of me in the future. Now, gentlemen, I make no claim to special merit, if I merely make plain to you that I am a supporter of the existing constitution and have been compelled to take my own share in your dangers: but if I am found to have lived, in all other respects, a regular life, quite contrary to the opinion and statements of my enemies, I request you to pass me through and to think the worse of these persons. I will begin by showing that I did not serve in the cavalry or reside here under the Thirty, and that I had no hand in the government of that time.",
+    "spans": [
+      {
+        "start": 25,
+        "end": 49,
+        "figure": "apostrophe",
+        "why": "The Council is asked to sit as examiners of a life."
+      },
+      {
+        "start": 211,
+        "end": 225,
+        "figure": "antithesis",
+        "why": "Slander is set against the examination that will clear it."
+      },
+      {
+        "start": 329,
+        "end": 354,
+        "figure": "ethos",
+        "why": "Character is offered as the proof the scrutiny was made to hear."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-16-13",
+    "author": "Lysias",
+    "work": "For Mantitheus",
+    "locus": "16.13–15",
+    "cue": "He struck his own name from the cavalry roll to share the infantry's danger.",
+    "text": "First of all, when you made your alliance with the Boeotians, and we had to go to the relief of Haliartus, I had been enrolled by Orthobulus for service in the cavalry: I saw that it was everyone's opinion that, whereas the cavalry were assured of safety, the infantry would have to face danger; so, while others mounted on horseback illegally, without having passed the scrutiny, I went up to Orthobulus and told him to strike me off the roll, as I thought it shameful, while the majority were to face danger, to take the field with precaution for my own security. Come forward, please, Orthobulus. Testimony Now, when the townsmen had assembled together before their setting out, as I knew that some among them, though true and ardent patriots, lacked means for expenses of service, I said that the well-to-do ought to provide what was necessary for those in needy circumstances. Not only did I recommend this to the others, but I myself gave thirty drachmae each to two men; not as being a person of great possessions, but to set a good example to the others. Come forward, please. Witnesses Then after that, gentlemen, there was the expedition to Corinth; and everyone knew beforehand that it must be a dangerous affair. Some were trying to shirk their duty, but I contrived to have myself posted in the front rank for our battle with the enemy. Our tribe had the worst fortune, and suffered the heaviest losses in the ranks: I retired from the field later than the fine fellow of Steiria who has been reproaching everybody with cowardice.",
+    "spans": [
+      {
+        "start": 381,
+        "end": 443,
+        "figure": "ethos",
+        "why": "The speaker's choice of danger is the proof of the man."
+      },
+      {
+        "start": 256,
+        "end": 294,
+        "figure": "antithesis",
+        "why": "Cavalry safety is set against infantry risk."
+      },
+      {
+        "start": 448,
+        "end": 469,
+        "figure": "sententia",
+        "why": "Shame named as the reason for the choice."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-2-1",
+    "author": "Lysias",
+    "work": "Funeral Oration",
+    "locus": "2.1–3",
+    "cue": "A funeral speech that opens by confessing speech cannot match the deeds.",
+    "text": "If I believed it possible, friends who are attending this burial, to set forth in speech the valor of the men who lie here, I should have reproved those who gave me but a few days' notice of having to speak over them. But as all mankind would find all time insufficient for preparing a speech to match their deeds, the city itself therefore, as I think, taking forethought for those who speak here, makes the appointment at short notice, in the belief that on such terms they will most readily obtain indulgence from their hearers. However, while my speech is about these men, my contest is not with their deeds, but with the speakers who have preceded me in praising them. For their valor has provided matter in such abundance, alike for those who are able to compose in verse and for those who have chosen to make a speech, that, although many fair things have been spoken by those who preceded me, there are many that even they have omitted, and plenty more remain to be said by those who succeed them; since nowhere is there any land or sea on which they did not venture, and in every place and every nation the people, is lamenting their own disasters, glorify the valorous deeds of these men. So now, in the first place, I shall recount the ancient ordeals of our ancestors, drawing remembrance thereof from their renown. For they also are events which all men ought to remember, glorifying them in their songs, and describing them in the sage sayings of worthy minds; honoring them on such occasions as this, and finding in the achievements of the dead so many lessons for the living.",
+    "spans": [
+      {
+        "start": 27,
+        "end": 64,
+        "figure": "apostrophe",
+        "why": "The mourners are named as hearers of praise."
+      },
+      {
+        "start": 248,
+        "end": 313,
+        "figure": "sententia",
+        "why": "Deeds exceed speech: the epideictic confession."
+      },
+      {
+        "start": 577,
+        "end": 634,
+        "figure": "antithesis",
+        "why": "The true agon is named: not the dead, but previous praise."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-2-17",
+    "author": "Lysias",
+    "work": "Funeral Oration",
+    "locus": "2.17–19",
+    "cue": "The dead are praised through the city's autochthony and the founding of democracy.",
+    "text": "Now in many ways it was natural to our ancestors, moved by a single resolve, to fight the battles of justice: for the very beginning of their life was just. They had not been collected, like most nations, from every quarter, and had not settled in a foreign land after driving out its people: they were born of the soil, and possessed in one and the same country their mother and their fatherland. They were the first and the only people in that time to drive out the ruling classes of their state and to establish a democracy, believing the liberty of all to be the strongest bond of agreement; by sharing with each other the hopes born of their perils they had freedom of soul in, their civic life, and used law for honoring the good and punishing the evil. For they deemed that it was the way of wild beasts to be held subject to one another by force, but the duty of men to delimit justice by law, to convince by reason, and to serve these two in act by submitting to the sovereignty of law and the instruction of reason.",
+    "spans": [
+      {
+        "start": 303,
+        "end": 319,
+        "figure": "metaphor",
+        "why": "The city is mother: autochthony as an argument."
+      },
+      {
+        "start": 363,
+        "end": 396,
+        "figure": "hendiadys",
+        "why": "One origin named twice, as parent and as land."
+      },
+      {
+        "start": 538,
+        "end": 594,
+        "figure": "sententia",
+        "why": "Democracy defined as shared liberty."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-32-1",
+    "author": "Lysias",
+    "work": "Against Diogeiton",
+    "locus": "32.1–2",
+    "cue": "A brother-in-law is forced to accuse a kinsman of plundering orphans.",
+    "text": "If the matters in dispute were not important, gentlemen of the jury, I should never have allowed these persons to appear before you; for I regard a dispute with one's relations as most disgraceful, and I know that you reprobate not merely those who are guilty of wrong, but also anyone who is unable to tolerate the sharp practice of a kinsman. But, gentlemen, since they have been robbed of a great sum of money and, after suffering numerous outrages from those who should have been the last to act in such a way, have sought refuge in me, their brother-in-law, I find it incumbent on me to speak for them. I am married to their sister, a child of Diogeiton's daughter; and after many appeals I at first prevailed on both parties to submit the case to the arbitration of their friends, as I held it most desirable that their affairs should not be known to anyone else. But since Diogeiton would not allow himself to be advised by any of his own friends regarding the property which he was plainly convicted of holding, but preferred to be prosecuted, to sue against the validity of judgements, and to encounter the utmost risks, rather than do the just thing which would relieve him of all their complaints, I entreat you,",
+    "spans": [
+      {
+        "start": 46,
+        "end": 67,
+        "figure": "apostrophe",
+        "why": "The jury is named before the shame of a family suit."
+      },
+      {
+        "start": 146,
+        "end": 196,
+        "figure": "sententia",
+        "why": "The speaker concedes the disgrace in order to justify the suit."
+      },
+      {
+        "start": 457,
+        "end": 513,
+        "figure": "irony",
+        "why": "The guardian's office is named as the measure of the wrong."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-32-12",
+    "author": "Lysias",
+    "work": "Against Diogeiton",
+    "locus": "32.12–13",
+    "cue": "The mother speaks in the family meeting: uncle, grandfather, and thief at once.",
+    "text": "I went first and expressed my indignation to Hegemon, the husband of this man's daughter; I then discussed the matter with the other relations; and I called upon this man to allow his handling of the money to be investigated. Diogeiton at first refused, but finally he was compelled by his friends. When we held our meeting, the mother asked him what heart he could have, that he thought fit to take such measures with the children, “when you are their father's brother,” she said, “and my father, and their uncle and grandfather. Even if you felt no shame before any man, you ought to have feared the gods. For you received from him, when he went on the expedition, five talents in deposit. I offer to swear to the truth of this on the lives of my children, both these and those since born to me, in any place that you yourself may name. Yet I am not so abject, or so fond of money, as to take leave of life after perjuring myself on the lives of my own children, and to appropriate unjustly my father's estate.”",
+    "spans": [
+      {
+        "start": 346,
+        "end": 370,
+        "figure": "rhetorical question",
+        "why": "The question is a charge against the guardian."
+      },
+      {
+        "start": 502,
+        "end": 529,
+        "figure": "enumeratio",
+        "why": "The kinship titles are listed so that the theft is measured."
+      },
+      {
+        "start": 573,
+        "end": 606,
+        "figure": "apostrophe",
+        "why": "The mother turns from men to the gods as witnesses."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-24-1",
+    "author": "Lysias",
+    "work": "For the Invalid",
+    "locus": "24.1–3",
+    "cue": "A pensioner thanks his accuser for giving him a chance to render an account of his life.",
+    "text": "I can almost find it in me to be grateful to my accuser, gentlemen of the Council, for having involved me in these proceedings. For previously I had no excuse for rendering an account of my life; but now, owing to this man, I have got one. So I will try to show you in my speech that this man is lying, and that my own life until this day has been deserving of praise rather than envy; for it is merely from envy, in my opinion, that he has involved me in this ordeal. But I ask you, if a man envies those whom other people pity, from what villainy do you think such a person would refrain? Is it possible that he hopes to get money by slandering me? And if he makes me out an enemy on whom he seeks to be avenged, he lies; for his villainy has always kept me from having any dealings with him either as a friend or as an enemy.",
+    "spans": [
+      {
+        "start": 57,
+        "end": 81,
+        "figure": "apostrophe",
+        "why": "The Council is thanked, ironically, for the hearing."
+      },
+      {
+        "start": 0,
+        "end": 55,
+        "figure": "irony",
+        "why": "Gratitude named as the last thing an accuser expected."
+      },
+      {
+        "start": 500,
+        "end": 528,
+        "figure": "antithesis",
+        "why": "Envy of the pitiable is made the accuser's character."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-7-1",
+    "author": "Lysias",
+    "work": "On the Olive-Stump",
+    "locus": "7.1–2",
+    "cue": "A quiet man finds that even those who have done no wrong must now fear the slanderers.",
+    "text": "Heretofore, gentlemen of the Council, I thought it possible for a person who so desired to avoid both law-suits and anxieties by leading a quiet life; but now I find myself so unexpectedly embarrassed with accusations and with nefarious slanderers that, if such a thing could be, I conceive that even those who are yet unborn ought now be feeling alarmed for what is in store for them, since the conduct of these men brings as great a share of danger upon those who have done no wrong as upon those who are guilty of many offences. And this trial has been made especially perplexing for me, because at first I was indicted for clearing away an olive tree from my land, and they went and made an inquiry of the men who had brought the produce of the State olives; but having failed by this method to find that I have done anything wrong, they now say it is an olive-stump that I cleared away, judging that for me this is a most difficult accusation to refute, while to them it allows more freedom to make any statement that they please.",
+    "spans": [
+      {
+        "start": 12,
+        "end": 36,
+        "figure": "apostrophe",
+        "why": "The Council is asked to see a quiet life turned into a suit."
+      },
+      {
+        "start": 456,
+        "end": 513,
+        "figure": "antithesis",
+        "why": "Innocence and guilt are made to share one danger."
+      },
+      {
+        "start": 227,
+        "end": 247,
+        "figure": "epithet",
+        "why": "The accusers are named before the olive is."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "isoc-phil-1",
+    "author": "Isocrates",
+    "work": "To Philip",
+    "locus": "5.1–3",
+    "cue": "A written address to a king: the speaker begins with another discourse, then turns to Philip.",
+    "text": "Do not be surprised, Philip, that I am going to begin, not with the discourse which is to be addressed to you and which is presently to be brought to your attention, but with that which I have written about Amphipolis. For I desire to say a few words, by way of preface, about this question, in order that I may make it clear to you as well as to the rest of the world that it was not in a moment of folly that I undertook to write my address to you, nor because I am under any misapprehension as to the infirmity which now besets me, but that I was led advisedly and deliberately to this resolution. For when I saw that the war in which you and our city had become involved over Amphipolis was proving the source of many evils, I endeavored to express opinions regarding this city and territory which, so far from being the same as those entertained by your friends, or by the orators among us, were as far as possible removed from their point of view. For they were spurring you on to the war by seconding your covetousness, while I, on the contrary, expressed no opinion whatever on the points in controversy, but occupied myself with a plea which I conceived to be more than all others conducive to peace, maintaining that both you and the Athenians were mistaken about the real state of affairs and that you were fighting in support of our interests, and our city in support of your power; for it was to your advantage, I urged, that we should possess the territory of Amphipolis, while it was in no possible way to our advantage to acquire it.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 27,
+        "figure": "apostrophe",
+        "why": "The king is addressed before the advice is given."
+      },
+      {
+        "start": 55,
+        "end": 109,
+        "figure": "occupatio",
+        "why": "He names the expected opening in order to postpone it."
+      },
+      {
+        "start": 114,
+        "end": 164,
+        "figure": "prooimion",
+        "why": "The true address is promised after the preface."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-phil-16",
+    "author": "Isocrates",
+    "work": "To Philip",
+    "locus": "5.16–17",
+    "cue": "Philip is asked to lead a pan-Hellenic war: persuasion for Greeks, compulsion for barbarians.",
+    "text": "For I am going to advise you to champion the cause of concord among the Hellenes and of a campaign against the barbarian; and as persuasion will be helpful in dealing with the Hellenes, so compulsion will be useful in dealing with the barbarians. This, then, is the general scope of my discourse. But I must not shrink from telling you plainly of the discouragements I met with from some of my associates; for I think the tale will be somewhat to my purpose. When I disclosed to them my intention of sending you an address whose aim was, not to make a display, nor to extol the wars which you have carried on—for others will do this—but to attempt to urge you to a course of action which is more in keeping with your nature, and more noble and more profitable than any which you have hitherto elected to follow,",
+    "spans": [
+      {
+        "start": 32,
+        "end": 80,
+        "figure": "sententia",
+        "why": "Concord at home is made the condition of the campaign abroad."
+      },
+      {
+        "start": 129,
+        "end": 245,
+        "figure": "antithesis",
+        "why": "Two hearers, two means: speech for Greeks, force for barbarians."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-phil-127",
+    "author": "Isocrates",
+    "work": "To Philip",
+    "locus": "5.127",
+    "cue": "Since the cities hang back, the moment belongs to one man to head the war.",
+    "text": "Therefore, since the others are so lacking in spirit, I think it is opportune for you to head the war against the King; and, while it is only natural for the other descendants of Heracles, and for men who are under the bonds of their polities and laws, to cleave fondly to that state in which they happen to dwell, it is your privilege, as one who has been blessed with untrammeled freedom, to consider all Hellas your fatherland, as did the founder of your race, and to be as ready to brave perils for her sake as for the things about which you are personally most concerned.",
+    "spans": [
+      {
+        "start": 17,
+        "end": 52,
+        "figure": "ethos",
+        "why": "Their failure of spirit is the argument for his."
+      },
+      {
+        "start": 89,
+        "end": 101,
+        "figure": "sententia",
+        "why": "Command is named as the office this discourse is asking for."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-antid-1",
+    "author": "Isocrates",
+    "work": "Antidosis",
+    "locus": "15.1–3",
+    "cue": "A written defence unlike a court speech or a display: the novelty must be explained first.",
+    "text": "If the discourse which is now about to be read had been like the speeches which are produced either for the law-courts or for oratorical display, I should not, I suppose, have prefaced it by any explanation. Since, however, it is novel and different in character, it is necessary to begin by setting forth the reasons why I chose to write a discourse so unlike any other; for if I neglected to make this clear, my speech would, no doubt, impress many as curious and strange. The fact is that, although I have known that some of the sophists traduce my occupation, saying that it has to do with writing speeches for the courts, very much as one might have the effrontery to call Pheidias, who wrought our statue of Athena, a doll-maker, or say that Zeuxis and Parrhasius practiced the same art as the sign-painters, nevertheless I have never deigned to defend myself against their attempts to belittle me, because I considered that their foolish babble had no influence whatever and that I had, myself, made it manifest to all that I had elected to speak and write, not on petty disputes, but on subjects so important and so elevated that no one would attempt them except those who had studied with me, and their would-be imitators.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "prooimion",
+        "why": "He opens by classifying the speech before it begins."
+      },
+      {
+        "start": 100,
+        "end": 144,
+        "figure": "antithesis",
+        "why": "Two kinds of speech are named in order to refuse both."
+      },
+      {
+        "start": 230,
+        "end": 262,
+        "figure": "definition",
+        "why": "The kind of discourse is named so that the hearer not misread it."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-antid-253",
+    "author": "Isocrates",
+    "work": "Antidosis",
+    "locus": "15.253–255",
+    "cue": "Logos is defended as the faculty from which most human blessings come.",
+    "text": "We ought, therefore, to think of the art of discourse just as we think of the other arts, and not to form opposite judgements about similar things, nor show ourselves intolerant toward that power which, of all the faculties which belong to the nature of man, is the source of most of our blessings. For in the other powers which we possess, as I have already said on a former occasion, we are in no respect superior to other living creatures; nay, we are inferior to many in swiftness and in strength and in other resources; but, because there has been implanted in us the power to persuade each other and to make clear to each other whatever we desire, not only have we escaped the life of wild beasts, but we have come together and founded cities and made laws and invented arts; and, generally speaking, there is no institution devised by man which the power of speech has not helped us to establish. For this it is which has laid down laws concerning things just and unjust, and things honorable and base; and if it were not for these ordinances we should not be able to live with one another. It is by this also that we confute the bad and extol the good. Through this we educate the ignorant and appraise the wise; for the power to speak well is taken as the surest index of a sound understanding, and discourse which is true and lawful and just is the outward image of a good and faithful soul.",
+    "spans": [
+      {
+        "start": 33,
+        "end": 53,
+        "figure": "definition",
+        "why": "Rhetoric is placed among the arts, not below them."
+      },
+      {
+        "start": 262,
+        "end": 297,
+        "figure": "sententia",
+        "why": "Speech is named as the cause of human goods."
+      },
+      {
+        "start": 106,
+        "end": 146,
+        "figure": "antithesis",
+        "why": "The inconsistency of the accusers is the topic."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-pan-50",
+    "author": "Isocrates",
+    "work": "Panegyricus",
+    "locus": "4.50–51",
+    "cue": "Athens has outstripped mankind in thought and speech: her pupils teach the rest.",
+    "text": "And so far has our city distanced the rest of mankind in thought and in speech that her pupils have become the teachers of the rest of the world; and she has brought it about that the name Hellenes suggests no longer a race but an intelligence, and that the title Hellenes is applied rather to those who share our culture than to those who share a common blood. But in order that I may not appear to be dwelling at length on the details when I have proposed to speak on the general subject nor to be extolling the city for these accomplishments because I lack ground for praising her conduct in war, let what I have said suffice for those who glory in such services. But I think that honor is due to our ancestors no less for their wars than for their other benefactions;",
+    "spans": [
+      {
+        "start": 24,
+        "end": 78,
+        "figure": "hyperbole",
+        "why": "The city's lead in logos is named as a fact of praise."
+      },
+      {
+        "start": 84,
+        "end": 119,
+        "figure": "antithesis",
+        "why": "Those who came to learn now teach: the city as school of Hellas."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-pan-158",
+    "author": "Isocrates",
+    "work": "Panegyricus",
+    "locus": "4.158–160",
+    "cue": "Hymns for wars against barbarians, dirges for wars against Hellenes.",
+    "text": "So ingrained in our nature is our hostility to them that even in the matter of our stories we linger most fondly over those which tell of the Trojan and the Persian wars, because through them we learn of our enemies' misfortunes; and you will find that our warfare against the barbarians has inspired our hymns, while that against the Hellenes has brought forth our dirges; and that the former are sung at our festivals, while we recall the latter on occasions of sorrow. Moreover, I think that even the poetry of Homer has won a greater renown because he has nobly glorified the men who fought against the barbarians, and that on this account our ancestors determined to give his art a place of honor in our musical contests and in the education of our youth, in order that we, hearing his verses over and over again, may learn by heart the enmity which stands from of old between us and them, and that we, admiring the valor of those who were in the war against Troy, may conceive a passion for like deeds. So it seems to me that the motives which summon us to enter upon a war against them are many indeed; but grief among them is the present opportunity, which we must not throw away; for it is disgraceful to neglect a chance when it is present and regret it when it is past. Indeed, what further advantage could we desire to have on our side when contemplating a war against the King beyond those which are now at hand?",
+    "spans": [
+      {
+        "start": 30,
+        "end": 51,
+        "figure": "pathos",
+        "why": "The old enmity is named as still in the stories."
+      },
+      {
+        "start": 305,
+        "end": 372,
+        "figure": "antithesis",
+        "why": "Two wars, two songs: praise and lament divided by the enemy."
+      },
+      {
+        "start": 138,
+        "end": 169,
+        "figure": "exemplum",
+        "why": "The old wars are called as witnesses of the present counsel."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-peace-1",
+    "author": "Isocrates",
+    "work": "On the Peace",
+    "locus": "8.1–2",
+    "cue": "Every speaker calls his subject the most important; this time, he says, it is true.",
+    "text": "All those who come before you on this platform are accustomed to assert that the subjects upon which they are themselves about to advise you are most important and most worthy of serious consideration by the state. Nevertheless, if it was ever appropriate to preface the discussion of any other subject with such words, it seems to me fitting also to begin with them in speaking upon the subject now before us. For we are assembled here to deliberate about War and Peace, which exercise the greatest power over the life of man, and regarding which those who are correctly advised must of necessity fare better than the rest of the world. Such, then, is the magnitude of the question which we have come together to decide.",
+    "spans": [
+      {
+        "start": 33,
+        "end": 46,
+        "figure": "apostrophe",
+        "why": "The assembly's place of advice is named."
+      },
+      {
+        "start": 145,
+        "end": 200,
+        "figure": "hyperbole",
+        "why": "The usual preface is quoted in order to be made good."
+      },
+      {
+        "start": 0,
+        "end": 29,
+        "figure": "occupatio",
+        "why": "He grants the custom before claiming this case is the one."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "aesch-emb-1",
+    "author": "Aeschines",
+    "work": "On the Embassy",
+    "locus": "2.1–3",
+    "cue": "A defendant begs a like hearing from men sworn to give one, against an accuser who asked them not to listen.",
+    "text": "I beg you, fellow citizens, to hear me with willing and friendly mind, remembering how great is my peril, and how many the charges against which I have to defend myself; remembering also the arts and devices of my accuser, and the cruelty of the man who, speaking to men who are under oath to give equal hearing to both parties, had the effrontery to urge you not to listen to the voice of the defendant. and it was not anger that made him say it; for no man who is lying is angry with the victim of his calumny, nor do men who are speaking the truth try to prevent the defendant from obtaining a hearing; for the prosecution does not find justification in the minds of the hearers until the defendant has had opportunity to plead for himself and has proved unable to refute the charges that have been preferred. But Demosthenes, I think, is not fond of fair argument, nor is that the sort of preparation he has made. No, it is your anger that he is determined to call forth. And he has accused me of receiving bribes—he who would be the last man to make such suspicion credible! For the man who seeks to arouse the anger of his hearers over bribery must himself refrain from such conduct.",
+    "spans": [
+      {
+        "start": 11,
+        "end": 26,
+        "figure": "apostrophe",
+        "why": "The demos is named as the judging hearer."
+      },
+      {
+        "start": 83,
+        "end": 104,
+        "figure": "pathos",
+        "why": "Danger is named before the charges are answered."
+      },
+      {
+        "start": 360,
+        "end": 403,
+        "figure": "irony",
+        "why": "The accuser who asks silence is made to convict himself."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
+  },
+  {
+    "id": "aesch-emb-20",
+    "author": "Aeschines",
+    "work": "On the Embassy",
+    "locus": "2.20–21",
+    "cue": "The embassy's origin is thrown back on Demosthenes; the promised fountains of oratory are remembered.",
+    "text": "The whole affair, therefore, from the beginning originated not with me, but with Demosthenes and Philocrates. And on the embassy he was eager to belong to our mess—not with my consent, but with that of my companions, Aglaocreon of Tenedos, whom you chose to represent the allies, and Iatrocles. And he asserts that on the journey I urged him to join me in guarding against the beast—meaning Philocrates. But the whole story was a fabrication; for how could I have urged Demosthenes against Philocrates, when I knew that he had been Philocrates' advocate in the suit against the legality of his motion, and that he had been nominated to the embassy by Philocrates? Moreover, this was not the sort of conversation in which we were engaged, but all the way we were forced to put up with Demosthenes' odious and insufferable ways. When we were discussing what should be said, and when Cimon remarked that he was afraid Philip would get the better of us in arguing his claims, Demosthenes promised fountains of oratory, and said that he was going to make such a speech about our claims to Amphipolis and the origin of the war that he would sew up Philip's mouth with an unsoaked rush, and he would persuade the Athenians to permit Leosthenes to return home, and Philip to restore Amphipolis to Athens.",
+    "spans": [
+      {
+        "start": 59,
+        "end": 108,
+        "figure": "antithesis",
+        "why": "The beginning of the affair is reassigned."
+      },
+      {
+        "start": 356,
+        "end": 382,
+        "figure": "metaphor",
+        "why": "Philocrates is named as a beast: the charge is quoted to be denied."
+      },
+      {
+        "start": 408,
+        "end": 441,
+        "figure": "sententia",
+        "why": "The journey-tale is refused as invention."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
+  },
+  {
+    "id": "aesch-ctes-1",
+    "author": "Aeschines",
+    "work": "Against Ctesiphon",
+    "locus": "3.1–3",
+    "cue": "The prosecutor opens on preparations in the marketplace, then trusts the gods, the laws, and the jury.",
+    "text": "You see, fellow citizens, how certain persons have been making their preparations for this case: how they have mustered their forces, and how they have gone begging up and down the market place, in the attempt to prevent the fair and orderly course of justice in the state. But I have come trusting first in the gods, then in the laws and in you, believing that with you no scheming preparation can override law and justice. I could wish, indeed, fellow citizens, that the Senate of Five Hundred and the assemblies of the people were properly conducted by those who preside over them, and the laws enforced which Solon enacted to secure orderly conduct on the part of public speakers; for then it would be permitted to the oldest citizen, as the law prescribes, to come forward to the platform first, with dignity, and, uninterrupted by shouting and tumult, out of his experience to advise for the good of the state and it would then be permitted to all other citizens who wished, one by one in turn, in order of age, to express their opinion on every question; for so, I think, the state would be best governed, and least litigation would arise.",
+    "spans": [
+      {
+        "start": 9,
+        "end": 24,
+        "figure": "apostrophe",
+        "why": "The people are named before the scheming is."
+      },
+      {
+        "start": 290,
+        "end": 345,
+        "figure": "tricolon",
+        "why": "Three grounds of confidence, rising to the jury."
+      },
+      {
+        "start": 374,
+        "end": 423,
+        "figure": "antithesis",
+        "why": "Preparation is set against law: the jury is asked to keep the second."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
+  },
+  {
+    "id": "aesch-ctes-8",
+    "author": "Aeschines",
+    "work": "Against Ctesiphon",
+    "locus": "3.8",
+    "cue": "The whole city has put the constitution into the jurors' hands as a trust.",
+    "text": "And another thing you have to remember: today your fellow citizens as a body have put the city and the constitution into your hands as a solemn trust. Some of them are present, listening to this case; others are absent, busy with their personal affairs. Respect them therefore, and remember the oaths which you have sworn, and the laws; and if I convict Ctesiphon of having made a motion that is illegal, false, and injurious to the state, annul the illegal motion, fellow citizens; confirm the democratic government for our state; punish those whose policies are opposed to the laws and to your interests. If in this spirit you listen to the words which are about to be spoken, I am sure that your verdict will be just, faithful to your oath, and salutary alike to yourselves and to the commonwealth.",
+    "spans": [
+      {
+        "start": 135,
+        "end": 149,
+        "figure": "metaphor",
+        "why": "The constitution is made a deposit the jury must keep."
+      },
+      {
+        "start": 291,
+        "end": 335,
+        "figure": "enumeratio",
+        "why": "Oath and law named as the measure of the vote."
+      },
+      {
+        "start": 715,
+        "end": 756,
+        "figure": "tricolon",
+        "why": "Three marks of the verdict asked for."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
+  },
+  {
+    "id": "aesch-ctes-49",
+    "author": "Aeschines",
+    "work": "Against Ctesiphon",
+    "locus": "3.49–50",
+    "cue": "The crown's pretext is read out: 'because he continually speaks and does what is best.'",
+    "text": "But that part of my accusation remains upon which I lay greatest stress: the pretext upon which he claims that the crown is deserved. It reads thus in his motion: “And the herald shall proclaim in the theater in the presence of the Hellenes that the Athenian people crown him for his merit and uprightness,” and that monstrous assertion, “because he continually speaks and does what is best for the people.” You see how entirely simple the remainder of our argument becomes, and how easy for you, my hearers, to weigh. For it is obviously incumbent upon me, the complainant, to show this to you, that the praise given to Demosthenes is false, and that he never began to “speak what was best,” nor now “continues to do what is good for the people.” If I show this, then Ctesiphon will doubtless lose his case, and justly; for all the laws forbid inserting falsehoods in the decrees of the people. But the defence must show the opposite of this. And you are to be the judges of our pleas.",
+    "spans": [
+      {
+        "start": 312,
+        "end": 336,
+        "figure": "exclamatio",
+        "why": "The clause of praise is named as a monstrosity."
+      },
+      {
+        "start": 601,
+        "end": 641,
+        "figure": "antithesis",
+        "why": "False praise against the laws that forbid it."
+      },
+      {
+        "start": 825,
+        "end": 894,
+        "figure": "sententia",
+        "why": "The legal topic: a decree may not lie."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
+  },
+  {
+    "id": "aesch-ctes-260",
+    "author": "Aeschines",
+    "work": "Against Ctesiphon",
+    "locus": "3.259–260",
+    "cue": "Earth and Sun are called to witness; the dead at Marathon would groan at the crown.",
+    "text": "you now propose to crown with a golden crown Demosthenes, a man who has not indeed “transported” the gold of the Medes, but has received it as a bribe, and keeps it to this day. Think you not that Themistocles and those who died at Marathon and at Plataea, and the very sepulchres of your fathers, will groan aloud, if the man who admits that he has negotiated with the barbarians against the Greeks shall receive a crown? Be ye my witnesses, O Earth and Sun, and virtue and Conscience, and Education, by which we distinguish the honorable and the base, that I have heard my country's call, and have spoken. If I have presented the accusations well and in a manner commensurate with the crime, I have spoken according to my desire; if insufficiently, according to my ability. It remains for you, fellow citizens, in view both of what has been spoken and what is left unsaid, yourselves to give the verdict that is just and for the city's good.",
+    "spans": [
+      {
+        "start": 423,
+        "end": 458,
+        "figure": "apostrophe",
+        "why": "Earth and Sun are turned to as hearers of the close."
+      },
+      {
+        "start": 197,
+        "end": 255,
+        "figure": "exemplum",
+        "why": "The dead are called as a standard the living are about to betray."
+      },
+      {
+        "start": 298,
+        "end": 314,
+        "figure": "prosopopoeia",
+        "why": "The sepulchres are given a voice against the crown."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
+  },
+  {
+    "id": "dem-olyn2-1",
+    "author": "Demosthenes",
+    "work": "Second Olynthiac",
+    "locus": "2.1–2",
+    "cue": "Heaven has found neighbours to fight Philip; the shame would be to throw the chance away.",
+    "text": "Many as are the occasions, men of Athens, on which we may discern the manifestation of the goodwill of Heaven towards this city, one of the most striking is to be seen in the circumstances of the present time. For that men should have been found to carry on war against Philip; men whose territory borders on his and who possess some power; men, above all, whose sentiments in regard to the war are such that they think of the proposed compact with him, not only as untrustworthy, but as the very ruin of their country--this seems to be certainly the work of a superhuman, a divine, beneficence. And so, men of Athens, we must take care that we do not treat ourselves less well than circumstances have treated us. For it is a shameful thing--nay, it is the very depth of shame--to throw away openly, not only cities and places which were once in our power, but even the allies and the opportunities which have been provided for us by Fortune. Now to describe at length the power of Philip, men of Athens, and to incite you to the performance of your duty by such a recital, is not, I think, a satisfactory proceeding; and for this reason--that while all that can be said on this subject tend",
+    "spans": [
+      {
+        "start": 27,
+        "end": 40,
+        "figure": "apostrophe",
+        "why": "The assembly is named before the gift of fortune is."
+      },
+      {
+        "start": 87,
+        "end": 127,
+        "figure": "personification",
+        "why": "Heaven is made an agent already at work for Athens."
+      },
+      {
+        "start": 249,
+        "end": 276,
+        "figure": "sententia",
+        "why": "The neighbours' war is named as the opportunity Heaven has given."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-olyn3-1",
+    "author": "Demosthenes",
+    "work": "Third Olynthiac",
+    "locus": "3.1–3",
+    "cue": "The speeches talk of vengeance on Philip; the facts have gone as far as self-preservation.",
+    "text": "Very different reflections suggest themselves to my mind, I men of Athens, when I turn my eyes to our real situation, and when I think of the speeches that I hear. For I observe that the speeches are all concerned with the taking of vengeance upon Philip; whereas in reality matters have gone so far, that we have to take care that we are not ourselves the first to suffer: so that those who speak of vengeance are actually, as it seems to me, suggesting to you a false conception of the situation which you are discussing. That there was a time when the city could both keep her own possessions in safety, and punish Philip, I am very well aware. For it was not long ago, but within my own lifetime, that both these things were so. But I am convinced that it is now quite enough for us as a first step to make sure of the preservation of our allies. If this is safely secured, we shall then be able to consider upon whom vengeance is to fall, and in what way. But until the first step is properly conceived, I consider it idle to say anything whatever about the last. If ever the most anxious deliberation was required, it is required in the present crisis; and my greatest difficulty is no",
+    "spans": [
+      {
+        "start": 60,
+        "end": 73,
+        "figure": "apostrophe",
+        "why": "The people are named as the deliberating hearer."
+      },
+      {
+        "start": 219,
+        "end": 254,
+        "figure": "antithesis",
+        "why": "Vengeance is set against preservation: the wrong question."
+      },
+      {
+        "start": 306,
+        "end": 372,
+        "figure": "sententia",
+        "why": "The real counsel is named: not vengeance, but that we not be first to suffer."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-peace-1",
+    "author": "Demosthenes",
+    "work": "On the Peace",
+    "locus": "5.1–3",
+    "cue": "Athens deliberates after the event: a plea to abandon clamour and recover what remains.",
+    "text": "I see, men of Athens, that our present situation is one of great perplexity and confusion, for not only have many of our interests been sacrificed, so that it is of no use to make eloquent speeches about them; but even as regards what still remains to us, there is no general agreement in any single point as to what is expedient: some hold one view, and some another. Perplexing, moreover, and difficult as deliberation naturally is, men of Athens, you have made it far more difficult. For while all the rest of mankind are in the habit of resorting to deliberation before the event, you do not do so until afterwards: and consequently, during the whole time that falls within my memory, however high a reputation for eloquence one who upbraids you for all your errors may enjoy, the desired results and the objects of",
+    "spans": [
+      {
+        "start": 7,
+        "end": 20,
+        "figure": "apostrophe",
+        "why": "The assembly is named in a situation of perplexity."
+      },
+      {
+        "start": 59,
+        "end": 89,
+        "figure": "hendiadys",
+        "why": "One crisis named twice, as mind and as scene."
+      },
+      {
+        "start": 541,
+        "end": 618,
+        "figure": "antithesis",
+        "why": "The rest of mankind counsel first; Athens, after."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-phil2-1",
+    "author": "Demosthenes",
+    "work": "Second Philippic",
+    "locus": "6.1–2",
+    "cue": "Whenever the talk is of Philip's outrages, the speeches are zealous; the deeds do not follow.",
+    "text": "In all our discussions, men of Athens, with regard to the acts of violence by which Philip contravenes the terms of the Peace, I observe that, although the speeches on our side are always manifestly just and sympathetic, and although those who denounce Philip are always regarded as saying what ought to be said, yet practically nothing is done which ought to be done, or which would make it worth while to listen to such speeches. On the contrary, the condition of public affairs as a whole has already been brought to a point at which, the more and the more evidently a speaker can convict Philip both of transgressing the Peace which he made with you and of plotting against all the Hellenes, the harder it is for him to advise you how you should act. The responsibility for this rests with us all, men of Athens. It is by deeds and actions, not by words, that a policy of encroachm",
+    "spans": [
+      {
+        "start": 24,
+        "end": 37,
+        "figure": "apostrophe",
+        "why": "The people are named as those whose talk outruns their acts."
+      },
+      {
+        "start": 152,
+        "end": 203,
+        "figure": "antithesis",
+        "why": "Just speech is set against undone deeds."
+      },
+      {
+        "start": 329,
+        "end": 367,
+        "figure": "sententia",
+        "why": "The charge against the city is inaction, not ignorance."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-mega-1",
+    "author": "Demosthenes",
+    "work": "For the Megalopolitans",
+    "locus": "16.1–2",
+    "cue": "Both Arcadian and Spartan speakers are mistaken: they speak as delegates, not as Athenians hearing two embassies.",
+    "text": "I think, men of Athens, that those who have spoken on the Arcadian side and those who have spoken on the Spartan, are alike making a mistake. For their mutual accusations and their attacks upon one another would suggest that they are not, like yourselves, Athenians, receiving the two embassies, but actually delegates of the two states. Such attacks it was for the two deputations to make. The duty of those who claim to advise you here was to discuss the situation impartially, and to inquire, in an uncontentious spirit, what course is best in your interests. As it is, if one could alter the fact that they are known to us, and that they speak the dialect of Attica, I believe that many would imagine that those on the one side actually were Arcadians, and those on the other,",
+    "spans": [
+      {
+        "start": 9,
+        "end": 22,
+        "figure": "apostrophe",
+        "why": "The people are named as judges of two embassies."
+      },
+      {
+        "start": 29,
+        "end": 112,
+        "figure": "antithesis",
+        "why": "Two deputations, one mistake: they speak as parties, not as hosts."
+      },
+      {
+        "start": 234,
+        "end": 265,
+        "figure": "ethos",
+        "why": "The hearers' office is named: to receive both, not to become either."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-rhod-1",
+    "author": "Demosthenes",
+    "work": "For the Freedom of the Rhodians",
+    "locus": "15.4–6",
+    "cue": "Those who would fight Persia for Egypt fear Persia when Rhodes, a Hellenic city, is in question.",
+    "text": "I notice, to my surprise, that those who urge us to oppose the king in the interest of the Egyptians, are the very persons who are so afraid of him when it is the interest of the popular party in Rhodes that is in question. And yet it is known to every one that the Rhodians are Hellenes, while the Egyptians have a place assigned them in the Persian Empire. I expect that some of you remember that, when you were discussing our relations with the king, I came forward and was the first to advise you (though I had, I believe, no supporters, or one at the most), that you would show your good sense, in my opinion, if you did not make your hostility to the king the pretext of your preparations, but prepared yourselves against the enemies whom you already had; though you would resist him also, if he attempted to do you any injury. Nor, when I spoke thus, did I fail to convince you,",
+    "spans": [
+      {
+        "start": 10,
+        "end": 24,
+        "figure": "irony",
+        "why": "Surprise named as the figure of the inconsistency."
+      },
+      {
+        "start": 262,
+        "end": 357,
+        "figure": "antithesis",
+        "why": "Hellene against subject of the King: the true interest is named."
+      },
+      {
+        "start": 454,
+        "end": 500,
+        "figure": "ethos",
+        "why": "The speaker's past counsel is the warrant of this one."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-emb-1",
+    "author": "Demosthenes",
+    "work": "On the Embassy",
+    "locus": "19.1–2",
+    "cue": "A jury is asked not to let favour weigh more than the oath, in the trial of Aeschines.",
+    "text": "How much interest this case has excited, men of Athens, and how much canvassing has taken place, must, I feel sure, have become fairly evident to you all, after the persistent overtures just now made to you, while you were drawing your lots. Yet I will make the request of you all--a request which ought to be granted even when unasked--that you will not allow the favour or the person of any man to weigh more with you than justice and the oath which each of you swore before he entered the court. Remember that what I ask is for your own welfare and for that of the whole State; while the entreaties and the eager interest of the supporters of the accused have for their aim the selfish advantage of individuals: and it is not to confirm criminals in the possession of such advantages that the laws have called you together, but to prevent their at",
+    "spans": [
+      {
+        "start": 41,
+        "end": 54,
+        "figure": "apostrophe",
+        "why": "The sworn jury is named as the hearer."
+      },
+      {
+        "start": 361,
+        "end": 396,
+        "figure": "antithesis",
+        "why": "Favour is set against justice and the oath."
+      },
+      {
+        "start": 792,
+        "end": 825,
+        "figure": "personification",
+        "why": "The laws are made the summoner of this court."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-crown-208",
+    "author": "Demosthenes",
+    "work": "On the Crown",
+    "locus": "18.208",
+    "cue": "The Marathon oath: it cannot be that Athens was wrong to struggle for freedom.",
+    "text": "But it cannot, it cannot be that you were wrong, men of Athens, when you took upon you the struggle for freedom and deliverance. No! by those who at Marathon bore the brunt of the peril--our forefathers. No! by those who at Plataeae drew up their battle-line, by those who at Salamis, by those who off Artemisium fought the fight at sea, by the many who lie in the sepulchres where the People laid them, brave men, all alike deemed worthy by their country, Aeschines, of the same honour and the same obsequies--not the successful or the victorious alone! And she acted justly. For all these have done that which it was the duty of brave men to do; but their fortune has been that which Heaven assigned to each. Accursed, poring pedant! if",
+    "spans": [
+      {
+        "start": 15,
+        "end": 62,
+        "figure": "epizeuxis",
+        "why": "The doubled 'cannot' strikes the charge of a mistaken war."
+      },
+      {
+        "start": 133,
+        "end": 185,
+        "figure": "apostrophe",
+        "why": "The dead are sworn by, as witnesses of this policy."
+      },
+      {
+        "start": 208,
+        "end": 312,
+        "figure": "anaphora",
+        "why": "By those who: four fields, one honour."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "cic-rosc-1",
+    "author": "Cicero",
+    "work": "Pro Roscio Amerino",
+    "locus": "1–2",
+    "cue": "Young Cicero rises because the eminent orators are present but silent, afraid of Sulla's times.",
+    "text": "I imagine that you, O judges, are marvelling why it is that when so many most eminent orators and most noble men are sitting still, I above all others should get up, who neither for age, nor for ability, nor for influence, am to be compared to those who are sitting still. For all these men whom you see present at this trial think that a man ought to be defended against all injury contrived against him by unrivalled wickedness; but through the sad state of the times they do not dare to defend him themselves. So it comes to pass that they are present here because they are attending to their business, but they are silent because they are afraid of danger. What then? Am I the boldest of all these men? By no means. Am I then so much more attentive to my duties than the rest? I am not so covetous of even that praise, as to wish to rob others of it. What is it then which has impelled me beyond all the rest to undertake the cause of Sextus Roscius? Because, if any one of those men, men of the greatest weight and dignity, whom you see present, had spoken, had said one word about public affairs, as must be done in this case, he would be thought to have said much more than he really had said. But if I should say all the things which must be said with ever so much freedom, yet my speech will never go forth or be diffused among the people in the same manner.",
+    "spans": [
+      {
+        "start": 20,
+        "end": 28,
+        "figure": "apostrophe",
+        "why": "The jury is named before the speaker names his own unworthiness."
+      },
+      {
+        "start": 65,
+        "end": 130,
+        "figure": "antithesis",
+        "why": "Presence without speech: fear is the proof of the times."
+      },
+      {
+        "start": 610,
+        "end": 659,
+        "figure": "sententia",
+        "why": "The cause of their silence is named as the danger of this cause."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-rosc-13",
+    "author": "Cicero",
+    "work": "Pro Roscio Amerino",
+    "locus": "13–15",
+    "cue": "Three hindrances: the charge, the audacity, the power; parricide named as the crime that contains all crimes.",
+    "text": "There are three things, as I think, which are at the present time hindrances to Sextus Roscius:—the charge brought by his adversaries, their audacity, and their power. Erucius has taken on himself the pressing of this false charge as accuser; the Roscii have claimed for themselves that part which is to be executed by audacity; but Chrysogonus, as being the person of the greatest influence, employs his influence in the contest. On all these points I am aware that I must speak. What then am I to say? I must not speak in the same manner on them all; because the first topic indeed belongs to my duty, but the two others the Roman people have imposed on you. I must efface the accusations; you ought both to resist the audacity, and at the earliest possible opportunity to extinguish and put down the pernicious and intolerable influence of men of that sort. Sextus Roscius is accused of having murdered his father. O ye immortal gods! a wicked and nefarious action, in which one crime every sort of wickedness appears to be contained. In truth, if, as is well said by wise men, affection is often injured by a look, what sufficiently severe punishment can be devised against him who has inflicted death on his parent, for whom all divine and human laws bound him to be willing to die himself, if occasion required? In the case of so enormous, so atrocious, so singular a crime, as this one which has been committed so rarely, that, if it is ever heard of, it is accounted like a portent and prodigy—what arguments do you think, O Caius Erucius, you as the accuser ought to use?",
+    "spans": [
+      {
+        "start": 918,
+        "end": 936,
+        "figure": "exclamatio",
+        "why": "The gods are cried to when the name of parricide is spoken."
+      },
+      {
+        "start": 96,
+        "end": 166,
+        "figure": "tricolon",
+        "why": "Three hindrances, three offices of the defence."
+      },
+      {
+        "start": 938,
+        "end": 1036,
+        "figure": "sententia",
+        "why": "Parricide defined as the crime that includes the rest."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-rosc-26",
+    "author": "Cicero",
+    "work": "Pro Roscio Amerino",
+    "locus": "26",
+    "cue": "The sack of the parricide: heaven, sun, water, earth all refused to the man who slew the source of his birth.",
+    "text": "O singular wisdom, O judges! Do they not seem to have cut this man off and separated him from nature; from whom they took away at once the heaven, the sun, water and earth, so that he who had slain him, from whom he himself was born, might be deprived of all those things from which everything is said to derive its birth. They would not throw his body to wild beasts, lest we should find the very beasts who had touched such wickedness, more savage; they would not throw them naked into the river, lest when they were carried down into the sea, they should pollute that also, by which all other things which have been polluted are believed to be purified. There is nothing in short so vile or so common that they left them any share in it. Indeed what is so common as breath to the living, earth to the dead, the sea to those who float, the shore to those who are cast up by the sea? These men so live, while they are able to live at all, that they are unable to draw breath from heaven; they so die that earth does not touch their bones; they are tossed about by the waves so that they are never washed; lastly, they are cast up by the sea so, that when dead they do not even rest on the rocks. Do you think, O Erucius, that you can prove to such men as these your charge of so enormous a crime, a crime to which so remarkable a punishment is affixed, if you do not allege any motive for the crime? If you were accusing him before the very purchasers of his property, and if Chrysogonus were presiding at that trial, still you would have come more carefully and with more preparation.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 27,
+        "figure": "apostrophe",
+        "why": "The jury is asked to see the old punishment as wisdom, not cruelty."
+      },
+      {
+        "start": 135,
+        "end": 171,
+        "figure": "enumeratio",
+        "why": "Four elements named as the things the parricide is cut off from."
+      },
+      {
+        "start": 769,
+        "end": 883,
+        "figure": "isocolon",
+        "why": "Four commons, four refusals."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-man-1",
+    "author": "Cicero",
+    "work": "De lege Manilia",
+    "locus": "1",
+    "cue": "First speech from the rostra: youth had kept him from this honourable place until now.",
+    "text": "Although, O Romans, your numerous assembly has always seemed to me the most agreeable body that any one can address, and this place, which is most honourable to plead in, has also seemed always the most distinguished place for delivering an oration in, still I have been prevented from trying this road to glory, which has at all times been entirely open to every virtuous man, not indeed by my own will, but by the system of life which I have adopted from my earliest years. For as hitherto I have not dared, on account of my youth, to intrude upon the authority of this place, and as I considered that no arguments ought to be brought to this place except such as were the fruit of great ability, and worked up with the greatest industry, I have thought it fit to devote all my time to the necessities of my friends. And accordingly, this place has never been unoccupied by men who were defending your cause, and my industry, which has been virtuously and honestly employed about the dangers of private individuals, has received its most honourable reward in your approbation. For when, on account of the adjournment of the comitia, I was three times elected the first praetor by all the centuries, I easily perceived, O Romans, what your opinion of me was, and what conduct you enjoined to others.",
+    "spans": [
+      {
+        "start": 10,
+        "end": 18,
+        "figure": "apostrophe",
+        "why": "The people, not a jury, are the hearers of this counsel."
+      },
+      {
+        "start": 67,
+        "end": 115,
+        "figure": "ethos",
+        "why": "The speaker's long wish for this place is the opening proof of goodwill."
+      },
+      {
+        "start": 121,
+        "end": 169,
+        "figure": "epithet",
+        "why": "The rostra is named as the honour he has deferred."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-man-10",
+    "author": "Cicero",
+    "work": "De lege Manilia",
+    "locus": "10",
+    "cue": "Four qualities of a great general, and Pompey named as the one man who has them.",
+    "text": "I appear to have said enough to make you see why this war is in its very nature unavoidable, in its magnitude dangerous. It remains for me to speak of the general who ought to be selected for that war, and appointed to the management of such important affairs. I wish, O Romans, that you had such an abundance of brave and honest men, that it was a difficult subject for your deliberations, whom you thought most desirable to be appointed to the conduct of such important affairs, and so vast a war. But now, when there is Cnaeus Pompeius alone, who has exceeded in valour, not only the glory of these men who are now alive, but even all recollections of antiquity, what is there that, in this case, can raise a doubt in the mind of any one? For I think that these four qualities are indispensable in a great general,—knowledge of military affairs, valour, authority and good fortune. Who, then, ever was, or ought to have been, better acquainted with military affairs than this man?",
+    "spans": [
+      {
+        "start": 523,
+        "end": 544,
+        "figure": "hyperbole",
+        "why": "One name is made to exceed the living and the dead."
+      },
+      {
+        "start": 818,
+        "end": 883,
+        "figure": "enumeratio",
+        "why": "Four qualities, one man."
+      },
+      {
+        "start": 885,
+        "end": 982,
+        "figure": "rhetorical question",
+        "why": "The question is a nomination."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-mur-1",
+    "author": "Cicero",
+    "work": "Pro Murena",
+    "locus": "1",
+    "cue": "The consul who declared Murena elected now prays the same gods to confirm the jury.",
+    "text": "What I entreated of the immortal gods, O judges, according to the manners and institutions of our ancestors, on that day when, after taking the auspices in the comitia centuriata, I declared Lucius Murena to have been elected consul,—namely, that that fact might turn out gloriously and happily for me and for my office, and for the Roman nation and people,—that same thing do I now pray for from the same immortal gods, that the consulship may be obtained by that same man with safety, and that your inclinations and opinions may agree with the wishes and suffrages of the Roman people, and that that fact may bring to you and to the Roman people peace, tranquillity, ease, and unanimity. And if that solemn prayer of the comitia, consecrated under the auspices of the consul, has as much power and holy influence as the dignity of the republic requires, I pray also that the matter may turn out happily, fortunately, and prosperously to those men to whom the consulship was given when I presided over the election. And as this is the case, O judges, and as all the power of the immortal gods is either transferred to, or at all events is shared with you, the same consul recommends him now to your good faith who before recommended him to the immortal gods; so that he being both declared consul and being defended by the voice of the same man, may uphold the kindness of the Roman people to your safety and that of all the citizens.",
+    "spans": [
+      {
+        "start": 39,
+        "end": 47,
+        "figure": "apostrophe",
+        "why": "The jury is asked to complete an election already taken under auspices."
+      },
+      {
+        "start": 20,
+        "end": 37,
+        "figure": "apostrophe",
+        "why": "The prayer of the comitia is transferred to this court."
+      },
+      {
+        "start": 648,
+        "end": 688,
+        "figure": "enumeratio",
+        "why": "Four goods named as the fruit of this consulship."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-mur-11",
+    "author": "Cicero",
+    "work": "Pro Murena",
+    "locus": "11",
+    "cue": "Military glory, eloquence, and the jurist's little science: Sulpicius's profession is weighed and found light.",
+    "text": "The highest dignity is in those men who excel in military glory. For all things which are in the empire and in the constitution of the state, are supposed to be defended and strengthened by them. There is also the greatest usefulness in them, since it is by their wisdom and their danger that we can enjoy both the republic and also our own private possessions. The power of eloquence also is no doubt valuable and full of dignity, and it has often been of influence in the election of a consul to be able by wisdom and oratory to sway the minds of the senate and the people, and those who decide on affair. A consul is required who may be able sometimes to repress the madness of the tribunes, who may be able to bend the excited populace, who may resist corruption. It is not strange, if, on account of this faculty, even men who were not nobly born have often obtained the consulship; especially when this same quality procures a man great gratitude, and the firmest friendship, and the greatest zeal in his behalf; but! of all this there is nothing, O Sulpicius, in your profession. First of all, what dignity can there be in so limited a science? For they are but small matters, conversant chiefly about single letters and punctuation between words. Secondly, if in the time of our ancestors there was any inclination to marvel at that study of yours, now that all your mysteries are revealed, it is wholly despised and disregarded.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 63,
+        "figure": "sententia",
+        "why": "The topic of more and less: war as the first dignity."
+      },
+      {
+        "start": 1054,
+        "end": 1085,
+        "figure": "apostrophe",
+        "why": "The rival is named so that his science may be measured."
+      },
+      {
+        "start": 1101,
+        "end": 1150,
+        "figure": "rhetorical question",
+        "why": "The question is a reduction of the jurist's art."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-sest-1",
+    "author": "Cicero",
+    "work": "Pro Sestio",
+    "locus": "1",
+    "cue": "Those who raised the country now stand as defendants in mourning; the wreckers go merry through the city.",
+    "text": "If any one in times past, O judges, was used to wonder what was the reason why in a republic of such power, and in an empire of such dignity, there were not found any great number of citizens endowed with so fearless and magnanimous a spirit as to dare to expose themselves and their personal safety to danger on behalf of the constitution of the state and of the general liberty; from henceforward he must wonder if he ever sees any virtuous or intrepid citizens, rather than if he occasionally finds one timid, and caring more for his own interests than for those of the republic. For without calling to mind and considering the case of each separate individual, you can see at one survey those men who joined the senate and all virtuous citizens in raising up our afflicted country, and delivering it from a horde of domestic robbers, now with sad countenances and mourning garments struggling as defendants for their freedom, for their characters, for their rights as citizens, for their fortunes, and for their children; and those who have polluted, and attacked, and thrown into confusion, and overturned all divine and human laws, going about the city merry and joyful, and, while they are without any provocation, contriving danger for the bravest and best of the citizens, in no fear whatever for themselves.",
+    "spans": [
+      {
+        "start": 26,
+        "end": 34,
+        "figure": "apostrophe",
+        "why": "The jury is asked to see the inversion of the city."
+      },
+      {
+        "start": 842,
+        "end": 885,
+        "figure": "hypotyposis",
+        "why": "The defendants are set before the eyes as mourners."
+      },
+      {
+        "start": 1138,
+        "end": 1175,
+        "figure": "antithesis",
+        "why": "The guilty are shown at ease: the pathos of inversion."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-sest-45",
+    "author": "Cicero",
+    "work": "Pro Sestio",
+    "locus": "45",
+    "cue": "Two kinds of men: populares who please the multitude, and the party of the best men.",
+    "text": "There have always in this city been two kinds of men who have been ambitious of being concerned in affairs of state, and of arriving at distinction by such a course and of these two kinds one wish to be considered popular men and the others wish both to be and to be considered of the party of the best men in the state. Those whose object it was that whatever they did and whatever they said should be agreeable to the multitude, were the popular party; but those who conducted themselves in such a way as to induce all the best men to approve of their counsels were considered of the best party. Who then are they? Every good man. If you ask what are their numbers, they are innumerable. For if they were not, we could not stand. They are the chief men of the public council; they are those who follow their school they are the men of the highest orders of the state to whom the senate house is open; they are the citizens of the municipal towns and Roman citizens who dwell in the country; they are men engaged in business; there are even some freedmen of the best party. The number, as I have said, of this party is widely scattered in various directions; but the entire body (to prevent all mistakes) can be described and defined in a few words. All men belong to the best party, who are not guilty of any crime, nor wicked by nature, nor madmen, nor men embarrassed by domestic difficulties. Let it be laid down, then, that these men (this race, as you call them) are all those who are honest and in their senses, and who are well off in their domestic circumstances.",
+    "spans": [
+      {
+        "start": 36,
+        "end": 52,
+        "figure": "definition",
+        "why": "The city is divided in order to name the best party."
+      },
+      {
+        "start": 403,
+        "end": 429,
+        "figure": "antithesis",
+        "why": "The popular party is defined by the pleasure of the crowd."
+      },
+      {
+        "start": 598,
+        "end": 631,
+        "figure": "rhetorical question",
+        "why": "The best party is defined as every good man."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-phil2-1",
+    "author": "Cicero",
+    "work": "Second Philippic",
+    "locus": "2.1",
+    "cue": "Twenty years of enemies of the republic who were also enemies of Cicero; Antony is asked why he does not fear their end.",
+    "text": "To what destiny of mine, O conscript fathers, shall I say that it is owing, that none for the last twenty years has been an enemy to the republic without at the same time declaring war against me? Nor is there any necessity for naming any particular person; you yourselves recollect instances in proof of my statement. They have all hitherto suffered severer punishments than I could have wished for them; but I marvel that you, O Antonius, do not fear the end of these men whose conduct you are imitating. And in others I was less surprised at this. None of those men of former times was a voluntary enemy to me; all of them were attacked by me for the sake of the republic. But you, who have never been injured by me, not even by a word, in order to appear more audacious than Catiline, more frantic than Clodius, have of your own accord attacked me with abuse, and have considered that your alienation from me would be a recommendation of you to impious citizens. What am I to think? that I have been despised? I see nothing either in my life, or in my influence in the city, or in my exploits, or even in the moderate abilities with which I am endowed, which Antonius can despise. Did he think that it was easiest to disparage me in the senate? a body which has borne its testimony in favour of many most illustrious Citizens that they governed the republic well, but in favour of me alone, of all men, that I preserved it. Or did he wish to contend with me in a rivalry of eloquence?",
+    "spans": [
+      {
+        "start": 25,
+        "end": 44,
+        "figure": "apostrophe",
+        "why": "The senate is named as the hearer of this invective."
+      },
+      {
+        "start": 81,
+        "end": 195,
+        "figure": "sententia",
+        "why": "The speaker's life is made one with the republic's danger."
+      },
+      {
+        "start": 759,
+        "end": 814,
+        "figure": "comparison",
+        "why": "Two names of the past are used to measure Antony."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-phil2-44",
+    "author": "Cicero",
+    "work": "Second Philippic",
+    "locus": "2.44–45",
+    "cue": "Armed men around the senate: better to perish than to live in one's city under a guard.",
+    "text": "But this single day, this very day that now is, this very moment while I am speaking, defend your conduct during this very moment, if you can. Why has the senate been surrounded with a belt of armed men? Why are your satellites listening to me sword in hand? Why are not the folding-doors of the temple of Concord open? Why do you bring men of all nations the most barbarous, Ityrcans, armed with arrows, into the forum? He says that he does so as a guard. Is it not then better to perish a thousand times than to be unable to live in one's own city without a guard of armed men? But believe me, there is no protection in that;—a man must be defended by the affection and good will of his fellow-citizens, not by arms. The Roman people will take them from you, will wrest them from your hands. I wish that they may do so while we are still safe. But however you treat us, as long as you adopt those counsels it is impossible for you, believe me, to last long. In truth, that wife of yours, who is so far removed from covetousness, and whom I mention without intending any slight to her, has been too long owing her third payment to the state. The Roman people has men to whom it can entrust the helm of the state; and wherever they are, there is all the defense of the republic, or rather, there is the republic itself; which as yet has only avenged, but has not reestablished itself. Truly and surely has the republic most high-born youths ready to defend it,—though they may for a time keep in the background from a desire for tranquillity, still they can be recalled by the republic at any time.",
+    "spans": [
+      {
+        "start": 21,
+        "end": 84,
+        "figure": "epizeuxis",
+        "why": "The present moment is struck three times."
+      },
+      {
+        "start": 143,
+        "end": 202,
+        "figure": "rhetorical question",
+        "why": "The question is a charge against the guard."
+      },
+      {
+        "start": 628,
+        "end": 717,
+        "figure": "antithesis",
+        "why": "Goodwill against arms: the only real guard."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-phil2-46",
+    "author": "Cicero",
+    "work": "Second Philippic",
+    "locus": "2.46",
+    "cue": "I defended the republic as a young man; I will not abandon it now that I am old.",
+    "text": "With him I can, indeed, compare you as to your desire to reign; but in all other respects you are in no degree to be compared to him. But from the many evils which by him have been burned into the republic, there is still this good, that the Roman people has now learned how much to believe every one, to whom to trust itself, and against whom to guard. Do you never think on these things? And do you not understand that it is enough for brave men to have learned how noble a thing it is as to the act, how grateful it is as to the benefit done, how glorious as to the fame acquired, to slay a tyrant? When men could not bear him, do you think they will bear you? Believe me, the time will come when men will race with one another to do this deed, and when no one will wait for the tardy arrival of an opportunity. Consider, I beg you, Marcus Antonius, do some time or other consider the republic: think of the family of which you are born, not of the men with whom you are living. Be reconciled to the republic. However, do you decide on your conduct. As to mine, I myself will declare what that shall be. I defended the republic as a young man, I will not abandon it now that I am old. I scorned the sword of Catiline, I will not quail before yours. No, I will rather cheerfully expose my own person, if the liberty of the city can her restored by my death. May the indignation of the Roman people at last bring forth what it has been so long laboring with.",
+    "spans": [
+      {
+        "start": 815,
+        "end": 851,
+        "figure": "apostrophe",
+        "why": "Antony is turned to and asked to think of his house, not his company."
+      },
+      {
+        "start": 1107,
+        "end": 1186,
+        "figure": "antithesis",
+        "why": "Youth and age, one office: the speaker's ethos as a life."
+      },
+      {
+        "start": 464,
+        "end": 600,
+        "figure": "tricolon",
+        "why": "The killing of a tyrant is given three measures."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-div-1",
+    "author": "Cicero",
+    "work": "Divinatio in Caecilium",
+    "locus": "1",
+    "cue": "The defender of many, prosecutor of none, explains why he now descends to accuse.",
+    "text": "If any one of you, O judges, or of these who are present here, marvels perhaps at me, that I, who have for so many years been occupied in public causes and trials in such a manner that I have defended many men but have prosecuted no one could now on a sudden change my usual purpose, and descend to act as accuser;—he, if he becomes acquainted with the cause and reason of my present intention, will both approve of what I am doing, and will think, I am sure, that no one ought to be preferred to me as manager of this cause. As I had been quaestor in Sicily, O judges, and had departed for that province so as to leave among all the Sicilians a pleasing and lasting recollection of my quaestorship and of my name, it happened, that while they thought their chief protection lay in many of their ancient patrons, they thought there was also some support for their fortunes secured in me, who, being now plundered and harassed, have all frequently come to me by the public authority, entreating me to undertake the cause and the defence of all their fortunes. They say that I repeatedly promised and repeatedly assured them, that, if any time should arrive when they wanted anything of me, I would not be wanting to their service. They said that the time had come for me to defend not only the advantages they enjoyed, but even the life and safety of the whole province, that they had now not even any gods in their cities to whom they could flee, because Caius Verres had carried off their most sacred images from the very holiest temples.",
+    "spans": [
+      {
+        "start": 19,
+        "end": 27,
+        "figure": "apostrophe",
+        "why": "The jury is asked to see a change of life that is still a duty."
+      },
+      {
+        "start": 185,
+        "end": 236,
+        "figure": "antithesis",
+        "why": "The speaker's custom is named in order to be broken for Sicily."
+      },
+      {
+        "start": 1024,
+        "end": 1057,
+        "figure": "pathos",
+        "why": "The Sicilians' plea is made a plea for their whole fortunes."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-cluent-1",
+    "author": "Cicero",
+    "work": "Pro Cluentio",
+    "locus": "1",
+    "cue": "The accuser's speech is divided: unpopularity first, poisoning almost as a usage.",
+    "text": "I have observed, O judges, that the whole speech of the accuser is divided into two parts, one of which appeared to me to rely upon, and to put its main trust in, the inveterate unpopularity of the trial before Junius; the other, just for the sake of usage, to touch very lightly and diffidently On the method pursued in cases of accusations of poisoning; concerning which matter this form of trial is appointed by law. And, therefore, I have determined to preserve the same division of the subject in my defence, speaking separately to the question of unpopularity and to that of the accusation, in order that every one may understand that I neither wish to evade any point by being silent with respect to it, nor to make anything obscure by speaking of it. But when I consider how much pains I must take with each branch of the question, one division—that, namely, which is the proper subject of your inquiry, the question of the fact of the poisoning—appears to me a very short one, and one which is not likely to give occasion to any great dispute. But with the other division, which, properly, is almost entirely unconnected with the case, and which is better adapted to assemblies in a state of seditious excitement, than to tranquil and orderly courts of justice, I shall, I can easily see, have a great deal of difficulty in dealing, and a great deal of trouble.",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "figure": "apostrophe",
+        "why": "The jury is asked to keep the two parts distinct."
+      },
+      {
+        "start": 67,
+        "end": 89,
+        "figure": "division",
+        "why": "The partitio of the other side is adopted as the order of the defence."
+      },
+      {
+        "start": 641,
+        "end": 757,
+        "figure": "antithesis",
+        "why": "Silence and speech both refused as cheats."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-flacc-1",
+    "author": "Cicero",
+    "work": "Pro Flacco",
+    "locus": "1",
+    "cue": "The colleague who helped save the city is now to be defended from calamity, not decorated.",
+    "text": "When in the greatest perils of this city and empire, in the most important and terrible disasters of the republic, I was repelling slaughter from you, your wives, and your children, devastation from your temples, your altars, from the city and from Italy, with Lucius Flaccus, the companion and assistant of my counsels and my dangers, I used to hope, O judges, that I should some time or other be an assistant of Lucius Flaccus towards obtaining honour, rather than an advocate to defend him from calamity. For what reward of dignity could there be which the Roman people would deny to him, when it had always given them to his ancestors; when Lucius Flaccus had imitated the ancient glory of the Valerian family in delivering his country, nearly five hundred years after the existence of the republic? But if by chance there had existed at any time any detractor from this service, any enemy of this virtue, and envier of this renown, still I thought that Lucius Flaccus would have to encounter the judgment of an ignorant mob, (with no real danger, indeed,) rather than that of most wise and carefully chosen men. I never, indeed, imagined that any one would bring danger upon, or devise plots against, his fortunes, by means of those very men, by whose influence, and under whose protection, the safety, not only of all the citizens, but even of all nations, was at that time defended and preserved.",
+    "spans": [
+      {
+        "start": 352,
+        "end": 360,
+        "figure": "apostrophe",
+        "why": "The jury is asked to repay a saviour with safety, not with honour."
+      },
+      {
+        "start": 131,
+        "end": 180,
+        "figure": "tricolon",
+        "why": "Three objects of the old danger, now made the ground of this defence."
+      },
+      {
+        "start": 467,
+        "end": 506,
+        "figure": "antithesis",
+        "why": "Honour hoped for is replaced by a defence against ruin."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-planc-1",
+    "author": "Cicero",
+    "work": "Pro Plancio",
+    "locus": "1",
+    "cue": "Gratitude for safety in exile is now the very thing that endangers the man who gave it.",
+    "text": "When, O judges, I saw that on account of the eminent and singular good faith of Cnaeus Plancius, shown in taking care of my safety, so many excellent men were favourers of his cause, I felt no ordinary pleasure, because I saw that the recollection of what happened at the time of my necessities was pleading for him whose kindness had been my preservation. But when I heard that men, some of whom were my enemies, and some of whom were envious of me, favoured this accusation and that the very same thing was now adverse to the interests of Cnaeus Plancius in this trial which had been advantageous to him in his canvass, I was grieved, O judges, and was very indignant at the idea of his safety being endangered for the sole reason that he, by his benevolence, and energy, and vigilance had protected my safety and my life. But now, O judges, the sight of you, and the fact of such men as you being the judges, strengthens and refreshes my mind, when I look upon and behold each individual of you; for in all this number I see no one to whom my safety has not been dear, no one who has not acted with the greatest kindness towards me, no one to whom I am not under eternal obligations from the recollection of their services.",
+    "spans": [
+      {
+        "start": 6,
+        "end": 14,
+        "figure": "apostrophe",
+        "why": "The jury is asked to see gratitude on trial."
+      },
+      {
+        "start": 231,
+        "end": 294,
+        "figure": "pathos",
+        "why": "The speaker's exile is made the proof of Plancius's faith."
+      },
+      {
+        "start": 1022,
+        "end": 1070,
+        "figure": "ethos",
+        "why": "The jury itself is claimed as a body of men who saved him."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-rab-1",
+    "author": "Cicero",
+    "work": "Pro Rabirio perduellionis reo",
+    "locus": "1",
+    "cue": "The consul defends a citizen's life because the safety of the republic was entrusted to him.",
+    "text": "Although, O Romans, it is not my custom at the beginning of a speech to give any reason why I am defending each particular defendant, because I have always considered that the mere fact of the danger of any citizen was quite sufficient reason for my considering myself connected with him, still, in this instance, when I come forward to defend the life, and character, and all the fortunes of Caius Rabirius, I think I ought to give a reason for my undertaking this duty; because the very same reason which has appeared to me a most adequate one to prompt me to undertake his defence, ought also to appear to you sufficient to induce you to acquit him. For the ancientness of my friendship with him, and the dignity of the man, and a regard for humanity, and the uninterrupted practice of my life, have instigated me to defend Caius Rabirius; and also the safety of the republic, my duty as consul, the very fact of my being consul since when I was made consul, the safety of the republic, and also that of each individual citizen in it was entrusted to me, compel me to do so with the greatest zeal. For it is not the actual offence, nor any desire to deprive Caius Rabirius in particular of life, nor is it any old, well grounded, serious enmity on the part of any citizen, which has brought him into this peril of his life.",
+    "spans": [
+      {
+        "start": 10,
+        "end": 18,
+        "figure": "apostrophe",
+        "why": "The people are named as the hearers of a charge of treason."
+      },
+      {
+        "start": 172,
+        "end": 242,
+        "figure": "sententia",
+        "why": "Danger itself is made the advocate's brief."
+      },
+      {
+        "start": 852,
+        "end": 897,
+        "figure": "ethos",
+        "why": "The consulship is named as the office that binds him to this defence."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-sul-1",
+    "author": "Cicero",
+    "work": "Pro Sulla",
+    "locus": "1",
+    "cue": "Sulla's wreck of fortune is made an occasion to show lenity now that the republic is safe.",
+    "text": "I should have been very glad, O judges, if Publius Sulla had been able formerly to retain the honour of the dignity to which he was appointed, and had been allowed, after the misfortune which befell him, to derive some reward from his moderation in adversity. But since his unfriendly fortune has brought it about that he has been damaged, even at a time of his greatest honour, by the unpopularity ensuing not only from the common envy which pursues ambitious men, but also by the singular hatred in which Autronius is held, and that even in this sad and deplorable wreck of his former fortunes, he has still some enemies whose hostility he is unable to appease by the punishment which has fallen upon him; although I am very greatly concerned at his distresses, yet in his other misfortunes I can easily endure that an opportunity should be offered to me of causing virtuous men to recognise my lenity and merciful disposition, which was formerly known to every one, but which has of late been interrupted as it were; and of forcing wicked and profligate citizens, being again defeated and vanquished, to confess that, when the republic was in danger, I was energetic and fearless; now that it is said, I am lenient and merciful.",
+    "spans": [
+      {
+        "start": 30,
+        "end": 38,
+        "figure": "apostrophe",
+        "why": "The jury is asked to see a man already punished by fortune."
+      },
+      {
+        "start": 1121,
+        "end": 1182,
+        "figure": "ethos",
+        "why": "The consul's old energy is named as the warrant of present lenity."
+      },
+      {
+        "start": 543,
+        "end": 595,
+        "figure": "pathos",
+        "why": "Fortune's wreck is made the object of pity, not a second punishment."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-deiot-1",
+    "author": "Cicero",
+    "work": "Pro rege Deiotaro",
+    "locus": "1",
+    "cue": "A king on trial for his life, before Caesar: an unheard-of cause, and a cruel grandson.",
+    "text": "In all causes of more than ordinary importance, O Caius Caesar, I am accustomed, at the beginning of my speech, to be more vehemently affected than either common custom or my own age appears to require. And in this particular cause I am agitated by so many considerations, that in proportion as my fidelity to my friend inspires me with zeal to defend the safety of king Deiotarus, in the same proportion do my fears take away from my ability to do so. In the first place, I am speaking in defence of the life and fortunes of a king; and although there is no particular injustice in such a fact, especially when it is oneself who is in danger yet it is so unusual for a king to be tried for his life, that up to this time no such thing has ever been heard of. In the second place, I am compelled now to defend against a most atrocious accusation that very king whom I, in common with all the senate, used formerly to extol on account of his uninterrupted services towards our republic. There is this further consideration, that I am disturbed by the cruelty of one of the prosecutors, and by the unworthy conduct of the other. O cruel, not to say wicked and impious, Castor! a grandson, who has brought his grandfather into danger of his life, and has caused that man to dread his youth, whose old age he was bound to defend and protect; who has sought to recommend his entrance into life to our favour by impiety and wickedness; who has instigated his grandfather's slave, whom he corrupted by bribes, to accuse his master, and has carried him away from the feet of the king's ambassadors.",
+    "spans": [
+      {
+        "start": 48,
+        "end": 62,
+        "figure": "apostrophe",
+        "why": "The judge is the man whose power is itself the danger."
+      },
+      {
+        "start": 653,
+        "end": 758,
+        "figure": "hyperbole",
+        "why": "The novelty of the cause is named as itself a pathos."
+      },
+      {
+        "start": 1127,
+        "end": 1173,
+        "figure": "exclamatio",
+        "why": "The grandson-accuser is cried against by name."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-ver4-1",
+    "author": "Cicero",
+    "work": "Against Verres II.4",
+    "locus": "4.1",
+    "cue": "Verres calls it passion, his friends a disease: Sicily calls it rapine.",
+    "text": "I come now to what Verres himself calls his passion what his friends call his disease, his madness; what the Sicilians call his rapine; what I am to call it, I know not. I will state the whole affair to you, and do you consider it according to its own importance and not by the importance of its name. First of all, O judges, suffer me to make you acquainted with the description of this conduct of his; and then, perhaps, you will not be very much puzzled to know by what name to call it. I say that in all Sicily, in all that wealthy and ancient province, that in that number of towns and families of such exceeding riches, there was no silver vessel, no Corinthian or Delian plate, no jewel or pearl, nothing made of gold or ivory, no statue of marble or brass or ivory, no picture whether painted or embroidered, that he did not seek out, that he did not inspect, that, if he liked it, he did not take away. I seem to be making a very extensive charge; listen now to the manner in which I make it. For I am not embracing everything in one charge for the sake of making an impression, or of exaggerating his guilt. When I say that he left nothing whatever of the sort in the whole province, know that I am speaking according to the strict meaning of the words, and not in the spirit of an accuser.",
+    "spans": [
+      {
+        "start": 14,
+        "end": 134,
+        "figure": "correctio",
+        "why": "Four names for one thing: the last is the true one."
+      },
+      {
+        "start": 141,
+        "end": 168,
+        "figure": "irony",
+        "why": "The pretended hesitation is the charge."
+      },
+      {
+        "start": 636,
+        "end": 702,
+        "figure": "enumeratio",
+        "why": "The inventory is itself the proof of the rapine."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "thuc-cor-1",
+    "author": "Corinthians (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.70",
+    "cue": "The Corinthian comparison: Athenian swiftness against Spartan delay.",
+    "text": "The Athenians are addicted to innovation, and their designs are characterized by swiftness alike in conception and execution; you have a genius for keeping what you have got, accompanied by a total want of invention, and when forced to act you never go far enough. Again, they are adventurous beyond their power, and daring beyond their judgment, and in danger they are sanguine; your wont is to attempt less than is justified by your power, to mistrust even what is sanctioned by your judgment, and to fancy that from danger there is no release. Further, there is promptitude on their side against procrastination on yours; they are never at home, you are never from it: for they hope by their absence to extend their acquisitions, you fear by your advance to endanger what you have left behind. They are swift to follow up a success, and slow to recoil from a reverse. Their bodies they spend ungrudgingly in their country’s cause; their intellect",
+    "spans": [
+      {
+        "start": 0,
+        "end": 40,
+        "figure": "definition",
+        "why": "A national character is named as an argument for war."
+      },
+      {
+        "start": 625,
+        "end": 670,
+        "figure": "antithesis",
+        "why": "Two cities, two habits: absence against staying."
+      },
+      {
+        "start": 281,
+        "end": 345,
+        "figure": "isocolon",
+        "why": "Two beyonds: power and judgment alike exceeded."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-per-last",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "2.61",
+    "cue": "Pericles to an angry city: I am the same man; it is you who change.",
+    "text": "I am the same man and do not alter, it is you who change, since in fact you took my advice while unhurt, and waited for misfortune to repent of it; and the apparent error of my policy lies in the infirmity of your resolution, since the suffering that it entails is being felt by every one among you, while its advantage is still remote and obscure to all, and a great and sudden reverse having befallen you, your mind is too much depressed to persevere in your resolves. For before what is sudden, unexpected, and least within calculation, the spirit quails; and putting all else aside, the plague has certainly been an emergency of this kind. Born, however, as you are, citizens of a great state, and brought up, as you have been, with habits equal to your birth, you should be ready to face the greatest disasters and still to keep unimpaired the lustre of your name. For the judgment of mankind is as relentless to the weakness that falls short of a recognized renown, as it is jealous of the arrogance that aspires higher than its due. Cease then to grieve for your private afflictions, and address yourselves instead to the safety of the commonwealth. “If you shrink before the exertions which the war makes necessary, and fear that after all they may not have a happy result, you know the reasons by which I have often demonstrated to you the groundlessness of your apprehensions. If those are",
+    "spans": [
+      {
+        "start": 0,
+        "end": 56,
+        "figure": "antithesis",
+        "why": "The speaker's ethos is constancy; the city's vice is a change of mind."
+      },
+      {
+        "start": 587,
+        "end": 642,
+        "figure": "exemplum",
+        "why": "The plague is named as the sudden thing that made them quail."
+      },
+      {
+        "start": 1040,
+        "end": 1089,
+        "figure": "apostrophe",
+        "why": "Private grief is commanded aside for the commonwealth."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-mel-2",
+    "author": "Melians (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "5.90",
+    "cue": "The Melians answer in the language of interest they were ordered to use: do not destroy the common protection of right.",
+    "text": "As we think, at any rate, it is expedient—we speak as we are obliged, since you enjoin us to let right alone and talk only of interest—that you should not destroy what is our common protection, the privilege of being allowed in danger to invoke what is fair and right, and even to profit by arguments not strictly valid if they can be got to pass current. And you are as much interested in this as any, as your fall would be a signal for the heaviest vengeance and an example for the world to meditate upon. Athenians. The end of our empire, if end it should, does not frighten us: a rival empire like Lacedaemon, even if Lacedaemon was our real antagonist, is not so terrible to the vanquished as su",
+    "spans": [
+      {
+        "start": 76,
+        "end": 134,
+        "figure": "occupatio",
+        "why": "They accept the enforced topic in order to turn it."
+      },
+      {
+        "start": 171,
+        "end": 267,
+        "figure": "sententia",
+        "why": "Right is named as a common safeguard, not a Melian luxury."
+      },
+      {
+        "start": 406,
+        "end": 460,
+        "figure": "hypothesis",
+        "why": "A future fall of Athens is imagined as the cost of this doctrine."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-ath-sparta",
+    "author": "Athenian ambassadors (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.78",
+    "cue": "The Athenians at Sparta close by bidding the treaty be kept, or the gods of the oaths will witness who began.",
+    "text": "It is a common mistake in going to war to begin at the wrong end, to act first, and wait for disaster to discuss the matter. But we are not yet by any means so misguided, nor, so far as we can see, are you; accordingly, while it is still open to us both to choose aright, we bid you not to dissolve the treaty, or to break your oaths, but to have our differences settled by arbitration according to our agreement. Or else we take the gods who heard the oaths to witness, and if you begin hostilities, whatever line of action you choose, we will try not to be behindhand in repelling you.” Such were the words of the Athenians. After the Lacedaemonians had heard the complaints of the allies against t",
+    "spans": [
+      {
+        "start": 0,
+        "end": 64,
+        "figure": "sententia",
+        "why": "The topic of order: action first, counsel after, is named as a mistake."
+      },
+      {
+        "start": 66,
+        "end": 123,
+        "figure": "antithesis",
+        "why": "Deed against deliberation, in the wrong sequence."
+      },
+      {
+        "start": 342,
+        "end": 412,
+        "figure": "sententia",
+        "why": "The treaty's own remedy is named as still open."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-per-tyr",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "2.63",
+    "cue": "The empire is now like a tyranny: to take it perhaps was wrong; to let it go is unsafe.",
+    "text": "For what you hold is, to speak somewhat plainly, a tyranny; to take it perhaps was wrong, but to let it go is unsafe. And men of these retiring views, making converts of others, would quickly ruin a state; indeed the result would be the same if they could live independent by themselves; for the retiring and unambitious are never secure without vigorous protectors at their side; in fine, such qualities are useless to an imperial city, though they may help a dependency to an unmolested servitude. “But you must not be seduced by citizens like these or angry with me—who, if I voted for war, only did as you did yourselves—in spite of the enemy having invaded your country and done what you could b",
+    "spans": [
+      {
+        "start": 0,
+        "end": 58,
+        "figure": "metaphor",
+        "why": "Empire named as tyranny: the figure is a frankness."
+      },
+      {
+        "start": 60,
+        "end": 116,
+        "figure": "antithesis",
+        "why": "The origin may be unjust; the letting-go is unsafe."
+      },
+      {
+        "start": 292,
+        "end": 365,
+        "figure": "sententia",
+        "why": "Unambition is named as unsafe in an imperial city."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "dem-phil1-1",
+    "author": "Demosthenes",
+    "work": "First Philippic",
+    "locus": "4.1–2",
+    "cue": "If the question were new he would wait; since it is old, he rises first, and forbids downheartedness.",
+    "text": "If some new subject were being brought before us, men of Athens, I would have waited until most of your ordinary advisers had declared their opinion; and if anything that they said were satisfactory to me, I would have remained silent, and only if it were not so, would I have attempted to express my own view. But since we find ourselves once more considering a question upon which they have often spoken, I think I may reasonably be pardoned for rising first of all. For if their advice to you in the past had been what it ought to have been, you would have had no occasion for the present debate. In the first place, then, men of Athens, we must not be downhearted at our present situation, however wretched it may seem to be. For in the worst feature of the past lies our best hope for the future-in the fact, that is, that we are in our present plight because you are not doing your duty in any respect; for if you were doing all that you should do, and we were still in this evil case, we could not then even hope for any improvement. In the second place, you must bear in mind (what s",
+    "spans": [
+      {
+        "start": 50,
+        "end": 63,
+        "figure": "apostrophe",
+        "why": "The assembly is named as the hearer of a question already too often spoken."
+      },
+      {
+        "start": 65,
+        "end": 148,
+        "figure": "occupatio",
+        "why": "The usual order of speakers is named in order to be reversed."
+      },
+      {
+        "start": 641,
+        "end": 728,
+        "figure": "sententia",
+        "why": "The worst of the past is turned into the best hope: you were not doing your duty."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-chers-40",
+    "author": "Demosthenes",
+    "work": "On the Chersonese",
+    "locus": "8.39–40",
+    "cue": "Make up your minds: Philip is at war with Athens, and with every man in it, even those who think they have his favour.",
+    "text": "Philip is at war with Athens, and has broken the Peace--you must cease to lay the blame at one another's doors--and that he is evilly-disposed and hostile to the whole city, down to the very ground on which it is built; nay, I will go further--hostile to every single man in the city, even to those who are most sure that they are winning his favour. (If you think otherwise, consider the case of Euthycrates and Lasthenes of Olynthus, who fancied that they were on the most friendly terms with him, but, after they had betrayed their city, suffered the most utter ruin of all.) But his hostilities and intrigues are aimed at nothing so much as at our constitution, whose overthrow is the very first object in the world to him. And in a sense it is natural that he should aim at this. For he knows very well that even if he becomes master of all the rest of the world, he can retain noth",
+    "spans": [
+      {
+        "start": 0,
+        "end": 54,
+        "figure": "sententia",
+        "why": "The name of peace is refused: the fact is war."
+      },
+      {
+        "start": 56,
+        "end": 110,
+        "figure": "apostrophe",
+        "why": "The city is told to stop accusing itself and name the enemy."
+      },
+      {
+        "start": 285,
+        "end": 349,
+        "figure": "irony",
+        "why": "The supposed friends of Philip are named as already his prey."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "cic-mur-29",
+    "author": "Cicero",
+    "work": "Pro Murena",
+    "locus": "30.61–63",
+    "cue": "Cato is praised as already formed for virtue; his education, a little harsh, is to be guided, not blamed.",
+    "text": "I, O Cato, do not venture to find fault with your intentions, by reason of my extraordinarily high opinion of your virtue; but in some particulars I may perhaps be able slightly to amend and reform them. “You are not very wrong,” said an aged tutor to a very brave man; “but if you are wrong, I can set you right.” But I can say with the greatest truth that you never do wrong, and that your conduct is never such in any point as to need correction, but only such as occasionally to require being guided a little. For nature has herself formed you for honesty, and gravity, and moderation, and magnanimity, and justice; and for all the virtues required to make a great and noble man. To all these qualities are added an education not moderate, nor mild, but as it seems to me, a little harsh and severe, more so than either truth or nature would permit. And since we are not to address this speech either to an ignorant multitude, or to any assembly of rustics, I will speak a little boldly about the pursuits of educated men, which are both well known and agreeable to you, O judges, and to me. Learn then, O judges, that all these good qualities, divine and splendid as they are, which we behold in Marcus Cato, are his own peculiar attributes. The qualities which we sometimes wish for in him, are not all those which are implanted in a man by nature, but some of them are such as are derived from education. For there was once a man of the greatest genius, whose name was Zeno, the imitators of whose example are called Stoics.",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "figure": "apostrophe",
+        "why": "The Stoic accuser is named as a man whose virtue the defence will not wound."
+      },
+      {
+        "start": 11,
+        "end": 60,
+        "figure": "ethos",
+        "why": "The speaker's reverence is the opening of the correction."
+      },
+      {
+        "start": 552,
+        "end": 618,
+        "figure": "enumeratio",
+        "why": "The virtues are listed so that a little harshness may be named as the one excess."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-man-13",
+    "author": "Cicero",
+    "work": "De lege Manilia",
+    "locus": "13.36–37",
+    "cue": "Pompey's virtue is called godlike; then the satellites of generalship are named one by one.",
+    "text": "This is the godlike and incredible virtue of that general. What more shall I say? How many and how great are his other exploits which I began to mention a short time back; for we are not only to seek for skill in war in a consummate and perfect general, but there are many other eminent qualities which are the satellites and companions of this virtue. And first of all, how great should be the incorruptibility of generals! How great should be their moderation in everything! How perfect their good faith! How universal should be their affability! how brilliant their genius! how tender their humanity! And let us briefly consider to what extent these qualities exist in Cnaeus Pompeius. For they are all of the highest importance, O Romans, but yet they are to be seen and ascertained more by comparison with the conduct of others than by any display which they make of themselves. For how can we rank a man among generals of any class at all, if centurionships are sold, and have been constantly sold in his army? What great or honourable thoughts can we suppose that that man cherishes concerning the republic, who has either distributed the money which was taken from the treasury for the conduct of the war among the magistrates, out of ambition to keep his province, or, out of avarice, has left it behind him at Rome, invested for his own advantage? Your murmurs show, O Romans, that you recognise, in my description, men who have done these things. But I name no one, so that no one can be angry with me, without making confession beforehand of his own malpractices.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 57,
+        "figure": "hyperbole",
+        "why": "The general's virtue is raised so that the people may trust the law."
+      },
+      {
+        "start": 425,
+        "end": 506,
+        "figure": "rhetorical question",
+        "why": "The list of a general's companions is asked as if the answer were already Pompey."
+      },
+      {
+        "start": 733,
+        "end": 741,
+        "figure": "apostrophe",
+        "why": "The people are named as those who can see the qualities more than they can be counted."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "sal-cato-1",
+    "author": "Cato (Sallust)",
+    "work": "Bellum Catilinae",
+    "locus": "52.1–4",
+    "cue": "Cato opens against the speakers who have thought only of punishing the traitors, not of securing the city.",
+    "text": "My feelings, Conscript Fathers, are extremely different, when I contemplate our circumstances and dangers, and when I revolve in my mind the sentiments of some who have spoken before me. Those speakers, as it seems to me, have considered only how to punish the traitors who have raised war against their country, their parents, their altars, and their homes; but the state of affairs warns us rather to secure ourselves against them, than to take counsel as to what sentence we should pass upon them. Other crimes you may punish after they have been committed; but as to this, unless you prevent its commission, you will, when it has once taken effect, in vain appeal to justice. When the city is taken, no power is left to the vanquished. But, in the name of the immortal gods, I call upon you, who have always valued your mansions an",
+    "spans": [
+      {
+        "start": 0,
+        "end": 55,
+        "figure": "apostrophe",
+        "why": "The senate is named, and the speaker's difference from the last speakers."
+      },
+      {
+        "start": 243,
+        "end": 357,
+        "figure": "enumeratio",
+        "why": "Country, parents, altars, homes: four things the war has already named."
+      },
+      {
+        "start": 680,
+        "end": 738,
+        "figure": "sententia",
+        "why": "Punishment after the fact is refused as counsel for a city still standing."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "sallust_w"
+    ]
+  },
+  {
+    "id": "aug-tolle",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "8.12",
+    "cue": "A child's chant from a neighbouring house: take up and read.",
+    "text": "Take up and read; Take up and read.\" Instantly, my countenance altered, I began to think most intently whether children were wont in any kind of play to sing such words: nor could I remember ever to have heard the like. So checking the torrent of my tears, I arose; interpreting it to be no other than a command from God to open the book, and read the first chapter I should find. For I had heard of Antony, that coming in during the reading of the Gospel, he received the admonition, as if what was being read was spoken to him: Go, sell all that thou hast, and give to the poor, and thou shalt have treasure in heaven, and come and follow me: and by such oracle he was forthwith converted unto Thee. Eagerly then I returned to the place where Alypius was sitting; for there had I laid the volume of the Apostle when I arose thence. I seized, opened, and in silence read that section on which my eye",
+    "spans": [
+      {
+        "start": 0,
+        "end": 35,
+        "figure": "anaphora",
+        "why": "The command is doubled so that it may be heard as from God."
+      },
+      {
+        "start": 223,
+        "end": 255,
+        "figure": "metaphor",
+        "why": "Tears named as a torrent the will must dam."
+      },
+      {
+        "start": 288,
+        "end": 337,
+        "figure": "sententia",
+        "why": "The chant is interpreted as an oracle, not as play."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ],
+    "orig": "Tolle lege, tolle lege.",
+    "olang": "la"
+  },
+  {
+    "id": "aug-hort",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "3.4",
+    "cue": "Cicero's Hortensius turns his prayers: not the style, but the matter.",
+    "text": "This book of his contains an exhortation to philosophy, and is called \"Hortensius.\" But this book altered my affections, and turned my prayers to Thyself O Lord; and made me have other purposes and desires. Every vain hope at once became worthless to me; and I longed with an incredibly burning desire for an immortality of wisdom, and began now to arise, that I might return to Thee. For not to sharpen my tongue (which thing I seemed to be purchasing with my mother's allowances, in that my nineteenth year, my father being dead two years before), not to sharpen my tongue did I employ that book; nor did it infuse into me its style, but its matter. How did I burn then, my God, how did I burn to re-mount from earthly things to Thee, nor knew I what Thou wouldest do with me? For with Thee is wisdom. But the love of wisdom is in Greek called \"philosophy,\" with which that book inflamed me. Some t",
+    "spans": [
+      {
+        "start": 0,
+        "end": 83,
+        "figure": "exemplum",
+        "why": "The pagan book is named as the instrument that turned the prayers."
+      },
+      {
+        "start": 550,
+        "end": 650,
+        "figure": "antithesis",
+        "why": "Style is refused; matter is taken: rhetoric's usual purchase is denied."
+      },
+      {
+        "start": 652,
+        "end": 695,
+        "figure": "exclamatio",
+        "why": "The doubled burn is the pathos of conversion before baptism."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-ostia",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "9.10",
+    "cue": "At Ostia the flesh is hushed, and mother and son touch the eternal Wisdom.",
+    "text": "We were saying then: If to any the tumult of the flesh were hushed, hushed the images of earth, and waters, and air, hushed also the pole of heaven, yea the very soul be hushed to herself, and by not thinking on self surmount self, hushed all dreams and imaginary revelations, every tongue and every sign, and whatsoever exists only in transition, since if any could hear, all these say, We made not ourselves, but He made us that abideth for ever--If then having uttered this, they too should be hushed, having roused only our ears to Him who made them, and He alone speak, not by them but by Himself, that we may hear His Word, not through any tongue of flesh, nor Angel's voice, nor sound of thunder, nor in the dark riddle of a similitude, but might hear Whom in these things we love, might hear His Very Self without these (as we two now strained ourselves, and in swift thought touched on that",
+    "spans": [
+      {
+        "start": 21,
+        "end": 66,
+        "figure": "anaphora",
+        "why": "Hushed, hushed: the world is silenced so that the Word may be heard."
+      },
+      {
+        "start": 388,
+        "end": 447,
+        "figure": "sententia",
+        "why": "The creatures' confession is made the step to the Maker."
+      },
+      {
+        "start": 630,
+        "end": 702,
+        "figure": "enumeratio",
+        "why": "Three mediations refused, so that the Word may be heard without them."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-mem",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "10.17",
+    "cue": "Memory is a fearful manifoldness: this thing is the mind, and this am I myself.",
+    "text": "Great is the power of memory, a fearful thing, O my God, a deep and boundless manifoldness; and this thing is the mind, and this am I myself. What am I then, O my God? What nature am I? A life various and manifold, and exceeding immense. Behold in the plains, and caves, and caverns of my memory, innumerable and innumerably full of innumerable kinds of things, either through images, as all bodies; or by actual presence, as the arts; or by certain notions or impressions, as the affections of the mind, which, even when the mind doth not feel, the memory retaineth, while yet whatsoever is in the memory is also in the mind--over all these do I run, I fly; I dive on this side and on that, as far as I can, and there is no end. So great is the force of memory, so great the force of life, even in t",
+    "spans": [
+      {
+        "start": 0,
+        "end": 55,
+        "figure": "apostrophe",
+        "why": "God is named as the hearer of a question about the mind."
+      },
+      {
+        "start": 96,
+        "end": 140,
+        "figure": "definition",
+        "why": "Memory is identified with the mind, and the mind with the man."
+      },
+      {
+        "start": 297,
+        "end": 360,
+        "figure": "polyptoton",
+        "why": "Innumerable thrice: the figure is the boundlessness it names."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-fields",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "10.8",
+    "cue": "He rises past nature into the fields and palaces of memory, where images keep what the senses brought.",
+    "text": "I will pass then beyond this power of my nature also, rising by degrees unto Him Who made me. And I come to the fields and spacious palaces of my memory, where are the treasures of innumerable images, brought into it from things of all sorts perceived by the senses. There is stored up, whatsoever besides we think, either by enlarging or diminishing, or any other way varying those things which the sense hath come to; and whatever else hath been committed and laid up, which forgetfulness hath not yet swallowed up and buried. When I enter there, I require what I will to be brought forth, and something instantly comes; others must be longer sought after, which are fetched, as it were, out of some inner receptacle; others rush out in troops, and while one thing is desired and required, they start forth, as who should say, \"Is it perchance I?\"",
+    "spans": [
+      {
+        "start": 0,
+        "end": 52,
+        "figure": "sententia",
+        "why": "The mind is told to climb past itself toward the Maker."
+      },
+      {
+        "start": 108,
+        "end": 152,
+        "figure": "metaphor",
+        "why": "Memory is made a landscape: fields and palaces for what the senses stored."
+      },
+      {
+        "start": 830,
+        "end": 848,
+        "figure": "prosopopoeia",
+        "why": "The images speak, crowding forward as if they were the thing sought."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-study",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "1.12",
+    "cue": "He loved not study, and hated to be forced; yet the forcing was well, and his will was not.",
+    "text": "I loved not study, and hated to be forced to it. Yet I was forced; and this was well done towards me, but I did not well; for, unless forced, I had not learnt. But no one doth well against his will, even though what he doth, be well. Yet neither did they well who forced me, but what was well came to me from Thee, my God. For they were regardless how I should employ what they forced me to learn, except to satiate the insatiate desires of a wealthy beggary, and a shameful glory. But Thou, by whom the very hairs of our head are numbered, didst use for my good the error of all who urged me to learn; and my own, who would not learn, Thou didst use for my punishment--a fit penalty for one, so small a boy and so great a sinner. So by those who did not well, Thou didst well for me; and by my own s",
+    "spans": [
+      {
+        "start": 0,
+        "end": 47,
+        "figure": "antithesis",
+        "why": "Love and hate named together as the boy's will against the lesson."
+      },
+      {
+        "start": 127,
+        "end": 158,
+        "figure": "sententia",
+        "why": "The good came by a means he did not will."
+      },
+      {
+        "start": 734,
+        "end": 783,
+        "figure": "antithesis",
+        "why": "Their error and his sin are both turned to a use."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-eyes",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "9.12",
+    "cue": "He closed Monica's eyes: a mighty sorrow, and a command that the fountain of tears be drunk dry.",
+    "text": "I closed her eyes; and there flowed withal a mighty sorrow into my heart, which was overflowing into tears; mine eyes at the same time, by the violent command of my mind, drank up their fountain wholly dry; and woe was me in such a strife! But when she breathed her last, the boy Adeodatus burst out into a loud lament; then, checked by us all, held his peace. In like manner also a childish feeling in me, which was, through my heart's youthful voice, finding its vent in weeping, was checked and silenced. For we thought it not fitting to solemnise that funeral with tearful lament, and groanings; for thereby do they for the most part express grief for the departed, as though unhappy, or altogether dead; whereas she was neither unhappy in her death, nor altogether dead. Of this we were assured on good grounds, the testimony of her good conversation and her faith unfeigned. What then was it which did grievously pain me within, but a fresh wound wrought through the sudden wrench of that most sweet and dear custom of living together? I joyed indeed in her testimony, when, in that her last si",
+    "spans": [
+      {
+        "start": 0,
+        "end": 17,
+        "figure": "hypotyposis",
+        "why": "The last office is set before the eyes."
+      },
+      {
+        "start": 108,
+        "end": 205,
+        "figure": "metaphor",
+        "why": "Tears named as a fountain the will can drink back."
+      },
+      {
+        "start": 717,
+        "end": 774,
+        "figure": "antithesis",
+        "why": "Grief is checked by a doctrine of the departed."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-ddc-1",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.1.1",
+    "cue": "The whole work divided: ascertaining the meaning, then making it known.",
+    "text": "There are two things on which all interpretation of Scripture depends: the mode of ascertaining the proper meaning, and the mode of making known the meaning when it is ascertained. I shall treat first of the mode of ascertaining, next of the mode of making known, the meaning. As, then, I have already said a great deal about the mode of ascertaining the meaning, and have given three books to this one part of the subject, I shall only say a few things about the mode of making known the meaning, in order if possible to bring them all within the compass of one book, and so finish the whole work in four books. 2. In the first place, then, I wish by this preamble to put a stop to the expectations of readers who may think that I am about to lay down rules of rhetoric such as I have learned, and taught too, in the secular schools, and to warn them that they need not look for any such from me. N",
+    "spans": [
+      {
+        "start": 0,
+        "end": 69,
+        "figure": "division",
+        "why": "Two offices named before either is treated."
+      },
+      {
+        "start": 71,
+        "end": 179,
+        "figure": "antithesis",
+        "why": "Finding against speaking: Book IV is the second office."
+      },
+      {
+        "start": 181,
+        "end": 262,
+        "figure": "enumeratio",
+        "why": "The order of the four books is itself a taxis."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-5",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.5.7",
+    "cue": "Wisdom without eloquence still profits; eloquent nonsense is the danger.",
+    "text": "we must beware of the man who abounds in eloquent nonsense, and so much the more if the hearer is pleased with what is not worth listening to, and thinks that because the speaker is eloquent what he says must be true. And this opinion is held even by those who think that the art of rhetoric should be taught; for they confess that though wisdom without eloquence is of little service to states, yet eloquence without wisdom is frequently a positive injury, and is of service never. If, then, the men who teach the principles of eloquence have been forced by truth to confess this in the very books which treat of eloquence, though they were ignorant of the true, that is, the heavenly wisdom which comes down from the Father of Lights, how much more ought we to feel it who are the sons and the ministers of this higher wisdom! Now a man speaks with more or less wisdom just as he has made more or",
+    "spans": [
+      {
+        "start": 0,
+        "end": 58,
+        "figure": "sententia",
+        "why": "Eloquence without matter is named as the thing to fear."
+      },
+      {
+        "start": 84,
+        "end": 141,
+        "figure": "pathos",
+        "why": "Pleasure in the empty speech is the hearer's share of the danger."
+      },
+      {
+        "start": 159,
+        "end": 216,
+        "figure": "irony",
+        "why": "The false inference from style to truth is named in order to be refused."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-6",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.6.9",
+    "cue": "The sacred writers are not wise only: where they are understood, they are eloquent too.",
+    "text": "For where I understand these writers, it seems to me not only that nothing can be wiser, but also that nothing can be more eloquent. And I venture to affirm that all who truly understand what these writers say, perceive at the same time that it could not have been properly said in any other way. For as there is a kind of eloquence that is more becoming in youth, and a kind that is more becoming in old age, and nothing can be called eloquence if it be not suitable to the person of the speaker, so there is a kind of eloquence that is becoming in men who justly claim the highest authority, and who are evidently inspired of God. With this eloquence they spoke; no other would have been suitable for them; and this itself would be unsuitable in any other, for it is in keeping with their character, while it mounts as far above that of others (not from empty inflation, but from solid merit) as i",
+    "spans": [
+      {
+        "start": 53,
+        "end": 131,
+        "figure": "antithesis",
+        "why": "Wisdom and eloquence are joined in the canon."
+      },
+      {
+        "start": 242,
+        "end": 295,
+        "figure": "sententia",
+        "why": "The wording is named as necessary, not ornamental."
+      },
+      {
+        "start": 313,
+        "end": 408,
+        "figure": "antithesis",
+        "why": "Two ages, two becoming styles: even Scripture has decorum."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-10",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.10.24",
+    "cue": "Clearness may neglect polish: a careful negligence, without vulgarity.",
+    "text": "Now a strong desire for clearness sometimes leads to neglect of the more polished forms of speech, and indifference about what sounds well, compared with what clearly expresses and conveys the meaning intended. Whence a certain author, when dealing with speech of this kind, says that there is in it a kind of careful negligence. Yet while taking away ornament, it does not bring in vulgarity of speech; though good teachers have, or ought to have, so great an anxiety about teaching that they will employ a word which cannot be made pure Latin without becoming obscure or ambiguous, but which when used according to the vulgar idiom is neither ambiguous nor obscure, not in the way the learned, but rather in the way the unlearned employ it. For if our translators did not shrink from saying, Non congregabo conventicula eorum de sanguinibus, because they felt that it was important for the sense t",
+    "spans": [
+      {
+        "start": 4,
+        "end": 97,
+        "figure": "sententia",
+        "why": "Perspicuity is given leave to refuse ornament."
+      },
+      {
+        "start": 300,
+        "end": 328,
+        "figure": "oxymoron",
+        "why": "The style is named as negligence that is still care."
+      },
+      {
+        "start": 340,
+        "end": 402,
+        "figure": "antithesis",
+        "why": "Ornament may go; vulgarity may not come."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-13",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.13.29",
+    "cue": "Truth in a pleasing form is still not enough: the stubborn must also yield consent.",
+    "text": "But for the sake of those who are so fastidious that they do not care for truth unless it is put in the form of a pleasing discourse, no small place has been assigned in eloquence to the art of pleasing. And yet even this is not enough for those stubborn-minded men who both understand and are pleased with the teacher's discourse, without deriving any profit from it. For what does it profit a man that he both confesses the truth and praises the eloquence, if he does not yield his consent, when it is only for the sake of securing his consent that the speaker in urging the truth gives careful attention to what he says? If the truths taught are such that to believe or to know them is enough, to give one's assent implies nothing more than to confess that they are true. When, however, the truth taught is one that must be carried into practice, and that is taught for the very purpose of being",
+    "spans": [
+      {
+        "start": 53,
+        "end": 132,
+        "figure": "sententia",
+        "why": "The fastidious hearer is named as the reason delectare has a place."
+      },
+      {
+        "start": 134,
+        "end": 202,
+        "figure": "definition",
+        "why": "Pleasing is an office, not a vice, of the Christian orator."
+      },
+      {
+        "start": 459,
+        "end": 491,
+        "figure": "sententia",
+        "why": "Instruction and praise without obedience are named as profitless."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-15",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.15.32",
+    "cue": "The Christian orator should be heard with intelligence, pleasure, and obedience, and should pray first.",
+    "text": "And so our Christian orator, while he says what is just, and holy, and good (and he ought never to say anything else), does all he can to be heard with intelligence, with pleasure, and with obedience; and he need not doubt that if he succeed in this object, and so far as he succeeds, he will succeed more by piety in prayer than by gifts of oratory; and so he ought to pray for himself, and for those he is about to address, before he attempts to speak. And when the hour has come that he must speak, he ought, before he opens his mouth, to lift up his thirsty soul to God, to drink in what he is about to pour forth, and to be himself filled with what he is about to distribute. For, as in regard to every matter of faith and love there are many things that may be said, and many ways of saying them, who knows what it is expedient at a given moment for us to say, or to be heard saying, except",
+    "spans": [
+      {
+        "start": 135,
+        "end": 199,
+        "figure": "tricolon",
+        "why": "Cicero's three ends are baptized as hearing's three marks."
+      },
+      {
+        "start": 285,
+        "end": 349,
+        "figure": "antithesis",
+        "why": "Prayer is named as more than technique."
+      },
+      {
+        "start": 358,
+        "end": 424,
+        "figure": "sententia",
+        "why": "The orator's first office is named as prayer, not invention."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-18",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.18.35",
+    "cue": "Legal questions have small and great; the church's questions, he says, are all great.",
+    "text": "For of legal questions those are called small which have reference to pecuniary transactions; those great where a matter relating to man's life or liberty comes up. Cases, again, which have to do with neither of these, and where the intention is not to get the hearer to do, or to pronounce judgment upon anything, but only to give him pleasure, occupy as it were a middle place between the former two, and are on that account called middling, or moderate. For moderate things get their name from modus (a measure); and it is an abuse, not a proper use of the word moderate, to put it for little. In questions like ours, however, where all things, and especially those addressed to the people from the place of authority, ought to have reference to men's salvation, and that not their temporal but their eternal salvation, and where also the thing to be guarded against is eternal ruin, everythin",
+    "spans": [
+      {
+        "start": 23,
+        "end": 132,
+        "figure": "antithesis",
+        "why": "The forum's small and great are named in order to be refused."
+      },
+      {
+        "start": 70,
+        "end": 92,
+        "figure": "exemplum",
+        "why": "Money is the mark of the small cause Cicero could still divide."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-19",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.19.38",
+    "cue": "Great matters, but not always in a majestic tone: subdued to teach, temperate to praise, power to move the unwilling.",
+    "text": "And yet, while our teacher ought to speak of great matters, he ought not always to be speaking of them in a majestic tone, but in a subdued tone when he is teaching, temperately when he is giving praise or blame. When, however, something is to be done, and we are speaking to those who ought, but are not willing, to do it, then great matters must be spoken of with power, and in a manner calculated to sway the mind. And sometimes the same important matter is treated in all these ways at different times, quietly when it is being taught, temperately when its importance is being urged, and powerfully when we are forcing a mind that is averse to the truth to turn and embrace it. For is there anything greater than God Himself? Is nothing, then, to be learned about Him? Or ought he who is teaching the Trinity in unity to speak of it otherwise than in the method of calm discussion, so that in reg",
+    "spans": [
+      {
+        "start": 60,
+        "end": 121,
+        "figure": "sententia",
+        "why": "The matter is great; the tone must still vary with the office."
+      },
+      {
+        "start": 127,
+        "end": 211,
+        "figure": "antithesis",
+        "why": "Two offices, two styles, before the third is named."
+      },
+      {
+        "start": 329,
+        "end": 411,
+        "figure": "sententia",
+        "why": "When something is to be done, the majestic style is the one that sways."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-26",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.26.56",
+    "cue": "Perspicuity, beauty, and persuasive power belong to every style, not one to each.",
+    "text": "Now in regard to the three conditions I laid down a little while ago as necessary to be fulfilled by any one who wishes to speak with wisdom and eloquence, viz., perspicuity, beauty of style, and persuasive power, we are not to understand that these three qualities attach themselves respectively to the three several styles of speech, one to each, so that perspicuity is a merit peculiar to the subdued style, beauty to the temperate, and persuasive power to the majestic. On the contrary, all speech, whatever its style, ought constantly to aim at, and as far as possible to display, all these three merits. For we do not like even what we say in the subdued style to pall upon the hearer; and therefore we would be listened to, not with intelligence merely, but with pleasure as well. Again, why do we enforce what we teach by divine testimony, except that we wish to carry the hearer with us, tha",
+    "spans": [
+      {
+        "start": 162,
+        "end": 212,
+        "figure": "tricolon",
+        "why": "Three conditions for any wise and eloquent speech."
+      },
+      {
+        "start": 214,
+        "end": 324,
+        "figure": "correctio",
+        "why": "The false mapping of quality to style is named in order to be denied."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-27",
+    "author": "Augustine",
+    "work": "De doctrina christiana IV",
+    "locus": "4.27.59",
+    "cue": "Whatever the majesty of the style, the speaker's life will count for more.",
+    "text": "But whatever may be the majesty of the style, the life of the speaker will count for more in securing the hearer's compliance. The man who speaks wisely and eloquently, but lives wickedly, may, it is true, instruct many who are anxious to learn; though, as it is written, he is unprofitable to himself. Sirach 37:19 Wherefore, also, the apostle says: Whether in pretence or in truth Christ is preached. Philippians 1:18 Now Christ is the truth; yet we see that the truth can be preached, though not in truth — that is, what is right and true in itself may be preached by a man of perverse and deceitful mind. And thus it is that Jesus Christ is preached by those that seek their own, and not the things that are Jesus Christ 's. But since true believers obey the voice, not of any man, but of the Lord Himself, who says, All therefore whatsoever they bid you observe, that observe and do: but do no",
+    "spans": [
+      {
+        "start": 46,
+        "end": 125,
+        "figure": "sententia",
+        "why": "Ethos of life is named as stronger than the majestic style."
+      },
+      {
+        "start": 127,
+        "end": 187,
+        "figure": "antithesis",
+        "why": "Wise speech against wicked life: the hearer may still learn, the speaker is unprofitable to himself."
+      },
+      {
+        "start": 272,
+        "end": 301,
+        "figure": "sententia",
+        "why": "The preacher's own loss is named from Scripture."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-serm-52",
+    "author": "Augustine",
+    "work": "Sermon 102",
+    "locus": "1",
+    "cue": "If they despise the preacher they despise Christ: the gospel word is made to reach the present pulpit.",
+    "text": "What our Lord Jesus Christ at that time spoke to His disciples was put in writing, and prepared for us to hear. And so we have heard His words. For what profit would it be to us if He were seen, and were not heard? And now it is no hurt, that He is not seen, and yet is heard. He says then, He that despises you, despises Me. If to the Apostles only He said, He that despises you, despises Me; do ye despise us. But if His word reach to us, and He has called us, and set us in their place, see that you despise not us, lest the wrong you shall do unto us reach to Him. For if you fear not us, fear Him who said, He that despises you, despises Me. But why do we, who are unwilling to be despised by you, speak to you, except that we may have joy of your good conversation? Let your good works be the solace of our perils. Live well, that you may not d",
+    "spans": [
+      {
+        "start": 0,
+        "end": 110,
+        "figure": "sententia",
+        "why": "The old word is named as written for present hearers."
+      },
+      {
+        "start": 148,
+        "end": 214,
+        "figure": "rhetorical question",
+        "why": "Seeing without hearing is named as profitless."
+      },
+      {
+        "start": 291,
+        "end": 324,
+        "figure": "exemplum",
+        "why": "The gospel sentence is turned upon this congregation."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_npnf"
+    ]
+  },
+  {
+    "id": "aug-ep137",
+    "author": "Augustine",
+    "work": "Letter 137",
+    "locus": "1.1",
+    "cue": "To Volusianus: a delay would be injustice, because he himself had asked for the questions.",
+    "text": "I have read your letter, containing an abstract of a notable conversation given with praiseworthy conciseness. I feel bound to reply to it, and to forbear from alleging any excuse for delay; for it happens opportunely that I have a short time of leisure from occupation with the affairs of other persons. I have also put off in the meantime dictating to my amanuensis certain things to which I had purposed to devote this leisure, for I think it would be a grievous injustice to delay answering questions which I had myself exhorted the questioner to propound. For which of us who are administering, as we are able, the grace of Christ would wish to see you instructed in Christian doctrine only so far as might suffice to secure to yourself salvation — not salvation in this present life, which, as",
+    "spans": [
+      {
+        "start": 0,
+        "end": 73,
+        "figure": "prooimion",
+        "why": "The letter opens by naming what it answers."
+      },
+      {
+        "start": 435,
+        "end": 559,
+        "figure": "ethos",
+        "why": "The duty to answer is named as his own exhortation coming home."
+      },
+      {
+        "start": 616,
+        "end": 635,
+        "figure": "sententia",
+        "why": "The office of the answer is named as administering grace, not winning a dispute."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "aug_npnf"
+    ]
+  },
+  {
+    "id": "chrys-stat-2",
+    "author": "John Chrysostom",
+    "work": "Homilies on the Statues",
+    "locus": "2.1",
+    "cue": "After the riot: a season for tears, not words; for prayer, not preaching.",
+    "text": "What shall I say, or what shall I speak of? The present season is one for tears, and not for words; for lamentation, not for discourse; for prayer, not for preaching. Such is the magnitude of the deeds daringly done; so incurable is the wound, so deep the blow, even beyond the power of all treatment, and craving assistance from above. Thus it was that Job, when he had lost all, sat himself down upon a dunghill; and his friends heard of it, and came, and seeing him, while yet afar off, they rent their garments, and sprinkled themselves with ashes, and made great lamentation. Job 2:8, 12 The same thing now ought all the cities around to do, to come to our city and to lament with all sympathy what has befallen us. He then sat down on his dunghill; she is now seated in the midst of a great snare. For even as the devil then leaped violently t",
+    "spans": [
+      {
+        "start": 0,
+        "end": 43,
+        "figure": "aporia",
+        "why": "The opening is a confessed failure of speech."
+      },
+      {
+        "start": 44,
+        "end": 165,
+        "figure": "antithesis",
+        "why": "Three pairs: tears against words, lament against discourse, prayer against preaching."
+      },
+      {
+        "start": 217,
+        "end": 260,
+        "figure": "metaphor",
+        "why": "The city's crime is named as a wound beyond treatment."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "chrys_npnf"
+    ]
+  },
+  {
+    "id": "chrys-stat-1",
+    "author": "John Chrysostom",
+    "work": "Homilies on the Statues",
+    "locus": "1.1",
+    "cue": "The apostle's word is a trumpet and a lyre: it dismays the enemy and soothes the city's thoughts.",
+    "text": "that trumpet from heaven, that spiritual lyre! For even as a trumpet sounding a fearful and warlike note, it both dismays the enemy, and arouses the dejected spirits on its own side, and filling them with great boldness, renders those who attend to it invincible against the devil! And again, as a lyre, that gently soothes with soul-captivating melody, it puts to slumber the disquietudes of perverse thoughts; and thus, with pleasure, instills into us much profit. You have heard then today the Apostle discoursing to Timothy of various necessary matters! For he wrote to him as to the laying on of hands, saying, Lay hands suddenly on no man, neither be partaker of other men's sins. 1 Timothy 5:22 And he explained the grievous danger of such",
+    "spans": [
+      {
+        "start": 0,
+        "end": 45,
+        "figure": "metaphor",
+        "why": "The same word is named as war-note and as soothing string."
+      },
+      {
+        "start": 106,
+        "end": 181,
+        "figure": "antithesis",
+        "why": "Two hearers, two works: dismay and arousal."
+      },
+      {
+        "start": 309,
+        "end": 352,
+        "figure": "pathos",
+        "why": "The lyre is named as a physics of the soul, not a decoration."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "chrys_npnf"
+    ]
+  },
+  {
+    "id": "naz-theol-1",
+    "author": "Gregory of Nazianzus",
+    "work": "First Theological Oration",
+    "locus": "27.1",
+    "cue": "He is to speak against persons who pride themselves on their eloquence: Behold, I am against you, O thou proud one.",
+    "text": "I am to speak against persons who pride themselves on their eloquence; so, to begin with a text of Scripture, Behold, I am against you, O thou proud one, Jeremiah 50:31 not only in your system of teaching, but also in your hearing, and in your tone of mind. For there are certain persons who have not only their ears 2 Timothy 4:3 and their tongues, but even, as I now perceive, their hands too, itching for our words; who delight in profane babblings, and oppositions of science falsely so called, and strifes about words, which tend to no profit; for so Paul, the Preacher and Establisher of the Word cut short, Romans 9:28 the disciple and teacher of the Fishermen, calls all that is excessive or superfluous in discourse. But as to those to whom we refer, would that they, whose tongue is so voluble and clever in applying itself to noble and approved language, would likewise pay some attention to actions. For then perhaps in a little while they would become less sophistical, and less absurd and strange acrobats of words, if I may use a ridiculous expression about a ridiculous subject. II.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 69,
+        "figure": "prooimion",
+        "why": "The adversary is named as proud of speech before the doctrine begins."
+      },
+      {
+        "start": 110,
+        "end": 152,
+        "figure": "apostrophe",
+        "why": "Scripture is turned upon the Eunomian hearer."
+      },
+      {
+        "start": 169,
+        "end": 256,
+        "figure": "tricolon",
+        "why": "Teaching, hearing, tone: three places the pride has already reached."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "naz_npnf"
+    ]
+  },
+  {
+    "id": "naz-theol-2",
+    "author": "Gregory of Nazianzus",
+    "work": "First Theological Oration",
+    "locus": "27.2",
+    "cue": "Every marketplace buzzes, every dinner is bored: theology has been made a public wrestling-match.",
+    "text": "But since they neglect every path of righteousness, and look only to this one point, namely, which of the propositions submitted to them they shall bind or loose, (like those persons who in the theatres perform wrestling matches in public, but not that kind of wrestling in which the victory is won according to the rules of the sport, but a kind to deceive the eyes of those who are ignorant in such matters, and to catch applause), and every marketplace must buzz with their talking; and every dinner party be worried to death with silly talk and boredom; and every festival be made unfestive and full of dejection, and every occasion of mourning be consoled by a greater calamity — their questions — and all the women's apartments accustomed to simplicity be thrown into confusion and be robbed of",
+    "spans": [
+      {
+        "start": 164,
+        "end": 238,
+        "figure": "simile",
+        "why": "The dispute is named as a show for the ignorant, not a rule-bound agon."
+      },
+      {
+        "start": 438,
+        "end": 484,
+        "figure": "hypotyposis",
+        "why": "The city is set before the eyes as a place that cannot escape the talk."
+      },
+      {
+        "start": 562,
+        "end": 594,
+        "figure": "oxymoron",
+        "why": "The feast is named as spoiled by the very discourse that should have been for it."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "naz_npnf"
+    ]
+  },
+  {
+    "id": "naz-basil-1",
+    "author": "Gregory of Nazianzus",
+    "work": "Funeral Oration on St. Basil",
+    "locus": "43.1",
+    "cue": "If eloquence has a subject, it is this man: the speech is a sacred debt to those gifted with speech.",
+    "text": "I know not what subject I can treat with eloquence, if not this; or what greater favour I can do to myself, to the admirers of virtue, or to eloquence itself, than express our admiration for this man. To me it is the discharge of a most sacred debt. And our speech is a debt beyond all others due to those who have been gifted, in particular, with powers of speech. To the admirers of virtue a discourse is at once a pleasure and an incentive to virtue. For when I have learned the praises of men, I have a distinct idea of their progress: now, there is none of us all, within whose power it is not to attain to any point whatsoever in that progress. As for eloquence itself, in either case, all must go well with it. For, if the discourse be almost worthy of its subject — eloquence will have giv",
+    "spans": [
+      {
+        "start": 0,
+        "end": 63,
+        "figure": "aporia",
+        "why": "The orator feigns a want of matter in order to name the one sufficient subject."
+      },
+      {
+        "start": 201,
+        "end": 248,
+        "figure": "metaphor",
+        "why": "Praise is named as a debt, not as a display."
+      },
+      {
+        "start": 366,
+        "end": 452,
+        "figure": "sententia",
+        "why": "Epideictic named as delight that also moves."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "naz_npnf"
+    ]
+  },
+  {
+    "id": "jerome-22-1",
+    "author": "Jerome",
+    "work": "Letter 22, To Eustochium",
+    "locus": "1",
+    "cue": "Hear, O daughter: the soul is told to leave its land, as Abraham left the Chaldeans.",
+    "text": "Hear, O daughter, and consider, and incline your ear; forget also your own people and your father's house, and the king shall desire your beauty. In this forty-fourth psalm God speaks to the human soul that, following the example of Abraham, it should go out from its own land and from its kindred, and should leave the Chaldeans, that is the demons, and should dwell in the country of the living, for which elsewhere the prophet sighs: I think to see the good things of the Lord in the land of the living. But it is not enough for you to go out from your own land unless you forget your people and your father's house; unless you scorn the flesh and cling to the bridegroom in a close embrace. Look not behind you, he says, neither stay thou in al",
+    "spans": [
+      {
+        "start": 0,
+        "end": 52,
+        "figure": "apostrophe",
+        "why": "The psalm is turned upon Eustochium as the hearer of a rule of life."
+      },
+      {
+        "start": 54,
+        "end": 105,
+        "figure": "exemplum",
+        "why": "Abraham's going-out is made the figure of the consecrated soul."
+      },
+      {
+        "start": 310,
+        "end": 349,
+        "figure": "allegory",
+        "why": "The old land is named as an enemy, not as a country."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "jerome_npnf"
+    ]
   }
 ];
