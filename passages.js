@@ -4262,5 +4262,1178 @@ window.PASSAGES = [
     "src": [
       "aug_npnf"
     ]
+  },
+  {
+    "id": "dem-olyn1-1",
+    "author": "Demosthenes",
+    "work": "First Olynthiac",
+    "locus": "1.1–2",
+    "cue": "The assembly is asked what policy will serve Athens in the Olynthian crisis.",
+    "text": "I believe, men of Athens, that you would give a great sum to know what policy, in reference to the matter which you are now considering, will best serve the interests of the city, and since that is so, you ought to be ready and eager to listen to those who desire to give you their advice. For not only can you hear and accept any useful proposals which a speaker may have thought out before he came here; but such, I conceive, is your fortune, that the right suggestion will often occur to some of those present on the spur of the moment; and out of all these suggestions it should be easy for you to choose the most advantageous course.",
+    "spans": [
+      {
+        "start": 11,
+        "end": 57,
+        "figure": "apostrophe",
+        "why": "He turns to the people by name before the advice is given."
+      },
+      {
+        "start": 202,
+        "end": 288,
+        "figure": "sententia",
+        "why": "A general rule of deliberation, offered as the ground of the plea."
+      },
+      {
+        "start": 294,
+        "end": 538,
+        "figure": "antithesis",
+        "why": "Prepared counsel set against counsel that arises in the room."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-olyn1-2",
+    "author": "Demosthenes",
+    "work": "First Olynthiac",
+    "locus": "1.2–3",
+    "cue": "Time itself, he says, is crying for a force to Olynthus.",
+    "text": "The present time, men of Athens, seems almost to cry aloud that you must take matters into your own hands yonder, if you have any interest in a successful termination of the crisis: and yet our attitude appears to be--I do not know what. My own opinion, at all events, is that you should at once resolve to send this assistance; that you should prepare for the departure of the expedition at the first possible moment--you must not fall victims to the same error as before--and that you should dispatch an embassy to announce our intention, and to be present at the scene of action.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 58,
+        "figure": "personification",
+        "why": "Time is made to speak, so that delay looks like deafness."
+      },
+      {
+        "start": 18,
+        "end": 112,
+        "figure": "apostrophe",
+        "why": "The people are named as the hands that must act."
+      },
+      {
+        "start": 272,
+        "end": 417,
+        "figure": "tricolon",
+        "why": "Resolve, prepare, dispatch: three offices of the same decision."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-olyn1-4",
+    "author": "Demosthenes",
+    "work": "First Olynthiac",
+    "locus": "1.4–5",
+    "cue": "Philip's one-man command is named as both his strength and the Olynthians' warning.",
+    "text": "The fact that the entire control over everything, open or secret, is concentrated in the hands of a single man; that he is at one and the same time general, master, and treasurer; that he is always present in person with his army--all this is a great advantage, in so far as military operations must be prompt and well-timed. But as regards the compact which he would so gladly make with the Olynthians, the effect is just the reverse. For the Olynthians know well that they are not fighting now for honour and glory, nor for a strip of territory, but to avert the devastation and enslavement of their country.",
+    "spans": [
+      {
+        "start": 117,
+        "end": 178,
+        "figure": "tricolon",
+        "why": "Three offices stacked in one man: the compactness is the argument."
+      },
+      {
+        "start": 231,
+        "end": 434,
+        "figure": "antithesis",
+        "why": "The same fact cut two ways: speed in war, no trust in a bargain."
+      },
+      {
+        "start": 470,
+        "end": 609,
+        "figure": "sententia",
+        "why": "The stake restated as survival, not prestige."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-phil3-1",
+    "author": "Demosthenes",
+    "work": "Third Philippic",
+    "locus": "9.1–2",
+    "cue": "The assembly has talked of Philip's aggressions; the city has not acted on what it believes.",
+    "text": "Many speeches are made, men of Athens, at almost every meeting of the Assembly, with reference to the aggressions which Philip has been committing, ever since he concluded the Peace, not only against yourselves but against all other peoples; and I am sure that all would agree, however little they may act on their belief, that our aim, both in speech and in action, should be to cause him to cease from his insolence and to pay the penalty for it. And yet I see that in fact the treacherous sacrifice of our interests has gone on, until what seems an ill-omened saying may, I fear, be really true--that if all who came forward desired to propose, and you desired to carry, the measures which would make your position as pitiful as it could possibly be, it could not (so I believe), be made worse than it is now.",
+    "spans": [
+      {
+        "start": 24,
+        "end": 78,
+        "figure": "apostrophe",
+        "why": "The hearers of every meeting are named as the ones who have not acted."
+      },
+      {
+        "start": 278,
+        "end": 321,
+        "figure": "antithesis",
+        "why": "Agreement in speech set against failure in action."
+      },
+      {
+        "start": 674,
+        "end": 811,
+        "figure": "hyperbole",
+        "why": "The present is stretched to the worst that design could invent."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-phil3-4",
+    "author": "Demosthenes",
+    "work": "Third Philippic",
+    "locus": "9.2–4",
+    "cue": "The disease of the city is named: speakers who want favour, not the best.",
+    "text": "But if you examine the matter aright, you will find that the chief responsibility rests with those whose aim is to win your favour, not to propose what is best. Some of them, men of Athens, so long as they can maintain the conditions which bring them reputation and influence, take no thought for the future [and therefore think that you also should take none]; while others, by accusing and slandering those who are actively at work, are simply trying to make the city spend its energies in punishing the members of its own body, and so leave Philip free to say and do what he likes. Such political methods as these, familiar to you as they are, are the real causes of the evil.",
+    "spans": [
+      {
+        "start": 99,
+        "end": 159,
+        "figure": "antithesis",
+        "why": "Favour and the best are set as the two aims, and only one is the orator's."
+      },
+      {
+        "start": 585,
+        "end": 678,
+        "figure": "sententia",
+        "why": "The cause is not Philip first, but the city's way of hearing."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-crown-1",
+    "author": "Demosthenes",
+    "work": "On the Crown",
+    "locus": "18.1–2",
+    "cue": "Before the jury on Ctesiphon's motion, he opens with a prayer for a like mind.",
+    "text": "I pray first, men of Athens, to every god and goddess, that the goodwill, which I ever feel towards this city and towards all of you, may in equal measure be vouchsafed to me by you at this present trial: and secondly--a prayer which especially touches yourselves, your consciences, and your reputation--that the gods may put it into your minds not to take counsel of my adversary in regard to the spirit in which you ought to hear me (for that would surely be a cruel thing), but of the laws and of your oath; wherein besides all other precepts of justice, this also is written--that you shall listen to both sides with a like mind.",
+    "spans": [
+      {
+        "start": 14,
+        "end": 53,
+        "figure": "apostrophe",
+        "why": "The people and the gods are addressed before the adversary is named."
+      },
+      {
+        "start": 219,
+        "end": 302,
+        "figure": "tricolon",
+        "why": "Three possessions of the jury, stacked as the stake of a fair hearing."
+      },
+      {
+        "start": 345,
+        "end": 509,
+        "figure": "antithesis",
+        "why": "Aeschines' instruction set against the law and the oath."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-crown-4",
+    "author": "Demosthenes",
+    "work": "On the Crown",
+    "locus": "18.3–4",
+    "cue": "Two disadvantages named before the defence: unequal stakes, and the pleasure of invective.",
+    "text": "I am in many respects at a disadvantage in the present controversy, as compared with Aeschines; and particularly, men of Athens, in two points of importance. The first is that I am not contending for the same stake as he. It is not the same thing for me to lose your goodwill now, as it is for him to fail to win his case; since for me--but I would say nothing unpleasant * at the opening of my address--I say only that Aeschines can well afford to risk this attack upon me. The second disadvantage lies in the natural and universal tendency of mankind to hear invective and denunciation with pleasure, and to be offended with those who praise themselves. And of the two courses in question, that which contributes to men's pleasure has been given to Aeschines, and that which annoys (I may say) every one is left for me.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 156,
+        "figure": "occupatio",
+        "why": "He names the handicap before the proof, so the jury will hear the defence under it."
+      },
+      {
+        "start": 222,
+        "end": 321,
+        "figure": "antithesis",
+        "why": "The stakes are not equal: goodwill lost is not a lost indictment."
+      },
+      {
+        "start": 507,
+        "end": 654,
+        "figure": "antithesis",
+        "why": "The hearer's pleasure is given to the accuser; self-praise is left to the defendant."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "dem-crown-7",
+    "author": "Demosthenes",
+    "work": "On the Crown",
+    "locus": "18.6–7",
+    "cue": "Solon's oath is called as a law of hearing: the later speaker must have the same favour.",
+    "text": "I think, men of Athens, that you would all admit that this present trial equally concerns myself and Ctesiphon, and demands no less earnest attention from me than from him. For while it is a painful and a grievous thing for a man to be robbed of anything, particularly if it is at the hands of an enemy that this befalls him, it is especially so, when he is robbed of your goodwill and kindness, just in proportion as to win these is the greatest possible gain.",
+    "spans": [
+      {
+        "start": 9,
+        "end": 110,
+        "figure": "apostrophe",
+        "why": "The people are asked to admit that two men, not one, are on trial."
+      },
+      {
+        "start": 183,
+        "end": 302,
+        "figure": "sententia",
+        "why": "A general claim, then applied to goodwill."
+      },
+      {
+        "start": 54,
+        "end": 171,
+        "figure": "antithesis",
+        "why": "Two men on trial: the speaker and the man who moved the crown."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "demosth"
+    ]
+  },
+  {
+    "id": "lys-1-1",
+    "author": "Lysias",
+    "work": "On the Murder of Eratosthenes",
+    "locus": "1.1–4",
+    "cue": "A husband before the jury: judge this killing as you would your own case.",
+    "text": "I should be only too pleased, sirs, to have you so disposed towards me in judging this case as you would be to yourselves, if you found yourselves in my plight. For I am sure that, if you had the same feelings about others as about yourselves, not one of you but would be indignant at what has been done; you would all regard the penalties appointed for those who resort to such practices as too mild. But I take it, sirs, that what I have to show is that Eratosthenes had an intrigue with my wife, and not only corrupted her but inflicted disgrace upon my children and an outrage on myself by entering my house; that this was the one and only enmity between him and me; that I have not acted thus for the sake of money, so as to raise myself from poverty to wealth; and that all I seek to gain is the requital accorded by our laws.",
+    "spans": [
+      {
+        "start": 30,
+        "end": 121,
+        "figure": "apostrophe",
+        "why": "The jury is asked to sit as the injured man, not as spectators."
+      },
+      {
+        "start": 181,
+        "end": 303,
+        "figure": "hypothesis",
+        "why": "A supposed case: your house, your verdict."
+      },
+      {
+        "start": 456,
+        "end": 611,
+        "figure": "enumeratio",
+        "why": "Wife, children, house: the wrong listed before the law is named."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-1-6",
+    "author": "Lysias",
+    "work": "On the Murder of Eratosthenes",
+    "locus": "1.6–8",
+    "cue": "The narration of a marriage, a mother's death, and a meeting at a funeral.",
+    "text": "When I, Athenians, decided to marry, and brought a wife into my house, for some time I was disposed neither to vex her nor to leave her too free to do just as she pleased; I kept a watch on her as far as possible, with such observation of her as was reasonable. But when a child was born to me, thence-forward I began to trust her, and placed all my affairs in her hands, presuming that we were now in perfect intimacy. It is true that in the early days, Athenians, she was the most excellent of wives; she was a clever, frugal housekeeper, and kept everything in the nicest order. But as soon as I lost my mother, her death became the cause of all my troubles. For it was in attending her funeral that my wife was seen by this man, who in time corrupted her. He looked out for the servant-girl who went to market, and so paid addresses to her mistress by which he wrought her ruin.",
+    "spans": [
+      {
+        "start": 85,
+        "end": 170,
+        "figure": "antithesis",
+        "why": "Two errors of a husband named, and a mean claimed between them."
+      },
+      {
+        "start": 662,
+        "end": 758,
+        "figure": "narration",
+        "why": "The facts given in order: funeral, seeing, corruption."
+      },
+      {
+        "start": 436,
+        "end": 501,
+        "figure": "apostrophe",
+        "why": "The people are named in a household story."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-1-25",
+    "author": "Lysias",
+    "work": "On the Murder of Eratosthenes",
+    "locus": "1.25–26",
+    "cue": "The adulterer is caught; the killer claims the city's law as the agent.",
+    "text": "I gave him a blow, sirs, which knocked him down, and pulling round his two hands behind his back, and tying them, I asked him why he had the insolence to enter my house. He admitted his guilt; then he besought and implored me not to kill him, but to exact a sum of money. To this I replied, \"It is not I who am going to kill you, but our city's law, which you have transgressed and regarded as of less account than your pleasures, choosing rather to commit this foul offence against my wife and my children than to obey the laws like a decent person.\"",
+    "spans": [
+      {
+        "start": 0,
+        "end": 47,
+        "figure": "apostrophe",
+        "why": "The jury is called to witness the blow."
+      },
+      {
+        "start": 292,
+        "end": 348,
+        "figure": "personification",
+        "why": "The law is made the killer, so the husband is only its hand."
+      },
+      {
+        "start": 440,
+        "end": 549,
+        "figure": "antithesis",
+        "why": "Pleasure against the laws: the choice he names as the guilt."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-1-34",
+    "author": "Lysias",
+    "work": "On the Murder of Eratosthenes",
+    "locus": "1.34–36",
+    "cue": "The close: the laws direct this satisfaction; the jury is asked whether they still stand.",
+    "text": "Wherefore I, sirs, not only stand acquitted of wrongdoing by the laws, but am also directed by them to take this satisfaction: it is for you to decide whether they are to be valid or of no account. For to my thinking every city makes its laws in order that on any matter which perplexes us we may resort to them and inquire what we have to do. And so it is they who, in cases like the present, exhort the wronged parties to obtain this kind of satisfaction. I call upon you to support their opinion: otherwise, you will be giving adulterers such licence that you will encourage thieves as well to call themselves adulterers; since they will feel assured that, if they plead this reason in their defence, and allege that they enter other men's houses for this purpose, nobody will touch them.",
+    "spans": [
+      {
+        "start": 19,
+        "end": 125,
+        "figure": "antithesis",
+        "why": "Acquittal and command: the same laws do both."
+      },
+      {
+        "start": 217,
+        "end": 342,
+        "figure": "sententia",
+        "why": "A definition of law as the place one goes when the case is hard."
+      },
+      {
+        "start": 511,
+        "end": 623,
+        "figure": "hypothesis",
+        "why": "A supposed consequence if this verdict lets the name of the act be stolen."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-12-1",
+    "author": "Lysias",
+    "work": "Against Eratosthenes",
+    "locus": "12.1–2",
+    "cue": "The accusation of one of the Thirty: the difficulty is not how to begin, but how to stop.",
+    "text": "The difficulty that faces me, gentlemen of the jury, is not in beginning my accusation, but in bringing my speech to an end: so enormous, so numerous are the acts they have committed, that neither could lying avail one to accuse them of things more monstrous than the actual facts, nor with every desire to speak mere truth could one tell the whole; of necessity either the accuser must be tired out or his time must run short. It seems to me that our positions will be the reverse of what they were in former times: for previously the accusers had to explain their enmity towards the defendants; but in the present case inquiry must be made of the defendants as to the motive of their enmity towards the city in committing such audacious offences against her.",
+    "spans": [
+      {
+        "start": 56,
+        "end": 123,
+        "figure": "antithesis",
+        "why": "The opening names the opposite difficulty: too much fact, not too little."
+      },
+      {
+        "start": 189,
+        "end": 280,
+        "figure": "hyperbole",
+        "why": "The truth is already past invention."
+      },
+      {
+        "start": 521,
+        "end": 709,
+        "figure": "antithesis",
+        "why": "The usual captatio of private enmity is reversed: the city is the injured party."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-12-5",
+    "author": "Lysias",
+    "work": "Against Eratosthenes",
+    "locus": "12.5–7",
+    "cue": "How the Thirty named virtue and then seized ten resident aliens for money.",
+    "text": "When the Thirty, by the evil arts of slander-mongers, were established in the government, and declared that the city must be purged of unjust men and the rest of the citizens inclined to virtue and justice, despite these professions they had the effrontery to discard them in practice, as I shall endeavor to remind you by speaking first of my own concerns, and then of yours. Theognis and Peison stated before the Thirty that among the resident aliens that there might be some who were embittered against their administration, and that therefore they had an excellent pretext for appearing to punish while in reality making money; in any case, the State was impoverished, and the government needed funds. They had no difficulty in persuading their hearers, for those men thought nothing of putting people to death, but a great deal of getting money.",
+    "spans": [
+      {
+        "start": 94,
+        "end": 284,
+        "figure": "irony",
+        "why": "Virtue is the name they gave to a purge for money."
+      },
+      {
+        "start": 547,
+        "end": 630,
+        "figure": "antithesis",
+        "why": "The appearance of punishment against the reality of theft."
+      },
+      {
+        "start": 762,
+        "end": 849,
+        "figure": "sententia",
+        "why": "Death cheap, money dear: the Thirty in one sentence."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-12-17",
+    "author": "Lysias",
+    "work": "Against Eratosthenes",
+    "locus": "12.17–18",
+    "cue": "Polemarchus is ordered to drink hemlock; even the funeral is refused a house.",
+    "text": "Thus apprised of his fate, I sailed across on the following night to Megara . Polemarchus received from the Thirty their accustomed order to drink hemlock, with no statement made as to the reason for his execution: still less was he allowed to be tried and defend himself. And when he was being brought away dead from the prison, although we had three houses amongst us, they did not permit his funeral to be conducted from any of them, but they hired a small hut in which to lay him out. We had plenty of cloaks, yet they refused our request of one for the funeral; but our friends gave either a cloak, or a pillow, or whatever each had to spare, for his interment.",
+    "spans": [
+      {
+        "start": 78,
+        "end": 213,
+        "figure": "pathos",
+        "why": "The death is given as a habit of office, without a charge."
+      },
+      {
+        "start": 330,
+        "end": 487,
+        "figure": "antithesis",
+        "why": "Three houses owned, one hut hired: the insult after the killing."
+      },
+      {
+        "start": 489,
+        "end": 565,
+        "figure": "antithesis",
+        "why": "Plenty at home, nothing allowed for the dead."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "lys-12-25",
+    "author": "Lysias",
+    "work": "Against Eratosthenes",
+    "locus": "12.24–25",
+    "cue": "Eratosthenes is put on the dais and made to answer for the arrest.",
+    "text": "I propose to put him up on the dais and question him, gentlemen of the jury. For my feeling is this: even to discuss this man with another for his profit I consider to be an impiety, but even to address this man himself, when it is for his hurt, I regard as a holy and pious action. So mount the dais, please, and answer the questions I put to you. Did you arrest Polemarchus or not?—I was acting on the orders of the government, from fear.—Were you in the Council-chamber when the statements were being made about us?—I was.—Did you speak in support or in opposition of those who were urging the death sentence?—In opposition.—You were against taking our lives?—Against taking your lives.—In the belief that our fate was unjust, or just?—That it was unjust.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 75,
+        "figure": "apostrophe",
+        "why": "The jury is called to watch a questioning, not a set speech."
+      },
+      {
+        "start": 349,
+        "end": 383,
+        "figure": "rhetorical question",
+        "why": "The question is a trap: a yes is already a killing."
+      },
+      {
+        "start": 101,
+        "end": 281,
+        "figure": "antithesis",
+        "why": "Profit as impiety, harm as piety: the questioning is itself a moral claim."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "lysias_lamb"
+    ]
+  },
+  {
+    "id": "cic-arch-1",
+    "author": "Cicero",
+    "work": "Pro Archia",
+    "locus": "1",
+    "cue": "The defence of a poet opens by making the speaker's own art a debt to the accused.",
+    "text": "If there is any natural ability in me, O judges,—and I know how slight that is; or if I have any practice as a speaker,—and in that line I do not deny that I have some experience; or if I have any method in my oratory, drawn from my study of the liberal sciences, and from that careful training to which I admit that at no part of my life have I ever been disinclined; certainly, of all those qualities, this Aulus Licinius is entitled to be among the first to claim the benefit from me as his peculiar right. For as far as ever my mind can look back upon the space of time that is past, and recall the memory of its earliest youth, tracing my life from that starting-point, I see that Archias was the principal cause of my undertaking, and the principal means of my mastering, those studies.",
+    "spans": [
+      {
+        "start": 39,
+        "end": 78,
+        "figure": "apostrophe",
+        "why": "The jury is addressed; the speaker's gift is confessed as slight."
+      },
+      {
+        "start": 0,
+        "end": 217,
+        "figure": "tricolon",
+        "why": "Nature, practice, method: three claims, each qualified, before the debt is named."
+      },
+      {
+        "start": 686,
+        "end": 791,
+        "figure": "sententia",
+        "why": "The man on trial is named as the cause of the speaker's art."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-arch-12",
+    "author": "Cicero",
+    "work": "Pro Archia",
+    "locus": "12",
+    "cue": "Why this poet? Because letters rest the mind that the forum wears out.",
+    "text": "You ask us, O Gratius, why we are so exceedingly attached to this man. Because he supplies us with food whereby our mind is refreshed after this noise in the forum, and with rest for our ears after they have been wearied with bad language. Do you think it possible that we could find a supply for our daily speeches, when discussing such a variety of matters, unless we were to cultivate our minds by the study of literature; or that our minds could bear being kept so constantly on the stretch if we did not relax them by that same study? But I confess that I am devoted to those studies, let others be ashamed of them if they have buried themselves in books without being able to produce anything out of them for the common advantage or anything which may bear the eyes of men and the light.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 69,
+        "figure": "apostrophe",
+        "why": "The accuser is named and made to ask the question Cicero wants."
+      },
+      {
+        "start": 79,
+        "end": 163,
+        "figure": "metaphor",
+        "why": "Letters as food: the mind is fed when the forum has emptied it."
+      },
+      {
+        "start": 240,
+        "end": 424,
+        "figure": "rhetorical question",
+        "why": "The question is a proof: no letters, no daily speeches."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-arch-16",
+    "author": "Cicero",
+    "work": "Pro Archia",
+    "locus": "16",
+    "cue": "Even if letters gave only pleasure, they would still be the mind's proper work.",
+    "text": "Though, even if there were no such great advantage to be reaped from it, and if it were only pleasure that is sought from these studies, still I imagine you would consider it a most reasonable and liberal employment of the mind: for other occupations are not suited to every time, nor to every age or place; but these studies are the food of youth, the delight of old age; the ornament of prosperity, the refuge and comfort of adversity; a delight at home, and no hindrance abroad; they are companions by night, and in travel, and in the country.",
+    "spans": [
+      {
+        "start": 8,
+        "end": 135,
+        "figure": "occupatio",
+        "why": "He grants the weaker case (pleasure only) in order to keep the studies."
+      },
+      {
+        "start": 233,
+        "end": 371,
+        "figure": "antithesis",
+        "why": "Ordinary work is bound to time and place; letters are not."
+      },
+      {
+        "start": 330,
+        "end": 436,
+        "figure": "tricolon",
+        "why": "Youth and age, prosperity and adversity: the same studies named for each."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-arch-19",
+    "author": "Cicero",
+    "work": "Pro Archia",
+    "locus": "19",
+    "cue": "Even rocks answer a poet; shall Rome reject a living one?",
+    "text": "Let then, judges, this name of poet, this name which no barbarians even have ever disregarded, be holy in your eyes, men of cultivated minds as you all are. Rocks and deserts reply to the poet's voice; savage beasts are often moved and arrested by song; and shall we, who have been trained in the pursuit of the most virtuous acts, refuse to be swayed by the voice of poets? The Colophonians say that Homer was their citizen; the Chians claim him as theirs; the Salaminians assert their right to him; but the men of Smyrna loudly assert him to be a citizen of Smyrna, and they have even raised a temple to him in their city. Many other places also fight with one another for the honour of being his birth-place.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 35,
+        "figure": "apostrophe",
+        "why": "The jury is asked to treat the name itself as holy."
+      },
+      {
+        "start": 157,
+        "end": 252,
+        "figure": "personification",
+        "why": "Inanimate things and beasts are made hearers, so that a Roman jury cannot be less."
+      },
+      {
+        "start": 258,
+        "end": 374,
+        "figure": "rhetorical question",
+        "why": "The question is a charge of being harder than rock."
+      },
+      {
+        "start": 375,
+        "end": 566,
+        "figure": "enumeratio",
+        "why": "Four cities listed, fighting over a dead poet."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-cael-1",
+    "author": "Cicero",
+    "work": "Pro Caelio",
+    "locus": "1",
+    "cue": "A trial held in the games: he asks what atrocity could interrupt the holidays.",
+    "text": "If any one, O judges, were now present by any chance, ignorant of our laws, and of our judicial proceedings, and of our customs, he would in truth wonder what great atrocity there is in this particular cause of so serious a nature, as to cause this trial alone to be proceeded with during these days of festival and public games, when all other forensic business is interrupted; and he would not doubt that a criminal was being prosecuted for a crime of such enormity, that, if it were neglected, though but for a moment, the state could no longer stand upright.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 127,
+        "figure": "hypothesis",
+        "why": "A supposed stranger is seated in the court, to make the holiday sitting look monstrous."
+      },
+      {
+        "start": 12,
+        "end": 74,
+        "figure": "apostrophe",
+        "why": "The jury is addressed as if they had to explain themselves to an outsider."
+      },
+      {
+        "start": 475,
+        "end": 561,
+        "figure": "hyperbole",
+        "why": "The charge is stretched to the fall of the state — and then shown not to match it."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-cael-32",
+    "author": "Cicero",
+    "work": "Pro Caelio",
+    "locus": "32",
+    "cue": "Take Clodia away, he says, and no charge remains; then a slip of the tongue about her brother.",
+    "text": "But you are aware, O Cnaeus Domitius, as a man of your eminent wisdom must be, that we have in this matter to deal with no one but her; for if she does not say that she lent the money to Caelius, if she does not accuse him and say that poison was prepared by him for her, then we are acting wantonly and groundlessly, in mentioning the name of a mother of a family in a way so different from what is due to a Roman matron. But if, if you only take away that woman, there is no longer any charge against Caelius, nor have the accusers any longer any resources by which to attack him, then what is our duty as the advocates of his cause, except to repel those who pursue him? And, indeed, I would do so still more vigorously, if I had not a quarrel with that woman's husband—brother, I meant to say; I am always making this mistake.",
+    "spans": [
+      {
+        "start": 19,
+        "end": 77,
+        "figure": "apostrophe",
+        "why": "The president of the court is turned to, as if the case were now only Clodia."
+      },
+      {
+        "start": 140,
+        "end": 316,
+        "figure": "hypothesis",
+        "why": "Two ifs: without her voice there is no case."
+      },
+      {
+        "start": 724,
+        "end": 829,
+        "figure": "correctio",
+        "why": "Husband taken back for brother: the slip is the blow."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-cael-33",
+    "author": "Cicero",
+    "work": "Pro Caelio",
+    "locus": "33",
+    "cue": "Appius Claudius the Blind is summoned from the shades to speak to his descendant.",
+    "text": "But still I will first put this question to her herself, whether she wishes me to deal with her strictly, and gravely, and according to old-fashioned notions of right and wrong; or indulgently, mercifully, and courteously? If I am to proceed in the old-fashioned way and manner of pleading, then I must summon up from the shades below one of those bearded old men,—not men with those little bits of imperials which she takes such a fancy to, but a man with that long shaggy beard which we see on the ancient statues and images,—to reproach the woman, and to speak in my stead, lest she by any chance should get angry with me. Let, then, some one of her own family rise up, and above all others that great blind Claudius of old time. For he will feel the least grief, inasmuch as he will not see her.",
+    "spans": [
+      {
+        "start": 57,
+        "end": 221,
+        "figure": "dilemma",
+        "why": "Two manners of pleading, both costly to her."
+      },
+      {
+        "start": 296,
+        "end": 363,
+        "figure": "prosopopoeia",
+        "why": "The dead ancestor is given a voice before he speaks."
+      },
+      {
+        "start": 694,
+        "end": 798,
+        "figure": "irony",
+        "why": "Blindness as a mercy: he will not have to look at her."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-cael-70",
+    "author": "Cicero",
+    "work": "Pro Caelio",
+    "locus": "70",
+    "cue": "The peroration of the charge: a law of public violence is being used to feed a woman's quarrel.",
+    "text": "The cause has now been fully stated by me, O judges, and summed up. You now understand how important an action this is which has been submitted to your decision; how serious a charge is confided to you. You are presiding over an investigation into a charge of violence;—into a law which concerns the empire, the majesty of the state, the condition of the country, and the safety of all the citizens;—a law which Quintus Catulus passed at a time when armed dissensions were dividing the people, and when the republic was almost at its last gasp;—a law which, after the flame which raged so fiercely in my consulship had been allayed, extinguished the smoking relics of the conspiracy. Under this law the youth of Marcus Caelius is demanded, not for the sake of enduring any punishment called for by the republic, but in order to be sacrificed to the lust and profligate pleasures of a woman.",
+    "spans": [
+      {
+        "start": 68,
+        "end": 160,
+        "figure": "sententia",
+        "why": "The jury is told the weight of the law before the misuse is named."
+      },
+      {
+        "start": 275,
+        "end": 398,
+        "figure": "enumeratio",
+        "why": "Four public goods listed, so the private use of the law will look small."
+      },
+      {
+        "start": 558,
+        "end": 682,
+        "figure": "metaphor",
+        "why": "The conspiracy as a fire: Catulus's law as the last water."
+      },
+      {
+        "start": 740,
+        "end": 889,
+        "figure": "antithesis",
+        "why": "The republic's punishment against a woman's quarrel."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-lig-1",
+    "author": "Cicero",
+    "work": "Pro Ligario",
+    "locus": "1",
+    "cue": "Before Caesar: the charge is that Ligarius was in Africa, and the fact is confessed.",
+    "text": "It is a new crime, and one never heard of before this day, O Caius Caesar, which my relation Quintus Tubero has brought before you, when he accuses Quintus Ligarius with having been in Africa; and that charge Caius Pansa, a man of eminent genius, relying perhaps on that intimacy with you which he enjoys, has ventured to confess. Therefore I do not know which way I had best proceed. For I had come prepared, as you did not know that fact of your own knowledge, and could not have heard it from any other quarter, to abase your ignorance in order to further the safety of a miserable man. But, however, since that which was previously unknown has been ferreted out by the diligence of his enemy we must, I suppose, confess the truth; especially as my dear friend Caius Pansa has so acted that it would not now be in my power to deny it.",
+    "spans": [
+      {
+        "start": 59,
+        "end": 130,
+        "figure": "apostrophe",
+        "why": "The judge is the conqueror, addressed by name."
+      },
+      {
+        "start": 0,
+        "end": 57,
+        "figure": "irony",
+        "why": "Being in Africa is named a crime in order to make it look none."
+      },
+      {
+        "start": 696,
+        "end": 836,
+        "figure": "occupatio",
+        "why": "The fact is given away before mercy is asked."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-lig-10",
+    "author": "Cicero",
+    "work": "Pro Ligario",
+    "locus": "10",
+    "cue": "The accusers' own war-aim is turned: they wanted the power Caesar now has.",
+    "text": "But what other object had we, O Tubero, except to be able to do what this man can do now? Shall, then, O Caesar, the speech of those men spur you on to deeds of cruelty whose impunity is the great glory of your clemency? And in this cause, in truth, O Tubero, I am somewhat at a loss to discern your usual prudence, but much more so to see the sagacity of your father, since that man, eminent both for genius and erudition, did not perceive what sort of case this was. For if he had perceived it, he would, I doubt not, have preferred that you should conduct it in any manner in the world, rather than as you did. You are accusing one who confesses the facts which you allege against him. That is not enough. You are accusing one who has a case, as I say, better than your own, or, as you yourself allow, at least as good as yours.",
+    "spans": [
+      {
+        "start": 90,
+        "end": 220,
+        "figure": "rhetorical question",
+        "why": "The question is a bar: cruelty would cancel the glory of having spared them."
+      },
+      {
+        "start": 103,
+        "end": 168,
+        "figure": "apostrophe",
+        "why": "The judge is named as the one whose clemency is the argument."
+      },
+      {
+        "start": 169,
+        "end": 219,
+        "figure": "antithesis",
+        "why": "Their safety is Caesar's praise: to kill Ligarius would spend that praise."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "cic-phil4-1",
+    "author": "Cicero",
+    "work": "Fourth Philippic",
+    "locus": "4.1",
+    "cue": "From the rostra: the people are told that the senate has now treated Antonius as an enemy in deeds.",
+    "text": "The great numbers in which you are here met this day, O Romans, and this assembly, greater than, it seems to me, I ever remember, inspires me with both an exceeding eagerness to defend the republic, and with a great hope of reestablishing it. Although my courage indeed has never failed; what has been unfavourable is the time; and the moment that that has appeared to show any dawn of light, I at once have been the leader in the defence of your liberty. And if I had attempted to have done so before, I should not be able to do so now. For this day, O Romans, (that you may not think it is but a trifling business in which we have been engaged,) the foundations have been laid for future actions. For the senate has no longer been content with styling Antonius an enemy in words, but it has shown by actions that it thinks him one.",
+    "spans": [
+      {
+        "start": 54,
+        "end": 128,
+        "figure": "apostrophe",
+        "why": "The people in the forum, not the senate, are the hearers."
+      },
+      {
+        "start": 130,
+        "end": 241,
+        "figure": "exordium",
+        "why": "The opening office: eagerness and hope named before the fact."
+      },
+      {
+        "start": 703,
+        "end": 832,
+        "figure": "antithesis",
+        "why": "Words against deeds: the name enemy is now an act."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "cic_yonge"
+    ]
+  },
+  {
+    "id": "thuc-nic-1",
+    "author": "Nicias (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.9",
+    "cue": "Before the Sicilian vote: Nicias asks whether the ships should sail at all.",
+    "text": "though this assembly was convened to consider the preparations to be made for sailing to Sicily, I think, notwithstanding, that we have still this question to examine, whether it be better to send out the ships at all, and that we ought not to give so little consideration to a matter of such moment, or let ourselves be persuaded by foreigners into undertaking a war with which we have nothing to do. And yet, individually, I gain in honour by such a course, and fear as little as other men for my person—not that I think a man need be any the worse citizen for taking some thought for his person and estate; on the contrary, such a man would for his own sake desire the prosperity of his country more than others—nevertheless, as I have never spoken against my convictions to gain honour, I shall not begin to do so now, but shall say what I think best.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 217,
+        "figure": "occupatio",
+        "why": "He names the advertised agenda in order to reopen the real one."
+      },
+      {
+        "start": 362,
+        "end": 400,
+        "figure": "antithesis",
+        "why": "Their war against a war that is not theirs."
+      },
+      {
+        "start": 729,
+        "end": 854,
+        "figure": "ethos",
+        "why": "The speaker's past refusal of honour is the warrant of this advice."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-nic-2",
+    "author": "Nicias (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.10",
+    "cue": "The treaty, he says, is only a name; a reverse abroad will bring the war home.",
+    "text": "I affirm, then, that you leave many enemies behind you here to go yonder and bring more back with you. You imagine, perhaps, that the treaty which you have made can be trusted; a treaty that will continue to exist nominally, as long as you keep quiet—for nominal it has become, owing to the practices of certain men here and at Sparta—but which in the event of a serious reverse in any quarter would not delay our enemies a moment in attacking us; first, because the convention was forced upon them by disaster and was less honourable to them than to us; and secondly, because in this very convention there are many points that are still disputed. Again, some of the most powerful states have never yet accepted the arrangement at all.",
+    "spans": [
+      {
+        "start": 21,
+        "end": 101,
+        "figure": "sententia",
+        "why": "A compact claim: the expedition manufactures enemies at both ends."
+      },
+      {
+        "start": 177,
+        "end": 276,
+        "figure": "antithesis",
+        "why": "Name against thing: the peace lasts only as a word."
+      },
+      {
+        "start": 103,
+        "end": 175,
+        "figure": "occupatio",
+        "why": "He speaks the hearer's hope in order to take it away."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-herm-4",
+    "author": "Hermocrates (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "4.59",
+    "cue": "At Gela: a Syracusan tells the Sicilians that the war among them is the Athenians' opportunity.",
+    "text": "If I now address you, Sicilians, it is not because my city is the least in Sicily or the greatest sufferer by the war, but in order to state publicly what appears to me to be the best policy for the whole island. That war is an evil is a proposition so familiar to every one that it would be tedious to develop it. No one is forced to engage in it by ignorance, or kept out of it by fear, if he fancies there is anything to be gained by it. To the former the gain appears greater than the danger, while the latter would rather stand the risk than put up with any immediate sacrifice. But if both should happen to have chosen the wrong moment for acting in this way, advice to make peace would not be unserviceable; and this, if we did but see it, is just what we stand most in need of at the present juncture.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 81,
+        "figure": "apostrophe",
+        "why": "The island, not only Syracuse, is the hearer."
+      },
+      {
+        "start": 33,
+        "end": 149,
+        "figure": "occupatio",
+        "why": "He puts aside the expected motive of a Syracusan before the common one."
+      },
+      {
+        "start": 33,
+        "end": 117,
+        "figure": "ethos",
+        "why": "Syracuse is neither smallest nor most injured: the speech claims a public, not a private, ground."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-herm-1",
+    "author": "Hermocrates (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.33",
+    "cue": "At Syracuse: the Athenian armament is real, and its size may yet be an advantage.",
+    "text": "Much as you wonder at it, the Athenians nevertheless have set out against us with a large force, naval and military, professedly to help the Egestaeans and to restore Leontini, but really to conquer Sicily, and above all our city, which once gained, the rest, they think, will easily follow. Make up your minds, therefore, to see them speedily here, and see how you can best repel them with the means under your hand, and do be taken off your guard through despising the news, or neglect the common weal through disbelieving it. Meanwhile those who believe me need not be dismayed at the force or daring of the enemy. They will not be able to do us more hurt than we shall do them; nor is the greatness of their armament altogether without advantage to us.",
+    "spans": [
+      {
+        "start": 117,
+        "end": 205,
+        "figure": "antithesis",
+        "why": "The pretext against the aim."
+      },
+      {
+        "start": 422,
+        "end": 527,
+        "figure": "occupatio",
+        "why": "Two errors named before they are made: contempt and incredulity."
+      },
+      {
+        "start": 618,
+        "end": 680,
+        "figure": "sententia",
+        "why": "A compact claim: the invasion can be matched."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-athen-1",
+    "author": "Athenagoras (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.36",
+    "cue": "A popular leader at Syracuse: those who credit the invasion are cowards or traitors.",
+    "text": "For the Athenians, he who does not wish that they may be as misguided as they are supposed to be, and that they may come here to become our subjects, is either a coward or a traitor to his country; while as for those who carry such tidings and fill you with so much alarm, I wonder less at their audacity than at their folly if they flatter themselves that we do not see through them. The fact is that they have their private reasons to be afraid, and wish to throw the city into consternation to have their own terrors cast into the shade by the public alarm. In short, this is what these reports are worth; they do not arise of themselves, but are concocted by men who are always causing agitation here in Sicily.",
+    "spans": [
+      {
+        "start": 150,
+        "end": 181,
+        "figure": "dilemma",
+        "why": "Two names for the man who wants the story of the invasion to be true."
+      },
+      {
+        "start": 102,
+        "end": 148,
+        "figure": "irony",
+        "why": "The invaders imagined as already conquered: confidence as a sneer."
+      }
+    ],
+    "species": "deliberative",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-plat-1",
+    "author": "Plataeans (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.53",
+    "cue": "After the surrender: the Plataeans trusted Sparta for a trial, and have not got one.",
+    "text": "Lacedaemonians, when we surrendered our city we trusted in you, and looked forward to a trial more agreeable to the forms of law than the present, to which we had no idea of being subjected; the judges also in whose hands we consented to place ourselves were you, and you only (from whom we thought we were most likely to obtain justice), and not other persons, as is now the case. As matters stand, we are afraid that we have been doubly deceived. We have good reason to suspect, not only that the issue to be tried is the most terrible of all, but that you will not prove impartial; if we may argue from the fact that no accusation was first brought forward for us to answer, but we had ourselves to ask leave to speak, and from the question being put so shortly, that a true answer to it tells against us, while a false one can be contradicted.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 62,
+        "figure": "apostrophe",
+        "why": "The judges are named as the men they trusted with the city."
+      },
+      {
+        "start": 16,
+        "end": 128,
+        "figure": "ethos",
+        "why": "Surrender as a deposit of trust: character of the speaker as once Sparta's friend."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "thuc-theb-1",
+    "author": "Thebans (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.61–62",
+    "cue": "The Theban reply: Plataean praise of themselves is outside the question; the quarrel is named from the beginning.",
+    "text": "We should never have asked to make this speech if the Plataeans on their side had contented themselves with shortly answering the question, and had not turned round and made charges against us, coupled with a long defence of themselves upon matters outside the present inquiry and not even the subject of accusation, and with praise of what no one finds fault with. However, since they have done so, we must answer their charges and refute their self-praise, in order that neither our bad name nor their good may help them, but that you may hear the real truth on both points, and so decide. “The origin of our quarrel was this. We settled Plataea some time after the rest of Boeotia, together with other places out of which we had driven the mixed population.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 138,
+        "figure": "occupatio",
+        "why": "The length of the reply is blamed on the other side's extra speech."
+      },
+      {
+        "start": 169,
+        "end": 364,
+        "figure": "antithesis",
+        "why": "Charge, extra defence, and unwanted praise: three things that are not the question."
+      },
+      {
+        "start": 629,
+        "end": 759,
+        "figure": "narration",
+        "why": "The origin of the quarrel given as a story of settlement, not of yesterday."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "thuc_crawley"
+    ],
+    "track": "blaisdell"
+  },
+  {
+    "id": "isoc-pan-1",
+    "author": "Isocrates",
+    "work": "Panegyricus",
+    "locus": "4.1–6",
+    "cue": "A written display: prizes go to bodies at the games, none to minds that serve the city.",
+    "text": "Many times have I wondered at those who first convoked the national assemblies and established the athletic games, amazed that they should have thought the prowess of men's bodies to be deserving of so great bounties, while to those who had toiled in private for the public good and trained their own minds so as to be able to help also their fellow-men they apportioned no reward whatsoever, But so long as conditions go on as before, and what has been said about them is inadequate, is it not our duty to scan and study this question, the right decision of which will deliver us from our mutual warfare, our present confusion, and our greatest ills?",
+    "spans": [
+      {
+        "start": 152,
+        "end": 391,
+        "figure": "antithesis",
+        "why": "Body against mind, prize against none."
+      },
+      {
+        "start": 485,
+        "end": 604,
+        "figure": "rhetorical question",
+        "why": "The question is a charge to take up the neglected inquiry."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "isoc-pan-25",
+    "author": "Isocrates",
+    "work": "Panegyricus",
+    "locus": "4.24–26",
+    "cue": "Athens alone, he says, may call herself nurse, fatherland, and mother of the Hellenes.",
+    "text": "for we alone of all the Hellenes have the right to call our city at once nurse and fatherland and mother. And yet, if men are to have good ground for pride and make just claims to leadership and frequently recall their ancestral glories, they must show that their race boasts an origin as noble as that which I have described. So great, then, are the gifts which were ours from the beginning and which fortune has bestowed upon us.",
+    "spans": [
+      {
+        "start": 4,
+        "end": 104,
+        "figure": "tricolon",
+        "why": "Three names of origin stacked on one city."
+      },
+      {
+        "start": 115,
+        "end": 236,
+        "figure": "sententia",
+        "why": "Pride, leadership, ancestral glory: the warrant named before the gifts."
+      }
+    ],
+    "species": "epideictic",
+    "src": [
+      "isoc_norlin"
+    ]
+  },
+  {
+    "id": "aesch-ctes-6",
+    "author": "Aeschines",
+    "work": "Against Ctesiphon",
+    "locus": "3.6–8",
+    "cue": "A jury on an illegal motion is told it is voting for or against its own freedom of speech.",
+    "text": "There are, as you know, fellow-citizens, three forms of government in the world tyranny, oligarchy, and democracy. Tyrannies and oligarchies are administered according to the tempers of their lords, but democratic states according to their own established laws. Let no man among you forget this, but let each bear distinctly in mind that when he enters a court-room to sit as juror in a suit against an illegal motion, on that day he is to cast his vote for or against his own freedom of speech. This is why the lawgiver placed first in the jurors' oath these words, \"I will vote according to the laws.\" For he well knew that if the laws are faithfully upheld for the state, the democracy also is preserved. This you ought always to remember, and to hate those who make illegal motions, and to hold no such offence as trivial, but every one as serious indeed.",
+    "spans": [
+      {
+        "start": 41,
+        "end": 113,
+        "figure": "tricolon",
+        "why": "Three politeiai named; the third is the one this court is keeping."
+      },
+      {
+        "start": 115,
+        "end": 260,
+        "figure": "antithesis",
+        "why": "Temper of a lord against established law."
+      },
+      {
+        "start": 338,
+        "end": 494,
+        "figure": "sententia",
+        "why": "The ballot is redefined as a vote on parrhesia itself."
+      }
+    ],
+    "species": "forensic",
+    "src": [
+      "aesch_adams"
+    ]
   }
 ];

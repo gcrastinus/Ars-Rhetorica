@@ -47,6 +47,14 @@ const SRC = {
     full:'Tacitus, <i>Agricola</i>, trans. Arthur Murphy. Public domain. Calgacus: “where they make a desert, they call it peace.”', note:'Church and Brodribb have “solitude,” not “desert.”'},
   plato_jowett:{kind:'primary', short:'Plato, trans. Jowett',
     full:'Plato, Apology, Crito, Phaedrus, Symposium, Menexenus, Protagoras, Gorgias, trans. Benjamin Jowett. Public domain.', note:''},
+  lysias_lamb:{kind:'primary', short:'Lysias, trans. Lamb',
+    full:'Lysias, <i>On the Murder of Eratosthenes</i> and <i>Against Eratosthenes</i>, trans. W. R. M. Lamb, Loeb (1930). Public domain in the United States as of 2026.', note:'Forensic: a husband\'s defence; an accusation of one of the Thirty.'},
+  cic_yonge:{kind:'primary', short:'Cicero, trans. Yonge',
+    full:'Cicero, <i>Pro Archia</i>, <i>Pro Caelio</i>, <i>Pro Ligario</i>, Fourth Philippic, trans. C. D. Yonge. Public domain. Distinct from the bank\'s Catilinarians (Blakiston).', note:'Yonge is named on these excerpts. Do not file them under Blakiston.'},
+  isoc_norlin:{kind:'primary', short:'Isocrates, trans. Norlin',
+    full:'Isocrates, <i>Panegyricus</i>, trans. George Norlin, Loeb (1928). Public domain in the United States.', note:''},
+  aesch_adams:{kind:'primary', short:'Aeschines, trans. Adams',
+    full:'Aeschines, <i>Against Ctesiphon</i>, trans. Charles Darwin Adams, Loeb (1919). Public domain.', note:''},
   demosth:{kind:'primary', short:'Demosthenes, trans. Pickard',
     full:'Demosthenes, public orations, trans. A. W. Pickard-Cambridge, <i>The Public Orations of Demosthenes</i>. Public domain. The bank’s English is Pickard (not Vince).', note:''},
   soph_storr:{kind:'primary', short:'Sophocles, trans. Storr',
@@ -191,6 +199,18 @@ const SPECIES_MAP = {
   'plato-phaed-1':'epideictic','plato-phaed-2':'epideictic','plato-prot-1':'epideictic',
   'thuc-per-1':'epideictic','thuc-per-2':'epideictic','thuc-per-3':'epideictic','thuc-per-4':'epideictic','thuc-per-5':'epideictic',
   'thuc-mel-1':'deliberative','thuc-corc':'deliberative',
+  'dem-olyn1-1':'deliberative','dem-olyn1-2':'deliberative','dem-olyn1-4':'deliberative',
+  'dem-phil3-1':'deliberative','dem-phil3-4':'deliberative',
+  'dem-crown-1':'forensic','dem-crown-4':'forensic','dem-crown-7':'forensic',
+  'lys-1-1':'forensic','lys-1-6':'forensic','lys-1-25':'forensic','lys-1-34':'forensic',
+  'lys-12-1':'forensic','lys-12-5':'forensic','lys-12-17':'forensic','lys-12-25':'forensic',
+  'cic-arch-1':'forensic','cic-arch-12':'forensic','cic-arch-16':'forensic','cic-arch-19':'forensic',
+  'cic-cael-1':'forensic','cic-cael-32':'forensic','cic-cael-33':'forensic','cic-cael-70':'forensic',
+  'cic-lig-1':'forensic','cic-lig-10':'forensic','cic-phil4-1':'deliberative',
+  'thuc-nic-1':'deliberative','thuc-nic-2':'deliberative',
+  'thuc-herm-1':'deliberative','thuc-herm-4':'deliberative','thuc-athen-1':'deliberative',
+  'thuc-plat-1':'forensic','thuc-theb-1':'forensic',
+  'isoc-pan-1':'epideictic','isoc-pan-25':'epideictic','aesch-ctes-6':'forensic',
   'dem-1':'deliberative','dem-2':'deliberative','dem-3':'deliberative',
   'sal-cat-1':'deliberative','sal-cat-2':'deliberative','sal-cat-3':'deliberative','sal-cat-4':'deliberative',
   'aug-1':'epideictic','aug-2':'epideictic','aug-3':'epideictic',
@@ -207,7 +227,7 @@ function srcOf(p){
   if(p.author==='Cicero') return 'cic_cat';
   if(p.author==='Plato') return 'plato_jowett';
   if(p.author==='Thucydides' || /Thucydides/.test(p.author)) return 'thuc_crawley';
-  if(/Archidamus|Sthenelaidas|Pericles|Cleon|Diodotus|Alcibiades/.test(p.author)) return 'thuc_crawley';
+  if(/Archidamus|Sthenelaidas|Pericles|Cleon|Diodotus|Alcibiades|Nicias|Hermocrates|Athenagoras|Plataeans|Thebans/.test(p.author)) return 'thuc_crawley';
   if(p.author==='Herodotus') return 'herodotus';
   if(p.author==='Sophocles') return 'soph_storr';
   if(p.author==='Gregory the Great') return 'greg';
@@ -215,6 +235,9 @@ function srcOf(p){
   if(p.author==='Tacitus') return 'tacitus_cb';
   if(p.author==='Livy') return 'livy_r';
   if(p.author==='Demosthenes') return 'demosth';
+  if(p.author==='Lysias') return 'lysias_lamb';
+  if(p.author==='Isocrates') return 'isoc_norlin';
+  if(p.author==='Aeschines') return 'aesch_adams';
   if(p.author==='Homer') return 'homer';
   if(p.author==='Virgil') return 'virgil';
   if(p.author==='Boethius') return 'boeth';
@@ -247,7 +270,21 @@ const TAXIS_ITEMS = [
   {id:'t7', part:'exordium', text:'I am more than seventy years of age, and appearing now for the first time in a court of law, I am quite a stranger to the language of the place.', src:'plato_jowett', cite:'Plato, Apology 17c–d (Jowett) — the refusal of a captatio'},
   {id:'t8', part:'narration', text:'There arose a mighty storm, bringing a shower of tears. I cast myself down under a certain fig-tree.', src:'aug_pusey', cite:'Augustine, Confessions VIII.12 (Pusey)'},
   {id:'t9', part:'proof', text:'Logos is a powerful potentate, who with frailest, feeblest frame works wonders.', src:'gorgias_vh', cite:'Gorgias, Helen 8'},
-  {id:'t10', part:'peroration', text:'For heroes have the whole earth for their tomb; and in lands far from their own, where the column with its epitaph declares it, there is enshrined in every breast a record unwritten with no tablet to preserve it, except that of the heart.', src:'thuc_crawley', cite:'Thucydides 2.43, Pericles'}
+  {id:'t10', part:'peroration', text:'For heroes have the whole earth for their tomb; and in lands far from their own, where the column with its epitaph declares it, there is enshrined in every breast a record unwritten with no tablet to preserve it, except that of the heart.', src:'thuc_crawley', cite:'Thucydides 2.43, Pericles'},
+  {id:'t11', part:'exordium', text:'Although I am afraid, gentlemen of the jury, that fear is an unseemly condition in which to begin a speech in defence of the bravest of men.', src:'cic_cat', cite:'Cicero, Pro Milone 1.1'},
+  {id:'t12', part:'exordium', text:'Gentlemen of the Court: At this great political crisis, there seems to have been offered to you, not through man\'s wisdom but almost as the direct gift of heaven, the very thing that was most to be desired.', src:'cic_cat', cite:'Cicero, Against Verres I.1'},
+  {id:'t13', part:'narration', text:'When I, Athenians, decided to marry, and brought a wife into my house, for some time I was disposed neither to vex her nor to leave her too free to do just as she pleased.', src:'lysias_lamb', cite:'Lysias, On the Murder of Eratosthenes 1.6 (Lamb)'},
+  {id:'t14', part:'division', text:'I am in many respects at a disadvantage in the present controversy, as compared with Aeschines; and particularly, men of Athens, in two points of importance.', src:'demosth', cite:'Demosthenes, On the Crown 18.3 (Pickard)'},
+  {id:'t15', part:'proof', text:'instead of looking on discussion as a stumbling-block in the way of action, we think it an indispensable preliminary to any wise action at all.', src:'thuc_crawley', cite:'Thucydides 2.40, Pericles'},
+  {id:'t16', part:'refutation', text:'What is it, Catilina? Do you not heed, do you not mark the silence of the house? Their silence denotes consent.', src:'cic_cat', cite:'Cicero, First Catilinarian 1.8'},
+  {id:'t17', part:'peroration', text:'The native land of all of us, beset by the firebrands and swords of an infamous conspiracy, extends to you her suppliant hands.', src:'cic_cat', cite:'Cicero, Fourth Catilinarian 4.9'},
+  {id:'t18', part:'exordium', text:'Most of my predecessors in this place have commended him who made this speech part of the law, telling us that it is well that it should be delivered at the burial of those who fall in battle.', src:'thuc_crawley', cite:'Thucydides 2.35, Pericles'},
+  {id:'t19', part:'narration', text:'When the Thirty, by the evil arts of slander-mongers, were established in the government, and declared that the city must be purged of unjust men and the rest of the citizens inclined to virtue and justice, despite these professions they had the effrontery to discard them in practice.', src:'lysias_lamb', cite:'Lysias, Against Eratosthenes 12.5 (Lamb)'},
+  {id:'t20', part:'proof', text:'I affirm, then, that you leave many enemies behind you here to go yonder and bring more back with you.', src:'thuc_crawley', cite:'Thucydides 6.10, Nicias'},
+  {id:'t21', part:'refutation', text:'it forbids not homicide, but the carrying of a weapon with a view to homicide', src:'cic_cat', cite:'Cicero, Pro Milone 11'},
+  {id:'t22', part:'peroration', text:'By this discourse I have freed a woman from evil reputation; I have kept the promise which I made in the beginning.', src:'gorgias_vh', cite:'Gorgias, Helen 20–21'},
+  {id:'t23', part:'division', text:'I take it, sirs, that what I have to show is that Eratosthenes had an intrigue with my wife, and not only corrupted her but inflicted disgrace upon my children and an outrage on myself by entering my house.', src:'lysias_lamb', cite:'Lysias, On the Murder of Eratosthenes 1.4 (Lamb)'},
+  {id:'t24', part:'proof', text:'he is at one and the same time general, master, and treasurer', src:'demosth', cite:'Demosthenes, First Olynthiac 1.4 (Pickard)'}
 ];
 const ENTHYMEMES = [
   {id:'e1', said:'Catiline still lives — and sits in the senate.', missing:'A man who plots the massacre of the senate ought not to sit in it.',
@@ -265,7 +302,35 @@ const ENTHYMEMES = [
   {id:'e7', said:'The unwritten laws of Heaven were not born today nor yesterday; they die not, and none knows their birth.', missing:'A human decree cannot override a law that is not of human making.',
     distractors:['Creon is the author of divine law','Antigone is a deliberative speech to an assembly','All laws are written'], src:'soph_storr', cite:'Sophocles, Antigone 450–457 (Storr)'},
   {id:'e8', said:'Men are not born with the art of politics; Zeus sent Hermes with dike and aidos for all.', missing:'If justice and shame had been given only to a few, cities could not stand.',
-    distractors:['Only philosophers should rule from birth','Helen went by violence only','The javelin is a tekmerion of intent'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'}
+    distractors:['Only philosophers should rule from birth','Helen went by violence only','The javelin is a tekmerion of intent'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'},
+  {id:'e9', said:'The strong do what they can and the weak suffer what they must.', missing:'Among unequals, right is only a name; power settles what will be done.',
+    distractors:['Sparta always defends the weak','Pericles is speaking of the funeral','Pity is the only pistis at Melos'], src:'thuc_crawley', cite:'Thucydides 5.89, Melian dialogue'},
+  {id:'e10', said:'Their silence denotes consent.', missing:'When a body that can speak refuses to speak against a proposal, it is taken to have approved it.',
+    distractors:['Silence is always fear','The senate has no voice','Catiline has already been executed'], src:'cic_cat', cite:'Cicero, First Catilinarian 1.8'},
+  {id:'e11', said:'Haste and passion are the two things most opposed to good counsel.', missing:'Deliberation requires time and a mind not already moved to anger.',
+    distractors:['The Mytileneans are innocent by nature','Empire forbids all second thoughts','Diodotus is giving a funeral oration'], src:'thuc_crawley', cite:'Thucydides 3.42, Diodotus'},
+  {id:'e12', said:'I have a better right to command than others — Nicias has attacked me — and I believe myself to be worthy of it.', missing:'The man whose public display already profits the city is fit to lead its next enterprise.',
+    distractors:['Nicias has no honour','Olympic horses are a forensic proof of murder','Sicily has already fallen'], src:'thuc_crawley', cite:'Thucydides 6.16, Alcibiades'},
+  {id:'e13', said:'Inflict only such penalties as the laws have provided.', missing:'A novel penalty, once used, becomes a precedent against men unlike these.',
+    distractors:['Caesar wants no penalty at all','The laws have already executed Catiline','Sallust is writing a Philippic'], src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
+  {id:'e14', said:'If the javelin had hit because it carried outside its proper course, we would have no argument; but the boy ran under its trajectory.', missing:'The cause of an unintentional killing is the error that put the body in the way, not the throw that flew true.',
+    distractors:['All throws are intentional','The father has no standing','Miasma cannot attach to a city'], src:'antiphon', cite:'Antiphon, Second Tetralogy 3.2.4'},
+  {id:'e15', said:'You leave many enemies behind you here to go yonder and bring more back with you.', missing:'A city should not divide its power to fight a distant war while neighbours remain unreconciled.',
+    distractors:['Nicias wants the command for himself','Treaties never fail','Hermocrates is speaking at Athens'], src:'thuc_crawley', cite:'Thucydides 6.10, Nicias'},
+  {id:'e16', said:'It is not I who am going to kill you, but our city\'s law.', missing:'A husband who kills an adulterer caught in the house is the law\'s agent, not a private avenger.',
+    distractors:['All killing is unintentional','The Areopagus forbids every death','Eratosthenes was a member of the Thirty'], src:'lysias_lamb', cite:'Lysias, On the Murder of Eratosthenes 1.26 (Lamb)'},
+  {id:'e17', said:'These studies are the food of youth, the delight of old age.', missing:'What trains the orator for the republic is itself a public good, not a private luxury.',
+    distractors:['Poets should not be citizens','Gratius is a Greek','The forum needs no rest'], src:'cic_yonge', cite:'Cicero, Pro Archia 16 (Yonge)'},
+  {id:'e18', said:'When a juror sits against an illegal motion, he casts his vote for or against his own freedom of speech.', missing:'A democracy is kept by its laws; to allow an illegal motion is to vote away the constitution.',
+    distractors:['Tyranny is the best of the three forms','Ctesiphon is on trial for homicide','Adams is translating Demosthenes'], src:'aesch_adams', cite:'Aeschines, Against Ctesiphon 3.6 (Adams)'},
+  {id:'e19', said:'Time itself seems almost to cry aloud that you must take matters into your own hands yonder.', missing:'A crisis that will not wait is itself an argument for sending help at once.',
+    distractors:['Olynthus has already won','Philip is a friend of Athens','Embassies replace armies'], src:'demosth', cite:'Demosthenes, First Olynthiac 1.2 (Pickard)'},
+  {id:'e20', said:'I pray that you take counsel of the laws and of your oath, not of my adversary, as to the spirit in which you hear me.', missing:'A jury sworn to hear both sides with a like mind must not let the first speaker fix its temper.',
+    distractors:['Aeschines is the defendant','Solon forbade oaths','On the Crown is a funeral oration'], src:'demosth', cite:'Demosthenes, On the Crown 18.1–2 (Pickard)'},
+  {id:'e21', said:'They will not be able to do us more hurt than we shall do them.', missing:'A great force far from home can be matched by the people of the country.',
+    distractors:['Athens never left home','Hermocrates is urging surrender','Carthage has already landed'], src:'thuc_crawley', cite:'Thucydides 6.33, Hermocrates'},
+  {id:'e22', said:'We must, I suppose, confess the truth; it would not now be in my power to deny it.', missing:'When the deed is confessed, the remaining office of the defence is pardon, not a second narration.',
+    distractors:['Ligarius denies he was in Africa','Caesar has no power to pardon','Tubero is the defendant'], src:'cic_yonge', cite:'Cicero, Pro Ligario 1 (Yonge)'}
 ];
 const PASSIONS = [
   {id:'p1', name:'anger', appetite:'irascible', text:'How much further, Catilina, will you carry your abuse of our forbearance?', cite:'Cicero, Catilinarian 1.1', src:'cic_cat', why:'Aristotle II.2: anger is a desire, accompanied by pain, for conspicuous revenge, toward one who has slighted us.'},
@@ -275,14 +340,28 @@ const PASSIONS = [
   {id:'p5', name:'indignation', appetite:'irascible', text:'Alas! what degenerate days are these! The senate is well aware of the facts… but the criminal still lives.', cite:'Cicero, Catilinarian 1.2', src:'cic_cat', why:'Indignation is pain at undeserved good fortune (II.9) — here, the good of going unpunished.'},
   {id:'p6', name:'confidence', appetite:'irascible', text:'We throw open our city to the world, and never by alien acts exclude foreigners from any opportunity of learning or observing.', cite:'Thucydides 2.39, Pericles', src:'thuc_crawley', why:'Confidence is the opposite of fear: imagination of safety (II.5).'},
   {id:'p7', name:'love', appetite:'concupiscible', text:'Too late loved I Thee, O Thou Beauty of ancient days, yet ever new!', cite:'Augustine, Confessions X (Pusey)', src:'aug_pusey', why:'Love is the motion toward a good taken as such. The apostrophe is pathos and prayer at once.'},
-  {id:'p8', name:'kindness', appetite:'concupiscible', text:'My nature is for mutual love, not hate.', cite:'Sophocles, Antigone (Storr)', src:'soph_storr', why:'Kindness as a settled wish for another’s good. Antigone names her ethos as a passion that has become character.'}
+  {id:'p8', name:'kindness', appetite:'concupiscible', text:'My nature is for mutual love, not hate.', cite:'Sophocles, Antigone (Storr)', src:'soph_storr', why:'Kindness as a settled wish for another’s good. Antigone names her ethos as a passion that has become character.'},
+  {id:'p9', name:'calmness', appetite:'irascible', text:'I think the two things most opposed to good counsel are haste and passion.', cite:'Thucydides 3.42, Diodotus', src:'thuc_crawley', why:'Calmness (praotes) is the settling of anger (II.3). Diodotus cools the assembly before the argument.'},
+  {id:'p10', name:'hate', appetite:'concupiscible', text:'There is not a man in Rome, outside your band of desperate conspirators, who does not fear you, not a man who does not hate you.', cite:'Cicero, Catilinarian 1.6', src:'cic_cat', why:'Hate (II.4) is wishing another harm as such. Cicero states it as the city’s settled mind toward Catiline.'},
+  {id:'p11', name:'envy', appetite:'concupiscible', text:'Mighty hopes, absolute power, would in vain be within our grasp.', cite:'Sallust, Catiline 20', src:'sallust_w', why:'Envy (II.10) is pain at others’ good fortune. Catiline’s call treats the few who hold the state as the envied.'},
+  {id:'p12', name:'emulation', appetite:'irascible', text:'We are rather a pattern to others than imitators ourselves.', cite:'Thucydides 2.37, Pericles', src:'thuc_crawley', why:'Emulation (II.11) is pain at seeing goods one can attain. The city as paradeigma is meant to move the hearer to match it.'},
+  {id:'p13', name:'shamelessness', appetite:'concupiscible', text:'Lives? Yes, lives; and even comes down to the senate, takes part in the public deliberations.', cite:'Cicero, Catilinarian 1.2', src:'cic_cat', why:'Shamelessness (II.6) is slighting discredit. Catiline sits as if the senate were still a place for him.'},
+  {id:'p14', name:'unkindness', appetite:'concupiscible', text:'A democracy is incapable of empire, and never more so than by your present change of mind in the matter of Mitylene.', cite:'Thucydides 3.37, Cleon', src:'thuc_crawley', why:'Unkindness (II.7) is not returning good, or returning harm. Cleon would have the city refuse even a second hearing.'},
+  {id:'p15', name:'fear', appetite:'irascible', text:'We shall no longer feel his dagger pricking our sides; we shall not now quake with fear in the Campus, in the Forum, in the Senate-house, or in the privacy of our own homes.', cite:'Cicero, Catilinarian 2.1', src:'cic_cat', why:'Fear named in order to be dismissed: the future evil (II.5) has, he claims, walked out of the gates.'},
+  {id:'p16', name:'pity', appetite:'concupiscible', text:'The native land of all of us, beset by the firebrands and swords of an infamous conspiracy, extends to you her suppliant hands.', cite:'Cicero, Catilinarian 4.9', src:'cic_cat', why:'Pity (II.8) for a sufferer who does not deserve the destruction. Rome herself is made the suppliant.'},
+  {id:'p17', name:'anger', appetite:'irascible', text:'The long speech of the Athenians I do not pretend to understand. They said a good deal in praise of themselves, but nowhere denied that they are injuring our allies and Peloponnese.', cite:'Thucydides 1.86, Sthenelaidas', src:'thuc_crawley', why:'Anger (II.2) at a slight done to allies. The ephor refuses the long speech and names the injury.'},
+  {id:'p18', name:'confidence', appetite:'irascible', text:'They will not be able to do us more hurt than we shall do them; nor is the greatness of their armament altogether without advantage to us.', cite:'Thucydides 6.33, Hermocrates', src:'thuc_crawley', why:'Confidence (II.5) as imagined safety, even against a great force. Size is turned into a reason not to fear.'}
 ];
 const DEBATES = [
   {id:'d-arch', title:'War with Athens', a:{who:'Archidamus', pid:'thuc-arch-1', claim:'Do not rush to war; experience teaches its cost.'}, b:{who:'Sthenelaidas', pid:'thuc-sthen-1', claim:'Vote the war; the Athenians are in the wrong.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.80 / 1.86'},
   {id:'d-myt', title:'Mytilene', a:{who:'Cleon', pid:'thuc-cleon-1', claim:'A democracy that talks cannot hold empire; do not reopen the sentence.'}, b:{who:'Diodotus', pid:'thuc-diod-1', claim:'Haste and anger are the two things most opposed to good counsel.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 3.37 / 3.42'},
   {id:'d-fun', title:'The dead of the first year', a:{who:'Pericles', pid:'thuc-fun-1', claim:'I shall speak of the city, not only of the men.'}, b:{who:'Pericles', pid:'thuc-fun-2', claim:'Our constitution does not copy our neighbours; we are an example.'}, species:'epideictic', src:'thuc_crawley', locus:'Thucydides 2.35 / 2.37'},
   {id:'d-cat', title:'The Catilinarian conspirators', a:{who:'Catiline', pid:'sal-cat-consp', claim:'The conspirators are called to dare, as men dispossessed.'}, b:{who:'Caesar', pid:'sal-caes-1', claim:'Inflict only such penalties as the laws have provided.'}, species:'deliberative', src:'sallust_w', locus:'Sallust, Catiline 20 / 51'},
-  {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.'}, b:{who:'The thrower (defence)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'}
+  {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.'}, b:{who:'The thrower (defence)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'},
+  {id:'d-sic', title:'Sicily', a:{who:'Nicias', pid:'thuc-nic-1', claim:'Do not send the ships; the advertised vote is still the wrong question.'}, b:{who:'Alcibiades', pid:'thuc-alc-1', claim:'I have a better right to command; the display that is abused already profits the city.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 6.9 / 6.16'},
+  {id:'d-syr', title:'The Athenian armament at Syracuse', a:{who:'Hermocrates', pid:'thuc-herm-1', claim:'The invasion is real; a great force far from home can still be beaten.'}, b:{who:'Athenagoras', pid:'thuc-athen-1', claim:'Those who credit the news are cowards or traitors; the Athenians will not come.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 6.33 / 6.36'},
+  {id:'d-plat', title:'The surrendered Plataeans', a:{who:'The Plataeans', pid:'thuc-plat-1', claim:'We trusted you with the city and looked for a lawful trial.'}, b:{who:'The Thebans', pid:'thuc-theb-1', claim:'Their long self-praise is outside the question; the quarrel is older than this war.'}, species:'forensic', src:'thuc_crawley', locus:'Thucydides 3.53 / 3.61'},
+  {id:'d-cicsal', title:'Catiline in the city', a:{who:'Cicero', pid:'cic-cat1-1', claim:'The conspiracy is known; how much further will you abuse our forbearance?'}, b:{who:'Catiline', pid:'sal-cat-consp', claim:'The hour has come to dare; power is within reach if you are not irresolute.'}, species:'deliberative', src:'cic_cat', locus:'Cicero, Catilinarian 1.1 / Sallust, Catiline 20'}
 ];
 const GREG_PAIRS = [
   {id:'g1', pair:'the joyful and the sad', why:'The joyful are to be checked lest they run to excess; the sad are to be comforted lest they break.', src:'greg'},
@@ -409,16 +488,37 @@ EX.pisteis = {
     const bank = [
       {pid:'cic-cat1-1', pistis:'pathos', why:'The questions are not for information; they put the senate into alarm and shame.'},
       {pid:'ant-3.2.1', pistis:'ethos', why:'The quiet man, forced into court against his nature: character as proof.'},
-      {pid:'gor-hel-8', pistis:'logos', why:'A claim about what logos is, offered as the ground of Helen’s acquittal.'},
+      {pid:'gor-hel-8', pistis:'logos', why:'A claim about what logos is, offered as the ground of Helen\'s acquittal.'},
       {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and anger oppose good deliberation.'},
       {pid:'ant-3.1.1', pistis:'logos', why:'Facts agreed; the charge is a description of cause.'},
       {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual captatio; the manner of speaking is the proof of the man.'},
-      {pid:'aug-chast', pistis:'pathos', why:'The divided will is staged so that the hearer feel the shame of “not yet.”'},
-      {pid:'thuc-fun-2', pistis:'ethos', why:'Athens is characterized; the city’s ethos becomes the speaker’s.'},
+      {pid:'aug-chast', pistis:'pathos', why:'The divided will is staged so that the hearer feel the shame of \'not yet.\''},
+      {pid:'thuc-fun-2', pistis:'ethos', why:'Athens is characterized; the city\'s ethos becomes the speaker\'s.'},
       {pid:'sal-caes-1', pistis:'logos', why:'Caesar argues from the laws and from the consequences of a novel penalty.'},
-      {pid:'cic-cat1-4', pistis:'pathos', why:'“Where are we?” — fear and indignation before the proof is unfolded.'},
+      {pid:'cic-cat1-4', pistis:'pathos', why:'\'Where are we?\' — fear and indignation before the proof is unfolded.'},
       {pid:'gor-hel-10', pistis:'pathos', why:'Song as witchery: the doctrine of pathos offered as a physics of the soul.'},
-      {pid:'soph-ant-2', pistis:'ethos', why:'“My nature is for mutual love, not hate” — character named as the ground of the act.'}
+      {pid:'soph-ant-2', pistis:'ethos', why:'\'My nature is for mutual love, not hate\' — character named as the ground of the act.'},
+      {pid:'cic-milo-1', pistis:'ethos', why:'Fear named as unseemly in a defence of the bravest of men: the speaker\'s character is the opening proof.'},
+      {pid:'dem-1', pistis:'logos', why:'Those who praise the ancestors, he says, do not serve them: the subject exceeds any speech.'},
+      {pid:'lys-12-1', pistis:'ethos', why:'The accuser of one of the Thirty presents himself as having suffered, not as a hired speaker.'},
+      {pid:'cic-arch-1', pistis:'ethos', why:'Cicero\'s debt to the poet, and the unusual brief, are offered as the speaker\'s warrant.'},
+      {pid:'thuc-arch-1', pistis:'ethos', why:'Archidamus claims the authority of a long life in many wars before he advises against haste.'},
+      {pid:'plato-ap-5', pistis:'ethos', why:'He argues not for his own sake but for theirs: the gadfly is the character of the man as a gift to the city.'},
+      {pid:'cic-cat4-9', pistis:'pathos', why:'Rome herself is made the suppliant: pity and fear for the native land.'},
+      {pid:'lys-12-17', pistis:'pathos', why:'The arrest and death of Polemarchus are told so that the jury hate the Thirty.'},
+      {pid:'thuc-fun-1', pistis:'pathos', why:'The burial speech opens on the pain of the occasion before it praises the city.'},
+      {pid:'cic-cael-70', pistis:'pathos', why:'The peroration swells a charge of violence into a danger to the empire and the majesty of the state.'},
+      {pid:'thuc-plat-1', pistis:'pathos', why:'The Plataeans plead from trust betrayed and from the fear of an unlawful death.'},
+      {pid:'dem-crown-1', pistis:'pathos', why:'He opens with a prayer for a like mind, so that anger at the first speaker not fix the jury.'},
+      {pid:'dem-2', pistis:'logos', why:'A rule for counsel: no malice, no favour, only the policy one takes to be best.'},
+      {pid:'thuc-mel-1', pistis:'logos', why:'The Athenian case is a claim about power and names, not a plea to pity.'},
+      {pid:'cic-milo-2', pistis:'logos', why:'The law is distinguished: it forbids not homicide but carrying a weapon with a view to homicide.'},
+      {pid:'lys-1-25', pistis:'logos', why:'The killing is referred to the city\'s law: the husband claims to be the law\'s agent.'},
+      {pid:'thuc-nic-1', pistis:'logos', why:'Nicias argues that the advertised vote is still the wrong question: whether to send the ships at all.'},
+      {pid:'gor-hel-6', pistis:'logos', why:'Four aitiai are laid down as a complete division: if any one holds, she is acquitted.'},
+      {pid:'cic-lig-1', pistis:'logos', why:'The fact is confessed so that the remaining office is pardon, not a second narration.'},
+      {pid:'dem-phil3-4', pistis:'logos', why:'The city\'s disease is named as a cause: speakers who seek favour, not what is best.'},
+      {pid:'aesch-ctes-6', pistis:'logos', why:'A juror against an illegal motion is said to be voting on his own freedom of speech.'}
     ];
     const item = pickSeen(bank, x => 'pi:'+x.pid);
     const p = passages().find(x => x.id === item.pid) || pickPass(null, 'pi');
