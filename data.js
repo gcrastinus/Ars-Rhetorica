@@ -11,8 +11,8 @@ const SRC = {
     full:'Cicero, <i>De inventione</i>, trans. C. D. Yonge (Bohn). Public domain. The three genera; the six parts of the oration.', note:''},
   cic_orat:{kind:'primary', short:'Cicero, <i>Orator</i> and <i>De oratore</i>',
     full:'Cicero, <i>Orator</i> and <i>De oratore</i>, trans. C. D. Yonge. Public domain. Docere, delectare, movere; the three styles.', note:''},
-  cic_cat:{kind:'primary', short:'Cicero, Catilinarians, trans. Yonge',
-    full:'Cicero, <i>In Catilinam</i> I–IV, <i>Pro Milone</i>, <i>Pro Marcello</i>, <i>Philippics</i>, <i>In Verrem</i>, trans. C. D. Yonge. Public domain.', note:''},
+  cic_cat:{kind:'primary', short:'Cicero, Catilinarians',
+    full:'Cicero, <i>In Catilinam</i> I–IV: the bank’s English is H. E. D. Blakiston (1894), public domain. Other speeches in this key (<i>Pro Milone</i>, <i>Pro Marcello</i>, <i>Philippics</i>, <i>In Verrem</i>) remain the public-domain English already in the bank.', note:'Catilinarian excerpts match Blakiston (attalus.org), not Yonge’s “When, O Catiline…”.'},
   quint:{kind:'primary', short:'Quintilian, <i>Institutio oratoria</i>',
     full:'Quintilian, <i>Institutio oratoria</i>, trans. H. E. Butler, Loeb (1920–22). Public domain in the United States.', note:''},
   ddc:{kind:'primary', short:'Augustine, <i>De doctrina christiana</i> IV',
@@ -33,18 +33,22 @@ const SRC = {
     note:'A sophistic school-piece in forensic form: four speeches, two a side.'},
   thuc_crawley:{kind:'primary', short:'Thucydides, trans. Crawley',
     full:'Thucydides, History of the Peloponnesian War, trans. Richard Crawley. Public domain.', note:''},
-  herodotus:{kind:'primary', short:'Herodotus, trans. Rawlinson',
-    full:'Herodotus, Histories, trans. George Rawlinson. Public domain.', note:''},
+  herodotus:{kind:'primary', short:'Herodotus, trans. Macaulay',
+    full:'Herodotus, Histories, trans. G. C. Macaulay. Public domain. The bank’s English is Macaulay (Dareios, Artoxerxes, Hellas, Thermopylai, Tellos), not Rawlinson.', note:''},
   sallust_w:{kind:'primary', short:'Sallust, trans. Watson',
     full:'Sallust, Bellum Catilinae, trans. J. S. Watson. Public domain.', note:''},
   livy_r:{kind:'primary', short:'Livy',
     full:'Livy, Ab urbe condita. Public-domain English (Spillan; Canon Roberts).', note:''},
   tacitus_cb:{kind:'primary', short:'Tacitus, trans. Church &amp; Brodribb',
-    full:'Tacitus, Annals and Agricola, trans. Church and Brodribb. Public domain.', note:''},
+    full:'Tacitus, Annals and Agricola, trans. Church and Brodribb. Public domain. Not the English of the bank’s Annals (Gordon) or Agricola/Calgacus (Murphy).', note:'C&amp;B Agricola has “solitude,” not “desert.”'},
+  tacitus_gordon:{kind:'primary', short:'Tacitus, <i>Annals</i>, trans. Gordon',
+    full:'Tacitus, <i>Annals</i>, trans. Thomas Gordon. Public domain.', note:'The opening of the Annals in the bank is Gordon (“Kings were the original Magistrates…”).'},
+  tacitus_murphy:{kind:'primary', short:'Tacitus, <i>Agricola</i>, trans. Murphy',
+    full:'Tacitus, <i>Agricola</i>, trans. Arthur Murphy. Public domain. Calgacus: “where they make a desert, they call it peace.”', note:'Church and Brodribb have “solitude,” not “desert.”'},
   plato_jowett:{kind:'primary', short:'Plato, trans. Jowett',
     full:'Plato, Apology, Crito, Phaedrus, Symposium, Menexenus, Protagoras, Gorgias, trans. Benjamin Jowett. Public domain.', note:''},
-  demosth:{kind:'primary', short:'Demosthenes',
-    full:'Demosthenes, public orations, public-domain English.', note:''},
+  demosth:{kind:'primary', short:'Demosthenes, trans. Pickard',
+    full:'Demosthenes, public orations, trans. A. W. Pickard-Cambridge, <i>The Public Orations of Demosthenes</i>. Public domain. The bank’s English is Pickard (not Vince).', note:''},
   soph_storr:{kind:'primary', short:'Sophocles, trans. Storr',
     full:'Sophocles, Oedipus Tyrannus and Antigone, trans. F. Storr, Loeb 1912–13. Public domain.', note:''},
   homer:{kind:'primary', short:'Homer, trans. Pope',
@@ -78,7 +82,7 @@ DECKS.orient = {
   title:'What Rhetoric Is', sub:'An orientation — not scored',
   panels:[
 { src:['appown','copeland'], h:'<p><strong>THE THIRD ROAD.</strong> The old course of study put three arts together and called them the <span class="lat">trivium</span>: <strong>grammar</strong>, which asks whether the utterance is well formed (<span class="lat">congruitas</span>); <strong>logic</strong>, which asks whether what is said is true, and what follows; and <strong>rhetoric</strong>, which asks whether the hearer is moved to see it.</p><p><em>The moon is made of green cheese</em> is congruous and false. <em>Him go store yesterday</em> is incongruous and may well be true. A speech may be both well formed and true, and still fail — if it does not find the available means of persuasion in this case, for these hearers.</p><p>This course is Aristotelian in its spine and Ciceronian in its arrangement. It takes Augustine at his word that the Christian orator still has three offices: to teach, to delight, to move. It does not grade your compositions. It trains the eye on real speeches.</p>' },
-{ src:['arist_rhet'], h:'<p><strong>The definition.</strong> Aristotle opens the <em>Rhetoric</em> by pairing the art with dialectic: “Rhetoric is the counterpart of Dialectic.” Both deal with matters that can go either way; neither is a science of a special subject. Then the working definition (I.2):</p><p style="font-style:italic">Rhetoric may be defined as the faculty of observing in any given case the available means of persuasion.</p><p>Not “the art of winning.” The orator’s first work is to <em>see</em> what can be said. Quintilian will later call rhetoric <span class="lat">bene dicendi scientia</span> — the science of speaking well.</p>',
+{ src:['arist_rhet'], h:'<p><strong>The definition.</strong> Aristotle opens the <em>Rhetoric</em> by pairing the art with dialectic: “Rhetoric is the counterpart of Dialectic” (I.1, 1354a1). Both deal with matters that can go either way; neither is a science of a special subject. Then the working definition (I.2):</p><p style="font-style:italic">Rhetoric may be defined as the faculty of observing in any given case the available means of persuasion.</p><p>Not “the art of winning.” The orator’s first work is to <em>see</em> what can be said. Quintilian will later call rhetoric <span class="lat">bene dicendi scientia</span> — the science of speaking well (<em>Institutio</em> 2.15.34, Butler).</p>',
   q:{ prompt:'On Aristotle’s definition, what is rhetoric first of all?',
       options:['The art of winning any case you are paid to win','The faculty of seeing, in this case, the available means of persuasion','A science of a special subject, like geometry','The study of tropes and figures only'],
       correct:1,
@@ -164,8 +168,8 @@ DECKS.antiphon = {
 DECKS.augustine = {
   title:'Augustine · The Christian Orator', sub:'Docere, delectare, movere — not scored',
   panels:[
-{ src:['ddc','cic_orat'], h:'<p><strong>Three offices, kept.</strong> Augustine in <em>De doctrina christiana</em> IV does not throw Cicero away. The orator’s work is still to <strong>teach</strong>, to <strong>delight</strong>, to <strong>move</strong> — <span class="lat">docere, delectare, movere</span>. What changes is the end. The Christian orator serves the truth already found in Scripture; he does not invent a case for pay. Eloquence is not refused. It is subordinated.</p><p>Three styles travel with the three offices: the subdued (<span class="lat">summissum</span>) for teaching, the temperate (<span class="lat">temperatum</span>) for praise and blame, the grand (<span class="lat">grande</span>) for moving to action. Mix them. Do not live in the grand.</p>' },
-{ src:['ddc'], h:'<p><strong>Tears, not applause.</strong> Augustine tells of preaching at Caesarea in Mauretania against the civil brawl called the Caterva. He did not want their shouts. He wanted their tears — and when they wept, he knew the speech had done its office. The test of Christian rhetoric is not the noise in the room. It is whether the hearer is changed.</p><p>The <em>Confessions</em> are not orations, but they are rhetorically alive: the stolen pears, <em>da mihi castitatem sed noli modo</em>, the child’s voice, “too late have I loved thee,” “what is time?”</p>',
+{ src:['ddc','cic_orat'], h:'<p><strong>Three offices, kept.</strong> Augustine in <em>De doctrina christiana</em> IV does not throw Cicero away. The orator’s work is still to <strong>teach</strong>, to <strong>delight</strong>, to <strong>move</strong> — <span class="lat">docere, delectare, movere</span>. What changes is the end. The Christian orator serves the truth already found in Scripture; he does not invent a case for pay. Eloquence is not refused. It is subordinated.</p><p>Three styles travel with the three offices: the subdued (<span class="lat">summissum</span>) for teaching, the temperate (<span class="lat">temperatum</span>) for praise and blame, the grand (<span class="lat">grande</span>) for moving to action. Mix them. Do not use the grand style everywhere.</p>' },
+{ src:['ddc'], h:'<p><strong>Tears, not applause.</strong> Augustine tells of preaching at Caesarea in Mauretania against the civil brawl called the Caterva. He did not want their shouts. He wanted their tears — and when they wept, he knew the speech had done its office. The test of Christian rhetoric is not the noise in the room. It is whether the hearer is changed.</p><p>The <em>Confessions</em> are not orations, but they are rhetorically alive: the stolen pears, <em>da mihi castitatem et continentiam, sed noli modo</em>, the child’s voice, “too late have I loved thee,” “what is time?”</p>',
   q:{ prompt:'For Augustine, the sign that a grand-style sermon has succeeded is',
       options:['Applause and the reputation of the preacher','Tears, and a change of life — the hearer moved to act','A perfect isocolon in every member','The suppression of all figures as worldly'],
       correct:1,
@@ -190,7 +194,7 @@ const SPECIES_MAP = {
   'dem-1':'deliberative','dem-2':'deliberative','dem-3':'deliberative',
   'sal-cat-1':'deliberative','sal-cat-2':'deliberative','sal-cat-3':'deliberative','sal-cat-4':'deliberative',
   'aug-1':'epideictic','aug-2':'epideictic','aug-3':'epideictic',
-  'aug-ddc-2':'epideictic','aug-ddc-12':'epideictic','aug-ddc-17':'epideictic','aug-ddc-24':'epideictic'
+  'aug-ddc-12':'epideictic','aug-ddc-17':'epideictic'
 };
 function speciesOf(p){ return p.species || SPECIES_MAP[p.id] || ''; }
 function srcOf(p){
@@ -237,13 +241,13 @@ const TAXIS_ITEMS = [
   {id:'t1', part:'exordium', text:'How much further, Catilina, will you carry your abuse of our forbearance?', src:'cic_cat', cite:'Cicero, First Catilinarian 1.1'},
   {id:'t2', part:'narration', text:'My boy, struck in the side on the training field by a javelin thrown by this young man, died on the spot.', src:'antiphon', cite:'Antiphon, Second Tetralogy 3.1.1'},
   {id:'t3', part:'division', text:'For either by fortune and the gods and necessity she did what she did, or by violence, or by persuasion, or by Love.', src:'gorgias_vh', cite:'Gorgias, Helen 6'},
-  {id:'t4', part:'proof', text:'I do not blame the persons who have reopened the case of the Mitylenians.', src:'thuc_crawley', cite:'Thucydides 3.42, Diodotus'},
+  {id:'t4', part:'proof', text:'I consider that we are deliberating for the future more than for the present.', src:'thuc_crawley', cite:'Thucydides 3.44, Diodotus'},
   {id:'t5', part:'refutation', text:'You were then, Catilina, at Laeca’s house that night; you divided Italy into districts.', src:'cic_cat', cite:'Cicero, First Catilinarian 1.4'},
   {id:'t6', part:'peroration', text:'You have heard the facts; you have heard the arguments. It remains for you to give judgment.', src:'appown', cite:'School form of a peroration (the office, not a forged classical sentence)'},
-  {id:'t7', part:'exordium', text:'I will speak as I am wont to speak in the marketplace, and not in the language of this place.', src:'plato_jowett', cite:'Plato, Apology (Jowett) — the refusal of a captatio'},
-  {id:'t8', part:'narration', text:'There arose a mighty storm, bringing a shower of tears. I cast myself down under a certain fig-tree.', src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
+  {id:'t7', part:'exordium', text:'I am more than seventy years of age, and appearing now for the first time in a court of law, I am quite a stranger to the language of the place.', src:'plato_jowett', cite:'Plato, Apology 17c–d (Jowett) — the refusal of a captatio'},
+  {id:'t8', part:'narration', text:'There arose a mighty storm, bringing a shower of tears. I cast myself down under a certain fig-tree.', src:'aug_pusey', cite:'Augustine, Confessions VIII.12 (Pusey)'},
   {id:'t9', part:'proof', text:'Logos is a powerful potentate, who with frailest, feeblest frame works wonders.', src:'gorgias_vh', cite:'Gorgias, Helen 8'},
-  {id:'t10', part:'peroration', text:'Of the dead one should speak no evil — Pericles will speak of the city they died for.', src:'thuc_crawley', cite:'Thucydides 2.35'}
+  {id:'t10', part:'peroration', text:'For heroes have the whole earth for their tomb; and in lands far from their own, where the column with its epitaph declares it, there is enshrined in every breast a record unwritten with no tablet to preserve it, except that of the heart.', src:'thuc_crawley', cite:'Thucydides 2.43, Pericles'}
 ];
 const ENTHYMEMES = [
   {id:'e1', said:'Catiline still lives — and sits in the senate.', missing:'A man who plots the massacre of the senate ought not to sit in it.',
@@ -259,7 +263,7 @@ const ENTHYMEMES = [
   {id:'e6', said:'We do not copy our neighbours, but are an example to them.', missing:'What is original and successful is more to be praised than what is borrowed.',
     distractors:['All copying is theft','Juries judge the future','Augustine forbids eloquence'], src:'thuc_crawley', cite:'Thucydides 2.37, Pericles'},
   {id:'e7', said:'The unwritten laws of Heaven were not born today nor yesterday; they die not, and none knows their birth.', missing:'A human decree cannot override a law that is not of human making.',
-    distractors:['Creon is the author of divine law','Antigone is a deliberative speech to an assembly','All laws are written'], src:'soph_storr', cite:'Sophocles, Antigone (Storr)'},
+    distractors:['Creon is the author of divine law','Antigone is a deliberative speech to an assembly','All laws are written'], src:'soph_storr', cite:'Sophocles, Antigone 450–457 (Storr)'},
   {id:'e8', said:'Men are not born with the art of politics; Zeus sent Hermes with dike and aidos for all.', missing:'If justice and shame had been given only to a few, cities could not stand.',
     distractors:['Only philosophers should rule from birth','Helen went by violence only','The javelin is a tekmerion of intent'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'}
 ];
