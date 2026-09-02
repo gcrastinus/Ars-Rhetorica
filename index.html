@@ -96,7 +96,7 @@ h1{font-family:'Cinzel', serif; font-size:44px; font-weight:600; letter-spacing:
 }
 .section-gloss{
   text-align:center; font-style:italic; color:var(--ink-soft); font-size:16px;
-  margin:-8px auto 14px; max-width:600px;
+  margin:-8px auto 14px; max-width:720px;
 }
 .act-label{
   font-family:'Cinzel',serif; font-size:21px; font-weight:600; letter-spacing:.12em;
@@ -178,7 +178,7 @@ h1{font-family:'Cinzel', serif; font-size:44px; font-weight:600; letter-spacing:
   letter-spacing:.1em; color:var(--gold-soft);
 }
 
-/* ------- panels (study decks) ------- */
+/* ------- panels (tutorials) ------- */
 .panel{
   border:1px solid var(--line); background:var(--card); border-radius:14px;
   padding:26px 28px; box-shadow:var(--shadow); margin-bottom:18px;
@@ -453,18 +453,18 @@ kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px
     </header>
 
     <div class="intro-note">
-      <strong>Rhetoric is the faculty of observing, in any given case, the available means of persuasion.</strong>
-      Grammar asks whether the utterance is well formed; logic, whether what is said is true.
-      Rhetoric asks whether the hearer is moved to see it. This course is Aristotelian in its spine,
-      Ciceronian in its arrangement, and Augustinian in its offices — <span class="lat">docere, delectare, movere</span>.
-      It does not grade your compositions. It trains the eye on real speeches.
+      <strong>Rhetoric is the faculty of observing, in any given case, the available means of persuasion of what is true.</strong>
+      Grammar asks whether the utterance is well formed; logic asks whether what is said is true.
+      Rhetoric asks whether the hearer is moved to see it. This course is Aristotelian in its principles,
+      Ciceronian in its arrangement, and Augustinian in its offices — for Augustine the orator aims to teach, delight, and move
+      (<span class="lat">docere, delectare, movere</span>).
     </div>
 
     <details class="help">
       <summary>How to Proceed</summary>
-      <p><strong>Where to begin.</strong> Open Act I’s study deck — <em>The counterpart of dialectic</em> — and read it through. The decks are not scored. Then take <em>The three species</em> at difficulty I. A set is ten questions; at difficulty I each is worth ten points, and <strong>100 completes the set</strong>.</p>
-      <p><strong>What to do in an exercise.</strong> Read the excerpt. Answer. A right answer gains points; a wrong answer loses some. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option; <kbd>Enter</kbd> goes on. Where Latin or Greek is on file, an original-text button shows it. Every panel names its source.</p>
-      <p><strong>The special rooms.</strong> Gorgias’s <em>Helen</em> is a study card and a figures set of its own (persuasion as a drug; the four aitiai). Antiphon’s Second Tetralogy is kept as forensic, not dumped into Cicero. The Blaisdell debates — Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles, Catiline and Caesar — are paired in Act VII. Augustine’s Christian orator sits beside the Confessions, not instead of them.</p>
+      <p><strong>Where to begin.</strong> Open the first tutorial — <em>The counterpart of dialectic</em> — and read it through. Then take <em>The three species</em> at difficulty I. A set is ten questions; at difficulty I each is worth ten points, and <strong>100 points finishes the set</strong>.</p>
+      <p><strong>What to do in an exercise.</strong> Read the excerpt. Answer. A right answer gains points; a wrong answer loses some. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option; <kbd>Enter</kbd> submits. Where the original Latin or Greek can be displayed, an original-text button shows it. Sources for all texts are given in place.</p>
+      <p><strong>The special sections.</strong> Gorgias’s <em>Helen</em> is a tutorial and a figures set of its own (persuasion as a drug; the four aitiai). Antiphon’s Second Tetralogy is kept as forensic. Some key debates from Thucydides — Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles, Catiline and Caesar — are paired below as well. The texts also include Augustine on the Christian orator and some passages from the Confessions.</p>
     </details>
 
     <div class="rule"></div>
@@ -553,16 +553,28 @@ function sample(arr, n){
 function shuffle(a){ return sample(a, a.length); }
 function pickSeen(arr, idFn){
   const idOf = x => idFn ? idFn(x) : (x.id || x.q || JSON.stringify(x));
-  const fresh = arr.filter(x => state.sessionSeen.indexOf(idOf(x)) < 0);
-  const it = rand(fresh.length ? fresh : arr);
+  const exId = state.ex && state.ex.id;
+  const longSeen = (exId && store.seen && store.seen[exId]) || [];
+  const freshSession = arr.filter(x => state.sessionSeen.indexOf(idOf(x)) < 0);
+  const freshLong = freshSession.filter(x => longSeen.indexOf(idOf(x)) < 0);
+  const pool = freshLong.length ? freshLong : (freshSession.length ? freshSession : arr);
+  const it = rand(pool);
   const k = idOf(it);
   if(state.sessionSeen.indexOf(k) < 0) state.sessionSeen.push(k);
+  if(exId){
+    store.seen = store.seen || {};
+    const bag = store.seen[exId] || (store.seen[exId] = []);
+    if(bag.indexOf(k) < 0) bag.push(k);
+    const cap = Math.max(arr.length, (state.setLen || 10) * 2);
+    if(bag.length > cap) store.seen[exId] = bag.slice(-cap);
+    save();
+  }
   return it;
 }
 
 const KEY = 'ars-rhetorica-progress';
 const state = { dark:false, diff:1, ex:null, q:null, locked:false, score:0, answered:0, correct:0, streak:0, sessionSeen:[], setI:0, setDone:false, setLen:10 };
-const store = { totals:{}, score:0, bestStreak:0, mistakes:[], dark:null, diff:1 };
+const store = { totals:{}, score:0, bestStreak:0, mistakes:[], dark:null, diff:1, seen:{} };
 let chipSel = {};
 let orderSel = [];
 let figPicked = null;
@@ -571,7 +583,7 @@ function save(){
   try{
     localStorage.setItem(KEY, JSON.stringify({
       totals: store.totals, score: store.score, bestStreak: store.bestStreak,
-      mistakes: store.mistakes, dark: state.dark, diff: state.diff
+      mistakes: store.mistakes, dark: state.dark, diff: state.diff, seen: store.seen || {}
     }));
   }catch(e){}
 }
@@ -584,6 +596,7 @@ function load(){
     store.score = o.score || 0;
     store.bestStreak = o.bestStreak || 0;
     store.mistakes = o.mistakes || [];
+    store.seen = o.seen || {};
     if(o.dark !== undefined && o.dark !== null) state.dark = o.dark;
     if(o.diff) state.diff = o.diff;
   }catch(e){}
@@ -620,14 +633,14 @@ function buildHome(){
   const host = $('home-acts'); host.innerHTML = '';
   ACTS.forEach(a => {
     const wrap = document.createElement('div');
-    wrap.innerHTML = '<div class="act-label">Act '+a.roman+' · '+a.name+'</div>'+
+    wrap.innerHTML = '<div class="act-label">Division '+a.roman+' · '+a.name+'</div>'+
       '<div class="section-gloss"><span class="lat">'+a.latin+'</span> — '+a.gloss+'</div>';
     const grid = document.createElement('div');
     grid.className = 'set-grid';
     a.items.forEach(it => {
       const card = document.createElement('button');
       card.className = 'set-card';
-      const tag = it.tag || (it.kind==='deck' ? 'STUDY' : 'EXERCISE');
+      const tag = it.tag || (it.kind==='deck' ? 'TUTORIAL' : 'EXERCISE');
       card.innerHTML = '<div class="set-num">'+tag+'</div><h3>'+it.title+'</h3><p>'+it.desc+'</p><span class="begin">Begin</span>';
       card.onclick = () => {
         if(it.kind === 'deck') openDeck(it.deck);
@@ -729,7 +742,7 @@ function renderSetDone(){
     '<div class="panel" style="text-align:center"><p class="ornament">❧</p>'+
     '<p style="font-family:Cinzel,serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)">Set complete</p>'+
     '<p style="font-size:28px;margin:12px 0">'+state.correct+' of '+state.setLen+' · '+state.score+' / '+max+'</p>'+
-    '<p style="color:var(--ink-soft)">At difficulty I each item is worth ten points. A clean run of a ten-item set is one hundred. Difficulty changes the item, not only the points.</p></div>';
+    '<p style="color:var(--ink-soft)">At difficulty I a right answer is worth ten points, and 100 finishes the set. Higher difficulties change the question and the points.</p></div>';
   $('ex-submit').style.display = 'none';
   $('ex-next').style.display = '';
   $('ex-next').textContent = 'Home';
@@ -752,7 +765,7 @@ function renderQ(){
   if(q.kind === 'mc') html += '<div class="opts" id="q-opts"></div>';
   else if(q.kind === 'chips') html += '<div class="acc-grid" id="q-chips"></div>';
   else if(q.kind === 'order') html += '<div class="order-list" id="q-order"></div>';
-  else if(q.kind === 'figclick') html += '<p class="q-cue" id="fig-hint">Click a marked stretch in the excerpt above.</p>';
+  else if(q.kind === 'figclick') html += '<p class="q-cue" id="fig-hint">Click the marked part of the passage above.</p>';
   html += '<div id="q-fb"></div>';
   box.innerHTML = html;
 
@@ -947,7 +960,7 @@ function renderProgress(){
 $('btn-progress').onclick = () => { renderProgress(); show('scr-prog'); };
 $('prog-back').onclick = () => { show('scr-home'); buildHome(); };
 $('prog-reset').onclick = () => {
-  store.totals = {}; store.score = 0; store.bestStreak = 0; store.mistakes = [];
+  store.totals = {}; store.score = 0; store.bestStreak = 0; store.mistakes = []; store.seen = {};
   save(); renderProgress();
 };
 $('dark-toggle').onclick = () => setDark(!state.dark);

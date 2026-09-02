@@ -92,7 +92,7 @@ DECKS.orient = {
       options:['Ethos','Pathos','Logos','The inartistic proofs (laws, witnesses)'],
       correct:1,
       explain:'Pathos is putting the hearer into a certain frame of mind. Ethos is in the speaker as the speech shows him. Logos is in the argument.' } },
-{ src:['arist_rhet','cic_inv'], h:'<p><strong>Three species, three ends.</strong> Aristotle (I.3) divides speeches by the hearer’s job:</p><ul style="margin:8px 0 8px 22px"><li><strong>Deliberative</strong> (<span class="lat">symbouleutikon</span>) — the assembly, judging the future: the expedient and the harmful. End: to exhort or dissuade.</li><li><strong>Forensic</strong> (<span class="lat">dikanikon</span>) — the jury, judging the past: the just and the unjust. End: to accuse or defend.</li><li><strong>Epideictic</strong> (<span class="lat">epideiktikon</span>) — the spectator, judging the present: the noble and the shameful. End: to praise or blame.</li></ul><p>Pericles’ funeral oration is the showpiece of the third. Antiphon’s tetralogy is a school-piece of the second. Cleon and Diodotus on Mytilene are deliberative: a past act, a future policy.</p>',
+{ src:['arist_rhet','cic_inv'], h:'<p><strong>Three species, three ends.</strong> Aristotle (I.3) divides speeches by the hearer’s office:</p><ul style="margin:8px 0 8px 22px"><li><strong>Deliberative</strong> (<span class="lat">symbouleutikon</span>) — the assembly, judging the future: the expedient and the harmful. End: to exhort or dissuade.</li><li><strong>Forensic</strong> (<span class="lat">dikanikon</span>) — the jury, judging the past: the just and the unjust. End: to accuse or defend.</li><li><strong>Epideictic</strong> (<span class="lat">epideiktikon</span>) — the spectator, judging the present: the noble and the shameful. End: to praise or blame.</li></ul><p>Pericles’ funeral oration is the showpiece of the third. Antiphon’s tetralogy is a school-piece of the second. Cleon and Diodotus on Mytilene are deliberative: a past act, a future policy.</p>',
   q:{ prompt:'A jury is asked whether a thrower of a javelin is guilty of unintentional homicide. The species is',
       options:['Deliberative — the expedient','Forensic — the just and the unjust','Epideictic — the noble','A fourth species Aristotle forgot'],
       correct:1,
@@ -109,36 +109,51 @@ DECKS.logos = {
       correct:1,
       explain:'Rhetoric deals with what can be otherwise. The form is still syllogistic; the matter is likely, and the audience is not a class in logic.' } },
 { src:['arist_rhet'], h:'<p><strong>Example.</strong> The other body of proof is the <span class="lat">paradeigma</span>. Historical example: this is what the Persians did, this is what our fathers did. Pericles’ funeral oration works by holding up Athens herself as the example — the city as paradeigma of the men being buried.</p><p>The topic of <em>more and less</em>: if even the lesser thing holds, the greater holds. The topic of <em>contraries</em>: if war is the cause of our evils, peace is the cause of their opposites.</p>' },
-{ src:['arist_rhet'], h:'<p><strong>Signs and likelihoods.</strong> A necessary sign (<span class="lat">tekmerion</span>) is as a syllogism from a necessary premise: if he has a fever, he is ill. A fallible sign is only likely. The orator who treats a fallible sign as necessary is cheating the hearer — and Aristotle names the cheat.</p><p>Antiphon’s javelin case: the facts are agreed. The fight is over <em>cause</em> and <em>hamartia</em>. A sign (the boy is dead; a javelin was thrown) does not by itself settle which description is the just one.</p>' }
+{ src:['arist_rhet'], h:'<p><strong>Signs and likelihoods.</strong> A necessary sign (<span class="lat">tekmerion</span>) is as a syllogism from a necessary premise: if he has a fever, he is ill. A fallible sign is only likely. The orator who treats a fallible sign as necessary is cheating the hearer — and Aristotle names the cheat.</p><p>Antiphon’s javelin case: the facts are agreed. The fight is over <em>cause</em> and <em>hamartia</em>. A sign (the boy is dead; a javelin was thrown) does not by itself settle which description is the just one.</p>',
+  q:{ prompt:'The boy is dead, and a javelin was thrown. Taken as a proof that the thrower is guilty of homicide, that pair of facts is',
+      options:['A necessary sign (tekmerion): from these facts the guilt cannot fail','A fallible sign: the facts are agreed, but they do not settle whose error the death was','A complete syllogism of the Analytics','An inartistic proof, like a written law'],
+      correct:1,
+      explain:'The death and the throw are signs. They do not name the cause. Treating them as a tekmerion is the cheat Aristotle warns against.' } },
+{ src:['arist_rhet','cic_cat'], h:'<p><strong>How to hear an enthymeme.</strong> The exercise that follows will give you a sentence from a speech and ask what premise the hearers are meant to supply. Work it once here, in the open.</p><p>Cicero: <em>Lives? Yes, lives; and even comes down to the senate.</em> What is said is a fact the senate can see. What makes it an argument is what they already hold: a man who plots the massacre of the senate ought not to sit in it. Name that unspoken premise, and you have named the enthymeme.</p>',
+  q:{ prompt:'Cicero says Catiline still lives — and sits in the senate. The hearers are meant to supply:',
+      options:['All senators live in Rome','A man who plots the massacre of the senate ought not to sit in it','Javelins always fly true','The parts of an oration are six'],
+      correct:1,
+      explain:'The fact is visible. The premise that makes it a charge is the one the senate already grants. That is the work of the next exercise.' } }
 ]};
 
 DECKS.ethos = {
   title:'Invention · Ethos and Pathos', sub:'Character, passions, the hearers — not scored',
   panels:[
-{ src:['arist_rhet'], h:'<p><strong>Ethos in the speech.</strong> We trust a speaker for three reasons shown <em>in the speech</em> — practical wisdom (<span class="lat">phronesis</span>), virtue (<span class="lat">arete</span>), and goodwill (<span class="lat">eunoia</span>). Reputation brought in from outside is an inartistic proof.</p><p>Socrates in the <em>Apology</em> refuses the usual captatio: he will speak as he speaks in the marketplace. That refusal is itself ethos. Antiphon’s defendant claims he is <span class="lat">apragmon</span> — a man who minds his own business — forced into court. Character as argument.</p>' },
+{ src:['arist_rhet'], h:'<p><strong>Ethos in the speech.</strong> We trust a speaker for three reasons shown <em>in the speech</em> — practical wisdom (<span class="lat">phronesis</span>), virtue (<span class="lat">arete</span>), and goodwill (<span class="lat">eunoia</span>). Reputation brought in from outside is an inartistic proof.</p><p>Socrates in the <em>Apology</em> refuses the usual captatio: he will speak as he speaks in the marketplace. That refusal is itself ethos — virtue shown, not a borrowed name. Antiphon’s defendant claims he is <span class="lat">apragmon</span> — a man who minds his own business — forced into court. Archidamus opens on his years and his wars: practical wisdom. The exercise that follows will ask which of the three is doing the work.</p>',
+  q:{ prompt:'Socrates will not speak in the language of the law-court, but as he speaks in the marketplace. What is shown in the speech?',
+      options:['An inartistic proof: his reputation, brought in from outside','Virtue (arete): the manner of the man is the proof of the man','A necessary sign that he is innocent','The office of narration'],
+      correct:1,
+      explain:'Aristotle I.2: ethos is in the speech. The refusal of a borrowed eloquence is itself character. Reputation named from outside would be atechnos.' } },
 { src:['arist_rhet','aquinas_st'], h:'<p><strong>Pathos.</strong> Rhetoric II is a treatise on the passions: anger and mildness, love and hate, fear and confidence, shame, kindness, pity, indignation, envy, emulation. For each: a definition, the state of mind, the objects, the grounds.</p><p>St Thomas, mapping the same motions in I–II, divides them by object: the <strong>concupiscible</strong> (love, hate, desire, aversion, pleasure, pain) and the <strong>irascible</strong> (hope, despair, fear, daring, anger) — the latter where good or evil is arduous. One list is written for the orator; the other for the theologian. This course uses both.</p>',
   q:{ prompt:'On Aquinas’s division, anger belongs to',
       options:['The concupiscible appetite, because it is a simple love of revenge','The irascible appetite, because its object is an arduous evil','The intellect, because it is a judgment','Pathos only, never a passion of the soul'],
       correct:1,
       explain:'Anger is irascible: the object is an evil that must be overcome. Rhetoric names anger because the orator must know what state of mind it is, toward whom, and on what grounds (Aristotle II.2).' } },
-{ src:['greg'], h:'<p><strong>Gregory’s pairs.</strong> The <em>Pastoral Care</em> is a book of hearers. The same admonition is not to be given to the joyful and to the sad, to the humble and to the proud, to the silent and to the talkative. Rhetoric without a doctrine of the hearer is only a box of figures. Gregory writes the box of hearers.</p>' }
+{ src:['greg'], h:'<p><strong>Gregory’s pairs.</strong> The <em>Pastoral Care</em> is a book of hearers. The same vice is not cured by the same word. Rhetoric without a doctrine of the hearer is only a box of figures. Gregory writes the box of hearers.</p><p>He proceeds by pairs, because a word that heals one hearer wounds another:</p><ul style="margin:8px 0 8px 22px"><li><strong>The joyful and the sad.</strong> Before the joyful, the punishments that follow excess; before the sad, the promised goods of the kingdom.</li><li><strong>The poor and the rich.</strong> Comfort against tribulation for the one; fear of elation for the other.</li><li><strong>Subjects and prelates.</strong> Subjection must not crush; place must not swell, nor command more than is just.</li><li><strong>The humble and the proud.</strong> Praise the humble carefully, lest praise become a snare; rebuke the proud, lest silence confirm them.</li></ul><p>The exercise that follows will give you a pair and ask <em>why</em> they are paired — what the two hearers need differently. The reason is always the same kind of reason: the same medicine is not for every constitution.</p>' }
 ]};
 
 DECKS.taxis = {
   title:'Arrangement', sub:'Taxis — the parts of the oration — not scored',
   panels:[
-{ src:['cic_inv','arist_rhet'], h:'<p><strong>Cicero’s six; Aristotle’s four.</strong> Aristotle is spare: <span class="lat">prooimion</span>, statement with narration as needed, <span class="lat">pistis</span>, <span class="lat">epilogos</span>. The Latin school kept six:</p><ol style="margin:8px 0 8px 22px"><li><strong>Exordium</strong> — attentive, teachable, well-disposed.</li><li><strong>Narration</strong> — the facts, brief, clear, plausible.</li><li><strong>Division</strong> (<span class="lat">partitio</span>) — the points in dispute.</li><li><strong>Proof</strong> (<span class="lat">confirmatio</span>).</li><li><strong>Refutation</strong> (<span class="lat">reprehensio</span>).</li><li><strong>Peroration</strong> — recapitulate, and move.</li></ol><p>A tetralogy may open on the law because the facts are agreed. The six are offices, not a template to force on every speech.</p>',
-  q:{ prompt:'When the facts are agreed and only the cause is in dispute, which part shrinks?',
+{ src:['cic_inv','arist_rhet'], h:'<p><strong>Cicero’s six; Aristotle’s four.</strong> Aristotle is spare: the opening (<span class="lat">prooimion</span>), the statement of the case with narration as needed, the proof (<span class="lat">pistis</span>), the close (<span class="lat">epilogos</span>). The Latin school named six <em>offices</em> — duties a part of the speech may perform:</p><ol style="margin:8px 0 8px 22px"><li><strong>Exordium</strong> (opening) — make them attentive, teachable, well-disposed.</li><li><strong>Narration</strong> (the facts) — brief, clear, plausible.</li><li><strong>Division</strong> (<span class="lat">partitio</span>) — the points in dispute, and the order of taking them.</li><li><strong>Proof</strong> (<span class="lat">confirmatio</span>) — your arguments.</li><li><strong>Refutation</strong> (<span class="lat">reprehensio</span>) — the other side.</li><li><strong>Peroration</strong> (the close) — recapitulate, and move.</li></ol><p>The six are offices, not a template to force on every speech. A funeral oration is not a proof of a crime. A tetralogy may open on the law because the facts are agreed, and narration shrinks to a sentence.</p>',
+  q:{ prompt:'When the facts are agreed and only the cause is in dispute, which office shrinks?',
       options:['The peroration, because there is nothing to feel','The narration, because the story is not the fight','The proof, because there are no arguments left','The exordium, because the jury is already paying attention'],
       correct:1,
-      explain:'Antiphon’s prosecutor says as much at once: when the facts are agreed, the verdict is determined by the laws — and then he still has to argue cause. Narration can be a sentence. Proof and refutation swell.' } }
+      explain:'Antiphon’s prosecutor says as much at once: when the facts are agreed, the verdict turns on the laws — and then he still has to argue cause. Narration can be a sentence. Proof and refutation swell.' } },
+{ src:['cic_cat'], h:'<p><strong>One speech, the six offices.</strong> The First Catilinarian is forensic in its charge, deliberative in its demand that the senate act. Watch them as offices, not as chapter headings:</p><ul style="margin:8px 0 8px 22px"><li><strong>Opening.</strong> “How much further, Catilina…” — he makes them attentive by naming the man in the room.</li><li><strong>Facts.</strong> Last night at Laeca’s house: Italy divided, the city to be fired, the consul to be killed.</li><li><strong>Points in dispute.</strong> Not whether there is a conspiracy (he will not grant that as open), but whether the man may still sit here.</li><li><strong>Proof.</strong> “You were then, Catilina, at Laeca’s house that night” — the night named in the senate’s hearing.</li><li><strong>The other side.</strong> He answers the plea that Catiline still lives among them as if that were a defence; it is the charge.</li><li><strong>Close.</strong> Leave the city. The peroration is a command, and a moving of fear and shame.</li></ul><p>The next exercises ask you to name the office a part of a passage is performing, and to keep the six in school order. The order is a school memory. The offices are what you should see in the speech.</p>' }
 ]};
 
 DECKS.lexis = {
   title:'Style', sub:'Lexis — clarity, propriety, metaphor — not scored',
   panels:[
 { src:['arist_rhet'], h:'<p><strong>Virtue of style.</strong> Aristotle (III.2): let style be clear, and neither mean nor above the dignity of the subject. “The greatest thing by far is to be a master of metaphor.” Clarity first. Ornament second. The vice of the sophist is to make the style do the work of the argument.</p><p>Gorgias is the exhibit. Van Hook’s Helen is almost all figure: antithesis, isocolon, homoeoteleuton. That is not a mistake. It is a demonstration of what logos can do when it is treated as a drug. Aristotle admires the power and distrusts the use.</p>' },
-{ src:['gorgias_vh','arist_rhet'], h:'<p><strong>Figures the ear can name.</strong> A short working list:</p><ul style="margin:8px 0 8px 22px"><li><strong>Anaphora</strong> — same word at the head of members.</li><li><strong>Antithesis</strong> — opposed thoughts in parallel frames.</li><li><strong>Tricolon</strong> — three members, often rising.</li><li><strong>Isocolon</strong> — members of equal length.</li><li><strong>Homoeoteleuton</strong> — like endings (Gorgias’s signature).</li><li><strong>Apostrophe</strong> — a turn to address someone present or absent.</li><li><strong>Rhetorical question</strong> — inquiry that is a charge.</li><li><strong>Metaphor</strong> — naming one thing with another’s name.</li><li><strong>Irony</strong> — saying the less, or the opposite, to mean the more.</li><li><strong>Chiasmus</strong> — ABBA crossing.</li></ul><p>Tragedy loves these. A messenger speech, an agon, a chorus that argues, stichomythia that snaps — the figures are how the drama thinks aloud.</p>' }
+{ src:['gorgias_vh','arist_rhet'], h:'<p><strong>Figures the ear can name.</strong> A short working list (these are figures of speech, not the means of persuasion, and not the offices of the oration):</p><ul style="margin:8px 0 8px 22px"><li><strong>Anaphora</strong> — same word at the head of members.</li><li><strong>Antithesis</strong> — opposed thoughts in parallel frames.</li><li><strong>Tricolon</strong> — three members, often rising.</li><li><strong>Isocolon</strong> — members of equal length.</li><li><strong>Homoeoteleuton</strong> — like endings (Gorgias’s signature).</li><li><strong>Apostrophe</strong> — a turn to address someone present or absent.</li><li><strong>Rhetorical question</strong> — inquiry that is a charge.</li><li><strong>Metaphor</strong> — naming one thing with another’s name.</li><li><strong>Irony</strong> — saying the less, or the opposite, to mean the more.</li><li><strong>Chiasmus</strong> — ABBA crossing.</li></ul><p>The figures exercises that follow ask you to find these in a real passage. They do not ask you to name ethos, or pathos, or an exordium. Those belong to invention and arrangement.</p>' },
+{ src:['gorgias_vh','thuc_crawley'], h:'<p><strong>When style does the work of argument.</strong> Aristotle’s warning is practical. Take two sentences.</p><p>Gorgias on logos: “a powerful potentate, who with frailest, feeblest frame works wonders.” The figure is the claim: speech is small and does what a ruler does. Strip the antithesis and the personification, and little argument remains.</p><p>Diodotus on counsel: “Haste and anger are the two things most opposed to good counsel.” You may keep or drop the balance of the members; the claim still stands. That is style serving an argument, not replacing one.</p><p>The exercise in this division asks which is which. The Gorgias figures set in Division VI is the ear’s drill. This is the judgment that should follow the ear.</p>' }
 ]};
 
 
@@ -151,14 +166,15 @@ DECKS.gorgias = {
       options:['Choosing freely, and therefore being guilty','Being acted on, as by a drug or by violence, and therefore not culpable','A logical demonstration from necessary premises','A forensic narration of agreed facts'],
       correct:1,
       explain:'Helen 8–14 treats logos as a potentate and song as witchery. If persuasion captures the soul, the persuaded is not the cause. Aristotle will not grant that account of agency; the course asks you to see it, not to baptise it.' } },
-{ src:['gorgias_vh','arist_rhet'], h:'<p><strong>Witchery.</strong> “Inspired incantations are provocative of charm and revocative of harm. For the power of song in association with the belief of the soul captures and enraptures and translates the soul with witchery.”</p><p>Hold this beside Aristotle’s cooler sentence: the hearer is put into a certain frame of mind. Same observation; different metaphysics. A figures set in this course can be almost all Gorgias, because Van Hook’s English is built to be heard as figure. Then ask whether the argument would survive in plain clauses. That question is the beginning of judgment.</p>' }
+{ src:['gorgias_vh','arist_rhet'], h:'<p><strong>Witchery.</strong> “Inspired incantations are provocative of charm and revocative of harm. For the power of song in association with the belief of the soul captures and enraptures and translates the soul with witchery.”</p><p>Hold this beside Aristotle’s cooler sentence: the hearer is put into a certain frame of mind. Same observation; different metaphysics. A figures set in this course can be almost all Gorgias, because Van Hook’s English is built to be heard as figure. Then ask whether the argument would survive in plain clauses. That question is the beginning of judgment.</p>' },
+{ src:['gorgias_vh'], h:'<p><strong>Helen is not his only case.</strong> Gorgias also wrote a <em>Defence of Palamedes</em>: Odysseus accuses Palamedes of treason; Palamedes argues that he could not have done the deed and would not have wished to. That is a forensic school-piece — a case, not a display. Helen praises; Palamedes defends. The four aitiai of Helen (fortune, violence, persuasion, love) are causes of an act already done; Palamedes has to show that the act was not done at all.</p><p>The figures set that follows this tutorial is still Helen, because Van Hook’s English of that speech is public domain and written to be heard as figure. Palamedes belongs beside it as the forensic counterpart. Hear Helen as epideictic display; keep Palamedes in mind as what a Gorgian <em>case</em> looks like when there is a charge to answer.</p>' }
 ]};
 
 DECKS.antiphon = {
   title:'Antiphon · Second Tetralogy', sub:'A forensic school-piece — not scored',
   panels:[
 { src:['antiphon'], h:'<p><strong>The case.</strong> Javelin practice. A boy runs out. He is struck in the side and dies on the spot. The facts are agreed. The prosecutor (the dead boy’s father) charges not intentional but <em>unintentional</em> homicide. Four speeches: prosecution, defence, prosecution’s second, defence’s second. That is a tetralogy — a sophistic school-piece in the shape of a trial.</p><p>What is on trial is <strong>cause</strong> and <strong>hamartia</strong>. Who missed? The thrower, whose javelin flew true at the target, or the boy who ran into the line? Pollution (<span class="lat">miasma</span>) hangs over the city until a verdict names the cause. <span class="lat">Erga</span> against <span class="lat">logoi</span>. <span class="lat">Doxa</span> against <span class="lat">aletheia</span>. The defendant calls himself <span class="lat">apragmon</span> — no busybody — forced into court by misfortune.</p>' },
-{ src:['antiphon'], h:'<p><strong>How to read it.</strong> Do not dump these speeches into the Cicero pile. They are a drill in forensic invention when the narrative is finished on the first page. Every later claim is a redescription of the same throw.</p><p>Ask, of each excerpt: which <em>side</em>? which <em>pistis</em> is doing the work? which <em>topos</em> (from consequences; from the laws; from more and less; from the name of the act)?</p>',
+{ src:['antiphon'], h:'<p><strong>How to read it.</strong> These are not Ciceronian orations. They are a sophistic school-piece in forensic form: four speeches, two a side, one set of facts. They are a drill in invention when the narrative is finished on the first page. Every later claim is a redescription of the same throw.</p><p>Ask, of each excerpt: which <em>side</em>? which means of persuasion (<em>pistis</em>) is doing the work? which seat of argument (<em>topos</em> — from consequences; from the laws; from more and less; from the name of the act)?</p>',
   q:{ prompt:'In this tetralogy the facts of the throw are agreed. The dispute is therefore',
       options:['Whether a javelin was thrown at all','How the act is to be named and caused — hamartia, and whose','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
       correct:1,
@@ -187,14 +203,31 @@ const SPECIES_MAP = {
   'cic-milo-1':'forensic','cic-milo-2':'forensic','cic-ver-1':'forensic','cic-ver-2':'forensic',
   'cic-marc-1':'epideictic','cic-marc-2':'epideictic','cic-phil-1':'deliberative','cic-phil-2':'deliberative',
   'plato-ap-1':'forensic','plato-ap-2':'forensic','plato-ap-3':'forensic','plato-ap-4':'forensic','plato-ap-5':'forensic',
+  'plato-crito-1':'deliberative','plato-crito-2':'deliberative',
   'plato-men-1':'epideictic','plato-sym-1':'epideictic','plato-sym-2':'epideictic',
   'plato-phaed-1':'epideictic','plato-phaed-2':'epideictic','plato-prot-1':'epideictic',
   'thuc-per-1':'epideictic','thuc-per-2':'epideictic','thuc-per-3':'epideictic','thuc-per-4':'epideictic','thuc-per-5':'epideictic',
+  'thuc-fun-1':'epideictic','thuc-fun-2':'epideictic',
   'thuc-mel-1':'deliberative','thuc-corc':'deliberative',
+  'thuc-arch-1':'deliberative','thuc-sthen-1':'deliberative','thuc-cleon-1':'deliberative','thuc-diod-1':'deliberative','thuc-alc-1':'deliberative',
   'dem-1':'deliberative','dem-2':'deliberative','dem-3':'deliberative',
   'sal-cat-1':'deliberative','sal-cat-2':'deliberative','sal-cat-3':'deliberative','sal-cat-4':'deliberative',
+  'sal-cat-consp':'deliberative','sal-caes-1':'deliberative',
   'aug-1':'epideictic','aug-2':'epideictic','aug-3':'epideictic',
-  'aug-ddc-12':'epideictic','aug-ddc-17':'epideictic'
+  'aug-chast':'epideictic','aug-love':'epideictic','aug-time':'epideictic','aug-pear':'epideictic',
+  'aug-ddc-2':'epideictic','aug-ddc-12':'epideictic','aug-ddc-17':'epideictic','aug-ddc-24':'epideictic',
+  'aug-ep93':'deliberative','aug-serm-1':'epideictic',
+  'her-cro-1':'deliberative','her-cro-2':'deliberative','her-sol-1':'deliberative','her-sol-2':'epideictic',
+  'her-therm-1':'epideictic','her-therm-2':'epideictic','her-xer-1':'deliberative',
+  'tac-cal-1':'deliberative','tac-cal-2':'deliberative','tac-cal-3':'deliberative','tac-ann-1':'forensic',
+  'liv-tar-1':'forensic','liv-luc-1':'forensic','liv-luc-2':'forensic','liv-hor-1':'epideictic',
+  'plu-cae-1':'epideictic','plu-cae-2':'epideictic',
+  'hom-il-1':'epideictic','hom-il-2':'deliberative','hom-il-3':'epideictic',
+  'verg-1':'epideictic','verg-2':'epideictic','verg-3':'deliberative',
+  'boe-1':'deliberative','boe-2':'epideictic',
+  'douay-beat':'epideictic','douay-cor':'epideictic','douay-cor2':'epideictic','douay-john':'epideictic','douay-pater':'epideictic',
+  'greg-1':'deliberative','greg-2':'deliberative','greg-3':'deliberative','greg-4':'deliberative',
+  'greg-5':'deliberative','greg-6':'deliberative','greg-7':'deliberative','greg-8':'deliberative'
 };
 function speciesOf(p){ return p.species || SPECIES_MAP[p.id] || ''; }
 function srcOf(p){
@@ -230,12 +263,12 @@ const ANT_SIDE = {
   'ant-3.4.1':'defence','ant-3.4.8':'defence'
 };
 const TAXIS_PARTS = [
-  {key:'exordium', name:'Exordium', job:'Make them attentive, teachable, well-disposed.'},
-  {key:'narration', name:'Narration', job:'The facts — brief, clear, plausible.'},
-  {key:'division', name:'Division', job:'The points in dispute, and the order of taking them.'},
-  {key:'proof', name:'Proof', job:'Your arguments (confirmatio).'},
-  {key:'refutation', name:'Refutation', job:'The other side (reprehensio).'},
-  {key:'peroration', name:'Peroration', job:'Recapitulate, and move.'}
+  {key:'exordium', name:'Exordium', duty:'Make them attentive, teachable, well-disposed.'},
+  {key:'narration', name:'Narration', duty:'The facts — brief, clear, plausible.'},
+  {key:'division', name:'Division', duty:'The points in dispute, and the order of taking them.'},
+  {key:'proof', name:'Proof', duty:'Your arguments (confirmatio).'},
+  {key:'refutation', name:'Refutation', duty:'The other side (reprehensio).'},
+  {key:'peroration', name:'Peroration', duty:'Recapitulate, and move.'}
 ];
 const TAXIS_ITEMS = [
   {id:'t1', part:'exordium', text:'How much further, Catilina, will you carry your abuse of our forbearance?', src:'cic_cat', cite:'Cicero, First Catilinarian 1.1'},
@@ -243,11 +276,21 @@ const TAXIS_ITEMS = [
   {id:'t3', part:'division', text:'For either by fortune and the gods and necessity she did what she did, or by violence, or by persuasion, or by Love.', src:'gorgias_vh', cite:'Gorgias, Helen 6'},
   {id:'t4', part:'proof', text:'I consider that we are deliberating for the future more than for the present.', src:'thuc_crawley', cite:'Thucydides 3.44, Diodotus'},
   {id:'t5', part:'refutation', text:'You were then, Catilina, at Laeca’s house that night; you divided Italy into districts.', src:'cic_cat', cite:'Cicero, First Catilinarian 1.4'},
-  {id:'t6', part:'peroration', text:'You have heard the facts; you have heard the arguments. It remains for you to give judgment.', src:'appown', cite:'School form of a peroration (the office, not a forged classical sentence)'},
+  {id:'t6', part:'peroration', text:'How, then, is it fair to blame Helen who, whether by love captivated, or by word persuaded, or by violence dominated, or by divine necessity subjugated, did what she did, and is completely absolved from blame?', src:'gorgias_vh', cite:'Gorgias, Helen 20'},
   {id:'t7', part:'exordium', text:'I am more than seventy years of age, and appearing now for the first time in a court of law, I am quite a stranger to the language of the place.', src:'plato_jowett', cite:'Plato, Apology 17c–d (Jowett) — the refusal of a captatio'},
   {id:'t8', part:'narration', text:'There arose a mighty storm, bringing a shower of tears. I cast myself down under a certain fig-tree.', src:'aug_pusey', cite:'Augustine, Confessions VIII.12 (Pusey)'},
   {id:'t9', part:'proof', text:'Logos is a powerful potentate, who with frailest, feeblest frame works wonders.', src:'gorgias_vh', cite:'Gorgias, Helen 8'},
-  {id:'t10', part:'peroration', text:'For heroes have the whole earth for their tomb; and in lands far from their own, where the column with its epitaph declares it, there is enshrined in every breast a record unwritten with no tablet to preserve it, except that of the heart.', src:'thuc_crawley', cite:'Thucydides 2.43, Pericles'}
+  {id:'t10', part:'peroration', text:'For heroes have the whole earth for their tomb; and in lands far from their own, where the column with its epitaph declares it, there is enshrined in every breast a record unwritten with no tablet to preserve it, except that of the heart.', src:'thuc_crawley', cite:'Thucydides 2.43, Pericles'},
+  {id:'t11', part:'exordium', text:'Although I am afraid, gentlemen of the jury, that fear is an unseemly condition in which to begin a speech in defence of the bravest of men.', src:'cic_cat', cite:'Cicero, Pro Milone 1'},
+  {id:'t12', part:'exordium', text:'Most of my predecessors in this place have commended him who made this speech part of the law, telling us that it is well that it should be delivered at the burial of those who fall in battle.', src:'thuc_crawley', cite:'Thucydides 2.35, Pericles'},
+  {id:'t13', part:'narration', text:'You were then, Catilina, at Laeca’s house that night; you divided Italy into districts; you decided to what quarter you wished each of your friends to proceed.', src:'cic_cat', cite:'Cicero, First Catilinarian 1.4'},
+  {id:'t14', part:'proof', text:'If, men of Athens, you first supply the sum I have mentioned, and then, after making ready the rest of the armament—soldiers, ships, cavalry—bind the whole force in its entirety, by law, to remain at the seat of war.', src:'demosth', cite:'Demosthenes, First Philippic'},
+  {id:'t15', part:'proof', text:'Inflict only such penalties as the laws have provided.', src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
+  {id:'t16', part:'refutation', text:'The strong do what they can and the weak suffer what they must. Melians. As we think, at any rate, it is expedient—we speak as we are obliged, since you enjoin us to let right alone and talk only of interest.', src:'thuc_crawley', cite:'Thucydides 5.89–90, Melian dialogue'},
+  {id:'t17', part:'exordium', text:'To-day, conscript fathers, has brought to a close the long silence, due not to a feeling of fear, but to mingled feelings of grief and of diffidence.', src:'cic_orat', cite:'Cicero, Pro Marcello 1'},
+  {id:'t18', part:'division', text:'Differently, then, to be admonished are men and women; the young and the old; the poor and the rich.', src:'greg', cite:'Gregory, Pastoral Care III (Barmby)'},
+  {id:'t19', part:'narration', text:'Cocles, (that defence the fortune of Rome had on that day,) who, happening to be posted on guard at the bridge, when he saw the Janiculum taken by a sudden assault.', src:'livy_r', cite:'Livy 2.10, Horatius'},
+  {id:'t20', part:'refutation', text:'How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth.', src:'plato_jowett', cite:'Plato, Apology (Jowett)'}
 ];
 const ENTHYMEMES = [
   {id:'e1', said:'Catiline still lives — and sits in the senate.', missing:'A man who plots the massacre of the senate ought not to sit in it.',
@@ -265,7 +308,27 @@ const ENTHYMEMES = [
   {id:'e7', said:'The unwritten laws of Heaven were not born today nor yesterday; they die not, and none knows their birth.', missing:'A human decree cannot override a law that is not of human making.',
     distractors:['Creon is the author of divine law','Antigone is a deliberative speech to an assembly','All laws are written'], src:'soph_storr', cite:'Sophocles, Antigone 450–457 (Storr)'},
   {id:'e8', said:'Men are not born with the art of politics; Zeus sent Hermes with dike and aidos for all.', missing:'If justice and shame had been given only to a few, cities could not stand.',
-    distractors:['Only philosophers should rule from birth','Helen went by violence only','The javelin is a tekmerion of intent'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'}
+    distractors:['Only philosophers should rule from birth','Helen went by violence only','The javelin is a tekmerion of intent'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'},
+  {id:'e9', said:'The unexamined life is not worth living.', missing:'A life that is not worth living ought not to be chosen even to escape death.',
+    distractors:['All Athenians examine their lives','The funeral oration is forensic','Javelins always miss the mark'], src:'plato_jowett', cite:'Plato, Apology (Jowett)'},
+  {id:'e10', said:'The strong do what they can and the weak suffer what they must.', missing:'Right has no standing where power is unequal; only interest remains.',
+    distractors:['Melos is a Spartan colony only in name','Pericles forbids counsel','All pity is weakness'], src:'thuc_crawley', cite:'Thucydides 5.89, Melian dialogue'},
+  {id:'e11', said:'Inflict only such penalties as the laws have provided.', missing:'A penalty not in the law is itself a new crime against the republic.',
+    distractors:['Caesar wishes the conspirators freed without trial','All fear is irascible','Helen went by love only'], src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
+  {id:'e12', said:'Give me chastity and continency, only not yet.', missing:'A prayer that postpones the good it names is still a love of the old disease.',
+    distractors:['Augustine forbids all eloquence','Shame is only irascible','The senate sits in the temple of Jupiter'], src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
+  {id:'e13', said:'I have a better right to command than others — I must begin with this as Nicias has attacked me.', missing:'The man whose private splendour brings the city profit is fit to command.',
+    distractors:['Nicias has no ships','All epideictic is funeral oration','The javelin is a necessary sign of intent'], src:'thuc_crawley', cite:'Thucydides 6.16, Alcibiades'},
+  {id:'e14', said:'An eloquent man must speak so as to teach, to delight, and to persuade.', missing:'These three offices belong to the same orator, not to three different arts.',
+    distractors:['Delight is the only necessity','Forensic speech has no close','All signs are necessary'], src:'ddc', cite:'Augustine, De doctrina christiana IV'},
+  {id:'e15', said:'There are but three considerable naval powers in Hellas—Athens, Corcyra, and Corinth—and if you allow two of these three to become one, you will have to fight the two together.', missing:'It is folly to let two naval powers combine against you when you might keep one as an ally.',
+    distractors:['Corinth has no ships','Pity is the only passion of war','Catiline sits in the senate by right'], src:'thuc_crawley', cite:'Thucydides 1.36, Corcyra'},
+  {id:'e16', said:'To-day has brought to a close the long silence which I had observed during the recent troubles.', missing:'When the republic can again hear a free voice, the orator ought to speak.',
+    distractors:['Marcellus was never pardoned','All silence is shame','The Melian dialogue is epideictic'], src:'cic_orat', cite:'Cicero, Pro Marcello 1'},
+  {id:'e17', said:'Fear not, for you shall not be confounded — so the poor are to be comforted, while the rich are to be made afraid of elation.', missing:'The same vice is not cured by the same word in every hearer.',
+    distractors:['Gregory forbids preaching to the rich','All hearers are moved only by fear','Figures replace a doctrine of the hearer'], src:'greg', cite:'Gregory, Pastoral Care III'},
+  {id:'e18', said:'Although I am afraid, gentlemen of the jury, that fear is unseemly in a speech for the bravest of men.', missing:'If even the advocate of the brave man is afraid, the danger to the republic is real.',
+    distractors:['Milo asked to be left undefended','All exordia are captationes','The javelin proves intent'], src:'cic_cat', cite:'Cicero, Pro Milone 1'}
 ];
 const PASSIONS = [
   {id:'p1', name:'anger', appetite:'irascible', text:'How much further, Catilina, will you carry your abuse of our forbearance?', cite:'Cicero, Catilinarian 1.1', src:'cic_cat', why:'Aristotle II.2: anger is a desire, accompanied by pain, for conspicuous revenge, toward one who has slighted us.'},
@@ -275,20 +338,41 @@ const PASSIONS = [
   {id:'p5', name:'indignation', appetite:'irascible', text:'Alas! what degenerate days are these! The senate is well aware of the facts… but the criminal still lives.', cite:'Cicero, Catilinarian 1.2', src:'cic_cat', why:'Indignation is pain at undeserved good fortune (II.9) — here, the good of going unpunished.'},
   {id:'p6', name:'confidence', appetite:'irascible', text:'We throw open our city to the world, and never by alien acts exclude foreigners from any opportunity of learning or observing.', cite:'Thucydides 2.39, Pericles', src:'thuc_crawley', why:'Confidence is the opposite of fear: imagination of safety (II.5).'},
   {id:'p7', name:'love', appetite:'concupiscible', text:'Too late loved I Thee, O Thou Beauty of ancient days, yet ever new!', cite:'Augustine, Confessions X (Pusey)', src:'aug_pusey', why:'Love is the motion toward a good taken as such. The apostrophe is pathos and prayer at once.'},
-  {id:'p8', name:'kindness', appetite:'concupiscible', text:'My nature is for mutual love, not hate.', cite:'Sophocles, Antigone (Storr)', src:'soph_storr', why:'Kindness as a settled wish for another’s good. Antigone names her ethos as a passion that has become character.'}
+  {id:'p8', name:'kindness', appetite:'concupiscible', text:'My nature is for mutual love, not hate.', cite:'Sophocles, Antigone (Storr)', src:'soph_storr', why:'Kindness as a settled wish for another’s good. Antigone names her ethos as a passion that has become character.'},
+  {id:'p9', name:'hatred', appetite:'concupiscible', text:'To what destiny of mine, O conscript fathers, shall I say that it is owing, that none for the last twenty years has been an enemy to the republic without at the same time declaring war against me?', cite:'Cicero, Philippic 1', src:'cic_orat', why:'Hatred is a settled wish for another’s ill, without the pain of anger (II.4). Cicero makes the enemy of the republic his own.'},
+  {id:'p10', name:'fear', appetite:'irascible', text:'Although I am afraid, gentlemen of the jury, that fear is an unseemly condition in which to begin a speech in defence of the bravest of men.', cite:'Cicero, Pro Milone 1', src:'cic_cat', why:'The advocate’s fear is itself the argument: the danger is present and public (II.5).'},
+  {id:'p11', name:'emulation', appetite:'irascible', text:'Athenian guest, much report of thee has come to us, both in regard to thy wisdom and thy wanderings… a desire has come upon me to ask thee whether thou hast seen any whom thou deemest to be the happiest.', cite:'Herodotus 1.30, Croesus to Solon', src:'herodotus', why:'Emulation is pain at seeing goods one might have (II.11). Croesus wants the name of happiest.'},
+  {id:'p12', name:'pity', appetite:'concupiscible', text:'My children, latest born to Cadmus old, Why sit ye here as suppliants, in your hands Branches of olive filleted with wool?', cite:'Sophocles, Oedipus Tyrannus (Storr)', src:'soph_storr', why:'The city as children, the plague as undeserved evil: the king is moved to pity before he is moved to inquiry (II.8).'},
+  {id:'p13', name:'anger', appetite:'irascible', text:'When I reflect on the causes of the war, and the circumstances of our situation, I feel a strong persuasion that our united efforts on the present day will prove the beginning of universal liberty to Britain.', cite:'Tacitus, Agricola, Calgacus (Murphy)', src:'tacitus_cb', why:'Anger at a slight to a free people, joined with hope of revenge (II.2).'},
+  {id:'p14', name:'love', appetite:'concupiscible', text:'But what do I love, when I love Thee? not beauty of bodies, nor the fair harmony of time, nor the brightness of the light.', cite:'Augustine, Confessions X (Pusey)', src:'aug_pusey', why:'Love seeking its object by denying lesser goods (II.4; Aquinas I–II on the concupiscible).'},
+  {id:'p15', name:'confidence', appetite:'irascible', text:'If your courage and fidelity had not been sufficiently proved by me, this favorable opportunity would have occurred to no purpose; mighty hopes, absolute power, would in vain be within our grasp.', cite:'Sallust, Catiline 20', src:'sallust_w', why:'Confidence as imagination of safety and of goods within reach (II.5) — here, a conspirator’s confidence.'},
+  {id:'p16', name:'shame', appetite:'concupiscible', text:'How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth.', cite:'Plato, Apology (Jowett)', src:'plato_jowett', why:'Socrates would have the jury feel the shame of being moved by a lie (II.6).'},
+  {id:'p17', name:'indignation', appetite:'irascible', text:'Haste and anger are the two things most opposed to good counsel.', cite:'Thucydides 3.42, Diodotus', src:'thuc_crawley', why:'Diodotus would have the assembly feel indignation at being rushed, not only pity for Mytilene (II.9).'},
+  {id:'p18', name:'kindness', appetite:'concupiscible', text:'The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself.', cite:'Gregory, Pastoral Care II (Barmby)', src:'greg', why:'Kindness as wishing another’s good and taking his ills as one’s own (II.7).'}
 ];
 const DEBATES = [
   {id:'d-arch', title:'War with Athens', a:{who:'Archidamus', pid:'thuc-arch-1', claim:'Do not rush to war; experience teaches its cost.'}, b:{who:'Sthenelaidas', pid:'thuc-sthen-1', claim:'Vote the war; the Athenians are in the wrong.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.80 / 1.86'},
   {id:'d-myt', title:'Mytilene', a:{who:'Cleon', pid:'thuc-cleon-1', claim:'A democracy that talks cannot hold empire; do not reopen the sentence.'}, b:{who:'Diodotus', pid:'thuc-diod-1', claim:'Haste and anger are the two things most opposed to good counsel.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 3.37 / 3.42'},
-  {id:'d-fun', title:'The dead of the first year', a:{who:'Pericles', pid:'thuc-fun-1', claim:'I shall speak of the city, not only of the men.'}, b:{who:'Pericles', pid:'thuc-fun-2', claim:'Our constitution does not copy our neighbours; we are an example.'}, species:'epideictic', src:'thuc_crawley', locus:'Thucydides 2.35 / 2.37'},
+  {id:'d-fun', title:'Pericles’ funeral oration', a:{who:'Pericles (the custom)', pid:'thuc-fun-1', claim:'I shall speak of the city, not only of the men.'}, b:{who:'Pericles (the city)', pid:'thuc-fun-2', claim:'Our constitution does not copy our neighbours; we are an example.'}, species:'epideictic', src:'thuc_crawley', locus:'Thucydides 2.35 / 2.37'},
   {id:'d-cat', title:'The Catilinarian conspirators', a:{who:'Catiline', pid:'sal-cat-consp', claim:'The conspirators are called to dare, as men dispossessed.'}, b:{who:'Caesar', pid:'sal-caes-1', claim:'Inflict only such penalties as the laws have provided.'}, species:'deliberative', src:'sallust_w', locus:'Sallust, Catiline 20 / 51'},
-  {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.'}, b:{who:'The thrower (defence)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'}
+  {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.'}, b:{who:'The thrower (defence)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'},
+  {id:'d-ap', title:'Socrates before the jury', a:{who:'The accusers (as Socrates reports them)', pid:'plato-ap-1', claim:'Beware his eloquence; he is a clever speaker.'}, b:{who:'Socrates', pid:'plato-ap-2', claim:'The unexamined life is not worth living; he will not beg.'}, species:'forensic', src:'plato_jowett', locus:'Plato, Apology (Jowett)'}
 ];
 const GREG_PAIRS = [
   {id:'g1', pair:'the joyful and the sad', why:'The joyful are to be checked lest they run to excess; the sad are to be comforted lest they break.', src:'greg'},
   {id:'g2', pair:'the humble and the proud', why:'The humble are to be praised carefully, lest praise become a snare; the proud are to be rebuked, lest silence confirm them.', src:'greg'},
   {id:'g3', pair:'the silent and the talkative', why:'The silent must be drawn to a useful word; the talkative must be taught to spare the hearer.', src:'greg'},
-  {id:'g4', pair:'the young and the old', why:'The young are to be admonished to keep order; the old to be asked for the example their years already claim.', src:'greg'}
+  {id:'g4', pair:'the young and the old', why:'The young are to be admonished to keep order; the old to be asked for the example their years already claim.', src:'greg'},
+  {id:'g5', pair:'men and women', why:'Heavier injunctions are laid on the one, lighter on the other, that those may be exercised by great things and these winningly converted by light ones.', src:'greg'},
+  {id:'g6', pair:'the poor and the rich', why:'The poor are to be offered the solace of comfort against tribulation; the rich are to be made afraid of elation.', src:'greg'},
+  {id:'g7', pair:'subjects and prelates', why:'Subjects must not be crushed by subjection; prelates must not be elated by place, nor command more than is just.', src:'greg'},
+  {id:'g8', pair:'servants and masters', why:'Servants are to be admonished that they despise not their masters; masters, that they forget not they have a Master in heaven.', src:'greg'},
+  {id:'g9', pair:'the wise of this world and the dull', why:'The wise must not trust their own cleverness; the dull must not despair of being taught.', src:'greg'},
+  {id:'g10', pair:'the impudent and the bashful', why:'The impudent are to be checked by open rebuke; the bashful are to be drawn on by gentle encouragement.', src:'greg'},
+  {id:'g11', pair:'the gluttonous and the abstinent', why:'The gluttonous are to be restrained from the belly; the abstinent are to be kept from pride in their restraint.', src:'greg'},
+  {id:'g12', pair:'the merciful and the envious', why:'The merciful are to be praised without being taught to spare justice; the envious are to be shown another’s good as no theft from themselves.', src:'greg'},
+  {id:'g13', pair:'the peaceful and the brawlers', why:'The peaceful are to be kept from a false peace that hides the wound; the brawlers are to be taught the cost of a quarrel.', src:'greg'},
+  {id:'g14', pair:'those who preach and those who are silent in the office of preaching', why:'Those who preach must not neglect their own life; those who are silent in the office must not hide the talent.', src:'greg'}
 ];
 const FIGURE_GLOSS = {
   anaphora:'the same word at the head of successive members',
@@ -319,7 +403,7 @@ const FIGURE_GLOSS = {
   definition:'an argument from what the thing is called',
   ethos:'character doing the work of proof',
   pathos:'the hearer’s passion doing the work of proof',
-  prooimion:'an opening that does the job of an exordium',
+  prooimion:'an opening that does the office of an exordium',
   exordium:'the opening office of the speech',
   exemplum:'an example used as proof',
   hendiadys:'one idea through two coordinated nouns',
@@ -329,6 +413,154 @@ const FIGURE_GLOSS = {
   prosopopoeia:'giving a voice to the absent or the dead',
   epithet:'a characterizing adjunct'
 };
+const SPEECH_FIGURES = {
+  anaphora:1, antithesis:1, apostrophe:1, tricolon:1, isocolon:1, homoeoteleuton:1,
+  metaphor:1, irony:1, 'rhetorical question':1, chiasmus:1, epizeuxis:1, sententia:1,
+  climax:1, asyndeton:1, personification:1, simile:1, hyperbole:1, occupatio:1,
+  praeteritio:1, hypotyposis:1, exclamatio:1, correctio:1, enumeratio:1, dilemma:1,
+  hendiadys:1, litotes:1, parenthesis:1, prosopopoeia:1, epithet:1
+};
+function isSpeechFigure(name){ return !!SPEECH_FIGURES[name]; }
+function speechSpans(p){ return (p.spans||[]).filter(s => isSpeechFigure(s.figure)); }
+function isOration(p){
+  if(!p) return false;
+  if(/Douay|Matthew|Paul|John/.test(p.author||'')) return false;
+  if(/Homer|Virgil|Boethius/.test(p.author||'')) return false;
+  if(/Pastoral Rule|Consolation|Confessions/.test(p.work||'')) return false;
+  return !!speciesOf(p);
+}
+const PISTEIS_ITEMS = [
+  {pid:'cic-cat1-1', pistis:'pathos', why:'The questions are not for information; they put the senate into alarm and shame.'},
+  {pid:'ant-3.2.1', pistis:'ethos', why:'The quiet man, forced into court against his nature: character as proof.'},
+  {pid:'gor-hel-8', pistis:'logos', why:'A claim about what logos is, offered as the ground of Helen’s acquittal.'},
+  {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and anger oppose good deliberation.'},
+  {pid:'ant-3.1.1', pistis:'logos', why:'Facts agreed; the charge is a description of cause.'},
+  {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual captatio; the manner of speaking is the proof of the man.'},
+  {pid:'aug-chast', pistis:'pathos', why:'The divided will is staged so that the hearer feel the shame of “not yet.”'},
+  {pid:'thuc-fun-2', pistis:'ethos', why:'Athens is characterized; the city’s ethos becomes the speaker’s.'},
+  {pid:'sal-caes-1', pistis:'logos', why:'Caesar argues from the laws and from the consequences of a novel penalty.'},
+  {pid:'cic-cat1-4', pistis:'pathos', why:'“Where are we?” — fear and indignation before the proof is unfolded.'},
+  {pid:'gor-hel-10', pistis:'pathos', why:'Song as witchery: the doctrine of pathos offered as a physics of the soul.'},
+  {pid:'soph-ant-2', pistis:'ethos', why:'“My nature is for mutual love, not hate” — character named as the ground of the act.'},
+  {pid:'cic-milo-1', pistis:'ethos', why:'The advocate’s confessed fear is made a proof of the man he defends, and of the danger.'},
+  {pid:'thuc-arch-1', pistis:'ethos', why:'Age and experience of many wars: the speaker’s character is the reason to wait.'},
+  {pid:'thuc-cleon-1', pistis:'logos', why:'Cleon argues from what empire is: a democracy that talks cannot hold it.'},
+  {pid:'aug-ddc-12', pistis:'logos', why:'The three offices are distinguished by what they do, not by a display of feeling.'},
+  {pid:'sal-cat-consp', pistis:'pathos', why:'Catiline moves the conspirators by hope, grievance, and the dare.'},
+  {pid:'plato-ap-2', pistis:'ethos', why:'He will not beg; the manner of the man is the argument.'},
+  {pid:'tac-cal-1', pistis:'pathos', why:'Calgacus puts the host into the mind of a last free people, with no land behind them.'},
+  {pid:'dem-3', pistis:'logos', why:'Money, ships, a law that the force remain: a policy argued from its parts.'},
+  {pid:'cic-marc-1', pistis:'ethos', why:'The long silence, grief not fear: Cicero’s character restored with Caesar’s clemency.'},
+  {pid:'gor-hel-6', pistis:'logos', why:'Four causes named; the case is divided before it is proved.'},
+  {pid:'ant-3.2.10', pistis:'pathos', why:'Pollution and the city’s danger if the killer walks: the hearer is put in fear.'},
+  {pid:'thuc-fun-1', pistis:'ethos', why:'He will not praise as others have praised; the city’s character is his.'}
+];
+function pistisOf(p){
+  const it = PISTEIS_ITEMS.find(x => x.pid === p.id);
+  return it ? it.pistis : '';
+}
+const ETHOS_ITEMS = [
+  {id:'et1', pid:'plato-ap-1', which:'arete', label:'Virtue (arete)',
+    why:'He will not borrow the law-court’s eloquence. The manner of the man is the proof of the man.'},
+  {id:'et2', pid:'thuc-arch-1', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Years and many wars: he asks to be trusted because he has seen what war costs.'},
+  {id:'et3', pid:'ant-3.2.1', which:'arete', label:'Virtue (arete)',
+    why:'The quiet man (apragmon), forced into court against his nature: character as argument.'},
+  {id:'et4', pid:'cic-milo-1', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'Fear for the bravest of men and for the republic: the advocate’s goodwill is the opening.'},
+  {id:'et5', pid:'plato-ap-2', which:'arete', label:'Virtue (arete)',
+    why:'He will not beg for his life. The refusal is the man.'},
+  {id:'et6', pid:'thuc-fun-2', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Athens as original, not copy: the city’s wisdom is offered as the speaker’s credit.'},
+  {id:'et7', pid:'cic-marc-1', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'The silence was grief, not fear; today he speaks again for the house — goodwill restored.'},
+  {id:'et8', pid:'soph-ant-2', which:'arete', label:'Virtue (arete)',
+    why:'“My nature is for mutual love, not hate”: she names the character from which the act follows.'},
+  {id:'et9', pid:'thuc-diod-1', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'He argues from what counsel is. The credit he asks is that of a man who will not be rushed.'},
+  {id:'et10', pid:'sal-caes-1', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Penalty within the law: Caesar asks to be heard as the man who sees what a novel punishment costs the republic.'},
+  {id:'et11', pid:'cic-cat1-1', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'The questions shame the senate into the consul’s side: goodwill toward the republic, shown as shared alarm.'},
+  {id:'et12', pid:'aug-ddc-2', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'Truth must not stand unarmed: the Christian orator’s goodwill is for the hearer’s good, not for a fee.'}
+];
+const LEXIS_ITEMS = [
+  {id:'lx1', pid:'gor-hel-8', kind:'style',
+    prompt:'Does the argument here still stand if you strip the figures, or is the figure doing the work of the claim?',
+    options:['The figure is the claim: speech as a potentate is a personification, not a proof from premises','The claim would stand in plain clauses: a policy is being argued from its parts','This is only narration of agreed facts','This is an inartistic proof, a written law'],
+    correct:0, note:'Helen 8: logos as potentate. Remove the personification and the antithesis of frail frame and wonders, and the doctrine has little left but the image.'},
+  {id:'lx2', pid:'thuc-diod-1', kind:'style',
+    prompt:'Does the argument here still stand if you strip the figures, or is the figure doing the work of the claim?',
+    options:['The figure is the claim; without the balance of members nothing is being argued','The claim would stand in plain clauses: haste and anger oppose good counsel','This is only an exordium of goodwill','This is epideictic praise of Athens'],
+    correct:1, note:'Diodotus’s sentence can be said without isocolon. The argument is about counsel, not about the shape of the clause.'},
+  {id:'lx3', pid:'ant-3.1.1', kind:'style',
+    prompt:'Does the argument here still stand if you strip the figures, or is the figure doing the work of the claim?',
+    options:['The figure is the whole case; there is no argument from cause','The facts and the charge would stand in plain clauses: a death, a throw, a name for the act','This is a funeral oration','This is style doing the work of a hymn'],
+    correct:1, note:'The tetralogy’s first speech can be stripped of ornament and still be a charge. The fight is cause, not lexis.'},
+  {id:'lx4', pid:'gor-hel-10', kind:'style',
+    prompt:'Does the argument here still stand if you strip the figures, or is the figure doing the work of the claim?',
+    options:['The witchery of song is argued by the sound and the image; the figure is doing the work','A plain policy remains: Athens should keep two naval powers from combining','This is only a list of the parts of an oration','This is a necessary sign of fever'],
+    correct:0, note:'Song as witchery is a physics offered as figure. Aristotle will name the same fact as pathos, without the drug.'},
+  {id:'lx5', pid:'sal-caes-1', kind:'style',
+    prompt:'Does the argument here still stand if you strip the figures, or is the figure doing the work of the claim?',
+    options:['Without the studied language of pity, Caesar has no case','The claim would stand in plain clauses: inflict only such penalties as the laws have provided','This is Gorgias’s four aitiai','This is an epideictic hymn'],
+    correct:1, note:'Caesar can be plain. The argument is from the law and from consequence, not from the music of the members.'},
+  {id:'lx6', pid:'cic-cat1-1', kind:'style',
+    prompt:'The opening questions of the First Catilinarian — how much further, how much longer — are',
+    options:['Only decoration, with no work on the hearer','Rhetorical questions that put the senate into alarm; the figure is doing pathos, and the charge is still there without them, but weaker','A complete proof from a necessary sign','The office of narration'],
+    correct:1, note:'The questions are a charge. The fact they rest on (the conspiracy known) would remain in plain assertion; the questions are how the hearer is moved to feel it.'},
+  {id:'lx7', pid:'thuc-fun-2', kind:'style',
+    prompt:'“We do not copy our neighbours, but are an example to them.” If you drop the antithesis, what remains?',
+    options:['Nothing: the whole praise was the figure','A claim about Athens that can still be judged true or false as praise','A forensic narration of a crime','A tetralogy’s second speech'],
+    correct:1, note:'Antithesis serves the praise. The claim (Athens is original) is still a claim if you say it without the turn.'},
+  {id:'lx8', pid:'gor-hel-6', kind:'style',
+    prompt:'The four aitiai are listed in parallel members. Is the list a figure doing the work of argument, or an argument that happens to be figured?',
+    options:['Only sound: there are not four causes, only four clauses','A division of the case: four causes, any one of which would acquit; the isocolon dresses a real partitio','A necessary sign of fever','An inartistic witness'],
+    correct:1, note:'The four causes are a division (partitio). The equal members make them memorable. The argument would survive as a numbered list in plain prose.'},
+  {id:'lx9', pid:'dem-3', kind:'style',
+    prompt:'Demosthenes binds money, ships, cavalry, and a law that the force remain. Strip any figure you hear. What remains?',
+    options:['Nothing but sound','A deliberative policy, argued from its parts','An encomium of Helen','A confession of delayed chastity'],
+    correct:1, note:'A policy can be numbered. That is arrangement and logos, not Gorgian witchery.'},
+  {id:'lx10', pid:'aug-ddc-24', kind:'style',
+    prompt:'Augustine at Caesarea wanted tears, not applause. On his account, the grand style has succeeded when',
+    options:['The members are equal and the endings match','The hearer is moved to a change of life, even if the room is silent','The preacher is known for isocolon','All figures have been suppressed as worldly'],
+    correct:1, note:'DDC IV: the majestic style is known by tears. Style is for an office (movere), not for display.'}
+];
+const AUG_ITEMS = [
+  {id:'au1', pid:'aug-ddc-12',
+    prompt:'Augustine, following Cicero: to teach, to delight, to persuade. Which of the three is a necessity?',
+    options:['To delight — without pleasure no one listens','To teach — teaching depends on what we say; the other two on the way we say it','To persuade — applause is the test','None: a Christian must not use rhetoric'],
+    correct:1, note:'DDC IV: to teach is a necessity, to delight a beauty, to persuade a triumph. Teaching is in the matter; the other two in the manner.'},
+  {id:'au2', pid:'aug-ddc-17',
+    prompt:'Which style does Augustine assign to teaching?',
+    options:['The grand (grande), because teaching must move to tears','The subdued (summissum), for being understood','The temperate (temperatum), for praise and blame only','No style: teaching is not speaking'],
+    correct:1, note:'Subdued for teaching, temperate for delighting, grand for moving. Mix them. Do not use the grand style everywhere.'},
+  {id:'au3', pid:'aug-ddc-24',
+    prompt:'The sign that the grand style has done its office is',
+    options:['Applause and the preacher’s name','Tears, and a change — at Caesarea, the Caterva ended','A perfect homoeoteleuton in every member','The suppression of all Cicero'],
+    correct:1, note:'He asked for groans, not cheers. The Caterva story is the emblem of movere.'},
+  {id:'au4', pid:'aug-ddc-2',
+    prompt:'Why may the Christian use rhetoric?',
+    options:['Because winning a case for pay is the end of the art','Because truth must not stand unarmed against those who use the art for falsehood','Because figures are themselves sacraments','Because Augustine forbids the subdued style'],
+    correct:1, note:'DDC IV: the art is available for truth or falsehood. Who will dare say that truth should take the field unarmed?'},
+  {id:'au5', pid:'aug-ddc-17',
+    prompt:'The temperate style, on Augustine’s map, is especially for',
+    options:['Teaching a difficult doctrine','Praise and blame — to delight, and to make the good attractive','Moving a mob to arms only','Silent prayer'],
+    correct:1, note:'Temperate for delectare: the good is shown as lovely. Grand for movere: the will is pushed to act.'},
+  {id:'au6', pid:'aug-serm-1',
+    prompt:'A sermon that opens by asking to be heard as God’s word in an earthen vessel is chiefly',
+    options:['Display of the preacher’s ethos as a sophist','Teaching (docere) in the subdued style, with a little ethos of humility','A forensic narration of a homicide','Gorgias’s four aitiai'],
+    correct:1, note:'The treasure in earthen vessels is a teaching opening. Humility is ethos; the office is still docere.'},
+  {id:'au7', pid:'aug-ddc-12',
+    prompt:'“To teach is a necessity, to delight is a beauty, to persuade is a triumph.” The three offices are',
+    options:['Three different arts, for three different men','The same orator’s three offices, kept from Cicero and turned to Scripture’s end','A rejection of all pagan rhetoric','The six parts of the Latin oration'],
+    correct:1, note:'Augustine keeps Cicero’s offices and changes the end. The Christian orator serves a truth already found.'},
+  {id:'au8', pid:'aug-ddc-24',
+    prompt:'If the room shouts and does not weep, Augustine’s judgment of a grand-style sermon is that',
+    options:['It has succeeded: noise is the test','It has not yet done the office of moving (movere)','It has proved the four aitiai','It has completed a tetralogy'],
+    correct:1, note:'Applause can be the temperate style’s delight. The grand style is for a change of life.'}
+];
 function passages(){ return window.PASSAGES || []; }
 function byTrack(tr){ return passages().filter(p => p.track === tr); }
 function figNames(p){ return [...new Set((p.spans||[]).map(s => s.figure))]; }
@@ -378,10 +610,10 @@ function mcQ(opts){
 const EX = {};
 EX.species = {
   id:'species', title:'The Three Species',
-  instr:'Name the species by the hearer’s job: forensic (past, just/unjust), deliberative (future, expedient), epideictic (present, noble/shameful). Ten questions make a set; at difficulty 1 each is worth 10, and 100 completes the set.',
+  instr:'Name the species by the hearer’s office: forensic (past, just/unjust), deliberative (future, expedient), epideictic (present, noble/shameful). Ten questions make a set; at difficulty 1 each is worth 10, and 100 completes the set.',
   src:['arist_rhet'],
   gen(diff){
-    const p = pickPass(x => !!speciesOf(x), 'sp:');
+    const p = pickPass(x => isOration(x), 'sp:');
     const sp = speciesOf(p);
     const labels = {
       forensic:'Forensic — the jury, the past, the just and the unjust',
@@ -403,41 +635,27 @@ EX.species = {
 };
 EX.pisteis = {
   id:'pisteis', title:'The Three Pisteis',
-  instr:'Is the work here chiefly ethos, pathos, or logos? Real excerpts. Ten make a set.',
+  instr:'Is the work here chiefly the speaker’s character (ethos), the hearer’s passions (pathos), or the argument (logos)? Real passages. Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
-    const bank = [
-      {pid:'cic-cat1-1', pistis:'pathos', why:'The questions are not for information; they put the senate into alarm and shame.'},
-      {pid:'ant-3.2.1', pistis:'ethos', why:'The quiet man, forced into court against his nature: character as proof.'},
-      {pid:'gor-hel-8', pistis:'logos', why:'A claim about what logos is, offered as the ground of Helen’s acquittal.'},
-      {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and anger oppose good deliberation.'},
-      {pid:'ant-3.1.1', pistis:'logos', why:'Facts agreed; the charge is a description of cause.'},
-      {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual captatio; the manner of speaking is the proof of the man.'},
-      {pid:'aug-chast', pistis:'pathos', why:'The divided will is staged so that the hearer feel the shame of “not yet.”'},
-      {pid:'thuc-fun-2', pistis:'ethos', why:'Athens is characterized; the city’s ethos becomes the speaker’s.'},
-      {pid:'sal-caes-1', pistis:'logos', why:'Caesar argues from the laws and from the consequences of a novel penalty.'},
-      {pid:'cic-cat1-4', pistis:'pathos', why:'“Where are we?” — fear and indignation before the proof is unfolded.'},
-      {pid:'gor-hel-10', pistis:'pathos', why:'Song as witchery: the doctrine of pathos offered as a physics of the soul.'},
-      {pid:'soph-ant-2', pistis:'ethos', why:'“My nature is for mutual love, not hate” — character named as the ground of the act.'}
-    ];
-    const item = pickSeen(bank, x => 'pi:'+x.pid);
+    const item = pickSeen(PISTEIS_ITEMS, x => 'pi:'+x.pid);
     const p = passages().find(x => x.id === item.pid) || pickPass(null, 'pi');
     const names = ['ethos','pathos','logos'];
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
-      prompt:'Which pistis is doing the chief work in this stretch?',
+      prompt:'Which pistis is doing the chief work in this passage?',
       options:['Ethos — the speaker as the speech shows him','Pathos — the hearer’s frame of mind','Logos — the argument of the speech itself'],
       correct: names.indexOf(item.pistis),
       passage: cue + esc(excerpt(p, diff >= 4 ? 240 : 400)),
       source: citeP(p), orig: p.orig, olang: p.olang, src: srcOf(p),
       note: item.pistis.charAt(0).toUpperCase()+item.pistis.slice(1)+'. '+item.why,
-      also:'Aristotle I.2: a stretch may use more than one; name the one that is carrying the moment.'
+      also:'Aristotle I.2: a passage may use more than one; name the one that is carrying the moment.'
     });
   }
 };
 EX.enthymeme = {
   id:'enthymeme', title:'Supply the Missing Premise',
-  instr:'The enthymeme leaves a premise for the hearers to supply. Name it. Ten make a set.',
+  instr:'The rhetorical syllogism (enthymeme) leaves a premise for the hearers to supply. Name it. Ten questions make a set; an example is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
     const e = pickSeen(ENTHYMEMES, x => 'en:'+x.id);
@@ -451,9 +669,33 @@ EX.enthymeme = {
     });
   }
 };
+EX.ethos = {
+  id:'ethos', title:'Character in the speech',
+  instr:'Aristotle: we trust a speaker for practical wisdom (phronesis), virtue (arete), or goodwill (eunoia) — shown in the speech, not borrowed as a reputation from outside. Name which of the three is doing the work. Ten questions; a passage is not repeated in the set.',
+  src:['arist_rhet'],
+  gen(diff){
+    const e = pickSeen(ETHOS_ITEMS, x => 'et:'+x.id);
+    const p = passages().find(x => x.id === e.pid);
+    const labels = [
+      {v:'phronesis', lab:'Practical wisdom (phronesis) — he seems to know what to do'},
+      {v:'arete', lab:'Virtue (arete) — he seems a good man'},
+      {v:'eunoia', lab:'Goodwill (eunoia) — he seems to wish the hearers well'}
+    ];
+    const cue = diff <= 2 ? '<div class="q-cue">'+esc(e.why)+'</div>' : '';
+    return mcQ({
+      prompt:'Which of the three artistic reasons for trust is this speech chiefly showing?',
+      options: labels.map(x => x.lab),
+      correct: labels.findIndex(x => x.v === e.which),
+      passage: cue + (p ? esc(excerpt(p, diff>=4?240:400)) : ''),
+      source: p ? citeP(p) : '', orig: p && p.orig, olang: p && p.olang, src: p ? srcOf(p) : 'arist_rhet',
+      note: e.label+'. '+e.why,
+      also:'Reputation named from outside the speech is an inartistic proof. Ethos here is what the speech itself shows.'
+    });
+  }
+};
 EX.pathos = {
   id:'pathos', title:'Name the Passion',
-  instr:'Aristotle’s passions (Rhetoric II) with Aquinas’s concupiscible / irascible map. Ten make a set.',
+  instr:'Aristotle’s passions (Rhetoric II) with Aquinas’s passions of attraction (concupiscible) and of repulsion (irascible). Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet','aquinas_st'],
   gen(diff){
     const e = pickSeen(PASSIONS, x => 'pa:'+x.id);
@@ -471,59 +713,118 @@ EX.pathos = {
 };
 EX.taxis = {
   id:'taxis', title:'Name the Part',
-  instr:'Cicero’s six offices: exordium, narration, division, proof, refutation, peroration. Ten make a set.',
+  instr:'Cicero’s six offices: opening (exordium), facts (narratio), laying-out (partitio), proof (confirmatio), answer to the other side (reprehensio), close (peroratio). Ten questions make a set; a passage is not repeated in the set.',
   src:['cic_inv'],
   gen(diff){
     const e = pickSeen(TAXIS_ITEMS, x => 'tx:'+x.id);
     const names = TAXIS_PARTS.map(t => t.key);
     const options = [e.part].concat(names.filter(n => n !== e.part).slice(0,3));
     const labels = {};
-    TAXIS_PARTS.forEach(t => { labels[t.key] = t.name + ' — ' + t.job; });
+    TAXIS_PARTS.forEach(t => { labels[t.key] = t.name + ' — ' + t.duty; });
     return mcQ({
-      prompt:'Which office of the oration is this stretch performing?',
+      prompt:'Which office of the oration is this part of the passage performing?',
       options: options.map(k => labels[k]), correct:0,
       passage:esc(e.text), source:e.cite, src:e.src,
-      note: TAXIS_PARTS.find(t=>t.key===e.part).name+'. '+TAXIS_PARTS.find(t=>t.key===e.part).job,
-      also: diff >= 3 ? 'Aristotle is content with four; the Latin six name jobs you can actually see.' : ''
+      note: TAXIS_PARTS.find(t=>t.key===e.part).name+'. '+TAXIS_PARTS.find(t=>t.key===e.part).duty,
+      also: diff >= 3 ? 'Aristotle is content with four; the Latin six name offices you can actually see.' : ''
     });
   }
 };
 EX.taxisorder = {
-  id:'taxisorder', title:'Order the Six',
-  instr:'Put Cicero’s six parts in school order. Click them from first to last, then submit.',
+  id:'taxisorder', title:'The six offices',
+  instr:'The Latin school’s six offices: their duties, their order, and when one of them shrinks. A set is six questions; you will not be asked to put the same list in order ten times.',
   src:['cic_inv'],
+  setLen:6,
   gen(diff){
-    const shuffled = shuffle(TAXIS_PARTS.map(p => p.key));
-    return {
-      kind:'order',
-      prompt: diff <= 2 ? 'Click the six offices in Ciceronian order, from exordium to peroration.'
-                        : 'The Latin school order. Click first to last. Do not collapse proof and refutation.',
-      keys: shuffled,
-      labels: shuffled.map(k => TAXIS_PARTS.find(t => t.key===k).name + ' — ' + TAXIS_PARTS.find(t => t.key===k).job),
-      target: TAXIS_PARTS.map(t => t.key),
-      src:['cic_inv'],
-      check(ans){
-        const right = Array.isArray(ans) && ans.join() === TAXIS_PARTS.map(t=>t.key).join();
-        return {right, note: right ? 'Exordium, narration, division, proof, refutation, peroration.'
-                                  : 'School order: exordium → narration → division → proof → refutation → peroration.',
-          also:'De inventione I. The six are offices. A tetralogy may shrink narration.'};
-      }
-    };
+    const duties = TAXIS_PARTS.map(p => ({k:'duty', part:p.key}));
+    const pairs = [];
+    for(let i = 0; i < TAXIS_PARTS.length-1; i++){
+      pairs.push({k:'first', a:TAXIS_PARTS[i].key, b:TAXIS_PARTS[i+1].key});
+    }
+    const kinds = [{k:'order'}, {k:'shrink'}].concat(duties).concat(pairs);
+    const item = pickSeen(kinds, x => 'txo:'+x.k+':'+(x.part||'')+':'+(x.a||'')+':'+(x.b||''));
+    const labels = {};
+    TAXIS_PARTS.forEach(t => { labels[t.key] = t.name + ' — ' + t.duty; });
+    if(item.k === 'order'){
+      const shuffled = shuffle(TAXIS_PARTS.map(p => p.key));
+      return {
+        kind:'order',
+        prompt:'Click the six offices in school order, from opening to close.',
+        keys: shuffled,
+        labels: shuffled.map(k => labels[k]),
+        target: TAXIS_PARTS.map(t => t.key),
+        src:['cic_inv'],
+        check(ans){
+          const right = Array.isArray(ans) && ans.join() === TAXIS_PARTS.map(t=>t.key).join();
+          return {right, note: right ? 'Exordium, narration, division, proof, refutation, peroration.'
+                                    : 'School order: opening → facts → points in dispute → proof → the other side → close.',
+            also:'De inventione I. The six are offices. A tetralogy may shrink narration.'};
+        }
+      };
+    }
+    if(item.k === 'shrink'){
+      return mcQ({
+        prompt:'When the facts are agreed and only the cause is in dispute, which office shrinks?',
+        options:['Peroration — there is nothing to feel','Narration — the story is not the fight','Proof — there are no arguments left','Exordium — the jury is already paying attention'],
+        correct:1, src:'cic_inv',
+        note:'Narration can be a sentence. Proof and refutation swell. Antiphon’s tetralogy is built on that.',
+        also:'The six are offices, not a template. A funeral oration is not a proof of a crime.'
+      });
+    }
+    if(item.k === 'first'){
+      const A = TAXIS_PARTS.find(t => t.key===item.a);
+      const B = TAXIS_PARTS.find(t => t.key===item.b);
+      return mcQ({
+        prompt:'In the Latin school order, which office comes first?',
+        options:[A.name+' — '+A.duty, B.name+' — '+B.duty, 'They are the same office under two names', 'Neither: both belong only to epideictic'],
+        correct:0, src:'cic_inv',
+        note: A.name+' precedes '+B.name+'. School order: opening, facts, points in dispute, proof, the other side, close.',
+        also:'Proof and refutation are two offices. Do not collapse them.'
+      });
+    }
+    const part = TAXIS_PARTS.find(t => t.key===item.part);
+    const others = TAXIS_PARTS.filter(t => t.key!==item.part);
+    const opts = [part].concat(diff<=2 ? others.slice(0,2) : others.slice(0,3));
+    return mcQ({
+      prompt:'Which office has this duty: <em>'+esc(part.duty)+'</em>',
+      options: opts.map(t => t.name),
+      correct:0, src:'cic_inv',
+      note: part.name+' — '+part.duty,
+      also:'Name the duty, then you can find it in a speech even when the speech does not use all six.'
+    });
+  }
+};
+EX.lexis = {
+  id:'lexis', title:'Style and the argument',
+  instr:'Aristotle: let style be clear, and do not make the figures do the work of the argument. Read the passage. Does the claim still stand in plain clauses, or is the figure the claim? Ten questions; a passage is not repeated in the set.',
+  src:['arist_rhet','gorgias_vh'],
+  gen(diff){
+    const e = pickSeen(LEXIS_ITEMS, x => 'lx:'+x.id);
+    const p = passages().find(x => x.id === e.pid);
+    const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
+    return mcQ({
+      prompt: e.prompt,
+      options: e.options, correct: e.correct,
+      passage: cue + (p ? esc(excerpt(p, diff>=4?240:400)) : ''),
+      source: p ? citeP(p) : '', orig: p && p.orig, olang: p && p.olang, src: p ? srcOf(p) : 'arist_rhet',
+      note: e.note,
+      also:'Clarity first. Ornament second. The sophistic vice is to make the style do the work of the argument.'
+    });
   }
 };
 EX.figclick = {
   id:'figclick', title:'Click the Figure',
-  instr:'A real excerpt. Click the stretch that is the named figure. Ten, without repeating a passage in the set.',
+  instr:'A real excerpt. Click the part of the passage that is the named figure. Ten questions; a passage is not repeated in the set.',
   src:['cic_cat','gorgias_vh'],
   gen(diff){
-    const p = pickPass(x => (x.spans||[]).length >= (diff >= 4 ? 3 : 2), 'fc:');
-    const spans = p.spans || [];
+    const p = pickPass(x => speechSpans(x).length >= (diff >= 4 ? 2 : 1), 'fc:');
+    const spans = speechSpans(p);
     const target = (diff <= 2) ? spans[0] : rand(spans);
     const gloss = FIGURE_GLOSS[target.figure] || target.why;
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
     return {
       kind:'figclick',
-      prompt:'Click the stretch that is <strong>'+esc(target.figure)+'</strong> <span style="color:var(--ink-soft);font-style:italic">('+esc(gloss)+')</span>.',
+      prompt:'Click the part of the passage that is <strong>'+esc(target.figure)+'</strong> <span style="color:var(--ink-soft);font-style:italic">('+esc(gloss)+')</span>.',
       passageHtml: cue + wrapFigs(p.text, spans, target.figure),
       source: citeP(p), orig: p.orig, olang: p.olang, target: target.figure, why: target.why, src: srcOf(p),
       check(ans){
@@ -536,10 +837,10 @@ EX.figclick = {
 };
 EX.figwhich = {
   id:'figwhich', title:'Which Excerpt?',
-  instr:'Four real excerpts. Which one is using the named figure? Ten to a set; passages are not reused.',
+  instr:'Four real passages. Which one is using the named figure? Ten to a set; a passage is not reused.',
   src:['cic_cat'],
   gen(diff){
-    const figs = Object.keys(FIGURE_GLOSS).filter(f => withFig(f).length >= 1);
+    const figs = Object.keys(FIGURE_GLOSS).filter(f => isSpeechFigure(f) && withFig(f).length >= 1);
     const fig = pickSeen(figs, f => 'fwfig:'+f);
     const yes = pickPass(x => withFig(fig).indexOf(x)>=0, 'fwy:');
     const nos = sample(passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0), 3);
@@ -557,14 +858,15 @@ function figSet(id, title, instr, pred, src){
   return {
     id, title, instr, src,
     gen(diff){
-      const p = pickPass(pred, id+':');
-      const target = (diff <= 2) ? (p.spans||[])[0] : rand(p.spans||[]);
+      const p = pickPass(x => pred(x) && speechSpans(x).length, id+':');
+      const spans = speechSpans(p);
+      const target = (diff <= 2) ? spans[0] : rand(spans);
       const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
       const gloss = diff<=2 ? ' <em>('+esc(FIGURE_GLOSS[target.figure]||target.why||'')+')</em>' : '';
       return {
         kind:'figclick',
-        prompt:'Click the <strong>'+esc(target.figure)+'</strong>.'+gloss,
-        passageHtml: cue + wrapFigs(p.text, p.spans, target.figure),
+        prompt:'Click the part of the passage that is <strong>'+esc(target.figure)+'</strong>.'+gloss,
+        passageHtml: cue + wrapFigs(p.text, spans, target.figure),
         source: citeP(p), orig:p.orig, olang:p.olang, target:target.figure, why:target.why, src: srcOf(p),
         check(ans){
           const right = String(ans) === String(target.figure);
@@ -575,22 +877,20 @@ function figSet(id, title, instr, pred, src){
   };
 }
 EX.figgorgias = figSet('figgorgias', 'Figures · Gorgias’s Helen',
-  'Almost all Gorgias. Van Hook’s English is built of antithesis, isocolon, homoeoteleuton. The bank is six; it will not repeat in the same set.',
+  'Almost all Gorgias. Van Hook’s English is built of opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton). Six passages; none repeats in the same set.',
   x => x.track==='gorgias', ['gorgias_vh']);
 EX.figaugustine = figSet('figaugustine', 'Figures · Augustine',
-  'Confessions, De doctrina IV, a letter, a sermon. Latin on the original-text button where we have it.',
+  'Confessions, On Christian Teaching IV, a letter, a sermon. Latin on the original-text button where we have it.',
   x => x.author==='Augustine', ['aug_pusey','ddc']);
 EX.figcicero = figSet('figcicero', 'Figures · Cicero',
-  'The Catilinarians and the rest of the Latin backbone. Ten, no repeats in the set.',
+  'The great Roman orator’s use of figures throughout his work but especially in the orations against Catiline. Ten questions; a passage is not repeated in the set.',
   x => x.author==='Cicero', ['cic_cat']);
 EX.figgorgias.setLen = 6;
-EX.enthymeme.setLen = 8;
-EX.pathos.setLen = 8;
 
 
 EX.antiphon = {
   id:'antiphon', title:'Antiphon · Side, Pistis, Topos',
-  instr:'The javelin tetralogy only. Which side? Which pistis? Which topic? All three must be right. Ten without repeating a speech in the set.',
+  instr:'The javelin tetralogy only. Which side? Which means of persuasion (pistis)? Which seat of argument (topos)? All three must be right. Ten questions; a speech is not repeated in the set.',
   src:['antiphon'],
   gen(diff){
     const p = pickPass(x => x.track==='antiphon', 'an:');
@@ -628,15 +928,15 @@ EX.antiphon = {
       check(ans){
         const right = ans.side===side && ans.pistis===pistis && ans.topos===topos;
         return {right, mark:{side, pistis, topos},
-          note: 'This stretch is <strong>'+side+'</strong>, working chiefly by <strong>'+pistis+'</strong>, topic: '+esc(topos)+'.',
-          also:'Do not file this under Cicero. It is a school tetralogy: four speeches, two a side, one set of facts.'};
+          note: 'This passage is <strong>'+side+'</strong>, working chiefly by <strong>'+pistis+'</strong>, topic: '+esc(topos)+'.',
+          also:'A school tetralogy: four speeches, two a side, one set of facts, kept as speech to a jury (forensic).'};
       }
     };
   }
 };
 EX.debates = {
   id:'debates', title:'Paired Debates',
-  instr:'Archidamus / Sthenelaidas; Cleon / Diodotus; Pericles’ funeral; Catiline / Caesar; Antiphon’s two sides. Ten unique items: species of the pair, then the claim of a voice.',
+  instr:'Archidamus / Sthenelaidas; Cleon / Diodotus; Pericles’ funeral; Catiline / Caesar; Antiphon’s two sides; Socrates before the jury. Name the kind of speech, or the claim of a voice. A pair is not reused in the set.',
   src:['thuc_crawley','sallust_w','antiphon'],
   gen(diff){
     const kinds = [];
@@ -660,7 +960,7 @@ EX.debates = {
                  (pb ? '<p><strong>'+esc(d.b.who)+'.</strong> '+esc(excerpt(pb, 180))+'</p>' : ''),
         src: d.src, source: d.locus,
         note: d.species.charAt(0).toUpperCase()+d.species.slice(1)+'. '+d.a.who+': '+d.a.claim+' — '+d.b.who+': '+d.b.claim,
-        also:'Blaisdell’s course is built on these paired debates. Name the genus before you take a side.'
+        also:'Paired debates from Greek and Roman historians. Name the kind of speech before you take a side.'
       });
     }
     const who = rand([d.a, d.b]);
@@ -668,7 +968,9 @@ EX.debates = {
     const p = passages().find(x => x.id === who.pid);
     return mcQ({
       prompt:'This voice is arguing which claim?',
-      options:[who.claim, other.claim, 'Helen is to be praised for going to Troy.', 'The parts of speech are conventions.'],
+      options:[who.claim, other.claim,
+               'The speech is only a list of the parts of an oration.',
+               'The hearer is asked only to name a figure of speech.'],
       correct:0,
       passage: p ? esc(excerpt(p, 280)) : '',
       source: who.who+' — '+d.locus, src: d.src,
@@ -682,16 +984,14 @@ EX.whole = {
   instr:'Situation → species, end, pistis, a figure actually in the excerpt. Chips. Ten to a set; a passage is not reused.',
   src:['arist_rhet','cic_inv'],
   gen(diff){
-    const p = pickPass(x => !!speciesOf(x) && (x.spans||[]).length, 'wh:');
+    const p = pickPass(x => isOration(x) && speechSpans(x).length && pistisOf(x), 'wh:');
     const sp = speciesOf(p);
     const end = {forensic:'accuse or defend', deliberative:'exhort or dissuade', epideictic:'praise or blame'}[sp];
-    const present = figNames(p);
+    const present = speechSpans(p).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
     const fig = present[0];
-    const pistis = p.track==='gorgias' ? 'logos'
-               : (p.author==='Cicero' && /cat1-1$|cat1-2$|cat1-4$/.test(p.id) ? 'pathos'
-               : (p.track==='antiphon' && /3\.2\.1|3\.4\.1/.test(p.id) ? 'ethos' : 'logos'));
+    const pistis = pistisOf(p);
     let figOpts = present.slice();
-    ['anaphora','metaphor','zeugma','malapropism'].forEach(f => { if(figOpts.indexOf(f)<0) figOpts.push(f); });
+    ['anaphora','metaphor','tricolon','irony'].forEach(f => { if(figOpts.indexOf(f)<0) figOpts.push(f); });
     figOpts = shuffle(figOpts).slice(0,4);
     if(figOpts.indexOf(fig)<0){ figOpts[3] = fig; figOpts = shuffle(figOpts); }
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
@@ -717,81 +1017,103 @@ EX.whole = {
     };
   }
 };
+EX.augoffice = {
+  id:'augoffice', title:'The Christian orator',
+  instr:'Augustine keeps Cicero’s three offices — to teach, to delight, to move (docere, delectare, movere) — and the three styles. The end is Scripture’s truth, not a fee. Ten questions; a passage is not repeated in the set.',
+  src:['ddc'],
+  setLen:8,
+  gen(diff){
+    const e = pickSeen(AUG_ITEMS, x => 'au:'+x.id);
+    const p = passages().find(x => x.id === e.pid);
+    const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
+    return mcQ({
+      prompt: e.prompt,
+      options: e.options, correct: e.correct,
+      passage: cue + (p ? esc(excerpt(p, diff>=4?260:420)) : ''),
+      source: p ? citeP(p) : '', orig: p && p.orig, olang: p && p.olang, src: p ? srcOf(p) : 'ddc',
+      note: e.note,
+      also:'The test is whether the hearer is changed. Tears, not applause.'
+    });
+  }
+};
 EX.greg = {
   id:'greg', title:'Gregory’s Hearers',
-  instr:'The Pastoral Care is a book of pairs. The same vice is not admonished in the same way.',
+  instr:'The Pastoral Care is a book of pairs. The same vice is not admonished in the same way. Ten questions; a pair is not repeated in the set.',
   src:['greg'],
   gen(diff){
     const g = pickSeen(GREG_PAIRS, x => 'gr:'+x.id);
-    const wrong = GREG_PAIRS.find(x => x.id !== g.id).why;
+    const others = shuffle(GREG_PAIRS.filter(x => x.id !== g.id)).slice(0, 3).map(x => x.why);
     return mcQ({
-      prompt:'Gregory pairs <strong>'+esc(g.pair)+'</strong>. Why — what is the rhetorical reason for the pair?',
-      options:[g.why, wrong, 'Because all hearers are moved only by fear.', 'Because figures of speech replace a doctrine of the hearer.'],
+      prompt:'Gregory pairs <strong>'+esc(g.pair)+'</strong>. Why — what do the two hearers need differently?',
+      options:[g.why].concat(others),
       correct:0, src:'greg', note:g.why,
-      also:'Rhetoric without a doctrine of the hearer is only a box of figures. Gregory writes the box of hearers.'
+      also:'The same vice is not cured by the same word. Name the two constitutions, and you have named the pair.'
     });
   }
 };
 
-EX.greg.setLen = 4;
+EX.greg.setLen = 10;
 const ACTS = [
   {roman:'I', name:'What Rhetoric Is', latin:'quid sit rhetorica',
-   gloss:'The third road of the trivium. Definition, three pisteis, three species. Grammar is congruity; logic is truth; rhetoric is whether the hearer is moved.',
+   gloss:'The third road of the trivium. Definition of rhetoric, three means of persuasion (pisteis), three kinds of speech (species). Grammar considers congruity of speech; logic considers the truth of speech; rhetoric considers whether and how the hearer is moved.',
    items:[
-     {kind:'deck', deck:'orient', tag:'STUDY', title:'The counterpart of dialectic', desc:'Aristotle’s definition; the three pisteis; the three species and their ends.'},
-     {kind:'ex', ex:'species', tag:'EXERCISE', title:'The three species', desc:'Forensic, deliberative, epideictic — named from real speeches.'},
-     {kind:'ex', ex:'pisteis', tag:'EXERCISE', title:'The three pisteis', desc:'Ethos, pathos, logos in Cicero, Antiphon, Gorgias, Thucydides, Plato, Augustine.'}
+     {kind:'deck', deck:'orient', tag:'TUTORIAL', title:'The counterpart of dialectic', desc:'Aristotle’s definition; the three means of persuasion (pisteis); the three kinds of speech (species) and what each is for.'},
+     {kind:'ex', ex:'species', tag:'EXERCISE', title:'The three species', desc:'Speech to a jury on a past act (forensic); speech to an assembly on what to do (deliberative); speech of praise or blame (epideictic) — named from real speeches.'},
+     {kind:'ex', ex:'pisteis', tag:'EXERCISE', title:'The three pisteis', desc:'The speaker’s character (ethos), the hearer’s passions (pathos), and the argument (logos), in Cicero, Antiphon, Gorgias, Thucydides, Plato, Augustine.'}
    ]},
   {roman:'II', name:'Invention · Logos', latin:'inventio · logos',
-   gloss:'Enthymeme and example; the topics; signs that are necessary and signs that are only likely.',
+   gloss:'The rhetorical syllogism (enthymeme) and the example (paradeigma); the seats of arguments (topics); signs that are necessary and signs that are only likely.',
    items:[
-     {kind:'deck', deck:'logos', tag:'STUDY', title:'Enthymeme, example, topics', desc:'The rhetorical syllogism and the paradeigma. A premise the hearers supply is not a defect.'},
-     {kind:'ex', ex:'enthymeme', tag:'EXERCISE', title:'Supply the missing premise', desc:'Cicero, Antiphon, Gorgias, Thucydides, Sophocles, Plato.'}
+     {kind:'deck', deck:'logos', tag:'TUTORIAL', title:'Enthymeme, example, topics', desc:'The rhetorical syllogism (enthymeme) and the example (paradeigma). A premise the hearers supply is not a defect.'},
+     {kind:'ex', ex:'enthymeme', tag:'EXERCISE', title:'Supply the missing premise', desc:'Name the unspoken premise in Cicero, Antiphon, Gorgias, Thucydides, Sophocles, Plato.'}
    ]},
   {roman:'III', name:'Invention · Ethos and Pathos', latin:'ethos et pathos',
-   gloss:'Character shown in the speech; Aristotle’s passions; Aquinas’s concupiscible and irascible; Gregory’s pairs of hearers.',
+   gloss:'The speaker’s character shown in the speech; Aristotle’s account of the passions; Aquinas’s passions of attraction (concupiscible) and passions of repulsion (irascible); Gregory the Great’s account of the kinds of men and his contrasts of pairs of listeners.',
    items:[
-     {kind:'deck', deck:'ethos', tag:'STUDY', title:'The speaker and the hearer', desc:'Phronesis, arete, eunoia. Rhetoric II beside Summa I–II. Gregory’s Pastoral Care.'},
-     {kind:'ex', ex:'pathos', tag:'EXERCISE', title:'Name the passion', desc:'Anger, pity, fear, shame, indignation, confidence, love, kindness — from real excerpts.'},
+     {kind:'deck', deck:'ethos', tag:'TUTORIAL', title:'The speaker and the hearer', desc:'Practical wisdom (phronesis), virtue (arete), goodwill (eunoia). Aristotle’s Rhetoric II beside Aquinas’s Summa I–II. Gregory’s Pastoral Care.'},
+     {kind:'ex', ex:'ethos', tag:'EXERCISE', title:'Character in the speech', desc:'Which of the three — practical wisdom, virtue, goodwill — is the speech itself showing?'},
+     {kind:'ex', ex:'pathos', tag:'EXERCISE', title:'Name the passion', desc:'Anger, pity, fear, shame, indignation, confidence, love, kindness — from real passages.'},
      {kind:'ex', ex:'greg', tag:'EXERCISE', title:'Gregory’s hearers', desc:'Why the same vice is not admonished in the same way.'}
    ]},
   {roman:'IV', name:'Arrangement', latin:'taxis',
-   gloss:'Aristotle’s four; the Latin school’s six. Offices, not a template to force on every speech.',
+   gloss:'Arrangement of the speech. Aristotle names four parts: the opening (prooimion), the statement of facts, the proof, and the close (epilogos). The Latin school names six offices of the oration: the opening (exordium), the facts (narratio), the laying-out of the points (partitio), the proof (confirmatio), the answer to the other side (reprehensio), and the close (peroratio). These are offices a part of the speech may perform, not a template to force on every speech.',
    items:[
-     {kind:'deck', deck:'taxis', tag:'STUDY', title:'The parts of the oration', desc:'Exordium, narration, division, proof, refutation, peroration.'},
-     {kind:'ex', ex:'taxis', tag:'EXERCISE', title:'Name the part', desc:'Which office is this stretch performing?'},
-     {kind:'ex', ex:'taxisorder', tag:'EXERCISE', title:'Order the six', desc:'Click them from first to last.'}
+     {kind:'deck', deck:'taxis', tag:'TUTORIAL', title:'The parts of the oration', desc:'Opening (exordium), statement of facts (narratio), laying out the points (partitio), proof (confirmatio), answering the other side (reprehensio), closing (peroratio).'},
+     {kind:'ex', ex:'taxis', tag:'EXERCISE', title:'Name the part', desc:'Which office of the oration is this part of the passage performing?'},
+     {kind:'ex', ex:'taxisorder', tag:'EXERCISE', title:'The six offices', desc:'Their duties, their order, and when narration shrinks.'}
    ]},
   {roman:'V', name:'Style', latin:'lexis',
-   gloss:'Clarity and propriety first; metaphor as seeing likeness; the sophistic vice of making style do the work of argument.',
+   gloss:'Clear and fitting speech first; metaphor as seeing likeness; the sophistic vice of making style do the work of argument.',
    items:[
-     {kind:'deck', deck:'lexis', tag:'STUDY', title:'Virtue of style', desc:'Aristotle III; the working list of figures; why Gorgias is the exhibit.'}
+     {kind:'deck', deck:'lexis', tag:'TUTORIAL', title:'Virtue of style', desc:'Aristotle III; clarity first; when figures do the work of argument, and when they do not.'},
+     {kind:'ex', ex:'lexis', tag:'EXERCISE', title:'Style and the argument', desc:'Does the claim still stand in plain clauses, or is the figure the claim?'}
    ]},
   {roman:'VI', name:'Figures', latin:'figurae',
-   gloss:'Click the stretch; which of four excerpts. Filters: Cicero, Gorgias’s Helen, Augustine. Tragedy and early prose are in the mixed sets.',
+   gloss:'Click the marked part of the passage; which of four excerpts uses the named figure. Filters: Cicero, Gorgias’s Helen, Augustine. Tragedy and early prose are in the mixed sets.',
    items:[
-     {kind:'ex', ex:'figclick', tag:'EXERCISE', title:'Click the figure', desc:'The mixed bank — Cicero to Sophocles, Gorgias to the Confessions.'},
-     {kind:'ex', ex:'figwhich', tag:'EXERCISE', title:'Which excerpt?', desc:'Four real stretches; one of them is using the named figure.'},
-     {kind:'ex', ex:'figcicero', tag:'EXERCISE', title:'Cicero’s figures', desc:'The Catilinarian backbone.'},
-     {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Almost all Gorgias: antithesis, isocolon, homoeoteleuton, the potentate and the drug.'},
-     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions, De doctrina IV. Latin on the original-text button where we have it.'}
+     {kind:'ex', ex:'figclick', tag:'EXERCISE', title:'Click the figure', desc:'Mixed selections — Cicero to Sophocles, Gorgias to the Confessions.'},
+     {kind:'ex', ex:'figwhich', tag:'EXERCISE', title:'Which excerpt?', desc:'Four real passages; one of them is using the named figure.'},
+     {kind:'ex', ex:'figcicero', tag:'EXERCISE', title:'Cicero’s figures', desc:'The great Roman orator’s use of figures throughout his work but especially in the orations against Catiline.'},
+     {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Almost all Gorgias: opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton); the potentate and the drug.'},
+     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions, On Christian Teaching IV (De doctrina christiana). Latin on the original-text button where we have it.'}
    ]},
   {roman:'VII', name:'The Whole Case', latin:'causa',
-   gloss:'Situation → species, end, pistis, figure. Paired debates from the Blaisdell course. Antiphon’s tetralogy kept as forensic, not dumped into Cicero.',
+   gloss:'From the situation: the kind of speech (species), its end, the means of persuasion (pistis), a figure. Paired debates from Greek and Roman historians. Antiphon’s tetralogy kept as speech to a jury (forensic).',
    items:[
-     {kind:'deck', deck:'gorgias', tag:'STUDY', title:'Gorgias and the four aitiai', desc:'Persuasion as a drug; logos as potentate; fortune, violence, persuasion, love.'},
-     {kind:'deck', deck:'antiphon', tag:'STUDY', title:'The Second Tetralogy', desc:'Javelin practice; facts agreed; cause and hamartia; miasma; the apragmon.'},
-     {kind:'deck', deck:'augustine', tag:'STUDY', title:'The Christian orator', desc:'Docere, delectare, movere; three styles; tears, not applause.'},
-     {kind:'ex', ex:'antiphon', tag:'EXERCISE', title:'Antiphon: side, pistis, topos', desc:'Four speeches, two a side. Do not file them under Cicero.'},
+     {kind:'deck', deck:'gorgias', tag:'TUTORIAL', title:'Gorgias and the four aitiai', desc:'Persuasion as a drug; speech (logos) as a powerful ruler; fortune, violence, persuasion, love (the four causes, aitiai).'},
+     {kind:'deck', deck:'antiphon', tag:'TUTORIAL', title:'The Second Tetralogy', desc:'Javelin practice; facts agreed; cause and error (hamartia); ritual pollution (miasma); the quiet man who minds his own business (apragmon).'},
+     {kind:'deck', deck:'augustine', tag:'TUTORIAL', title:'The Christian orator', desc:'To teach, to delight, to move (docere, delectare, movere); three styles; tears, not applause.'},
+     {kind:'ex', ex:'augoffice', tag:'EXERCISE', title:'The Christian orator', desc:'The three offices and the three styles, from De doctrina christiana IV.'},
+     {kind:'ex', ex:'antiphon', tag:'EXERCISE', title:'Antiphon: side, pistis, topos', desc:'Four speeches, two a side: which side, which means of persuasion (pistis), which seat of argument (topos).'},
      {kind:'ex', ex:'debates', tag:'EXERCISE', title:'Paired debates', desc:'Archidamus and Sthenelaidas; Cleon and Diodotus; Pericles; Catiline and Caesar; the javelin.'},
-     {kind:'ex', ex:'whole', tag:'EXERCISE', title:'The whole case', desc:'Species, end, pistis, a figure that is actually there.'}
+     {kind:'ex', ex:'whole', tag:'EXERCISE', title:'The whole case', desc:'Kind of speech (species), end, means of persuasion (pistis), a figure that is actually there.'}
    ]}
 ];
 const DIFF = {
-  1:{gain:10, loss:4,  name:'I',   desc:'The names are given, the cue is shown, the stretch is longer. A set of ten is 100 points.'},
-  2:{gain:12, loss:6,  name:'II',  desc:'Still cued, but the options sit closer together.'},
-  3:{gain:15, loss:8,  name:'III', desc:'The cue thins. You name the thing from the speech.'},
-  4:{gain:18, loss:10, name:'IV',  desc:'Shorter excerpts, closer distractors, more figures in play.'},
-  5:{gain:22, loss:12, name:'V',   desc:'No cue. The speech as a jury would hear it.'}
+  1:{gain:10, loss:4,  name:'I',   desc:'Beginning. The names are given and a hint is shown. Ten questions, ten points each; 100 finishes the set.'},
+  2:{gain:12, loss:6,  name:'II',  desc:'The wrong answers sit closer to the right one. Twelve points for a right answer; six lost for a wrong one.'},
+  3:{gain:15, loss:8,  name:'III', desc:'Less help. You name the thing from the speech. Fifteen points for a right answer.'},
+  4:{gain:18, loss:10, name:'IV',  desc:'Shorter passages and closer wrong answers. Eighteen points for a right answer.'},
+  5:{gain:22, loss:12, name:'V',   desc:'No hint. You judge the speech as it stands. Twenty-two points for a right answer.'}
 };
 const SET_LEN = 10;
