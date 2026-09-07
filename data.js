@@ -456,7 +456,8 @@ const PISTEIS_ITEMS = [
   {pid:'thuc-fun-1', pistis:'ethos', why:'He will not praise as others have praised; the city’s character is his.'}
 ];
 function pistisOf(p){
-  const it = PISTEIS_ITEMS.find(x => x.pid === p.id);
+  const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS.PISTEIS_ITEMS) || [];
+  const it = PISTEIS_ITEMS.concat(extra).find(x => x.pid === p.id);
   return it ? it.pistis : '';
 }
 const ETHOS_ITEMS = [
@@ -561,7 +562,27 @@ const AUG_ITEMS = [
     options:['It has succeeded: noise is the test','It has not yet done the office of moving (movere)','It has proved the four aitiai','It has completed a tetralogy'],
     correct:1, note:'Applause can be the temperate style’s delight. The grand style is for a change of life.'}
 ];
-function passages(){ return window.PASSAGES || []; }
+function passages(){
+  const app = window.PASSAGES || [];
+  const hid = window.QUIZ_PASSAGES || [];
+  if(!window.__ARS_QUIZ) return app;
+  const prefer = window.__ARS_QUIZ_PREFER;
+  if(prefer === 'hidden') return hid.length ? hid : app;
+  if(prefer === 'app') return app;
+  return hid.length ? app.concat(hid) : app;
+}
+function itemPool(name, arr){
+  const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS[name]) || [];
+  if(!window.__ARS_QUIZ || !extra.length) return arr;
+  const prefer = window.__ARS_QUIZ_PREFER;
+  if(prefer === 'hidden') return extra;
+  if(prefer === 'app') return arr;
+  return arr.concat(extra);
+}
+function passageById(id){
+  const all = (window.PASSAGES || []).concat(window.QUIZ_PASSAGES || []);
+  return all.find(p => p.id === id);
+}
 function byTrack(tr){ return passages().filter(p => p.track === tr); }
 function figNames(p){ return [...new Set((p.spans||[]).map(s => s.figure))]; }
 function withFig(name){ return passages().filter(p => (p.spans||[]).some(s => s.figure === name)); }
@@ -587,8 +608,12 @@ function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&l
 function citeP(p){ return p.author+', <i>'+esc(p.work)+'</i> '+esc(p.locus); }
 function excerpt(p, n){ n = n || 220; const t = p.text || ''; return t.length > n ? t.slice(0, n).replace(/\s+\S*$/, '') + '…' : t; }
 function pickPass(pred, prefix){
-  const pool = pred ? passages().filter(pred) : passages();
-  const arr = pool.length ? pool : passages();
+  let arr = pred ? passages().filter(pred) : passages();
+  if(!arr.length && window.__ARS_QUIZ){
+    const app = window.PASSAGES || [];
+    arr = pred ? app.filter(pred) : app;
+  }
+  if(!arr.length) arr = window.PASSAGES || [];
   return pickSeen(arr, x => (prefix||'') + x.id);
 }
 function mcQ(opts){
@@ -638,8 +663,8 @@ EX.pisteis = {
   instr:'Is the work here chiefly the speaker’s character (ethos), the hearer’s passions (pathos), or the argument (logos)? Real passages. Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
-    const item = pickSeen(PISTEIS_ITEMS, x => 'pi:'+x.pid);
-    const p = passages().find(x => x.id === item.pid) || pickPass(null, 'pi');
+    const item = pickSeen(itemPool('PISTEIS_ITEMS', PISTEIS_ITEMS), x => 'pi:'+x.pid);
+    const p = passageById(item.pid) || pickPass(null, 'pi');
     const names = ['ethos','pathos','logos'];
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
@@ -658,7 +683,7 @@ EX.enthymeme = {
   instr:'The rhetorical syllogism (enthymeme) leaves a premise for the hearers to supply. Name it. Ten questions make a set; an example is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
-    const e = pickSeen(ENTHYMEMES, x => 'en:'+x.id);
+    const e = pickSeen(itemPool('ENTHYMEMES', ENTHYMEMES), x => 'en:'+x.id);
     const extra = diff <= 2 ? e.distractors.slice(0,2) : e.distractors;
     const options = [e.missing].concat(extra);
     return mcQ({
@@ -674,8 +699,8 @@ EX.ethos = {
   instr:'Aristotle: we trust a speaker for practical wisdom (phronesis), virtue (arete), or goodwill (eunoia) — shown in the speech, not borrowed as a reputation from outside. Name which of the three is doing the work. Ten questions; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
-    const e = pickSeen(ETHOS_ITEMS, x => 'et:'+x.id);
-    const p = passages().find(x => x.id === e.pid);
+    const e = pickSeen(itemPool('ETHOS_ITEMS', ETHOS_ITEMS), x => 'et:'+x.id);
+    const p = passageById(e.pid);
     const labels = [
       {v:'phronesis', lab:'Practical wisdom (phronesis) — he seems to know what to do'},
       {v:'arete', lab:'Virtue (arete) — he seems a good man'},
@@ -698,7 +723,7 @@ EX.pathos = {
   instr:'Aristotle’s passions (Rhetoric II) with Aquinas’s passions of attraction (concupiscible) and of repulsion (irascible). Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet','aquinas_st'],
   gen(diff){
-    const e = pickSeen(PASSIONS, x => 'pa:'+x.id);
+    const e = pickSeen(itemPool('PASSIONS', PASSIONS), x => 'pa:'+x.id);
     const names = [...new Set(PASSIONS.map(p => p.name))];
     const rest = names.filter(n => n !== e.name);
     const options = [e.name].concat(rest.slice(0, diff <= 2 ? 2 : 3));
@@ -716,7 +741,7 @@ EX.taxis = {
   instr:'Cicero’s six offices: opening (exordium), facts (narratio), laying-out (partitio), proof (confirmatio), answer to the other side (reprehensio), close (peroratio). Ten questions make a set; a passage is not repeated in the set.',
   src:['cic_inv'],
   gen(diff){
-    const e = pickSeen(TAXIS_ITEMS, x => 'tx:'+x.id);
+    const e = pickSeen(itemPool('TAXIS_ITEMS', TAXIS_ITEMS), x => 'tx:'+x.id);
     const names = TAXIS_PARTS.map(t => t.key);
     const options = [e.part].concat(names.filter(n => n !== e.part).slice(0,3));
     const labels = {};
@@ -799,8 +824,8 @@ EX.lexis = {
   instr:'Aristotle: let style be clear, and do not make the figures do the work of the argument. Read the passage. Does the claim still stand in plain clauses, or is the figure the claim? Ten questions; a passage is not repeated in the set.',
   src:['arist_rhet','gorgias_vh'],
   gen(diff){
-    const e = pickSeen(LEXIS_ITEMS, x => 'lx:'+x.id);
-    const p = passages().find(x => x.id === e.pid);
+    const e = pickSeen(itemPool('LEXIS_ITEMS', LEXIS_ITEMS), x => 'lx:'+x.id);
+    const p = passageById(e.pid);
     const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
     return mcQ({
       prompt: e.prompt,
@@ -940,11 +965,11 @@ EX.debates = {
   src:['thuc_crawley','sallust_w','antiphon'],
   gen(diff){
     const kinds = [];
-    DEBATES.forEach(d => { kinds.push({d, kind:'species'}); kinds.push({d, kind:'claim'}); });
+    itemPool('DEBATES', DEBATES).forEach(d => { kinds.push({d, kind:'species'}); kinds.push({d, kind:'claim'}); });
     const item = pickSeen(kinds, x => 'db:'+x.d.id+':'+x.kind);
     const d = item.d;
-    const pa = passages().find(p => p.id === d.a.pid);
-    const pb = passages().find(p => p.id === d.b.pid);
+    const pa = passageById(d.a.pid);
+    const pb = passageById(d.b.pid);
     if(item.kind === 'species'){
       const opts = ['forensic','deliberative','epideictic'];
       const labels = {
@@ -965,7 +990,7 @@ EX.debates = {
     }
     const who = rand([d.a, d.b]);
     const other = who === d.a ? d.b : d.a;
-    const p = passages().find(x => x.id === who.pid);
+    const p = passageById(who.pid);
     return mcQ({
       prompt:'This voice is arguing which claim?',
       options:[who.claim, other.claim,
@@ -1023,8 +1048,8 @@ EX.augoffice = {
   src:['ddc'],
   setLen:8,
   gen(diff){
-    const e = pickSeen(AUG_ITEMS, x => 'au:'+x.id);
-    const p = passages().find(x => x.id === e.pid);
+    const e = pickSeen(itemPool('AUG_ITEMS', AUG_ITEMS), x => 'au:'+x.id);
+    const p = passageById(e.pid);
     const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
     return mcQ({
       prompt: e.prompt,
@@ -1041,7 +1066,7 @@ EX.greg = {
   instr:'The Pastoral Care is a book of pairs. The same vice is not admonished in the same way. Ten questions; a pair is not repeated in the set.',
   src:['greg'],
   gen(diff){
-    const g = pickSeen(GREG_PAIRS, x => 'gr:'+x.id);
+    const g = pickSeen(itemPool('GREG_PAIRS', GREG_PAIRS), x => 'gr:'+x.id);
     const others = shuffle(GREG_PAIRS.filter(x => x.id !== g.id)).slice(0, 3).map(x => x.why);
     return mcQ({
       prompt:'Gregory pairs <strong>'+esc(g.pair)+'</strong>. Why — what do the two hearers need differently?',

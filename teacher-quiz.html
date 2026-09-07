@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ars Rhetorica — Quiz Maker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f0e1; --paper2:#efe6cf; --card:#fffdf4; --ink:#2b2118; --ink-soft:#5a4a38;
+  --gold:#a67c2e; --gold-soft:#c9a45c; --line:#d9c9a3; --sage:#48664c; --wine:#7b2d26;
+  --panel:#f4ecd8; --panel2:#fbf6e8; --sel-text:#f3e9cf; --shadow:0 2px 14px rgba(74,58,32,.10);
+}
+*{box-sizing:border-box; margin:0; padding:0}
+body{font-family:'EB Garamond', Georgia, serif; color:var(--ink); min-height:100vh; font-size:18px; line-height:1.5;
+  background:var(--paper)}
+#maker{max-width:880px; margin:0 auto; padding:28px 20px 100px}
+header{text-align:center; margin-bottom:18px}
+.ornament{color:var(--gold); font-size:20px; letter-spacing:.4em; margin:4px 0}
+h1{font-family:'Cinzel',serif; font-size:34px; font-weight:600; letter-spacing:.05em}
+.sub{font-style:italic; color:var(--ink-soft); font-size:18px; margin-top:2px}
+.rule{display:flex; align-items:center; gap:12px; margin:16px auto; max-width:480px; color:var(--gold)}
+.rule::before,.rule::after{content:""; flex:1; height:1px; background:linear-gradient(90deg,transparent,var(--gold-soft))}
+.rule::after{background:linear-gradient(90deg,var(--gold-soft),transparent)}
+details.help{max-width:720px; margin:0 auto 18px; background:var(--card); border:1px solid var(--line);
+  border-left:4px solid var(--wine); border-radius:10px; padding:12px 16px; box-shadow:var(--shadow)}
+details.help summary{cursor:pointer; font-weight:600; color:var(--gold); font-family:'Cinzel',serif; font-size:14px; letter-spacing:.06em}
+details.help p{margin-top:10px; font-size:15.5px; color:var(--ink-soft)}
+.card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px;
+  margin:14px 0; box-shadow:var(--shadow)}
+.card h2{font-family:'Cinzel',serif; font-size:15px; letter-spacing:.1em; text-transform:uppercase; color:var(--gold); margin-bottom:10px}
+.fields{display:flex; gap:14px; flex-wrap:wrap}
+.field{flex:1 1 180px}
+.field label{display:block; font-size:13px; color:var(--ink-soft); margin-bottom:4px}
+input[type=text],input[type=number],select{font:inherit; width:100%; padding:8px 10px; border:1px solid var(--line);
+  border-radius:8px; background:var(--panel2); color:var(--ink)}
+.setlist{max-height:420px; overflow:auto; border:1px solid var(--line); border-radius:10px; background:var(--panel2); padding:6px 8px}
+.setrow{display:flex; align-items:flex-start; gap:10px; padding:7px 8px; border-bottom:1px dashed var(--line); cursor:pointer}
+.setrow:last-child{border-bottom:none}
+.setrow input{margin-top:4px; accent-color:var(--wine)}
+.setrow .id{font-family:'Cinzel',serif; color:var(--gold); min-width:52px; font-size:13px}
+.setrow .nm{font-size:16px}
+.setrow .nm .meta{display:block; font-size:13px; color:var(--ink-soft); font-style:italic}
+.acthead{font-family:'Cinzel',serif; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--gold);
+  padding:10px 8px 4px}
+.minibtns{display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 0}
+.minibtns button,.mbtn{font:inherit; cursor:pointer; background:var(--panel); border:1px solid var(--line);
+  border-radius:18px; padding:5px 12px; color:var(--ink-soft); font-size:14px}
+.minibtns button:hover,.mbtn:hover{border-color:var(--gold); color:var(--ink)}
+.check{display:flex; align-items:center; gap:8px; margin-top:10px; font-size:16px; color:var(--ink)}
+.check input{accent-color:var(--wine)}
+.makebar{position:sticky; bottom:0; background:linear-gradient(0deg, var(--paper) 55%, transparent);
+  padding:14px 0 18px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:18px}
+.primary{font-family:'Cinzel',serif; letter-spacing:.06em; background:var(--wine); color:#f6f0e1;
+  border:none; border-radius:24px; padding:12px 22px; cursor:pointer; font-size:15px}
+.primary:hover{filter:brightness(1.08)}
+.primary:disabled{opacity:.45; cursor:not-allowed}
+.status{margin:12px 0; padding:10px 14px; border-radius:10px; font-size:15px; color:var(--ink-soft);
+  border:1px solid var(--line); background:var(--panel)}
+.status.ok{border-color:var(--sage); color:var(--sage)}
+.status.err{border-color:var(--wine); color:var(--wine)}
+.backlink{display:inline-block; margin-bottom:8px; font-size:14.5px; color:var(--ink-soft); text-decoration:none}
+.backlink:hover{color:var(--gold)}
+
+#paper{display:none; background:#fff; color:#111; border-radius:12px; margin:22px 0 0;
+  font-family:Georgia,"Times New Roman",serif; box-shadow:0 8px 36px rgba(74,58,32,.25)}
+#paper.show{display:block}
+.sheet{padding:32px 38px 40px}
+.sheet + .sheet{border-top:6px double #ccc}
+.qhead{border-bottom:2px solid #111; padding-bottom:8px; margin-bottom:12px}
+.qhead h1{font-family:'Cinzel',serif; font-size:20px; margin:0 0 3px; letter-spacing:.04em; font-weight:600}
+.qhead .meta{font-size:12.5px; color:#444; font-family:Helvetica,Arial,sans-serif}
+.namerow{display:flex; gap:24px; font-size:13px; margin:0 0 12px; font-family:Helvetica,Arial,sans-serif}
+.namerow span{flex:1; border-bottom:1px solid #444; padding-bottom:2px}
+.namerow span.sm{flex:0 0 140px}
+.rubric{font-size:12.5px; color:#333; font-family:Helvetica,Arial,sans-serif; line-height:1.5;
+  border:1px solid #bbb; border-left:4px solid #7b2d26; border-radius:4px; padding:8px 11px; margin:0 0 14px; background:#faf7f0}
+.covers{font-size:12.5px; color:#333; font-family:Helvetica,Arial,sans-serif; margin:0 0 14px; line-height:1.5}
+ol.qs{margin:0; padding:0; list-style:none; counter-reset:qn}
+li.qitem{counter-increment:qn; margin:0 0 16px; padding:0 0 0 30px; position:relative;
+  break-inside:avoid; page-break-inside:avoid}
+li.qitem::before{content:counter(qn) "."; position:absolute; left:0; top:0; font-weight:700; font-size:15px}
+.qsetline{font-size:11px; font-family:Helvetica,Arial,sans-serif; color:#777; letter-spacing:.04em;
+  text-transform:uppercase; margin-bottom:2px}
+.qinstr{font-size:13px; font-style:italic; color:#444; margin-bottom:4px}
+.qprompt,.qpass{font-size:14.5px; line-height:1.55; margin-bottom:5px}
+.qpass{padding:8px 12px; border-left:3px solid #bbb; background:#fafafa; font-style:italic}
+.qsrc{font-size:12px; font-style:italic; color:#555; text-align:right; margin:0 0 8px}
+ol.ch{margin:4px 0 0; padding:0; list-style:none; counter-reset:cn}
+ol.ch li{counter-increment:cn; font-size:14px; line-height:1.5; padding-left:26px; position:relative}
+ol.ch li::before{content:"(" counter(cn, lower-alpha) ")"; position:absolute; left:0; color:#333;
+  font-family:Helvetica,Arial,sans-serif; font-size:12.5px; top:1px}
+.rowlab{font-family:Helvetica,Arial,sans-serif; font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+  color:#7b2d26; margin:8px 0 2px}
+.ansline{border-bottom:1px solid #555; height:20px; margin:9px 40px 2px 0}
+.keyitem{break-inside:avoid; page-break-inside:avoid; margin:0 0 11px; padding:0 0 0 30px; position:relative;
+  font-size:13.5px; line-height:1.5; counter-increment:qn}
+.keyitem::before{content:counter(qn) "."; position:absolute; left:0; top:0; font-weight:700}
+.keyitem .ka{font-family:Helvetica,Arial,sans-serif}
+.keyitem .kset{font-size:11px; color:#888; font-family:Helvetica,Arial,sans-serif; text-transform:uppercase; letter-spacing:.04em}
+.keyitem .kx{margin-top:4px; font-size:13px; color:#444}
+ol.keys{margin:0; padding:0; list-style:none; counter-reset:qn}
+.keynote{font-size:12.5px; color:#444; font-family:Helvetica,Arial,sans-serif; margin:0 0 14px;
+  border:1px solid #ccc; padding:8px 11px; border-radius:4px; background:#f9f9f9}
+
+@media print{
+  body{background:#fff}
+  #maker{display:none !important}
+  #paper{display:block !important; box-shadow:none; border-radius:0; margin:0}
+  .sheet{padding:18px 22px}
+  .sheet.key-sheet{page-break-before:always}
+  a{text-decoration:none; color:inherit}
+}
+</style>
+</head>
+<body>
+<div id="maker">
+  <a class="backlink" href="index.html">⟵ Return to Ars Rhetorica</a>
+  <header>
+    <div class="ornament">❦</div>
+    <h1>Quiz Maker</h1>
+    <div class="sub">Printable quizzes with a complete answer key — for instructors</div>
+    <div class="rule">❧</div>
+  </header>
+
+  <details class="help">
+    <summary>How to use</summary>
+    <p>Select one or more exercises from the course, choose the difficulty and how many questions you want from each, then generate. Most items are drawn half from the passages the students drill in the app, and half from a <b>hidden corpus</b> used only here, so a printed quiz is not a reprint of last week’s set. Where the work itself is small (Gorgias’s <i>Helen</i> is six passages; Antiphon’s tetralogy is ten), the quiz must use that work — there is no honest second Helen.</p>
+    <p>You may add doctrine questions (definition, the three means of persuasion, the offices of the oration, and the like) from the divisions you have selected. Two is the minimum if you include them. The answer key prints on its own page(s) — <b>separate those pages before handing the quiz out.</b> Use the browser’s <b>Print → Save as PDF</b>.</p>
+  </details>
+
+  <div class="card">
+    <h2>1 · Header (optional)</h2>
+    <div class="fields">
+      <div class="field"><label>Course / class name</label><input type="text" id="courseName" placeholder="e.g. Rhetoric I"></div>
+      <div class="field"><label>Instructor</label><input type="text" id="teacherName" placeholder="Optional"></div>
+      <div class="field"><label>Date on quiz</label><input type="text" id="quizDate" placeholder="Leave blank for today"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>2 · Exercises</h2>
+    <div class="minibtns">
+      <button type="button" id="selAll">Select all</button>
+      <button type="button" id="selNone">Clear</button>
+    </div>
+    <div class="setlist" id="setList"></div>
+  </div>
+
+  <div class="card">
+    <h2>3 · Difficulty, count, and doctrine</h2>
+    <div class="fields">
+      <div class="field"><label>Difficulty</label>
+        <select id="diffSel">
+          <option value="1">I — Beginning</option>
+          <option value="2">II</option>
+          <option value="3" selected>III</option>
+          <option value="4">IV</option>
+          <option value="5">V — No hint</option>
+        </select>
+      </div>
+      <div class="field"><label>Questions per selected exercise</label>
+        <input type="number" id="countBox" min="1" max="20" value="6">
+      </div>
+      <div class="field"><label>Doctrine questions (if included)</label>
+        <input type="number" id="docCount" min="2" max="8" value="2">
+      </div>
+    </div>
+    <label class="check"><input type="checkbox" id="incDoc" checked> Include doctrine questions from the selected divisions (at least two)</label>
+    <p class="status" id="diffHint" style="margin-top:12px;margin-bottom:0"></p>
+  </div>
+
+  <div class="makebar">
+    <button class="primary" id="genBtn">Generate quiz</button>
+    <button class="mbtn" id="printBtn" style="display:none">Print / Save as PDF</button>
+    <span class="status" id="status" style="margin:0; flex:1">Choose exercises, then generate.</span>
+  </div>
+</div>
+
+<div id="paper"></div>
+
+<script>
+window.__ARS_QUIZ = true;
+const state = { sessionSeen:[], ex:null, setLen:10, diff:3, dark:false };
+const store = { seen:{} };
+function save(){}
+function rand(a){ return a[Math.floor(Math.random() * a.length)]; }
+function sample(arr, n){
+  const c = arr.slice();
+  for(let i = c.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i+1)); [c[i],c[j]] = [c[j],c[i]]; }
+  return c.slice(0, Math.min(n, c.length));
+}
+function shuffle(a){ return sample(a, a.length); }
+function pickSeen(arr, idFn){
+  const idOf = x => idFn ? idFn(x) : (x.id || x.q || JSON.stringify(x));
+  const fresh = arr.filter(x => state.sessionSeen.indexOf(idOf(x)) < 0);
+  const it = rand(fresh.length ? fresh : arr);
+  const k = idOf(it);
+  if(state.sessionSeen.indexOf(k) < 0) state.sessionSeen.push(k);
+  return it;
+}
+</script>
+<script src="passages.js"></script>
+<script src="quiz-corpus.js"></script>
+<script src="data.js"></script>
+<script>
+const $ = id => document.getElementById(id);
+const LETTERS = ['a','b','c','d','e','f','g','h'];
+const SMALL = {figgorgias:1, antiphon:1};
+
+const QUIZ_SETS = [];
+ACTS.forEach(a => {
+  a.items.forEach(it => {
+    if(it.kind !== 'ex') return;
+    QUIZ_SETS.push({
+      ex: it.ex, title: it.title, desc: it.desc,
+      roman: a.roman, act: a.name, latin: a.latin
+    });
+  });
+});
+
+function todayStr(){
+  const d = new Date();
+  return d.toLocaleDateString(undefined, {year:'numeric', month:'long', day:'numeric'});
+}
+
+function buildSetList(){
+  const box = $('setList');
+  let html = '', last = '';
+  QUIZ_SETS.forEach(s => {
+    if(s.roman !== last){
+      html += '<div class="acthead">Division '+s.roman+' · '+s.act+'</div>';
+      last = s.roman;
+    }
+    const note = SMALL[s.ex]
+      ? 'Small bank — the work itself; overlap with the app is unavoidable'
+      : 'Half from the course selections, half from the quiz-only corpus';
+    html += '<label class="setrow"><input type="checkbox" data-ex="'+s.ex+'">'+
+      '<span class="id">'+s.roman+'</span>'+
+      '<span class="nm">'+s.title+'<span class="meta">'+note+'</span></span></label>';
+  });
+  box.innerHTML = html;
+}
+
+function selectedEx(){
+  return [...$('setList').querySelectorAll('input[type=checkbox]:checked')].map(x => x.dataset.ex);
+}
+
+function setStatus(msg, cls){
+  const s = $('status');
+  s.className = 'status' + (cls ? ' '+cls : '');
+  s.innerHTML = msg;
+}
+
+function syncDiffHint(){
+  const d = +$('diffSel').value;
+  $('diffHint').textContent = (DIFF && DIFF[d] && DIFF[d].desc) || ('Difficulty '+d);
+}
+
+$('diffSel').onchange = syncDiffHint;
+$('selAll').onclick = () => $('setList').querySelectorAll('input').forEach(i => i.checked = true);
+$('selNone').onclick = () => $('setList').querySelectorAll('input').forEach(i => i.checked = false);
+
+function fingerprint(q){
+  if(!q) return '';
+  const bits = [q.kind||'', q.prompt||'', q.passage||'', q.passageHtml||'', q.source||''];
+  if(q.options) bits.push(q.options.join('|'));
+  if(q.labels) bits.push(q.labels.join('|'));
+  if(q.target) bits.push(String(q.target));
+  return bits.join('::').replace(/<[^>]+>/g,' ').slice(0, 420);
+}
+
+function strip(html){
+  return String(html||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+}
+
+function figPrint(passageHtml, targetFig){
+  const letters = LETTERS;
+  const choices = [];
+  let i = 0;
+  const html = String(passageHtml||'').replace(/<span class="figspan"[^>]*data-fig="([^"]+)"[^>]*>([\s\S]*?)<\/span>/g,
+    (_, fig, text) => {
+      const L = letters[i++] || String(i);
+      choices.push({letter:L, fig:fig, text:strip(text)});
+      return '<u>('+L+')</u> '+text;
+    });
+  const ans = choices.find(c => c.fig === targetFig);
+  return {html:html, choices:choices, answer: ans ? '('+ans.letter+') '+ans.text+' — '+targetFig : targetFig};
+}
+
+function formatItem(q, setTitle, roman){
+  const out = {setTitle:setTitle, roman:roman, instr:'', stemHtml:'', choices:null, rows:[],
+    answerText:'', explainHtml:'', kind:q.kind};
+  if(q.kind === 'mc'){
+    out.instr = 'Choose the best answer.';
+    if(q.passage) out.stemHtml += '<div class="qpass">'+q.passage+'</div>';
+    if(q.source) out.stemHtml += '<div class="qsrc">'+q.source+'</div>';
+    out.stemHtml += '<div class="qprompt">'+q.prompt+'</div>';
+    out.choices = (q.options||[]).map((t,i) => ({letter:LETTERS[i], text:t}));
+    const ix = q.correct;
+    const ch = out.choices[ix];
+    out.answerText = ch ? '('+ch.letter+') '+strip(ch.text) : '—';
+    try{
+      const res = q.check(ix);
+      out.explainHtml = (res && (res.note||'')) + (res && res.also ? ' '+res.also : '');
+    }catch(e){}
+    return out;
+  }
+  if(q.kind === 'chips'){
+    out.instr = 'For each line, circle the correct option.';
+    if(q.passage) out.stemHtml += '<div class="qpass">'+q.passage+'</div>';
+    if(q.source) out.stemHtml += '<div class="qsrc">'+q.source+'</div>';
+    out.stemHtml += '<div class="qprompt">'+q.prompt+'</div>';
+    out.rows = (q.rows||[]).map(r => ({
+      label:r.label,
+      choices:(r.opts||[]).map((o,i) => ({letter:LETTERS[i], text:o.label, v:o.v}))
+    }));
+    const mark = q.mark || {};
+    const bits = [];
+    out.rows.forEach(r => {
+      const hit = r.choices.find(c => String(c.v) === String(mark[r.label.toLowerCase()] ) )
+               || r.choices.find(c => {
+                    const key = (q.rows.find(rr => rr.label === r.label)||{}).key;
+                    return key && String(c.v) === String(mark[key]);
+                  });
+      bits.push(r.label+': '+(hit ? '('+hit.letter+') '+hit.text : String(mark[(q.rows.find(rr=>rr.label===r.label)||{}).key]||'—')));
+    });
+    out.answerText = bits.join('; ');
+    try{
+      const res = q.check(mark);
+      out.explainHtml = (res && (res.note||'')) + (res && res.also ? ' '+res.also : '');
+    }catch(e){}
+    return out;
+  }
+  if(q.kind === 'order'){
+    out.instr = 'Number the offices in school order (1 = first).';
+    out.stemHtml += '<div class="qprompt">'+(q.prompt||'')+'</div>';
+    out.choices = (q.labels||[]).map((t,i) => ({letter:String(i+1), text:t, key:(q.keys||[])[i]}));
+    const target = q.target || [];
+    const names = {};
+    (q.keys||[]).forEach((k,i) => { names[k] = q.labels[i]; });
+    out.answerText = target.map((k,i) => (i+1)+'. '+(names[k]||k)).join('; ');
+    try{
+      const res = q.check(target);
+      out.explainHtml = (res && (res.note||'')) + (res && res.also ? ' '+res.also : '');
+    }catch(e){}
+    return out;
+  }
+  if(q.kind === 'figclick'){
+    const fp = figPrint(q.passageHtml || q.passage || '', q.target);
+    out.instr = 'The marked parts are lettered. Circle the letter of the named figure.';
+    out.stemHtml += '<div class="qpass">'+fp.html+'</div>';
+    if(q.source) out.stemHtml += '<div class="qsrc">'+q.source+'</div>';
+    out.stemHtml += '<div class="qprompt">'+q.prompt+'</div>';
+    out.choices = fp.choices.map(c => ({letter:c.letter, text:c.text+' <em>('+c.fig+')</em>'}));
+    out.answerText = fp.answer;
+    out.explainHtml = q.why || '';
+    return out;
+  }
+  out.instr = 'Answer the question.';
+  out.stemHtml = '<div class="qprompt">'+(q.prompt||strip(q.passage)||'')+'</div>';
+  out.answerText = '(See instructor.)';
+  return out;
+}
+
+function formatDoctrine(d){
+  const opts = d.options.slice();
+  const correctStr = opts[d.correct];
+  const shuffled = shuffle(opts);
+  const choices = shuffled.map((t,i) => ({letter:LETTERS[i], text:t}));
+  const ans = choices.find(c => c.text === correctStr);
+  return {
+    setTitle:'Doctrine', roman:'—',
+    instr:'Choose the best answer.',
+    stemHtml:'<div class="qprompt">'+d.prompt+'</div>',
+    choices:choices, rows:[],
+    answerText: ans ? '('+ans.letter+') '+ans.text : correctStr,
+    explainHtml: d.note || '',
+    kind:'mc'
+  };
+}
+
+function doctrinePool(exIds){
+  const divs = new Set();
+  ACTS.forEach(a => {
+    if(a.items.some(it => it.kind==='ex' && exIds.indexOf(it.ex) >= 0)) divs.add(a.roman);
+  });
+  const bank = (window.QUIZ_DOCTRINE || []).filter(d => !divs.size || divs.has(d.div));
+  const extra = [];
+  ACTS.forEach(a => {
+    if(!divs.has(a.roman)) return;
+    a.items.forEach(it => {
+      if(it.kind !== 'deck' || !DECKS[it.deck]) return;
+      DECKS[it.deck].panels.forEach(p => {
+        if(!p.q) return;
+        extra.push({div:a.roman, prompt:strip(p.q.prompt), options:p.q.options.slice(),
+          correct:p.q.correct, note:p.q.explain||''});
+      });
+    });
+  });
+  return bank.concat(extra);
+}
+
+function generateItems(){
+  const ids = selectedEx();
+  if(!ids.length) throw new Error('Select at least one exercise.');
+  const n = Math.max(1, Math.min(20, +$('countBox').value || 6));
+  const diff = +$('diffSel').value || 3;
+  const wantDoc = $('incDoc').checked;
+  const nDoc = wantDoc ? Math.max(2, Math.min(8, +$('docCount').value || 2)) : 0;
+
+  window.__ARS_QUIZ = true;
+  state.sessionSeen = [];
+  const items = [];
+  const seen = new Set();
+
+  ids.forEach(exId => {
+    const meta = QUIZ_SETS.find(s => s.ex === exId);
+    const title = (meta && meta.title) || exId;
+    const roman = (meta && meta.roman) || '';
+    const gen = EX[exId] && EX[exId].gen;
+    if(!gen) return;
+    state.ex = EX[exId];
+    let made = 0, tries = 0;
+    while(made < n && tries < n * 40){
+      tries++;
+      const preferHidden = !SMALL[exId] && (made % 2 === 1);
+      window.__ARS_QUIZ_PREFER = preferHidden ? 'hidden' : 'app';
+      let q;
+      try{ q = gen(diff); }
+      catch(e){ continue; }
+      if(!q) continue;
+      const fp = fingerprint(q);
+      if(seen.has(fp)) continue;
+      seen.add(fp);
+      items.push({exId:exId, setTitle:title, roman:roman, q:q, formatted:formatItem(q, title, roman)});
+      made++;
+    }
+    if(made < n){
+      window.__ARS_QUIZ_PREFER = 'app';
+      while(made < n && tries < n * 50){
+        tries++;
+        let q;
+        try{ q = gen(diff); }catch(e){ break; }
+        if(!q) break;
+        const fp = fingerprint(q);
+        if(seen.has(fp)) continue;
+        seen.add(fp);
+        items.push({exId:exId, setTitle:title, roman:roman, q:q, formatted:formatItem(q, title, roman)});
+        made++;
+      }
+    }
+  });
+
+  if(nDoc){
+    const pool = shuffle(doctrinePool(ids));
+    const take = pool.slice(0, Math.min(nDoc, pool.length));
+    take.forEach(d => {
+      items.push({exId:'doctrine', setTitle:'Doctrine', roman:'—', q:d, formatted:formatDoctrine(d)});
+    });
+  }
+
+  if(!items.length) throw new Error('No questions could be generated. Try another difficulty or set.');
+  return {items, diff, n, nDoc};
+}
+
+function renderPaper(bundle){
+  const {items, diff, nDoc} = bundle;
+  const course = $('courseName').value.trim();
+  const teacher = $('teacherName').value.trim();
+  const date = $('quizDate').value.trim() || todayStr();
+  const covers = [...new Set(items.filter(it => it.exId !== 'doctrine').map(it => 'Division '+it.roman+' · '+it.setTitle))];
+  if(nDoc) covers.push('Doctrine ('+nDoc+')');
+  const levelLabel = (DIFF && DIFF[diff] && DIFF[diff].desc) ? ('Difficulty '+DIFF[diff].name+' — '+DIFF[diff].desc) : ('Difficulty '+diff);
+
+  let head = '<div class="qhead"><h1>Ars Rhetorica · Quiz</h1>'+
+    '<div class="meta">'+(course?course+' · ':'')+(teacher?teacher+' · ':'')+date+'<br>'+levelLabel+'</div></div>'+
+    '<div class="namerow"><span>Name</span><span class="sm">Score</span></div>'+
+    '<div class="covers"><b>Covers:</b> '+covers.join('; ')+'</div>'+
+    '<div class="rubric"><b>Directions.</b> Answer every question. For multiple choice, circle the letter. '+
+    'Where a passage is printed, read it before you choose. Do not write on the answer-key pages.</div>';
+
+  let qs = '<ol class="qs">';
+  items.forEach(it => {
+    const f = it.formatted;
+    qs += '<li class="qitem"><div class="qsetline">'+(it.exId==='doctrine'?'Doctrine':'Division '+it.roman+' · '+it.setTitle)+'</div>';
+    if(f.instr) qs += '<div class="qinstr">'+f.instr+'</div>';
+    qs += '<div class="qbody">'+(f.stemHtml||'')+'</div>';
+    if(f.rows && f.rows.length){
+      f.rows.forEach(r => {
+        qs += '<div class="rowlab">'+r.label+'</div><ol class="ch">'+
+          r.choices.map(c => '<li>'+c.text+'</li>').join('')+'</ol>';
+      });
+    } else if(f.choices && f.choices.length && f.kind !== 'order'){
+      qs += '<ol class="ch">'+f.choices.map(c => '<li>'+c.text+'</li>').join('')+'</ol>';
+    } else if(f.kind === 'order' && f.choices){
+      qs += '<ol class="ch">'+f.choices.map(c => '<li>______  '+c.text+'</li>').join('')+'</ol>';
+    } else {
+      qs += '<div class="ansline"></div>';
+    }
+    qs += '</li>';
+  });
+  qs += '</ol>';
+
+  let key = '<div class="qhead"><h1>Answer Key</h1><div class="meta">'+date+' · '+levelLabel+'</div></div>'+
+    '<div class="keynote"><b>For the instructor.</b> Detach these pages before distributing the quiz. '+
+    'Answers are numbered to match the quiz. Each printing is freshly generated. '+
+    'About half of the exercise items (where the bank allows) are drawn from a corpus the students do not see in the app.</div>'+
+    '<ol class="keys">';
+  items.forEach(it => {
+    const f = it.formatted;
+    key += '<li class="keyitem"><div class="kset">'+(it.exId==='doctrine'?'Doctrine':'Division '+it.roman+' · '+it.setTitle)+'</div>'+
+      '<div class="ka"><b>'+(f.answerText||'—')+'</b></div>';
+    if(f.explainHtml) key += '<div class="kx">'+f.explainHtml+'</div>';
+    key += '</li>';
+  });
+  key += '</ol>';
+
+  $('paper').innerHTML = '<div class="sheet">'+head+qs+'</div><div class="sheet key-sheet">'+key+'</div>';
+  $('paper').classList.add('show');
+}
+
+$('genBtn').onclick = () => {
+  try{
+    const bundle = generateItems();
+    renderPaper(bundle);
+    $('printBtn').style.display = '';
+    setStatus('<b>'+bundle.items.length+' questions</b> ready. Scroll down to review, then Print / Save as PDF.', 'ok');
+    $('paper').scrollIntoView({behavior:'smooth', block:'start'});
+  }catch(e){
+    setStatus(e.message || String(e), 'err');
+  }
+};
+$('printBtn').onclick = () => window.print();
+
+buildSetList();
+syncDiffHint();
+</script>
+</body>
+</html>
