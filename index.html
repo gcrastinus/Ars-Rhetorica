@@ -69,9 +69,17 @@ body{
 #speak-toggle.speaking{
   background:var(--gold); color:#fff; border-color:var(--gold);
 }
+#speak-rate{
+  position:fixed; top:20px; right:120px; height:32px; min-width:58px;
+  border:1px solid var(--line); background:var(--card); color:var(--ink);
+  font-family:'Cinzel',serif; font-size:12px; letter-spacing:.08em;
+  border-radius:8px; padding:0 8px; z-index:50; box-shadow:var(--shadow);
+  cursor:pointer;
+}
 @media (max-width:420px){
   #dark-toggle{right:12px; width:40px; height:40px; font-size:18px}
   #speak-toggle{right:56px; width:40px; height:40px; font-size:16px}
+  #speak-rate{right:100px; top:16px; height:28px; min-width:52px; font-size:11px; padding:0 4px}
 }
 
 .wrap{max-width:880px; margin:0 auto; padding:34px 22px 90px}
@@ -343,7 +351,7 @@ table.para tr:nth-child(even) td{background:var(--panel2)}
 .ladder text{font-family:'EB Garamond',serif}
 
 @media print{
-  #dark-toggle, #speak-toggle{display:none}
+  #dark-toggle, #speak-toggle, #speak-rate{display:none}
   .set-card{break-inside:avoid}
 }
 
@@ -444,6 +452,13 @@ kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px
 </head>
 <body>
 <button id="dark-toggle" title="Light / dark">☾</button>
+<select id="speak-rate" title="Reading speed" aria-label="Reading speed">
+  <option value="1">1×</option>
+  <option value="1.5">1.5×</option>
+  <option value="2">2×</option>
+  <option value="2.5">2.5×</option>
+  <option value="3">3×</option>
+</select>
 <button id="speak-toggle" type="button" title="Read this screen aloud" aria-label="Read this screen aloud">🔊</button>
 
 <div class="wrap">
@@ -577,7 +592,7 @@ function pickSeen(arr, idFn){
 }
 
 const KEY = 'ars-rhetorica-progress';
-const state = { dark:false, diff:1, ex:null, q:null, locked:false, score:0, answered:0, correct:0, streak:0, sessionSeen:[], setI:0, setDone:false, setLen:10 };
+const state = { dark:false, diff:1, ex:null, q:null, locked:false, score:0, answered:0, correct:0, streak:0, sessionSeen:[], setI:0, setDone:false, setLen:10, speakRate:1 };
 const store = { totals:{}, score:0, bestStreak:0, mistakes:[], dark:null, diff:1, seen:{} };
 let chipSel = {};
 let orderSel = [];
@@ -587,7 +602,7 @@ function save(){
   try{
     localStorage.setItem(KEY, JSON.stringify({
       totals: store.totals, score: store.score, bestStreak: store.bestStreak,
-      mistakes: store.mistakes, dark: state.dark, diff: state.diff, seen: store.seen || {}
+      mistakes: store.mistakes, dark: state.dark, speakRate: state.speakRate, diff: state.diff, seen: store.seen || {}
     }));
   }catch(e){}
 }
@@ -602,6 +617,7 @@ function load(){
     store.mistakes = o.mistakes || [];
     store.seen = o.seen || {};
     if(o.dark !== undefined && o.dark !== null) state.dark = o.dark;
+    if(o.speakRate) state.speakRate = o.speakRate;
     if(o.diff) state.diff = o.diff;
   }catch(e){}
 }
@@ -1254,7 +1270,7 @@ $('src-back').onclick = () => { show('scr-home'); buildHome(); };
       if(!queue.length){ setSpeakingUI(false); return; }
       const u = new SpeechSynthesisUtterance(queue.shift());
       if(voice) u.voice = voice;
-      u.rate = 0.95;
+      u.rate = state.speakRate || 1;
       u.pitch = 1;
       u.onend = next;
       u.onerror = () => { setSpeakingUI(false); };
@@ -1272,6 +1288,18 @@ $('src-back').onclick = () => { show('scr-home'); buildHome(); };
       return;
     }
     speakChunks(chunkText(text));
+  }
+
+
+  const rateEl = $('speak-rate');
+  if(rateEl){
+    const allowed = [1, 1.5, 2, 2.5, 3];
+    if(allowed.indexOf(state.speakRate) < 0) state.speakRate = 1;
+    rateEl.value = String(state.speakRate);
+    rateEl.onchange = () => {
+      state.speakRate = parseFloat(rateEl.value) || 1;
+      try{ save(); }catch(e){}
+    };
   }
 
   btn.onclick = () => {
