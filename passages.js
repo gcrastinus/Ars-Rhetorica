@@ -5,7 +5,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "First Oration against Catiline",
     "locus": "1.1",
-    "cue": "The opening of the First Catilinarian: patience exhausted, the conspiracy known.",
+    "cue": "This is the opening of the First Catilinarian: patience is exhausted, and the conspiracy is known.",
     "text": "How much further, Catilina, will you carry your abuse of our forbearance? How much longer will your reckless temper baffle our restraint? What bounds will you set to this display of your uncontrolled audacity? Have you not been impressed by the nightly guards upon the Palatine, by the watching of the city by sentinels? Are you not affected by the alarm of the people, by the rallying of all loyal citizens, by the convening of the senate in this safely-guarded spot, by the looks and the expressions of all assembled here? Do you not perceive that your designs are exposed? Do you not see that your conspiracy is even now fully known and detected by all who are here assembled? What you did last night and the night before, where you were and whom you summoned, and what plans you laid, do you suppose that there is one of us here who does not know?",
     "spans": [
       {
@@ -18,19 +18,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 137,
         "figure": "anaphora",
-        "why": "How much is sounded twice; the ear waits for the blow to fall."
+        "why": "How much is sounded twice, so that the ear waits for the blow to fall."
       },
       {
         "start": 138,
         "end": 209,
         "figure": "rhetorical question",
-        "why": "The question is not for an answer. It is a charge dressed as inquiry."
+        "why": "The question does not seek an answer; it is a charge dressed as inquiry."
       },
       {
         "start": 342,
         "end": 439,
         "figure": "tricolon",
-        "why": "Three members, same construction, rising in public weight."
+        "why": "There are three members in the same construction, rising in public weight."
       }
     ]
   },
@@ -39,14 +39,14 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "First Oration against Catiline",
     "locus": "1.2",
-    "cue": "The criminal still lives — and sits in the senate.",
+    "cue": "The criminal still lives, and he even sits in the senate.",
     "text": "Alas! what degenerate days are these! The senate is well aware of the facts, the consul can perceive them all; but the criminal still lives. Lives? Yes, lives; and even comes down to the senate, takes part in the public deliberations, and marks down with ominous glances every single one of us for massacre. And we, such is our bravery, think we are doing our duty to our country, if we merely keep ourselves out of the way of his reckless words and bloody deeds. No, Catilina, long ere now you should yourself have been led by the consul's orders to execution; and on your own head should have been brought down the destruction which you are now devising for us. The most eminent P. Scipio, the pontifex maximus, was not actually a magistrate when he executed Ti. Gracchus",
     "spans": [
       {
         "start": 0,
         "end": 37,
         "figure": "exclamatio",
-        "why": "An open cry of the times, before the proof begins."
+        "why": "He utters an open cry over the times before the proof begins."
       },
       {
         "start": 141,
@@ -64,7 +64,7 @@ window.PASSAGES = [
         "start": 464,
         "end": 560,
         "figure": "apostrophe",
-        "why": "Again the name, and the sentence that has not been passed."
+        "why": "Again he uses the name, and he names the sentence that has not been passed."
       }
     ]
   },
@@ -73,7 +73,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "First Oration against Catiline",
     "locus": "1.4",
-    "cue": "The night at Laeca's house, named in the senate's hearing.",
+    "cue": "The night at Laeca's house is named in the senate's hearing.",
     "text": "Merciful heavens! Where are we? In what country, in what city are we dwelling? What is the government under which we live? There are here, here among our fellow-senators, conscript fathers, in this deliberative assembly, the most august, the most important in the world, men who are meditating the destruction of us all, the total ruin of this city and in fact of the civilised world. These persons I see before me now, and I ask them their opinions on affairs of state; and I do not even wound by a single harsh expression men who ought to have been put to death by the sword. You were then, Catilina, at Laeca's house that night; you divided Italy into districts; you decided to what quarter you wished each of your friends to proceed; you chose whom you would leave at Rome and whom you would take with you; you assigned the different points at which the city was to be fired; you promised that you would soon leave Rome yourself; you said that you had still a reason for a brief delay, in the fact that I was not dead; two Roman knights volunteered to set your mind at rest on that point, and undertook to murder me in my bed that very night shortly before daybreak.",
     "spans": [
       {
@@ -86,7 +86,7 @@ window.PASSAGES = [
         "start": 18,
         "end": 78,
         "figure": "rhetorical question",
-        "why": "Three questions, none wanting an answer: the shock is the point."
+        "why": "There are three questions, none of which wants an answer, because the shock is the point."
       },
       {
         "start": 321,
@@ -98,7 +98,7 @@ window.PASSAGES = [
         "start": 632,
         "end": 776,
         "figure": "asyndeton",
-        "why": "Clause after clause, no and to soften them: a night's work as a list."
+        "why": "Clause follows clause with no and to soften them, so that a night's work becomes a list."
       }
     ]
   },
@@ -114,19 +114,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 56,
         "figure": "anaphora",
-        "why": "Three refusals, same opening, last member the strongest."
+        "why": "There are three refusals with the same opening, and the last member is the strongest."
       },
       {
         "start": 0,
         "end": 56,
         "figure": "tricolon",
-        "why": "A rising three: bear, endure, allow."
+        "why": "The three verbs rise: bear, endure, allow."
       },
       {
         "start": 248,
         "end": 313,
         "figure": "epithet",
-        "why": "Stacked names for one man, each heavier than the last."
+        "why": "He stacks names for one man, each heavier than the last."
       }
     ]
   },
@@ -142,19 +142,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 87,
         "figure": "rhetorical question",
-        "why": "The question is a door slammed: there is no such object."
+        "why": "The question allows no answer, because there is no such object."
       },
       {
         "start": 217,
         "end": 402,
         "figure": "anaphora",
-        "why": "Is there any — twice. The vice is made to seem without remainder."
+        "why": "Is there any is said twice, and so the vice is made to seem without remainder."
       },
       {
         "start": 919,
         "end": 966,
         "figure": "praeteritio",
-        "why": "He names that he will not name it — and so names it more sharply than a charge would."
+        "why": "He says that he will not name it, and so he names it more sharply than a charge would."
       }
     ]
   },
@@ -176,13 +176,13 @@ window.PASSAGES = [
         "start": 80,
         "end": 147,
         "figure": "prosopopoeia",
-        "why": "Not Cicero now: Rome speaks in the first person."
+        "why": "Cicero no longer speaks; Rome speaks in the first person."
       },
       {
         "start": 880,
         "end": 1023,
         "figure": "antithesis",
-        "why": "Two horns, same command: go."
+        "why": "Both horns end in the same command: go."
       }
     ]
   },
@@ -191,14 +191,14 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "First Oration against Catiline",
     "locus": "1.13",
-    "cue": "The conspiracy as a fever: kill one man and the disease returns.",
+    "cue": "The conspiracy is a fever: if one man is killed, the disease returns.",
     "text": "As men stricken with a dangerous disease, when hot and tossing with fever, often seem at first to be relieved by a draught of cold water, but afterwards are much more gravely and severely afflicted; so this disease, which has seized the state, may be temporarily relieved by the punishment of Catilina, but will return with greater severity if his associates are allowed to survive. Let the disloyal then withdraw, let them separate themselves from the loyal, let them herd together in one place, let there be a wall, as I have often said, to sunder them from us. Let them cease to lay plots to assassinate the consul in his own house, let them cease to crowd menacingly round the City Praetor's judgment-seat, let them cease to beleaguer the senate-house with drawn swords and prepare their grenades and matches for firing the city: in short, let the political principles of every man be visibly written upon his forehead.",
     "spans": [
       {
         "start": 0,
         "end": 197,
         "figure": "simile",
-        "why": "The sick man and the cold water: a likeness drawn out."
+        "why": "The sick man and the cold water make a likeness drawn out at length."
       },
       {
         "start": 199,
@@ -210,7 +210,7 @@ window.PASSAGES = [
         "start": 383,
         "end": 495,
         "figure": "anaphora",
-        "why": "Three let them, the last already treating the conspirators as cattle."
+        "why": "Let them comes three times, and the last already treats the conspirators as cattle."
       }
     ]
   },
@@ -232,19 +232,19 @@ window.PASSAGES = [
         "start": 77,
         "end": 182,
         "figure": "tricolon",
-        "why": "Three with-phrases, each a charge, before the news that he is gone."
+        "why": "Three with-phrases, each a charge, come before the news that he is gone."
       },
       {
         "start": 299,
         "end": 449,
         "figure": "correctio",
-        "why": "He offers a word, takes it back, offers a milder — and the mildest is still a jeer."
+        "why": "He offers a word, takes it back, and offers a milder one, but the mildest is still a jeer."
       },
       {
         "start": 450,
         "end": 491,
         "figure": "asyndeton",
-        "why": "Three verbs, no and: the flight is made to sound like a rout."
+        "why": "Three verbs stand with no and between them, so the flight is made to sound like a rout."
       }
     ]
   },
@@ -253,14 +253,14 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Second Oration against Catiline",
     "locus": "2.7",
-    "cue": "The consul on the wretchedness of office when the city itself is the enemy's camp.",
+    "cue": "The consul speaks of the wretchedness of office when the city itself is the enemy's camp.",
     "text": "Alas! how wretched is the vocation not only of those who govern but even of those who preserve the state! Even now if L. Catilina, finding himself driven into a corner and hopelessly weakened by my plans and toils and perils, should be seized with sudden panic, should alter his plans, desert his friends, discard his idea of making war, and turn aside from his career of crime and war to the path of flight and voluntary exile, people will not say that I have stripped him of the weapons of violence, that my vigilance has covered him with confusion and alarm, that I have forced him to abandon his cherished hopes and schemes; no, he will be said, an unconvicted, an innocent man, to have been driven into exile by the threats and the violence of the consul.",
     "spans": [
       {
         "start": 0,
         "end": 34,
         "figure": "exclamatio",
-        "why": "A cry, not a proof: the feeling is put first."
+        "why": "This is a cry, not a proof, and the feeling is put first."
       },
       {
         "start": 35,
@@ -281,7 +281,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Second Oration against Catiline",
     "locus": "2.11",
-    "cue": "Irony at the army Catiline will lead: the dread is a jeer.",
+    "cue": "He turns irony on the army Catiline will lead, so that the dread is a jeer.",
     "text": "Oh! how horribly we must dread this war, when we know that Catilina is going to have this infamous crew for his bodyguard! Array forthwith, citizens of Rome, your armies and your garrisons to resist these world-famed forces of Catilina. First station your consuls and generals to confront that wounded and worn-out cut-throat: next draw up on the field the very flower and vigour of all Italy to meet that wave-tossed and battered wreckage of society. Yes, the towns of the colonial and municipal districts will answer for themselves to Catilina's rude forest-fastnesses; nor ought I to compare the rest of your forces, your conspicuous and ample defences, with the scanty and beggarly preparations of that wretched brigand.",
     "spans": [
       {
@@ -294,13 +294,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 39,
         "figure": "exclamatio",
-        "why": "The cry is too large for the thing: that is the point."
+        "why": "The cry is too large for the thing, and that is the point."
       },
       {
         "start": 41,
         "end": 79,
         "figure": "apostrophe",
-        "why": "The name again, now of a general without an army worth the name."
+        "why": "The name comes again, now as the name of a general without an army worth the name."
       }
     ]
   },
@@ -316,13 +316,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 207,
         "figure": "enumeratio",
-        "why": "A rising list of what was at stake, from household to the empire's seat."
+        "why": "This is a rising list of what was at stake, from the household to the empire's seat."
       },
       {
         "start": 290,
         "end": 337,
         "figure": "tricolon",
-        "why": "Three nouns for the consul's work, the last the cost."
+        "why": "Three nouns name the consul's work, and the last names its cost."
       },
       {
         "start": 368,
@@ -350,19 +350,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 71,
         "figure": "rhetorical question",
-        "why": "The who expects no name: the answer is no one, or a fool."
+        "why": "The who expects no name, because the answer is no one, or a fool."
       },
       {
         "start": 15,
         "end": 71,
         "figure": "tricolon",
-        "why": "Three so-phrases, mounting from blindness to delusion."
+        "why": "Three so-phrases mount from blindness to delusion."
       },
       {
         "start": 30,
         "end": 71,
         "figure": "climax",
-        "why": "Blind, then stubborn, then out of one's mind."
+        "why": "The terms rise from blind, to stubborn, to out of one's mind."
       }
     ]
   },
@@ -384,13 +384,13 @@ window.PASSAGES = [
         "start": 266,
         "end": 354,
         "figure": "antithesis",
-        "why": "Pleasure set against misfortune, gratification against sorrow."
+        "why": "Pleasure is set against misfortune, and gratification against sorrow."
       },
       {
         "start": 121,
         "end": 264,
         "figure": "climax",
-        "why": "From the state to himself: the last anxiety is the one he will refuse to honour."
+        "why": "The climax moves from the state to himself, and the last anxiety is the one he will refuse to honour."
       }
     ]
   },
@@ -406,19 +406,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 57,
         "figure": "apostrophe",
-        "why": "The vocative, then the charge."
+        "why": "The vocative comes first, and then the charge."
       },
       {
         "start": 30,
         "end": 80,
         "figure": "tricolon",
-        "why": "The three cares of a senate that still has something to save — if the third member completes."
+        "why": "These are the three cares of a senate that still has something to save, if the third member completes the set."
       },
       {
         "start": 0,
         "end": 57,
         "figure": "rhetorical question",
-        "why": "A command dressed in the address of counsel."
+        "why": "It is a command dressed in the address of counsel."
       }
     ]
   },
@@ -427,7 +427,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Pro Milone",
     "locus": "1.1",
-    "cue": "The defence of Milo opens by confessing fear — and making that fear an argument.",
+    "cue": "The defence of Milo opens by confessing fear and making that fear an argument.",
     "text": "Although I am afraid, gentlemen of the jury, that fear is an unseemly condition in which to begin a speech in defence of the bravest of men; and that it is in the last degree unbecoming, seeing that Titus Annius himself is more anxious for the safety of the state than for his own, that I should be unable to bring to his case a greatness of spirit to equal his; still, the unprecedented aspect of this unprecedented trial alarms my eyes, which, turn where they may, look in vain for the familiar environment of the courts and the traditional procedure of the law. For your assembly is not thronged, as of old, by a ring of listeners; we are not encompassed by our customary concourse; and the troops which you see before all the temples, albeit posted there to prevent violence,",
     "spans": [
       {
@@ -468,13 +468,13 @@ window.PASSAGES = [
         "start": 302,
         "end": 387,
         "figure": "climax",
-        "why": "Humanity, then clemency named as unheard-of, then moderation that does not fail."
+        "why": "He names humanity, then clemency as unheard-of, then moderation that does not fail."
       },
       {
         "start": 437,
         "end": 492,
         "figure": "hyperbole",
-        "why": "Almost superhuman: the praise is deliberately past the human measure."
+        "why": "With almost superhuman, the praise is deliberately carried past the human measure."
       },
       {
         "start": 0,
@@ -508,7 +508,7 @@ window.PASSAGES = [
         "start": 429,
         "end": 506,
         "figure": "apostrophe",
-        "why": "The turn from the house to the man: the name is a warning."
+        "why": "He turns from the house to the man, and the name is a warning."
       }
     ]
   },
@@ -536,7 +536,7 @@ window.PASSAGES = [
         "start": 268,
         "end": 349,
         "figure": "climax",
-        "why": "From the senate's name to the courts' name: both are in the dock with Verres."
+        "why": "The climax moves from the senate's name to the courts' name, and both are in the dock with Verres."
       }
     ]
   },
@@ -558,13 +558,13 @@ window.PASSAGES = [
         "start": 88,
         "end": 206,
         "figure": "irony",
-        "why": "Praise of their persuasion, at once taken back: the persuasion was of falsehood."
+        "why": "He praises their persuasion and at once takes the praise back, because the persuasion was of falsehood."
       },
       {
         "start": 125,
         "end": 206,
         "figure": "antithesis",
-        "why": "Persuasion set against truth: the two are not the same art."
+        "why": "Persuasion is set against truth, and the two are not the same art."
       }
     ]
   },
@@ -580,19 +580,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 39,
         "figure": "sententia",
-        "why": "A maxim, compact enough to be carried away — and to convict him."
+        "why": "The maxim is compact enough to be carried away, and compact enough to convict him."
       },
       {
         "start": 41,
         "end": 81,
         "figure": "litotes",
-        "why": "Not a loud claim: the understatement is that they will not believe even this."
+        "why": "This is not a loud claim; the understatement is that they will not believe even this."
       },
       {
         "start": 82,
         "end": 166,
         "figure": "antithesis",
-        "why": "True, and hard to persuade: logos without the other two pisteis."
+        "why": "True, and hard to persuade: this is logos without the other two pisteis."
       }
     ]
   },
@@ -620,7 +620,7 @@ window.PASSAGES = [
         "start": 127,
         "end": 148,
         "figure": "hypotyposis",
-        "why": "A single stroke of the hour: the scene is made visible."
+        "why": "A single stroke of the hour makes the scene visible."
       }
     ]
   },
@@ -629,26 +629,26 @@ window.PASSAGES = [
     "author": "Plato",
     "work": "Phaedrus",
     "locus": "227a",
-    "cue": "A walk outside the wall, and a speech about love in the pocket.",
+    "cue": "A walk outside the wall begins, with a speech about love in the pocket.",
     "text": "My dear Phaedrus, whence come you, and whither are you going? PHAEDRUS: I come from Lysias the son of Cephalus, and I am going to take a walk outside the wall, for I have been sitting with him the whole morning; and our common friend Acumenus tells me that it is much more refreshing to walk in the open air than to be shut up in a cloister. SOCRATES: There he is right. Lysias then, I suppose, was in the town? PHAEDRUS: Yes, he was staying with Epicrates, here at the house of Morychus; that house which is near the temple of Olympian Zeus. SOCRATES: And how did he entertain you? Can I be wrong in supposing that Lysias gave you a feast of discourse? PHAEDRUS: You shall hear, if you can spare time to accompany me.",
     "spans": [
       {
         "start": 0,
         "end": 61,
         "figure": "apostrophe",
-        "why": "The friend named, and two questions that are already a welcome."
+        "why": "The friend is named, and two questions follow that are already a welcome."
       },
       {
         "start": 18,
         "end": 61,
         "figure": "rhetorical question",
-        "why": "Not for a map: for the talk that will follow."
+        "why": "The questions do not ask for a map; they ask for the talk that will follow."
       },
       {
         "start": 18,
         "end": 61,
         "figure": "antithesis",
-        "why": "From and to: the whole of a walk in two adverbs."
+        "why": "From and to give the whole of a walk in two adverbs."
       }
     ]
   },
@@ -698,13 +698,13 @@ window.PASSAGES = [
         "start": 298,
         "end": 439,
         "figure": "climax",
-        "why": "From the remote to the fathers to the present: the praise climbs."
+        "why": "The praise climbs from the remote past to the fathers to the present."
       },
       {
         "start": 148,
         "end": 297,
         "figure": "antithesis",
-        "why": "Dwelling without break, and freedom won by valour: two goods, one line."
+        "why": "Dwelling without break and freedom won by valour are two goods set in one line."
       }
     ]
   },
@@ -713,14 +713,14 @@ window.PASSAGES = [
     "author": "Thucydides",
     "work": "History of the Peloponnesian War",
     "locus": "2.37",
-    "cue": "Athens as original, not copy: the democratic claim in a single antithesis.",
+    "cue": "Athens is an original, not a copy: the democratic claim is made in a single antithesis.",
     "text": "Our constitution does not copy the laws of neighbouring states; we are rather a pattern to others than imitators ourselves. Its administration favours the many instead of the few; this is why it is called a democracy. If we look to the laws, they afford equal justice to all in their private differences; if no social standing, advancement in public life falls to reputation for capacity, class considerations not being allowed to interfere with merit; nor again does poverty bar the way, if a man is able to serve the state, he is not hindered by the obscurity of his condition. The freedom which we enjoy in our government extends also to our ordinary life. There, far from exercising a jealous surveillance over each other, we do not feel called upon to be angry with our neighbour for doing what he likes, or even to indulge in those injurious looks which cannot fail to be offensive, although they inflict no positive penalty.",
     "spans": [
       {
         "start": 64,
         "end": 123,
         "figure": "antithesis",
-        "why": "Pattern, not copy: the city is made the measure of others."
+        "why": "The city is a pattern, not a copy, and so it is made the measure of others."
       },
       {
         "start": 124,
@@ -732,7 +732,7 @@ window.PASSAGES = [
         "start": 218,
         "end": 387,
         "figure": "antithesis",
-        "why": "Private equality, public advancement by merit: two fields, one justice."
+        "why": "Private equality and public advancement by merit are two fields under one justice."
       }
     ]
   },
@@ -741,26 +741,26 @@ window.PASSAGES = [
     "author": "Thucydides",
     "work": "History of the Peloponnesian War",
     "locus": "5.89",
-    "cue": "The Athenian word at Melos: right is set aside, power is named.",
+    "cue": "The Athenian word at Melos sets right aside and names power.",
     "text": "the strong do what they can and the weak suffer what they must. Melians. As we think, at any rate, it is expedient—we speak as we are obliged, since you enjoin us to let right alone and talk only of interest—that you should not destroy what is our common protection, the privilege of being allowed in danger to invoke what is fair and right, and even to profit by arguments not strictly valid if they can be got to pass current. And you are as much interested in this as any, as your fall would be a signal for the heaviest vengeance and an example for the world to meditate upon. Athenians. The end of our empire, if end it should, does not frighten us: a rival empire like Lacedaemon, even if Lacedaemon was our real antagonist, is not so terrible to the vanquished as subjects who by themselves attack and overpower their rulers. This, however, is a risk that we are content to take.",
     "spans": [
       {
         "start": 0,
         "end": 63,
         "figure": "antithesis",
-        "why": "Two clauses, two lots: the sentence is itself the doctrine."
+        "why": "Two clauses assign two lots, and the sentence is itself the doctrine."
       },
       {
         "start": 0,
         "end": 63,
         "figure": "sententia",
-        "why": "A maxim hard enough to be remembered against its speakers."
+        "why": "It is a maxim hard enough to be remembered against its speakers."
       },
       {
         "start": 0,
         "end": 63,
         "figure": "chiasmus",
-        "why": "Strong/can, weak/must: the second pair inverts the first in fortune, not in grammar only."
+        "why": "Strong and can, weak and must: the second pair inverts the first in fortune, not only in grammar."
       }
     ]
   },
@@ -776,13 +776,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 72,
         "figure": "epithet",
-        "why": "Race, father, rule: three names for one man before the deeds."
+        "why": "Race, father, and rule give three names for one man before the deeds."
       },
       {
         "start": 342,
         "end": 460,
         "figure": "enumeratio",
-        "why": "Two lots of Greeks, two methods: tribute or friendship."
+        "why": "There are two lots of Greeks and two methods, tribute or friendship."
       },
       {
         "start": 461,
@@ -816,7 +816,7 @@ window.PASSAGES = [
         "start": 389,
         "end": 425,
         "figure": "antithesis",
-        "why": "Flattery and truth named as two roads, and only one taken."
+        "why": "Flattery and truth are named as two roads, and only one is taken."
       }
     ]
   },
@@ -844,7 +844,7 @@ window.PASSAGES = [
         "start": 203,
         "end": 336,
         "figure": "enumeratio",
-        "why": "Life, city, sons, grandsons: happiness counted in a list, not in gold."
+        "why": "Life, city, sons, grandsons: happiness is counted in a list, not in gold."
       }
     ]
   },
@@ -860,19 +860,19 @@ window.PASSAGES = [
         "start": 35,
         "end": 111,
         "figure": "antithesis",
-        "why": "Narrow and single: two reasons that are one strategy."
+        "why": "Narrow and single are two reasons that make one strategy."
       },
       {
         "start": 267,
         "end": 356,
         "figure": "litotes",
-        "why": "Not even known: the understatement of a path that will ruin them."
+        "why": "The phrase not even known understates a path that will ruin them."
       },
       {
         "start": 393,
         "end": 541,
         "figure": "tricolon",
-        "why": "Guard, forbid, sail: three resolutions for one war."
+        "why": "Guard, forbid, sail: these are three resolutions for one war."
       }
     ]
   },
@@ -888,19 +888,19 @@ window.PASSAGES = [
         "start": 46,
         "end": 131,
         "figure": "antithesis",
-        "why": "Gifts, then the soul that spoiled them: the but is the portrait."
+        "why": "First come the gifts, then the soul that spoiled them; the but is the portrait."
       },
       {
         "start": 170,
         "end": 220,
         "figure": "asyndeton",
-        "why": "Four names for one delight, piled without rest."
+        "why": "Four names for one delight are piled up without rest."
       },
       {
         "start": 301,
         "end": 332,
         "figure": "tricolon",
-        "why": "Three hardships his body could bear: the praise of a soldier given to a conspirator."
+        "why": "Three hardships his body could bear make the praise of a soldier, given to a conspirator."
       },
       {
         "start": 473,
@@ -928,13 +928,13 @@ window.PASSAGES = [
         "start": 32,
         "end": 174,
         "figure": "sententia",
-        "why": "A maxim against oratory, spoken by an orator."
+        "why": "It is a maxim against oratory, spoken by an orator."
       },
       {
         "start": 72,
         "end": 141,
         "figure": "antithesis",
-        "why": "Two pairs: spiritless/active, timid/valiant."
+        "why": "There are two pairs: spiritless and active, timid and valiant."
       },
       {
         "start": 384,
@@ -965,13 +965,13 @@ window.PASSAGES = [
         "start": 162,
         "end": 208,
         "figure": "hyperbole",
-        "why": "One day, all liberty: the hope is made larger than the field."
+        "why": "One day and all liberty: the hope is made larger than the field."
       },
       {
         "start": 360,
         "end": 466,
         "figure": "antithesis",
-        "why": "Honour for the brave, safety even for cowards: the same arms, two uses."
+        "why": "Honour for the brave and safety even for cowards are two uses of the same arms."
       }
     ]
   },
@@ -990,25 +990,25 @@ window.PASSAGES = [
         "start": 0,
         "end": 52,
         "figure": "tricolon",
-        "why": "Three infinitives, no conjunction until the last crime is named as naming."
+        "why": "There are three infinitives and no conjunction until the last crime is named as naming."
       },
       {
         "start": 54,
         "end": 121,
         "figure": "irony",
-        "why": "They call: the names are the lie."
+        "why": "They call shows that the names are the lie."
       },
       {
         "start": 76,
         "end": 121,
         "figure": "antithesis",
-        "why": "Desert and peace: the same place, two names."
+        "why": "Desert and peace are two names for the same place."
       },
       {
         "start": 0,
         "end": 33,
         "figure": "asyndeton",
-        "why": "Three blows, no and between the first two."
+        "why": "There are three blows, with no and between the first two."
       }
     ]
   },
@@ -1030,13 +1030,13 @@ window.PASSAGES = [
         "start": 229,
         "end": 300,
         "figure": "antithesis",
-        "why": "Father at Rome, son at Gabii: two powers, one house."
+        "why": "Father at Rome and son at Gabii are two powers in one house."
       },
       {
         "start": 301,
         "end": 387,
         "figure": "litotes",
-        "why": "Sufficient: the understatement of a man about to ask how to betray a city."
+        "why": "Sufficient is the understatement of a man about to ask how to betray a city."
       }
     ]
   },
@@ -1052,7 +1052,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 18,
         "figure": "metaphor",
-        "why": "A throw of dice for a crossing of a river: the game is the war."
+        "why": "A throw of dice stands for the crossing of a river, so that the game is the war."
       },
       {
         "start": 0,
@@ -1064,7 +1064,7 @@ window.PASSAGES = [
         "start": 19,
         "end": 151,
         "figure": "hypotyposis",
-        "why": "The night, the river, the town by dawn: the scene is made to move."
+        "why": "The night, the river, and the town by dawn make the scene move."
       }
     ]
   },
@@ -1080,13 +1080,13 @@ window.PASSAGES = [
         "start": 35,
         "end": 101,
         "figure": "apostrophe",
-        "why": "The people named as those who like to hear themselves praised through their dead."
+        "why": "The people are named as those who like to hear themselves praised through their dead."
       },
       {
         "start": 50,
         "end": 82,
         "figure": "irony",
-        "why": "No doubt: the courtesy is already an accusation."
+        "why": "No doubt is a courtesy that is already an accusation."
       },
       {
         "start": 286,
@@ -1120,19 +1120,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 95,
         "figure": "anaphora",
-        "why": "Great, greatly, great: the same word in three cases of praise."
+        "why": "Great, greatly, great: the same word appears in three cases of praise."
       },
       {
         "start": 0,
         "end": 95,
         "figure": "tricolon",
-        "why": "Thou, power, wisdom: three goods, one God."
+        "why": "Thou, power, wisdom: three goods are named in one God."
       },
       {
         "start": 377,
         "end": 456,
         "figure": "antithesis",
-        "why": "Made for, and restless until: the whole of the book in one turn."
+        "why": "Made for, and restless until: the whole of the book is held in one turn."
       }
     ]
   },
@@ -1141,26 +1141,26 @@ window.PASSAGES = [
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
     "locus": "III.1",
-    "cue": "The first of Gregory's pairs: the same vice is not cured by the same word.",
+    "cue": "This is the first of Gregory's pairs, where the same vice is not cured by the same word.",
     "text": "Differently, then, to be admonished are men and women; because on the former heavier injunctions, on the latter lighter are to be laid, that those may be exercised by great things, but these winningly converted by light ones. (Admonition 2.) Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1. Chapter 2 How the poor and the rich should be admonished.",
     "spans": [
       {
         "start": 63,
         "end": 134,
         "figure": "antithesis",
-        "why": "Heavy and light, as the hearers differ."
+        "why": "Heavy and light are set against each other, as the hearers differ."
       },
       {
         "start": 141,
         "end": 225,
         "figure": "antithesis",
-        "why": "Exercise and conversion: two medicines."
+        "why": "Exercise and conversion are two medicines."
       },
       {
         "start": 0,
         "end": 53,
         "figure": "anaphora",
-        "why": "Differently is the key of the whole book: one gospel, many hearings."
+        "why": "Differently is the key of the whole book, since one gospel has many hearings."
       }
     ]
   },
@@ -1169,26 +1169,26 @@ window.PASSAGES = [
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
     "locus": "II.5",
-    "cue": "The pastor is to be near in pity and high in prayer — and not to drop either.",
+    "cue": "The pastor is to be near in pity and high in prayer, and not to drop either.",
     "text": "The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself, and by loftiness of speculation transcend even himself in his aspiration after the invisible; lest either in seeking high things he despise the weak things of his neighbours, or in suiting himself to the weak things of his neighbours he relinquish his aspiration after high things. For hence it is that Paul is caught up into Paradise 2 Corinthians 12:3 and explores the secrets of the third heaven, and, yet, though borne aloft in that contemplation of things invisible, recalls the vision of his mind to the bed of the carnal, and directs how they should have intercourse with each other in their hidden privacy, saying, But on account of fornication let every man have his own wife, and let every woman have her own husband.",
     "spans": [
       {
         "start": 20,
         "end": 101,
         "figure": "antithesis",
-        "why": "Near and exalted: the two heights of the same office."
+        "why": "Near and exalted are the two heights of the same office."
       },
       {
         "start": 111,
         "end": 201,
         "figure": "metaphor",
-        "why": "Bowels: the old word for mercy as a bodily taking-on."
+        "why": "Bowels is the old word for mercy as a bodily taking-on."
       },
       {
         "start": 297,
         "end": 450,
         "figure": "antithesis",
-        "why": "Two ditches, one road: contempt of the weak, or loss of the high."
+        "why": "There are two ditches beside one road: contempt of the weak, or loss of the high."
       }
     ]
   },
@@ -1204,13 +1204,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 68,
         "figure": "anaphora",
-        "why": "Blessed are: the same door for each lot."
+        "why": "Blessed are opens each lot in the same way."
       },
       {
         "start": 164,
         "end": 373,
         "figure": "tricolon",
-        "why": "Three blessings in series, each a reversal of what the world pays."
+        "why": "Three blessings come in series, each a reversal of what the world pays."
       },
       {
         "start": 224,
@@ -1225,14 +1225,14 @@ window.PASSAGES = [
     "author": "Paul (Douay-Rheims)",
     "work": "First Epistle to the Corinthians",
     "locus": "13:1–4",
-    "cue": "Gifts without charity are noise: the apostle's own climax.",
+    "cue": "Gifts without charity are noise, and the apostle builds his own climax.",
     "text": "If I speak with the tongues of men and of angels, and have not charity, I am become as sounding brass, or a tinkling cymbal. 13:2. And if I should have prophecy and should know all mysteries and all knowledge, and if I should have all faith, so that I could remove mountains, and have not charity, I am nothing. 13:3. And if I should distribute all my goods to feed the poor, and if I should deliver my body to be burned, and have not charity, it profiteth me nothing. 13:4. Charity is patient, is kind: charity envieth not, dealeth not perversely, is not puffed up, 13:5. Is not ambitious, seeketh not her own, is not provoked to anger, thinketh no evil: 13:6. Rejoiceth not in iniquity, but rejoiceth with the truth: 13:7. Beareth all things, believeth all things, hopeth all things, endureth all things. 13:8. Charity never falleth away: whether prophecies shall be made void or tongues shall cease or knowledge shall be destroyed.",
     "spans": [
       {
         "start": 50,
         "end": 311,
         "figure": "anaphora",
-        "why": "And have not charity — repeated until the ear will not let it go."
+        "why": "And have not charity is repeated until the ear will not let it go."
       },
       {
         "start": 72,
@@ -1244,13 +1244,13 @@ window.PASSAGES = [
         "start": 214,
         "end": 274,
         "figure": "hyperbole",
-        "why": "All faith, mountains moved: the gift is stretched to the miraculous, and still fails."
+        "why": "With all faith and mountains moved, the gift is stretched to the miraculous, and still it fails."
       },
       {
         "start": 276,
         "end": 311,
         "figure": "climax",
-        "why": "From noise to nothing: the last word is the drop."
+        "why": "The climax runs from noise to nothing, and the last word is the drop."
       },
       {
         "start": 475,
@@ -1265,20 +1265,20 @@ window.PASSAGES = [
     "author": "John (Douay-Rheims)",
     "work": "Gospel according to St John",
     "locus": "1:1–5",
-    "cue": "The Word at the beginning: three clauses, one subject.",
+    "cue": "The Word is at the beginning, in three clauses with one subject.",
     "text": "In the beginning was the Word: and the Word was with God: and the Word was God. 1:2. The same was in the beginning with God. 1:3. All things were made by him: and without him was made nothing that was made. 1:4. In him was life: and the life was the light of men. 1:5. And the light shineth in darkness: and the darkness did not comprehend it. 1:6. There was a man sent from God, whose name was John. 1:7. This man came for a witness, to give testimony of the light, that all men might believe through him. 1:8. He was not the light, but was to give testimony of the light. 1:9. That was the true light, which enlighteneth every man that cometh into this world. 1:10. He was in the world: and the world was made by him: and the world knew him not.",
     "spans": [
       {
         "start": 31,
         "end": 79,
         "figure": "anaphora",
-        "why": "The Word was — twice more, each time a higher claim."
+        "why": "The Word was comes twice more, each time with a higher claim."
       },
       {
         "start": 0,
         "end": 79,
         "figure": "tricolon",
-        "why": "Three members, last the name of God."
+        "why": "There are three members, and the last is the name of God."
       },
       {
         "start": 269,
@@ -1312,13 +1312,13 @@ window.PASSAGES = [
         "start": 30,
         "end": 121,
         "figure": "tricolon",
-        "why": "Three thy-petitions, before any our."
+        "why": "Three thy-petitions come before any our."
       },
       {
         "start": 76,
         "end": 121,
         "figure": "antithesis",
-        "why": "Earth measured against heaven, and told to match it."
+        "why": "Earth is measured against heaven and told to match it."
       }
     ]
   },
@@ -1334,19 +1334,19 @@ window.PASSAGES = [
         "start": 66,
         "end": 89,
         "figure": "apostrophe",
-        "why": "The muse is addressed: the poem begins as a prayer."
+        "why": "The muse is addressed, so the poem begins as a prayer."
       },
       {
         "start": 17,
         "end": 64,
         "figure": "metaphor",
-        "why": "Wrath as a spring: the water is woe, and it has a source."
+        "why": "Wrath is a spring: the water is woe, and it has a source."
       },
       {
         "start": 49,
         "end": 64,
         "figure": "hyperbole",
-        "why": "Unnumbered: the poet refuses to count what he is about to recount."
+        "why": "With unnumbered, the poet refuses to count what he is about to recount."
       },
       {
         "start": 360,
@@ -1361,32 +1361,32 @@ window.PASSAGES = [
     "author": "Virgil",
     "work": "Aeneid (Dryden)",
     "locus": "1.1–8",
-    "cue": "Arms and the man: war and the wanderer in the first breath.",
+    "cue": "Arms and the man: war and the wanderer come in the first breath.",
     "text": "Arms, and the man I sing, who, forc’d by fate, And haughty Juno’s unrelenting hate, Expell’d and exil’d, left the Trojan shore. Long labours, both by sea and land, he bore, And in the doubtful war, before he won The Latian realm, and built the destin’d town; His banish’d gods restor’d to rites divine, And settled sure succession in his line, From whence the race of Alban fathers come, And the long glories of majestic Rome. O Muse! the causes and the crimes relate; What goddess was provok’d, and whence her hate; For what offence the Queen of Heav’n began To persecute so brave, so just a man; Involv’d his anxious life in endless cares, Expos’d to wants, and hurried into wars! Can heav’nly minds such high resentment show, Or exercise their spite in human woe? Against the Tiber’s mouth, but far away, An ancient town was seated on the sea; A Tyrian colony; the people made Stout for the war, and studious of their trade: Carthage the name; belov’d by Juno more Than her own Argos, or the Samian shore.",
     "spans": [
       {
         "start": 427,
         "end": 468,
         "figure": "apostrophe",
-        "why": "As Homer, so Virgil: the causes are asked of the muse."
+        "why": "As Homer did, so Virgil asks the causes of the muse."
       },
       {
         "start": 128,
         "end": 258,
         "figure": "tricolon",
-        "why": "Sea, land, war: three labours before the town is named."
+        "why": "Sea, land, war: three labours come before the town is named."
       },
       {
         "start": 683,
         "end": 766,
         "figure": "rhetorical question",
-        "why": "A question to the gods' own dignity, not to a human court."
+        "why": "The question is put to the gods' own dignity, not to a human court."
       },
       {
         "start": 51,
         "end": 82,
         "figure": "epithet",
-        "why": "Two adjectives, one hate: the goddess is characterized before she acts."
+        "why": "Two adjectives name one hate, and the goddess is characterized before she acts."
       }
     ]
   },
@@ -1408,13 +1408,13 @@ window.PASSAGES = [
         "start": 198,
         "end": 262,
         "figure": "simile",
-        "why": "Eyes as fire: the likeness, then the claim that they exceed the human."
+        "why": "Her eyes are likened to fire, and then they are said to exceed the human."
       },
       {
         "start": 290,
         "end": 367,
         "figure": "antithesis",
-        "why": "Vigour and years: the two that do not usually keep company."
+        "why": "Vigour and years are two things that do not usually keep company."
       },
       {
         "start": 198,
@@ -1436,19 +1436,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 120,
         "figure": "occupatio",
-        "why": "He names the objection before the objector can: a figure of occupying the ground."
+        "why": "He names the objection before the objector can, and so occupies the ground."
       },
       {
         "start": 206,
         "end": 285,
         "figure": "antithesis",
-        "why": "Arrested, or sent away: two policies, one foe."
+        "why": "Arrested or sent away: these are two policies for one foe."
       },
       {
         "start": 287,
         "end": 374,
         "figure": "correctio",
-        "why": "Not me, but the time: the correction is the defence."
+        "why": "Not me, but the time: here the correction is the defence."
       }
     ]
   },
@@ -1464,7 +1464,7 @@ window.PASSAGES = [
         "start": 17,
         "end": 48,
         "figure": "litotes",
-        "why": "Utterly despise: the understatement is that there is nothing there to fear."
+        "why": "With utterly despise, the understatement is that there is nothing there to fear."
       },
       {
         "start": 275,
@@ -1476,7 +1476,7 @@ window.PASSAGES = [
         "start": 49,
         "end": 99,
         "figure": "antithesis",
-        "why": "Theirs and ours: the comparison is the argument."
+        "why": "Theirs and ours are compared, and the comparison is the argument."
       }
     ]
   },
@@ -1492,19 +1492,19 @@ window.PASSAGES = [
         "start": 46,
         "end": 115,
         "figure": "apostrophe",
-        "why": "The vocative, then the charge of the night."
+        "why": "The vocative comes first, and then the charge of the night."
       },
       {
         "start": 137,
         "end": 268,
         "figure": "antithesis",
-        "why": "His care, without their alarm: ethos as quiet provision."
+        "why": "His care without their alarm shows ethos as quiet provision."
       },
       {
         "start": 365,
         "end": 400,
         "figure": "metaphor",
-        "why": "Excursion: a light word for a flight into war."
+        "why": "Excursion is a light word for a flight into war."
       }
     ]
   },
@@ -1520,19 +1520,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 64,
         "figure": "apostrophe",
-        "why": "The people named as those who still have wives and children to keep the day with."
+        "why": "The people are named as those who still have wives and children to keep the day with."
       },
       {
         "start": 245,
         "end": 284,
         "figure": "litotes",
-        "why": "None more justly: the understatement of a unique deliverance."
+        "why": "None more justly is the understatement of a unique deliverance."
       },
       {
         "start": 368,
         "end": 420,
         "figure": "asyndeton",
-        "why": "Three withouts: the rescue is named by what it did not cost."
+        "why": "Three withouts name the rescue by what it did not cost."
       }
     ]
   },
@@ -1541,7 +1541,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Third Oration against Catiline",
     "locus": "3.11",
-    "cue": "The consul will take no statue: only that the day be remembered.",
+    "cue": "The consul will take no statue; he asks only that the day be remembered.",
     "text": "For these important services, citizens of Rome, I do not require from you any reward of merit, any outward sign of honour, any memorial of my renown, except the eternal remembrance of this day. In your hearts and there alone I desire that all my triumphs, all my honourable distinctions, all the memorials of my glory, all the outward signs of my fame, may be laid up and stored. No material reward can please me, nothing that is lifeless and mute, nothing in short that men less worthy can obtain. By your remembrance, men of Rome, our deeds will be kept fresh, in the phrases of ordinary life they will be perpetuated, in the records of literature they will reach maturity and lasting strength. I understand that the same period, never to end I hope, will now witness the prolonged welfare of the c",
     "spans": [
       {
@@ -1554,7 +1554,7 @@ window.PASSAGES = [
         "start": 74,
         "end": 148,
         "figure": "tricolon",
-        "why": "Three anys, one refusal."
+        "why": "Three anys make one refusal."
       },
       {
         "start": 194,
@@ -1588,7 +1588,7 @@ window.PASSAGES = [
         "start": 78,
         "end": 201,
         "figure": "antithesis",
-        "why": "Caesar's road and the other: two motions, two dangers for the consul."
+        "why": "Caesar's road and the other are two motions, with two dangers for the consul."
       },
       {
         "start": 35,
@@ -1628,7 +1628,7 @@ window.PASSAGES = [
         "start": 231,
         "end": 265,
         "figure": "tricolon",
-        "why": "Three unities, one commonwealth."
+        "why": "Three unities make one commonwealth."
       }
     ]
   },
@@ -1644,25 +1644,25 @@ window.PASSAGES = [
         "start": 0,
         "end": 37,
         "figure": "personification",
-        "why": "Arms are given speech; the laws, a mouth that shuts."
+        "why": "Arms are given speech, and the laws a mouth that shuts."
       },
       {
         "start": 0,
         "end": 37,
         "figure": "antithesis",
-        "why": "Speech and silence, two persons, one moment."
+        "why": "Speech and silence belong to two persons in one moment."
       },
       {
         "start": 0,
         "end": 37,
         "figure": "sententia",
-        "why": "A maxim the tradition kept: silent enim leges inter arma."
+        "why": "This is a maxim the tradition kept: silent enim leges inter arma."
       },
       {
         "start": 255,
         "end": 332,
         "figure": "antithesis",
-        "why": "Not the killing, but the carrying with intent: a fine edge for a jury."
+        "why": "What matters is not the killing but the carrying with intent, a fine edge for a jury."
       }
     ]
   },
@@ -1678,13 +1678,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 75,
         "figure": "apostrophe",
-        "why": "The vocative, then two miseries, the second worse."
+        "why": "The vocative comes first, then two miseries, the second worse."
       },
       {
         "start": 16,
         "end": 75,
         "figure": "antithesis",
-        "why": "Knowledge and ignorance: both damning, ignorance more so."
+        "why": "Knowledge and ignorance are both damning, and ignorance more so."
       },
       {
         "start": 155,
@@ -1696,7 +1696,7 @@ window.PASSAGES = [
         "start": 292,
         "end": 370,
         "figure": "epithet",
-        "why": "Glory and light: two names for one man now expelled."
+        "why": "Glory and light are two names for one man now expelled."
       }
     ]
   },
@@ -1705,14 +1705,14 @@ window.PASSAGES = [
     "author": "Demosthenes",
     "work": "On the Chersonese",
     "locus": "8.1–2",
-    "cue": "Before the advice, a law for advisers: no malice, no favour, the best policy only.",
+    "cue": "Before the advice comes a law for advisers: no malice, no favour, the best policy only.",
     "text": "It was the duty, men of Athens, of every speaker not to allow either malice or favour to influence any speech which he might make, but simply to declare the policy which he considered to be the best, particularly when your deliberations were concerned with public affairs of great importance. But since there are some who are led on to address you, partly out of contentiousness, partly from causes which I need not discuss, it is for you, men of Athens--you, the People--to dismiss all other considerations, and both in the votes that you give and in the measures that you take to attend solely to what you believe to be for the good of the city. Now our present anxiety arises out of affairs in the Chersonese, and the campaign, now in its eleventh month, which Philip is conducting in Thrace. But most of the speeches which we have heard have been about the acts and intentions of Diopeithes.",
     "spans": [
       {
         "start": 17,
         "end": 85,
         "figure": "apostrophe",
-        "why": "The people named as those who must hear policy, not passion."
+        "why": "The people are named as those who must hear policy, not passion."
       },
       {
         "start": 49,
@@ -1724,7 +1724,7 @@ window.PASSAGES = [
         "start": 135,
         "end": 198,
         "figure": "sententia",
-        "why": "The whole duty of the deliberative orator in one clause."
+        "why": "The whole duty of the deliberative orator is put in one clause."
       }
     ]
   },
@@ -1740,13 +1740,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 60,
         "figure": "apostrophe",
-        "why": "The people named as paymasters of their own war."
+        "why": "The people are named as paymasters of their own war."
       },
       {
         "start": 117,
         "end": 141,
         "figure": "tricolon",
-        "why": "Three arms, one force."
+        "why": "Three arms make one force."
       },
       {
         "start": 219,
@@ -1768,19 +1768,19 @@ window.PASSAGES = [
         "start": 13,
         "end": 77,
         "figure": "antithesis",
-        "why": "Two goods, each fenced from its vice."
+        "why": "Two goods are each fenced off from their vice."
       },
       {
         "start": 79,
         "end": 122,
         "figure": "antithesis",
-        "why": "Use, not show: a deliberative measure of wealth."
+        "why": "Use, not show, is a deliberative measure of wealth."
       },
       {
         "start": 128,
         "end": 229,
         "figure": "antithesis",
-        "why": "Not poverty, but the refusal to fight it: a new name for shame."
+        "why": "The shame lies not in poverty but in the refusal to fight it, which gives shame a new name."
       }
     ]
   },
@@ -1796,7 +1796,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 37,
         "figure": "apostrophe",
-        "why": "The vocative of piety toward the very men who will condemn him."
+        "why": "He uses the vocative of piety toward the very men who will condemn him."
       },
       {
         "start": 15,
@@ -1830,7 +1830,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 27,
         "figure": "apostrophe",
-        "why": "The friend named; the question is already a smile."
+        "why": "The friend is named, and the question is already a smile."
       },
       {
         "start": 116,
@@ -1858,7 +1858,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 104,
         "figure": "enumeratio",
-        "why": "Three names, one house, the evils counted by the line."
+        "why": "Three names from one house count the evils by the line."
       },
       {
         "start": 121,
@@ -1870,7 +1870,7 @@ window.PASSAGES = [
         "start": 210,
         "end": 298,
         "figure": "climax",
-        "why": "From the foreign enemy to their own leaders: the last wound is home-made."
+        "why": "The climax runs from the foreign enemy to their own leaders, and the last wound is home-made."
       }
     ]
   },
@@ -1892,13 +1892,13 @@ window.PASSAGES = [
         "start": 469,
         "end": 573,
         "figure": "apostrophe",
-        "why": "He names her, then himself, then the sword: three facts, one command."
+        "why": "He names her, then himself, then the sword, so that three facts make one command."
       },
       {
         "start": 469,
         "end": 573,
         "figure": "asyndeton",
-        "why": "Four clauses, no and: the terror is in the shortness."
+        "why": "Four clauses come with no and, and the terror is in the shortness."
       }
     ]
   },
@@ -1914,13 +1914,13 @@ window.PASSAGES = [
         "start": 8,
         "end": 59,
         "figure": "parenthesis",
-        "why": "A clause slipped in to name him as Rome's luck before he acts."
+        "why": "A clause is slipped in to name him as Rome's luck before he acts."
       },
       {
         "start": 112,
         "end": 314,
         "figure": "hypotyposis",
-        "why": "The hill taken, the enemy pouring, his own in flight: three sights, one stand."
+        "why": "The hill taken, the enemy pouring, his own in flight: three sights frame one stand."
       },
       {
         "start": 429,
@@ -1932,7 +1932,7 @@ window.PASSAGES = [
         "start": 375,
         "end": 413,
         "figure": "personification",
-        "why": "Faith of gods and men: two witnesses called to a bridge."
+        "why": "Faith of gods and men calls two witnesses to a bridge."
       }
     ]
   },
@@ -1951,13 +1951,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 129,
         "figure": "asyndeton",
-        "why": "Clause after clause, no and: the constitutions pass like a list."
+        "why": "Clause follows clause with no and, so the constitutions pass like a list."
       },
       {
         "start": 45,
         "end": 93,
         "figure": "antithesis",
-        "why": "Liberty and the consulship named as one founding."
+        "why": "Liberty and the consulship are named as one founding."
       },
       {
         "start": 314,
@@ -1969,7 +1969,7 @@ window.PASSAGES = [
         "start": 417,
         "end": 447,
         "figure": "metaphor",
-        "why": "Authority as a thing that can be swallowed."
+        "why": "Authority is treated as a thing that can be swallowed."
       }
     ]
   },
@@ -1991,25 +1991,25 @@ window.PASSAGES = [
         "start": 68,
         "end": 90,
         "figure": "epizeuxis",
-        "why": "The same cry twice: late, and again late."
+        "why": "The same cry comes twice: late, and again late."
       },
       {
         "start": 103,
         "end": 133,
         "figure": "antithesis",
-        "why": "Within and abroad: two places, one search in the wrong one."
+        "why": "Within and abroad are two places, and the search went on in the wrong one."
       },
       {
         "start": 356,
         "end": 411,
         "figure": "personification",
-        "why": "God given the verbs of a voice that breaks a wall."
+        "why": "God is given the verbs of a voice that breaks a wall."
       },
       {
         "start": 356,
         "end": 411,
         "figure": "tricolon",
-        "why": "Call, shout, burst: three acts, one hearing."
+        "why": "Call, shout, burst: three acts lead to one hearing."
       }
     ]
   },
@@ -2018,14 +2018,14 @@ window.PASSAGES = [
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
     "locus": "III.2",
-    "cue": "Poor and rich: comfort against trouble, fear against swelling.",
+    "cue": "Poor and rich: the one needs comfort against trouble, the other fear against swelling.",
     "text": "Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation. For to the poor one it is said by the Lord through the prophet, Fear not, for you shall not be confounded Isaiah 54:4. And not long after, soothing her, He says, O you poor little one, tossed with tempest Isaiah 54:11. And again He comforts her, saying, I have chosen you in the furnace of poverty Isaiah 48:10. But, on the other hand, Paul says to his disciple concerning the rich, Charge the rich of this world, that they be not high-minded nor trust in the uncertainty of their riches 1 Timothy 6:17; where it is to be particularly noted that the teacher of humility in making mention of the rich, says not Entreat, but Charge; because, though pity is to be bestowed on infirmity, yet to elation no honour is due.",
     "spans": [
       {
         "start": 60,
         "end": 187,
         "figure": "antithesis",
-        "why": "Comfort and fear: two medicines, two diseases."
+        "why": "Comfort and fear are two medicines for two diseases."
       },
       {
         "start": 350,
@@ -2037,7 +2037,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 54,
         "figure": "anaphora",
-        "why": "Differently: the same key as the men and women."
+        "why": "Differently is the same key as in the pair of men and women."
       }
     ]
   },
@@ -2059,13 +2059,13 @@ window.PASSAGES = [
         "start": 202,
         "end": 339,
         "figure": "chiasmus",
-        "why": "Joyful/fear, sad/joy: the second pair inverts the first."
+        "why": "Joyful and fear, sad and joy: the second pair inverts the first."
       },
       {
         "start": 277,
         "end": 339,
         "figure": "anaphora",
-        "why": "Let: the same mood of counsel as throughout the pairs."
+        "why": "Let keeps the same mood of counsel as throughout the pairs."
       }
     ]
   },
@@ -2081,19 +2081,19 @@ window.PASSAGES = [
         "start": 4,
         "end": 89,
         "figure": "climax",
-        "why": "Humanity, then unheard-of clemency, then moderation that holds."
+        "why": "He names humanity, then unheard-of clemency, then moderation that holds."
       },
       {
         "start": 19,
         "end": 61,
         "figure": "correctio",
-        "why": "Exceptional taken back for unheard-of: the correction climbs."
+        "why": "Exceptional is taken back for unheard-of, so the correction climbs."
       },
       {
         "start": 90,
         "end": 137,
         "figure": "antithesis",
-        "why": "Clemency in the one man who need not be clement."
+        "why": "Clemency is praised in the one man who need not be clement."
       }
     ]
   },
@@ -2102,20 +2102,20 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Against Verres I",
     "locus": "1.1 cont.",
-    "cue": "The courts' bad name: a belief that hurts the nation and the order alike.",
+    "cue": "The courts have a bad name, and the belief hurts the nation and the order alike.",
     "text": "A belief has by this time established itself, as harmful to the whole nation as it is perilous to yourselves, and everywhere expressed not merely by our own people but by foreigners as well: the belief that these Courts, constituted as they now are, will never convict any man, however guilty, if only he has money. And now, at the moment of supreme danger for your Order and your judicial privileges, when preparations have been made for an attempt, by means of public meetings and proposals for legislation, to fan the flames of senatorial unpopularity, Gaius Verres appears, to stand his trial before you: a man already condemned, in the world's opinion, by his life and deeds; already acquitted, according to his own confident assertions, by his vast fortune.",
     "spans": [
       {
         "start": 46,
         "end": 108,
         "figure": "antithesis",
-        "why": "Nation and yourselves: two who suffer from one belief."
+        "why": "The nation and yourselves are two who suffer from one belief."
       },
       {
         "start": 49,
         "end": 108,
         "figure": "climax",
-        "why": "Harmful, then perilous: the second is nearer the jury's skin."
+        "why": "Harmful, then perilous: the second comes nearer to the jury's own interest."
       },
       {
         "start": 0,
@@ -2130,20 +2130,20 @@ window.PASSAGES = [
     "author": "Plato",
     "work": "Crito",
     "locus": "43b",
-    "cue": "Even the jailer is named: kindness has already opened the door.",
+    "cue": "Even the jailer is named, and kindness has already opened the door.",
     "text": "I wonder that the keeper of the prison would let you in. CRITO: He knows me because I often come, Socrates; moreover. I have done him a kindness. SOCRATES: And are you only just arrived? CRITO: No, I came some time ago. SOCRATES: Then why did you sit and say nothing, instead of at once awakening me? CRITO: I should not have liked myself, Socrates, to be in such great trouble and unrest as you are--indeed I should not: I have been watching with amazement your peaceful slumbers; and for that reason I did not awake you, because I wished to minimize the pain. I have always thought you to be of a happy disposition; but never did I see anything like the easy, tranquil manner in which you bear this calamity.",
     "spans": [
       {
         "start": 0,
         "end": 56,
         "figure": "irony",
-        "why": "Wonder at a kindness: the prison is already less a prison."
+        "why": "He wonders at a kindness, and the prison is already less a prison."
       },
       {
         "start": 64,
         "end": 145,
         "figure": "antithesis",
-        "why": "Knowledge and kindness: two keys."
+        "why": "Knowledge and kindness are two keys."
       },
       {
         "start": 230,
@@ -2158,7 +2158,7 @@ window.PASSAGES = [
     "author": "Plato",
     "work": "Symposium",
     "locus": "201d",
-    "cue": "Diotima named as teacher: the speech to come is not his, he says.",
+    "cue": "Diotima is named as teacher, and he says the speech to come is not his.",
     "text": "She was my instructress in the art of love, and I shall repeat to you what she said to me, beginning with the admissions made by Agathon, which are nearly if not quite the same which I made to the wise woman when she questioned me: I think that this will be the easiest way, and I shall take both parts myself as well as I can (compare Gorgias). As you, Agathon, suggested (supra), I must speak first of the being and nature of Love, and then of his works.",
     "spans": [
       {
@@ -2187,13 +2187,13 @@ window.PASSAGES = [
         "start": 7,
         "end": 55,
         "figure": "antithesis",
-        "why": "The gift of speech, and not the gift of mind: a warning to this art."
+        "why": "He has the gift of speech and not the gift of mind, which is a warning to this art."
       },
       {
         "start": 101,
         "end": 148,
         "figure": "tricolon",
-        "why": "Three adjectives, last the verdict."
+        "why": "There are three adjectives, and the last is the verdict."
       },
       {
         "start": 85,
@@ -2221,7 +2221,7 @@ window.PASSAGES = [
         "start": 150,
         "end": 227,
         "figure": "climax",
-        "why": "Remote, then fathers: the nearer dead are the greater."
+        "why": "First the remote ancestors, then the fathers: the nearer dead are the greater."
       },
       {
         "start": 150,
@@ -2246,13 +2246,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 29,
         "figure": "metaphor",
-        "why": "The empire named as a robber-band."
+        "why": "The empire is named as a robber-band."
       },
       {
         "start": 103,
         "end": 171,
         "figure": "antithesis",
-        "why": "Rich or poor: two motives, one theft."
+        "why": "Rich or poor gives two motives for one theft."
       },
       {
         "start": 172,
@@ -2267,7 +2267,7 @@ window.PASSAGES = [
     "author": "Paul (Douay-Rheims)",
     "work": "First Epistle to the Corinthians",
     "locus": "13:4–7",
-    "cue": "Charity given the verbs of a person, and then a list of what she will not do.",
+    "cue": "Charity is given the verbs of a person, and then a list of what she will not do.",
     "text": "Charity is patient, is kind: charity envieth not, dealeth not perversely, is not puffed up, 13:5. Is not ambitious, seeketh not her own, is not provoked to anger, thinketh no evil: 13:6. Rejoiceth not in iniquity, but rejoiceth with the truth: 13:7. Beareth all things, believeth all things, hopeth all things, endureth all things. 13:8. Charity never falleth away: whether prophecies shall be made void or tongues shall cease or knowledge shall be destroyed. 13:9. For we know in part: and we prophesy in part.",
     "spans": [
       {
@@ -2302,7 +2302,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 28,
         "figure": "simile",
-        "why": "Eyes as fire: the first likeness."
+        "why": "Her eyes are likened to fire, the first likeness."
       },
       {
         "start": 34,
@@ -2314,7 +2314,7 @@ window.PASSAGES = [
         "start": 92,
         "end": 169,
         "figure": "antithesis",
-        "why": "Vigour and years: the riddle of her age."
+        "why": "Vigour and years together make the riddle of her age."
       }
     ]
   },
@@ -2330,19 +2330,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 39,
         "figure": "apostrophe",
-        "why": "The second calling of the goddess, now for the cause."
+        "why": "The goddess is called a second time, now for the cause."
       },
       {
         "start": 17,
         "end": 90,
         "figure": "rhetorical question",
-        "why": "Two whats: the hour and the power, both to be sung, not answered by a man."
+        "why": "Two whats ask the hour and the power, both to be sung, not answered by a man."
       },
       {
         "start": 129,
         "end": 175,
         "figure": "metaphor",
-        "why": "The dead as mountains: the hyperbole of a plague."
+        "why": "The dead are made mountains, the hyperbole of a plague."
       }
     ]
   },
@@ -2351,14 +2351,14 @@ window.PASSAGES = [
     "author": "Virgil",
     "work": "Aeneid (Dryden)",
     "locus": "1.8–11",
-    "cue": "Juno's hate asked as a question the poem will spend itself answering.",
+    "cue": "Juno's hate is asked as a question that the poem will spend itself answering.",
     "text": "O Muse! the causes and the crimes relate; What goddess was provok’d, and whence her hate; For what offence the Queen of Heav’n began To persecute so brave, so just a man; Involv’d his anxious life in endless cares, Expos’d to wants, and hurried into wars! Can heav’nly minds such high resentment show, Or exercise their spite in human woe? Against the Tiber’s mouth, but far away, An ancient town was seated on the sea; A Tyrian colony; the people made Stout for the war, and studious of their trade: Carthage the name; belov’d by Juno more Than her own Argos, or the Samian shore. Here stood her chariot; here, if Heav’n were kind, The seat of awful empire she design’d.",
     "spans": [
       {
         "start": 0,
         "end": 41,
         "figure": "apostrophe",
-        "why": "Causes and crimes: two objects of one prayer."
+        "why": "Causes and crimes are two objects of one prayer."
       },
       {
         "start": 42,
@@ -2370,7 +2370,7 @@ window.PASSAGES = [
         "start": 256,
         "end": 339,
         "figure": "rhetorical question",
-        "why": "A question against heaven, spoken in a poem that will not answer it cheaply."
+        "why": "It is a question against heaven, spoken in a poem that will not answer it cheaply."
       }
     ]
   },
@@ -2386,7 +2386,7 @@ window.PASSAGES = [
         "start": 56,
         "end": 144,
         "figure": "antithesis",
-        "why": "Crush and elate: two falls from two places."
+        "why": "Crush and elate are two falls from two places."
       },
       {
         "start": 146,
@@ -2398,7 +2398,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 54,
         "figure": "anaphora",
-        "why": "Differently, still: the book has not changed its key."
+        "why": "Differently is still the word, and the book has not changed its key."
       }
     ]
   },
@@ -2407,7 +2407,7 @@ window.PASSAGES = [
     "author": "Plutarch",
     "work": "Life of Caesar",
     "locus": "32",
-    "cue": "After the river, the gates of war: a metaphor for a civil war beginning.",
+    "cue": "After the river come the gates of war, a metaphor for a civil war beginning.",
     "text": "As soon as Ariminum was taken, wide gates, so to say, were thrown open, to let in war upon every land alike and sea, and with the limits of the province, the boundaries of the laws were transgressed. Nor would one have thought that, as at other times, the mere men and women fled from one town of Italy to another in their consternation, but that the very towns themselves left their sites, and fled for succor to each other. The city of Rome was overrun as it were with a deluge, by the conflux of people flying in from all the neighboring places.",
     "spans": [
       {
@@ -2426,7 +2426,7 @@ window.PASSAGES = [
         "start": 72,
         "end": 115,
         "figure": "personification",
-        "why": "War given entrance, as a guest or a flood."
+        "why": "War is given entrance, as a guest or a flood."
       }
     ]
   },
@@ -2442,7 +2442,7 @@ window.PASSAGES = [
         "start": 42,
         "end": 173,
         "figure": "antithesis",
-        "why": "Join, or Medize: two uses of one small force."
+        "why": "Join or Medize: one small force has two uses."
       },
       {
         "start": 117,
@@ -2454,7 +2454,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 40,
         "figure": "epithet",
-        "why": "The name first, the people next: the man is the signal."
+        "why": "The name comes first and the people next, because the man is the signal."
       }
     ]
   },
@@ -2463,20 +2463,20 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "First Oration against Catiline",
     "locus": "1.8",
-    "cue": "The senate's silence is made to speak: consent by not speaking.",
+    "cue": "The senate's silence is made to speak, giving consent by not speaking.",
     "text": "What is it, Catilina? Do you not heed, do you not mark the silence of the house? Their silence denotes consent. Why do you wait for them to express their sanction in words, when you can see by their silence the nature of their wishes? If I had used this language to my excellent young friend P. Sestius, or to the gallant M. Marcellus, the senate would have been amply justified in laying violent hands upon me, consul as I am, here in this very temple. But in your case, Catilina, their calmness indicates their approval, their tolerance implies their deliberate assent, and their silence is equivalent to loud denunciation of you. Nor is it only these senators, whose resolutions you of course rega",
     "spans": [
       {
         "start": 0,
         "end": 80,
         "figure": "apostrophe",
-        "why": "The name, then two questions about a silence."
+        "why": "The name comes first, then two questions about a silence."
       },
       {
         "start": 81,
         "end": 111,
         "figure": "personification",
-        "why": "Silence given the power of a vote."
+        "why": "Silence is given the power of a vote."
       },
       {
         "start": 112,
@@ -2488,7 +2488,7 @@ window.PASSAGES = [
         "start": 576,
         "end": 631,
         "figure": "antithesis",
-        "why": "Silence and loud: the same verdict."
+        "why": "Silence and loud give the same verdict."
       }
     ]
   },
@@ -2510,13 +2510,13 @@ window.PASSAGES = [
         "start": 20,
         "end": 131,
         "figure": "anaphora",
-        "why": "Is it possible — twice, and the answer is no."
+        "why": "Is it possible is asked twice, and the answer is no."
       },
       {
         "start": 219,
         "end": 282,
         "figure": "apostrophe",
-        "why": "A wish flung at the man, and already given up."
+        "why": "A wish is flung at the man and already given up."
       }
     ]
   },
@@ -2525,14 +2525,14 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Second Oration against Catiline",
     "locus": "2.6",
-    "cue": "He is said to have driven Catiline into exile: he treats the charge as a compliment too large.",
+    "cue": "He is said to have driven Catiline into exile, and he treats the charge as a compliment too large.",
     "text": "And yet, citizens of Rome, there are people who say that I have driven Catilina into exile. Truly if a word of mine could do so much, I should very soon drive into exile the men who use such language. He was evidently a timid creature, or perhaps so peaceable a citizen that he could not bear the consul's lightest word; the moment he was bidden to go into exile, he obeyed! What is this? When I yesterday, men of Rome, having nearly been murdered in my own house, convened the senate in the temple of Jupiter Stator, I denounced the whole matter to the members of that assembly. When Catilina presented him self, did any single senator welcome him? Did any one give him a word of greeting? Did any one, I say, look at him as one looks at a bad citizen and not rather as one regards a most vindictive enemy?",
     "spans": [
       {
         "start": 9,
         "end": 91,
         "figure": "apostrophe",
-        "why": "The people named, then the rumour."
+        "why": "The people are named, and then the rumour."
       },
       {
         "start": 92,
@@ -2553,26 +2553,26 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Third Oration against Catiline",
     "locus": "3.7",
-    "cue": "The leaders seized: the consul tells the people the war's head is already off.",
+    "cue": "With the leaders seized, the consul tells the people the war's head is already off.",
     "text": "And now, men of Rome, since you have seized and secured with a firm grasp the abominable leaders in this most wicked and dangerous war, you are bound to believe that all the forces of Catilina were defeated, that all his hopes and all his resources collapsed, when these dangers which threatened the city were averted. Yes, when I was ejecting him from the city, I foresaw this result clearly, men of Rome; I foresaw that, if Catilina were removed, I need not be terrified by the drowsiness of P. Lentulus or the corpulence of L. Cassius or the headstrong rashness of C. Cethegus. Catilina was the one man in the whole number really formidable, and he only so long as he was confined within the walls of Rome. Catilina knew everything and penetrated everywhere: he had the power and the audacity requisite for appealing, for tempting, and for working on men's feelings.",
     "spans": [
       {
         "start": 0,
         "end": 73,
         "figure": "apostrophe",
-        "why": "The people named as those who now hold the men."
+        "why": "The people are named as those who now hold the men."
       },
       {
         "start": 28,
         "end": 96,
         "figure": "metaphor",
-        "why": "Grasp: the city given hands."
+        "why": "Grasp gives the city hands."
       },
       {
         "start": 166,
         "end": 258,
         "figure": "climax",
-        "why": "Forces, hopes, resources: three falls."
+        "why": "Forces, hopes, resources: these are three falls."
       }
     ]
   },
@@ -2581,7 +2581,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Fourth Oration against Catiline",
     "locus": "4.4",
-    "cue": "Two motions: death, or Caesar's lesser severities — both named as rigour.",
+    "cue": "There are two motions, death or Caesar's lesser severities, and both are named as rigour.",
     "text": "I see that as yet there are only two motions, one of that D. Silanus, who proposes that men who have tried to destroy so much, shall be punished by death, the other, that of C. Caesar, who omits the punishment of death, but includes in his proposal the severities of all other forms of punishment. Both the proposers deal with the culprits with the utmost rigour, as their own high positions and the magnitude of the interests at stake demand. The former is of opinion that men who have attempted to deprive us all of life, to destroy this empire, and to blot out the name of the Roman people, ought not to enjoy for a single second the privilege of life and the breath which we all share; and he bears in mind that this particular punishment has often been resorted to at Rome in dealing with disloyal citizens.",
     "spans": [
       {
@@ -2609,7 +2609,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "Confessions",
     "locus": "1.2",
-    "cue": "How to call on God, who made heaven and earth, to come into a man.",
+    "cue": "He asks how to call on God, who made heaven and earth, to come into a man.",
     "text": "And how shall I call upon my God, my God and Lord, since, when I call for Him, I shall be calling Him to myself? and what room is there within me, whither my God can come into me? whither can God come into me, God who made heaven and earth? is there, indeed, O Lord my God, aught in me that can contain Thee? do then heaven and earth, which Thou hast made, and wherein Thou hast made me, contain Thee? or, because nothing which exists could exist without Thee, doth therefore whatever exists contain Thee? Since, then, I too exist, why do I seek that Thou shouldest enter into me, who were not, wert Thou not in me? Why? because I am not gone down in hell, and yet Thou art there also. For if I go down into hell, Thou art there. I could not be then, O my God, could not be at all, wert Thou not in me; or, rather, unless I were in Thee, of whom are all things, by whom are all things, in whom are all things?",
     "spans": [
       {
@@ -2628,7 +2628,7 @@ window.PASSAGES = [
         "start": 180,
         "end": 240,
         "figure": "antithesis",
-        "why": "The maker of heaven, and a man's room: two magnitudes."
+        "why": "The maker of heaven and a man's room are two magnitudes."
       }
     ]
   },
@@ -2644,7 +2644,7 @@ window.PASSAGES = [
         "start": 127,
         "end": 280,
         "figure": "dilemma",
-        "why": "Two horns, both hope: a deliberative division of a last thing."
+        "why": "Both horns are hope, in a deliberative division of a last thing."
       },
       {
         "start": 336,
@@ -2656,7 +2656,7 @@ window.PASSAGES = [
         "start": 127,
         "end": 240,
         "figure": "antithesis",
-        "why": "Nothingness, or migration: two names for one unknown."
+        "why": "Nothingness or migration: these are two names for one unknown."
       }
     ]
   },
@@ -2672,7 +2672,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 59,
         "figure": "apostrophe",
-        "why": "The vocative, then the claim that the speech is for them."
+        "why": "The vocative comes first, then the claim that the speech is for them."
       },
       {
         "start": 25,
@@ -2684,7 +2684,7 @@ window.PASSAGES = [
         "start": 289,
         "end": 377,
         "figure": "metaphor",
-        "why": "Gadfly and steed: the city given a hide that needs stinging."
+        "why": "Gadfly and steed give the city a hide that needs stinging."
       }
     ]
   },
@@ -2700,19 +2700,19 @@ window.PASSAGES = [
         "start": 39,
         "end": 102,
         "figure": "antithesis",
-        "why": "Conferring, not receiving: the city's boast about friends."
+        "why": "Conferring, not receiving, is the city's boast about friends."
       },
       {
         "start": 119,
         "end": 239,
         "figure": "sententia",
-        "why": "A maxim of benefit, almost a topos of more and less."
+        "why": "It is a maxim of benefit, almost a topos of more and less."
       },
       {
         "start": 309,
         "end": 363,
         "figure": "antithesis",
-        "why": "Payment, not gift: two names for a return."
+        "why": "Payment, not gift: these are two names for a return."
       }
     ]
   },
@@ -2728,19 +2728,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 61,
         "figure": "antithesis",
-        "why": "Two tempers, two words."
+        "why": "Two tempers need two words."
       },
       {
         "start": 114,
         "end": 208,
         "figure": "metaphor",
-        "why": "Sloth as a neighbour of meekness: a likeness of place."
+        "why": "Sloth is made a neighbour of meekness, a likeness of place."
       },
       {
         "start": 232,
         "end": 357,
         "figure": "antithesis",
-        "why": "Soften, and on the other hand: two excesses."
+        "why": "Soften, and on the other hand: the two phrases answer two excesses."
       }
     ]
   },
@@ -2756,7 +2756,7 @@ window.PASSAGES = [
         "start": 61,
         "end": 233,
         "figure": "antithesis",
-        "why": "True excellence, temporal nothing: two lessons."
+        "why": "True excellence and temporal nothing are two lessons."
       },
       {
         "start": 278,
@@ -2768,7 +2768,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 60,
         "figure": "anaphora",
-        "why": "Differently, still."
+        "why": "Differently is still the word."
       }
     ]
   },
@@ -2784,7 +2784,7 @@ window.PASSAGES = [
         "start": 149,
         "end": 233,
         "figure": "enumeratio",
-        "why": "Three names, one sea."
+        "why": "Three names share one sea."
       },
       {
         "start": 88,
@@ -2796,7 +2796,7 @@ window.PASSAGES = [
         "start": 243,
         "end": 380,
         "figure": "antithesis",
-        "why": "Two become one: the arithmetic of a naval war."
+        "why": "Two become one is the arithmetic of a naval war."
       }
     ]
   },
@@ -2812,19 +2812,19 @@ window.PASSAGES = [
         "start": 14,
         "end": 67,
         "figure": "epithet",
-        "why": "First: a historian's honour that is also a warning."
+        "why": "First is a historian's honour that is also a warning."
       },
       {
         "start": 69,
         "end": 187,
         "figure": "antithesis",
-        "why": "Tribute or friendship: two methods, one king."
+        "why": "Tribute or friendship: one king uses two methods."
       },
       {
         "start": 69,
         "end": 187,
         "figure": "enumeratio",
-        "why": "Two lots, listed."
+        "why": "The two lots are listed."
       }
     ]
   },
@@ -2840,25 +2840,25 @@ window.PASSAGES = [
         "start": 30,
         "end": 61,
         "figure": "tricolon",
-        "why": "Three hardships, one constitution."
+        "why": "Three hardships show one constitution."
       },
       {
         "start": 107,
         "end": 136,
         "figure": "tricolon",
-        "why": "Three adjectives for a mind that will not sit still."
+        "why": "Three adjectives describe a mind that will not sit still."
       },
       {
         "start": 63,
         "end": 92,
         "figure": "hyperbole",
-        "why": "Surpassing belief: the historian's own marvel."
+        "why": "Surpassing belief is the historian's own marvel."
       },
       {
         "start": 138,
         "end": 194,
         "figure": "antithesis",
-        "why": "Pretend or dissemble: two faces, one will."
+        "why": "Pretend or dissemble: two faces serve one will."
       }
     ]
   },
@@ -2874,19 +2874,19 @@ window.PASSAGES = [
         "start": 83,
         "end": 143,
         "figure": "antithesis",
-        "why": "Beauty and purity: two goods made into two baits."
+        "why": "Beauty and purity are two goods made into two baits."
       },
       {
         "start": 6,
         "end": 81,
         "figure": "personification",
-        "why": "Passion given hands to seize the man."
+        "why": "Passion is given hands to seize the man."
       },
       {
         "start": 104,
         "end": 123,
         "figure": "epithet",
-        "why": "Approved: the public name of a private virtue."
+        "why": "Approved is the public name of a private virtue."
       }
     ]
   },
@@ -2902,13 +2902,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 24,
         "figure": "hendiadys",
-        "why": "Two nouns for one subject of song, as arma virumque."
+        "why": "Two nouns name one subject of song, as in arma virumque."
       },
       {
         "start": 51,
         "end": 82,
         "figure": "epithet",
-        "why": "Haughty, unrelenting: two marks of one goddess."
+        "why": "Haughty and unrelenting are two marks of one goddess."
       },
       {
         "start": 84,
@@ -2930,7 +2930,7 @@ window.PASSAGES = [
         "start": 17,
         "end": 47,
         "figure": "metaphor",
-        "why": "Death as a hurling into a reign."
+        "why": "Death is a hurling into a reign."
       },
       {
         "start": 91,
@@ -2942,7 +2942,7 @@ window.PASSAGES = [
         "start": 61,
         "end": 89,
         "figure": "epithet",
-        "why": "Mighty and untimely: two adjectives, one waste."
+        "why": "Mighty and untimely are two adjectives for one waste."
       }
     ]
   },
@@ -2958,19 +2958,19 @@ window.PASSAGES = [
         "start": 78,
         "end": 179,
         "figure": "antithesis",
-        "why": "Severity and kindness: two ages, two tones."
+        "why": "Severity and kindness are two tones for two ages."
       },
       {
         "start": 0,
         "end": 50,
         "figure": "anaphora",
-        "why": "Differently, as throughout."
+        "why": "Differently is the word, as throughout."
       },
       {
         "start": 78,
         "end": 134,
         "figure": "sententia",
-        "why": "A rule of pastoral speech, not a mood."
+        "why": "This is a rule of pastoral speech, not a mood."
       }
     ]
   },
@@ -2992,7 +2992,7 @@ window.PASSAGES = [
         "start": 185,
         "end": 269,
         "figure": "antithesis",
-        "why": "Open air, cloister: two places for talk, and the better is named."
+        "why": "Open air and cloister are two places for talk, and the better is named."
       }
     ]
   },
@@ -3001,7 +3001,7 @@ window.PASSAGES = [
     "author": "Antiphon",
     "work": "Second Tetralogy",
     "locus": "3.1.1–2",
-    "cue": "Prosecution opening: facts agreed; the charge is unintentional homicide; pollution of the city.",
+    "cue": "The prosecution opens: the facts are agreed, the charge is unintentional homicide, and the city is polluted.",
     "text": "When the facts are agreed on by both sides, the verdict is determined by the laws and by those who voted, who have final authority over our government; but if there is disagreement on any matter, it is your duty, citizens, to decide. In this case I think even the defendant will not disagree with me; for my boy, struck in the side on the training field by a javelin thrown by this young man, died on the spot. I therefore charge him not with intentional but with unintentional homicide. For me, of course, the misfortune he unintentionally caused is just as great as if he had acted intentionally; he has not burdened the spirit of the dead man but of those still living. So I beg you, pity the parents' loss of their child, mourn for the deceased's unseasonable death, ban the killer from the places prescribed in the law, and do not ignore the pollution he has brought on the whole city.",
     "spans": [
       {
@@ -3035,20 +3035,20 @@ window.PASSAGES = [
     "author": "Antiphon",
     "work": "Second Tetralogy",
     "locus": "3.2.1–2",
-    "cue": "Defense opening: the apragmon forced into court; doxa against aletheia.",
+    "cue": "The defense opens: the apragmon is forced into court, and doxa is set against aletheia.",
     "text": "It is now clear that misfortune and need force even those who mind their own business to appear in court, to grow bold though they are normally quiet, and in general to speak and act against their nature. Unless I am greatly mistaken, I am not and have no desire to be such a person, but I am now forced by this very misfortune to behave in an unaccustomed manner in defending myself. This is a case whose precise meaning I can hardly understand, and I am even more perplexed how I should explain it to you. So I am forced by cruel necessity to seek refuge, jurors, in your pity. I beg you, if you think I speak with greater than usual subtlety, do not, because of circumstances just mentioned, judge my defense by appearance (doxa) rather than truth (aletheia). For the appearance of things favors those who speak well, but the truth favors those who act in a just and righteous manner.",
     "spans": [
       {
         "start": 695,
         "end": 761,
         "figure": "antithesis",
-        "why": "The sophistic pair: what seems, against what is."
+        "why": "This is the sophistic pair: what seems, against what is."
       },
       {
         "start": 767,
         "end": 886,
         "figure": "antithesis",
-        "why": "Words against deeds, dressed as a sententia."
+        "why": "Words are set against deeds, dressed as a sententia."
       },
       {
         "start": 545,
@@ -3069,7 +3069,7 @@ window.PASSAGES = [
     "author": "Antiphon",
     "work": "Second Tetralogy",
     "locus": "3.2.4–5",
-    "cue": "The javelin kept its course; the boy ran under it — hamartia of the victim.",
+    "cue": "The javelin kept its course and the boy ran under it, so the hamartia is the victim's.",
     "text": "Now, if the javelin had hit and wounded the boy because it carried outside the boundaries of its proper course, then we would have no argument (logos) against the charge of homicide. But because the boy ran under the trajectory of the javelin and placed his body in its path, one of them was prevented from hitting the target, whereas the other was hit because he ran under the javelin. And now he hits us with the blame, though it is in no way ours! Since the boy was hit because of his running under, the young man is unjustly accused, if he hit none of those who were standing away from the target. If it is clear to you that the boy was not hit while standing still but while intentionally running under the trajectory of the javelin, then this shows even more clearly that he died on account of his own mistake (hamartia), for he would not have been hit if he had stood still and hadn't run.",
     "spans": [
       {
@@ -3082,13 +3082,13 @@ window.PASSAGES = [
         "start": 387,
         "end": 450,
         "figure": "rhetorical question",
-        "why": "The cry is not for an answer. It is the charge reversed."
+        "why": "The cry does not seek an answer; it is the charge reversed."
       },
       {
         "start": 832,
         "end": 895,
         "figure": "hypothesis",
-        "why": "The counterfactual is the whole defense: standing still, no death."
+        "why": "The counterfactual is the whole defense: had he stood still, there would have been no death."
       }
     ],
     "species": "forensic",
@@ -3116,13 +3116,13 @@ window.PASSAGES = [
         "start": 443,
         "end": 496,
         "figure": "antithesis",
-        "why": "Lawful place against unlawful motion."
+        "why": "Lawful place is set against unlawful motion."
       },
       {
         "start": 1034,
         "end": 1103,
         "figure": "irony",
-        "why": "The death is recast as the boy's own penalty — a hard forensic turn."
+        "why": "The death is recast as the boy's own penalty, which is a hard forensic turn."
       }
     ],
     "species": "forensic",
@@ -3137,7 +3137,7 @@ window.PASSAGES = [
     "author": "Antiphon",
     "work": "Second Tetralogy",
     "locus": "3.2.10",
-    "cue": "Pathos of the thrower's father: childlessness as a living tomb.",
+    "cue": "The thrower's father appeals to pathos: childlessness is a living tomb.",
     "text": "Since we are thus acquitted by the truth of what was done and by the law under which they prosecute, it is not right that just because of our ordinary activities we should be thought to deserve such troubles. This young man will suffer unholy evils if he has to pay for mistakes that are not his, while I, who am just as innocent as he is but not more, will encounter much greater misfortune. If he is ruined, the rest of my life will be unlivable, and my childlessness will be a tomb while I still live.",
     "spans": [
       {
@@ -3150,13 +3150,13 @@ window.PASSAGES = [
         "start": 18,
         "end": 72,
         "figure": "antithesis",
-        "why": "Erga and nomos named together as the two acquittals."
+        "why": "Erga and nomos are named together as the two acquittals."
       },
       {
         "start": 410,
         "end": 447,
         "figure": "hyperbole",
-        "why": "The footnote of the edition warns: the penalty is exile, not death. The speech stretches it."
+        "why": "The edition's footnote warns that the penalty is exile, not death, so the speech stretches it."
       }
     ],
     "species": "forensic",
@@ -3171,20 +3171,20 @@ window.PASSAGES = [
     "author": "Antiphon",
     "work": "Second Tetralogy",
     "locus": "3.3.1",
-    "cue": "Second prosecution: erga, not logoi, have forced the quiet man to speak.",
+    "cue": "In the second prosecution speech, erga, not logoi, have forced the quiet man to speak.",
     "text": "I think this man has shown by actions (erga), not words (logoi), that need can compel anyone to speak and act against his nature. In the past he wasn't the least bit disrespectful or daring, but now he is compelled by misfortune itself to make statements I never imagined he would utter.",
     "spans": [
       {
         "start": 27,
         "end": 63,
         "figure": "antithesis",
-        "why": "The Greek pair: what was done against what is said."
+        "why": "This is the Greek pair: what was done against what is said."
       },
       {
         "start": 8,
         "end": 101,
         "figure": "irony",
-        "why": "He turns the defense's own ethos-claim — the quiet man forced to speak — into a proof against him."
+        "why": "He turns the defense's own ethos-claim (the quiet man forced to speak) into a proof against him."
       },
       {
         "start": 130,
@@ -3218,13 +3218,13 @@ window.PASSAGES = [
         "start": 96,
         "end": 121,
         "figure": "antithesis",
-        "why": "Erga again, now of the feeling itself."
+        "why": "Erga come again, now applied to the feeling itself."
       },
       {
         "start": 301,
         "end": 394,
         "figure": "antithesis",
-        "why": "The accusation against sophistic akribeia, in a sententia."
+        "why": "The accusation against sophistic akribeia (precision) is put in a sententia."
       }
     ],
     "species": "forensic",
@@ -3258,7 +3258,7 @@ window.PASSAGES = [
         "start": 61,
         "end": 109,
         "figure": "antithesis",
-        "why": "The physical act against the sophistic denial."
+        "why": "The physical act is set against the sophistic denial."
       }
     ],
     "species": "forensic",
@@ -3273,14 +3273,14 @@ window.PASSAGES = [
     "author": "Antiphon",
     "work": "Second Tetralogy",
     "locus": "3.4.1–2",
-    "cue": "Second defense: litigants assume their own case is just; truth is known from both logoi.",
+    "cue": "In the second defense speech, litigants assume their own case is just, and truth is known from both logoi.",
     "text": "My opponent was probably thinking about his own prosecution speech and didn't understand my defense, but your task is to recognize that we litigants judge a matter from our own point of view, and we each naturally assume our own case is just. You, however, must examine the facts impartially, for the truth of these facts is only discernible from what each side says. For my part, if I have lied about anything, I agree that whatever I have said correctly can also be discredited as unfair; but if I have spoken the truth but with subtlety and precision, then it is only fair that any hostility that results should be directed not at me the speaker but at him (the boy) who acted.",
     "spans": [
       {
         "start": 196,
         "end": 241,
         "figure": "sententia",
-        "why": "A frank topos of forensic bias, rarer in a real court than in a school-piece."
+        "why": "This is a frank topos of forensic bias, rarer in a real court than in a school-piece."
       },
       {
         "start": 627,
@@ -3314,7 +3314,7 @@ window.PASSAGES = [
         "start": 427,
         "end": 480,
         "figure": "sententia",
-        "why": "The law's two demands — penalty and vengeance — are said to be already met."
+        "why": "The law's two demands, penalty and vengeance, are said to be already met."
       },
       {
         "start": 369,
@@ -3341,14 +3341,14 @@ window.PASSAGES = [
     "author": "Gorgias",
     "work": "Encomium of Helen",
     "locus": "1–2",
-    "cue": "The opening isocolon: what adorns a city, a body, a soul, a deed, a speech.",
+    "cue": "The opening isocolon names what adorns a city, a body, a soul, a deed, a speech.",
     "text": "Embellishment to a city is the valor of its citizens; to a person, comeliness; to a soul, wisdom; to a deed, virtue; to discourse, truth. But the opposite to these is lack of embellishment. Now a man, woman, discourse, work, city, deed, if deserving of praise must be honored with praise, but if undeserving must be censured. For it is alike aberration and stultification to censure the commendable and commend the censurable. It is the duty of the same individual both to proclaim justice wholly, and to declaim against injustice holily, to confute the detractors of Helen, a woman concerning whom there has been uniform and universal praise of poets and the celebration of her name has been the commemoration of her fame.",
     "spans": [
       {
         "start": 14,
         "end": 136,
         "figure": "isocolon",
-        "why": "Five equal members, the same frame, the last landing on logos itself."
+        "why": "Five equal members share the same frame, and the last lands on logos itself."
       },
       {
         "start": 375,
@@ -3360,7 +3360,7 @@ window.PASSAGES = [
         "start": 473,
         "end": 537,
         "figure": "homoeoteleuton",
-        "why": "Wholly / holily: the ear is caught before the case begins."
+        "why": "Wholly and holily: the ear is caught before the case begins."
       }
     ],
     "species": "epideictic",
@@ -3374,26 +3374,26 @@ window.PASSAGES = [
     "author": "Gorgias",
     "work": "Encomium of Helen",
     "locus": "6",
-    "cue": "The four aitiai: fortune/gods/necessity, violence, persuasion, or love.",
+    "cue": "The four aitiai are fortune (with the gods and necessity), violence, persuasion, or love.",
     "text": "For either by the disposition of fortune and the ratification of the gods and the determination of necessity she did what she did, or by violence confounded, or by persuasion dumbfounded or to Love surrendered. If, however, it was against her will, the culpable should not be exculpated. For it is impossible to forestall divine disposals by human proposals. It is a law of nature that the stronger is not subordinated to the weaker but the weaker is subjugated and dominated by the stronger; the stronger is the leader while the weaker is the entreater. Divinity surpasses humanity in might, in sight, and in all else. Therefore, if on fortune and the deity we must visit condemnation, the infamy of Helen should find no confirmation.",
     "spans": [
       {
         "start": 14,
         "end": 108,
         "figure": "tricolon",
-        "why": "Three divine names for the first cause."
+        "why": "Three divine names are given for the first cause."
       },
       {
         "start": 134,
         "end": 186,
         "figure": "homoeoteleuton",
-        "why": "Confounded / dumbfounded: the rhyme is the argument's coat."
+        "why": "Confounded and dumbfounded: the rhyme is the argument's coat."
       },
       {
         "start": 386,
         "end": 491,
         "figure": "antithesis",
-        "why": "The same law said twice, inverted."
+        "why": "The same law is said twice, inverted."
       }
     ],
     "species": "epideictic",
@@ -3420,13 +3420,13 @@ window.PASSAGES = [
         "start": 312,
         "end": 372,
         "figure": "tricolon",
-        "why": "Word, law, deed — the three blows due the ravisher."
+        "why": "Word, law, deed: these are the three blows due the ravisher."
       },
       {
         "start": 538,
         "end": 578,
         "figure": "antithesis",
-        "why": "Two nouns, one act, the guilt placed."
+        "why": "Two nouns name one act and place the guilt."
       }
     ],
     "species": "epideictic",
@@ -3440,20 +3440,20 @@ window.PASSAGES = [
     "author": "Gorgias",
     "work": "Encomium of Helen",
     "locus": "8–9",
-    "cue": "Logos is a powerful potentate: frail frame, wonders of fear and pity.",
+    "cue": "Logos is a powerful potentate: a frail frame works wonders of fear and pity.",
     "text": "But if it was through logos's reception and the soul's deception it is not difficult to defend the situation and forefend the accusation, thus. Logos is a powerful potentate, who with frailest, feeblest frame works wonders. For it can put an end to fear and make vexation vanish; it can inspire exultation and increase compassion. I will show how this is so. For I must indicate this to my hearers for them to predicate. All poetry I ordain and proclaim to be composition in meter; the listeners of which are affected by passionate trepidation and compassionate perturbation and likewise tearful lamentation, since through discourse the soul suffers, as if its own, the felicity and infelicity of property and person of others.",
     "spans": [
       {
         "start": 144,
         "end": 222,
         "figure": "metaphor",
-        "why": "Speech as a tyrant in a weak body — the sophistic boast."
+        "why": "Speech is a tyrant in a weak body, which is the sophistic boast."
       },
       {
         "start": 235,
         "end": 329,
         "figure": "isocolon",
-        "why": "Two pairs, fear against joy, the drug's two hands."
+        "why": "Two pairs set fear against joy, like the drug's two hands."
       },
       {
         "start": 521,
@@ -3473,26 +3473,26 @@ window.PASSAGES = [
     "author": "Gorgias",
     "work": "Encomium of Helen",
     "locus": "10",
-    "cue": "Song as witchery: persuasion as a drug of the soul.",
+    "cue": "Song is witchery, and persuasion a drug of the soul.",
     "text": "Come let us turn to another consideration. Inspired incantations are provocative of charm and revocative of harm. For the power of song in association with the belief of the soul captures and enraptures and translates the soul with witchery. For there have been discovered arts twain of witchery and sorcery, which are consternation to the heart and perturbation to art.",
     "spans": [
       {
         "start": 69,
         "end": 112,
         "figure": "homoeoteleuton",
-        "why": "Charm / harm: the incantation does in the clause what it names."
+        "why": "Charm and harm: the incantation does in the clause what it names."
       },
       {
         "start": 179,
         "end": 240,
         "figure": "tricolon",
-        "why": "Three verbs, one seizure."
+        "why": "Three verbs make one seizure."
       },
       {
         "start": 273,
         "end": 307,
         "figure": "metaphor",
-        "why": "Peitho named as magic — the study-card's drug."
+        "why": "Peitho (persuasion) is named as magic, the drug of the study card."
       }
     ],
     "species": "epideictic",
@@ -3519,7 +3519,7 @@ window.PASSAGES = [
         "start": 50,
         "end": 151,
         "figure": "isocolon",
-        "why": "The four aitiai in four matching limbs."
+        "why": "The four aitiai come in four matching limbs."
       },
       {
         "start": 437,
@@ -3539,7 +3539,7 @@ window.PASSAGES = [
     "author": "Archidamus (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "1.80",
-    "cue": "Deliberative: the Spartan king against rushing into war.",
+    "cue": "This is deliberative: the Spartan king argues against rushing into war.",
     "text": "I have not lived so long, Lacedaemonians, without having had the experience of many wars, and I see those among you of the same age as myself, who will not fall into the common misfortune of longing for war from inexperience or from a belief in its advantage and its safety. This, the war on which you are now debating, would be one of the greatest magnitude, on a sober consideration of the matter. In a struggle with Peloponnesians and neighbours our strength is of the same character, and it is possible to move swiftly on the different points. But a struggle with a people who live in a distant land, who have also an extraordinary familiarity with the sea, and who are in the highest state of preparation in every other department; with wealth private and public, with ships, and horses, and heavy infantry, and a population such as no one other Hellenic place can equal, and lastly a number of tributary allies—what can justify us in rashly beginning such a struggle?",
     "spans": [
       {
@@ -3558,7 +3558,7 @@ window.PASSAGES = [
         "start": 207,
         "end": 241,
         "figure": "antithesis",
-        "why": "Two false reasons for longing for war."
+        "why": "He names two false reasons for longing for war."
       }
     ],
     "species": "deliberative",
@@ -3572,7 +3572,7 @@ window.PASSAGES = [
     "author": "Sthenelaidas (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "1.86",
-    "cue": "Deliberative: the ephor cuts the long speech and calls for war.",
+    "cue": "This is deliberative: the ephor cuts the long speech short and calls for war.",
     "text": "The long speech of the Athenians I do not pretend to understand. They said a good deal in praise of themselves, but nowhere denied that they are injuring our allies and Peloponnese. And yet if they behaved well against the Mede then, but ill towards us now, they deserve double punishment for having ceased to be good and for having become bad. We meanwhile are the same then and now, and shall not, if we are wise, disregard the wrongs of our allies, or put off till to-morrow the duty of assisting those who must suffer to-day. Others have much money and ships and horses, but we have good allies whom we must not give up to the Athenians, nor by lawsuits and words decide the matter, as it is anything but in word that we are harmed, but render instant and powerful help. And let us not be told that it is fitting for us to deliberate under injustice; long deliberation is rather fitting for those who have injustice in contemplation.",
     "spans": [
       {
@@ -3585,7 +3585,7 @@ window.PASSAGES = [
         "start": 65,
         "end": 164,
         "figure": "antithesis",
-        "why": "Praise against the charge they never answered."
+        "why": "Praise is set against the charge they never answered."
       },
       {
         "start": 258,
@@ -3605,7 +3605,7 @@ window.PASSAGES = [
     "author": "Pericles (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "2.35",
-    "cue": "Epideictic showpiece: the funeral oration opens by questioning the custom.",
+    "cue": "This is the epideictic showpiece: the funeral oration opens by questioning the custom.",
     "text": "Most of my predecessors in this place have commended him who made this speech part of the law, telling us that it is well that it should be delivered at the burial of those who fall in battle. For myself, I should have thought that the worth which had displayed itself in deeds would be sufficiently rewarded by honours also shown by deeds; such as you now see in this funeral prepared at the people’s cost. And I could have wished that the reputations of many brave men were not to be imperilled in the mouth of a single individual, to stand or fall according as he spoke well or ill. For it is hard to speak properly upon a subject where it is even difficult to convince your hearers that you are speaking the truth. On the one hand, the friend who is familiar with every fact of the story may think that some point ha",
     "spans": [
       {
@@ -3618,7 +3618,7 @@ window.PASSAGES = [
         "start": 232,
         "end": 339,
         "figure": "antithesis",
-        "why": "Deeds against words, at a funeral of words."
+        "why": "Deeds are set against words, at a funeral of words."
       },
       {
         "start": 127,
@@ -3638,14 +3638,14 @@ window.PASSAGES = [
     "author": "Pericles (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "2.37",
-    "cue": "The democracy defined: a pattern, not an imitation.",
+    "cue": "The democracy is defined as a pattern, not an imitation.",
     "text": "Our constitution does not copy the laws of neighbouring states; we are rather a pattern to others than imitators ourselves. Its administration favours the many instead of the few; this is why it is called a democracy. If we look to the laws, they afford equal justice to all in their private differences; if no social standing, advancement in public life falls to reputation for capacity, class considerations not being allowed to interfere with merit; nor again does poverty bar the way, if a man is able to serve the state, he is not hindered by the obscurity of his condition. The freedom which we enjoy in our government extends also to our ordinary life. There, far from exercising a jealous surveillance over each other, we do not feel called upon to be angry with our neighbour for doing what he likes, or even to indulge in those injurious looks which cannot fail to be offensive, although they inflict no positive penalty.",
     "spans": [
       {
         "start": 64,
         "end": 122,
         "figure": "antithesis",
-        "why": "Athens as original, not copy."
+        "why": "Athens is an original, not a copy."
       },
       {
         "start": 124,
@@ -3657,7 +3657,7 @@ window.PASSAGES = [
         "start": 143,
         "end": 178,
         "figure": "antithesis",
-        "why": "The many against the few — the species of the constitution."
+        "why": "The many are set against the few, which gives the species of the constitution."
       }
     ],
     "species": "epideictic",
@@ -3671,14 +3671,14 @@ window.PASSAGES = [
     "author": "Cleon (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "3.37",
-    "cue": "Mytilene: Cleon against pity and against reopening the debate.",
+    "cue": "On Mytilene, Cleon argues against pity and against reopening the debate.",
     "text": "a democracy is incapable of empire, and never more so than by your present change of mind in the matter of Mitylene. Fears or plots being unknown to you in your daily relations with each other, you feel just the same with regard to your allies, and never reflect that the mistakes into which you may be led by listening to their appeals, or by giving way to your own compassion, are full of danger to yourselves, and bring you no thanks for your weakness from your allies; entirely forgetting that your empire is a despotism and your subjects disaffected conspirators, whose obedience is ensured not by your suicidal concessions, but by the superiority given you by your own strength and not their loyalty. The most alarming feature in the case is the constant change of measures with which we appear to be threatened, a",
     "spans": [
       {
         "start": 0,
         "end": 34,
         "figure": "sententia",
-        "why": "A hard gnome: pity and empire do not keep house."
+        "why": "It is a hard gnome (maxim): pity and empire do not keep house together."
       },
       {
         "start": 40,
@@ -3690,7 +3690,7 @@ window.PASSAGES = [
         "start": 117,
         "end": 192,
         "figure": "antithesis",
-        "why": "Home peace against allied treachery."
+        "why": "Peace at home is set against allied treachery."
       }
     ],
     "species": "deliberative",
@@ -3704,7 +3704,7 @@ window.PASSAGES = [
     "author": "Diodotus (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "3.42",
-    "cue": "Mytilene: Diodotus against haste; good counsel against anger.",
+    "cue": "On Mytilene, Diodotus argues against haste, setting good counsel against anger.",
     "text": "I do not blame the persons who have reopened the case of the Mitylenians, nor do I approve the protests which we have heard against important questions being frequently debated. I think the two things most opposed to good counsel are haste and passion; haste usually goes hand in hand with folly, passion with coarseness and narrowness of mind. As for the argument that speech ought not to be the exponent of action, the man who uses it must be either senseless or interested: senseless if he believes it possible to treat of the uncertain future through any other medium; interested if, wishing to carry a disgraceful measure and doubting his ability to speak well in a bad cause, he thinks to frighten opponents and hearers by well-aimed calumny. What is still more intolerable is to accuse a speaker of making a display in order to be paid for it.",
     "spans": [
       {
@@ -3717,7 +3717,7 @@ window.PASSAGES = [
         "start": 186,
         "end": 251,
         "figure": "antithesis",
-        "why": "The pair that ruins deliberation."
+        "why": "He names the pair that ruins deliberation."
       },
       {
         "start": 217,
@@ -3750,13 +3750,13 @@ window.PASSAGES = [
         "start": 163,
         "end": 272,
         "figure": "ethos",
-        "why": "Private magnificence recast as public good."
+        "why": "Private magnificence is recast as public good."
       },
       {
         "start": 475,
         "end": 511,
         "figure": "exemplum",
-        "why": "Olympia as proof of the city's power."
+        "why": "Olympia is offered as proof of the city's power."
       }
     ],
     "species": "deliberative",
@@ -3789,7 +3789,7 @@ window.PASSAGES = [
         "start": 264,
         "end": 300,
         "figure": "antithesis",
-        "why": "The wavering man against the decided one."
+        "why": "The wavering man is set against the decided one."
       }
     ],
     "species": "deliberative",
@@ -3803,7 +3803,7 @@ window.PASSAGES = [
     "author": "Julius Caesar (Sallust)",
     "work": "Conspiracy of Catiline",
     "locus": "51",
-    "cue": "Senate: Caesar against executing the conspirators — penalty within the law.",
+    "cue": "In the senate, Caesar argues against executing the conspirators and for a penalty within the law.",
     "text": "inflict only such penalties as the laws have provided. Most of those, who have given their opinions before me, have deplored, in studied and impressive language, the sad fate that threatens the republic; they have recounted the barbarities of war, and the afflictions that would fall on the vanquished; they have told us that maidens would be dishonored, and youths abused; that children would be torn from the embraces of their parents; that matrons would be subjected to the pleasure of the conquerors; that temples and dwelling-houses would be plundered; that massacres and fires would follow; and that every place would be filled with arms, corpses, blood, and lamentation. But to what end, in the name of the eternal gods! was such eloquence directed? Was it intended to render you indignant at the conspiracy? A speech, no doubt, will inflame him whom so frightful and monstrous a reality has not provoked!",
     "spans": [
       {
@@ -3822,7 +3822,7 @@ window.PASSAGES = [
         "start": 326,
         "end": 436,
         "figure": "tricolon",
-        "why": "The catalogue of captured cities, used as a warning against display."
+        "why": "The catalogue of captured cities is used as a warning against display."
       }
     ],
     "species": "deliberative",
@@ -3836,20 +3836,20 @@ window.PASSAGES = [
     "author": "Sophocles",
     "work": "Antigone",
     "locus": "523",
-    "cue": "Stichomythia: Antigone's nature against Creon's death-sentence.",
+    "cue": "In stichomythia (dialogue in alternating single lines), Antigone's nature is set against Creon's death-sentence.",
     "text": "My nature is for mutual love, not hate. CREON. Die then, and love the dead if thou must; No woman shall be the master while I live. [Enter ISMENE] CHORUS. Lo from out the palace gate, Weeping o’er her sister’s fate, Comes Ismene; see her brow, Once serene, beclouded now, See her beauteous face o’erspread With a flush of angry red. CREON. Woman, who like a viper unperceived Didst harbor in my house and drain my blood, Two plagues I nurtured blindly, so it proved, To sap my throne.",
     "spans": [
       {
         "start": 17,
         "end": 38,
         "figure": "antithesis",
-        "why": "The governing pair of the play in one line."
+        "why": "The governing pair of the play is put in one line."
       },
       {
         "start": 0,
         "end": 38,
         "figure": "sententia",
-        "why": "Ethos as physis: she is made this way."
+        "why": "Ethos appears as physis (nature): she is made this way."
       },
       {
         "start": 47,
@@ -3869,7 +3869,7 @@ window.PASSAGES = [
     "author": "Sophocles",
     "work": "Oedipus the King",
     "locus": "1–13",
-    "cue": "Prologue: the king as father of the city, opening in apostrophe.",
+    "cue": "In the prologue the king speaks as father of the city, opening in apostrophe.",
     "text": "My children, latest born to Cadmus old, Why sit ye here as suppliants, in your hands Branches of olive filleted with wool? What means this reek of incense everywhere, And everywhere laments and litanies? Children, it were not meet that I should learn From others, and am hither come, myself, I Oedipus, your world-renowned king. Ho! aged sire, whose venerable locks Proclaim thee spokesman of this company, Explain your mood and purport. Is it dread Of ill that moves you or a boon ye crave? My zeal in your behalf ye cannot doubt; Ruthless indeed were I and obdurate If such petitioners as you I spurned. PRIEST. Yea, Oedipus, my sovereign lord and king, Thou seest how both extremes of age besiege Thy palace altars—fledglings hardly winged, and greybeards bowed with years; priests, as am I of Zeus, and these the flower of our youth.",
     "spans": [
       {
@@ -3888,7 +3888,7 @@ window.PASSAGES = [
         "start": 292,
         "end": 327,
         "figure": "ethos",
-        "why": "The name is the credit — and the coming irony."
+        "why": "The name is the credit, and also the coming irony."
       }
     ],
     "species": "deliberative",
@@ -3902,26 +3902,26 @@ window.PASSAGES = [
     "author": "Plato",
     "work": "Protagoras",
     "locus": "322c–d",
-    "cue": "Protagoras's myth: justice and reverence distributed to all, not to a few.",
+    "cue": "In Protagoras's myth, justice and reverence are distributed to all, not to a few.",
     "text": "Zeus feared that the entire race would be exterminated, and so he sent Hermes to them, bearing reverence and justice to be the ordering principles of cities and the bonds of friendship and conciliation. Hermes asked Zeus how he should impart justice and reverence among men:--Should he distribute them as the arts are distributed; that is to say, to a favoured few only, one skilled individual having enough of medicine or of any other art for many unskilled ones? 'Shall this be the manner in which I am to distribute justice and reverence among men, or shall I give them to all?' 'To all,' said Zeus; 'I should like them all to have a share; for cities cannot exist, if a few only share in the virtues, as in the arts. And further, make a law by my order, that he who has no part in reverence and justice shall be put to death, for he is a plague of the state.'",
     "spans": [
       {
         "start": 0,
         "end": 54,
         "figure": "mythos",
-        "why": "Aetiological myth as a deliberative proof: why all must share dike."
+        "why": "An aetiological myth serves as a deliberative proof of why all must share dike (justice)."
       },
       {
         "start": 63,
         "end": 116,
         "figure": "personification",
-        "why": "The gods as agents of political art."
+        "why": "The gods act as agents of political art."
       },
       {
         "start": 95,
         "end": 184,
         "figure": "definition",
-        "why": "The two gifts named as the city's order."
+        "why": "The two gifts are named as the city's order."
       }
     ],
     "species": "epideictic",
@@ -3954,7 +3954,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 29,
         "figure": "exclamatio",
-        "why": "The doubled wretchedness before the joke."
+        "why": "The wretchedness is doubled before the joke."
       }
     ],
     "orig": "At ego adulescens miser valde, miser in exordio ipsius adulescentiae, etiam petieram a te castitatem et dixeram: ‘da mihi castitatem et continentiam, sed noli modo.’ Timebam enim, ne me cito exaudires et cito sanares a morbo concupiscentiae, quem malebam expleri quam extingui. Et ieram per vias pravasEccli 2, 15. superstitione sacrilega non quidem certus in ea, sed quasi praeponens eam ceteris, quae non pie quaerebam, sed inimice oppugnabam.",
@@ -3969,7 +3969,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "Confessions",
     "locus": "10.6",
-    "cue": "What do I love, when I love Thee? — not bodies, light, or melody.",
+    "cue": "What do I love, when I love Thee? Not bodies, light, or melody.",
     "text": "But what do I love, when I love Thee? not beauty of bodies, nor the fair harmony of time, nor the brightness of the light, so gladsome to our eyes, nor sweet melodies of varied songs, nor the fragrant smell of flowers, and ointments, and spices, not manna and honey, not limbs acceptable to embracements of flesh. None of these I love, when I love my God; and yet I love a kind of light, and melody, and fragrance, and meat, and embracement when I love my God, the light, melody, fragrance, meat, embracement of my inner man: where there shineth unto my soul what space cannot contain, and there soundeth what time beareth not away, and there smelleth what breathing disperseth not, and there tasteth what eating diminisheth not, and there clingeth what satiety divorceth not. This is it which I love when I love my God.",
     "spans": [
       {
@@ -3982,13 +3982,13 @@ window.PASSAGES = [
         "start": 38,
         "end": 121,
         "figure": "tricolon",
-        "why": "Three refusals before the true object."
+        "why": "Three refusals come before the true object."
       },
       {
         "start": 20,
         "end": 36,
         "figure": "apostrophe",
-        "why": "Still to God, in the second person."
+        "why": "He still speaks to God, in the second person."
       }
     ],
     "orig": "Quid autem amo, cum te amo? Non speciem corporis nec decus temporis, non candorem lucis ecce istis amicum oculis, non dulces melodias cantilenarum omninodarum, non florum et unguentorum et aromatum suaveolentiam, non manna et mella, non membra acceptabilia carnis amplexibus; non haec amo, cum amo Deum meum. Et tamen amo quamdam lucem et quamdam vocem et quemdam odorem et quemdam cibum et quemdam amplexum, cum amo Deum meum, lucem, vocem, odorem, cibum, amplexum interioris hominis mei, ubi fulget animae meae, quod non capit locus, et ubi sonat, quod non rapit tempus, et ubi olet, quod non spargit flatus, et ubi sapit, quod non minuit edacitas, et ubi haeret, quod non divellit satietas. Hoc est quod amo, cum Deum meum amo.",
@@ -4003,7 +4003,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "Confessions",
     "locus": "11.14",
-    "cue": "What is time? Known, until we are asked.",
+    "cue": "What is time? We know it, until we are asked.",
     "text": "For what is time? Who can readily and briefly explain this? Who can even in thought comprehend it, so as to utter a word about it? But what in discourse do we mention more familiarly and knowingly, than time? And, we understand, when we speak of it; we understand also, when we hear it spoken of by another. What then is time? If no one asks me, I know: if I wish to explain it to one that asketh, I know not: yet I say boldly that I know, that if nothing passed away, time past were not; and if nothing were coming, a time to come were not; and if nothing were, time present were not.",
     "spans": [
       {
@@ -4016,7 +4016,7 @@ window.PASSAGES = [
         "start": 18,
         "end": 97,
         "figure": "antithesis",
-        "why": "Two questions, the second harder than the first."
+        "why": "There are two questions, the second harder than the first."
       }
     ],
     "orig": "Quid est enim tempus? Quis hoc facile breviterque explicaverit? Quis hoc ad verbum de illo proferendum vel cogitatione comprehenderit? Quid autem familiarius et notius in loquendo commemoramus quam tempus? Et intellegimus utique, cum id loquimur, intellegimus etiam, cum alio loquente id audimus. Quid est ergo tempus? Si nemo ex me quaerat, scio; si quaerenti explicare velim, nescio; fidenter tamen dico scire me, quod, si nihil praeteriret, non esset praeteritum tempus, et si nihil adveniret, non esset futurum tempus, et si nihil esset, non esset praesens tempus.",
@@ -4038,7 +4038,7 @@ window.PASSAGES = [
         "start": 904,
         "end": 943,
         "figure": "apostrophe",
-        "why": "The doubled behold, still a prayer."
+        "why": "The doubled behold is still a prayer."
       },
       {
         "start": 1200,
@@ -4078,13 +4078,13 @@ window.PASSAGES = [
         "start": 173,
         "end": 198,
         "figure": "antithesis",
-        "why": "Truth without the art against falsehood with it."
+        "why": "Truth without the art is set against falsehood with it."
       },
       {
         "start": 508,
         "end": 539,
         "figure": "tricolon",
-        "why": "The three virtues the liar is not to monopolize."
+        "why": "These are the three virtues the liar is not to monopolize."
       }
     ],
     "orig": "Nam cum per artem rhetoricam et vera suadeantur et falsa, quis audeat dicere, adversus mendacium in defensoribus suis inermem debere consistere veritatem, ut videlicet illi qui res falsas persuadere conantur, noverint auditorem vel benevolum vel intentum vel docilem proemio facere; isti autem non noverint?",
@@ -4106,19 +4106,19 @@ window.PASSAGES = [
         "start": 80,
         "end": 117,
         "figure": "tricolon",
-        "why": "Docere, delectare, flectere — Cicero's three offices."
+        "why": "Docere, delectare, flectere: these are Cicero's three offices."
       },
       {
         "start": 133,
         "end": 206,
         "figure": "isocolon",
-        "why": "Three matching limbs, three ranks of the office."
+        "why": "Three matching limbs give three ranks of the office."
       },
       {
         "start": 253,
         "end": 357,
         "figure": "definition",
-        "why": "Res against verba."
+        "why": "Res is set against verba (matter against words)."
       }
     ],
     "orig": "Dixit ergo quidam eloquens, et verum dixit, ita dicere debere eloquentem ut doceat, ut delectet, ut flectat. Deinde addidit: Docere necessitatis est, delectare suavitatis, flectere victoriae.",
@@ -4141,13 +4141,13 @@ window.PASSAGES = [
         "start": 112,
         "end": 153,
         "figure": "tricolon",
-        "why": "The three offices again, now as aims."
+        "why": "The three offices appear again, now as aims."
       },
       {
         "start": 666,
         "end": 774,
         "figure": "isocolon",
-        "why": "Three matters, three styles — Cicero quoted through Augustine."
+        "why": "Three matters call for three styles, with Cicero quoted through Augustine."
       },
       {
         "start": 330,
@@ -4176,19 +4176,19 @@ window.PASSAGES = [
         "start": 137,
         "end": 195,
         "figure": "exemplum",
-        "why": "The bishop's own case as proof of the majestic style."
+        "why": "The bishop's own case serves as proof of the majestic style."
       },
       {
         "start": 671,
         "end": 747,
         "figure": "antithesis",
-        "why": "Applause is docere/delectare; tears are flectere."
+        "why": "Applause belongs to docere and delectare; tears belong to flectere."
       },
       {
         "start": 308,
         "end": 350,
         "figure": "tricolon",
-        "why": "The war named by the relations it splits."
+        "why": "The war is named by the relations it splits."
       }
     ],
     "orig": "Grande autem genus plerumque pondere suo voces premit, sed lacrimas exprimit. Denique cum apud Caesaream Mauritaniae populo dissuaderem pugnam civilem vel potius plus quam civilem, quam Catervam vocabant.",
@@ -4210,19 +4210,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 40,
         "figure": "apostrophe",
-        "why": "The letter opens in friendship — the controversy will not."
+        "why": "The letter opens in friendship, though the controversy will not."
       },
       {
         "start": 15,
         "end": 40,
         "figure": "ethos",
-        "why": "Ethos of charity before the proof."
+        "why": "The ethos of charity comes before the proof."
       },
       {
         "start": 18,
         "end": 40,
         "figure": "antithesis",
-        "why": "Brother against the schism the letter will name."
+        "why": "Brother is set against the schism the letter will name."
       }
     ],
     "track": "augustine",
@@ -4242,19 +4242,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 9,
         "figure": "exordium",
-        "why": "The school-numbering of the NPNF; the speech itself follows."
+        "why": "This is the school-numbering of the NPNF; the speech itself follows."
       },
       {
         "start": 37,
         "end": 120,
         "figure": "definition",
-        "why": "The issue named before the proof."
+        "why": "The issue is named before the proof."
       },
       {
         "start": 93,
         "end": 120,
         "figure": "apostrophe",
-        "why": "The subject addressed as the Lord's own."
+        "why": "The subject is addressed as the Lord's own."
       }
     ],
     "track": "augustine",
