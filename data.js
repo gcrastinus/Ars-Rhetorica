@@ -854,7 +854,7 @@ EX.figclick = {
       source: citeP(p), orig: p.orig, olang: p.olang, target: target.figure, why: target.why, src: srcOf(p),
       check(ans){
         const right = String(ans) === String(target.figure);
-        return {right, note: right ? target.why : 'The '+target.figure+' is this: “'+p.text.slice(target.start, target.end)+'”. '+target.why,
+        return {right, note: right ? target.why : 'The '+target.figure+' is this: “'+p.text.slice(target.start, target.end)+'”<br>'+target.why,
           also: figNames(p).filter(f=>f!==target.figure).join(' · ')};
       }
     };
