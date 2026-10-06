@@ -18,13 +18,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 137,
         "figure": "anaphora",
-        "why": "How much is sounded twice, so that the ear waits for the blow to fall."
+        "why": "How much opens two questions in a row, and the repetition makes the hearer wait for the charge."
       },
       {
         "start": 138,
         "end": 209,
         "figure": "rhetorical question",
-        "why": "The question does not seek an answer; it is a charge dressed as inquiry."
+        "why": "The question does not seek an answer; it is a charge put in the form of a question."
       },
       {
         "start": 342,
@@ -52,7 +52,7 @@ window.PASSAGES = [
         "start": 141,
         "end": 159,
         "figure": "epizeuxis",
-        "why": "The word lives is struck twice, once as question and once as bitter confirmation."
+        "why": "The word lives is repeated at once, first as a question and then as a bitter confirmation."
       },
       {
         "start": 308,
@@ -86,7 +86,7 @@ window.PASSAGES = [
         "start": 18,
         "end": 78,
         "figure": "rhetorical question",
-        "why": "There are three questions, none of which wants an answer, because the shock is the point."
+        "why": "There are three questions, and none of them expects an answer; they are meant to shock the senate."
       },
       {
         "start": 321,
@@ -170,19 +170,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 78,
         "figure": "personification",
-        "why": "The res publica is given a voice and a mother's claim."
+        "why": "The res publica (the commonwealth) is given a voice and the claim of a mother."
       },
       {
         "start": 80,
         "end": 147,
         "figure": "prosopopoeia",
-        "why": "Cicero no longer speaks; Rome speaks in the first person."
+        "why": "Cicero stops speaking in his own person, and Rome speaks in the first person."
       },
       {
         "start": 880,
         "end": 1023,
         "figure": "antithesis",
-        "why": "Both horns end in the same command: go."
+        "why": "Whether the fears are founded or groundless, both alternatives end in the same command: go."
       }
     ]
   },
@@ -204,7 +204,7 @@ window.PASSAGES = [
         "start": 199,
         "end": 242,
         "figure": "metaphor",
-        "why": "Now the likeness is dropped and the state is simply ill."
+        "why": "Now the word like is dropped, and the state is said simply to be ill; the simile has become a metaphor."
       },
       {
         "start": 383,
@@ -272,7 +272,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 81,
         "figure": "rhetorical question",
-        "why": "The how is not a request for measure; it is already a verdict."
+        "why": "The how does not ask how great the misery is; it asserts that the misery is great."
       }
     ]
   },
@@ -294,7 +294,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 39,
         "figure": "exclamatio",
-        "why": "The cry is too large for the thing, and that is the point."
+        "why": "The cry is deliberately too large for its object, and the excess makes the mockery plain."
       },
       {
         "start": 41,
@@ -328,7 +328,7 @@ window.PASSAGES = [
         "start": 368,
         "end": 393,
         "figure": "metaphor",
-        "why": "The danger is given a mouth."
+        "why": "The danger is pictured as a beast with jaws, from which the city is snatched."
       },
       {
         "start": 14,
@@ -378,7 +378,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 96,
         "figure": "apostrophe",
-        "why": "He names the order he is about to move."
+        "why": "He addresses the senate by its formal title, conscript fathers, before he tries to move it."
       },
       {
         "start": 266,
@@ -406,19 +406,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 57,
         "figure": "apostrophe",
-        "why": "The vocative comes first, and then the charge."
+        "why": "The direct address (vocative) comes first, and then the charge."
       },
       {
         "start": 30,
         "end": 80,
         "figure": "tricolon",
-        "why": "These are the three cares of a senate that still has something to save, if the third member completes the set."
+        "why": "The commands name the cares of a senate that still has something to save, and the third member completes the set."
       },
       {
         "start": 0,
         "end": 57,
         "figure": "rhetorical question",
-        "why": "It is a command dressed in the address of counsel."
+        "why": "It is a command, though it is phrased as counsel to the senate."
       }
     ]
   },
@@ -496,13 +496,13 @@ window.PASSAGES = [
         "start": 25,
         "end": 44,
         "figure": "apostrophe",
-        "why": "The senate is addressed in the vocative before the charge is laid."
+        "why": "The senate is addressed directly (in the vocative) before the charge is laid."
       },
       {
         "start": 0,
         "end": 196,
         "figure": "rhetorical question",
-        "why": "The question answers itself: his fate and the republic's are one."
+        "why": "The question answers itself, since his fate and the republic's are one."
       },
       {
         "start": 429,
@@ -524,13 +524,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 23,
         "figure": "apostrophe",
-        "why": "The jury is named at once; the case is theirs."
+        "why": "The jury is addressed at once, because the case is theirs to decide."
       },
       {
         "start": 97,
         "end": 161,
         "figure": "antithesis",
-        "why": "Human counsel is set down so that providence may be set up."
+        "why": "Human wisdom is set aside so that the gift may be credited to heaven instead."
       },
       {
         "start": 268,
@@ -552,7 +552,7 @@ window.PASSAGES = [
         "start": 9,
         "end": 71,
         "figure": "apostrophe",
-        "why": "He turns to the judges by name at the first breath."
+        "why": "He addresses the judges by name in his first sentence."
       },
       {
         "start": 88,
@@ -580,7 +580,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 39,
         "figure": "sententia",
-        "why": "The maxim is compact enough to be carried away, and compact enough to convict him."
+        "why": "The maxim is compact enough to be remembered, and for the same reason compact enough to convict him."
       },
       {
         "start": 41,
@@ -592,7 +592,7 @@ window.PASSAGES = [
         "start": 82,
         "end": 166,
         "figure": "antithesis",
-        "why": "True, and hard to persuade: this is logos without the other two pisteis."
+        "why": "He claims truth while admitting that it is hard to persuade, which is logos without the other two pisteis (ethos and pathos)."
       }
     ]
   },
@@ -608,13 +608,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 38,
         "figure": "apostrophe",
-        "why": "The friend is named before the hour is asked."
+        "why": "He names his friend before he asks why he has come at this hour."
       },
       {
         "start": 0,
         "end": 38,
         "figure": "rhetorical question",
-        "why": "He knows; the question is wonder, not ignorance."
+        "why": "The question expresses wonder rather than ignorance, since Socrates already knows the answer."
       },
       {
         "start": 127,
@@ -636,19 +636,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 61,
         "figure": "apostrophe",
-        "why": "The friend is named, and two questions follow that are already a welcome."
+        "why": "The friend is named, and the two questions that follow serve as a welcome."
       },
       {
         "start": 18,
         "end": 61,
         "figure": "rhetorical question",
-        "why": "The questions do not ask for a map; they ask for the talk that will follow."
+        "why": "The questions do not ask for directions; they invite the conversation that will follow."
       },
       {
         "start": 18,
         "end": 61,
         "figure": "antithesis",
-        "why": "From and to give the whole of a walk in two adverbs."
+        "why": "Whence and whither (from where and to where) set the beginning and the end of the walk against each other."
       }
     ]
   },
@@ -670,13 +670,13 @@ window.PASSAGES = [
         "start": 50,
         "end": 104,
         "figure": "prosopopoeia",
-        "why": "Another speaker is about to be given the oration."
+        "why": "Socrates is about to hand the speech over to another speaker, Diotima."
       },
       {
         "start": 129,
         "end": 186,
         "figure": "epithet",
-        "why": "The authority is named before the doctrine."
+        "why": "Diotima's authority is established before her doctrine is given."
       }
     ]
   },
@@ -692,7 +692,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 147,
         "figure": "prooimion",
-        "why": "The beginning names its own duty: ancestors first."
+        "why": "The opening (prooimion) states its own duty, which is to honour the ancestors first."
       },
       {
         "start": 298,
@@ -726,7 +726,7 @@ window.PASSAGES = [
         "start": 124,
         "end": 217,
         "figure": "definition",
-        "why": "He gives the name by the thing, not the thing by the name."
+        "why": "He derives the name democracy from what the constitution does, rather than explaining the constitution from its name."
       },
       {
         "start": 218,
@@ -748,7 +748,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 63,
         "figure": "antithesis",
-        "why": "Two clauses assign two lots, and the sentence is itself the doctrine."
+        "why": "The two clauses assign two lots, and the sentence states the Athenian doctrine in full."
       },
       {
         "start": 0,
@@ -810,7 +810,7 @@ window.PASSAGES = [
         "start": 313,
         "end": 425,
         "figure": "irony",
-        "why": "The questioner has already answered it for himself; the wise man will not."
+        "why": "Croesus has already answered the question for himself, but Solon, the wise man, will not give that answer."
       },
       {
         "start": 389,
@@ -832,7 +832,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 28,
         "figure": "apostrophe",
-        "why": "The vocative honours Croesus; the name that follows does not."
+        "why": "The direct address (O king) honours Croesus, but the name that follows does not."
       },
       {
         "start": 99,
@@ -844,7 +844,7 @@ window.PASSAGES = [
         "start": 203,
         "end": 336,
         "figure": "enumeratio",
-        "why": "Life, city, sons, grandsons: happiness is counted in a list, not in gold."
+        "why": "Solon counts happiness as a list of life, city, sons, and grandsons, not as a sum of gold."
       }
     ]
   },
@@ -888,7 +888,7 @@ window.PASSAGES = [
         "start": 46,
         "end": 131,
         "figure": "antithesis",
-        "why": "First come the gifts, then the soul that spoiled them; the but is the portrait."
+        "why": "The gifts come first and the vicious disposition second, and the but turns the praise into a portrait of vice."
       },
       {
         "start": 170,
@@ -906,7 +906,7 @@ window.PASSAGES = [
         "start": 473,
         "end": 530,
         "figure": "antithesis",
-        "why": "Two vices that look like opposites and are one hunger."
+        "why": "The two vices look like opposites, but they come from one hunger."
       }
     ]
   },
@@ -965,7 +965,7 @@ window.PASSAGES = [
         "start": 162,
         "end": 208,
         "figure": "hyperbole",
-        "why": "One day and all liberty: the hope is made larger than the field."
+        "why": "One day is to begin liberty for all Britain, so the hope is made larger than the battle at hand."
       },
       {
         "start": 360,
@@ -996,7 +996,7 @@ window.PASSAGES = [
         "start": 54,
         "end": 121,
         "figure": "irony",
-        "why": "They call shows that the names are the lie."
+        "why": "The repeated they call shows that the names themselves are false."
       },
       {
         "start": 76,
@@ -1092,13 +1092,13 @@ window.PASSAGES = [
         "start": 286,
         "end": 457,
         "figure": "antithesis",
-        "why": "The speaker is served; the dead are not."
+        "why": "Such speeches serve the speaker's reputation but not the dead."
       },
       {
         "start": 510,
         "end": 553,
         "figure": "personification",
-        "why": "Time is made the true orator of the dead."
+        "why": "Time is made the one who truly praises the dead."
       }
     ]
   },
@@ -1132,7 +1132,7 @@ window.PASSAGES = [
         "start": 377,
         "end": 456,
         "figure": "antithesis",
-        "why": "Made for, and restless until: the whole of the book is held in one turn."
+        "why": "The pair made for and restless until holds the argument of the whole book in one sentence."
       }
     ]
   },
@@ -1154,13 +1154,13 @@ window.PASSAGES = [
         "start": 141,
         "end": 225,
         "figure": "antithesis",
-        "why": "Exercise and conversion are two medicines."
+        "why": "Exercise for the strong and gentle conversion for the weak are two remedies for two kinds of hearer."
       },
       {
         "start": 0,
         "end": 53,
         "figure": "anaphora",
-        "why": "Differently is the key of the whole book, since one gospel has many hearings."
+        "why": "Differently is the governing word of the whole book, since one gospel must be heard by many kinds of hearer."
       }
     ]
   },
@@ -1188,7 +1188,7 @@ window.PASSAGES = [
         "start": 297,
         "end": 450,
         "figure": "antithesis",
-        "why": "There are two ditches beside one road: contempt of the weak, or loss of the high."
+        "why": "There are two dangers on either side of one course: contempt of the weak, or loss of the high."
       }
     ]
   },
@@ -1216,7 +1216,7 @@ window.PASSAGES = [
         "start": 224,
         "end": 281,
         "figure": "antithesis",
-        "why": "Mourn, and comfort: the second undoes the first without denying it."
+        "why": "Mourning is set against comfort, and the comfort answers the mourning without denying it."
       }
     ]
   },
@@ -1232,7 +1232,7 @@ window.PASSAGES = [
         "start": 50,
         "end": 311,
         "figure": "anaphora",
-        "why": "And have not charity is repeated until the ear will not let it go."
+        "why": "And have not charity is repeated at the head of each member, so that the hearer cannot forget it."
       },
       {
         "start": 72,
@@ -1250,7 +1250,7 @@ window.PASSAGES = [
         "start": 276,
         "end": 311,
         "figure": "climax",
-        "why": "The climax runs from noise to nothing, and the last word is the drop."
+        "why": "The climax runs from mere noise down to nothing, so it ends on the lowest term."
       },
       {
         "start": 475,
@@ -1284,7 +1284,7 @@ window.PASSAGES = [
         "start": 269,
         "end": 343,
         "figure": "antithesis",
-        "why": "Light and darkness: the second cannot take in the first."
+        "why": "Light is set against darkness, and the darkness cannot take in the light."
       },
       {
         "start": 269,
@@ -1312,7 +1312,7 @@ window.PASSAGES = [
         "start": 30,
         "end": 121,
         "figure": "tricolon",
-        "why": "Three thy-petitions come before any our."
+        "why": "Three petitions beginning with thy come before any petition with our."
       },
       {
         "start": 76,
@@ -1340,7 +1340,7 @@ window.PASSAGES = [
         "start": 17,
         "end": 64,
         "figure": "metaphor",
-        "why": "Wrath is a spring: the water is woe, and it has a source."
+        "why": "Wrath is called a spring, so the woes are pictured as water flowing from one source."
       },
       {
         "start": 49,
@@ -1402,7 +1402,7 @@ window.PASSAGES = [
         "start": 123,
         "end": 197,
         "figure": "prosopopoeia",
-        "why": "The art is made a person, and will speak as one."
+        "why": "Philosophy appears as a woman and will speak in her own voice."
       },
       {
         "start": 198,
@@ -1420,7 +1420,7 @@ window.PASSAGES = [
         "start": 198,
         "end": 332,
         "figure": "hypotyposis",
-        "why": "The figure is drawn so that the reader sees her before she speaks."
+        "why": "The description is drawn so that the reader sees her before she speaks."
       }
     ]
   },
@@ -1448,7 +1448,7 @@ window.PASSAGES = [
         "start": 287,
         "end": 374,
         "figure": "correctio",
-        "why": "Not me, but the time: here the correction is the defence."
+        "why": "He shifts the blame from himself to the times, and the correction serves as his defence."
       }
     ]
   },
@@ -1492,7 +1492,7 @@ window.PASSAGES = [
         "start": 46,
         "end": 115,
         "figure": "apostrophe",
-        "why": "The vocative comes first, and then the charge of the night."
+        "why": "The direct address (vocative) comes first, and then the charge of the night."
       },
       {
         "start": 137,
@@ -1554,13 +1554,13 @@ window.PASSAGES = [
         "start": 74,
         "end": 148,
         "figure": "tricolon",
-        "why": "Three anys make one refusal."
+        "why": "Any is repeated three times within a single refusal."
       },
       {
         "start": 194,
         "end": 254,
         "figure": "antithesis",
-        "why": "Hearts, not stone: the memorial is to be inward."
+        "why": "He asks for a memorial in their hearts rather than in stone, so the honour is to be inward."
       },
       {
         "start": 30,
@@ -1582,7 +1582,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 77,
         "figure": "apostrophe",
-        "why": "The house is named; then his interest is named in order to be set aside."
+        "why": "He addresses the senate, and then names his own interest only to set it aside."
       },
       {
         "start": 78,
@@ -1594,7 +1594,7 @@ window.PASSAGES = [
         "start": 35,
         "end": 77,
         "figure": "occupatio",
-        "why": "He occupies the charge of self-seeking before it is made."
+        "why": "He forestalls the charge of self-seeking before anyone can make it."
       }
     ]
   },
@@ -1610,13 +1610,13 @@ window.PASSAGES = [
         "start": 92,
         "end": 119,
         "figure": "metaphor",
-        "why": "Death is given a mouth."
+        "why": "Death is pictured as having jaws, like a beast."
       },
       {
         "start": 121,
         "end": 200,
         "figure": "antithesis",
-        "why": "His life, your welfare: the second is the final cause of the first."
+        "why": "He sets his own life against their welfare, and their welfare is the end (final cause) for which he lives."
       },
       {
         "start": 308,
@@ -1628,7 +1628,7 @@ window.PASSAGES = [
         "start": 231,
         "end": 265,
         "figure": "tricolon",
-        "why": "Three unities make one commonwealth."
+        "why": "Heart, mind, and voice are three kinds of unity that together make one commonwealth."
       }
     ]
   },
@@ -1662,7 +1662,7 @@ window.PASSAGES = [
         "start": 255,
         "end": 332,
         "figure": "antithesis",
-        "why": "What matters is not the killing but the carrying with intent, a fine edge for a jury."
+        "why": "The law forbids not the killing but the carrying of a weapon with intent, a fine distinction for a jury to weigh."
       }
     ]
   },
@@ -1678,7 +1678,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 75,
         "figure": "apostrophe",
-        "why": "The vocative comes first, then two miseries, the second worse."
+        "why": "The direct address (vocative) comes first, and then two miseries, the second worse than the first."
       },
       {
         "start": 16,
@@ -1690,7 +1690,7 @@ window.PASSAGES = [
         "start": 155,
         "end": 233,
         "figure": "hyperbole",
-        "why": "Latest, most distant, never: the memory is stretched past any living jury."
+        "why": "Latest, most distant, and never stretch the memory of the deed far beyond any living hearer."
       },
       {
         "start": 292,
@@ -1718,7 +1718,7 @@ window.PASSAGES = [
         "start": 49,
         "end": 109,
         "figure": "antithesis",
-        "why": "Malice and favour: two winds, one forbidden."
+        "why": "Malice and favour are paired, and one prohibition covers both."
       },
       {
         "start": 135,
@@ -1746,13 +1746,13 @@ window.PASSAGES = [
         "start": 117,
         "end": 141,
         "figure": "tricolon",
-        "why": "Three arms make one force."
+        "why": "Soldiers, ships, and cavalry are three arms of one force."
       },
       {
         "start": 219,
         "end": 349,
         "figure": "climax",
-        "why": "Pay, supply, then the general's account: the last is the sting."
+        "why": "The members run from paying to supplying to holding the general to account, and the last carries the reproach."
       }
     ]
   },
@@ -1774,7 +1774,7 @@ window.PASSAGES = [
         "start": 79,
         "end": 122,
         "figure": "antithesis",
-        "why": "Use, not show, is a deliberative measure of wealth."
+        "why": "Wealth is measured by its use rather than its display, which is a deliberative standard."
       },
       {
         "start": 128,
@@ -1796,13 +1796,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 37,
         "figure": "apostrophe",
-        "why": "He uses the vocative of piety toward the very men who will condemn him."
+        "why": "He uses a pious form of direct address (vocative) toward the very men who will condemn him."
       },
       {
         "start": 15,
         "end": 74,
         "figure": "antithesis",
-        "why": "Honour them, obey God: the but is the whole defence."
+        "why": "He honours the Athenians but will obey God, and that but contains his whole defence."
       },
       {
         "start": 242,
@@ -1814,7 +1814,7 @@ window.PASSAGES = [
         "start": 317,
         "end": 405,
         "figure": "rhetorical question",
-        "why": "The question is already a rebuke."
+        "why": "The question works as a rebuke rather than as a request for an answer."
       }
     ]
   },
@@ -1830,19 +1830,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 27,
         "figure": "apostrophe",
-        "why": "The friend is named, and the question is already a smile."
+        "why": "The friend is named, and the question is asked with gentle humour."
       },
       {
         "start": 116,
         "end": 185,
         "figure": "rhetorical question",
-        "why": "He asks, then says he need not: the figure of asking in order to answer."
+        "why": "He asks a question and then says he hardly needs to ask, since he can answer it himself."
       },
       {
         "start": 207,
         "end": 360,
         "figure": "irony",
-        "why": "The end of philosophy, and still higher: the praise is a pinch."
+        "why": "To say that Menexenus has reached the end of philosophy is praise with a sting in it."
       }
     ]
   },
@@ -1864,13 +1864,13 @@ window.PASSAGES = [
         "start": 121,
         "end": 208,
         "figure": "antithesis",
-        "why": "Three against twenty: the disproportion is the point."
+        "why": "Three generations are set against twenty, and the disproportion makes the argument."
       },
       {
         "start": 210,
         "end": 298,
         "figure": "climax",
-        "why": "The climax runs from the foreign enemy to their own leaders, and the last wound is home-made."
+        "why": "The climax runs from the foreign enemy to their own leaders, so the last evil comes from within."
       }
     ]
   },
@@ -1886,7 +1886,7 @@ window.PASSAGES = [
         "start": 111,
         "end": 400,
         "figure": "hypotyposis",
-        "why": "The house, the supper, the sleep, the sword: the scene is made to be seen."
+        "why": "The house, the supper, the sleep, and the sword are set out in order, so that the reader sees the scene."
       },
       {
         "start": 469,
@@ -1898,7 +1898,7 @@ window.PASSAGES = [
         "start": 469,
         "end": 573,
         "figure": "asyndeton",
-        "why": "Four clauses come with no and, and the terror is in the shortness."
+        "why": "Four short clauses come without and, and their brevity conveys the terror."
       }
     ]
   },
@@ -1926,13 +1926,13 @@ window.PASSAGES = [
         "start": 429,
         "end": 499,
         "figure": "apostrophe",
-        "why": "He turns upon his own, not upon the enemy first."
+        "why": "He turns first to his own fleeing men, not to the enemy."
       },
       {
         "start": 375,
         "end": 413,
         "figure": "personification",
-        "why": "Faith of gods and men calls two witnesses to a bridge."
+        "why": "He appeals to the faith of gods and men, calling both as witnesses to the defence of the bridge."
       }
     ]
   },
@@ -1963,7 +1963,7 @@ window.PASSAGES = [
         "start": 314,
         "end": 483,
         "figure": "climax",
-        "why": "Short, not long, swallowed: the names of power grow and are eaten."
+        "why": "Short, not long, and swallowed up: each power is greater than the last, and each is absorbed in the next."
       },
       {
         "start": 417,
@@ -1991,7 +1991,7 @@ window.PASSAGES = [
         "start": 68,
         "end": 90,
         "figure": "epizeuxis",
-        "why": "The same cry comes twice: late, and again late."
+        "why": "The same cry is repeated: too late, and again too late."
       },
       {
         "start": 103,
@@ -2003,7 +2003,7 @@ window.PASSAGES = [
         "start": 356,
         "end": 411,
         "figure": "personification",
-        "why": "God is given the verbs of a voice that breaks a wall."
+        "why": "God is given the actions of a voice, calling, shouting, and breaking through deafness."
       },
       {
         "start": 356,
@@ -2025,19 +2025,19 @@ window.PASSAGES = [
         "start": 60,
         "end": 187,
         "figure": "antithesis",
-        "why": "Comfort and fear are two medicines for two diseases."
+        "why": "Comfort for the poor and fear for the rich are two remedies for two conditions."
       },
       {
         "start": 350,
         "end": 392,
         "figure": "apostrophe",
-        "why": "Isaiah's vocative, kept as a word for the poor hearer."
+        "why": "Gregory keeps Isaiah's direct address (O you poor little one) as a word for the poor hearer."
       },
       {
         "start": 0,
         "end": 54,
         "figure": "anaphora",
-        "why": "Differently is the same key as in the pair of men and women."
+        "why": "Differently is the same governing word as in the pair of men and women."
       }
     ]
   },
@@ -2053,7 +2053,7 @@ window.PASSAGES = [
         "start": 66,
         "end": 201,
         "figure": "antithesis",
-        "why": "Sad things to the joyful, glad things to the sad: a chiastic cure."
+        "why": "Sad things are set before the joyful and glad things before the sad, so each is corrected by its opposite."
       },
       {
         "start": 202,
@@ -2137,19 +2137,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 56,
         "figure": "irony",
-        "why": "He wonders at a kindness, and the prison is already less a prison."
+        "why": "He wonders that the keeper let Crito in, and the kindness makes the prison seem less a prison."
       },
       {
         "start": 64,
         "end": 145,
         "figure": "antithesis",
-        "why": "Knowledge and kindness are two keys."
+        "why": "Acquaintance and a past kindness are the two reasons the keeper admits him."
       },
       {
         "start": 230,
         "end": 300,
         "figure": "rhetorical question",
-        "why": "The question is already a welcome."
+        "why": "The question is less a reproach than a welcome."
       }
     ]
   },
@@ -2171,7 +2171,7 @@ window.PASSAGES = [
         "start": 48,
         "end": 83,
         "figure": "occupatio",
-        "why": "He occupies the charge of originality by refusing it."
+        "why": "He forestalls any claim of originality by attributing the doctrine to her."
       }
     ]
   },
@@ -2193,13 +2193,13 @@ window.PASSAGES = [
         "start": 101,
         "end": 148,
         "figure": "tricolon",
-        "why": "There are three adjectives, and the last is the verdict."
+        "why": "There are three adjectives, and the last, unattainable, passes judgment on the rest."
       },
       {
         "start": 85,
         "end": 148,
         "figure": "hyperbole",
-        "why": "Always, and unattainable: the hunger is named as without end or object."
+        "why": "Always and unattainable describe a desire that has neither end nor attainable object."
       }
     ]
   },
@@ -2215,7 +2215,7 @@ window.PASSAGES = [
         "start": 93,
         "end": 149,
         "figure": "antithesis",
-        "why": "Free, by valour: the second is the price of the first."
+        "why": "Freedom is set against the valour that won it, which was its price."
       },
       {
         "start": 150,
@@ -2227,7 +2227,7 @@ window.PASSAGES = [
         "start": 150,
         "end": 227,
         "figure": "anaphora",
-        "why": "The if is already a yes."
+        "why": "The if introduces a condition that the speaker treats as already granted."
       }
     ]
   },
@@ -2258,7 +2258,7 @@ window.PASSAGES = [
         "start": 172,
         "end": 210,
         "figure": "hyperbole",
-        "why": "East and West: the hunger is made world-wide."
+        "why": "East and West together make the Roman hunger world-wide."
       }
     ]
   },
@@ -2280,13 +2280,13 @@ window.PASSAGES = [
         "start": 29,
         "end": 91,
         "figure": "anaphora",
-        "why": "Not, not, not: the praise is a series of refusals."
+        "why": "Not is repeated, so the praise is given as a series of denials."
       },
       {
         "start": 8,
         "end": 90,
         "figure": "asyndeton",
-        "why": "The list runs without and, as a rule of life, not a period."
+        "why": "The list runs without and, as a rule of life rather than a rounded period (a long, balanced sentence)."
       }
     ]
   },
@@ -2308,7 +2308,7 @@ window.PASSAGES = [
         "start": 34,
         "end": 63,
         "figure": "hyperbole",
-        "why": "More than human: the figure is already past nature."
+        "why": "More than human carries the description beyond nature."
       },
       {
         "start": 92,
@@ -2364,7 +2364,7 @@ window.PASSAGES = [
         "start": 42,
         "end": 89,
         "figure": "rhetorical question",
-        "why": "The goddess is not named yet: the question is the hook."
+        "why": "The question withholds the goddess's name, and so holds the reader's attention."
       },
       {
         "start": 256,
@@ -2398,7 +2398,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 54,
         "figure": "anaphora",
-        "why": "Differently is still the word, and the book has not changed its key."
+        "why": "Differently is still the governing word, as it is throughout the book."
       }
     ]
   },
@@ -2420,7 +2420,7 @@ window.PASSAGES = [
         "start": 82,
         "end": 115,
         "figure": "hyperbole",
-        "why": "Land and sea, every: the war is made total."
+        "why": "Every land and sea makes the war total."
       },
       {
         "start": 72,
@@ -2442,7 +2442,7 @@ window.PASSAGES = [
         "start": 42,
         "end": 173,
         "figure": "antithesis",
-        "why": "Join or Medize: one small force has two uses."
+        "why": "Joining the campaign or going over to the Persians (Medizing): one small force is sent to answer both possibilities."
       },
       {
         "start": 117,
@@ -2482,7 +2482,7 @@ window.PASSAGES = [
         "start": 112,
         "end": 234,
         "figure": "rhetorical question",
-        "why": "The question is already the reading of the house."
+        "why": "The question already gives Cicero's reading of the silent senate."
       },
       {
         "start": 576,
@@ -2544,7 +2544,7 @@ window.PASSAGES = [
         "start": 375,
         "end": 379,
         "figure": "rhetorical question",
-        "why": "The what that follows is already a jeer at the timid creature."
+        "why": "The what that follows mocks the timid creature."
       }
     ]
   },
@@ -2566,7 +2566,7 @@ window.PASSAGES = [
         "start": 28,
         "end": 96,
         "figure": "metaphor",
-        "why": "Grasp gives the city hands."
+        "why": "Grasp gives the people hands with which to hold the leaders."
       },
       {
         "start": 166,
@@ -2588,19 +2588,19 @@ window.PASSAGES = [
         "start": 46,
         "end": 218,
         "figure": "antithesis",
-        "why": "Death, or not death: the house is shown its two roads."
+        "why": "Death or no death: the senate is shown the two courses before it."
       },
       {
         "start": 185,
         "end": 296,
         "figure": "litotes",
-        "why": "Omits death, includes all other severities: the understatement of a hard mercy."
+        "why": "To omit death while including every other severity is to describe a harsh mercy in mild terms."
       },
       {
         "start": 298,
         "end": 362,
         "figure": "occupatio",
-        "why": "He occupies the charge that one motion is soft."
+        "why": "He forestalls the charge that one of the motions is lenient."
       }
     ]
   },
@@ -2616,7 +2616,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 112,
         "figure": "rhetorical question",
-        "why": "The question is already a doctrine of presence."
+        "why": "The question already contains a doctrine of God's presence."
       },
       {
         "start": 241,
@@ -2644,13 +2644,13 @@ window.PASSAGES = [
         "start": 127,
         "end": 280,
         "figure": "dilemma",
-        "why": "Both horns are hope, in a deliberative division of a last thing."
+        "why": "Both alternatives (the horns of the dilemma) offer hope, in a deliberative division of a last thing."
       },
       {
         "start": 336,
         "end": 380,
         "figure": "simile",
-        "why": "Death likened to a dreamless sleep, if the first horn holds."
+        "why": "Death is likened to a dreamless sleep, if the first alternative is true."
       },
       {
         "start": 127,
@@ -2672,13 +2672,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 59,
         "figure": "apostrophe",
-        "why": "The vocative comes first, then the claim that the speech is for them."
+        "why": "The direct address (vocative) comes first, and then the claim that the speech is for their sake."
       },
       {
         "start": 25,
         "end": 92,
         "figure": "antithesis",
-        "why": "Mine, yours: the defence is turned into a warning."
+        "why": "He argues for their sake rather than his own, and so the defence becomes a warning."
       },
       {
         "start": 289,
@@ -2728,7 +2728,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 61,
         "figure": "antithesis",
-        "why": "Two tempers need two words."
+        "why": "Two tempers require two different kinds of admonition."
       },
       {
         "start": 114,
@@ -2768,7 +2768,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 60,
         "figure": "anaphora",
-        "why": "Differently is still the word."
+        "why": "Differently is again the governing word."
       }
     ]
   },
@@ -2784,19 +2784,19 @@ window.PASSAGES = [
         "start": 149,
         "end": 233,
         "figure": "enumeratio",
-        "why": "Three names share one sea."
+        "why": "Three powers are named, and they share one sea."
       },
       {
         "start": 88,
         "end": 134,
         "figure": "sententia",
-        "why": "The summing-up is already a verdict."
+        "why": "The summing-up states the verdict the Corcyraeans want."
       },
       {
         "start": 243,
         "end": 380,
         "figure": "antithesis",
-        "why": "Two become one is the arithmetic of a naval war."
+        "why": "If two of the three powers become one, the naval balance is lost; the antithesis states that arithmetic."
       }
     ]
   },
@@ -2824,7 +2824,7 @@ window.PASSAGES = [
         "start": 69,
         "end": 187,
         "figure": "enumeratio",
-        "why": "The two lots are listed."
+        "why": "The two groups of Greeks are listed with their two fates."
       }
     ]
   },
@@ -2858,7 +2858,7 @@ window.PASSAGES = [
         "start": 138,
         "end": 194,
         "figure": "antithesis",
-        "why": "Pretend or dissemble: two faces serve one will."
+        "why": "Pretending and dissembling are two faces that serve one will."
       }
     ]
   },
@@ -2914,7 +2914,7 @@ window.PASSAGES = [
         "start": 84,
         "end": 127,
         "figure": "asyndeton",
-        "why": "Expelled, exiled, left: three verbs of going."
+        "why": "Three verbs of departure, expelled, exiled, and left, follow one another closely."
       }
     ]
   },
@@ -2936,7 +2936,7 @@ window.PASSAGES = [
         "start": 91,
         "end": 172,
         "figure": "hypotyposis",
-        "why": "The shore, the dogs, the birds: the scene is made ugly on purpose."
+        "why": "The shore, the dogs, and the birds are drawn so that the scene is deliberately repellent."
       },
       {
         "start": 61,
@@ -2964,7 +2964,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 50,
         "figure": "anaphora",
-        "why": "Differently is the word, as throughout."
+        "why": "Differently is the governing word here, as throughout."
       },
       {
         "start": 78,
@@ -2986,7 +2986,7 @@ window.PASSAGES = [
         "start": 44,
         "end": 138,
         "figure": "hypotyposis",
-        "why": "Inside all morning, now outside: the scene is a leaving of the city."
+        "why": "He has been inside all morning and is now going outside, so the scene is a departure from the city."
       },
       {
         "start": 185,
@@ -3014,13 +3014,13 @@ window.PASSAGES = [
         "start": 434,
         "end": 486,
         "figure": "antithesis",
-        "why": "The charge is split: the deed is killing; the mind was not."
+        "why": "The charge is divided: the deed was a killing, but the intention was not."
       },
       {
         "start": 687,
         "end": 823,
         "figure": "tricolon",
-        "why": "Three commands, rising from feeling to the city's rite."
+        "why": "There are three commands, rising from private feeling to the city's rite."
       }
     ],
     "species": "forensic",
@@ -3076,7 +3076,7 @@ window.PASSAGES = [
         "start": 276,
         "end": 385,
         "figure": "antithesis",
-        "why": "Two bodies, one throw: who moved from the assigned place?"
+        "why": "There are two bodies and one throw, and the question is which of them moved from the assigned place."
       },
       {
         "start": 387,
@@ -3144,13 +3144,13 @@ window.PASSAGES = [
         "start": 453,
         "end": 503,
         "figure": "metaphor",
-        "why": "Exile of the son is death of the father, still walking."
+        "why": "The son's exile is called the father's death, though the father still lives."
       },
       {
         "start": 18,
         "end": 72,
         "figure": "antithesis",
-        "why": "Erga and nomos are named together as the two acquittals."
+        "why": "The facts (erga) and the law (nomos) are named together as the two grounds of acquittal."
       },
       {
         "start": 410,
@@ -3190,7 +3190,7 @@ window.PASSAGES = [
         "start": 130,
         "end": 235,
         "figure": "antithesis",
-        "why": "Then against now: the character has shifted under need."
+        "why": "Then is set against now, and the man's character is said to have changed under need."
       }
     ],
     "species": "forensic",
@@ -3218,7 +3218,7 @@ window.PASSAGES = [
         "start": 96,
         "end": 121,
         "figure": "antithesis",
-        "why": "Erga come again, now applied to the feeling itself."
+        "why": "The pair of deeds (erga) and words returns, now applied to pity itself."
       },
       {
         "start": 301,
@@ -3252,7 +3252,7 @@ window.PASSAGES = [
         "start": 208,
         "end": 254,
         "figure": "hyperbole",
-        "why": "The exaggeration is the refutation."
+        "why": "The exaggeration refutes the defence by making it absurd."
       },
       {
         "start": 61,
@@ -3280,13 +3280,13 @@ window.PASSAGES = [
         "start": 196,
         "end": 241,
         "figure": "sententia",
-        "why": "This is a frank topos of forensic bias, rarer in a real court than in a school-piece."
+        "why": "This is a frank commonplace (topos) about forensic bias, rarer in a real court than in a school exercise."
       },
       {
         "start": 627,
         "end": 679,
         "figure": "antithesis",
-        "why": "Logos against ergon: blame the deed, not the precision of the speech."
+        "why": "Word (logos) is set against deed (ergon): blame should fall on the deed, not on the precision of the speech."
       },
       {
         "start": 243,
@@ -3320,7 +3320,7 @@ window.PASSAGES = [
         "start": 369,
         "end": 414,
         "figure": "antithesis",
-        "why": "Hamartia and poine fall in the same instant, on the same body."
+        "why": "The error (hamartia) and the penalty (poine) fall at the same instant on the same body."
       },
       {
         "start": 51,
@@ -3354,13 +3354,13 @@ window.PASSAGES = [
         "start": 375,
         "end": 425,
         "figure": "chiasmus",
-        "why": "The terms cross: praise and blame trade places."
+        "why": "The terms cross, so that praise and blame exchange places."
       },
       {
         "start": 473,
         "end": 537,
         "figure": "homoeoteleuton",
-        "why": "Wholly and holily: the ear is caught before the case begins."
+        "why": "Wholly and holily rhyme, so the ear is caught before the case begins."
       }
     ],
     "species": "epideictic",
@@ -3387,7 +3387,7 @@ window.PASSAGES = [
         "start": 134,
         "end": 186,
         "figure": "homoeoteleuton",
-        "why": "Confounded and dumbfounded: the rhyme is the argument's coat."
+        "why": "Confounded and dumbfounded rhyme, and the rhyme dresses the argument."
       },
       {
         "start": 386,
@@ -3453,13 +3453,13 @@ window.PASSAGES = [
         "start": 235,
         "end": 329,
         "figure": "isocolon",
-        "why": "Two pairs set fear against joy, like the drug's two hands."
+        "why": "Two pairs set fear against joy, like the two effects of a drug."
       },
       {
         "start": 521,
         "end": 607,
         "figure": "homoeoteleuton",
-        "why": "The matching -ation is the proof that poetry moves."
+        "why": "The matching -ation endings are offered as proof that poetry moves the hearer."
       }
     ],
     "species": "epideictic",
@@ -3486,13 +3486,13 @@ window.PASSAGES = [
         "start": 179,
         "end": 240,
         "figure": "tricolon",
-        "why": "Three verbs make one seizure."
+        "why": "Three verbs describe one act of seizing the soul."
       },
       {
         "start": 273,
         "end": 307,
         "figure": "metaphor",
-        "why": "Peitho (persuasion) is named as magic, the drug of the study card."
+        "why": "Peitho (persuasion) is named as magic, the drug described in the study card."
       }
     ],
     "species": "epideictic",
@@ -3513,19 +3513,19 @@ window.PASSAGES = [
         "start": 0,
         "end": 36,
         "figure": "rhetorical question",
-        "why": "The question is the verdict."
+        "why": "The question states Gorgias's verdict: Helen is not to be blamed."
       },
       {
         "start": 50,
         "end": 151,
         "figure": "isocolon",
-        "why": "The four aitiai come in four matching limbs."
+        "why": "The four aitiai (causes) come in four matching limbs."
       },
       {
         "start": 437,
         "end": 495,
         "figure": "homoeoteleuton",
-        "why": "The last rhyme confesses the genre: this was play, and praise."
+        "why": "The last rhyme admits the genre, since the speech was play as well as praise."
       }
     ],
     "species": "epideictic",
@@ -3591,7 +3591,7 @@ window.PASSAGES = [
         "start": 258,
         "end": 306,
         "figure": "sententia",
-        "why": "The old virtue makes the new injury worse."
+        "why": "Their former good conduct makes the present injury worse."
       }
     ],
     "species": "deliberative",
@@ -3651,7 +3651,7 @@ window.PASSAGES = [
         "start": 124,
         "end": 216,
         "figure": "definition",
-        "why": "The name is given from the end of the politeia."
+        "why": "The name democracy is taken from the end the constitution (politeia) serves."
       },
       {
         "start": 143,
@@ -3678,7 +3678,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 34,
         "figure": "sententia",
-        "why": "It is a hard gnome (maxim): pity and empire do not keep house together."
+        "why": "It is a hard maxim (gnome), and its point is that pity and empire cannot live together."
       },
       {
         "start": 40,
@@ -3777,13 +3777,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 67,
         "figure": "hypothesis",
-        "why": "The opening conditional is praise dressed as condition."
+        "why": "The opening conditional is really praise, put in the form of a condition."
       },
       {
         "start": 131,
         "end": 194,
         "figure": "climax",
-        "why": "Hopes rise to power."
+        "why": "The members rise from mighty hopes to absolute power."
       },
       {
         "start": 264,
@@ -3810,7 +3810,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 53,
         "figure": "sententia",
-        "why": "The gnome is the whole case: stay inside the law."
+        "why": "The maxim (gnome) contains Caesar's whole case, which is to stay within the law."
       },
       {
         "start": 204,
@@ -3888,7 +3888,7 @@ window.PASSAGES = [
         "start": 292,
         "end": 327,
         "figure": "ethos",
-        "why": "The name is the credit, and also the coming irony."
+        "why": "His name is offered as his credit, and it also prepares the irony to come."
       }
     ],
     "species": "deliberative",
@@ -3909,7 +3909,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 54,
         "figure": "mythos",
-        "why": "An aetiological myth serves as a deliberative proof of why all must share dike (justice)."
+        "why": "A myth of origins (an aetiological myth) serves as a deliberative proof of why all must share dike (justice)."
       },
       {
         "start": 63,
@@ -3976,7 +3976,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 37,
         "figure": "rhetorical question",
-        "why": "The question is the search."
+        "why": "The question begins the search for what he loves."
       },
       {
         "start": 38,
@@ -4010,7 +4010,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 17,
         "figure": "rhetorical question",
-        "why": "The opening is the whole aporia."
+        "why": "The opening question states the whole difficulty (aporia)."
       },
       {
         "start": 18,
@@ -4050,7 +4050,7 @@ window.PASSAGES = [
         "start": 1278,
         "end": 1336,
         "figure": "exclamatio",
-        "why": "He turns on himself."
+        "why": "He turns his cry against himself."
       }
     ],
     "orig": "9. Furtum certe punit lex tua, Domine et lex scripta in cordibus hominumCf. Rom 2, 14–15; cf. Ex 20, 15; Lev 15, 11; Deut 5, 19., quam ne ipsa quidem delet iniquitas; quis enim fur aequo animo furem patitur? Nec copiosus adactum inopia. Et ego furtum facere volui et feci nulla compulsus egestate nisi penuria et fastidio iustitiae et sagina iniquitatis. Nam id furatus sum, quod mihi abundabat et multo melius, nec ea re volebam frui, quam furto appetebam, sed ipso furto et peccato. Arbor erat pirus in vicinia nostrae vineae pomis onusta nec forma nec sapore illecebrosis. Ad hanc excutiendam atque asportandam nequissimi adulescentuli perreximus nocte intempesta, quousque ludum de pestilentiae more in areis produxeramus, et abstulimus inde onera ingentia non ad nostras epulas, sed vel proicienda porcis, etiamsi aliquid inde comedimus, dum tamen fieret a nobis quod eo liberet, quo non liceret",
@@ -4072,7 +4072,7 @@ window.PASSAGES = [
         "start": 89,
         "end": 199,
         "figure": "rhetorical question",
-        "why": "The question is a prohibition."
+        "why": "The question works as a prohibition: no one should dare to say it."
       },
       {
         "start": 173,
