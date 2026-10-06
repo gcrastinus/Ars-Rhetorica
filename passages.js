@@ -3704,7 +3704,7 @@ window.PASSAGES = [
     "author": "Diodotus (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "3.42",
-    "cue": "On Mytilene, Diodotus argues against haste, setting good counsel against anger.",
+    "cue": "On Mytilene, Diodotus argues against haste, setting good counsel against passion.",
     "text": "I do not blame the persons who have reopened the case of the Mitylenians, nor do I approve the protests which we have heard against important questions being frequently debated. I think the two things most opposed to good counsel are haste and passion; haste usually goes hand in hand with folly, passion with coarseness and narrowness of mind. As for the argument that speech ought not to be the exponent of action, the man who uses it must be either senseless or interested: senseless if he believes it possible to treat of the uncertain future through any other medium; interested if, wishing to carry a disgraceful measure and doubting his ability to speak well in a bad cause, he thinks to frighten opponents and hearers by well-aimed calumny. What is still more intolerable is to accuse a speaker of making a display in order to be paid for it.",
     "spans": [
       {

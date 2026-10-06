@@ -380,7 +380,7 @@ window.QUIZ_DOCTRINE = [
     options:['Whether a javelin was thrown at all','How the act is to be named and caused — error (hamartia), and whose','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
     correct:1, note:'Forensic oratory at the limit: narration collapses; invention works on description and cause.'},
   {div:'VII', prompt:'Augustine keeps Cicero’s three offices. They are',
-    options:['Grammar, logic, and rhetoric','To teach, to delight, to move (docere, delectare, movere)','Ethos, pathos, and logos','Opening, narration, and proof'],
+    options:['Grammar, logic, and rhetoric','To teach, to delight, to move (docere, delectare, flectere)','Ethos, pathos, and logos','Opening, narration, and proof'],
     correct:1, note:'DDC IV. The end is Scripture’s truth, not a fee. The test of the grand style is tears, not applause.'},
   {div:'VII', prompt:'The sign that a grand-style sermon has done its office, for Augustine, is',
     options:['Applause and the preacher’s name','Tears, and a change of life','A perfect isocolon in every member','The suppression of all figures as worldly'],

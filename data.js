@@ -16,7 +16,7 @@ const SRC = {
   quint:{kind:'primary', short:'Quintilian, <i>Institutio oratoria</i>',
     full:'Quintilian, <i>Institutio oratoria</i>, trans. H. E. Butler, Loeb (1920–22). Public domain in the United States.', note:''},
   ddc:{kind:'primary', short:'Augustine, <i>De doctrina christiana</i> IV',
-    full:'Augustine, <i>De doctrina christiana</i> Book IV, trans. J. F. Shaw, NPNF I.2. Public domain. Latin from the Maurist text. Docere, delectare, movere; three styles; tears, not applause.',
+    full:'Augustine, <i>De doctrina christiana</i> Book IV, trans. J. F. Shaw, NPNF I.2. Public domain. Latin from the Maurist text. Docere, delectare, flectere; three styles; tears, not applause.',
     note:'The Aquinas Institute English on augustinus.cc is not used.'},
   aug_pusey:{kind:'primary', short:'Augustine, <i>Confessions</i>, trans. Pusey',
     full:'Augustine, <i>Confessions</i>, trans. E. B. Pusey. Public domain. Latin from augustinus.cc (Maurist).', note:''},
@@ -151,9 +151,9 @@ DECKS.taxis = {
 DECKS.lexis = {
   title:'Style', sub:'Lexis — clarity, propriety, metaphor — not scored',
   panels:[
-{ src:['arist_rhet'], h:'<p><strong>Virtue of style.</strong> Aristotle (III.2) asks that style be clear, and neither mean nor above the dignity of the subject. “The greatest thing by far is to be a master of metaphor.” So clarity comes first and ornament second, and the vice of the sophist is to make the style do the work of the argument.</p><p>Gorgias is the exhibit here. Van Hook’s Helen is almost all figure: antithesis, isocolon, homoeoteleuton. This is not a mistake but a demonstration of what logos can do when it is treated as a drug, and Aristotle admires the power while he distrusts the use.</p>' },
+{ src:['arist_rhet'], h:'<p><strong>Virtue of style.</strong> Aristotle (III.2) asks that style be clear, and neither mean nor above the dignity of the subject. In the <em>Poetics</em> (1459a) he writes: “The greatest thing by far is to be a master of metaphor.” So clarity comes first and ornament second, and the vice of the sophist is to make the style do the work of the argument.</p><p>Gorgias is the exhibit here. Van Hook’s Helen is almost all figure: antithesis, isocolon, homoeoteleuton. This is not a mistake but a demonstration of what logos can do when it is treated as a drug, and Aristotle admires the power while he distrusts the use.</p>' },
 { src:['gorgias_vh','arist_rhet'], h:'<p><strong>Figures the ear can name.</strong> Here is a short working list of figures of speech, which are neither the means of persuasion nor the offices of the oration:</p><ul style="margin:8px 0 8px 22px"><li><strong>Anaphora</strong>: the same word at the head of successive members.</li><li><strong>Antithesis</strong>: opposed thoughts in parallel frames.</li><li><strong>Tricolon</strong>: three members, often rising.</li><li><strong>Isocolon</strong>: members of equal length.</li><li><strong>Homoeoteleuton</strong>: like endings (Gorgias’s signature).</li><li><strong>Apostrophe</strong>: a turn to address someone present or absent.</li><li><strong>Rhetorical question</strong>: a question that is really a charge.</li><li><strong>Metaphor</strong>: naming one thing with another’s name.</li><li><strong>Irony</strong>: saying the less, or the opposite, to mean the more.</li><li><strong>Chiasmus</strong>: a crossing of terms in the order ABBA.</li></ul><p>The figures exercises that follow ask us to find these in a real passage. They do not ask us to name ethos, or pathos, or an exordium, because those belong to invention and arrangement.</p>' },
-{ src:['gorgias_vh','thuc_crawley'], h:'<p><strong>When style does the work of argument.</strong> Aristotle’s warning is practical, as two sentences will show.</p><p>Gorgias says of logos that it is “a powerful potentate, who with frailest, feeblest frame works wonders.” Here the figure is the claim: speech is small and does what a ruler does. If we strip away the antithesis and the personification, little argument remains.</p><p>Diodotus says of counsel: “Haste and anger are the two things most opposed to good counsel.” We may keep or drop the balance of the members, and the claim still stands. That is style serving an argument, not replacing one.</p><p>The exercise in this division asks which is which. The Gorgias figures set in Division VI drills the ear, and this exercise trains the judgment that should follow the ear.</p>' }
+{ src:['gorgias_vh','thuc_crawley'], h:'<p><strong>When style does the work of argument.</strong> Aristotle’s warning is practical, as two sentences will show.</p><p>Gorgias says of logos that it is “a powerful potentate, who with frailest, feeblest frame works wonders.” Here the figure is the claim: speech is small and does what a ruler does. If we strip away the antithesis and the personification, little argument remains.</p><p>Diodotus says of counsel: “I think the two things most opposed to good counsel are haste and passion.” We may keep or drop the balance of the members, and the claim still stands. That is style serving an argument, not replacing one.</p><p>The exercise in this division asks which is which. The Gorgias figures set in Division VI drills the ear, and this exercise trains the judgment that should follow the ear.</p>' }
 ]};
 
 
@@ -182,10 +182,10 @@ DECKS.antiphon = {
 ]};
 
 DECKS.augustine = {
-  title:'Augustine · The Christian Orator', sub:'Docere, delectare, movere — not scored',
+  title:'Augustine · The Christian Orator', sub:'Docere, delectare, flectere — not scored',
   panels:[
-{ src:['ddc','cic_orat'], h:'<p><strong>Three offices, kept.</strong> Augustine in <em>De doctrina christiana</em> IV does not throw Cicero away. The orator’s work is still to <strong>teach</strong>, to <strong>delight</strong>, and to <strong>move</strong> (<span class="lat">docere, delectare, movere</span>). What changes is the end: the Christian orator serves the truth already found in Scripture, and he does not invent a case for pay. So eloquence is not refused but subordinated.</p><p>Three styles go with the three offices: the subdued (<span class="lat">summissum</span>) for teaching, the temperate (<span class="lat">temperatum</span>) for praise and blame, and the grand (<span class="lat">grande</span>) for moving to action. The orator should mix them and should not use the grand style everywhere.</p>' },
-{ src:['ddc'], h:'<p><strong>Tears, not applause.</strong> Augustine tells of preaching at Caesarea in Mauretania against the civil brawl called the Caterva. He did not want their shouts but their tears, and when they wept, he knew the speech had done its office. So the test of Christian rhetoric is not the noise in the room but whether the hearer is changed.</p><p>The <em>Confessions</em> are not orations, but they are rhetorically alive: the stolen pears, <em>da mihi castitatem et continentiam, sed noli modo</em>, the child’s voice, “too late have I loved thee,” and “what is time?”</p>',
+{ src:['ddc','cic_orat'], h:'<p><strong>Three offices, kept.</strong> Augustine in <em>De doctrina christiana</em> IV does not throw Cicero away. The orator’s work is still to <strong>teach</strong>, to <strong>delight</strong>, and to <strong>move</strong> (<span class="lat">docere, delectare, flectere</span>). What changes is the end: the Christian orator serves the truth already found in Scripture, and he does not invent a case for pay. So eloquence is not refused but subordinated.</p><p>Three styles go with the three offices: the subdued (<span class="lat">summissum</span>) for teaching, the temperate (<span class="lat">temperatum</span>) for praise and blame, and the grand (<span class="lat">grande</span>) for moving to action. The orator should mix them and should not use the grand style everywhere.</p>' },
+{ src:['ddc'], h:'<p><strong>Tears, not applause.</strong> Augustine tells of preaching at Caesarea in Mauretania against the civil brawl called the Caterva. He did not want their shouts but their tears, and when they wept, he knew the speech had done its office. So the test of Christian rhetoric is not the noise in the room but whether the hearer is changed.</p><p>The <em>Confessions</em> are not orations, but they are rhetorically alive: the stolen pears, <em>da mihi castitatem et continentiam, sed noli modo</em>, the child’s voice, “too late loved I Thee,” and “what is time?”</p>',
   q:{ prompt:'For Augustine, the sign that a grand-style sermon has succeeded is',
       options:['Applause and the reputation of the preacher','Tears, and a change of life: the hearer moved to act','A perfect isocolon in every member','The suppression of all figures as worldly'],
       correct:1,
@@ -294,41 +294,41 @@ const TAXIS_ITEMS = [
 ];
 const ENTHYMEMES = [
   {id:'e1', said:'Catiline still lives — and sits in the senate.', missing:'A man who plots the massacre of the senate ought not to sit in it.',
-    distractors:['All senators live in Rome','Javelins always fly true','Helen is not to be blamed'], src:'cic_cat', cite:'Cicero, First Catilinarian 1.2'},
+    distractors:['All senators live in Rome.','Javelins always fly true.','Helen is not to be blamed.'], src:'cic_cat', cite:'Cicero, First Catilinarian 1.2'},
   {id:'e2', said:'My boy was struck by this young man’s javelin and died; I charge him with unintentional homicide.', missing:'Whoever caused a death, even without intent, is liable for the killing.',
-    distractors:['The stronger is always just','Poetry is composition in meter','Athens should invade Sicily'], src:'antiphon', cite:'Antiphon, Second Tetralogy 3.1'},
+    distractors:['The stronger is always just.','Poetry is composition in meter.','Athens should invade Sicily.'], src:'antiphon', cite:'Antiphon, Second Tetralogy 3.1'},
   {id:'e3', said:'If logos deceived her, Helen is not culpable.', missing:'One who is acted on by a cause as strong as a drug or a kidnapper’s hand is not the author of the act.',
-    distractors:['All praise is epideictic','The jury must be well-disposed','Metaphor is the soul of style'], src:'gorgias_vh', cite:'Gorgias, Helen 8–14'},
+    distractors:['All praise is epideictic.','The jury must be well-disposed.','Metaphor is the soul of style.'], src:'gorgias_vh', cite:'Gorgias, Helen 8–14'},
   {id:'e4', said:'A democracy is incapable of empire — so Cleon, urging that Mytilene be punished without reopening the case.', missing:'To hold empire one must be willing to punish without being talked out of it.',
-    distractors:['All democracies are just','The funeral oration is forensic','Solon was happier than Croesus'], src:'thuc_crawley', cite:'Thucydides 3.37, Cleon'},
+    distractors:['All democracies are just.','The funeral oration is forensic.','Solon was happier than Croesus.'], src:'thuc_crawley', cite:'Thucydides 3.37, Cleon'},
   {id:'e5', said:'I have not lived so long, Lacedaemonians, without having had the experience of many wars.', missing:'Experience of war teaches that it is not to be longed for as a good.',
-    distractors:['Sparta has no assembly','Pathos is the only pistis','The boy ran out on purpose'], src:'thuc_crawley', cite:'Thucydides 1.80, Archidamus'},
-  {id:'e6', said:'We do not copy our neighbours, but are an example to them.', missing:'What is original and successful is more to be praised than what is borrowed.',
-    distractors:['All copying is theft','Juries judge the future','Augustine forbids eloquence'], src:'thuc_crawley', cite:'Thucydides 2.37, Pericles'},
+    distractors:['Sparta has no assembly.','Pathos is the only pistis.','The boy ran out on purpose.'], src:'thuc_crawley', cite:'Thucydides 1.80, Archidamus'},
+  {id:'e6', said:'Our constitution does not copy the laws of neighbouring states; we are rather a pattern to others than imitators ourselves.', missing:'What is original and successful is more to be praised than what is borrowed.',
+    distractors:['All copying is theft.','Juries judge the future.','Augustine forbids eloquence.'], src:'thuc_crawley', cite:'Thucydides 2.37, Pericles'},
   {id:'e7', said:'The unwritten laws of Heaven were not born today nor yesterday; they die not, and none knows their birth.', missing:'A human decree cannot override a law that is not of human making.',
-    distractors:['Creon is the author of divine law','Antigone is a deliberative speech to an assembly','All laws are written'], src:'soph_storr', cite:'Sophocles, Antigone 450–457 (Storr)'},
+    distractors:['Creon is the author of divine law.','Antigone is a deliberative speech to an assembly.','All laws are written.'], src:'soph_storr', cite:'Sophocles, Antigone 450–457 (Storr)'},
   {id:'e8', said:'Men are not born with the art of politics; Zeus sent Hermes with dike and aidos for all.', missing:'If justice and shame had been given only to a few, cities could not stand.',
-    distractors:['Only philosophers should rule from birth','Helen went by violence only','The javelin is a tekmerion of intent'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'},
+    distractors:['Only philosophers should rule from birth.','Helen went by violence only.','The javelin is a tekmerion of intent.'], src:'plato_jowett', cite:'Plato, Protagoras 322c–d (Jowett)'},
   {id:'e9', said:'The unexamined life is not worth living.', missing:'A life that is not worth living ought not to be chosen even to escape death.',
-    distractors:['All Athenians examine their lives','The funeral oration is forensic','Javelins always miss the mark'], src:'plato_jowett', cite:'Plato, Apology (Jowett)'},
+    distractors:['All Athenians examine their lives.','The funeral oration is forensic.','Javelins always miss the mark.'], src:'plato_jowett', cite:'Plato, Apology (Jowett)'},
   {id:'e10', said:'The strong do what they can and the weak suffer what they must.', missing:'Right has no standing where power is unequal; only interest remains.',
-    distractors:['Melos is a Spartan colony only in name','Pericles forbids counsel','All pity is weakness'], src:'thuc_crawley', cite:'Thucydides 5.89, Melian dialogue'},
+    distractors:['Melos is a Spartan colony only in name.','Pericles forbids counsel.','All pity is weakness.'], src:'thuc_crawley', cite:'Thucydides 5.89, Melian dialogue'},
   {id:'e11', said:'Inflict only such penalties as the laws have provided.', missing:'A penalty not in the law is itself a new crime against the republic.',
-    distractors:['Caesar wishes the conspirators freed without trial','All fear is irascible','Helen went by love only'], src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
+    distractors:['Caesar wishes the conspirators freed without trial.','All fear is irascible.','Helen went by love only.'], src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
   {id:'e12', said:'Give me chastity and continency, only not yet.', missing:'A prayer that postpones the good it names is still a love of the old disease.',
-    distractors:['Augustine forbids all eloquence','Shame is only irascible','The senate sits in the temple of Jupiter'], src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
+    distractors:['Augustine forbids all eloquence.','Shame is only irascible.','The senate sits in the temple of Jupiter.'], src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
   {id:'e13', said:'I have a better right to command than others — I must begin with this as Nicias has attacked me.', missing:'The man whose private splendour brings the city profit is fit to command.',
-    distractors:['Nicias has no ships','All epideictic is funeral oration','The javelin is a necessary sign of intent'], src:'thuc_crawley', cite:'Thucydides 6.16, Alcibiades'},
+    distractors:['Nicias has no ships.','All epideictic is funeral oration.','The javelin is a necessary sign of intent.'], src:'thuc_crawley', cite:'Thucydides 6.16, Alcibiades'},
   {id:'e14', said:'An eloquent man must speak so as to teach, to delight, and to persuade.', missing:'These three offices belong to the same orator, not to three different arts.',
-    distractors:['Delight is the only necessity','Forensic speech has no close','All signs are necessary'], src:'ddc', cite:'Augustine, De doctrina christiana IV'},
+    distractors:['Delight is the only necessity.','Forensic speech has no close.','All signs are necessary.'], src:'ddc', cite:'Augustine, De doctrina christiana IV'},
   {id:'e15', said:'There are but three considerable naval powers in Hellas—Athens, Corcyra, and Corinth—and if you allow two of these three to become one, you will have to fight the two together.', missing:'It is folly to let two naval powers combine against you when you might keep one as an ally.',
-    distractors:['Corinth has no ships','Pity is the only passion of war','Catiline sits in the senate by right'], src:'thuc_crawley', cite:'Thucydides 1.36, Corcyra'},
+    distractors:['Corinth has no ships.','Pity is the only passion of war.','Catiline sits in the senate by right.'], src:'thuc_crawley', cite:'Thucydides 1.36, Corcyra'},
   {id:'e16', said:'To-day has brought to a close the long silence which I had observed during the recent troubles.', missing:'When the republic can again hear a free voice, the orator ought to speak.',
-    distractors:['Marcellus was never pardoned','All silence is shame','The Melian dialogue is epideictic'], src:'cic_orat', cite:'Cicero, Pro Marcello 1'},
+    distractors:['Marcellus was never pardoned.','All silence is shame.','The Melian dialogue is epideictic.'], src:'cic_orat', cite:'Cicero, Pro Marcello 1'},
   {id:'e17', said:'Fear not, for you shall not be confounded — so the poor are to be comforted, while the rich are to be made afraid of elation.', missing:'The same vice is not cured by the same word in every hearer.',
-    distractors:['Gregory forbids preaching to the rich','All hearers are moved only by fear','Figures replace a doctrine of the hearer'], src:'greg', cite:'Gregory, Pastoral Care III'},
+    distractors:['Gregory forbids preaching to the rich.','All hearers are moved only by fear.','Figures replace a doctrine of the hearer.'], src:'greg', cite:'Gregory, Pastoral Care III'},
   {id:'e18', said:'Although I am afraid, gentlemen of the jury, that fear is unseemly in a speech for the bravest of men.', missing:'If even the advocate of the brave man is afraid, the danger to the republic is real.',
-    distractors:['Milo asked to be left undefended','All exordia are captationes','The javelin proves intent'], src:'cic_cat', cite:'Cicero, Pro Milone 1'}
+    distractors:['Milo asked to be left undefended.','All exordia are captationes.','The javelin proves intent.'], src:'cic_cat', cite:'Cicero, Pro Milone 1'}
 ];
 const PASSIONS = [
   {id:'p1', name:'anger', appetite:'irascible', text:'How much further, Catilina, will you carry your abuse of our forbearance?', cite:'Cicero, Catilinarian 1.1', src:'cic_cat', why:'Aristotle defines anger (II.2) as a desire, accompanied by pain, for conspicuous revenge, toward one who has slighted us.'},
@@ -347,12 +347,12 @@ const PASSIONS = [
   {id:'p14', name:'love', appetite:'concupiscible', text:'But what do I love, when I love Thee? not beauty of bodies, nor the fair harmony of time, nor the brightness of the light.', cite:'Augustine, Confessions X (Pusey)', src:'aug_pusey', why:'This is love seeking its object by denying lesser goods (II.4; Aquinas I–II on the concupiscible).'},
   {id:'p15', name:'confidence', appetite:'irascible', text:'If your courage and fidelity had not been sufficiently proved by me, this favorable opportunity would have occurred to no purpose; mighty hopes, absolute power, would in vain be within our grasp.', cite:'Sallust, Catiline 20', src:'sallust_w', why:'This is confidence as an imagination of safety and of goods within reach (II.5), and here it is a conspirator’s confidence.'},
   {id:'p16', name:'shame', appetite:'concupiscible', text:'How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth.', cite:'Plato, Apology (Jowett)', src:'plato_jowett', why:'Socrates would have the jury feel the shame of being moved by a lie (II.6).'},
-  {id:'p17', name:'indignation', appetite:'irascible', text:'Haste and anger are the two things most opposed to good counsel.', cite:'Thucydides 3.42, Diodotus', src:'thuc_crawley', why:'Diodotus would have the assembly feel indignation at being rushed, not only pity for Mytilene (II.9).'},
+  {id:'p17', name:'indignation', appetite:'irascible', text:'I think the two things most opposed to good counsel are haste and passion.', cite:'Thucydides 3.42, Diodotus', src:'thuc_crawley', why:'Diodotus would have the assembly feel indignation at being rushed, not only pity for Mytilene (II.9).'},
   {id:'p18', name:'kindness', appetite:'concupiscible', text:'The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself.', cite:'Gregory, Pastoral Care II (Barmby)', src:'greg', why:'This is kindness as wishing another’s good and taking his ills as one’s own (II.7).'}
 ];
 const DEBATES = [
   {id:'d-arch', title:'War with Athens', a:{who:'Archidamus', pid:'thuc-arch-1', claim:'Do not rush to war; experience teaches its cost.'}, b:{who:'Sthenelaidas', pid:'thuc-sthen-1', claim:'Vote the war; the Athenians are in the wrong.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.80 / 1.86'},
-  {id:'d-myt', title:'Mytilene', a:{who:'Cleon', pid:'thuc-cleon-1', claim:'A democracy that talks cannot hold empire; do not reopen the sentence.'}, b:{who:'Diodotus', pid:'thuc-diod-1', claim:'Haste and anger are the two things most opposed to good counsel.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 3.37 / 3.42'},
+  {id:'d-myt', title:'Mytilene', a:{who:'Cleon', pid:'thuc-cleon-1', claim:'A democracy that talks cannot hold empire; do not reopen the sentence.'}, b:{who:'Diodotus', pid:'thuc-diod-1', claim:'Haste and passion are the two things most opposed to good counsel.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 3.37 / 3.42'},
   {id:'d-fun', title:'Pericles’ funeral oration', a:{who:'Pericles (the custom)', pid:'thuc-fun-1', claim:'I shall speak of the city, not only of the men.'}, b:{who:'Pericles (the city)', pid:'thuc-fun-2', claim:'Our constitution does not copy our neighbours; we are an example.'}, species:'epideictic', src:'thuc_crawley', locus:'Thucydides 2.35 / 2.37'},
   {id:'d-cat', title:'The Catilinarian conspirators', a:{who:'Catiline', pid:'sal-cat-consp', claim:'The conspirators are called to dare, as men dispossessed.'}, b:{who:'Caesar', pid:'sal-caes-1', claim:'Inflict only such penalties as the laws have provided.'}, species:'deliberative', src:'sallust_w', locus:'Sallust, Catiline 20 / 51'},
   {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.'}, b:{who:'The thrower (defence)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'},
@@ -433,7 +433,7 @@ const PISTEIS_ITEMS = [
   {pid:'cic-cat1-1', pistis:'pathos', why:'The questions are not for information; they put the senate into alarm and shame.'},
   {pid:'ant-3.2.1', pistis:'ethos', why:'The quiet man is forced into court against his nature, and his character serves as proof.'},
   {pid:'gor-hel-8', pistis:'logos', why:'Gorgias makes a claim about what logos is and offers it as the ground of Helen’s acquittal.'},
-  {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and anger oppose good deliberation.'},
+  {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and passion oppose good deliberation.'},
   {pid:'ant-3.1.1', pistis:'logos', why:'The facts are agreed, so the charge is a description of cause.'},
   {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual captatio; the manner of speaking is the proof of the man.'},
   {pid:'aug-chast', pistis:'pathos', why:'The divided will is staged so that the hearer feel the shame of “not yet.”'},
@@ -493,7 +493,7 @@ const LEXIS_ITEMS = [
     correct:0, note:'Helen 8 presents logos as a potentate. If we remove the personification and the antithesis of frail frame and wonders, the doctrine has little left but the image.'},
   {id:'lx2', pid:'thuc-diod-1', kind:'style',
     prompt:'Does the argument here still stand once the figures are stripped away, or is the figure doing the work of the claim?',
-    options:['The figure is the claim; without the balance of members nothing is being argued','The claim would stand in plain clauses: haste and anger oppose good counsel','This is only an exordium of goodwill','This is epideictic praise of Athens'],
+    options:['The figure is the claim; without the balance of members nothing is being argued','The claim would stand in plain clauses: haste and passion oppose good counsel','This is only an exordium of goodwill','This is epideictic praise of Athens'],
     correct:1, note:'Diodotus’s sentence can be said without isocolon. The argument is about counsel, not about the shape of the clause.'},
   {id:'lx3', pid:'ant-3.1.1', kind:'style',
     prompt:'Does the argument here still stand once the figures are stripped away, or is the figure doing the work of the claim?',
@@ -512,7 +512,7 @@ const LEXIS_ITEMS = [
     options:['Only decoration, with no work on the hearer','Rhetorical questions that put the senate into alarm; the figure is doing pathos, and the charge is still there without them, but weaker','A complete proof from a necessary sign','The office of narration'],
     correct:1, note:'The questions are a charge. The fact they rest on (the conspiracy known) would remain in plain assertion; the questions are how the hearer is moved to feel it.'},
   {id:'lx7', pid:'thuc-fun-2', kind:'style',
-    prompt:'“We do not copy our neighbours, but are an example to them.” If we drop the antithesis, what remains?',
+    prompt:'“Our constitution does not copy the laws of neighbouring states; we are rather a pattern to others than imitators ourselves.” If we drop the antithesis, what remains?',
     options:['Nothing: the whole praise was the figure','A claim about Athens that can still be judged true or false as praise','A forensic narration of a crime','A tetralogy’s second speech'],
     correct:1, note:'The antithesis serves the praise, and the claim (Athens is original) is still a claim when it is said without the turn.'},
   {id:'lx8', pid:'gor-hel-6', kind:'style',
@@ -526,7 +526,7 @@ const LEXIS_ITEMS = [
   {id:'lx10', pid:'aug-ddc-24', kind:'style',
     prompt:'Augustine at Caesarea wanted tears, not applause. On his account, the grand style has succeeded when',
     options:['The members are equal and the endings match','The hearer is moved to a change of life, even if the room is silent','The preacher is known for isocolon','All figures have been suppressed as worldly'],
-    correct:1, note:'In DDC IV the majestic style is known by its tears. Style serves an office (movere), not display.'}
+    correct:1, note:'In DDC IV the majestic style is known by its tears. Style serves an office (flectere), not display.'}
 ];
 const AUG_ITEMS = [
   {id:'au1', pid:'aug-ddc-12',
@@ -540,7 +540,7 @@ const AUG_ITEMS = [
   {id:'au3', pid:'aug-ddc-24',
     prompt:'The sign that the grand style has done its office is',
     options:['Applause and the preacher’s name','Tears, and a change: at Caesarea, the Caterva ended','A perfect homoeoteleuton in every member','The suppression of all Cicero'],
-    correct:1, note:'He asked for groans, not cheers, and the Caterva story is the emblem of movere.'},
+    correct:1, note:'He asked for groans, not cheers, and the Caterva story is the emblem of flectere.'},
   {id:'au4', pid:'aug-ddc-2',
     prompt:'Why may the Christian use rhetoric?',
     options:['Because winning a case for pay is the end of the art','Because truth must not stand unarmed against those who use the art for falsehood','Because figures are themselves sacraments','Because Augustine forbids the subdued style'],
@@ -548,7 +548,7 @@ const AUG_ITEMS = [
   {id:'au5', pid:'aug-ddc-17',
     prompt:'The temperate style, on Augustine’s map, is especially for',
     options:['Teaching a difficult doctrine','Praise and blame: to delight, and to make the good attractive','Moving a mob to arms only','Silent prayer'],
-    correct:1, note:'The temperate style serves delectare, showing the good as lovely; the grand serves movere, pushing the will to act.'},
+    correct:1, note:'The temperate style serves delectare, showing the good as lovely; the grand serves flectere, pushing the will to act.'},
   {id:'au6', pid:'aug-serm-1',
     prompt:'A sermon that opens by asking to be heard as God’s word in an earthen vessel is chiefly',
     options:['Display of the preacher’s ethos as a sophist','Teaching (docere) in the subdued style, with a little ethos of humility','A forensic narration of a homicide','Gorgias’s four aitiai'],
@@ -559,7 +559,7 @@ const AUG_ITEMS = [
     correct:1, note:'Augustine keeps Cicero’s offices and changes the end, since the Christian orator serves a truth already found.'},
   {id:'au8', pid:'aug-ddc-24',
     prompt:'If the room shouts and does not weep, Augustine’s judgment of a grand-style sermon is that',
-    options:['It has succeeded: noise is the test','It has not yet done the office of moving (movere)','It has proved the four aitiai','It has completed a tetralogy'],
+    options:['It has succeeded: noise is the test','It has not yet done the office of moving (flectere)','It has proved the four aitiai','It has completed a tetralogy'],
     correct:1, note:'Applause can be the delight of the temperate style, but the grand style is for a change of life.'}
 ];
 function passages(){
@@ -720,7 +720,7 @@ EX.ethos = {
 };
 EX.pathos = {
   id:'pathos', title:'Name the Passion',
-  instr:'This exercise joins Aristotle’s passions (Rhetoric II) with Aquinas’s passions of attraction (concupiscible) and of repulsion (irascible). Ten questions make a set; a passage is not repeated in the set.',
+  instr:'This exercise joins Aristotle’s passions (Rhetoric II) with Aquinas’s passions concerning good or evil as such (concupiscible) and passions concerning the arduous good or evil (irascible). Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet','aquinas_st'],
   gen(diff){
     const e = pickSeen(itemPool('PASSIONS', PASSIONS), x => 'pa:'+x.id);
@@ -1044,7 +1044,7 @@ EX.whole = {
 };
 EX.augoffice = {
   id:'augoffice', title:'The Christian orator',
-  instr:'Augustine keeps Cicero’s three offices, to teach, to delight, and to move (docere, delectare, movere), along with the three styles; but the end is now Scripture’s truth, not a fee. Ten questions; a passage is not repeated in the set.',
+  instr:'Augustine keeps Cicero’s three offices, to teach, to delight, and to move (docere, delectare, flectere), along with the three styles; but the end is now Scripture’s truth, not a fee. Ten questions; a passage is not repeated in the set.',
   src:['ddc'],
   setLen:8,
   gen(diff){
@@ -1093,7 +1093,7 @@ const ACTS = [
      {kind:'ex', ex:'enthymeme', tag:'EXERCISE', title:'Supply the missing premise', desc:'Name the unspoken premise in Cicero, Antiphon, Gorgias, Thucydides, Sophocles, Plato.'}
    ]},
   {roman:'III', name:'Invention · Ethos and Pathos', latin:'ethos et pathos',
-   gloss:'The speaker’s character shown in the speech; Aristotle’s account of the passions; Aquinas’s passions of attraction (concupiscible) and passions of repulsion (irascible); Gregory the Great’s account of the kinds of men and his contrasts of pairs of listeners.',
+   gloss:'The speaker’s character shown in the speech; Aristotle’s account of the passions; Aquinas’s passions concerning good or evil as such (concupiscible) and passions concerning the arduous good or evil (irascible); Gregory the Great’s account of the kinds of men and his contrasts of pairs of listeners.',
    items:[
      {kind:'deck', deck:'ethos', tag:'TUTORIAL', title:'The speaker and the hearer', desc:'Practical wisdom (phronesis), virtue (arete), goodwill (eunoia). Aristotle’s Rhetoric II beside Aquinas’s Summa I–II. Gregory’s Pastoral Care.'},
      {kind:'ex', ex:'ethos', tag:'EXERCISE', title:'Character in the speech', desc:'Which of the three (practical wisdom, virtue, goodwill) is the speech itself showing?'},
@@ -1127,7 +1127,7 @@ const ACTS = [
    items:[
      {kind:'deck', deck:'gorgias', tag:'TUTORIAL', title:'Gorgias and the four aitiai', desc:'Persuasion as a drug; speech (logos) as a powerful ruler; fortune, violence, persuasion, love (the four causes, aitiai).'},
      {kind:'deck', deck:'antiphon', tag:'TUTORIAL', title:'The Second Tetralogy', desc:'Javelin practice; facts agreed; cause and error (hamartia); ritual pollution (miasma); the quiet man who minds his own business (apragmon).'},
-     {kind:'deck', deck:'augustine', tag:'TUTORIAL', title:'The Christian orator', desc:'To teach, to delight, to move (docere, delectare, movere); three styles; tears, not applause.'},
+     {kind:'deck', deck:'augustine', tag:'TUTORIAL', title:'The Christian orator', desc:'To teach, to delight, to move (docere, delectare, flectere); three styles; tears, not applause.'},
      {kind:'ex', ex:'augoffice', tag:'EXERCISE', title:'The Christian orator', desc:'The three offices and the three styles, from De doctrina christiana IV.'},
      {kind:'ex', ex:'antiphon', tag:'EXERCISE', title:'Antiphon: side, pistis, topos', desc:'Four speeches, two a side: which side, which means of persuasion (pistis), which seat of argument (topos).'},
      {kind:'ex', ex:'debates', tag:'EXERCISE', title:'Paired debates', desc:'Archidamus and Sthenelaidas; Cleon and Diodotus; Pericles; Catiline and Caesar; the javelin.'},
