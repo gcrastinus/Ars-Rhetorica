@@ -4262,5 +4262,2010 @@ window.PASSAGES = [
     "src": [
       "aug_npnf"
     ]
+  },
+  {
+    "id": "eng-oconnell-agitation",
+    "author": "Daniel O’Connell",
+    "work": "Speech in the House of Commons",
+    "locus": "(1830)",
+    "cue": "O’Connell tells the House how Ireland has gained what she has, and how she will keep it.",
+    "text": "By agitation Ireland became strong; by agitation she put down her bitter enemies; by agitation has conscience been set free; by agitation Irish freedom has been purchased; and by agitation it shall be secured.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 170,
+        "figure": "anaphora",
+        "why": "The phrase by agitation heads each member in turn, so that every gain is laid to one cause."
+      },
+      {
+        "start": 172,
+        "end": 208,
+        "figure": "climax",
+        "why": "The past gains are followed by a promise about the future, and that turn makes the last member the strongest."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-nott-duel",
+    "author": "Eliphalet Nott",
+    "work": "Sermon at Albany",
+    "locus": "(1804)",
+    "cue": "A sermon preached after the death of Alexander Hamilton in a duel: the preacher names those who let duelling go unpunished.",
+    "text": "I can not forgive that judge upon the bench, or that governor in the chair of state, who has lightly passed over such offenses. I can not forgive the public, in whose opinion the duelist finds a sanctuary. I can not forgive you, my brethren, who till this late hour have been silent while successive murders were committed.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 43,
+        "figure": "anaphora",
+        "why": "I can not forgive opens each sentence, and each time a new party is charged."
+      },
+      {
+        "start": 206,
+        "end": 322,
+        "figure": "climax",
+        "why": "The charge moves from the judge to the public and then to the congregation itself, so that it rises as it comes nearer."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-burke-taxation-nothing",
+    "author": "Edmund Burke",
+    "work": "Speech on American Taxation",
+    "locus": "(1774)",
+    "cue": "Burke describes the ministry’s conduct over the taxes on America.",
+    "text": "There is nothing simple, nothing manly, nothing ingenuous, open, decisive, or steady, in the proceeding, with regard either to the continuance or the repeal of the taxes.",
+    "spans": [
+      {
+        "start": 9,
+        "end": 57,
+        "figure": "anaphora",
+        "why": "Nothing is repeated at the head of three members before the pattern is relaxed."
+      },
+      {
+        "start": 59,
+        "end": 84,
+        "figure": "enumeratio",
+        "why": "The remaining virtues are listed together, so that the denial covers every one of them."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-gettysburg-hallow",
+    "author": "Abraham Lincoln",
+    "work": "Gettysburg Address",
+    "locus": "(1863)",
+    "cue": "At the dedication of the cemetery at Gettysburg, Lincoln says what the living cannot do for the dead.",
+    "text": "But, in a larger sense, we cannot dedicate, we cannot consecrate, we cannot hallow this ground.",
+    "spans": [
+      {
+        "start": 24,
+        "end": 82,
+        "figure": "tricolon",
+        "why": "There are three verbs in the same frame, rising from dedicate to the more sacred hallow."
+      },
+      {
+        "start": 24,
+        "end": 94,
+        "figure": "asyndeton",
+        "why": "The three clauses are joined by commas alone, without and, so each denial stands by itself."
+      }
+    ],
+    "species": "epideictic",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-exodus-pursue",
+    "author": "Exodus (King James Version)",
+    "work": "Book of Exodus",
+    "locus": "15:9",
+    "cue": "In the song of Moses the boast of the pursuing Egyptians is quoted in their own voice.",
+    "text": "The enemy said, I will pursue, I will overtake, I will divide the spoil; my lust shall be satisfied upon them; I will draw my sword, my hand shall destroy them.",
+    "spans": [
+      {
+        "start": 16,
+        "end": 71,
+        "figure": "anaphora",
+        "why": "I will is repeated at the head of each member, and the boast grows with each step of the chase."
+      },
+      {
+        "start": 73,
+        "end": 159,
+        "figure": "asyndeton",
+        "why": "The clauses follow one another without conjunctions, as the enemy’s haste would have them."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-stevenson-dog",
+    "author": "Robert Louis Stevenson",
+    "work": "The Character of Dogs",
+    "locus": "(1884)",
+    "cue": "An essay on dogs: the small dog is accused of lying.",
+    "text": "The day of an intelligent small dog is passed in the manufacture and the laborious communication of falsehood; he lies with his tail, he lies with his eye, he lies with his protesting paw; and when he rattles his dish or scratches at the door his purpose is other than appears.",
+    "spans": [
+      {
+        "start": 39,
+        "end": 109,
+        "figure": "irony",
+        "why": "The dog’s small deceptions are described in the solemn words of an industry, and the mock gravity is the joke."
+      },
+      {
+        "start": 111,
+        "end": 168,
+        "figure": "anaphora",
+        "why": "He lies with his opens each of the three members."
+      },
+      {
+        "start": 169,
+        "end": 187,
+        "figure": "personification",
+        "why": "The paw is said to protest, as if it could make a claim of innocence."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-jc-brutus-rome",
+    "author": "Shakespeare",
+    "work": "Julius Caesar",
+    "locus": "3.2",
+    "cue": "Brutus, in the forum after the murder, tells the Roman crowd why he struck Caesar.",
+    "text": "If then that friend demand why Brutus rose against Caesar, this is my answer: – Not that I loved Caesar less, but that I loved Rome more.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 76,
+        "figure": "occupatio",
+        "why": "He supposes the question a friend of Caesar would ask, and he answers it before it is put."
+      },
+      {
+        "start": 80,
+        "end": 136,
+        "figure": "antithesis",
+        "why": "Caesar is set against Rome and less against more, in two frames of the same shape."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-macaulay-puritan",
+    "author": "Thomas Babington Macaulay",
+    "work": "The History of England",
+    "locus": "(1849)",
+    "cue": "Macaulay explains the Puritan objection to bearbaiting.",
+    "text": "The Puritan hated bearbaiting, not because it gave pain to the bear, but because it gave pleasure to the spectators.",
+    "spans": [
+      {
+        "start": 31,
+        "end": 115,
+        "figure": "antithesis",
+        "why": "Pain is set against pleasure and the bear against the spectators, so the true motive is shown against the expected one."
+      },
+      {
+        "start": 31,
+        "end": 115,
+        "figure": "irony",
+        "why": "The sentence seems to explain a scruple, but it charges the Puritan with hating the pleasure of others."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-macaulay-governors",
+    "author": "Thomas Babington Macaulay",
+    "work": "Speech in the House of Commons",
+    "locus": "(1843)",
+    "cue": "Macaulay speaks of a governor-general of India whom the House found ridiculous.",
+    "text": "Even in our mirth, however, there is sadness; for it is no light thing that he who represents the British nation in India should be a jest to the people of India. We have sometimes sent them governors whom they loved, and sometimes governors whom they feared; but they never before had a governor at whom they laughed.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 44,
+        "figure": "antithesis",
+        "why": "Mirth and sadness are joined in one short clause before the argument begins."
+      },
+      {
+        "start": 163,
+        "end": 317,
+        "figure": "climax",
+        "why": "After love and fear comes laughter, and the third member is the one that does the damage."
+      },
+      {
+        "start": 191,
+        "end": 258,
+        "figure": "antithesis",
+        "why": "Love and fear are set against each other in two members of the same form."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-chesterton-trust",
+    "author": "G. K. Chesterton",
+    "work": "Heretics",
+    "locus": "(1905)",
+    "cue": "Chesterton explains why men follow ordinary men and great men for opposite reasons.",
+    "text": "Men trust an ordinary man because they trust themselves. But men trust a great man because they do not trust themselves.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 119,
+        "figure": "antithesis",
+        "why": "The two sentences have the same frame, and the ordinary man and the great man are distinguished by a single not."
+      },
+      {
+        "start": 0,
+        "end": 119,
+        "figure": "isocolon",
+        "why": "The two members are nearly equal in length and identical in construction."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-paine-king-law",
+    "author": "Thomas Paine",
+    "work": "Common Sense",
+    "locus": "(1776)",
+    "cue": "Paine contrasts the place of the king in absolute governments and in free countries.",
+    "text": "For as in absolute governments the King is law, so in free countries the law ought to be King; and there ought to be no other.",
+    "spans": [
+      {
+        "start": 7,
+        "end": 93,
+        "figure": "antithesis",
+        "why": "Absolute governments are set against free countries in two parallel clauses."
+      },
+      {
+        "start": 31,
+        "end": 93,
+        "figure": "chiasmus",
+        "why": "King and law are crossed in the order ABBA, so the reversal of words states the reversal of authority."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-events",
+    "author": "Abraham Lincoln",
+    "work": "Letter to A. G. Hodges",
+    "locus": "(1864)",
+    "cue": "Lincoln, explaining his course on emancipation, declines credit for foresight.",
+    "text": "In telling this tale I attempt no compliment to my own sagacity. I claim not to have controlled events, but confess plainly that events have controlled me.",
+    "spans": [
+      {
+        "start": 21,
+        "end": 63,
+        "figure": "litotes",
+        "why": "He denies that he praises himself, and the denial asks the reader to credit his modesty."
+      },
+      {
+        "start": 65,
+        "end": 154,
+        "figure": "chiasmus",
+        "why": "The terms are crossed (I, events; events, me), and the crossing states his claim that he followed events rather than led them."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-thoreau-railroad",
+    "author": "Henry David Thoreau",
+    "work": "Walden",
+    "locus": "(1854)",
+    "cue": "Thoreau asks whether the railroad serves men or men serve the railroad.",
+    "text": "We do not ride on the railroad; it rides upon us.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 48,
+        "figure": "chiasmus",
+        "why": "We and the railroad exchange places as subject and object, in the order ABBA."
+      },
+      {
+        "start": 32,
+        "end": 48,
+        "figure": "personification",
+        "why": "The railroad is made an agent that rides men as men ride a horse."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-pitt-ministers",
+    "author": "William Pitt (the Elder)",
+    "work": "Speech in the House of Commons",
+    "locus": "(1743)",
+    "cue": "Pitt compares the former and the present ministers in their conduct of the war.",
+    "text": "Our former minister thought of nothing but negotiating when he ought to have thought of nothing but war; the present minister has thought of nothing but war, or at least its resemblance, when he ought to have thought of nothing but negotiation.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 54,
+        "figure": "antithesis",
+        "why": "The former minister is set against the present one, each wrong in the opposite direction."
+      },
+      {
+        "start": 20,
+        "end": 156,
+        "figure": "chiasmus",
+        "why": "Negotiation and war in the first member are reversed as war and negotiation in the second."
+      },
+      {
+        "start": 158,
+        "end": 185,
+        "figure": "correctio",
+        "why": "He stops to narrow what he has just said: the present minister has thought of war, or of something that only looks like it."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-mfm-rise-fall",
+    "author": "Shakespeare",
+    "work": "Measure for Measure",
+    "locus": "2.1",
+    "cue": "Escalus reflects on the fortunes of men in a city where the law is suddenly enforced.",
+    "text": "Some rise by sin, and some by virtue fall.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "chiasmus",
+        "why": "The order rise, sin is reversed as virtue, fall, in the order ABBA."
+      },
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "antithesis",
+        "why": "Rising is set against falling and sin against virtue."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-richard2-time",
+    "author": "Shakespeare",
+    "work": "Richard II",
+    "locus": "5.5",
+    "cue": "Richard, deposed and imprisoned, considers what he did with his reign.",
+    "text": "I wasted time, and now doth time waste me.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "chiasmus",
+        "why": "I and time change places as subject and object, and the verb is repeated in the crossing."
+      },
+      {
+        "start": 19,
+        "end": 41,
+        "figure": "personification",
+        "why": "Time is made the agent that wastes the king."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-isaiah-evil-good",
+    "author": "Isaiah (King James Version)",
+    "work": "Book of Isaiah",
+    "locus": "5:20",
+    "cue": "The prophet pronounces woe on those who confound moral names.",
+    "text": "Woe unto them that call evil good, and good evil; that put darkness for light, and light for darkness; that put bitter for sweet, and sweet for bitter!",
+    "spans": [
+      {
+        "start": 0,
+        "end": 13,
+        "figure": "exclamatio",
+        "why": "The verse begins as a cry of woe rather than a statement."
+      },
+      {
+        "start": 19,
+        "end": 48,
+        "figure": "chiasmus",
+        "why": "Evil and good are crossed, and the crossing of the words shows the inversion of judgement."
+      },
+      {
+        "start": 50,
+        "end": 150,
+        "figure": "antithesis",
+        "why": "Each pair sets contraries against each other in a repeated frame."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-grattan-authority",
+    "author": "Henry Grattan",
+    "work": "Speech in the Irish Parliament",
+    "locus": "(1782)",
+    "cue": "Grattan answers British ministers who asked by what authority Ireland had acted.",
+    "text": "[F]ormer ministers, I say, have put questions to us; we beg to put questions to them. They desired to know by what authority this nation has acted. This nation desires to know by what authority they have acted.",
+    "spans": [
+      {
+        "start": 27,
+        "end": 84,
+        "figure": "chiasmus",
+        "why": "The same crossing is announced first in a shorter form: questions to us, questions to them."
+      },
+      {
+        "start": 86,
+        "end": 209,
+        "figure": "chiasmus",
+        "why": "They and this nation exchange places in the second sentence, so that the question is turned back on those who asked it."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-burke-tyrants",
+    "author": "Edmund Burke",
+    "work": "Reflections on the Revolution in France",
+    "locus": "(1791)",
+    "cue": "Burke warns what follows when subjects rebel on principle.",
+    "text": "Kings will be tyrants from policy, when subjects are rebels from principle.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 74,
+        "figure": "isocolon",
+        "why": "The two members have the same construction and nearly the same length: X will be Y from Z."
+      },
+      {
+        "start": 0,
+        "end": 74,
+        "figure": "antithesis",
+        "why": "Kings are set against subjects, tyranny against rebellion, and policy against principle."
+      },
+      {
+        "start": 0,
+        "end": 74,
+        "figure": "sententia",
+        "why": "The sentence is a general maxim about rulers and ruled, briefly stated."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-johnson-chesterfield",
+    "author": "Samuel Johnson",
+    "work": "Letter to the Earl of Chesterfield",
+    "locus": "(1755)",
+    "cue": "Johnson answers a patron who offered notice of the Dictionary only after it was finished.",
+    "text": "The notice which you have been pleased to take of my labours, had it been early, had been kind; but it has been delayed till I am indifferent, and cannot enjoy it; till I am solitary, and cannot impart it; till I am known, and do not want it.",
+    "spans": [
+      {
+        "start": 62,
+        "end": 94,
+        "figure": "irony",
+        "why": "He grants that the notice would have been a kindness, and so makes its lateness the charge."
+      },
+      {
+        "start": 120,
+        "end": 241,
+        "figure": "tricolon",
+        "why": "Three members of the same form, each naming what the delay has cost."
+      },
+      {
+        "start": 120,
+        "end": 241,
+        "figure": "anaphora",
+        "why": "Till I am opens each of the three members."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-douglass-false",
+    "author": "Frederick Douglass",
+    "work": "Speech at Rochester",
+    "locus": "(1852)",
+    "cue": "Douglass, invited to speak on the Fourth of July, speaks of the nation and slavery.",
+    "text": "America is false to the past, false to the present, and solemnly binds herself to be false to the future.",
+    "spans": [
+      {
+        "start": 11,
+        "end": 104,
+        "figure": "tricolon",
+        "why": "Past, present, and future are named in three members, and the third is lengthened by the vow."
+      },
+      {
+        "start": 56,
+        "end": 78,
+        "figure": "personification",
+        "why": "America is made a person who takes a vow."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-jc-brutus-ambitious",
+    "author": "Shakespeare",
+    "work": "Julius Caesar",
+    "locus": "3.2",
+    "cue": "Brutus gives the crowd his reasons, one quality of Caesar at a time.",
+    "text": "As Caesar loved me, I weep for him; as he was fortunate, I rejoice at it; as he was valiant, I honour him: but, as he was ambitious, I slew him. There is tears for his love; joy for his fortune; honour for his valour; and death for his ambition.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 105,
+        "figure": "isocolon",
+        "why": "The members are of equal shape: as he was X, I do Y."
+      },
+      {
+        "start": 107,
+        "end": 143,
+        "figure": "climax",
+        "why": "After three tributes the fourth member gives the deed, so the series ends in its strongest term."
+      },
+      {
+        "start": 145,
+        "end": 244,
+        "figure": "enumeratio",
+        "why": "The four qualities are listed again, each with its due, as a reckoning."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-matthew-freely",
+    "author": "Matthew (King James Version)",
+    "work": "Gospel according to St Matthew",
+    "locus": "10:8",
+    "cue": "Christ sends out the twelve and tells them what to do and how.",
+    "text": "Heal the sick, cleanse the lepers, raise the dead, cast out devils: freely ye have received, freely give.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 66,
+        "figure": "asyndeton",
+        "why": "Four commands follow one another without conjunctions."
+      },
+      {
+        "start": 0,
+        "end": 66,
+        "figure": "isocolon",
+        "why": "Each command has the same shape, a verb and its object."
+      },
+      {
+        "start": 68,
+        "end": 104,
+        "figure": "sententia",
+        "why": "The rule for the whole mission is stated in a short maxim."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-first-inaugural",
+    "author": "Abraham Lincoln",
+    "work": "First Inaugural Address",
+    "locus": "(1861)",
+    "cue": "On taking office, Lincoln names the dispute between the sections.",
+    "text": "One section of our country believes slavery is right, and ought to be extended, while the other believes it is wrong, and ought not to be extended. This is the only substantial dispute.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 146,
+        "figure": "isocolon",
+        "why": "The two members are built alike, so the only difference the hearer notices is the difference in belief."
+      },
+      {
+        "start": 27,
+        "end": 146,
+        "figure": "antithesis",
+        "why": "Right is set against wrong and ought against ought not, in two members of the same shape."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-proclamation",
+    "author": "Abraham Lincoln",
+    "work": "Letter to James Conkling",
+    "locus": "(1863)",
+    "cue": "Lincoln answers those who want the Emancipation Proclamation withdrawn.",
+    "text": "But the proclamation, as law, either is valid or is not valid. If it is not valid it needs no retraction. If it is valid it cannot be retracted, any more than the dead can be brought to life.",
+    "spans": [
+      {
+        "start": 30,
+        "end": 143,
+        "figure": "dilemma",
+        "why": "Both alternatives lead to the same answer: the proclamation is not to be retracted."
+      },
+      {
+        "start": 145,
+        "end": 190,
+        "figure": "simile",
+        "why": "The irreversible act of freeing men is likened to death, which cannot be undone."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-cooper-guilty",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Cooper Institute",
+    "locus": "(1860)",
+    "cue": "Lincoln answers Southern charges that his party was behind John Brown’s raid.",
+    "text": "If any member of our party is guilty in that matter, you know it, or you do not know it. If you do know it, you are inexcusable for not designating the man and proving the fact. If you do not know it, you are inexcusable to assert it, and especially to persist in the assertion after you have tried and failed to make the proof.",
+    "spans": [
+      {
+        "start": 53,
+        "end": 87,
+        "figure": "dilemma",
+        "why": "He divides the case in two: either the accusers know or they do not, and he then shows that each leads to the same verdict."
+      },
+      {
+        "start": 89,
+        "end": 233,
+        "figure": "isocolon",
+        "why": "The two horns are given in parallel sentences, so that the hearer sees the same verdict twice."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-emerson-drudgery",
+    "author": "Ralph Waldo Emerson",
+    "work": "The American Scholar",
+    "locus": "(1837)",
+    "cue": "Emerson, addressing scholars, names the hardships that teach a man to speak.",
+    "text": "Drudgery, calamity, exasperation, want, are instructors in eloquence and wisdom.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 38,
+        "figure": "asyndeton",
+        "why": "Four nouns stand side by side without a conjunction, so that each hardship is counted by itself."
+      },
+      {
+        "start": 40,
+        "end": 79,
+        "figure": "personification",
+        "why": "The hardships are made teachers."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-burke-spirit-constitution",
+    "author": "Edmund Burke",
+    "work": "Speech on Moving His Resolutions for Conciliation with the Colonies",
+    "locus": "(1775)",
+    "cue": "Burke tells the House what really holds the colonies to England.",
+    "text": "It is the spirit of the English Constitution, which, infused through the mighty mass, pervades, feeds, unites, invigorates, vivifies every part of the empire, even down to the minutest member.",
+    "spans": [
+      {
+        "start": 86,
+        "end": 132,
+        "figure": "asyndeton",
+        "why": "Five verbs are joined without conjunctions, and the series gathers speed as it goes."
+      },
+      {
+        "start": 133,
+        "end": 191,
+        "figure": "metaphor",
+        "why": "The empire is spoken of as a body, with members down to the smallest."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-repeal",
+    "author": "Abraham Lincoln",
+    "work": "Debate with Stephen Douglas at Peoria",
+    "locus": "(1854)",
+    "cue": "Lincoln argues against the repeal of the Missouri Compromise.",
+    "text": "Repeal the Missouri Compromise, repeal all compromises, repeal the Declaration of Independence, repeal all past history, you still cannot repeal human nature.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 119,
+        "figure": "anaphora",
+        "why": "Repeal opens each of the four members."
+      },
+      {
+        "start": 0,
+        "end": 119,
+        "figure": "climax",
+        "why": "The things to be repealed grow larger at each step, from one statute to all of history."
+      },
+      {
+        "start": 121,
+        "end": 157,
+        "figure": "sententia",
+        "why": "The series ends in a general truth that no legislature can alter."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-grattan-corry",
+    "author": "Henry Grattan",
+    "work": "Invective Against Corry",
+    "locus": "(1800)",
+    "cue": "Grattan replies in the Irish Parliament to Isaac Corry, chancellor of the exchequer.",
+    "text": "I will not call him villain, because it would be unparliamentary, and he is a privy counselor. I will not call him fool, because he happens to be chancellor of the exchequer.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 93,
+        "figure": "praeteritio",
+        "why": "He says he will not use the word, and so he has used it."
+      },
+      {
+        "start": 121,
+        "end": 173,
+        "figure": "irony",
+        "why": "The reason given for sparing him is his office, which suggests that only the office protects him."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-misquotes",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Springfield",
+    "locus": "(1858)",
+    "cue": "Lincoln replies to Douglas’s use of a passage from one of his speeches.",
+    "text": "He then quotes, or attempts to quote, from my speech. I will not say that he wilfully misquotes, but he does fail to quote accurately.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 36,
+        "figure": "correctio",
+        "why": "He takes back quotes and puts the sharper attempts to quote in its place."
+      },
+      {
+        "start": 54,
+        "end": 133,
+        "figure": "praeteritio",
+        "why": "He declines to make the charge of wilful misquotation while setting it before the audience."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-jc-antony-bury",
+    "author": "Shakespeare",
+    "work": "Julius Caesar",
+    "locus": "3.2",
+    "cue": "Mark Antony begins his speech over Caesar’s body, after Brutus has spoken.",
+    "text": "Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 27,
+        "figure": "tricolon",
+        "why": "He addresses the crowd by three names in a row."
+      },
+      {
+        "start": 48,
+        "end": 88,
+        "figure": "praeteritio",
+        "why": "He disclaims any purpose of praise, and the speech that follows is all praise."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-hoar-humane",
+    "author": "George Frisbie Hoar",
+    "work": "Speech in the Senate",
+    "locus": "(1902)",
+    "cue": "Hoar speaks in the Senate on the conduct of the war in the Philippines.",
+    "text": "I believe – nay, I know – that in general our officers and soldiers are humane. But in some cases they have carried on your warfare with a mixture of American ingenuity and Castilian cruelty.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 78,
+        "figure": "correctio",
+        "why": "He replaces believe with the stronger know before he makes his criticism."
+      },
+      {
+        "start": 150,
+        "end": 190,
+        "figure": "antithesis",
+        "why": "American and Castilian, ingenuity and cruelty, are paired so that the soldiers are set beside the Spanish they replaced."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-fox-misrepresentation",
+    "author": "Charles James Fox",
+    "work": "Speech in the House of Commons",
+    "locus": "(1797)",
+    "cue": "Fox describes how the government had managed the Irish Parliament.",
+    "text": "[I]t had been the system of government by the sale of peerages, to raise a purse to purchase the representation, or rather the misrepresentation of the people of Ireland.",
+    "spans": [
+      {
+        "start": 39,
+        "end": 92,
+        "figure": "irony",
+        "why": "Representation is said to be purchased, and the commercial words expose what the system is."
+      },
+      {
+        "start": 93,
+        "end": 169,
+        "figure": "correctio",
+        "why": "He takes back representation and puts misrepresentation in its place."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-beerbohm-commanded",
+    "author": "Max Beerbohm",
+    "work": "Enoch Soames",
+    "locus": "(1919)",
+    "cue": "Beerbohm describes how a portrait painter got old men to sit for him.",
+    "text": "Dignified and doddering old men, who had never consented to sit to any one, could not withstand this dynamic little stranger. He did not sue: he invited; he did not invite: he commanded.",
+    "spans": [
+      {
+        "start": 126,
+        "end": 185,
+        "figure": "correctio",
+        "why": "Each verb is taken back for a stronger one: sue, then invite, then command."
+      },
+      {
+        "start": 126,
+        "end": 185,
+        "figure": "climax",
+        "why": "The verbs rise in force, and each step repeats the last word of the step before."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-franklin-consent",
+    "author": "Benjamin Franklin",
+    "work": "Speech at the Federal Convention",
+    "locus": "(1787)",
+    "cue": "Franklin, at the close of the Convention, explains why he will sign a Constitution he does not wholly approve.",
+    "text": "Thus I consent, sir, to this Constitution, because I expect no better, and because I am not sure that it is not the best.",
+    "spans": [
+      {
+        "start": 43,
+        "end": 120,
+        "figure": "enumeratio",
+        "why": "He gives two reasons in parallel, each introduced by because."
+      },
+      {
+        "start": 83,
+        "end": 120,
+        "figure": "litotes",
+        "why": "He affirms by denying the contrary: not sure that it is not the best."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-schurz-unthinking",
+    "author": "Carl Schurz",
+    "work": "Speech in the Senate",
+    "locus": "(1872)",
+    "cue": "Schurz answers appeals that he thinks are aimed at the crowd rather than the Senate.",
+    "text": "Sir, such appeals as these, which we have heard so frequently, may be well apt to tickle the ear of an unthinking multitude. But unless I am grievously in error, the people of the United States are a multitude not unthinking.",
+    "spans": [
+      {
+        "start": 100,
+        "end": 224,
+        "figure": "chiasmus",
+        "why": "Unthinking multitude is reversed as multitude not unthinking."
+      },
+      {
+        "start": 198,
+        "end": 224,
+        "figure": "litotes",
+        "why": "He denies the contrary, not unthinking, and so answers the phrase unthinking multitude in its own words."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-burke-inconsiderable",
+    "author": "Edmund Burke",
+    "work": "Thoughts on the Cause of the Present Discontents",
+    "locus": "(1770)",
+    "cue": "Burke on the prudence of a statesman.",
+    "text": "It is no inconsiderable part of wisdom, to know how much of an evil ought to be tolerated. . . .",
+    "spans": [
+      {
+        "start": 0,
+        "end": 38,
+        "figure": "litotes",
+        "why": "No inconsiderable means considerable, and the understatement suits the caution being recommended."
+      },
+      {
+        "start": 40,
+        "end": 89,
+        "figure": "sententia",
+        "why": "The sentence is a general maxim of prudence."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-henry-liberty-death",
+    "author": "Patrick Henry",
+    "work": "Speech to the Second Virginia Convention",
+    "locus": "(1775)",
+    "cue": "Henry urges the Virginia convention to arm against Britain.",
+    "text": "Why stand we here idle? What is it that gentlemen wish? What would they have? Is life so dear, or peace so sweet, as to be purchased at the price of chains and slavery? Forbid it, Almighty God! I know not what course others may take; but as for me, give me liberty or give me death!",
+    "spans": [
+      {
+        "start": 78,
+        "end": 168,
+        "figure": "rhetorical question",
+        "why": "The question expects no answer; it is a charge that peace on these terms is slavery."
+      },
+      {
+        "start": 169,
+        "end": 193,
+        "figure": "apostrophe",
+        "why": "He turns from the convention and addresses God."
+      },
+      {
+        "start": 249,
+        "end": 281,
+        "figure": "antithesis",
+        "why": "Liberty and death are set as the only alternatives, in two members of the same form."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-falter",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Springfield",
+    "locus": "(1858)",
+    "cue": "Lincoln closes his speech to the Republican convention by recalling the party’s first campaign.",
+    "text": "Did we brave all then to falter now – now, when that same enemy is wavering, dissevered, and belligerent?",
+    "spans": [
+      {
+        "start": 0,
+        "end": 35,
+        "figure": "rhetorical question",
+        "why": "The question is an exhortation in the form of a question; no one is expected to say yes."
+      },
+      {
+        "start": 17,
+        "end": 35,
+        "figure": "antithesis",
+        "why": "Then is set against now, and bravery against faltering."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-pitt-mortifying-insult",
+    "author": "William Pitt (the Elder)",
+    "work": "Speech in the House of Lords",
+    "locus": "(1777)",
+    "cue": "Chatham attacks the ministry for its weakness toward France over the American commissioners.",
+    "text": "Can there be a more mortifying insult? Can even our ministers sustain a more humiliating disgrace? Do they dare to resent it? Do they presume even to hint a vindication of their honor, and the dignity of the State, by requiring the dismission of the plenipotentiaries of America?",
+    "spans": [
+      {
+        "start": 0,
+        "end": 69,
+        "figure": "anaphora",
+        "why": "Can opens the successive questions."
+      },
+      {
+        "start": 0,
+        "end": 98,
+        "figure": "rhetorical question",
+        "why": "The questions assert that no greater insult is possible."
+      },
+      {
+        "start": 99,
+        "end": 154,
+        "figure": "irony",
+        "why": "The questions pretend to wonder whether the ministers will act, when the hearers know they will not."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-henry-stronger",
+    "author": "Patrick Henry",
+    "work": "Speech to the Second Virginia Convention",
+    "locus": "(1775)",
+    "cue": "Henry answers those who say the colonies are too weak to resist.",
+    "text": "They tell us, sir, that we are weak – unable to cope with so formidable an adversary. But when shall we be stronger? Will it be the next week, or the next year? Will it be when we are totally disarmed, and when a British guard shall be stationed in every house?",
+    "spans": [
+      {
+        "start": 0,
+        "end": 35,
+        "figure": "occupatio",
+        "why": "He states the objection of his opponents in order to answer it."
+      },
+      {
+        "start": 86,
+        "end": 160,
+        "figure": "rhetorical question",
+        "why": "The questions show that waiting will not bring strength."
+      },
+      {
+        "start": 161,
+        "end": 261,
+        "figure": "hypotyposis",
+        "why": "The last question sets the disarmed colony before the eyes, with a guard in every house."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-fielding-objected",
+    "author": "Henry Fielding",
+    "work": "Tom Jones",
+    "locus": "(1749)",
+    "cue": "The narrator defends his claim that the wise are not given to avarice or pleasure.",
+    "text": "It may be objected, that very wise men have been notoriously avaricious. I answer, Not wise in that instance. It may likewise be said, That the wisest men have been in their youth immoderately fond of pleasure. I answer, They were not wise then.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 108,
+        "figure": "occupatio",
+        "why": "The objection is stated in advance and answered at once."
+      },
+      {
+        "start": 110,
+        "end": 244,
+        "figure": "occupatio",
+        "why": "A second objection is raised and answered in the same form."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-henry-better-men",
+    "author": "Patrick Henry",
+    "work": "Speech at the Virginia Ratifying Convention",
+    "locus": "(1788)",
+    "cue": "Henry argues against the proposed federal Constitution.",
+    "text": "Will these few protect our rights? Will they be incorruptible? You say they will be better men than the English commoners. I say they will be infinitely worse men, because they are to be chosen blindfolded: their election (the term, as applied to their appointment, is inaccurate) will be an involuntary nomination, and not a choice.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 62,
+        "figure": "rhetorical question",
+        "why": "The questions imply the answer no before he argues it."
+      },
+      {
+        "start": 63,
+        "end": 162,
+        "figure": "occupatio",
+        "why": "He gives his opponents’ claim and answers it in the same construction."
+      },
+      {
+        "start": 222,
+        "end": 280,
+        "figure": "parenthesis",
+        "why": "He breaks off to correct the word election, and the aside sharpens the charge."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-richard3-horse",
+    "author": "Shakespeare",
+    "work": "Richard III",
+    "locus": "5.4",
+    "cue": "Richard, unhorsed at Bosworth Field, calls for a mount.",
+    "text": "A horse! a horse! my kingdom for a horse!",
+    "spans": [
+      {
+        "start": 0,
+        "end": 17,
+        "figure": "epizeuxis",
+        "why": "The word is repeated at once, in a cry."
+      },
+      {
+        "start": 18,
+        "end": 41,
+        "figure": "hyperbole",
+        "why": "He offers his kingdom for a horse, and the excess shows his desperation."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-thoreau-simplicity",
+    "author": "Henry David Thoreau",
+    "work": "Walden",
+    "locus": "(1854)",
+    "cue": "Thoreau urges his readers to reduce their affairs.",
+    "text": "Simplicity, simplicity, simplicity! I say, let your affairs be as two or three, and not a hundred or a thousand; instead of a million count half a dozen, and keep your accounts on your thumb-nail.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 35,
+        "figure": "epizeuxis",
+        "why": "The word is said three times in a row."
+      },
+      {
+        "start": 43,
+        "end": 111,
+        "figure": "antithesis",
+        "why": "Two or three are set against a hundred or a thousand."
+      },
+      {
+        "start": 158,
+        "end": 195,
+        "figure": "hyperbole",
+        "why": "The accounts are to be so few that a thumb-nail would hold them."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-grattan-blood-felony",
+    "author": "Henry Grattan",
+    "work": "Speech in the Irish Parliament",
+    "locus": "(1787)",
+    "cue": "Grattan attacks a severe bill before the Irish Parliament.",
+    "text": "Like the Draconian laws, this bill had blood! blood! – felony! felony! felony! in every period and in every sentence.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 44,
+        "figure": "simile",
+        "why": "The bill is likened to the laws of Draco, proverbial for their severity."
+      },
+      {
+        "start": 39,
+        "end": 78,
+        "figure": "epizeuxis",
+        "why": "Blood is said twice and felony three times, one after another."
+      },
+      {
+        "start": 79,
+        "end": 116,
+        "figure": "hyperbole",
+        "why": "The penalties are said to be in every sentence of the bill."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-ames-volcano",
+    "author": "Fisher Ames",
+    "work": "Speech at the Massachusetts Ratifying Convention",
+    "locus": "(1788)",
+    "cue": "Ames, a Federalist, argues for the Constitution against pure democracy.",
+    "text": "A democracy is a volcano, which conceals the fiery materials of its own destruction.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 24,
+        "figure": "metaphor",
+        "why": "Democracy is named a volcano, without like or as."
+      },
+      {
+        "start": 26,
+        "end": 83,
+        "figure": "personification",
+        "why": "The volcano is said to conceal, as an agent with a secret."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-burke-volcanoes",
+    "author": "Edmund Burke",
+    "work": "Speech on the Petition of the Unitarian Society",
+    "locus": "(1792)",
+    "cue": "Burke speaks of old religious quarrels that have lost their force.",
+    "text": "Old religious factions are volcanoes burnt out; on the lava and ashes and squalid scoriae of old eruptions grow the peaceful olive, the cheering vine, and the sustaining corn.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "metaphor",
+        "why": "The factions are named volcanoes that have spent their fire."
+      },
+      {
+        "start": 112,
+        "end": 174,
+        "figure": "tricolon",
+        "why": "Three crops, each with its epithet, grow where the eruptions were."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-junius-shipwreck",
+    "author": "Junius",
+    "work": "Letter LIX",
+    "locus": "(1771)",
+    "cue": "The anonymous letter-writer Junius on the state of public affairs.",
+    "text": "In the shipwreck of the state, trifles float and are preserved; while every thing solid and valuable sinks to the bottom, and is lost forever.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 29,
+        "figure": "metaphor",
+        "why": "The state in disorder is called a shipwreck."
+      },
+      {
+        "start": 31,
+        "end": 120,
+        "figure": "antithesis",
+        "why": "Trifles that float are set against solid things that sink."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-grattan-cradle-hearse",
+    "author": "Henry Grattan",
+    "work": "Speech in the Irish Parliament",
+    "locus": "(1805)",
+    "cue": "Grattan speaks of the Irish Parliament, abolished by the Act of Union.",
+    "text": "The Parliament of Ireland – of that assembly I have a parental recollection. I sat by her cradle, I followed her hearse.",
+    "spans": [
+      {
+        "start": 28,
+        "end": 75,
+        "figure": "personification",
+        "why": "The assembly is spoken of as a child, and the speaker as its parent."
+      },
+      {
+        "start": 77,
+        "end": 119,
+        "figure": "metaphor",
+        "why": "The life of the Parliament is described as a human life from cradle to hearse."
+      },
+      {
+        "start": 77,
+        "end": 119,
+        "figure": "antithesis",
+        "why": "Cradle is set against hearse, birth against burial, in two short members."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-hazlitt-nickname",
+    "author": "William Hazlitt",
+    "work": "On Nicknames",
+    "locus": "(1818)",
+    "cue": "Hazlitt on the damage a nickname does.",
+    "text": "A nickname is the heaviest stone that the devil can throw at a man.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 32,
+        "figure": "metaphor",
+        "why": "The nickname is called a stone, without like or as, so the claim is an equation."
+      },
+      {
+        "start": 14,
+        "end": 66,
+        "figure": "hyperbole",
+        "why": "It is not only a stone but the heaviest the devil can throw."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-lincoln-house-divided",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Springfield",
+    "locus": "(1858)",
+    "cue": "Lincoln accepts the Republican nomination for the Senate and begins with a saying from the Gospels.",
+    "text": "“A house divided against itself cannot stand.” I believe this government cannot endure permanently half slave and half free. I do not expect the Union to be dissolved – I do not expect the house to fall – but I do expect it will cease to be divided. It will become all one thing, or all the other.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "metaphor",
+        "why": "The nation is called a house, and the borrowed saying carries the argument that follows."
+      },
+      {
+        "start": 125,
+        "end": 248,
+        "figure": "correctio",
+        "why": "He sets aside the outcomes he does not expect and puts the one he does expect in their place."
+      },
+      {
+        "start": 250,
+        "end": 296,
+        "figure": "dilemma",
+        "why": "He allows only two outcomes, both of them an end to division."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-ayli-stage",
+    "author": "Shakespeare",
+    "work": "As You Like It",
+    "locus": "2.7",
+    "cue": "Jaques, in the forest, describes the course of a man’s life.",
+    "text": "JAQUES. All the world’s a stage, And all the men and women merely players: They have their exits and their entrances; And one man in his time plays many parts, His acts being seven ages.",
+    "spans": [
+      {
+        "start": 8,
+        "end": 31,
+        "figure": "metaphor",
+        "why": "The world is named a stage, and the comparison is then extended."
+      },
+      {
+        "start": 75,
+        "end": 116,
+        "figure": "antithesis",
+        "why": "Exits are set against entrances, death against birth."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-richard3-winter",
+    "author": "Shakespeare",
+    "work": "Richard III",
+    "locus": "1.1",
+    "cue": "Gloucester opens the play by speaking of the peace after the wars.",
+    "text": "GLOUCESTER. Now is the winter of our discontent Made glorious summer by this sun of York. . . .",
+    "spans": [
+      {
+        "start": 12,
+        "end": 47,
+        "figure": "metaphor",
+        "why": "Discontent is given the name of a season."
+      },
+      {
+        "start": 23,
+        "end": 68,
+        "figure": "antithesis",
+        "why": "Winter is set against summer, the old trouble against the new peace."
+      },
+      {
+        "start": 72,
+        "end": 88,
+        "figure": "metaphor",
+        "why": "King Edward is called the sun of York, with a play on son."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-johnson-farthing-candle",
+    "author": "Samuel Johnson",
+    "work": "Remark in Boswell’s Life of Johnson",
+    "locus": "(1791)",
+    "cue": "Johnson on Thomas Sheridan’s plan to reform English pronunciation.",
+    "text": "What influence can Mr. Sheridan have upon the language of this great country by his narrow exertions? Sir, it is burning a farthing candle at Dover to show light at Calais.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 101,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer none."
+      },
+      {
+        "start": 107,
+        "end": 171,
+        "figure": "metaphor",
+        "why": "The scheme is called a cheap candle lit on one side of the Channel to light the other."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-hazlitt-drops",
+    "author": "William Hazlitt",
+    "work": "The Late Mr. Horne Tooke",
+    "locus": "(1825)",
+    "cue": "Hazlitt describes the speaking of John Horne Tooke.",
+    "text": "Each of his sentences told very well in itself, but they did not all together make a speech. He left off where he began. His eloquence was a succession of drops, not a stream.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 91,
+        "figure": "antithesis",
+        "why": "The single sentence that succeeds is set against the speech that does not."
+      },
+      {
+        "start": 121,
+        "end": 174,
+        "figure": "metaphor",
+        "why": "The eloquence is called drops and not a stream, without like or as, so the separate sentences become separate drops."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-swift-cobwebs",
+    "author": "Jonathan Swift",
+    "work": "A Critical Essay upon the Faculties of the Mind",
+    "locus": "(1707)",
+    "cue": "Swift on how the law treats the weak and the strong.",
+    "text": "Laws are like cobwebs, which may catch small flies, but let wasps and hornets break through.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 21,
+        "figure": "simile",
+        "why": "The likeness is stated with like."
+      },
+      {
+        "start": 23,
+        "end": 91,
+        "figure": "antithesis",
+        "why": "Small flies are set against wasps and hornets, what is caught against what breaks through."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-bacon-fame-river",
+    "author": "Francis Bacon",
+    "work": "Of Praise",
+    "locus": "(1625)",
+    "cue": "Bacon on what popular fame carries and what it drowns.",
+    "text": "Certainly fame is like a river, that beareth up things light and swollen, and drowns things weighty and solid.",
+    "spans": [
+      {
+        "start": 10,
+        "end": 30,
+        "figure": "simile",
+        "why": "The likeness is stated with like."
+      },
+      {
+        "start": 37,
+        "end": 109,
+        "figure": "antithesis",
+        "why": "Light things borne up are set against weighty things drowned."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-proverbs-city",
+    "author": "Proverbs (King James Version)",
+    "work": "Book of Proverbs",
+    "locus": "25:28",
+    "cue": "A proverb on self-government.",
+    "text": "He that hath no rule over his own spirit is like a city that is broken down, and without walls.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 94,
+        "figure": "sententia",
+        "why": "The verse is a general maxim, briefly stated."
+      },
+      {
+        "start": 41,
+        "end": 94,
+        "figure": "simile",
+        "why": "The man without rule over himself is likened to an undefended city."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-matthew-sepulchres",
+    "author": "Matthew (King James Version)",
+    "work": "Gospel according to St Matthew",
+    "locus": "23:27",
+    "cue": "Christ turns from the crowd to rebuke the scribes and Pharisees.",
+    "text": "Woe unto you, scribes and Pharisees, hypocrites! for ye are like unto whited sepulchres, which indeed appear beautiful outward, but are within full of dead men’s bones, and of all uncleanness.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 48,
+        "figure": "apostrophe",
+        "why": "He addresses the scribes and Pharisees directly by name."
+      },
+      {
+        "start": 53,
+        "end": 87,
+        "figure": "simile",
+        "why": "The hypocrites are likened to whitewashed tombs."
+      },
+      {
+        "start": 102,
+        "end": 167,
+        "figure": "antithesis",
+        "why": "The outward appearance is set against what is within."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-mason-screw",
+    "author": "George Mason",
+    "work": "Speech at the Federal Convention",
+    "locus": "(1787)",
+    "cue": "Mason warns the Convention about an aristocratic senate.",
+    "text": "An aristocratic body, like the screw in mechanics, working its way by slow degrees, and holding fast whatever it gains, should ever be suspected of an encroaching tendency.",
+    "spans": [
+      {
+        "start": 22,
+        "end": 49,
+        "figure": "simile",
+        "why": "The aristocratic body is likened to a screw, which gains a little at a time and does not slip back."
+      },
+      {
+        "start": 51,
+        "end": 118,
+        "figure": "personification",
+        "why": "The body is described as an agent that works and holds fast."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-lincoln-rejected-lover",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Chicago",
+    "locus": "(1856)",
+    "cue": "Lincoln mocks President Pierce’s message after the election of 1856.",
+    "text": "Like a rejected lover making merry at the wedding of his rival, the president felicitates himself hugely over the late Presidential election.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 62,
+        "figure": "simile",
+        "why": "The president is likened to a rejected suitor at his rival’s wedding."
+      },
+      {
+        "start": 64,
+        "end": 104,
+        "figure": "irony",
+        "why": "He congratulates himself on an election that rejected his party, and the praise is meant as mockery."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-paine-gamester",
+    "author": "Thomas Paine",
+    "work": "The American Crisis",
+    "locus": "(1783)",
+    "cue": "Paine describes the British position late in the war.",
+    "text": "Britain, like a gamester nearly ruined, has now put all her losses into one bet, and is playing a desperate game for the total.",
+    "spans": [
+      {
+        "start": 9,
+        "end": 38,
+        "figure": "simile",
+        "why": "Britain is likened to a gambler who has lost almost everything."
+      },
+      {
+        "start": 40,
+        "end": 126,
+        "figure": "metaphor",
+        "why": "The comparison is carried on in the language of gaming: a bet, a game, the total."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-johnson-praise-gold",
+    "author": "Samuel Johnson",
+    "work": "The Rambler no. 136",
+    "locus": "(1751)",
+    "cue": "Johnson on why praise loses its value.",
+    "text": "Praise, like gold and diamonds, owes its value only to its scarcity.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 67,
+        "figure": "sententia",
+        "why": "The sentence is a general maxim, briefly stated."
+      },
+      {
+        "start": 8,
+        "end": 30,
+        "figure": "simile",
+        "why": "Praise is likened to precious things."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-lincoln-drowning-man",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Springfield",
+    "locus": "(1857)",
+    "cue": "Lincoln describes Douglas’s use of a charge against the Republicans.",
+    "text": "If he can, by much drumming and repeating, fasten the odium of that idea upon his adversaries, he thinks he can struggle through the storm. He therefore clings to this hope, as a drowning man to the last plank.",
+    "spans": [
+      {
+        "start": 95,
+        "end": 138,
+        "figure": "metaphor",
+        "why": "His political danger is called a storm."
+      },
+      {
+        "start": 174,
+        "end": 209,
+        "figure": "simile",
+        "why": "Douglas’s hope is likened to the last plank of a drowning man."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-madison-sceptre",
+    "author": "James Madison",
+    "work": "The Federalist no. 55",
+    "locus": "(1788)",
+    "cue": "Madison on large assemblies.",
+    "text": "In all very numerous assemblies, of whatever character composed, passion never fails to wrest the sceptre from reason.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 117,
+        "figure": "sententia",
+        "why": "The sentence states a general rule about assemblies."
+      },
+      {
+        "start": 65,
+        "end": 117,
+        "figure": "personification",
+        "why": "Passion and reason are made rival rulers, and passion seizes the sceptre."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-swift-falsehood-flies",
+    "author": "Jonathan Swift",
+    "work": "The Examiner no. 15",
+    "locus": "(1710)",
+    "cue": "Swift on how a lie outruns its correction.",
+    "text": "Falsehood flies, and Truth comes limping after it; so that when men come to be undeceived, it is too late, the jest is over, and the tale has had its effect. . . .",
+    "spans": [
+      {
+        "start": 0,
+        "end": 49,
+        "figure": "personification",
+        "why": "Falsehood and Truth are made runners, one fast and one lame."
+      },
+      {
+        "start": 0,
+        "end": 49,
+        "figure": "antithesis",
+        "why": "Flying is set against limping, falsehood against truth."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-burke-obstinacy",
+    "author": "Edmund Burke",
+    "work": "Speech on American Taxation",
+    "locus": "(1774)",
+    "cue": "Burke sums up the ministry’s long dispute with America.",
+    "text": "Invention is exhausted; reason is fatigued; experience has given judgment; but obstinacy is not yet conquered.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 73,
+        "figure": "asyndeton",
+        "why": "The three clauses are set side by side without conjunctions, and each reports something already spent or done."
+      },
+      {
+        "start": 79,
+        "end": 109,
+        "figure": "personification",
+        "why": "Obstinacy is made an enemy who holds out after the others have given way."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-bentham-masters",
+    "author": "Jeremy Bentham",
+    "work": "An Introduction to the Principles of Morals and Legislation",
+    "locus": "(1789)",
+    "cue": "The opening sentence of Bentham’s treatise.",
+    "text": "Nature has placed mankind under the governance of two sovereign masters, pain and pleasure.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "personification",
+        "why": "Nature is made an agent who appoints rulers over men."
+      },
+      {
+        "start": 50,
+        "end": 90,
+        "figure": "metaphor",
+        "why": "Pain and pleasure are called sovereign masters."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-jc-antony-evil-lives",
+    "author": "Shakespeare",
+    "work": "Julius Caesar",
+    "locus": "3.2",
+    "cue": "Antony, early in his funeral speech, on what men leave behind.",
+    "text": "ANTONY. . . . The evil that men do lives after them, The good is oft interred with their bones.",
+    "spans": [
+      {
+        "start": 14,
+        "end": 51,
+        "figure": "personification",
+        "why": "Evil is said to live on after the man."
+      },
+      {
+        "start": 14,
+        "end": 94,
+        "figure": "antithesis",
+        "why": "Evil that lives is set against good that is buried."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
+  },
+  {
+    "id": "eng-macaulay-liberty-reptile",
+    "author": "Thomas Babington Macaulay",
+    "work": "Milton",
+    "locus": "(1825)",
+    "cue": "Macaulay, defending Milton’s politics, writes of liberty in a time of revolution.",
+    "text": "Such a spirit is Liberty. At times she takes the form of a hateful reptile. She grovels, she hisses, she stings. But woe to those who in disgust shall venture to crush her!",
+    "spans": [
+      {
+        "start": 0,
+        "end": 74,
+        "figure": "personification",
+        "why": "Liberty is made a woman who takes on another form."
+      },
+      {
+        "start": 76,
+        "end": 111,
+        "figure": "tricolon",
+        "why": "Three short verbs, each with she, describe the reptile."
+      },
+      {
+        "start": 113,
+        "end": 172,
+        "figure": "exclamatio",
+        "why": "The passage ends in an open cry of warning."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cem"
+    ]
   }
 ];

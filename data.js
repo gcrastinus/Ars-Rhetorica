@@ -64,7 +64,11 @@ const SRC = {
   appown:{kind:'study', short:'This course’s own arrangement',
     full:'The wording, the ordering of the acts, and the pedagogical scaffolding are this course’s own.', note:''},
   copeland:{kind:'study', short:'Copeland &amp; Sluiter',
-    full:'Rita Copeland and Ineke Sluiter, eds., Medieval Grammar and Rhetoric, Oxford, 2012.', note:''}
+    full:'Rita Copeland and Ineke Sluiter, eds., Medieval Grammar and Rhetoric, Oxford, 2012.', note:''},
+  // English tradition: public-domain quotations as printed in Farnsworth’s Classical English Rhetoric and Classical English Metaphor (his commentary is not used).
+  eng_cer:{kind:'primary', short:'English authors, from Farnsworth’s <i>Classical English Rhetoric</i>', full:'Passages by English and American writers and speakers, quoted as printed in Ward Farnsworth, <i>Farnsworth’s Classical English Rhetoric</i> (David R. Godine, 2011). The passages themselves are public domain; Farnsworth’s commentary is not reproduced.', note:''},
+  eng_cem:{kind:'primary', short:'English authors, from Farnsworth’s <i>Classical English Metaphor</i>', full:'Passages by English and American writers and speakers, quoted as printed in Ward Farnsworth, <i>Farnsworth’s Classical English Metaphor</i> (David R. Godine, 2016). The passages themselves are public domain; Farnsworth’s commentary is not reproduced.', note:''},
+  kjv:{kind:'primary', short:'King James Bible', full:'The Holy Bible, Authorized (King James) Version, 1611. Public domain in the United States.', note:''}
 };
 function srcLine(keys){
   if(!keys) return '';
@@ -290,7 +294,12 @@ const TAXIS_ITEMS = [
   {id:'t17', part:'exordium', text:'To-day, conscript fathers, has brought to a close the long silence, due not to a feeling of fear, but to mingled feelings of grief and of diffidence.', src:'cic_orat', cite:'Cicero, Pro Marcello 1'},
   {id:'t18', part:'division', text:'Differently, then, to be admonished are men and women; the young and the old; the poor and the rich.', src:'greg', cite:'Gregory, Pastoral Care III (Barmby)'},
   {id:'t19', part:'narration', text:'Cocles, (that defence the fortune of Rome had on that day,) who, happening to be posted on guard at the bridge, when he saw the Janiculum taken by a sudden assault.', src:'livy_r', cite:'Livy 2.10, Horatius'},
-  {id:'t20', part:'refutation', text:'How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth.', src:'plato_jowett', cite:'Plato, Apology (Jowett)'}
+  {id:'t20', part:'refutation', text:'How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth.', src:'plato_jowett', cite:'Plato, Apology (Jowett)'},
+  // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
+  {id:'eng-t1', part:'exordium', text:'Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.', src:'eng_cer', cite:'Shakespeare, Julius Caesar 3.2'},
+  {id:'eng-t2', part:'division', text:'[T]here are but three ways of proceeding relative to this stubborn spirit which prevails in your colonies and disturbs your government. These are, – to change that spirit, as inconvenient, by removing the causes, – to prosecute it, as criminal, – or to comply with it, as necessary.', src:'eng_cer', cite:'Edmund Burke, Speech on Conciliation with the Colonies (1775)'},
+  {id:'eng-t3', part:'refutation', text:'The gentleman asks, When were the colonies emancipated? I desire to know, when were they made slaves?', src:'eng_cer', cite:'William Pitt (the Elder), Speech in the House of Commons (1766)'},
+  {id:'eng-t4', part:'refutation', text:'You say they will be better men than the English commoners. I say they will be infinitely worse men, because they are to be chosen blindfolded: their election (the term, as applied to their appointment, is inaccurate) will be an involuntary nomination, and not a choice.', src:'eng_cer', cite:'Patrick Henry, Speech at the Virginia Ratifying Convention (1788)'}
 ];
 const ENTHYMEMES = [
   {id:'e1', said:'Catiline still lives — and sits in the senate.', missing:'A man who plots the massacre of the senate ought not to sit in it.',
@@ -328,7 +337,14 @@ const ENTHYMEMES = [
   {id:'e17', said:'Fear not, for you shall not be confounded — so the poor are to be comforted, while the rich are to be made afraid of elation.', missing:'The same vice is not cured by the same word in every hearer.',
     distractors:['Gregory forbids preaching to the rich.','All hearers are moved only by fear.','Figures replace a doctrine of the hearer.'], src:'greg', cite:'Gregory, Pastoral Care III'},
   {id:'e18', said:'Although I am afraid, gentlemen of the jury, that fear is unseemly in a speech for the bravest of men.', missing:'If even the advocate of the brave man is afraid, the danger to the republic is real.',
-    distractors:['Milo asked to be left undefended.','All exordia are captationes.','The javelin proves intent.'], src:'cic_cat', cite:'Cicero, Pro Milone 1'}
+    distractors:['Milo asked to be left undefended.','All exordia are captationes.','The javelin proves intent.'], src:'cic_cat', cite:'Cicero, Pro Milone 1'},
+  // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
+  {id:'eng-e1', said:'Thus I consent, sir, to this Constitution, because I expect no better, and because I am not sure that it is not the best.', missing:'Where no better plan can be had, a plan that may be the best ought to be accepted.', distractors:['A plan approved by Franklin cannot be bad.','Every constitution is a work of compromise.','The convention has sat long enough.'], src:'eng_cer', cite:'Benjamin Franklin, Speech at the Federal Convention (1787)'},
+  {id:'eng-e2', said:'“A house divided against itself cannot stand.” I believe this government cannot endure permanently half slave and half free.', missing:'A nation divided over slavery is a house divided against itself.', distractors:['Every house must one day fall.','Slavery is lawful wherever the Constitution runs.','The Union was formed by the States.'], src:'eng_cem', cite:'Abraham Lincoln, Speech at Springfield (1858)'},
+  {id:'eng-e3', said:'They tell us, sir, that we are weak – unable to cope with so formidable an adversary. But when shall we be stronger? Will it be the next week, or the next year?', missing:'Delay will only leave us weaker, so if we are ever to resist it must be now.', distractors:['The weaker side always wins in the end.','Virginia is stronger than Britain.','A convention cannot raise an army.'], src:'eng_cer', cite:'Patrick Henry, Speech to the Second Virginia Convention (1775)'},
+  {id:'eng-e4', said:'The gentleman asks, When were the colonies emancipated? I desire to know, when were they made slaves?', missing:'Those who were never made slaves need no emancipation to be free.', distractors:['Colonies are always subject to the mother country.','Parliament may tax whomever it governs.','Questions prove nothing in debate.'], src:'eng_cer', cite:'William Pitt (the Elder), Speech in the House of Commons (1766)'},
+  {id:'eng-e5', said:'If you do not succeed, you are without resource: for, conciliation failing, force remains; but, force failing, no further hope of reconciliation is left.', missing:'A course that leaves a second resource if it fails is to be tried before one that leaves none.', distractors:['Force always succeeds against colonies.','Conciliation is a sign of weakness.','The colonies do not want reconciliation.'], src:'eng_cer', cite:'Edmund Burke, Speech on Conciliation with the Colonies (1775)'},
+  {id:'eng-e6', said:'Ambition must be made to counteract ambition.', missing:'Since men are not angels, power can be checked only by setting one interest against another.', distractors:['Ambition is the chief virtue of a statesman.','The legislature should hold all power.','Good men need no constitution.'], src:'eng_cer', cite:'James Madison, The Federalist no. 51 (1788)'}
 ];
 const PASSIONS = [
   {id:'p1', name:'anger', appetite:'irascible', text:'How much further, Catilina, will you carry your abuse of our forbearance?', cite:'Cicero, Catilinarian 1.1', src:'cic_cat', why:'Aristotle defines anger (II.2) as a desire, accompanied by pain, for conspicuous revenge, toward one who has slighted us.'},
@@ -348,7 +364,13 @@ const PASSIONS = [
   {id:'p15', name:'confidence', appetite:'irascible', text:'If your courage and fidelity had not been sufficiently proved by me, this favorable opportunity would have occurred to no purpose; mighty hopes, absolute power, would in vain be within our grasp.', cite:'Sallust, Catiline 20', src:'sallust_w', why:'This is confidence as an imagination of safety and of goods within reach (II.5), and here it is a conspirator’s confidence.'},
   {id:'p16', name:'shame', appetite:'concupiscible', text:'How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth.', cite:'Plato, Apology (Jowett)', src:'plato_jowett', why:'Socrates would have the jury feel the shame of being moved by a lie (II.6).'},
   {id:'p17', name:'indignation', appetite:'irascible', text:'I think the two things most opposed to good counsel are haste and passion.', cite:'Thucydides 3.42, Diodotus', src:'thuc_crawley', why:'Diodotus would have the assembly feel indignation at being rushed, not only pity for Mytilene (II.9).'},
-  {id:'p18', name:'kindness', appetite:'concupiscible', text:'The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself.', cite:'Gregory, Pastoral Care II (Barmby)', src:'greg', why:'This is kindness as wishing another’s good and taking his ills as one’s own (II.7).'}
+  {id:'p18', name:'kindness', appetite:'concupiscible', text:'The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself.', cite:'Gregory, Pastoral Care II (Barmby)', src:'greg', why:'This is kindness as wishing another’s good and taking his ills as one’s own (II.7).'},
+  // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
+  {id:'eng-p1', name:'shame', appetite:'concupiscible', text:'I can not forgive you, my brethren, who till this late hour have been silent while successive murders were committed.', cite:'Eliphalet Nott, Sermon at Albany (1804)', src:'eng_cer', why:'Shame is pain about evils that seem to bring discredit (II.6), and the preacher charges his own hearers with silence while men were killed.'},
+  {id:'eng-p2', name:'pity', appetite:'concupiscible', text:'Bear with me, My heart is in the coffin there with Caesar, And I must pause till it come back to me.', cite:'Shakespeare, Julius Caesar 3.2', src:'eng_cer', why:'Pity is pain at a destructive evil that has fallen on one who did not deserve it (II.8); Antony shows his own grief so that the crowd will feel it for Caesar.'},
+  {id:'eng-p3', name:'fear', appetite:'irascible', text:'A democracy is a volcano, which conceals the fiery materials of its own destruction.', cite:'Fisher Ames, Speech at the Massachusetts Ratifying Convention (1788)', src:'eng_cem', why:'Fear is pain at the imagined approach of a destructive evil (II.5), and the volcano puts that evil beneath the hearers’ feet.'},
+  {id:'eng-p4', name:'anger', appetite:'irascible', text:'Can there be a more mortifying insult? Can even our ministers sustain a more humiliating disgrace?', cite:'William Pitt (the Elder), Speech in the House of Lords (1777)', src:'eng_cer', why:'Anger is a desire for revenge for a slight (II.2), and Chatham names the slight to the nation twice, as insult and as disgrace.'},
+  {id:'eng-p5', name:'confidence', appetite:'irascible', text:'In my Father’s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.', cite:'John 14:2 (King James Version)', src:'kjv', why:'Confidence is the expectation that what will save us is near and what is fearful is far off (II.5); the promise of a place prepared gives that expectation.'}
 ];
 const DEBATES = [
   {id:'d-arch', title:'War with Athens', a:{who:'Archidamus', pid:'thuc-arch-1', claim:'Do not rush to war; experience teaches its cost.'}, b:{who:'Sthenelaidas', pid:'thuc-sthen-1', claim:'Vote the war; the Athenians are in the wrong.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.80 / 1.86'},
@@ -453,7 +475,14 @@ const PISTEIS_ITEMS = [
   {pid:'cic-marc-1', pistis:'ethos', why:'The long silence came from grief, not fear, and Cicero’s character is restored with Caesar’s clemency.'},
   {pid:'gor-hel-6', pistis:'logos', why:'Four causes are named, so the case is divided before it is proved.'},
   {pid:'ant-3.2.10', pistis:'pathos', why:'The speaker raises pollution and the city’s danger if the killer walks, and so the hearer is put in fear.'},
-  {pid:'thuc-fun-1', pistis:'ethos', why:'He will not praise as others have praised; the city’s character is his.'}
+  {pid:'thuc-fun-1', pistis:'ethos', why:'He will not praise as others have praised; the city’s character is his.'},
+  // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
+  {pid:'eng-henry-liberty-death', pistis:'pathos', why:'The questions and the prayer are meant to make slavery hateful and liberty worth any risk, so the force lies in what the hearers feel.'},
+  {pid:'eng-lincoln-proclamation', pistis:'logos', why:'Lincoln takes both possible cases of the law and shows that neither allows a retraction, so the proof lies in the argument.'},
+  {pid:'eng-franklin-consent', pistis:'ethos', why:'Franklin admits his doubts and still consents, and his candour is offered as a reason for others to do the same.'},
+  {pid:'eng-ames-volcano', pistis:'pathos', why:'The image of a volcano does not prove that democracy destroys itself; it makes the hearers afraid that it will.'},
+  {pid:'eng-nott-duel', pistis:'pathos', why:'The preacher moves his hearers to shame, since the charge ends with their own silence.'},
+  {pid:'eng-burke-tyrants', pistis:'logos', why:'Burke states a general cause and effect: rebellion on principle gives kings a reason to rule as tyrants.'}
 ];
 function pistisOf(p){
   const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS.PISTEIS_ITEMS) || [];
@@ -484,7 +513,11 @@ const ETHOS_ITEMS = [
   {id:'et11', pid:'cic-cat1-1', which:'eunoia', label:'Goodwill (eunoia)',
     why:'The questions shame the senate into the consul’s side, and his goodwill toward the republic appears as shared alarm.'},
   {id:'et12', pid:'aug-ddc-2', which:'eunoia', label:'Goodwill (eunoia)',
-    why:'Truth must not stand unarmed, and the Christian orator’s goodwill is for the hearer’s good, not for a fee.'}
+    why:'Truth must not stand unarmed, and the Christian orator’s goodwill is for the hearer’s good, not for a fee.'},
+  // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
+  {id:'eng-et1', pid:'eng-franklin-consent', which:'phronesis', label:'Practical wisdom (phronesis)', why:'He weighs the plan against the alternatives and accepts it for want of a better, which is the judgement of a prudent man.'},
+  {id:'eng-et2', pid:'eng-hoar-humane', which:'eunoia', label:'Goodwill (eunoia)', why:'He first affirms that the soldiers are humane, so that his criticism comes from a friend of the army and not an enemy.'},
+  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He declines to charge his opponent with bad faith and holds only to what can be shown, and that restraint is a sign of a fair man.'}
 ];
 const LEXIS_ITEMS = [
   {id:'lx1', pid:'gor-hel-8', kind:'style',
@@ -526,7 +559,12 @@ const LEXIS_ITEMS = [
   {id:'lx10', pid:'aug-ddc-24', kind:'style',
     prompt:'Augustine at Caesarea wanted tears, not applause. On his account, the grand style has succeeded when',
     options:['The members are equal in length and the endings match','The hearer is changed in life, though the room is silent','The preacher is known for his equal members (isocolon)','All figures of speech have been suppressed as worldly'],
-    correct:1, note:'In DDC IV the majestic style is known by the tears it draws, since style serves an office (flectere) and not display.'}
+    correct:1, note:'In DDC IV the majestic style is known by the tears it draws, since style serves an office (flectere) and not display.'},
+  // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
+  {id:'eng-lx1', pid:'eng-ames-volcano', kind:'style', prompt:'Does the argument here still stand once the figures are stripped away, or is the figure doing the work of the claim?', options:['The figure carries the claim; the volcano makes the danger vivid but gives no reason for it','The claim would stand in plain clauses, as a cause shown from its effects','This is only a narration of facts that both sides agree on','This is an inartistic proof, such as a written law cited from outside'], correct:0, note:'If we say plainly that democracy contains the causes of its own ruin, we see that a reason is still owed. The metaphor supplies the fear and not the proof.'},
+  {id:'eng-lx2', pid:'eng-swift-cobwebs', kind:'style', prompt:'Does the argument here still stand once the figures are stripped away, or is the figure doing the work of the claim?', options:['The figure is the claim; without the cobweb there is nothing left to assert','The claim would stand in plain clauses: the law catches the weak and lets the powerful go','This is a definition of law by its genus and difference','This is an appeal to the character of the speaker'], correct:1, note:'The simile can be put plainly, that the law punishes small offenders and not great ones, and the plain claim can be tested against cases. So the figure states a claim; it does not replace one.'},
+  {id:'eng-lx3', pid:'eng-lincoln-house-divided', kind:'style', prompt:'Does the argument here still stand once the figures are stripped away, or is the figure doing the work of the claim?', options:['The figure is the claim; the house proves nothing about the Union','The claim would stand in plain clauses: a nation cannot long remain half slave and half free','This is only a narration of facts that both sides agree on','This is an inartistic proof, such as a witness cited from outside'], correct:1, note:'Lincoln states the plain claim himself in the next sentence, that the government cannot endure half slave and half free. The saying from the Gospels gives it authority and force, but the claim is there without it.'},
+  {id:'eng-lx4', pid:'eng-thoreau-railroad', kind:'style', prompt:'Does the argument here still stand once the figures are stripped away, or is the figure doing the work of the claim?', options:['The figure is the claim; the crossing of words is all there is','The claim would stand in plain clauses: we serve our machines more than they serve us','This is a narration of Thoreau’s journey by rail','This is an inartistic proof drawn from a contract'], correct:1, note:'Put plainly, Thoreau says that men have made themselves servants of the railroad. The chiasmus makes the reversal memorable, but the claim can be stated and judged without it.'}
 ];
 const AUG_ITEMS = [
   {id:'au1', pid:'aug-ddc-12',

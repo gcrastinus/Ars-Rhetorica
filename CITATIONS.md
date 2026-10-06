@@ -33,6 +33,8 @@ A claim in this application is admitted only if it was read in one of these work
 - **Boethius**, *Consolation of Philosophy*, public-domain English.
 - **Plutarch**, *Lives*, trans. Dryden / Clough. Public domain.
 - **Douay-Rheims Bible**. Public domain.
+- **English and American speakers and writers**, from Shakespeare to 1919 (Burke, Lincoln, Patrick Henry, Grattan, Johnson, Swift, Madison, Macaulay, and others). Quoted verbatim, with the spelling as printed, from Ward Farnsworth, *Farnsworth’s Classical English Rhetoric* (Godine, 2011) and *Farnsworth’s Classical English Metaphor* (Godine, 2016); sources `eng_cer` and `eng_cem`. The quotations are public domain in the United States, and each is cited by author, work, and date. Farnsworth’s commentary is not used.
+- **King James Bible** (Authorized Version, 1611), as quoted by Farnsworth; source `kjv`. Public domain in the United States.
 
 ## Studies
 
@@ -43,3 +45,4 @@ A claim in this application is admitted only if it was read in one of these work
 
 - Aquinas Institute / Boulding English on augustinus.cc (copyright).
 - The 2014 editor’s Note to the Dover Blaisdell volume.
+- Ward Farnsworth’s own commentary in the two anthologies (copyright), and the passages he quotes that were published in 1931 or later (Churchill’s later speeches, Orwell), which are not public domain in the United States.
