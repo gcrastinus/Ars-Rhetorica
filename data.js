@@ -1080,7 +1080,7 @@ EX.greg = {
 EX.greg.setLen = 10;
 const ACTS = [
   {roman:'I', name:'What Rhetoric Is', latin:'quid sit rhetorica',
-   gloss:'The third road of the trivium. Definition of rhetoric, three means of persuasion (pisteis), three kinds of speech (species). Grammar considers congruity of speech; logic considers the truth of speech; rhetoric considers whether and how the hearer is moved.',
+   gloss:'The third art of the trivium. Definition of rhetoric, three means of persuasion (pisteis), three kinds of speech (species). Grammar considers congruity of speech; logic considers the truth of speech; rhetoric considers whether and how the hearer is moved.',
    items:[
      {kind:'deck', deck:'orient', tag:'TUTORIAL', title:'The counterpart of dialectic', desc:'Aristotle’s definition; the three means of persuasion (pisteis); the three kinds of speech (species) and what each is for.'},
      {kind:'ex', ex:'species', tag:'EXERCISE', title:'The three species', desc:'Speech to a jury on a past act (forensic); speech to an assembly on what to do (deliberative); speech of praise or blame (epideictic) — named from real speeches.'},

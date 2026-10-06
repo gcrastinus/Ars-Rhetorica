@@ -1,6 +1,6 @@
 # Ars Rhetorica
 
-The third road of the trivium. A static, GitHub-Pages-ready course in Aristotelian–Thomistic rhetoric: study decks and working exercises, parchment and wine, no bundler.
+The third art of the trivium. A static, GitHub-Pages-ready course in Aristotelian–Thomistic rhetoric: study decks and working exercises, parchment and wine, no bundler.
 
 Sister applications: [Ars Syllogistica](https://gcrastinus.github.io/ars-syllogistica/) (logic) and [Ars Grammatica](https://github.com/gcrastinus/ars-grammatica) (grammar).
 
