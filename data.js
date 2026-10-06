@@ -449,7 +449,7 @@ const PISTEIS_ITEMS = [
   {pid:'sal-cat-consp', pistis:'pathos', why:'Catiline moves the conspirators by hope, grievance, and the dare.'},
   {pid:'plato-ap-2', pistis:'ethos', why:'He will not beg, and his bearing serves as the argument.'},
   {pid:'tac-cal-1', pistis:'pathos', why:'Calgacus puts the host into the mind of a last free people, with no land behind them.'},
-  {pid:'dem-3', pistis:'logos', why:'Money, ships, and a law that the force remain: this is a policy argued from its parts.'},
+  {pid:'dem-3', pistis:'logos', why:'Money, ships, and a law that the force remain make up a policy argued from its parts.'},
   {pid:'cic-marc-1', pistis:'ethos', why:'The long silence came from grief, not fear, and Cicero’s character is restored with Caesar’s clemency.'},
   {pid:'gor-hel-6', pistis:'logos', why:'Four causes are named, so the case is divided before it is proved.'},
   {pid:'ant-3.2.10', pistis:'pathos', why:'The speaker raises pollution and the city’s danger if the killer walks, and so the hearer is put in fear.'},
@@ -482,9 +482,9 @@ const ETHOS_ITEMS = [
   {id:'et10', pid:'sal-caes-1', which:'phronesis', label:'Practical wisdom (phronesis)',
     why:'Caesar keeps the penalty within the law and asks to be heard as the man who sees what a novel punishment costs the republic.'},
   {id:'et11', pid:'cic-cat1-1', which:'eunoia', label:'Goodwill (eunoia)',
-    why:'The questions shame the senate into the consul’s side: goodwill toward the republic, shown as shared alarm.'},
+    why:'The questions shame the senate into the consul’s side, and his goodwill toward the republic appears as shared alarm.'},
   {id:'et12', pid:'aug-ddc-2', which:'eunoia', label:'Goodwill (eunoia)',
-    why:'Truth must not stand unarmed: the Christian orator’s goodwill is for the hearer’s good, not for a fee.'}
+    why:'Truth must not stand unarmed, and the Christian orator’s goodwill is for the hearer’s good, not for a fee.'}
 ];
 const LEXIS_ITEMS = [
   {id:'lx1', pid:'gor-hel-8', kind:'style',

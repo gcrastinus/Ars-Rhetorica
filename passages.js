@@ -120,7 +120,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 56,
         "figure": "tricolon",
-        "why": "The three verbs rise: bear, endure, allow."
+        "why": "The three verbs rise in force from bear to endure to allow."
       },
       {
         "start": 248,
@@ -760,7 +760,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 63,
         "figure": "chiasmus",
-        "why": "Strong and can, weak and must: the second pair inverts the first in fortune, not only in grammar."
+        "why": "The pair weak and must inverts the pair strong and can, in fortune and not only in grammar."
       }
     ]
   },
@@ -872,7 +872,7 @@ window.PASSAGES = [
         "start": 393,
         "end": 541,
         "figure": "tricolon",
-        "why": "Guard, forbid, sail: these are three resolutions for one war."
+        "why": "Guarding the pass, forbidding the Barbarian, and sailing are three resolutions for one war."
       }
     ]
   },
@@ -1086,7 +1086,7 @@ window.PASSAGES = [
         "start": 50,
         "end": 82,
         "figure": "irony",
-        "why": "No doubt is a courtesy that is already an accusation."
+        "why": "No doubt sounds like a courtesy but works as an accusation."
       },
       {
         "start": 286,
@@ -1120,13 +1120,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 95,
         "figure": "anaphora",
-        "why": "Great, greatly, great: the same word appears in three cases of praise."
+        "why": "The same word appears three times in praise, as great, greatly, and great."
       },
       {
         "start": 0,
         "end": 95,
         "figure": "tricolon",
-        "why": "Thou, power, wisdom: three goods are named in one God."
+        "why": "Three goods, Thou, power, and wisdom, are named in one God."
       },
       {
         "start": 377,
@@ -1374,7 +1374,7 @@ window.PASSAGES = [
         "start": 128,
         "end": 258,
         "figure": "tricolon",
-        "why": "Sea, land, war: three labours come before the town is named."
+        "why": "Three labours, by sea, by land, and in war, come before the town is named."
       },
       {
         "start": 683,
@@ -1442,7 +1442,7 @@ window.PASSAGES = [
         "start": 206,
         "end": 285,
         "figure": "antithesis",
-        "why": "Arrested or sent away: these are two policies for one foe."
+        "why": "To arrest him or to send him away are two policies for one foe."
       },
       {
         "start": 287,
@@ -1920,7 +1920,7 @@ window.PASSAGES = [
         "start": 112,
         "end": 314,
         "figure": "hypotyposis",
-        "why": "The hill taken, the enemy pouring, his own in flight: three sights frame one stand."
+        "why": "Three sights, the hill taken, the enemy pouring down, and his own men in flight, frame one stand."
       },
       {
         "start": 429,
@@ -1963,7 +1963,7 @@ window.PASSAGES = [
         "start": 314,
         "end": 483,
         "figure": "climax",
-        "why": "Short, not long, and swallowed up: each power is greater than the last, and each is absorbed in the next."
+        "why": "The powers are described as short, not long, and swallowed up, so each is greater than the last and each is absorbed in the next."
       },
       {
         "start": 417,
@@ -2009,7 +2009,7 @@ window.PASSAGES = [
         "start": 356,
         "end": 411,
         "figure": "tricolon",
-        "why": "Call, shout, burst: three acts lead to one hearing."
+        "why": "Three acts, calling, shouting, and bursting, lead to one hearing."
       }
     ]
   },
@@ -2059,7 +2059,7 @@ window.PASSAGES = [
         "start": 202,
         "end": 339,
         "figure": "chiasmus",
-        "why": "Joyful and fear, sad and joy: the second pair inverts the first."
+        "why": "The pair sad and joy inverts the pair joyful and fear."
       },
       {
         "start": 277,
@@ -2115,7 +2115,7 @@ window.PASSAGES = [
         "start": 49,
         "end": 108,
         "figure": "climax",
-        "why": "Harmful, then perilous: the second comes nearer to the jury's own interest."
+        "why": "Perilous comes after harmful and comes nearer to the jury's own interest."
       },
       {
         "start": 0,
@@ -2221,7 +2221,7 @@ window.PASSAGES = [
         "start": 150,
         "end": 227,
         "figure": "climax",
-        "why": "First the remote ancestors, then the fathers: the nearer dead are the greater."
+        "why": "The praise moves from the remote ancestors to the fathers, and the nearer dead are praised more."
       },
       {
         "start": 150,
@@ -2414,7 +2414,7 @@ window.PASSAGES = [
         "start": 31,
         "end": 85,
         "figure": "metaphor",
-        "why": "Gates for war: he marks the likeness with so to say."
+        "why": "War is let in through gates, and he marks the likeness with so to say."
       },
       {
         "start": 82,
@@ -2572,7 +2572,7 @@ window.PASSAGES = [
         "start": 166,
         "end": 258,
         "figure": "climax",
-        "why": "Forces, hopes, resources: these are three falls."
+        "why": "Forces, hopes, and resources are three things that fall in turn."
       }
     ]
   },
@@ -2588,7 +2588,7 @@ window.PASSAGES = [
         "start": 46,
         "end": 218,
         "figure": "antithesis",
-        "why": "Death or no death: the senate is shown the two courses before it."
+        "why": "The senate is shown the two courses before it, death or no death."
       },
       {
         "start": 185,
@@ -2656,7 +2656,7 @@ window.PASSAGES = [
         "start": 127,
         "end": 240,
         "figure": "antithesis",
-        "why": "Nothingness or migration: these are two names for one unknown."
+        "why": "Nothingness and migration are two names for one unknown."
       }
     ]
   },
@@ -2712,7 +2712,7 @@ window.PASSAGES = [
         "start": 309,
         "end": 363,
         "figure": "antithesis",
-        "why": "Payment, not gift: these are two names for a return."
+        "why": "Payment and gift are two names for a return, and the recipient's return is only a payment."
       }
     ]
   },
@@ -2740,7 +2740,7 @@ window.PASSAGES = [
         "start": 232,
         "end": 357,
         "figure": "antithesis",
-        "why": "Soften, and on the other hand: the two phrases answer two excesses."
+        "why": "The two phrases, soften and on the other hand, answer two excesses."
       }
     ]
   },
@@ -2762,7 +2762,7 @@ window.PASSAGES = [
         "start": 278,
         "end": 380,
         "figure": "antithesis",
-        "why": "Eternal and transitory: the humble are to learn both."
+        "why": "The humble are to learn both what is eternal and what is transitory."
       },
       {
         "start": 0,
@@ -2818,7 +2818,7 @@ window.PASSAGES = [
         "start": 69,
         "end": 187,
         "figure": "antithesis",
-        "why": "Tribute or friendship: one king uses two methods."
+        "why": "One king uses two methods, tribute and friendship."
       },
       {
         "start": 69,
@@ -3088,7 +3088,7 @@ window.PASSAGES = [
         "start": 832,
         "end": 895,
         "figure": "hypothesis",
-        "why": "The counterfactual is the whole defense: had he stood still, there would have been no death."
+        "why": "The whole defense rests on the counterfactual (a contrary-to-fact supposition): had he stood still, there would have been no death."
       }
     ],
     "species": "forensic",
@@ -3420,7 +3420,7 @@ window.PASSAGES = [
         "start": 312,
         "end": 372,
         "figure": "tricolon",
-        "why": "Word, law, deed: these are the three blows due the ravisher."
+        "why": "Word, law, and deed are the three blows due the ravisher."
       },
       {
         "start": 538,
@@ -3480,7 +3480,7 @@ window.PASSAGES = [
         "start": 69,
         "end": 112,
         "figure": "homoeoteleuton",
-        "why": "Charm and harm: the incantation does in the clause what it names."
+        "why": "Charm and harm rhyme, so the incantation does in the clause what it names."
       },
       {
         "start": 179,
@@ -3849,7 +3849,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 38,
         "figure": "sententia",
-        "why": "Ethos appears as physis (nature): she is made this way."
+        "why": "Ethos appears as physis (nature), since she says she is made this way."
       },
       {
         "start": 47,
@@ -4106,7 +4106,7 @@ window.PASSAGES = [
         "start": 80,
         "end": 117,
         "figure": "tricolon",
-        "why": "Docere, delectare, flectere: these are Cicero's three offices."
+        "why": "These are Cicero's three offices, docere, delectare, flectere."
       },
       {
         "start": 133,

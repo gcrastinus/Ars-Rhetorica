@@ -86,7 +86,7 @@ const P = [];
   P.push({id:'q-sal-cat-58', author:'Catiline (Sallust)', work:'Conspiracy of Catiline', locus:'58', species:'deliberative', src:'sallust_w',
     cue:'Catiline to his soldiers before the last battle: words cannot make the timid valiant.',
     text:t, spans:qmark(t, [
-      {s:'a spiritless army cannot be rendered active, or a timid one valiant, by speeches from their commander', f:'antithesis', w:'Spiritless and active, timid and valiant: in these pairs the speech denies its own power.'},
+      {s:'a spiritless army cannot be rendered active, or a timid one valiant, by speeches from their commander', f:'antithesis', w:'In the pairs spiritless and active, timid and valiant, the speech denies its own power.'},
       {s:'He whom neither glory nor danger can move, it is vain to exhort', f:'sententia', w:'This is a brief rule about pathos: some breasts will not take the charge.'}
     ])});
 })();
@@ -108,7 +108,7 @@ const P = [];
     cue:'Demosthenes opens on Olynthus: be of one mind about Philip.',
     text:t, spans:qmark(t, [
       {s:'all of you should be of one mind, and should both feel and say the same things about Philip', f:'isocolon', w:'To feel and to say the same things are members of like shape.'},
-      {s:'it is for your interest to take the course which I recommend, and to make your preparations at once', f:'climax', w:'Be convinced, take the course, and prepare at once: the counsel rises to action.'}
+      {s:'it is for your interest to take the course which I recommend, and to make your preparations at once', f:'climax', w:'The counsel rises to action, from being convinced to taking the course to preparing at once.'}
     ])});
 })();
 
@@ -158,7 +158,7 @@ const P = [];
   P.push({id:'q-soph-creon-1', author:'Sophocles', work:'Antigone', locus:'666–672 (Storr)', species:'deliberative', src:'soph_storr',
     cue:'Creon: the city’s appointee must be obeyed, just or unjust.',
     text:t, spans:qmark(t, [
-      {s:'in little things and great, in just things and unjust', f:'antithesis', w:'Little and great, just and unjust: obedience is claimed on both sides of each pair.'},
+      {s:'in little things and great, in just things and unjust', f:'antithesis', w:'Obedience is claimed on both sides of each pair, little and great, just and unjust.'},
       {s:'he who is a good servant in the house will be a good ruler in the state', f:'sententia', w:'A general rule about ruling is offered as if it settled Antigone’s case.'}
     ])});
 })();
@@ -249,13 +249,13 @@ window.QUIZ_ITEMS = {
     {pid:'q-aug-ddc-win', pistis:'ethos', why:'The speaker’s goodwill is for the hearer’s salvation, not his own victory.'},
     {pid:'q-sal-cat-58', pistis:'ethos', why:'He will not pretend that a speech can make the timid valiant, and his character appears as frankness.'},
     {pid:'q-liv-brut-1', pistis:'pathos', why:'The oath is sworn over blood, so the hearer is moved first to horror and then to a vow.'},
-    {pid:'q-dem-ol1', pistis:'logos', why:'Be of one mind, then prepare: the counsel is a deliberative sequence argued from interest.'},
+    {pid:'q-dem-ol1', pistis:'logos', why:'The counsel to be of one mind and then to prepare is a deliberative sequence argued from interest.'},
     {pid:'q-plato-ap-diff', pistis:'logos', why:'Death is the slower runner, a claim about which evil is worse that is argued through the likeness.'},
     {pid:'q-sal-cat-10', pistis:'pathos', why:'Fortune grows cruel, and the hearer is put into the frame of mind of a fall after greatness.'},
     {pid:'q-plato-crito-laws', pistis:'logos', why:'The laws argue from what a state is, if decisions can be set aside.'},
     {pid:'q-her-mar-1', pistis:'pathos', why:'Through flattery and a slight against Europe, the hearer (Xerxes) is put into confidence.'},
     {pid:'q-soph-creon-1', pistis:'logos', why:'Obedience in things just and unjust is argued as a rule of the city, as if it were necessary.'},
-    {pid:'q-aug-ddc-wis', pistis:'logos', why:'Wisdom and eloquence distinguished: a claim about what each is worth without the other.'},
+    {pid:'q-aug-ddc-wis', pistis:'logos', why:'Wisdom and eloquence are distinguished in a claim about what each is worth without the other.'},
     {pid:'q-cic-arch-poet', pistis:'logos', why:'The poet is offered as paradeigma (a store of examples) for speaking and for living.'}
   ],
   ETHOS_ITEMS:[
