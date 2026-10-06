@@ -156,7 +156,7 @@ DECKS.lexis = {
   title:'Style', sub:'Lexis — clarity, propriety, metaphor — not scored',
   panels:[
 { src:['arist_rhet'], h:'<p><strong>Virtue of style.</strong> Aristotle (III.2) asks that style be clear, and neither mean nor above the dignity of the subject. In the <em>Poetics</em> (1459a) he writes: “The greatest thing by far is to be a master of metaphor.” So clarity comes first and ornament second, and the vice of the sophist is to make the style do the work of the argument.</p><p>Gorgias is the exhibit here. Van Hook’s Helen is almost all figure: antithesis, isocolon, homoeoteleuton. This is not a mistake but a demonstration of what logos can do when it is treated as a drug, and Aristotle admires the power while he distrusts the use.</p>' },
-{ src:['gorgias_vh','arist_rhet'], h:'<p><strong>Figures the ear can name.</strong> Here is a short working list of figures of speech, which are neither the means of persuasion nor the offices of the oration:</p><ul style="margin:8px 0 8px 22px"><li><strong>Anaphora</strong>: the same word at the head of successive members.</li><li><strong>Antithesis</strong>: opposed thoughts in parallel frames.</li><li><strong>Tricolon</strong>: three members, often rising.</li><li><strong>Isocolon</strong>: members of equal length.</li><li><strong>Homoeoteleuton</strong>: like endings (Gorgias’s signature).</li><li><strong>Apostrophe</strong>: a turn to address someone present or absent.</li><li><strong>Rhetorical question</strong>: a question that is really a charge.</li><li><strong>Metaphor</strong>: naming one thing with another’s name.</li><li><strong>Irony</strong>: saying the less, or the opposite, to mean the more.</li><li><strong>Chiasmus</strong>: a crossing of terms in the order ABBA.</li></ul><p>The figures exercises that follow ask us to find these in a real passage. They do not ask us to name ethos, or pathos, or an exordium, because those belong to invention and arrangement.</p>' },
+{ src:['gorgias_vh','arist_rhet'], h:'<p><strong>Figures the ear can name.</strong> Here is a short working list of figures of speech, which are neither the means of persuasion nor the offices of the oration:</p><ul style="margin:8px 0 8px 22px"><li><strong>Anaphora</strong>: the same word at the head of successive members.</li><li><strong>Antithesis</strong>: opposed thoughts in parallel frames.</li><li><strong>Tricolon</strong>: three members, often rising.</li><li><strong>Isocolon</strong>: members of equal length.</li><li><strong>Homoeoteleuton</strong>: like endings (Gorgias’s signature).</li><li><strong>Apostrophe</strong>: a turn to address someone present or absent.</li><li><strong>Rhetorical question</strong>: a question that is really a charge.</li><li><strong>Metaphor</strong>: naming one thing with another’s name.</li><li><strong>Irony</strong>: saying the less, or the opposite, to mean the more.</li><li><strong>Chiasmus</strong>: a crossing of terms in the order ABBA.</li></ul><p>The figures exercises that follow ask us to find these in a real passage. They do not ask us to name ethos, or pathos, or an exordium, because those belong to invention and arrangement.</p><p>These are among the commonly taught figures, and the main figures exercises ask only about them. Less common figures (correctio, epizeuxis, polysyndeton, aposiopesis, and others) are still marked in the passages, but they are optional; Division VI ends with an optional set, Further figures, that drills them.</p>' },
 { src:['gorgias_vh','thuc_crawley'], h:'<p><strong>When style does the work of argument.</strong> Aristotle’s warning is practical, as two sentences will show.</p><p>Gorgias says of logos that it is “a powerful potentate, who with frailest, feeblest frame works wonders.” Here the figure is the claim: speech is small and does what a ruler does. If we strip away the antithesis and the personification, little argument remains.</p><p>Diodotus says of counsel: “I think the two things most opposed to good counsel are haste and passion.” We may keep or drop the balance of the members, and the claim still stands. That is style serving an argument, not replacing one.</p><p>The exercise in this division asks which is which. The Gorgias figures set in Division VI drills the ear, and this exercise trains the judgment that should follow the ear.</p>' }
 ]};
 
@@ -433,17 +433,42 @@ const FIGURE_GLOSS = {
   parenthesis:'a break that inserts a second voice',
   hypothesis:'a supposed case used as argument',
   prosopopoeia:'giving a voice to the absent or the dead',
-  epithet:'a descriptive word or phrase attached to a name'
+  epithet:'a descriptive word or phrase attached to a name',
+  // Further figures added with the English-tradition passages (all in the optional tier)
+  epistrophe:'the same word at the end of successive members',
+  symploce:'the same words at the head and at the end of successive members',
+  anadiplosis:'the last word of one member taken up at the head of the next',
+  epanalepsis:'a member that ends with the word it began with',
+  epimone:'a phrase repeated as a refrain, to dwell on one point',
+  conduplicatio:'a key word repeated in successive clauses',
+  polyptoton:'the same root repeated in different grammatical forms',
+  anastrophe:'a word or phrase moved out of its usual order for emphasis',
+  polysyndeton:'a conjunction placed between every member of a series',
+  ellipsis:'leaving out words that the hearer supplies from the context',
+  aposiopesis:'breaking off in the middle of a sentence',
+  hypophora:'asking a question and then answering it'
 };
 const SPEECH_FIGURES = {
   anaphora:1, antithesis:1, apostrophe:1, tricolon:1, isocolon:1, homoeoteleuton:1,
   metaphor:1, irony:1, 'rhetorical question':1, chiasmus:1, epizeuxis:1, sententia:1,
   climax:1, asyndeton:1, personification:1, simile:1, hyperbole:1, occupatio:1,
   praeteritio:1, hypotyposis:1, exclamatio:1, correctio:1, enumeratio:1, dilemma:1,
-  hendiadys:1, litotes:1, parenthesis:1, prosopopoeia:1, epithet:1
+  hendiadys:1, litotes:1, parenthesis:1, prosopopoeia:1, epithet:1,
+  epistrophe:1, symploce:1, anadiplosis:1, epanalepsis:1, epimone:1, conduplicatio:1, polyptoton:1, anastrophe:1, polysyndeton:1, ellipsis:1, aposiopesis:1, hypophora:1
 };
 function isSpeechFigure(name){ return !!SPEECH_FIGURES[name]; }
 function speechSpans(p){ return (p.spans||[]).filter(s => isSpeechFigure(s.figure)); }
+// Two tiers of figures. The main figures exercises ask only about the core figures, the ones most
+// commonly taught; every other speech figure is in the optional tier, drilled in Further figures.
+// To move a figure between tiers, add it to CORE_FIGURES or take it out.
+const CORE_FIGURES = {
+  anaphora:1, antithesis:1, apostrophe:1, tricolon:1, isocolon:1, homoeoteleuton:1, metaphor:1, simile:1, personification:1, irony:1, 'rhetorical question':1, chiasmus:1, climax:1, asyndeton:1, hyperbole:1, sententia:1, litotes:1, praeteritio:1
+};
+function isCoreFigure(name){ return isSpeechFigure(name) && !!CORE_FIGURES[name]; }
+function isAdvancedFigure(name){ return isSpeechFigure(name) && !CORE_FIGURES[name]; }
+function coreSpans(p){ return speechSpans(p).filter(s => isCoreFigure(s.figure)); }
+function advancedSpans(p){ return speechSpans(p).filter(s => isAdvancedFigure(s.figure)); }
+function figLabel(f){ return isAdvancedFigure(f) ? f+' (optional)' : f; }
 function isOration(p){
   if(!p) return false;
   if(/Douay|Matthew|Paul|John/.test(p.author||'')) return false;
@@ -880,9 +905,10 @@ EX.figclick = {
   instr:'Each question gives a real excerpt. Click the part of the passage that is the named figure. Ten questions; a passage is not repeated in the set.',
   src:['cic_cat','gorgias_vh'],
   gen(diff){
-    const p = pickPass(x => speechSpans(x).length >= (diff >= 4 ? 2 : 1), 'fc:');
+    const p = pickPass(x => speechSpans(x).length >= (diff >= 4 ? 2 : 1) && coreSpans(x).length, 'fc:');
     const spans = speechSpans(p);
-    const target = (diff <= 2) ? spans[0] : rand(spans);
+    const core = coreSpans(p);
+    const target = (diff <= 2) ? core[0] : rand(core);
     const gloss = FIGURE_GLOSS[target.figure] || target.why;
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
     return {
@@ -893,7 +919,7 @@ EX.figclick = {
       check(ans){
         const right = String(ans) === String(target.figure);
         return {right, note: right ? target.why : 'The '+target.figure+' is this: “'+p.text.slice(target.start, target.end)+'”<br>'+target.why,
-          also: figNames(p).filter(f=>f!==target.figure).join(' · ')};
+          also: figNames(p).filter(f=>f!==target.figure).map(figLabel).join(' · ')};
       }
     };
   }
@@ -903,7 +929,7 @@ EX.figwhich = {
   instr:'Each question gives four real passages; which one is using the named figure? Ten make a set; a passage is not reused.',
   src:['cic_cat'],
   gen(diff){
-    const figs = Object.keys(FIGURE_GLOSS).filter(f => isSpeechFigure(f) && withFig(f).length >= 1);
+    const figs = Object.keys(FIGURE_GLOSS).filter(f => isCoreFigure(f) && withFig(f).length >= 1);
     const fig = pickSeen(figs, f => 'fwfig:'+f);
     const yes = pickPass(x => withFig(fig).indexOf(x)>=0, 'fwy:');
     const nos = sample(passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0), 3);
@@ -921,9 +947,10 @@ function figSet(id, title, instr, pred, src){
   return {
     id, title, instr, src,
     gen(diff){
-      const p = pickPass(x => pred(x) && speechSpans(x).length, id+':');
+      const p = pickPass(x => pred(x) && coreSpans(x).length, id+':');
       const spans = speechSpans(p);
-      const target = (diff <= 2) ? spans[0] : rand(spans);
+      const core = coreSpans(p);
+      const target = (diff <= 2) ? core[0] : rand(core);
       const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
       const gloss = diff<=2 ? ' <em>('+esc(FIGURE_GLOSS[target.figure]||target.why||'')+')</em>' : '';
       return {
@@ -933,7 +960,7 @@ function figSet(id, title, instr, pred, src){
         source: citeP(p), orig:p.orig, olang:p.olang, target:target.figure, why:target.why, src: srcOf(p),
         check(ans){
           const right = String(ans) === String(target.figure);
-          return {right, note: target.why || FIGURE_GLOSS[target.figure] || '', also: figNames(p).join(' · ')};
+          return {right, note: target.why || FIGURE_GLOSS[target.figure] || '', also: figNames(p).map(figLabel).join(' · ')};
         }
       };
     }
@@ -1047,10 +1074,10 @@ EX.whole = {
   instr:'From the situation, name the species, its end, the pistis, and a figure actually in the excerpt, choosing one chip in each row. Ten make a set; a passage is not reused.',
   src:['arist_rhet','cic_inv'],
   gen(diff){
-    const p = pickPass(x => isOration(x) && speechSpans(x).length && pistisOf(x), 'wh:');
+    const p = pickPass(x => isOration(x) && coreSpans(x).length && pistisOf(x), 'wh:');
     const sp = speciesOf(p);
     const end = {forensic:'accuse or defend', deliberative:'exhort or dissuade', epideictic:'praise or blame'}[sp];
-    const present = speechSpans(p).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
+    const present = coreSpans(p).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
     const fig = present[0];
     const pistis = pistisOf(p);
     let figOpts = present.slice();
@@ -1116,6 +1143,50 @@ EX.greg = {
 };
 
 EX.greg.setLen = 10;
+// Optional set: the figures outside the core tier.
+function furtherFigs(){
+  const has = arr => Object.keys(FIGURE_GLOSS).filter(f => isAdvancedFigure(f) && arr.some(p => (p.spans||[]).some(s => s.figure === f)));
+  const figs = has(passages());
+  return figs.length ? figs : has(window.PASSAGES || []);
+}
+EX.figfurther = {
+  id:'figfurther', title:'Further Figures (optional)',
+  instr:'This set is optional. It drills the less common figures, which the main figures exercises do not ask about; some questions ask us to click the figure, and some ask which of four excerpts uses it.',
+  src:['eng_cer','arist_rhet'],
+  gen(diff){
+    const figs = furtherFigs();
+    if(!figs.length) return EX.figclick.gen(diff);
+    const fig = pickSeen(figs, f => 'ffig:'+f);
+    const yes = pickPass(x => speechSpans(x).some(s => s.figure === fig), 'ffy:');
+    const mine = speechSpans(yes).filter(s => s.figure === fig);
+    const target = (diff <= 2) ? mine[0] : rand(mine);
+    const gloss = FIGURE_GLOSS[fig] || target.why;
+    const n = diff <= 2 ? 160 : 120;
+    const pool = passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0);
+    if(rand([0,1]) === 1 && target.end <= n - 10 && pool.length >= 3){
+      const optsP = [yes].concat(sample(pool, 3));
+      return mcQ({
+        prompt:'Which excerpt is using <strong>'+esc(fig)+'</strong> <em>('+esc(gloss)+')</em>?',
+        options: optsP.map(p => '<span style="font-size:16px">'+esc(excerpt(p, n))+'</span><br><span style="font-size:14px;color:var(--ink-soft);font-style:italic">'+citeP(p)+'</span>'),
+        correct:0, src: srcOf(yes),
+        note: citeP(yes)+'. '+target.why,
+        also:'This figure is in the optional tier; the main figures exercises do not ask about it.'
+      });
+    }
+    const cue = diff <= 2 ? '<div class="q-cue">'+esc(yes.cue||'')+'</div>' : '';
+    return {
+      kind:'figclick',
+      prompt:'Click the part of the passage that is <strong>'+esc(fig)+'</strong> <span style="color:var(--ink-soft);font-style:italic">('+esc(gloss)+')</span>.',
+      passageHtml: cue + wrapFigs(yes.text, speechSpans(yes), fig),
+      source: citeP(yes), orig: yes.orig, olang: yes.olang, target: fig, why: target.why, src: srcOf(yes),
+      check(ans){
+        const right = String(ans) === String(fig);
+        return {right, note: right ? target.why : 'The '+fig+' is this: “'+yes.text.slice(target.start, target.end)+'”<br>'+target.why,
+          also: figNames(yes).filter(f => f !== fig).map(figLabel).join(' · ')};
+      }
+    };
+  }
+};
 const ACTS = [
   {roman:'I', name:'What Rhetoric Is', latin:'quid sit rhetorica',
    gloss:'The third art of the trivium. This division gives the definition of rhetoric, the three means of persuasion (pisteis), and the three kinds of speech (species). Grammar considers the congruity of speech, logic considers its truth, and rhetoric considers whether and how the hearer is moved.',
@@ -1152,13 +1223,14 @@ const ACTS = [
      {kind:'ex', ex:'lexis', tag:'EXERCISE', title:'Style and the argument', desc:'Does the claim still stand in plain clauses, or is the figure the claim?'}
    ]},
   {roman:'VI', name:'Figures', latin:'figurae',
-   gloss:'Click the marked part of the passage, or say which of four excerpts uses the named figure. The filters are Cicero, Gorgias’s Helen, and Augustine; tragedy and early prose are in the mixed sets.',
+   gloss:'Click the marked part of the passage, or say which of four excerpts uses the named figure. The filters are Cicero, Gorgias’s Helen, and Augustine; tragedy and early prose are in the mixed sets. These sets ask only about the commonly taught figures, and an optional set at the end drills the rest.',
    items:[
      {kind:'ex', ex:'figclick', tag:'EXERCISE', title:'Click the figure', desc:'Mixed selections, from Cicero to Sophocles and from Gorgias to the Confessions.'},
      {kind:'ex', ex:'figwhich', tag:'EXERCISE', title:'Which excerpt?', desc:'Four real passages; one of them is using the named figure.'},
      {kind:'ex', ex:'figcicero', tag:'EXERCISE', title:'Cicero’s figures', desc:'The great Roman orator’s use of figures throughout his work, but especially in the orations against Catiline.'},
      {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Almost all Gorgias: opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton); the potentate and the drug.'},
-     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin on the original-text button where we have it.'}
+     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin on the original-text button where we have it.'},
+     {kind:'ex', ex:'figfurther', tag:'OPTIONAL', title:'Further figures (optional)', desc:'This set is optional. It drills the less common figures, such as correctio, epizeuxis, polysyndeton, and aposiopesis, which the main sets do not ask about.'}
    ]},
   {roman:'VII', name:'The Whole Case', latin:'causa',
    gloss:'From the situation, name the kind of speech (species), its end, the means of persuasion (pistis), and a figure. Paired debates from Greek and Roman historians, and Antiphon’s tetralogy kept as speech to a jury (forensic).',

@@ -208,6 +208,7 @@ function pickSeen(arr, idFn){
 const $ = id => document.getElementById(id);
 const LETTERS = ['a','b','c','d','e','f','g','h'];
 const SMALL = {figgorgias:1, antiphon:1};
+const OPTIONAL = {figfurther:1};
 
 const QUIZ_SETS = [];
 ACTS.forEach(a => {
@@ -233,7 +234,9 @@ function buildSetList(){
       html += '<div class="acthead">Division '+s.roman+' · '+s.act+'</div>';
       last = s.roman;
     }
-    const note = SMALL[s.ex]
+    const note = OPTIONAL[s.ex]
+      ? 'Optional set: the less common figures, drawn from the course selections'
+      : SMALL[s.ex]
       ? 'Small bank — the work itself; overlap with the app is unavoidable'
       : 'Half from the course selections, half from the quiz-only corpus';
     html += '<label class="setrow"><input type="checkbox" data-ex="'+s.ex+'">'+

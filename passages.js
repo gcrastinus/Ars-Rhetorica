@@ -6267,5 +6267,653 @@ window.PASSAGES = [
     "src": [
       "eng_cem"
     ]
+  },
+  {
+    "id": "eng-webster-usurpation",
+    "author": "Daniel Webster",
+    "work": "Second Reply to Hayne",
+    "locus": "(1830)",
+    "cue": "Webster states the South Carolina view of the tariff in order to examine it.",
+    "text": "The tariff is a usurpation; it is a dangerous usurpation; it is a palpable usurpation; it is a deliberate usurpation.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 116,
+        "figure": "epistrophe",
+        "why": "Usurpation ends each of the four members, and only the adjective changes."
+      },
+      {
+        "start": 28,
+        "end": 116,
+        "figure": "tricolon",
+        "why": "Three members of the same form follow the first statement, each adding one epithet."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-violence",
+    "author": "Abraham Lincoln",
+    "work": "Letter to Joshua Speed",
+    "locus": "(1855)",
+    "cue": "Lincoln writes to an old friend about the Kansas-Nebraska Act.",
+    "text": "I look upon that enactment not as a law, but as a violence from the beginning. It was conceived in violence, is maintained in violence, and is being executed in violence.",
+    "spans": [
+      {
+        "start": 27,
+        "end": 58,
+        "figure": "antithesis",
+        "why": "Law is set against violence, so the Act is denied the name it claims."
+      },
+      {
+        "start": 79,
+        "end": 169,
+        "figure": "epistrophe",
+        "why": "In violence closes each of the three members."
+      },
+      {
+        "start": 79,
+        "end": 169,
+        "figure": "tricolon",
+        "why": "The Act is followed from its conception to its execution in three members."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-corinthians-child",
+    "author": "Paul (King James Version)",
+    "work": "First Epistle to the Corinthians",
+    "locus": "13:11",
+    "cue": "The apostle compares partial knowledge now with full knowledge to come.",
+    "text": "When I was a child, I spake as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 38,
+        "figure": "antithesis",
+        "why": "The state of the child is set against the state of the man who has put away childish things."
+      },
+      {
+        "start": 20,
+        "end": 85,
+        "figure": "symploce",
+        "why": "Each member begins with I and ends with as a child."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-webster-knapp-there",
+    "author": "Daniel Webster",
+    "work": "Argument in the Murder Trial of John Francis Knapp",
+    "locus": "(1830)",
+    "cue": "Webster, prosecuting, places the accused near the scene of the murder.",
+    "text": "He was there before the murder; he was there after the murder; he was there clandestinely, unwilling to be seen.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 61,
+        "figure": "symploce",
+        "why": "He was there begins both members and the murder ends both."
+      },
+      {
+        "start": 0,
+        "end": 89,
+        "figure": "anaphora",
+        "why": "He was there opens all three members."
+      }
+    ],
+    "species": "forensic",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-oconnell-insolence",
+    "author": "Daniel O’Connell",
+    "work": "Speech in the House of Commons",
+    "locus": "(1831)",
+    "cue": "O’Connell explains how an armed party in Ireland came to bloodshed.",
+    "text": "One party, then, was armed against the other – the armed party grew insolent – insolence led to scuffles, and scuffles ended in death.",
+    "spans": [
+      {
+        "start": 47,
+        "end": 133,
+        "figure": "anadiplosis",
+        "why": "Insolent is taken up as insolence, and scuffles ends one clause and begins the next, so that each step causes the one after."
+      },
+      {
+        "start": 79,
+        "end": 133,
+        "figure": "climax",
+        "why": "The chain rises from insolence to death."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-richard2-fear-hate",
+    "author": "Shakespeare",
+    "work": "Richard II",
+    "locus": "5.1",
+    "cue": "Richard, deposed, warns Northumberland how the new king’s friendship will turn.",
+    "text": "The love of wicked men converts to fear, That fear to hate, and hate turns one or both To worthy danger and deserved death.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 122,
+        "figure": "climax",
+        "why": "Love passes through fear and hate to death."
+      },
+      {
+        "start": 23,
+        "end": 74,
+        "figure": "anadiplosis",
+        "why": "Fear and hate each end one member and begin the next."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-madison-ambition",
+    "author": "James Madison",
+    "work": "The Federalist no. 51",
+    "locus": "(1788)",
+    "cue": "Madison on how the parts of government are to check one another.",
+    "text": "Ambition must be made to counteract ambition.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 44,
+        "figure": "epanalepsis",
+        "why": "The sentence begins and ends with ambition."
+      },
+      {
+        "start": 0,
+        "end": 44,
+        "figure": "sententia",
+        "why": "The principle of the checks is stated as a general maxim."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-jc-cassius-bondage",
+    "author": "Shakespeare",
+    "work": "Julius Caesar",
+    "locus": "1.3",
+    "cue": "Cassius, on the night before the Ides, says he will die before he lives under Caesar.",
+    "text": "Cassius from bondage will deliver Cassius.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "epanalepsis",
+        "why": "The line begins and ends with Cassius."
+      },
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "anastrophe",
+        "why": "From bondage is set before the verb, out of its usual place."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-henry-let-it-come",
+    "author": "Patrick Henry",
+    "work": "Speech to the Second Virginia Convention",
+    "locus": "(1775)",
+    "cue": "Henry tells the convention that war has in effect begun.",
+    "text": "There is no retreat but in submission and slavery! Our chains are forged! Their clanking may be heard on the plains of Boston! The war is inevitable – and let it come! I repeat it, sir, let it come!",
+    "spans": [
+      {
+        "start": 0,
+        "end": 50,
+        "figure": "exclamatio",
+        "why": "The sentences are cries rather than statements."
+      },
+      {
+        "start": 51,
+        "end": 126,
+        "figure": "hypotyposis",
+        "why": "The coming servitude is made audible as chains clanking near Boston."
+      },
+      {
+        "start": 155,
+        "end": 198,
+        "figure": "epimone",
+        "why": "Let it come is said, then said again with a notice that it is being repeated."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-webster-the-cause",
+    "author": "Daniel Webster",
+    "work": "Speech in the Senate",
+    "locus": "(1833)",
+    "cue": "Webster asks what has brought South Carolina to talk of secession.",
+    "text": "The cause, then, Sir, the cause! Let the world know the cause which has thus induced one State of the Union to bid defiance to the power of the whole, and openly to talk of secession.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 61,
+        "figure": "epimone",
+        "why": "The cause is repeated three times, so that the hearer dwells on it."
+      },
+      {
+        "start": 85,
+        "end": 149,
+        "figure": "antithesis",
+        "why": "One State is set against the whole Union."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-grattan-no-lawyer",
+    "author": "Henry Grattan",
+    "work": "Speech in the Irish Parliament",
+    "locus": "(1793)",
+    "cue": "Grattan answers a legal claim made in the Irish Parliament.",
+    "text": "No lawyer can say so; because no lawyer could say so without forfeiting his character as a lawyer.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 52,
+        "figure": "anaphora",
+        "why": "No lawyer opens both clauses."
+      },
+      {
+        "start": 0,
+        "end": 97,
+        "figure": "conduplicatio",
+        "why": "Lawyer is repeated in each clause, so the profession itself becomes the argument."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-burke-empire-revenue",
+    "author": "Edmund Burke",
+    "work": "Speech on Moving His Resolutions for Conciliation with the Colonies",
+    "locus": "(1775)",
+    "cue": "Burke answers the proposal that the colonies be taxed by quotas.",
+    "text": "I allow, indeed, that the Empire of Germany raises her revenue and her troops by quotas and contingents; but the revenue of the Empire and the army of the Empire is the worst revenue and the worst army in the world.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 62,
+        "figure": "occupatio",
+        "why": "He grants the opposing example before turning it against them."
+      },
+      {
+        "start": 109,
+        "end": 214,
+        "figure": "conduplicatio",
+        "why": "Revenue, army, and the Empire are each repeated, and the repetition sets up the verdict worst."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-matthew-judge-not",
+    "author": "Matthew (King James Version)",
+    "work": "Gospel according to St Matthew",
+    "locus": "7:1",
+    "cue": "A precept from the Sermon on the Mount.",
+    "text": "Judge not, that ye be not judged.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 32,
+        "figure": "polyptoton",
+        "why": "The verb judge returns as judged, active and then passive."
+      },
+      {
+        "start": 0,
+        "end": 32,
+        "figure": "sententia",
+        "why": "The precept is stated as a short general rule."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lear-sinned-against",
+    "author": "Shakespeare",
+    "work": "King Lear",
+    "locus": "3.2",
+    "cue": "Lear, in the storm, speaks of his daughters and himself.",
+    "text": "I am a man More sinn’d against than sinning.",
+    "spans": [
+      {
+        "start": 11,
+        "end": 43,
+        "figure": "polyptoton",
+        "why": "The verb sin appears in two forms, passive and active."
+      },
+      {
+        "start": 11,
+        "end": 43,
+        "figure": "antithesis",
+        "why": "What has been done to him is weighed against what he has done."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-burke-bristol-conscience",
+    "author": "Edmund Burke",
+    "work": "Speech to the Electors of Bristol",
+    "locus": "(1774)",
+    "cue": "Burke tells the voters who elected him what a representative owes them.",
+    "text": "But his unbiased opinion, his mature judgment, his enlightened conscience, he ought not to sacrifice to you, to any man, or to any set of men living.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 100,
+        "figure": "anastrophe",
+        "why": "The objects are placed before the subject and verb, so that what is not to be sacrificed comes first."
+      },
+      {
+        "start": 4,
+        "end": 73,
+        "figure": "tricolon",
+        "why": "Three possessions of the representative are named in three members of the same form."
+      },
+      {
+        "start": 101,
+        "end": 148,
+        "figure": "climax",
+        "why": "The list of those to whom nothing is owed widens with each member."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-johnson-macpherson",
+    "author": "Samuel Johnson",
+    "work": "Letter to James Macpherson",
+    "locus": "(1775)",
+    "cue": "Johnson answers a threat from the man whose Ossian poems he had called a fraud.",
+    "text": "I thought your book an imposture; I think it an imposture still. For this opinion I have given my reasons to the publick, which I here dare you to refute. Your rage I defy.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 63,
+        "figure": "antithesis",
+        "why": "Then is set against now, thought against think, and the judgement does not change."
+      },
+      {
+        "start": 155,
+        "end": 171,
+        "figure": "anastrophe",
+        "why": "The object is set first, so the letter ends on defiance."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-luke-noe",
+    "author": "Luke (King James Version)",
+    "work": "Gospel according to St Luke",
+    "locus": "17:27",
+    "cue": "Christ describes the days before the flood.",
+    "text": "They did eat, they drank, they married wives, they were given in marriage, until the day that Noe entered into the ark, and the flood came, and destroyed them all.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 73,
+        "figure": "asyndeton",
+        "why": "The ordinary acts of life are listed without conjunctions, against the slow and of the ending."
+      },
+      {
+        "start": 75,
+        "end": 162,
+        "figure": "polysyndeton",
+        "why": "And joins each event to the next, so that the end comes one step at a time."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "kjv",
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-war-came",
+    "author": "Abraham Lincoln",
+    "work": "Second Inaugural Address",
+    "locus": "(1865)",
+    "cue": "Lincoln recalls how the war began.",
+    "text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+    "spans": [
+      {
+        "start": 33,
+        "end": 152,
+        "figure": "antithesis",
+        "why": "Making war is set against accepting war, and survive against perish."
+      },
+      {
+        "start": 96,
+        "end": 170,
+        "figure": "polysyndeton",
+        "why": "The clauses are joined by and, and the last clause is given plainly, as an event that followed."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lincoln-selfishness",
+    "author": "Abraham Lincoln",
+    "work": "Speech at Peoria",
+    "locus": "(1854)",
+    "cue": "Lincoln names the sources of slavery and of opposition to it.",
+    "text": "Slavery is founded in the selfishness of man’s nature – opposition to it in his love of justice.",
+    "spans": [
+      {
+        "start": 22,
+        "end": 95,
+        "figure": "antithesis",
+        "why": "Selfishness is set against love of justice."
+      },
+      {
+        "start": 56,
+        "end": 95,
+        "figure": "ellipsis",
+        "why": "The verb is founded is left out of the second member, and the hearer supplies it."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-trollope-alone",
+    "author": "Anthony Trollope",
+    "work": "The Eustace Diamonds",
+    "locus": "(1873)",
+    "cue": "Trollope compares the pleasures of the man and the woman in an engagement.",
+    "text": "To be alone with the girl to whom he is not engaged is a man’s delight; to be alone with the man to whom she is engaged is the woman’s.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 134,
+        "figure": "antithesis",
+        "why": "The man and the woman are set against each other in members of the same shape."
+      },
+      {
+        "start": 120,
+        "end": 134,
+        "figure": "ellipsis",
+        "why": "The word delight is left out of the second member and supplied from the first."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-lear-such-things",
+    "author": "Shakespeare",
+    "work": "King Lear",
+    "locus": "2.4",
+    "cue": "Lear, refused by both daughters, threatens them.",
+    "text": "No, you unnatural hags, I will have such revenges on you both That all the world shall – I will do such things, – What they are, yet I know not; but they shall be The terrors of the earth.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 22,
+        "figure": "apostrophe",
+        "why": "He addresses his daughters directly, and with abuse."
+      },
+      {
+        "start": 62,
+        "end": 88,
+        "figure": "aposiopesis",
+        "why": "He breaks off the threat before it is finished."
+      },
+      {
+        "start": 149,
+        "end": 187,
+        "figure": "hyperbole",
+        "why": "His revenges are to terrify the whole earth."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-wilde-dorian",
+    "author": "Oscar Wilde",
+    "work": "The Picture of Dorian Gray",
+    "locus": "(1890)",
+    "cue": "The painter Basil Hallward tries to explain the effect Dorian Gray has had on him.",
+    "text": "I have always been my own master; had at least always been so, till I met Dorian Gray. Then – but I don’t know how to explain it to you.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 61,
+        "figure": "correctio",
+        "why": "He takes back the present tense and puts the past in its place."
+      },
+      {
+        "start": 87,
+        "end": 135,
+        "figure": "aposiopesis",
+        "why": "He begins to say what happened and breaks off."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-henry-satisfied",
+    "author": "Patrick Henry",
+    "work": "Speech at the Virginia Ratifying Convention",
+    "locus": "(1788)",
+    "cue": "Henry reminds the convention how Virginia treated the promises of the British Parliament.",
+    "text": "The Parliament gave you the most solemn assurances that they would not exercise this power. Were you satisfied with their promises? No. Did you trust any man on earth? No. You answered that you disdained to hold your innate, indefeasible rights of any one.",
+    "spans": [
+      {
+        "start": 92,
+        "end": 171,
+        "figure": "hypophora",
+        "why": "He asks the questions and gives the answers himself."
+      }
+    ],
+    "species": "deliberative",
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
+  },
+  {
+    "id": "eng-stephen-nothing",
+    "author": "James Fitzjames Stephen",
+    "work": "Liberty, Equality, Fraternity",
+    "locus": "(1873)",
+    "cue": "Stephen, a critic of universal suffrage, is asked what he would put in its place.",
+    "text": "If I am asked, What do you propose to substitute for universal suffrage? Practically, What have you to recommend? I answer at once, Nothing.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 139,
+        "figure": "hypophora",
+        "why": "He puts the question an opponent would ask and answers it himself."
+      },
+      {
+        "start": 114,
+        "end": 139,
+        "figure": "occupatio",
+        "why": "The objection is anticipated and met before anyone has made it."
+      }
+    ],
+    "track": "english",
+    "src": [
+      "eng_cer"
+    ]
   }
 ];
