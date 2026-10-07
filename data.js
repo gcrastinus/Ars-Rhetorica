@@ -391,7 +391,7 @@ const GREG_PAIRS = [
   {id:'g2', pair:'the humble and the proud', why:'The humble are to be praised carefully, lest praise become a snare; the proud are to be rebuked, lest silence confirm them.', src:'greg'},
   {id:'g3', pair:'the silent and the talkative', why:'The silent must be drawn to a useful word; the talkative must be taught to spare the hearer.', src:'greg'},
   {id:'g4', pair:'the young and the old', why:'The young are to be admonished to keep order; the old to be asked for the example their years already claim.', src:'greg'},
-  {id:'g5', pair:'men and women', why:'Heavier injunctions are laid on one, lighter on the other, that those be exercised by great things and these winningly converted by light ones.', src:'greg'},
+  {id:'g5', pair:'men and women', why:'Heavier injunctions are laid on the one, lighter on the other, that those may be exercised by great things and these winningly converted by light ones.', src:'greg'},
   {id:'g6', pair:'the poor and the rich', why:'The poor are to be offered the solace of comfort against tribulation; the rich are to be made afraid of elation.', src:'greg'},
   {id:'g7', pair:'subjects and prelates', why:'Subjects must not be crushed by subjection; prelates must not be elated by place, nor command more than is just.', src:'greg'},
   {id:'g8', pair:'servants and masters', why:'Servants are to be admonished that they despise not their masters; masters, that they forget not they have a Master in heaven.', src:'greg'},
@@ -410,10 +410,8 @@ const GREG_PAIRS = [
   {id:'g21', pair:'the obstinate and the fickle', why:'The obstinate will not take counsel, thinking too well of themselves; the fickle abandon their own judgment, thinking too little of themselves.', src:'greg'},
   {id:'g22', pair:'those who give of their own and those who seize what belongs to others', why:'Givers are to be kept from swelling above those they support; those who seize others’ goods are to be called off from the taking.', src:'greg'},
   {id:'g23', pair:'those who neither covet nor give, and those who give and still seize', why:'Those who neither covet nor give withhold a common gift from the poor; those who give and still seize remain in the taking.', src:'greg'},
-  {id:'g24', pair:'those at variance and those at peace', why:'Those at variance lack the fruit of the Spirit; those at peace are to keep a longing for the peace that lasts.', src:'greg'},
   {id:'g25', pair:'sowers of strifes and peacemakers', why:'Sowers of strifes follow the enemy who sowed the tares; peacemakers must learn between whom peace ought to be made.', src:'greg'},
   {id:'g26', pair:'those who misread the sacred law and those who understand it but speak it without humility', why:'A misreading turns the law’s medicine into poison; a true reading, spoken proudly, is treated as if the words were the speaker’s own.', src:'greg'},
-  {id:'g27', pair:'those who shrink from a preaching they could do, and those who rush into preaching unprepared', why:'One who can preach and draws back hides a good he holds; one whom imperfection forbids is rushing into an office he cannot yet bear.', src:'greg'},
   {id:'g28', pair:'those who prosper in temporal wishes and those worn by adversity', why:'Those who prosper are to seek the giver along with the gift; those worn by adversity are to see a physician’s care in what is withheld.', src:'greg'},
   {id:'g29', pair:'those who have known sins of the flesh and those who have not', why:'Those who have fallen in the flesh are to fear the sea after shipwreck; the untouched are to be warned lest innocence grow torpid.', src:'greg'},
   {id:'g30', pair:'those who weep for sins and still commit them, and those who leave their sins and do not weep', why:'Tears that prepare a return to filth cleanse nothing; one who has left the sin and does not mourn it still owes the mourning.', src:'greg'},
@@ -557,7 +555,7 @@ const PISTEIS_ITEMS = [
   {pid:'eng-grattan-corry', pistis:'pathos', why:'Refusing to call the man villain, and refusing to call him fool, is itself the insult.'},
   {pid:'eng-grattan-blood-felony', pistis:'pathos', why:'The cry of blood and felony, repeated through every period of the bill, is meant to make the hearers recoil.'},
   {pid:'eng-grattan-cradle-hearse', pistis:'pathos', why:'“I sat by her cradle, I followed her hearse” mourns the Irish Parliament with a parental recollection.'},
-  {pid:'aug-2', pistis:'pathos', why:'“Too late loved I Thee” stages a love that came after its time, so that the hearer feel the longing.'},
+  {pid:'aug-2', pistis:'pathos', why:'“Too late loved I Thee” stages a love that came after its time, so that the hearer may feel the longing.'},
   {pid:'cic-cat1-8', pistis:'logos', why:'The silence of the house denotes consent, and a sanction in words is still awaited.'},
   {pid:'cic-cat3-7', pistis:'logos', why:'Since the leaders have been seized, he says the hearers are bound to believe that all the forces of Catilina were defeated.'},
   {pid:'cic-cat4-4', pistis:'logos', why:'He sets out the only two motions, the proposal of Silanus that the men be punished by death, and the proposal of Caesar, which omits that punishment.'},
@@ -835,9 +833,9 @@ EX.species = {
     const p = pickPass(x => isOration(x) && !dup[x.id], 'sp:');
     const sp = speciesOf(p);
     const labels = {
-      forensic:'Forensic, also judicial: the jury, the past, the just, and the unjust.',
-      deliberative:'Deliberative: the assembly, the future, the expedient and the harmful.',
-      epideictic:'Epideictic: the spectators, this present, the noble, and the shameful.'
+      forensic:'Forensic: the jury, the past, the just and the unjust',
+      deliberative:'Deliberative: the assembly, the future, the expedient',
+      epideictic:'Epideictic: the spectator, praise and blame, the noble'
     };
     const opts = ['forensic','deliberative','epideictic'];
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
@@ -863,7 +861,7 @@ EX.pisteis = {
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
       prompt:'Which pistis is doing the chief work in this passage?',
-      options:['Ethos: the speaker as the speech shows him','Pathos: the hearer’s present frame of mind','Logos: the argument of this speech, itself'],
+      options:['Ethos: the speaker as the speech shows him','Pathos: the hearer’s frame of mind','Logos: the argument of the speech itself'],
       correct: names.indexOf(item.pistis),
       passage: cue + esc(excerpt(p, diff >= 4 ? 240 : 400)),
       source: citeP(p), orig: p.orig, olang: p.olang, src: srcOf(p),
@@ -1007,7 +1005,7 @@ EX.taxisorder = {
         prompt:'In the Latin school order, which office comes first?',
         options:[A.name, B.name, 'The same office', 'Not an office'],
         correct:0, src:'cic_inv',
-        note: A.name+' precedes '+B.name+'.',
+        note: A.name+' precedes '+B.name+'. The school order is opening, facts, points in dispute, proof, the other side, and close.',
         also:'Proof and refutation are two offices, and we should not collapse them into one.'
       });
     }
@@ -1221,9 +1219,9 @@ EX.debates = {
     if(item.kind === 'species'){
       const opts = ['forensic','deliberative','epideictic'];
       const labels = {
-        forensic:'Forensic, also judicial: the jury, the past, the just, and the unjust.',
-        deliberative:'Deliberative: the assembly, the future, the expedient and the harmful.',
-        epideictic:'Epideictic: the spectators, this present, the noble, and the shameful.'
+        forensic:'Forensic: a past act, the just and the unjust',
+        deliberative:'Deliberative: a future policy, the expedient and the harmful',
+        epideictic:'Epideictic: praise and blame, the noble'
       };
       return mcQ({
         prompt:'<strong>'+esc(d.title)+'</strong>, '+esc(d.locus)+'.<br>Two voices: <em>'+esc(d.a.who)+'</em> and <em>'+esc(d.b.who)+'</em>. What is the species of the debate?',
@@ -1242,8 +1240,8 @@ EX.debates = {
     return mcQ({
       prompt:'This voice is arguing which claim?',
       options:[who.claim, other.claim,
-               'The speech only lists the offices of an oration, and it makes no claim about the case.',
-               'The hearer is only asked to name some figure of speech, and the speech makes no claim.'],
+               'The speech is only a list of the parts of an oration.',
+               'The hearer is asked only to name a figure of speech.'],
       correct:0,
       passage: p ? esc(excerpt(p, 280)) : '',
       source: who.who+' — '+d.locus, src: d.src,
@@ -1257,10 +1255,10 @@ EX.whole = {
   instr:'From the situation, name the species, its end, the pistis, and a figure actually in the excerpt, choosing one chip in each row. Ten make a set; a passage is not reused.',
   src:['arist_rhet','cic_inv'],
   gen(diff){
-    const p = pickPass(x => isOration(x) && pistisOf(x) && coreSpans(x).some(s => s.start < shownLen(x, 380)), 'wh:');
+    const p = pickPass(x => isOration(x) && pistisOf(x) && coreSpans(x).some(s => s.end <= shownLen(x, 380)), 'wh:');
     const sp = speciesOf(p);
     const end = {forensic:'accuse or defend', deliberative:'exhort or dissuade', epideictic:'praise or blame'}[sp];
-    const present = coreSpans(p).filter(s => s.start < shownLen(p, 380)).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
+    const present = coreSpans(p).filter(s => s.end <= shownLen(p, 380)).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
     const fig = present[0];
     const pistis = pistisOf(p);
     let figOpts = present.slice();
