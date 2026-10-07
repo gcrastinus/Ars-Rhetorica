@@ -855,10 +855,20 @@ EX.taxisorder = {
   gen(diff){
     const duties = TAXIS_PARTS.map(p => ({k:'duty', part:p.key}));
     const pairs = [];
+    const afters = [];
     for(let i = 0; i < TAXIS_PARTS.length-1; i++){
       pairs.push({k:'first', a:TAXIS_PARTS[i].key, b:TAXIS_PARTS[i+1].key});
+      afters.push({k:'after', a:TAXIS_PARTS[i].key, b:TAXIS_PARTS[i+1].key});
     }
-    const kinds = [{k:'order'}, {k:'shrink'}].concat(duties).concat(pairs);
+    const arist = [
+      {k:'arist', part:'exordium', prompt:'Aristotle’s opening (prooimion) does the work of which Latin office?',
+        note:'The prooimion is the opening, and its work is the exordium’s: to make the hearers attentive, teachable, and well-disposed.'},
+      {k:'arist', part:'narration', prompt:'Aristotle’s statement of the case does the work of which Latin office?',
+        note:'The statement sets out the facts. That is the office of the narration, which should be brief, clear, and plausible.'},
+      {k:'arist', part:'peroration', prompt:'Aristotle’s close (epilogos) does the work of which Latin office?',
+        note:'The epilogos is the close. Cicero’s peroration recapitulates and moves the hearers.'}
+    ];
+    const kinds = [{k:'order'}, {k:'shrink'}].concat(duties).concat(pairs).concat(afters).concat(arist);
     const item = pickSeen(kinds, x => 'txo:'+x.k+':'+(x.part||'')+':'+(x.a||'')+':'+(x.b||''));
     const labels = {};
     TAXIS_PARTS.forEach(t => { labels[t.key] = t.name + ': ' + t.duty; });
@@ -899,9 +909,34 @@ EX.taxisorder = {
         also:'Proof and refutation are two offices, and we should not collapse them into one.'
       });
     }
+    if(item.k === 'after'){
+      const A = TAXIS_PARTS.find(t => t.key===item.a);
+      const B = TAXIS_PARTS.find(t => t.key===item.b);
+      const rest = TAXIS_PARTS.filter(t => t.key!==item.b);
+      const opts = [B].concat(sample(rest, diff<=2 ? 2 : 3));
+      return mcQ({
+        prompt:'In the Latin school order, which office comes immediately after the '+A.name+'?',
+        options: opts.map(t => t.name),
+        correct:0, src:'cic_inv',
+        note: B.name+' follows '+A.name+'. The school order is opening, facts, points in dispute, proof, the other side, and close.',
+        also:'The six are offices a speech may perform, and a given speech need not use every one.'
+      });
+    }
+    if(item.k === 'arist'){
+      const part = TAXIS_PARTS.find(t => t.key===item.part);
+      const rest = TAXIS_PARTS.filter(t => t.key!==item.part);
+      const opts = [part].concat(sample(rest, diff<=2 ? 2 : 3));
+      return mcQ({
+        prompt:item.prompt,
+        options: opts.map(t => t.name),
+        correct:0, src:'cic_inv',
+        note: part.name+'. '+item.note,
+        also:'Aristotle names four parts. The Latin six name offices a part may perform.'
+      });
+    }
     const part = TAXIS_PARTS.find(t => t.key===item.part);
     const others = TAXIS_PARTS.filter(t => t.key!==item.part);
-    const opts = [part].concat(diff<=2 ? others.slice(0,2) : others.slice(0,3));
+    const opts = [part].concat(sample(others, diff<=2 ? 2 : 3));
     return mcQ({
       prompt:'Which office has this duty: <em>'+esc(part.duty)+'</em>',
       options: opts.map(t => t.name),
