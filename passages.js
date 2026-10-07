@@ -7185,13 +7185,9 @@ window.PASSAGES = [
   "locus": "1.1",
   "cue": "The husband, charged with killing Eratosthenes, tells the jury he is sure of how they would feel if the case were their own.",
   "text": "For I am sure that, if you had the same feelings about others as about yourselves, not one of you but would be indignant at what has been done; you would all regard the penalties appointed for those who resort to such practices as too mild.",
-  "spans": [
-    {
-      "start": 83,
-      "end": 120,
-      "figure": "litotes",
-      "why": "“Not one of you but would be indignant” denies that any juror would fail to feel the indignation."
-    }
+  "spans": [],
+  "unmarkedFigures": [
+    "litotes"
   ],
   "species": "forensic",
   "src": [

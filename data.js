@@ -535,7 +535,7 @@ const PISTEIS_ITEMS = [
   {pid:'eng-burke-tyrants', pistis:'logos', why:'The sentence is a maxim, and Aristotle treats a maxim as the premise or the conclusion of an enthymeme (II.21). Burke states a general cause and effect, that rebellion on principle gives kings a reason to rule as tyrants, and the hearers are asked to judge whether it is true, not chiefly to feel fear or to trust the speaker.'},
   // Further labels. Each one is defensible from the excerpt of about 240 characters, which is what the hardest setting shows.
   {pid:'cic-cat3-11', pistis:'ethos', why:'He declines any reward of merit and any memorial of his renown, and he places the distinction in the eternal remembrance of this day.'},
-  {pid:'cic-cat4-2', pistis:'ethos', why:'He tells the senate to cease to consider him, and to take thought for themselves and for the fatherland.'},
+  {pid:'cic-cat4-2', pistis:'pathos', why:'Cicero sets before the senators their own safety, their wives, their children, and their properties, so that fear for these, and not regard for the consul, governs their vote; the line about ceasing to consider him serves that end.'},
   {pid:'dem-1', pistis:'ethos', why:'Speakers who praise the forefathers, he judges, desire to gratify the hearers, and are not acting in the interests of those whom they praise.'},
   {pid:'dem-2', pistis:'ethos', why:'He lays it down as the duty of every speaker to declare the policy he considers best, and to keep malice and favour out of the speech.'},
   {pid:'plato-ap-3', pistis:'ethos', why:'He honours and loves the Athenians, he will obey God rather than them, and he will never cease from the practice of philosophy.'},
@@ -555,7 +555,6 @@ const PISTEIS_ITEMS = [
   {pid:'eng-grattan-corry', pistis:'pathos', why:'Refusing to call the man villain, and refusing to call him fool, is itself the insult.'},
   {pid:'eng-grattan-blood-felony', pistis:'pathos', why:'The cry of blood and felony, repeated through every period of the bill, is meant to make the hearers recoil.'},
   {pid:'eng-grattan-cradle-hearse', pistis:'pathos', why:'“I sat by her cradle, I followed her hearse” mourns the Irish Parliament with a parental recollection.'},
-  {pid:'aug-2', pistis:'pathos', why:'“Too late loved I Thee” stages a love that came after its time, so that the hearer may feel the longing.'},
   {pid:'cic-cat1-8', pistis:'logos', why:'The silence of the house denotes consent, and a sanction in words is still awaited.'},
   {pid:'cic-cat3-7', pistis:'logos', why:'Since the leaders have been seized, he says the hearers are bound to believe that all the forces of Catilina were defeated.'},
   {pid:'cic-cat4-4', pistis:'logos', why:'He sets out the only two motions, the proposal of Silanus that the men be punished by death, and the proposal of Caesar, which omits that punishment.'},
@@ -578,14 +577,13 @@ const PISTEIS_ITEMS = [
   {pid:'lys-19-fear', pistis:'pathos', why:'He is greatly embarrassed: if he fails to speak with effect to-day, he and his father will be held to be guilty.'},
   {pid:'tac-cal-2', pistis:'pathos', why:'“To ravage, to slaughter, to usurp under false titles, they call empire” and “where they make a desert, they call it peace” are spoken to make that rule hateful.'},
   {pid:'eng-isaiah-evil-good', pistis:'pathos', why:'“Woe unto them that call evil good, and good evil” cries out against those who confound moral names.'},
-  {pid:'eng-lear-such-things', pistis:'pathos', why:'“you unnatural hags,” “I will do such things,” “yet I know not” and “The terrors of the earth” set a rage in front of the hearer.'},
   {pid:'eng-douglass-false', pistis:'pathos', why:'“America is false to the past, false to the present, and solemnly binds herself to be false to the future” charges the nation so that the hearers feel the shame of it.'},
-  {pid:'cic-cat2-3', pistis:'logos', why:'He utterly despises Catilina’s army in comparison with the legions from Cisalpine Gaul and the new troops which Q. Metellus has levied.'},
+  {pid:'cic-cat2-3', pistis:'pathos', why:'The comparison of forces is offered to make the citizens confident, not to prove a disputed point; Aristotle counts confidence among the passions, and says it arises when we judge that our resources are greater than the danger (II.5).'},
   {pid:'thuc-corc', pistis:'logos', why:'He calls it folly to sacrifice them, and he names the reason he wants remembered: there are but three considerable naval powers in Hellas, Athens, Corcyra, and Corinth.'},
-  {pid:'eng-henry-stronger', pistis:'logos', why:'He asks when they will be stronger, and whether that time will be when they are totally disarmed.'},
+  {pid:'eng-henry-stronger', pistis:'pathos', why:'The questions state no premise and prove nothing; they make the hearers picture themselves disarmed, with a British guard in every house, so that fear and shame at delay move them to act now.'},
   {pid:'eng-lincoln-house-divided', pistis:'logos', why:'This government cannot endure permanently half slave and half free.'},
   {pid:'eng-swift-cobwebs', pistis:'logos', why:'Laws, like cobwebs, may catch small flies, but let wasps and hornets break through.'},
-  {pid:'eng-burke-bristol-conscience', pistis:'logos', why:'His unbiased opinion, his mature judgment, and his enlightened conscience ought not to be sacrificed to any man or to any set of men.'}
+  {pid:'eng-burke-bristol-conscience', pistis:'ethos', why:'Burke is telling his own electors what kind of representative he is: one who will not sacrifice his judgment and conscience even to them. The speech persuades by showing his virtue (arete), and the general form of the sentence does not make it chiefly an argument.'}
 ];
 function pistisOf(p){
   const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS.PISTEIS_ITEMS) || [];
