@@ -20,7 +20,7 @@ Progress is stored in this browser under `ars-rhetorica-progress`. Nothing leave
 
 ## How to proceed
 
-Act I’s study deck first — *The counterpart of dialectic* — then *The three species* at difficulty I. A set is ten questions (shorter where the bank is smaller: Gorgias’s Helen is six). At difficulty I each item is worth ten points; a clean run is 100. Difficulty changes the item, not only the score.
+Act I’s study deck first — *The counterpart of dialectic* — then *The three species* at difficulty I. Most sets are ten questions. At difficulty I each item is worth ten points, and a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s Helen are six questions; the Christian orator is eight. Difficulty changes the item, not only the score.
 
 Keys `1`–`4` choose a multiple-choice option; Enter goes on. Where Latin is on file, an original-text button shows it. Every panel names its source.
 

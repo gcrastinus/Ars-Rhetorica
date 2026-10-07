@@ -528,7 +528,7 @@ kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px
 
     <details class="help">
       <summary>How to Proceed</summary>
-      <p><strong>Where to begin.</strong> Open the first tutorial — <em>The counterpart of dialectic</em> — and read it through. Then take <em>The three species</em> at difficulty I. A set is ten questions; at difficulty I each is worth ten points, and <strong>100 points finishes the set</strong>.</p>
+      <p><strong>Where to begin.</strong> Open the first tutorial — <em>The counterpart of dialectic</em> — and read it through. Then take <em>The three species</em> at difficulty I. Most sets are ten questions. At difficulty I each is worth ten points, and a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s <em>Helen</em> are sets of six; the Christian orator is a set of eight. The count is shown as you go.</p>
       <p><strong>What to do in an exercise.</strong> Read the excerpt. Answer. A right answer gains points; a wrong answer loses some. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option; <kbd>Enter</kbd> submits. Where the original Latin or Greek can be displayed, an original-text button shows it. Sources for all texts are given in place.</p>
       <p><strong>The special sections.</strong> Gorgias’s <em>Helen</em> is a tutorial and a figures set of its own (persuasion as a drug; the four aitiai). Antiphon’s Second Tetralogy is kept as forensic. Some key debates from Thucydides — Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles, Catiline and Caesar — are paired below as well. The texts also include Augustine on the Christian orator and some passages from the Confessions.</p>
     </details>
@@ -820,7 +820,7 @@ function renderSetDone(){
     '<div class="panel" style="text-align:center"><p class="ornament">❧</p>'+
     '<p style="font-family:Cinzel,serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)">Set complete</p>'+
     '<p style="font-size:28px;margin:12px 0">'+state.correct+' of '+state.setLen+' · '+state.score+' / '+max+'</p>'+
-    '<p style="color:var(--ink-soft)">At difficulty I a right answer is worth ten points, and 100 finishes the set. Higher difficulties change the question and the points.</p></div>';
+    '<p style="color:var(--ink-soft)">At difficulty I a right answer is worth ten points. A clean run of a ten-question set is 100; a shorter set finishes at ten points times its own question count. Higher difficulties change the question and the points.</p></div>';
   $('ex-submit').style.display = 'none';
   $('ex-next').style.display = '';
   $('ex-next').textContent = 'Home';

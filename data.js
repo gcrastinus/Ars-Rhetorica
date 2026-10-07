@@ -391,7 +391,7 @@ const GREG_PAIRS = [
   {id:'g2', pair:'the humble and the proud', why:'The humble are to be praised carefully, lest praise become a snare; the proud are to be rebuked, lest silence confirm them.', src:'greg'},
   {id:'g3', pair:'the silent and the talkative', why:'The silent must be drawn to a useful word; the talkative must be taught to spare the hearer.', src:'greg'},
   {id:'g4', pair:'the young and the old', why:'The young are to be admonished to keep order; the old to be asked for the example their years already claim.', src:'greg'},
-  {id:'g5', pair:'men and women', why:'Heavier injunctions are laid on the one, lighter on the other, that those may be exercised by great things and these winningly converted by light ones.', src:'greg'},
+  {id:'g5', pair:'men and women', why:'Heavier injunctions are laid on one, lighter on the other, that those be exercised by great things and these winningly converted by light ones.', src:'greg'},
   {id:'g6', pair:'the poor and the rich', why:'The poor are to be offered the solace of comfort against tribulation; the rich are to be made afraid of elation.', src:'greg'},
   {id:'g7', pair:'subjects and prelates', why:'Subjects must not be crushed by subjection; prelates must not be elated by place, nor command more than is just.', src:'greg'},
   {id:'g8', pair:'servants and masters', why:'Servants are to be admonished that they despise not their masters; masters, that they forget not they have a Master in heaven.', src:'greg'},
@@ -403,7 +403,7 @@ const GREG_PAIRS = [
   {id:'g14', pair:'those who preach and those who are silent in the office of preaching', why:'Those who preach must not neglect their own life; those who are silent in the office must not hide the talent.', src:'greg'},
   {id:'g15', pair:'the forward and the faint-hearted', why:'The forward are to be shown that deeds they prize may displease God; the faint-hearted are to be lifted out of despondency.', src:'greg'},
   {id:'g16', pair:'the impatient and the patient', why:'Fury drives the impatient into evils they were not seeking; the patient are to be kept from turning endurance into a wish for revenge.', src:'greg'},
-  {id:'g17', pair:'the simple and the insincere', why:'The simple are sometimes to be silent about a truth; the insincere are to learn how heavy a labor duplicity is.', src:'greg'},
+  {id:'g17', pair:'the simple and the insincere', why:'The simple are sometimes to be silent about a truth; the insincere are to learn how heavy a labour duplicity is.', src:'greg'},
   {id:'g18', pair:'those who fear scourges and those whom scourges do not correct', why:'Those who fear scourges are to grow from fear into charity; those whom the stroke does not heal grow worse by complaining under it.', src:'greg'},
   {id:'g19', pair:'the slothful and the hasty', why:'The slothful lose a good by delay, until they can no longer do it; the hasty change the merit of a deed by doing it before its time.', src:'greg'},
   {id:'g20', pair:'the meek and the passionate', why:'The meek soften strictness more than the case allows; the passionate take their anger for the zeal of righteousness.', src:'greg'},
@@ -421,7 +421,7 @@ const GREG_PAIRS = [
   {id:'g32', pair:'those overcome by a sudden passion and those who sin on purpose', why:'A sudden passion strikes an unguarded heart; guilt chosen with deliberation kindles a stricter judgment.', src:'greg'},
   {id:'g33', pair:'those who often commit small sins and those who seldom commit grievous ones', why:'Small sins done often are to be counted, as drops that fill a river; pride in avoiding small faults prepares a fall into grievous ones.', src:'greg'},
   {id:'g34', pair:'those who do not begin a good work and those who do not finish one', why:'Those who have not begun are to be shown that what they love is vain; those who stop midway tear up the good they had begun.', src:'greg'},
-  {id:'g35', pair:'those who do evil in private and good before men, and those who hide their good and let ill be thought of them', why:'Private evil done under a public good lies open to the divine sentence; letting ill be thought of them lays a stumbling-block before the weak.', src:'greg'}
+  {id:'g35', pair:'those who do evil in private and good before men, and those who hide their good', why:'Private evil done under a public good lies open to the divine sentence; letting ill be thought of them lays a stumbling-block before the weak.', src:'greg'}
 ];
 const FIGURE_GLOSS = {
   anaphora:'the same word at the head of successive members',
@@ -538,46 +538,46 @@ const PISTEIS_ITEMS = [
   // Further labels. Each one is defensible from the excerpt of about 240 characters, which is what the hardest setting shows.
   {pid:'cic-cat3-11', pistis:'ethos', why:'He declines any reward of merit and any memorial of his renown, and he places the distinction in the eternal remembrance of this day.'},
   {pid:'cic-cat4-2', pistis:'ethos', why:'He tells the senate to cease to consider him, and to take thought for themselves and for the fatherland.'},
-  {pid:'dem-1', pistis:'ethos', why:'He says that speakers who praise the forefathers desire to gratify the hearers, and he judges that they are not acting in the interests of those whom they praise.'},
+  {pid:'dem-1', pistis:'ethos', why:'Speakers who praise the forefathers, he judges, desire to gratify the hearers, and are not acting in the interests of those whom they praise.'},
   {pid:'dem-2', pistis:'ethos', why:'He lays it down as the duty of every speaker to declare the policy he considers best, and to keep malice and favour out of the speech.'},
-  {pid:'plato-ap-3', pistis:'ethos', why:'He says that he honours and loves the Athenians, that he will obey God rather than them, and that he will never cease from the practice of philosophy.'},
-  {pid:'cic-cat2-12', pistis:'ethos', why:'He says that he himself has taken thought and made provision for the safe defence of the city.'},
+  {pid:'plato-ap-3', pistis:'ethos', why:'He honours and loves the Athenians, he will obey God rather than them, and he will never cease from the practice of philosophy.'},
+  {pid:'cic-cat2-12', pistis:'ethos', why:'The safe defence of the city is what he has taken thought for, and what he has made provision for.'},
   {pid:'sal-cat-2', pistis:'ethos', why:'He tells the soldiers he is well aware that words cannot inspire courage, and that a speech cannot make a timid army valiant.'},
   {pid:'eng-lincoln-events', pistis:'ethos', why:'He attempts no compliment to his own sagacity, and he says plainly that events have controlled him.'},
   {pid:'eng-johnson-macpherson', pistis:'ethos', why:'He repeats the judgment he has given the public, that the book is an imposture, and he defies the rage turned on him.'},
   {pid:'eng-jc-brutus-rome', pistis:'ethos', why:'He gives, as his answer for rising against Caesar, that he loved Rome more.'},
   {pid:'eng-lincoln-misquotes', pistis:'ethos', why:'He declines to say the misquotation was wilful, and he states that the quotation fails to be accurate.'},
-  {pid:'cic-cat1-5', pistis:'pathos', why:'The repeated line, “I will not bear, I will not endure, I will not allow it,” sets the indignation of the consul in front of the senate.'},
-  {pid:'cic-cat1-6', pistis:'pathos', why:'He says that there is not a man in Rome, outside the band of conspirators, who does not fear him, and not a man who does not hate him.'},
+  {pid:'cic-cat1-5', pistis:'pathos', why:'The repeated line “I will not bear, I will not endure, I will not allow it” sets the indignation of the consul in front of the senate.'},
+  {pid:'cic-cat1-6', pistis:'pathos', why:'Outside the band of conspirators, there is not a man in Rome who does not fear him, and not a man who does not hate him.'},
   {pid:'cic-cat1-7', pistis:'pathos', why:'The country pleads with mute eloquence, and the plea opens on the years in which no crime has been committed without his help.'},
   {pid:'cic-cat1-9', pistis:'pathos', why:'“Yet why do I speak?” and the questions whether he will reform, or think of flight, or contemplate exile, are put to a man the speaker treats as beyond appeal.'},
-  {pid:'cic-cat2-1', pistis:'pathos', why:'“At length and at last we have prevailed” releases the citizens from the man of violent heart and furious lips.'},
+  {pid:'cic-cat2-1', pistis:'pathos', why:'“At length and at last, citizens of Rome, we have prevailed” releases the citizens from the man of violent heart and furious lips.'},
   {pid:'tac-cal-3', pistis:'pathos', why:'“These plunderers of the world,” stimulated by avarice if the enemy is rich and by ambition if poor, is a charge spoken to raise hatred.'},
   {pid:'eng-henry-let-it-come', pistis:'pathos', why:'“Our chains are forged” and “let it come” put the hearers into a war he calls inevitable.'},
-  {pid:'eng-grattan-corry', pistis:'pathos', why:'He says he will not call the man villain, and he will not call him fool, and the refusal itself is the insult.'},
+  {pid:'eng-grattan-corry', pistis:'pathos', why:'Refusing to call the man villain, and refusing to call him fool, is itself the insult.'},
   {pid:'eng-grattan-blood-felony', pistis:'pathos', why:'The cry of blood and felony, repeated through every period of the bill, is meant to make the hearers recoil.'},
   {pid:'eng-grattan-cradle-hearse', pistis:'pathos', why:'“I sat by her cradle, I followed her hearse” mourns the Irish Parliament with a parental recollection.'},
   {pid:'aug-2', pistis:'pathos', why:'“Too late loved I Thee” stages a love that came after its time, so that the hearer feel the longing.'},
-  {pid:'cic-cat1-8', pistis:'logos', why:'He says that the silence of the house denotes consent, and he asks why a sanction in words is still awaited.'},
+  {pid:'cic-cat1-8', pistis:'logos', why:'The silence of the house denotes consent, and a sanction in words is still awaited.'},
   {pid:'cic-cat3-7', pistis:'logos', why:'Since the leaders have been seized, he says the hearers are bound to believe that all the forces of Catilina were defeated.'},
   {pid:'cic-cat4-4', pistis:'logos', why:'He sets out the only two motions, the proposal of Silanus that the men be punished by death, and the proposal of Caesar, which omits that punishment.'},
-  {pid:'cic-milo-2', pistis:'logos', why:'“When arms speak, the laws are silent,” and the reason is given: one who waits for the word of the law pays an undeserved penalty before he can exact a deserved one.'},
+  {pid:'cic-milo-2', pistis:'logos', why:'“When arms speak, the laws are silent” and the reason is given: one who waits for the word of the law pays an undeserved penalty before he can exact a deserved one.'},
   {pid:'thuc-mel-1', pistis:'logos', why:'The Athenians say that the strong do what they can and the weak suffer what they must, and the Melians answer on the ground of interest.'},
-  {pid:'plato-ap-4', pistis:'logos', why:'He says there is great reason to hope that death is a good, because death is one of two things, either a state of nothingness or a change.'},
+  {pid:'plato-ap-4', pistis:'logos', why:'There is great reason to hope that death is a good, because death is one of two things, either a state of nothingness or a change.'},
   {pid:'aug-ddc-2', pistis:'logos', why:'He asks who will dare to say that truth is to take its stand unarmed against falsehood, when the art of rhetoric is available to enforce either truth or falsehood.'},
-  {pid:'eng-henry-better-men', pistis:'logos', why:'He says these men will be infinitely worse than the English commoners, because they are to be chosen blindfolded.'},
+  {pid:'eng-henry-better-men', pistis:'logos', why:'These men will be infinitely worse than the English commoners, because they are to be chosen blindfolded.'},
   {pid:'eng-webster-knapp-there', pistis:'logos', why:'He argues presence at the murder from the facts that the man was there before it, there after it, and there unwilling to be seen.'},
   {pid:'eng-lincoln-cooper-guilty', pistis:'logos', why:'If the hearer knows of the guilt, he is inexcusable unless he names the man and proves the fact; if he does not know of it, he is inexcusable for asserting it.'},
   {pid:'eng-paine-king-law', pistis:'logos', why:'As in absolute governments the king is law, so, he says, in free countries the law ought to be king.'},
   // Lysias (Lamb) and two Yonge speeches, plus labels on passages already in the bank. Each one holds for the excerpt of about 240 characters and for the longer excerpt.
-  {pid:'lys-12-3', pistis:'ethos', why:'He says that he has never engaged in any suit, on his own account or on that of others, and that he has now been compelled to accuse this man.'},
+  {pid:'lys-16-1', pistis:'ethos', why:'He would be most grateful for the accusation, because an examination of the record of a life is the greatest service that can be rendered to a victim of unjust slander.'},
+  {pid:'lys-16-2', pistis:'ethos', why:'The confidence is in himself: once they have heard his conduct in the past, a man inclined to dislike him will, he hopes, think better of him.'},
   {pid:'lys-24-1', pistis:'ethos', why:'He can almost find it in him to be grateful to his accuser, for previously he had no excuse for rendering an account of his life, and now, owing to this man, he has got one.'},
-  {pid:'lys-25-1', pistis:'ethos', why:'He says he can find full excuse for the jury if, remembering past events, they are equally incensed against all those who remained in the city.'},
-  {pid:'lys-19-apt', pistis:'ethos', why:'He says it is necessary, even if he has no natural aptitude for the task, to defend his father and himself as best he can.'},
-  {pid:'cic-man-1', pistis:'ethos', why:'He says that hitherto he has not dared, on account of his youth, to intrude upon the authority of this place, and that no arguments ought to be brought here except such as were the fruit of great ability.'},
-  {pid:'cic-arch-1', pistis:'ethos', why:'He says that any natural ability in him is slight, that he has some experience as a speaker, and that his method is drawn from his study.'},
-  {pid:'lys-1-1', pistis:'pathos', why:'He says that if they had the same feelings about others as about themselves, not one of them but would be indignant, and they would regard the appointed penalties as too mild.'},
-  {pid:'lys-19-fear', pistis:'pathos', why:'He says he is greatly embarrassed, because if he fails to speak with effect today, he and his father will be held to be guilty.'},
+  {pid:'lys-25-1', pistis:'ethos', why:'Full excuse is offered to the jury if, remembering past events, they are equally incensed against all those who remained in the city.'},
+  {pid:'lys-19-apt', pistis:'ethos', why:'Even with no natural aptitude for the task, he takes it as necessary to defend his father and himself as best he can.'},
+  {pid:'cic-man-1', pistis:'ethos', why:'On account of his youth he has not dared to intrude upon the authority of this place, and no arguments ought to be brought here except such as were the fruit of great ability.'},
+  {pid:'lys-1-1', pistis:'pathos', why:'If the jury had the same feelings about others as about themselves, not one of them but would be indignant, and the appointed penalties would seem too mild.'},
+  {pid:'lys-19-fear', pistis:'pathos', why:'He is greatly embarrassed: if he fails to speak with effect to-day, he and his father will be held to be guilty.'},
   {pid:'tac-cal-2', pistis:'pathos', why:'“To ravage, to slaughter, to usurp under false titles, they call empire” and “where they make a desert, they call it peace” are spoken to make that rule hateful.'},
   {pid:'eng-isaiah-evil-good', pistis:'pathos', why:'“Woe unto them that call evil good, and good evil” cries out against those who confound moral names.'},
   {pid:'eng-lear-such-things', pistis:'pathos', why:'“you unnatural hags,” “I will do such things,” “yet I know not” and “The terrors of the earth” set a rage in front of the hearer.'},
@@ -585,9 +585,9 @@ const PISTEIS_ITEMS = [
   {pid:'cic-cat2-3', pistis:'logos', why:'He utterly despises Catilina’s army in comparison with the legions from Cisalpine Gaul and the new troops which Q. Metellus has levied.'},
   {pid:'thuc-corc', pistis:'logos', why:'He calls it folly to sacrifice them, and he names the reason he wants remembered: there are but three considerable naval powers in Hellas, Athens, Corcyra, and Corinth.'},
   {pid:'eng-henry-stronger', pistis:'logos', why:'He asks when they will be stronger, and whether that time will be when they are totally disarmed.'},
-  {pid:'eng-lincoln-house-divided', pistis:'logos', why:'He says that this government cannot endure permanently half slave and half free.'},
-  {pid:'eng-swift-cobwebs', pistis:'logos', why:'He says that laws, like cobwebs, may catch small flies, but let wasps and hornets break through.'},
-  {pid:'eng-burke-bristol-conscience', pistis:'logos', why:'He says that his unbiased opinion, his mature judgment, and his enlightened conscience ought not to be sacrificed to any man or to any set of men.'}
+  {pid:'eng-lincoln-house-divided', pistis:'logos', why:'This government cannot endure permanently half slave and half free.'},
+  {pid:'eng-swift-cobwebs', pistis:'logos', why:'Laws, like cobwebs, may catch small flies, but let wasps and hornets break through.'},
+  {pid:'eng-burke-bristol-conscience', pistis:'logos', why:'His unbiased opinion, his mature judgment, and his enlightened conscience ought not to be sacrificed to any man or to any set of men.'}
 ];
 function pistisOf(p){
   const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS.PISTEIS_ITEMS) || [];
@@ -757,6 +757,7 @@ function wrapFigs(text, spans, prefer){
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function citeP(p){ return p.author+', <i>'+esc(p.work)+'</i> '+esc(p.locus); }
 function excerpt(p, n){ n = n || 220; const t = p.text || ''; return t.length > n ? t.slice(0, n).replace(/\s+\S*$/, '') + '…' : t; }
+function shownLen(p, n){ return excerpt(p, n).replace(/…$/, '').length; }
 // The first span of the figure that falls wholly inside the excerpt of length n, if there is one.
 function shownSpan(p, fig, n){
   const shown = excerpt(p, n).replace(/…$/, '').length;
@@ -776,6 +777,27 @@ function pickWrong(yes, fig, n, k){
     const e = excerpt(p, n);
     if(out.length < k && seen.indexOf(e) < 0){ out.push(p); seen.push(e); }
   });
+  return out;
+}
+// The length a student sees: the excerpt plus the citation, with tags removed.
+function whichOptLen(p, n){
+  const html = '<span style="font-size:16px">'+esc(excerpt(p, n))+'</span><br><span style="font-size:14px;color:var(--ink-soft);font-style:italic">'+citeP(p)+'</span>';
+  return html.replace(/<[^>]+>/g,'').length;
+}
+// Wrong excerpts for a which-excerpt question. At least one option is as long as the right one, when the pool has one, so length does not name the answer.
+function pickWrongLen(yes, fig, n, k){
+  const yesLen = whichOptLen(yes, n);
+  const pool = wrongPool(yes, fig, n);
+  const longer = pool.filter(p => whichOptLen(p, n) >= yesLen);
+  const out = [], seen = [excerpt(yes, n)];
+  function take(arr){
+    sample(arr, arr.length).forEach(p => {
+      const e = excerpt(p, n);
+      if(out.length < k && seen.indexOf(e) < 0){ out.push(p); seen.push(e); }
+    });
+  }
+  if(longer.length) take(longer);
+  if(out.length < k) take(pool);
   return out;
 }
 function pickPass(pred, prefix){
@@ -806,16 +828,16 @@ function mcQ(opts){
 const EX = {};
 EX.species = {
   id:'species', title:'The Three Species',
-  instr:'Name the species, or kind of speech, by the office of the hearer: forensic (the past; the just and the unjust), deliberative (the future; the expedient), or epideictic (the present; the noble and the shameful). Ten questions make a set; at difficulty 1 each is worth 10, and 100 completes the set.',
+  instr:'Name the species, or kind of speech, by the office of the hearer: forensic (the past; the just and the unjust), deliberative (the future; the expedient and the harmful), or epideictic (the present; the noble and the shameful). Ten questions make a set; at difficulty 1 each is worth 10, and 100 completes the set.',
   src:['arist_rhet'],
   gen(diff){
     const dup = dupTextIds();
     const p = pickPass(x => isOration(x) && !dup[x.id], 'sp:');
     const sp = speciesOf(p);
     const labels = {
-      forensic:'Forensic: the jury, the past, the just and the unjust',
-      deliberative:'Deliberative: the assembly, the future, the expedient',
-      epideictic:'Epideictic: the spectator, praise and blame, the noble'
+      forensic:'Forensic, also judicial: the jury, the past, the just, and the unjust.',
+      deliberative:'Deliberative: the assembly, the future, the expedient and the harmful.',
+      epideictic:'Epideictic: the spectators, this present, the noble, and the shameful.'
     };
     const opts = ['forensic','deliberative','epideictic'];
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
@@ -841,7 +863,7 @@ EX.pisteis = {
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
       prompt:'Which pistis is doing the chief work in this passage?',
-      options:['Ethos: the speaker as the speech shows him','Pathos: the hearer’s frame of mind','Logos: the argument of the speech itself'],
+      options:['Ethos: the speaker as the speech shows him','Pathos: the hearer’s present frame of mind','Logos: the argument of this speech, itself'],
       correct: names.indexOf(item.pistis),
       passage: cue + esc(excerpt(p, diff >= 4 ? 240 : 400)),
       source: citeP(p), orig: p.orig, olang: p.olang, src: srcOf(p),
@@ -983,29 +1005,39 @@ EX.taxisorder = {
       const B = TAXIS_PARTS.find(t => t.key===item.b);
       return mcQ({
         prompt:'In the Latin school order, which office comes first?',
-        options:[A.name+': '+A.duty, B.name+': '+B.duty, 'They are the same office under two names', 'Neither: both belong only to epideictic'],
+        options:[A.name, B.name, 'The same office', 'Not an office'],
         correct:0, src:'cic_inv',
-        note: A.name+' precedes '+B.name+'. The school order is opening, facts, points in dispute, proof, the other side, and close.',
+        note: A.name+' precedes '+B.name+'.',
         also:'Proof and refutation are two offices, and we should not collapse them into one.'
       });
+    }
+    function nameOpts(correct, rest, k){
+      const longer = rest.filter(t => t.name.length >= correct.name.length);
+      const closer = rest.slice().sort((a,b) => Math.abs(a.name.length - correct.name.length) - Math.abs(b.name.length - correct.name.length) || a.name.localeCompare(b.name));
+      let picked;
+      if(longer.length){
+        const one = sample(longer, 1);
+        picked = one.concat(sample(closer.filter(t => t.key !== one[0].key), k - 1));
+      } else picked = sample(closer, k);
+      return [correct].concat(picked);
     }
     if(item.k === 'after'){
       const A = TAXIS_PARTS.find(t => t.key===item.a);
       const B = TAXIS_PARTS.find(t => t.key===item.b);
       const rest = TAXIS_PARTS.filter(t => t.key!==item.b);
-      const opts = [B].concat(sample(rest, diff<=2 ? 2 : 3));
+      const opts = nameOpts(B, rest, diff<=2 ? 2 : 3);
       return mcQ({
         prompt:'In the Latin school order, which office comes immediately after the '+A.name+'?',
         options: opts.map(t => t.name),
         correct:0, src:'cic_inv',
-        note: B.name+' follows '+A.name+'. The school order is opening, facts, points in dispute, proof, the other side, and close.',
+        note: B.name+' follows '+A.name+'.',
         also:'The six are offices a speech may perform, and a given speech need not use every one.'
       });
     }
     if(item.k === 'arist'){
       const part = TAXIS_PARTS.find(t => t.key===item.part);
       const rest = TAXIS_PARTS.filter(t => t.key!==item.part);
-      const opts = [part].concat(sample(rest, diff<=2 ? 2 : 3));
+      const opts = nameOpts(part, rest, diff<=2 ? 2 : 3);
       return mcQ({
         prompt:item.prompt,
         options: opts.map(t => t.name),
@@ -1016,7 +1048,7 @@ EX.taxisorder = {
     }
     const part = TAXIS_PARTS.find(t => t.key===item.part);
     const others = TAXIS_PARTS.filter(t => t.key!==item.part);
-    const opts = [part].concat(sample(others, diff<=2 ? 2 : 3));
+    const opts = nameOpts(part, others, diff<=2 ? 2 : 3);
     return mcQ({
       prompt:'Which office has this duty: <em>'+esc(part.duty)+'</em>',
       options: opts.map(t => t.name),
@@ -1070,14 +1102,16 @@ EX.figclick = {
 };
 EX.figwhich = {
   id:'figwhich', title:'Which Excerpt?',
-  instr:'Each question gives four real passages; which one is using the named figure? Ten make a set; a passage is not reused.',
+  instr:'Each question gives four real passages; which one is using the named figure? Ten make a set; the passage that uses the figure is not asked again in the set.',
   src:['cic_cat'],
   gen(diff){
     const n = diff<=2?160:120;
     const figs = Object.keys(FIGURE_GLOSS).filter(f => isCoreFigure(f) && passages().some(x => shownSpan(x, f, n)));
     const fig = pickSeen(figs, f => 'fwfig:'+f);
-    const yes = pickPass(x => !!shownSpan(x, fig, n), 'fwy:');
-    const nos = pickWrong(yes, fig, n, 3);
+    const eligible = passages().filter(x => shownSpan(x, fig, n));
+    const balanced = eligible.filter(x => wrongPool(x, fig, n).some(p => whichOptLen(p, n) >= whichOptLen(x, n)));
+    const yes = pickSeen(balanced.length ? balanced : eligible, x => 'fwy:'+x.id);
+    const nos = pickWrongLen(yes, fig, n, 3);
     const optsP = [yes].concat(nos);
     return mcQ({
       prompt:'Which excerpt is using <strong>'+esc(fig)+'</strong> <em>('+esc(FIGURE_GLOSS[fig]||'')+')</em>?',
@@ -1171,7 +1205,7 @@ EX.antiphon = {
 };
 EX.debates = {
   id:'debates', title:'Paired Debates',
-  instr:'The debates are Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles’ funeral oration, Catiline and Caesar, Antiphon’s two sides, and Socrates before the jury. Name the kind of speech, or the claim of a voice. A set is six questions, one from each debate, so a pair is not reused in the set.',
+  instr:'The paired speeches include Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles’ funeral oration, Catiline and Caesar, Antiphon’s two sides, and Socrates before the jury. Name the kind of speech, or the claim of a voice. A set is six questions, and a pair is not reused in the set.',
   src:['thuc_crawley','sallust_w','antiphon'],
   setLen:6,
   gen(diff){
@@ -1187,9 +1221,9 @@ EX.debates = {
     if(item.kind === 'species'){
       const opts = ['forensic','deliberative','epideictic'];
       const labels = {
-        forensic:'Forensic: a past act, the just and the unjust',
-        deliberative:'Deliberative: a future policy, the expedient and the harmful',
-        epideictic:'Epideictic: praise and blame, the noble'
+        forensic:'Forensic, also judicial: the jury, the past, the just, and the unjust.',
+        deliberative:'Deliberative: the assembly, the future, the expedient and the harmful.',
+        epideictic:'Epideictic: the spectators, this present, the noble, and the shameful.'
       };
       return mcQ({
         prompt:'<strong>'+esc(d.title)+'</strong>, '+esc(d.locus)+'.<br>Two voices: <em>'+esc(d.a.who)+'</em> and <em>'+esc(d.b.who)+'</em>. What is the species of the debate?',
@@ -1208,8 +1242,8 @@ EX.debates = {
     return mcQ({
       prompt:'This voice is arguing which claim?',
       options:[who.claim, other.claim,
-               'The speech is only a list of the parts of an oration.',
-               'The hearer is asked only to name a figure of speech.'],
+               'The speech only lists the offices of an oration, and it makes no claim about the case.',
+               'The hearer is only asked to name some figure of speech, and the speech makes no claim.'],
       correct:0,
       passage: p ? esc(excerpt(p, 280)) : '',
       source: who.who+' — '+d.locus, src: d.src,
@@ -1223,10 +1257,10 @@ EX.whole = {
   instr:'From the situation, name the species, its end, the pistis, and a figure actually in the excerpt, choosing one chip in each row. Ten make a set; a passage is not reused.',
   src:['arist_rhet','cic_inv'],
   gen(diff){
-    const p = pickPass(x => isOration(x) && coreSpans(x).length && pistisOf(x), 'wh:');
+    const p = pickPass(x => isOration(x) && pistisOf(x) && coreSpans(x).some(s => s.start < shownLen(x, 380)), 'wh:');
     const sp = speciesOf(p);
     const end = {forensic:'accuse or defend', deliberative:'exhort or dissuade', epideictic:'praise or blame'}[sp];
-    const present = coreSpans(p).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
+    const present = coreSpans(p).filter(s => s.start < shownLen(p, 380)).map(s => s.figure).filter((f,i,a) => a.indexOf(f)===i);
     const fig = present[0];
     const pistis = pistisOf(p);
     let figOpts = present.slice();
@@ -1236,7 +1270,7 @@ EX.whole = {
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
     return {
       kind:'chips',
-      prompt:'Take the case in order: species, the end of that species, the pistis doing the work, and a figure actually present.',
+      prompt:'Take the case in order: species, the end of that species, the pistis doing the work, and a figure actually in the excerpt.',
       passage: cue + esc(excerpt(p, 380)),
       source: citeP(p), orig:p.orig, olang:p.olang, src: srcOf(p),
       rows:[
@@ -1280,12 +1314,16 @@ EX.greg = {
   instr:'The Pastoral Care is a book of pairs, since the same vice is not admonished in the same way in every hearer. Ten questions; a pair is not repeated in the set.',
   src:['greg'],
   gen(diff){
-    const g = pickSeen(itemPool('GREG_PAIRS', GREG_PAIRS), x => 'gr:'+x.id);
+    const g = pickSeen(itemPool('GREG_PAIRS', GREG_PAIRS), x => 'gr:'+x.pair);
     if(g.quote){
-      const pool = itemPool('GREG_PAIRS', GREG_PAIRS).filter(x => x.pair !== g.pair);
-      const names = [...new Set(pool.map(x => x.pair))];
-      const near = names.filter(p => Math.abs(p.length - g.pair.length) <= 24);
-      const wrong = sample(near.length >= 3 ? near : names, 3);
+      const names = [...new Set(GREG_PAIRS.concat(itemPool('GREG_PAIRS', GREG_PAIRS)).map(x => x.pair))].filter(p => p !== g.pair);
+      const longer = names.filter(p => p.length >= g.pair.length);
+      const closer = names.slice().sort((a,b) => Math.abs(a.length - g.pair.length) - Math.abs(b.length - g.pair.length) || a.localeCompare(b));
+      let wrong;
+      if(longer.length){
+        const one = sample(longer, 1);
+        wrong = one.concat(sample(closer.filter(p => p !== one[0]), 2));
+      } else wrong = sample(closer, 3);
       return mcQ({
         prompt:'Gregory writes: <em>'+esc(g.quote)+'</em> Which pair of hearers is he dividing?',
         options:[g.pair].concat(wrong),
@@ -1293,7 +1331,15 @@ EX.greg = {
         also:'Each pair of hearers needs its own admonition, and the pair has to be named before that admonition can be applied.'
       });
     }
-    const others = shuffle(GREG_PAIRS.filter(x => x.id !== g.id)).slice(0, 3).map(x => x.why);
+    const pool = itemPool('GREG_PAIRS', GREG_PAIRS).filter(x => x.pair !== g.pair);
+    const longerW = pool.filter(x => x.why.length >= g.why.length);
+    const closerW = pool.slice().sort((a,b) => Math.abs(a.why.length - g.why.length) - Math.abs(b.why.length - g.why.length) || a.pair.localeCompare(b.pair));
+    let pickedW;
+    if(longerW.length){
+      const one = sample(longerW, 1);
+      pickedW = one.concat(sample(closerW.filter(x => x.pair !== one[0].pair), 2));
+    } else pickedW = sample(closerW, 3);
+    const others = pickedW.map(x => x.why);
     return mcQ({
       prompt:'Gregory pairs <strong>'+esc(g.pair)+'</strong>. Why are they paired, that is, what do the two hearers need differently?',
       options:[g.why].concat(others),
@@ -1323,8 +1369,8 @@ EX.figfurther = {
     const target = (diff <= 2) ? mine[0] : rand(mine);
     const gloss = FIGURE_GLOSS[fig] || target.why;
     const n = diff <= 2 ? 160 : 120;
-    const pool = pickWrong(yes, fig, n, 3);
-    if(rand([0,1]) === 1 && target.end <= n - 10 && pool.length >= 3){
+    const pool = pickWrongLen(yes, fig, n, 3);
+    if(rand([0,1]) === 1 && target.end <= n - 10 && pool.length >= 3 && pool.some(p => whichOptLen(p, n) >= whichOptLen(yes, n))){
       const optsP = [yes].concat(pool);
       return mcQ({
         prompt:'Which excerpt is using <strong>'+esc(fig)+'</strong> <em>('+esc(gloss)+')</em>?',
@@ -1406,7 +1452,7 @@ const ACTS = [
    ]}
 ];
 const DIFF = {
-  1:{gain:10, loss:4,  name:'I',   desc:'Beginning. The names are given and a hint is shown. Ten questions, ten points each; 100 finishes the set.'},
+  1:{gain:10, loss:4,  name:'I',   desc:'Beginning. The names are given and a hint is shown. A right answer is worth ten points. Most sets are ten questions, and a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s Helen are six; the Christian orator is eight.'},
   2:{gain:12, loss:6,  name:'II',  desc:'The wrong answers sit closer to the right one. Twelve points for a right answer; six lost for a wrong one.'},
   3:{gain:15, loss:8,  name:'III', desc:'Less help. You name the thing from the speech. Fifteen points for a right answer.'},
   4:{gain:18, loss:10, name:'IV',  desc:'Shorter passages and closer wrong answers. Eighteen points for a right answer.'},

@@ -7094,12 +7094,25 @@ window.PASSAGES = [
     ]
   },
 {
-  "id": "lys-12-3",
+  "id": "lys-16-1",
   "author": "Lysias",
-  "work": "Against Eratosthenes",
-  "locus": "12.3",
-  "cue": "The opening of Lysias’s accusation of Eratosthenes, one of the Thirty, for the death of his brother.",
-  "text": "Now as for myself, gentlemen, having never engaged in any suit either on my own account or on that of others, I have now been compelled by what has occurred to accuse this man:",
+  "work": "In Defence of Mantitheus",
+  "locus": "16.1",
+  "cue": "Mantitheus, at his scrutiny before the Council, opens on the accusers and on an examination of his life.",
+  "text": "If I were not conscious, gentlemen of the Council, that my accusers are seeking every possible means of injuring me, I should feel most grateful to them for this accusation; since I consider that the victims of unjust slander have the greatest service rendered to them by anyone who will compel them to undergo an examination of the record of their lives.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-16-2",
+  "author": "Lysias",
+  "work": "In Defence of Mantitheus",
+  "locus": "16.2",
+  "cue": "The same scrutiny. He tells the Council what he expects once they have heard his past conduct.",
+  "text": "For I have so strong a confidence in myself that, if there is anyone who is inclined to dislike me, I hope that when he has heard me speak of my conduct in the past he will change his mind, and will think much better of me in the future.",
   "spans": [],
   "species": "forensic",
   "src": [
@@ -7144,7 +7157,7 @@ window.PASSAGES = [
   "author": "Lysias",
   "work": "On the Property of Aristophanes",
   "locus": "19.1",
-  "cue": "The son, whose father’s property is claimed for the treasury, says what losing this speech would mean.",
+  "cue": "Aristophanes’ brother-in-law speaks against the treasury, and says what failing in the speech would cost him and his father.",
   "text": "I find myself greatly embarrassed by this trial, gentlemen of the jury, when I consider that if I fail to speak with effect to-day not only I but my father besides will be held to be guilty, and I shall be deprived of the whole of my possessions.",
   "spans": [],
   "species": "forensic",
@@ -7170,12 +7183,12 @@ window.PASSAGES = [
   "author": "Lysias",
   "work": "On the Murder of Eratosthenes: Defence",
   "locus": "1.1",
-  "cue": "The husband, charged with killing Eratosthenes, has just said he is sure of what follows: how the jury would feel if the case were their own.",
-  "text": "if you had the same feelings about others as about yourselves, not one of you but would be indignant at what has been done; you would all regard the penalties appointed for those who resort to such practices as too mild.",
+  "cue": "The husband, charged with killing Eratosthenes, tells the jury he is sure of how they would feel if the case were their own.",
+  "text": "For I am sure that, if you had the same feelings about others as about yourselves, not one of you but would be indignant at what has been done; you would all regard the penalties appointed for those who resort to such practices as too mild.",
   "spans": [
     {
-      "start": 63,
-      "end": 100,
+      "start": 83,
+      "end": 120,
       "figure": "litotes",
       "why": "“Not one of you but would be indignant” denies that any juror would fail to feel the indignation."
     }
@@ -7190,8 +7203,8 @@ window.PASSAGES = [
   "author": "Cicero",
   "work": "For Archias",
   "locus": "1",
-  "cue": "The defence of the poet Archias opens with an inventory of Cicero’s ability, practice, and study. The next clause names Archias’s claim on them.",
-  "text": "If there is any natural ability in me, O judges,—and I know how slight that is; or if I have any practice as a speaker,—and in that line I do not deny that I have some experience; or if I have any method in my oratory, drawn from my study of the liberal sciences, and from that careful training to which I admit that at no part of my life have I ever been disinclined;",
+  "cue": "The defence of the poet Archias opens with an inventory of Cicero’s ability, practice, and study, and then names Archias’s claim on them.",
+  "text": "If there is any natural ability in me, O judges,—and I know how slight that is; or if I have any practice as a speaker,—and in that line I do not deny that I have some experience; or if I have any method in my oratory, drawn from my study of the liberal sciences, and from that careful training to which I admit that at no part of my life have I ever been disinclined; certainly, of all those qualities, this Aulus Licinius is entitled to be among the first to claim the benefit from me as his peculiar right.",
   "spans": [
     {
       "start": 80,
