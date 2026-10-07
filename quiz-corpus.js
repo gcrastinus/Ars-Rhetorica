@@ -43,12 +43,11 @@ const P = [];
 
 (function(){
   const t = "There is one principle, Athenians, which I hold to through all, and you, as I know, hold to it too, and that is that we must not yield to the Peloponnesians. I know that the spirit of concession is dangerous, and that it is as true of a state as of a man that, once it begins to submit, it will find itself with a master.";
-  P.push({id:'q-thuc-per-140', author:'Pericles (Thucydides)', work:'History of the Peloponnesian War', locus:'1.140', species:'deliberative', src:'thuc_crawley',
+  P.push({id:'q-thuc-per-140', unmarkedFigures:['apostrophe'], author:'Pericles (Thucydides)', work:'History of the Peloponnesian War', locus:'1.140', species:'deliberative', src:'thuc_crawley',
     cue:'Pericles before the war: do not yield.',
     text:t, spans:qmark(t, [
       {s:'we must not yield to the Peloponnesians', f:'sententia', w:'A general claim, briefly stated, is offered as the city’s rule.'},
-      {s:'it is as true of a state as of a man that, once it begins to submit, it will find itself with a master', f:'simile', w:'The city is measured by the man, and concession makes a master.'},
-      {s:'There is one principle, Athenians', f:'apostrophe', w:'Pericles addresses the assembly by name as he states his rule.'}
+      {s:'it is as true of a state as of a man that, once it begins to submit, it will find itself with a master', f:'simile', w:'The city is measured by the man, and concession makes a master.'}
     ])});
 })();
 
@@ -85,12 +84,11 @@ const P = [];
 
 (function(){
   const t = "I am well aware, soldiers, that words cannot inspire courage; and that a spiritless army cannot be rendered active, or a timid one valiant, by speeches from their commander. Whatever courage is in a man’s breast, whether from nature or from habit, so much will be shown in the field. He whom neither glory nor danger can move, it is vain to exhort; fear of death robs him of his memory.";
-  P.push({id:'q-sal-cat-58', author:'Catiline (Sallust)', work:'Conspiracy of Catiline', locus:'58', species:'deliberative', src:'sallust_w',
+  P.push({id:'q-sal-cat-58', unmarkedFigures:['apostrophe'], author:'Catiline (Sallust)', work:'Conspiracy of Catiline', locus:'58', species:'deliberative', src:'sallust_w',
     cue:'Catiline to his soldiers before the last battle: words cannot make the timid valiant.',
     text:t, spans:qmark(t, [
       {s:'a spiritless army cannot be rendered active, or a timid one valiant, by speeches from their commander', f:'antithesis', w:'In the pairs spiritless and active, timid and valiant, the speech denies its own power.'},
-      {s:'He whom neither glory nor danger can move, it is vain to exhort', f:'sententia', w:'This is a brief rule about pathos: some breasts will not take the charge.'},
-      {s:'I am well aware, soldiers', f:'apostrophe', w:'Catiline addresses his soldiers directly before the battle.'}
+      {s:'He whom neither glory nor danger can move, it is vain to exhort', f:'sententia', w:'This is a brief rule about pathos: some breasts will not take the charge.'}
     ])});
 })();
 
@@ -107,24 +105,22 @@ const P = [];
 
 (function(){
   const t = "If I were asked, men of Athens, what is the greatest boon that the city could receive in the present crisis, I should say that it would be that all of you should be of one mind, and should both feel and say the same things about Philip. But since that is not so, I must try to convince you, as far as I can, that it is for your interest to take the course which I recommend, and to make your preparations at once.";
-  P.push({id:'q-dem-ol1', author:'Demosthenes', work:'First Olynthiac', locus:'1', species:'deliberative', src:'demosth',
+  P.push({id:'q-dem-ol1', unmarkedFigures:['apostrophe'], author:'Demosthenes', work:'First Olynthiac', locus:'1', species:'deliberative', src:'demosth',
     cue:'Demosthenes opens on Olynthus: be of one mind about Philip.',
     text:t, spans:qmark(t, [
       {s:'all of you should be of one mind, and should both feel and say the same things about Philip', f:'isocolon', w:'To feel and to say the same things are members of like shape.'},
-      {s:'it is for your interest to take the course which I recommend, and to make your preparations at once', f:'climax', w:'The counsel rises to action, from being convinced to taking the course to preparing at once.'},
-      {s:'If I were asked, men of Athens', f:'apostrophe', w:'Demosthenes addresses the assembly directly at the opening.'}
+      {s:'it is for your interest to take the course which I recommend, and to make your preparations at once', f:'climax', w:'The counsel rises to action, from being convinced to taking the course to preparing at once.'}
     ])});
 })();
 
 (function(){
   const t = "The difficulty, my friends, is not in avoiding death, but in avoiding unrighteousness; for that runs faster than death. I am old and move slowly, and the slower runner has overtaken me, and my accusers are keen and quick, and the faster runner, who is unrighteousness, has overtaken them.";
-  P.push({id:'q-plato-ap-diff', unmarkedFigures:['personification'], author:'Plato', work:'Apology', locus:'39a–b', species:'forensic', src:'plato_jowett',
+  P.push({id:'q-plato-ap-diff', unmarkedFigures:['personification', 'apostrophe'], author:'Plato', work:'Apology', locus:'39a–b', species:'forensic', src:'plato_jowett',
     cue:'After the sentence: death is the slower runner.',
     text:t, spans:qmark(t, [
       {s:'not in avoiding death, but in avoiding unrighteousness', f:'antithesis', w:'Death is set against unrighteousness, so the true difficulty is named by its opposite.'},
       {s:'for that runs faster than death', f:'metaphor', w:'Unrighteousness is pictured as a runner, and the likeness carries the claim.'},
       {s:'the slower runner has overtaken me, and my accusers are keen and quick, and the faster runner, who is unrighteousness, has overtaken them', f:'antithesis', w:'Slow death overtakes him and swift unrighteousness overtakes them, and so the figure is completed.'},
-      {s:'The difficulty, my friends', f:'apostrophe', w:'Socrates turns to the jurors who voted for him and addresses them as friends.'},
       {s:'The difficulty, my friends, is not in avoiding death, but in avoiding unrighteousness', f:'sententia', w:'A general truth about death and wrongdoing is stated briefly, as a rule for every man.'}
     ])});
 })();
@@ -142,24 +138,22 @@ const P = [];
 
 (function(){
   const t = "Consider, Socrates, if you go forth, to what you are going. The laws will say: Tell us, Socrates, what are you about? Are you not going by an act of yours to destroy us — the laws, who have brought you up? Do you imagine that a state can subsist and not be overthrown, in which the decisions of law have no power, but are set aside and overthrown by individuals?";
-  P.push({id:'q-plato-crito-laws', author:'Plato', work:'Crito', locus:'50a–b', species:'deliberative', src:'plato_jowett',
+  P.push({id:'q-plato-crito-laws', unmarkedFigures:['apostrophe'], author:'Plato', work:'Crito', locus:'50a–b', species:'deliberative', src:'plato_jowett',
     cue:'The laws of Athens made to speak against flight.',
     text:t, spans:qmark(t, [
       {s:'The laws will say: Tell us, Socrates, what are you about?', f:'prosopopoeia', w:'The laws are given a voice and a question.'},
       {s:'Are you not going by an act of yours to destroy us — the laws, who have brought you up?', f:'rhetorical question', w:'The question is a charge that treats flight as parricide, the killing of the laws as of a parent.'},
-      {s:'Consider, Socrates, if you go forth, to what you are going. The laws will say: Tell us, Socrates, what are you about?', f:'apostrophe', w:'Socrates is addressed by name twice, first by the speaker and then by the laws.'},
       {s:'The laws will say: Tell us, Socrates, what are you about? Are you not going by an act of yours to destroy us — the laws, who have brought you up?', f:'personification', w:'The laws are made persons who speak, question, and reproach, as parents would.'}
     ])});
 })();
 
 (function(){
   const t = "Xerxes, having thus spoken, was silent; and next Mardonios said: Master, thou dost surpass not only all the Persians who have been before thee, but also those who shall come after, in that thou hast attained to the highest of all things, and art about to add to them yet greater. For it is a reasonable thing that they who dwell in Europe should be brought to be thy slaves, seeing that they are men of no account.";
-  P.push({id:'q-her-mar-1', author:'Herodotus', work:'Histories', locus:'7.9', species:'deliberative', src:'herodotus',
+  P.push({id:'q-her-mar-1', unmarkedFigures:['apostrophe'], author:'Herodotus', work:'Histories', locus:'7.9', species:'deliberative', src:'herodotus',
     cue:'Mardonios flatters Xerxes into Europe.',
     text:t, spans:qmark(t, [
       {s:'thou dost surpass not only all the Persians who have been before thee, but also those who shall come after', f:'hyperbole', w:'Mardonios says that Xerxes outdoes past and future Persians alike, a deliberate excess offered as counsel.'},
-      {s:'they who dwell in Europe should be brought to be thy slaves, seeing that they are men of no account', f:'irony', w:'He calls those who will break the expedition men of no account, and the slight serves as the argument.'},
-      {s:'Master, thou dost surpass', f:'apostrophe', w:'Mardonios addresses the king directly as master.'}
+      {s:'they who dwell in Europe should be brought to be thy slaves, seeing that they are men of no account', f:'irony', w:'He calls those who will break the expedition men of no account, and the slight serves as the argument.'}
     ])});
 })();
 

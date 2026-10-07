@@ -167,13 +167,10 @@ window.PASSAGES = [
         "end": 966,
         "figure": "praeteritio",
         "why": "He says that he will not name it, and so he names it more sharply than a charge would."
-      },
-      {
-        "start": 0,
-        "end": 50,
-        "figure": "apostrophe",
-        "why": "He addresses the accused by name in the middle of the question."
       }
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -203,17 +200,14 @@ window.PASSAGES = [
         "why": "Whether the fears are founded or groundless, both alternatives end in the same command: go."
       },
       {
-        "start": 0,
-        "end": 44,
-        "figure": "apostrophe",
-        "why": "Catilina is addressed by name, and the country’s plea is put to him directly."
-      },
-      {
         "start": 102,
         "end": 170,
         "figure": "anaphora",
         "why": "No opens both clauses, first for crime and then for scandal."
       }
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -5421,12 +5415,6 @@ window.PASSAGES = [
       {
         "start": 0,
         "end": 27,
-        "figure": "apostrophe",
-        "why": "He addresses the crowd directly before he says anything else."
-      },
-      {
-        "start": 0,
-        "end": 27,
         "figure": "asyndeton",
         "why": "The three names are given without conjunctions."
       },
@@ -5440,6 +5428,9 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -5545,18 +5536,15 @@ window.PASSAGES = [
         "end": 120,
         "figure": "anaphora",
         "why": "Because opens each of the two reasons."
-      },
-      {
-        "start": 0,
-        "end": 19,
-        "figure": "apostrophe",
-        "why": "He addresses the president of the Convention (sir) as he gives his consent."
       }
     ],
     "species": "deliberative",
     "track": "english",
     "src": [
       "eng_cer"
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -5580,12 +5568,6 @@ window.PASSAGES = [
         "why": "He denies the contrary, not unthinking, and so answers the phrase unthinking multitude in its own words."
       },
       {
-        "start": 0,
-        "end": 26,
-        "figure": "apostrophe",
-        "why": "He addresses the presiding officer (Sir) before he answers the appeals."
-      },
-      {
         "start": 82,
         "end": 123,
         "figure": "metaphor",
@@ -5595,6 +5577,9 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -5775,18 +5760,15 @@ window.PASSAGES = [
         "end": 261,
         "figure": "hypotyposis",
         "why": "The last question sets the disarmed colony before the eyes, with a guard in every house."
-      },
-      {
-        "start": 0,
-        "end": 17,
-        "figure": "apostrophe",
-        "why": "He addresses the president of the convention (sir) as he states the objection."
       }
     ],
     "species": "deliberative",
     "track": "english",
     "src": [
       "eng_cer"
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -6214,17 +6196,14 @@ window.PASSAGES = [
         "end": 171,
         "figure": "metaphor",
         "why": "The scheme is called a cheap candle lit on one side of the Channel to light the other."
-      },
-      {
-        "start": 102,
-        "end": 138,
-        "figure": "apostrophe",
-        "why": "Johnson addresses his hearer (Sir) before he gives his answer."
       }
     ],
     "track": "english",
     "src": [
       "eng_cem"
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -6998,17 +6977,14 @@ window.PASSAGES = [
         "end": 149,
         "figure": "antithesis",
         "why": "One State is set against the whole Union."
-      },
-      {
-        "start": 0,
-        "end": 32,
-        "figure": "apostrophe",
-        "why": "He addresses the presiding officer (Sir) in the middle of the cry."
       }
     ],
     "track": "english",
     "src": [
       "eng_cer"
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {

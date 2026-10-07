@@ -676,7 +676,7 @@ function shownSpan(p, fig, n){
   return (p.spans||[]).find(s => s.figure === fig && s.end <= shown);
 }
 // Passages that may serve as wrong answers for a figure: they neither mark the figure nor list it
-// in unmarkedFigures (figures present but left unmarked), and their excerpt differs from the answer's.
+// in unmarkedFigures (figures a reader could fairly find there, left unmarked), and their excerpt differs from the answer's.
 function wrongPool(yes, fig, n){
   const shown = excerpt(yes, n);
   return passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0
