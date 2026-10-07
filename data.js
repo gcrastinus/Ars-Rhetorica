@@ -394,7 +394,28 @@ const GREG_PAIRS = [
   {id:'g11', pair:'the gluttonous and the abstinent', why:'The gluttonous are to be restrained from the belly; the abstinent are to be kept from pride in their restraint.', src:'greg'},
   {id:'g12', pair:'the merciful and the envious', why:'The merciful are to be praised without being taught to spare justice; the envious are to be shown another’s good as no theft from themselves.', src:'greg'},
   {id:'g13', pair:'the peaceful and the brawlers', why:'The peaceful are to be kept from a false peace that hides the wound; the brawlers are to be taught the cost of a quarrel.', src:'greg'},
-  {id:'g14', pair:'those who preach and those who are silent in the office of preaching', why:'Those who preach must not neglect their own life; those who are silent in the office must not hide the talent.', src:'greg'}
+  {id:'g14', pair:'those who preach and those who are silent in the office of preaching', why:'Those who preach must not neglect their own life; those who are silent in the office must not hide the talent.', src:'greg'},
+  {id:'g15', pair:'the forward and the faint-hearted', why:'The forward are to be shown that deeds they prize may displease God; the faint-hearted are to be lifted out of despondency.', src:'greg'},
+  {id:'g16', pair:'the impatient and the patient', why:'Fury drives the impatient into evils they were not seeking; the patient are to be kept from turning endurance into a wish for revenge.', src:'greg'},
+  {id:'g17', pair:'the simple and the insincere', why:'The simple are sometimes to be silent about a truth; the insincere are to learn how heavy a labor duplicity is.', src:'greg'},
+  {id:'g18', pair:'those who fear scourges and those whom scourges do not correct', why:'Those who fear scourges are to grow from fear into charity; those whom the stroke does not heal grow worse by complaining under it.', src:'greg'},
+  {id:'g19', pair:'the slothful and the hasty', why:'The slothful lose a good by delay, until they can no longer do it; the hasty change the merit of a deed by doing it before its time.', src:'greg'},
+  {id:'g20', pair:'the meek and the passionate', why:'The meek soften strictness more than the case allows; the passionate take their anger for the zeal of righteousness.', src:'greg'},
+  {id:'g21', pair:'the obstinate and the fickle', why:'The obstinate will not take counsel, thinking too well of themselves; the fickle abandon their own judgment, thinking too little of themselves.', src:'greg'},
+  {id:'g22', pair:'those who give of their own and those who seize what belongs to others', why:'Givers are to be kept from swelling above those they support; those who seize others’ goods are to be called off from the taking.', src:'greg'},
+  {id:'g23', pair:'those who neither covet nor give, and those who give and still seize', why:'Those who neither covet nor give withhold a common gift from the poor; those who give and still seize remain in the taking.', src:'greg'},
+  {id:'g24', pair:'those at variance and those at peace', why:'Those at variance lack the fruit of the Spirit; those at peace are to keep a longing for the peace that lasts.', src:'greg'},
+  {id:'g25', pair:'sowers of strifes and peacemakers', why:'Sowers of strifes follow the enemy who sowed the tares; peacemakers must learn between whom peace ought to be made.', src:'greg'},
+  {id:'g26', pair:'those who misread the sacred law and those who understand it but speak it without humility', why:'A misreading turns the law’s medicine into poison; a true reading, spoken proudly, is treated as if the words were the speaker’s own.', src:'greg'},
+  {id:'g27', pair:'those who shrink from a preaching they could do, and those who rush into preaching unprepared', why:'One who can preach and draws back hides a good he holds; one whom imperfection forbids is rushing into an office he cannot yet bear.', src:'greg'},
+  {id:'g28', pair:'those who prosper in temporal wishes and those worn by adversity', why:'Those who prosper are to seek the giver along with the gift; those worn by adversity are to see a physician’s care in what is withheld.', src:'greg'},
+  {id:'g29', pair:'those who have known sins of the flesh and those who have not', why:'Those who have fallen in the flesh are to fear the sea after shipwreck; the untouched are to be warned lest innocence grow torpid.', src:'greg'},
+  {id:'g30', pair:'those who weep for sins and still commit them, and those who leave their sins and do not weep', why:'Tears that prepare a return to filth cleanse nothing; one who has left the sin and does not mourn it still owes the mourning.', src:'greg'},
+  {id:'g31', pair:'those who commend the wrong they do and those who blame a wrong and still commit it', why:'To commend a wrong is to teach it to every hearer; to blame a wrong and still commit it is to sentence oneself.', src:'greg'},
+  {id:'g32', pair:'those overcome by a sudden passion and those who sin on purpose', why:'A sudden passion strikes an unguarded heart; guilt chosen with deliberation kindles a stricter judgment.', src:'greg'},
+  {id:'g33', pair:'those who often commit small sins and those who seldom commit grievous ones', why:'Small sins done often are to be counted, as drops that fill a river; pride in avoiding small faults prepares a fall into grievous ones.', src:'greg'},
+  {id:'g34', pair:'those who do not begin a good work and those who do not finish one', why:'Those who have not begun are to be shown that what they love is vain; those who stop midway tear up the good they had begun.', src:'greg'},
+  {id:'g35', pair:'those who do evil in private and good before men, and those who hide their good and let ill be thought of them', why:'Private evil done under a public good lies open to the divine sentence; letting ill be thought of them lays a stumbling-block before the weak.', src:'greg'}
 ];
 const FIGURE_GLOSS = {
   anaphora:'the same word at the head of successive members',
@@ -1201,6 +1222,18 @@ EX.greg = {
   src:['greg'],
   gen(diff){
     const g = pickSeen(itemPool('GREG_PAIRS', GREG_PAIRS), x => 'gr:'+x.id);
+    if(g.quote){
+      const pool = itemPool('GREG_PAIRS', GREG_PAIRS).filter(x => x.pair !== g.pair);
+      const names = [...new Set(pool.map(x => x.pair))];
+      const near = names.filter(p => Math.abs(p.length - g.pair.length) <= 24);
+      const wrong = sample(near.length >= 3 ? near : names, 3);
+      return mcQ({
+        prompt:'Gregory writes: <em>'+esc(g.quote)+'</em> Which pair of hearers is he dividing?',
+        options:[g.pair].concat(wrong),
+        correct:0, src:'greg', note:g.why,
+        also:'Each pair of hearers needs its own admonition, and the pair has to be named before that admonition can be applied.'
+      });
+    }
     const others = shuffle(GREG_PAIRS.filter(x => x.id !== g.id)).slice(0, 3).map(x => x.why);
     return mcQ({
       prompt:'Gregory pairs <strong>'+esc(g.pair)+'</strong>. Why are they paired, that is, what do the two hearers need differently?',

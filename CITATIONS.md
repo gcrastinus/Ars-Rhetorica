@@ -13,7 +13,7 @@ A claim in this application is admitted only if it was read in one of these work
 - **Augustine**, *Confessions*, trans. E. B. Pusey. Public domain. Latin cells from augustinus.cc (Maurist), aligned by index with Pusey.
 - **Augustine**, Letters and Sermons, NPNF I.1 and I.6. Public domain.
 - **Thomas Aquinas**, *Summa theologiae* I–II qq. 22–48 (English Dominican translation). Public domain. Concupiscible and irascible passions.
-- **Gregory the Great**, *Liber regulae pastoralis*, trans. James Barmby, NPNF II.12. Public domain.
+- **Gregory the Great**, *Liber regulae pastoralis*, Book III, trans. James Barmby, NPNF II.12. Public domain in the United States and abroad (Barmby died in 1897). Text: https://ccel.org/ccel/s/schaff/npnf212/cache/npnf212.txt. Quotations keep Barmby’s spelling and punctuation. The app’s pair-names are the course’s short labels for his admonitions, not quotations.
 
 ## Primary — speeches and prose in the bank
 
