@@ -344,7 +344,7 @@ const ENTHYMEMES = [
   {id:'eng-e3', said:'They tell us, sir, that we are weak – unable to cope with so formidable an adversary. But when shall we be stronger? Will it be the next week, or the next year?', missing:'Delay will only leave us weaker, so if we are ever to resist it must be now.', distractors:['The weaker side always wins in the end.','Virginia is stronger than Britain.','A convention cannot raise an army.'], src:'eng_cer', cite:'Patrick Henry, Speech to the Second Virginia Convention (1775)'},
   {id:'eng-e4', said:'The gentleman asks, When were the colonies emancipated? I desire to know, when were they made slaves?', missing:'Those who were never made slaves need no emancipation to be free.', distractors:['Colonies are always subject to the mother country.','Parliament may tax whomever it governs.','Questions prove nothing in debate.'], src:'eng_cer', cite:'William Pitt (the Elder), Speech in the House of Commons (1766)'},
   {id:'eng-e5', said:'If you do not succeed, you are without resource: for, conciliation failing, force remains; but, force failing, no further hope of reconciliation is left.', missing:'A course that leaves a second resource if it fails is to be tried before one that leaves none.', distractors:['Force always succeeds against colonies.','Conciliation is a sign of weakness.','The colonies do not want reconciliation.'], src:'eng_cer', cite:'Edmund Burke, Speech on Conciliation with the Colonies (1775)'},
-  {id:'eng-e6', said:'Ambition must be made to counteract ambition.', missing:'Since men are not angels, power can be checked only by setting one interest against another.', distractors:['Ambition is the chief virtue of a statesman.','The legislature should hold all power.','Good men need no constitution.'], src:'eng_cer', cite:'James Madison, The Federalist no. 51 (1788)'}
+  {id:'eng-e6', said:'Ambition must be made to counteract ambition.', missing:'Since men are not angels, power can be checked only by setting one interest against another.', distractors:['Ambition is the chief virtue of a statesman.','The legislature should hold all power.','Men who hold power can be trusted to restrain themselves.'], src:'eng_cer', cite:'James Madison, The Federalist no. 51 (1788)'}
 ];
 const PASSIONS = [
   {id:'p1', name:'anger', appetite:'irascible', text:'How much further, Catilina, will you carry your abuse of our forbearance?', cite:'Cicero, Catilinarian 1.1', src:'cic_cat', why:'Aristotle defines anger (II.2) as a desire, accompanied by pain, for conspicuous revenge, toward one who has slighted us.'},
@@ -367,10 +367,10 @@ const PASSIONS = [
   {id:'p18', name:'kindness', appetite:'concupiscible', text:'The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself.', cite:'Gregory, Pastoral Care II (Barmby)', src:'greg', why:'This is kindness as wishing another’s good and taking his ills as one’s own (II.7).'},
   // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
   {id:'eng-p1', name:'shame', appetite:'concupiscible', text:'I can not forgive you, my brethren, who till this late hour have been silent while successive murders were committed.', cite:'Eliphalet Nott, Sermon at Albany (1804)', src:'eng_cer', why:'Shame is pain about evils that seem to bring discredit (II.6), and the preacher charges his own hearers with silence while men were killed.'},
-  {id:'eng-p2', name:'pity', appetite:'concupiscible', text:'Bear with me, My heart is in the coffin there with Caesar, And I must pause till it come back to me.', cite:'Shakespeare, Julius Caesar 3.2', src:'eng_cer', why:'Pity is pain at a destructive evil that has fallen on one who did not deserve it (II.8); Antony shows his own grief so that the crowd will feel it for Caesar.'},
+  {id:'eng-p2', name:'pity', appetite:'concupiscible', text:'Bear with me, My heart is in the coffin there with Caesar, And I must pause till it come back to me.', cite:'Shakespeare, Julius Caesar 3.2', src:'eng_cer', prompt:'Antony pauses over Caesar’s body and shows the crowd his own grief. Which passion is he moving in the crowd toward Caesar?', why:'Pity is pain at a destructive evil that has fallen on one who did not deserve it (II.8). The grief is Antony’s own, but Aristotle notes that those who heighten an evil by gesture, voice, and bearing make it more pitiable, because they set it before our eyes; so Antony’s pause is the means, and the passion moved in the crowd is pity for Caesar, whose death the speech goes on to show was undeserved.'},
   {id:'eng-p3', name:'fear', appetite:'irascible', text:'A democracy is a volcano, which conceals the fiery materials of its own destruction.', cite:'Fisher Ames, Speech at the Massachusetts Ratifying Convention (1788)', src:'eng_cem', why:'Fear is pain at the imagined approach of a destructive evil (II.5), and the volcano puts that evil beneath the hearers’ feet.'},
-  {id:'eng-p4', name:'anger', appetite:'irascible', text:'Can there be a more mortifying insult? Can even our ministers sustain a more humiliating disgrace?', cite:'William Pitt (the Elder), Speech in the House of Lords (1777)', src:'eng_cer', why:'Anger is a desire for revenge for a slight (II.2), and Chatham names the slight to the nation twice, as insult and as disgrace.'},
-  {id:'eng-p5', name:'confidence', appetite:'irascible', text:'In my Father’s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.', cite:'John 14:2 (King James Version)', src:'kjv', why:'Confidence is the expectation that what will save us is near and what is fearful is far off (II.5); the promise of a place prepared gives that expectation.'}
+  {id:'eng-p4', name:'anger', appetite:'irascible', text:'Can there be a more mortifying insult? Can even our ministers sustain a more humiliating disgrace? Do they dare to resent it?', cite:'William Pitt (the Elder), Speech in the House of Lords (1777)', src:'eng_cer', prompt:'Chatham speaks of the welcome France has given the American commissioners, an insult to Britain that the ministers have let pass. Which passion is he moving in the Lords, toward France and toward the ministers?', why:'Aristotle defines anger (II.2) as a desire, accompanied by pain, for revenge for a conspicuous slight directed without justification toward what concerns oneself or one’s friends. Chatham extends the slight from the person to the State, whose honour the Lords count as their own; and the disgrace is not presented as their own fault, which would move shame (II.6), but as an insult from France that the ministers have not dared to resent.'},
+  {id:'eng-p5', name:'confidence', appetite:'irascible', text:'In my Father’s house are many mansions: if it were not so, I would have told you. I go to prepare a place for you.', cite:'John 14:2 (King James Version)', src:'kjv', prompt:'Christ is speaking to disciples who are troubled at his going away (“Let not your heart be troubled,” 14:1). Which passion is he moving in them?', why:'Aristotle defines confidence (II.5) as the opposite of fear, that is, the expectation that what keeps us safe is near and what is terrible is far off. He has in view dangers such as war or a lawsuit, so this is an extension of his account; but the disciples’ trouble is a fear of loss at their master’s going, and the promise of a place prepared sets the good near and takes the fear away.'}
 ];
 const DEBATES = [
   {id:'d-arch', title:'War with Athens', a:{who:'Archidamus', pid:'thuc-arch-1', claim:'Do not rush to war; experience teaches its cost.'}, b:{who:'Sthenelaidas', pid:'thuc-sthen-1', claim:'Vote the war; the Athenians are in the wrong.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.80 / 1.86'},
@@ -412,7 +412,7 @@ const FIGURE_GLOSS = {
   climax:'members rising in force',
   asyndeton:'coordination without conjunctions',
   personification:'treating an abstraction as an agent',
-  simile:'a likeness with like or as',
+  simile:'a likeness stated openly, usually with like or as',
   hyperbole:'deliberate excess',
   occupatio:'anticipating an objection',
   praeteritio:'claiming to pass over what one thereby names',
@@ -504,10 +504,10 @@ const PISTEIS_ITEMS = [
   // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
   {pid:'eng-henry-liberty-death', pistis:'pathos', why:'The questions and the prayer are meant to make slavery hateful and liberty worth any risk, so the force lies in what the hearers feel.'},
   {pid:'eng-lincoln-proclamation', pistis:'logos', why:'Lincoln takes both possible cases of the law and shows that neither allows a retraction, so the proof lies in the argument.'},
-  {pid:'eng-franklin-consent', pistis:'ethos', why:'Franklin admits his doubts and still consents, and his candour is offered as a reason for others to do the same.'},
+  {pid:'eng-franklin-consent', pistis:'ethos', why:'The sentence has the form of an argument, but its two reasons (he expects no better, and he is not sure that it is not the best) prove little about the Constitution; they are confessions of doubt. What persuades is the man who makes them: the oldest delegate, and one of the most eminent, admits his doubts and still consents, and his candour is offered as a reason for others to do the same.'},
   {pid:'eng-ames-volcano', pistis:'pathos', why:'The image of a volcano does not prove that democracy destroys itself; it makes the hearers afraid that it will.'},
   {pid:'eng-nott-duel', pistis:'pathos', why:'The preacher moves his hearers to shame, since the charge ends with their own silence.'},
-  {pid:'eng-burke-tyrants', pistis:'logos', why:'Burke states a general cause and effect: rebellion on principle gives kings a reason to rule as tyrants.'}
+  {pid:'eng-burke-tyrants', pistis:'logos', why:'The sentence is a maxim, and Aristotle treats a maxim as the premise or the conclusion of an enthymeme (II.21). Burke states a general cause and effect, that rebellion on principle gives kings a reason to rule as tyrants, and the hearers are asked to judge whether it is true, not chiefly to feel fear or to trust the speaker.'}
 ];
 function pistisOf(p){
   const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS.PISTEIS_ITEMS) || [];
@@ -542,7 +542,7 @@ const ETHOS_ITEMS = [
   // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
   {id:'eng-et1', pid:'eng-franklin-consent', which:'phronesis', label:'Practical wisdom (phronesis)', why:'He weighs the plan against the alternatives and accepts it for want of a better, which is the judgement of a prudent man.'},
   {id:'eng-et2', pid:'eng-hoar-humane', which:'eunoia', label:'Goodwill (eunoia)', why:'He first affirms that the soldiers are humane, so that his criticism comes from a friend of the army and not an enemy.'},
-  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He declines to charge his opponent with bad faith and holds only to what can be shown, and that restraint is a sign of a fair man.'}
+  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He uses praeteritio: he says he will not charge Douglas with wilful misquotation, and in saying so he puts that charge before the hearers. But he asserts only what can be shown, that the quotation is inaccurate, so he gains credit as a fair man while the graver charge is still lodged; and fairness, that is, justice, is a virtue (arete).'}
 ];
 const LEXIS_ITEMS = [
   {id:'lx1', pid:'gor-hel-8', kind:'style',
@@ -791,7 +791,7 @@ EX.pathos = {
     const rest = names.filter(n => n !== e.name);
     const options = [e.name].concat(rest.slice(0, diff <= 2 ? 2 : 3));
     return mcQ({
-      prompt:'Which passion is being moved?',
+      prompt: e.prompt || 'Which passion is being moved?',
       options: options.map(n => n.charAt(0).toUpperCase()+n.slice(1)),
       correct:0, passage:esc(e.text), source:e.cite, src:e.src,
       note: e.name.charAt(0).toUpperCase()+e.name.slice(1)+' ('+e.appetite+'). '+e.why,

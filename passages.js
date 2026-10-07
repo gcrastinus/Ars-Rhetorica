@@ -4416,10 +4416,10 @@ window.PASSAGES = [
         "why": "He lies with his opens each of the three members."
       },
       {
-        "start": 169,
-        "end": 187,
+        "start": 0,
+        "end": 277,
         "figure": "personification",
-        "why": "The paw is said to protest, as if it could make a claim of innocence."
+        "why": "The dog is treated throughout as a person who lies and pleads: he manufactures falsehood, lies with his tail and his eye, and has a protesting paw, as if he could claim his innocence."
       }
     ],
     "track": "english",
@@ -4957,7 +4957,7 @@ window.PASSAGES = [
         "start": 145,
         "end": 190,
         "figure": "simile",
-        "why": "The irreversible act of freeing men is likened to death, which cannot be undone."
+        "why": "The likeness is stated openly, with any more than in place of like or as: to retract the freedom the proclamation has given is set beside raising the dead, and neither can be done."
       }
     ],
     "track": "english",
@@ -5032,10 +5032,10 @@ window.PASSAGES = [
         "why": "Five verbs are joined without conjunctions, and the series gathers speed as it goes."
       },
       {
-        "start": 133,
+        "start": 53,
         "end": 191,
         "figure": "metaphor",
-        "why": "The empire is spoken of as a body, with members down to the smallest."
+        "why": "The empire is spoken of as a living body: the spirit of the Constitution is infused through it, feeds and vivifies it, and reaches down to the minutest member."
       }
     ],
     "species": "deliberative",
@@ -5047,7 +5047,7 @@ window.PASSAGES = [
   {
     "id": "eng-lincoln-repeal",
     "author": "Abraham Lincoln",
-    "work": "Debate with Stephen Douglas at Peoria",
+    "work": "Speech at Peoria",
     "locus": "(1854)",
     "cue": "Lincoln argues against the repeal of the Missouri Compromise.",
     "text": "Repeal the Missouri Compromise, repeal all compromises, repeal the Declaration of Independence, repeal all past history, you still cannot repeal human nature.",
@@ -5088,13 +5088,13 @@ window.PASSAGES = [
         "start": 0,
         "end": 93,
         "figure": "praeteritio",
-        "why": "He says he will not use the word, and so he has used it."
+        "why": "He says he will not call Corry a villain, and in saying so he has called him one; the next sentence does the same with fool."
       },
       {
-        "start": 121,
-        "end": 173,
+        "start": 0,
+        "end": 174,
         "figure": "irony",
-        "why": "The reason given for sparing him is his office, which suggests that only the office protects him."
+        "why": "The reasons he gives for sparing Corry are the rules of the House and the offices Corry holds. They are offered as respect, but they imply that villain and fool would otherwise fit, and happens makes the office an accident."
       }
     ],
     "track": "english",
@@ -5190,9 +5190,9 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 39,
-        "end": 92,
+        "end": 111,
         "figure": "irony",
-        "why": "Representation is said to be purchased, and the commercial words expose what the system is."
+        "why": "To speak of purchasing the representation of the people is to call the thing by a name it no longer deserves, since what is bought represents no one; the commercial words carry the irony, and the correctio that follows states it outright."
       },
       {
         "start": 93,
@@ -5251,6 +5251,12 @@ window.PASSAGES = [
         "end": 120,
         "figure": "litotes",
         "why": "He affirms by denying the contrary: not sure that it is not the best."
+      },
+      {
+        "start": 43,
+        "end": 120,
+        "figure": "anaphora",
+        "why": "Because opens each of the two reasons."
       }
     ],
     "species": "deliberative",
@@ -5336,6 +5342,18 @@ window.PASSAGES = [
         "end": 281,
         "figure": "antithesis",
         "why": "Liberty and death are set as the only alternatives, in two members of the same form."
+      },
+      {
+        "start": 123,
+        "end": 167,
+        "figure": "metaphor",
+        "why": "Submission is spoken of as a purchase, and its price is named chains, the bonds of a slave given to political subjection."
+      },
+      {
+        "start": 249,
+        "end": 281,
+        "figure": "anaphora",
+        "why": "Give me opens both members of the last cry."
       }
     ],
     "species": "deliberative",
@@ -5380,21 +5398,21 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 0,
-        "end": 69,
+        "end": 279,
         "figure": "anaphora",
-        "why": "Can opens the successive questions."
+        "why": "Can opens the first two questions, and Do they opens the next two."
       },
       {
         "start": 0,
-        "end": 98,
+        "end": 279,
         "figure": "rhetorical question",
-        "why": "The questions assert that no greater insult is possible."
+        "why": "None of the four questions asks for information; the first two assert that no greater insult is possible, and the last two charge the ministers with having resented nothing."
       },
       {
         "start": 99,
         "end": 154,
         "figure": "irony",
-        "why": "The questions pretend to wonder whether the ministers will act, when the hearers know they will not."
+        "why": "Dare and presume speak of a plain duty, to resent an insult to the State, as though it were a bold liberty; so the questions mock ministers who would not venture even that."
       }
     ],
     "track": "english",
@@ -5601,8 +5619,8 @@ window.PASSAGES = [
       {
         "start": 26,
         "end": 83,
-        "figure": "personification",
-        "why": "The volcano is said to conceal, as an agent with a secret."
+        "figure": "metaphor",
+        "why": "The metaphor is carried on into the clause. Conceals is said of the volcano as of a thing that holds fire within it, not of a person with a secret; so the fiery materials are the causes of ruin that a democracy holds within itself."
       }
     ],
     "species": "deliberative",
@@ -5621,9 +5639,9 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 0,
-        "end": 46,
+        "end": 175,
         "figure": "metaphor",
-        "why": "The factions are named volcanoes that have spent their fire."
+        "why": "The factions are named volcanoes that have spent their fire, and the figure is carried on: where the eruptions were, the crops of peace now grow."
       },
       {
         "start": 112,
@@ -5647,9 +5665,9 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 0,
-        "end": 29,
+        "end": 142,
         "figure": "metaphor",
-        "why": "The state in disorder is called a shipwreck."
+        "why": "The state in disorder is called a shipwreck, and the figure is carried through the sentence: trifles float and solid things sink, as in a wreck."
       },
       {
         "start": 31,
@@ -5673,15 +5691,15 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 28,
-        "end": 75,
+        "end": 119,
         "figure": "personification",
-        "why": "The assembly is spoken of as a child, and the speaker as its parent."
+        "why": "The assembly is spoken of throughout as a person: she is a child to whom the speaker is a parent, and she has a cradle and a hearse."
       },
       {
         "start": 77,
         "end": 119,
         "figure": "metaphor",
-        "why": "The life of the Parliament is described as a human life from cradle to hearse."
+        "why": "The founding and the abolition of the Parliament are named by the cradle and the hearse, that is, by the names of a birth and a burial."
       },
       {
         "start": 77,
@@ -5745,7 +5763,7 @@ window.PASSAGES = [
         "start": 250,
         "end": 296,
         "figure": "dilemma",
-        "why": "He allows only two outcomes, both of them an end to division."
+        "why": "He leaves only two outcomes, all slave or all free, and both are unfavourable to those who would keep the nation half slave and half free (the course of Douglas’s policy), since neither outcome leaves the division standing."
       }
     ],
     "track": "english",
@@ -5763,9 +5781,9 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 8,
-        "end": 31,
+        "end": 186,
         "figure": "metaphor",
-        "why": "The world is named a stage, and the comparison is then extended."
+        "why": "The world is named a stage, and the comparison is carried through the whole speech: men and women are players, birth and death are entrances and exits, and a life is a play in seven acts."
       },
       {
         "start": 75,
@@ -5850,6 +5868,12 @@ window.PASSAGES = [
         "end": 91,
         "figure": "antithesis",
         "why": "The single sentence that succeeds is set against the speech that does not."
+      },
+      {
+        "start": 139,
+        "end": 174,
+        "figure": "antithesis",
+        "why": "Drops are set against a stream, that is, the separate sentences against a continuous speech."
       },
       {
         "start": 121,
@@ -6020,7 +6044,7 @@ window.PASSAGES = [
         "start": 64,
         "end": 104,
         "figure": "irony",
-        "why": "He congratulates himself on an election that rejected his party, and the praise is meant as mockery."
+        "why": "Felicitates himself hugely is mock praise. The president, passed over by his own party for the rival who then won, rejoices over the election as though the victory were his."
       }
     ],
     "track": "english",
@@ -6173,10 +6197,10 @@ window.PASSAGES = [
         "why": "The three clauses are set side by side without conjunctions, and each reports something already spent or done."
       },
       {
-        "start": 79,
-        "end": 109,
+        "start": 0,
+        "end": 110,
         "figure": "personification",
-        "why": "Obstinacy is made an enemy who holds out after the others have given way."
+        "why": "Invention, reason, experience, and obstinacy are all treated as agents in a contest; the first three are spent or have given their verdict, and obstinacy is made an enemy who holds out after the others have given way."
       }
     ],
     "track": "english",
@@ -6194,15 +6218,15 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 0,
-        "end": 46,
+        "end": 90,
         "figure": "personification",
-        "why": "Nature is made an agent who appoints rulers over men."
+        "why": "Nature is made an agent who appoints rulers over men, and the rulers she appoints, pain and pleasure, are themselves made persons."
       },
       {
         "start": 50,
         "end": 90,
         "figure": "metaphor",
-        "why": "Pain and pleasure are called sovereign masters."
+        "why": "Pain and pleasure are given the name of another thing, sovereign masters, on the likeness that both command and are obeyed."
       }
     ],
     "track": "english",
@@ -6246,9 +6270,9 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 0,
-        "end": 74,
+        "end": 112,
         "figure": "personification",
-        "why": "Liberty is made a woman who takes on another form."
+        "why": "Liberty is made a woman (she) who can take on another form, and the verbs that follow are hers in that form: she grovels, she hisses, she stings."
       },
       {
         "start": 76,
