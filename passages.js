@@ -10,12 +10,6 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 0,
-        "end": 73,
-        "figure": "apostrophe",
-        "why": "He turns from the senate and addresses the accused by name."
-      },
-      {
-        "start": 0,
         "end": 137,
         "figure": "anaphora",
         "why": "How much opens two questions in a row, and the repetition makes the hearer wait for the charge."
@@ -59,12 +53,6 @@ window.PASSAGES = [
         "end": 379,
         "figure": "irony",
         "why": "He praises their bravery in order to name their cowardice."
-      },
-      {
-        "start": 464,
-        "end": 560,
-        "figure": "apostrophe",
-        "why": "Again he uses the name, and he names the sentence that has not been passed."
       }
     ]
   },
@@ -168,9 +156,6 @@ window.PASSAGES = [
         "figure": "praeteritio",
         "why": "He says that he will not name it, and so he names it more sharply than a charge would."
       }
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -205,9 +190,6 @@ window.PASSAGES = [
         "figure": "anaphora",
         "why": "No opens both clauses, first for crime and then for scandal."
       }
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -246,12 +228,6 @@ window.PASSAGES = [
     "cue": "Catiline has left the city: the consul tells the people what has been won.",
     "text": "At length and at last, citizens of Rome, we have prevailed over L. Catilina; with passion in his violent heart, with crime on his furious lips, in the midst of his abominable designs to bring disasters on his country, in the midst of his threats to overwhelm you and this city with sword and flame, he has been by us ejected, or shall I say despatched from the city, or at least while departing of his own accord sped on his way by our valedictions. He has gone, he has escaped us, evaded us, eluded us. His inhuman and portentous malice will no longer be devising means for the destruction of these walls while actually within their confines. Yes, this man, the sole leader in this civil war, we have indisputably vanquished. We shall no longer feel his dagger pricking our sides; we shall not now quake with fear in the Campus, in the Forum, in the Senate-house, or in the privacy of our own homes.",
     "spans": [
-      {
-        "start": 23,
-        "end": 76,
-        "figure": "apostrophe",
-        "why": "He turns to the people, not the senate, with the news."
-      },
       {
         "start": 77,
         "end": 182,
@@ -331,12 +307,6 @@ window.PASSAGES = [
         "end": 39,
         "figure": "exclamatio",
         "why": "The cry is deliberately too large for its object, and the excess makes the mockery plain."
-      },
-      {
-        "start": 41,
-        "end": 79,
-        "figure": "apostrophe",
-        "why": "The name comes again, now as the name of a general without an army worth the name."
       }
     ]
   },
@@ -365,12 +335,6 @@ window.PASSAGES = [
         "end": 393,
         "figure": "metaphor",
         "why": "The danger is pictured as a beast with jaws, from which the city is snatched."
-      },
-      {
-        "start": 14,
-        "end": 56,
-        "figure": "apostrophe",
-        "why": "The people are named as those who still have lives to lose."
       }
     ]
   },
@@ -417,12 +381,6 @@ window.PASSAGES = [
     "text": "I perceive, conscript fathers, that the faces and the eyes of all present are turned towards me: I perceive that you are anxious not only as to the danger to yourselves and the country, but even, supposing that danger to be averted, as to the personal danger to me. Pleasant indeed to me in the midst of misfortunes, and gratifying in the midst of sorrow, is this exhibition of your good-will; but, by the love of heaven, cast that good-will aside, forget my safety, and think only of yourselves and your children. I, having accepted the consulship, as I did, with the implied condition of bearing to the end all indignities, all forms of grief and anguish, will bear all not only bravely but even cheerfully, if only my labours may win honour and safety for you and for the people of Rome.",
     "spans": [
       {
-        "start": 0,
-        "end": 96,
-        "figure": "apostrophe",
-        "why": "He addresses the senate by its formal title, conscript fathers, before he tries to move it."
-      },
-      {
         "start": 266,
         "end": 354,
         "figure": "antithesis",
@@ -450,12 +408,6 @@ window.PASSAGES = [
     "cue": "The house is told to look to itself, its people, and its children.",
     "text": "Therefore, conscript fathers, take thought for yourselves, provide for your fatherland, preserve yourselves, your wives, your children, and your properties, defend the name and existence of the Roman people: cease to consider me or to think of my interests. For in the first place I am bound to hope that all the guardian deities of this city will reward me in proportion to my merits: secondly, even if anything happens to me, I shall die contented and prepared; for no form of death can be a disgrace to a brave man, a premature end for one who has been consul, or a source of grief to one who is wise. Yet am I not a man so iron-hearted as not to be affected by the grief of my most dear and loving brother present here, nor by the tears of all these friends whom you see seated around me. Nor can",
     "spans": [
-      {
-        "start": 0,
-        "end": 57,
-        "figure": "apostrophe",
-        "why": "The direct address (vocative) comes first, and then the charge."
-      },
       {
         "start": 30,
         "end": 107,
@@ -495,12 +447,6 @@ window.PASSAGES = [
         "end": 280,
         "figure": "antithesis",
         "why": "The client's care is for Rome, not for Milo."
-      },
-      {
-        "start": 22,
-        "end": 79,
-        "figure": "apostrophe",
-        "why": "The jury is named before the fear is confessed."
       }
     ]
   },
@@ -529,12 +475,6 @@ window.PASSAGES = [
         "end": 492,
         "figure": "hyperbole",
         "why": "With almost superhuman, the praise is deliberately carried past the human measure."
-      },
-      {
-        "start": 0,
-        "end": 66,
-        "figure": "apostrophe",
-        "why": "The senate is named as the place where silence ends."
       }
     ]
   },
@@ -547,22 +487,10 @@ window.PASSAGES = [
     "text": "To what destiny of mine, O conscript fathers, shall I say that it is owing, that none for the last twenty years has been an enemy to the republic without at the same time declaring war against me? Nor is there any necessity for naming any particular person; you yourselves recollect instances in proof of my statement. They have all hitherto suffered severer punishments than I could have wished for them; but I marvel that you, O Antonius, do not fear the end of those men whose conduct you are imitating. And in others I was less surprised at this. None of those men of former times was a voluntary enemy to me; all of them were attacked by me for the sake of the republic. But you, who have never been injured by me, not even by a word, in order to appear more audacious than Catiline, more frantic than Clodius, have of your own accord attacked me with abuse, and have considered that your alienation from me would be a recommendation of you to impious citizens.",
     "spans": [
       {
-        "start": 25,
-        "end": 44,
-        "figure": "apostrophe",
-        "why": "The senate is addressed directly (in the vocative) before the charge is laid."
-      },
-      {
         "start": 0,
         "end": 196,
         "figure": "rhetorical question",
         "why": "The question answers itself, since his fate and the republic's are one."
-      },
-      {
-        "start": 429,
-        "end": 506,
-        "figure": "apostrophe",
-        "why": "He turns from the house to the man, and the name is a warning."
       }
     ]
   },
@@ -574,12 +502,6 @@ window.PASSAGES = [
     "cue": "The first Verrine: the court is told that heaven has given it a chance to clear its name.",
     "text": "Gentlemen of the Court: At this great political crisis, there seems to have been offered to you, not through man's wisdom but almost as the direct gift of heaven, the very thing that was most to be desired; a thing that will help, more than anything else, to mitigate the unpopularity of your Order and the discredit attaching to these Courts of Law. A belief has by this time established itself, as harmful to the whole nation as it is perilous to yourselves, and everywhere expressed not merely by our own people but by foreigners as well: the belief that these Courts, constituted as they now are, will never convict any man, however guilty, if only he has money. And now, at the moment of supreme danger for your Order and your judicial privileges, when preparations have been",
     "spans": [
-      {
-        "start": 0,
-        "end": 23,
-        "figure": "apostrophe",
-        "why": "The jury is addressed at once, because the case is theirs to decide."
-      },
       {
         "start": 97,
         "end": 161,
@@ -602,12 +524,6 @@ window.PASSAGES = [
     "cue": "Socrates opens by denying that he is the clever speaker they have been warned against.",
     "text": "How you, O Athenians, have been affected by my accusers, I cannot tell; but I know that they almost made me forget who I was—so persuasively did they speak; and yet they have hardly uttered a word of truth. But of the many falsehoods told by them, there was one which quite amazed me;—I mean when they said that you should be upon your guard and not allow yourselves to be deceived by the force of my eloquence. To say this, when they were certain to be detected as soon as I opened my lips and proved myself to be anything but a great speaker, did indeed appear to me most shameless—unless by the force of eloquence they mean the force of truth; for if such is their meaning, I admit that I am eloquent. But in how different a way from theirs! Well, as I was saying, they have scarcely spoken the truth at all; but from me you shall hear the whole truth: not, however, delivered after their manner in a set oration duly ornamented with words and phrases.",
     "spans": [
-      {
-        "start": 9,
-        "end": 71,
-        "figure": "apostrophe",
-        "why": "He addresses the judges by name in his first sentence."
-      },
       {
         "start": 88,
         "end": 206,
@@ -661,12 +577,6 @@ window.PASSAGES = [
       {
         "start": 0,
         "end": 38,
-        "figure": "apostrophe",
-        "why": "He names his friend before he asks why he has come at this hour."
-      },
-      {
-        "start": 0,
-        "end": 38,
         "figure": "rhetorical question",
         "why": "The question expresses wonder rather than ignorance, since Socrates already knows the answer."
       },
@@ -686,12 +596,6 @@ window.PASSAGES = [
     "cue": "A walk outside the wall begins, with a speech about love in the pocket.",
     "text": "My dear Phaedrus, whence come you, and whither are you going? PHAEDRUS: I come from Lysias the son of Cephalus, and I am going to take a walk outside the wall, for I have been sitting with him the whole morning; and our common friend Acumenus tells me that it is much more refreshing to walk in the open air than to be shut up in a cloister. SOCRATES: There he is right. Lysias then, I suppose, was in the town? PHAEDRUS: Yes, he was staying with Epicrates, here at the house of Morychus; that house which is near the temple of Olympian Zeus. SOCRATES: And how did he entertain you? Can I be wrong in supposing that Lysias gave you a feast of discourse? PHAEDRUS: You shall hear, if you can spare time to accompany me.",
     "spans": [
-      {
-        "start": 0,
-        "end": 61,
-        "figure": "apostrophe",
-        "why": "The friend is named, and the two questions that follow serve as a welcome."
-      },
       {
         "start": 18,
         "end": 61,
@@ -861,12 +765,6 @@ window.PASSAGES = [
     "text": "Athenian guest, much report of thee has come to us, both in regard to thy wisdom and thy wanderings, how that in thy search for wisdom thou hast traversed many lands to see them; now therefore a desire has come upon me to ask thee whether thou hast seen any whom thou deemest to be of all men the most happy.\" 27 This he asked supposing that he himself was the happiest of men; but Solon, using no flattery but the truth only, said: \"Yes, O king, Tellos the Athenian.\" And Croesus, marvelling at that which he said, asked him earnestly: \"In what respect dost thou judge Tellos to be the most happy?\" And he said: \"Tellos, in the first place, living while his native State was prosperous, had sons fair and good and saw from all of them children begotten and living to grow up; and secondly he had what with us is accounted wealth, and after his life",
     "spans": [
       {
-        "start": 0,
-        "end": 50,
-        "figure": "apostrophe",
-        "why": "The king addresses the wanderer as guest before he asks the fatal question."
-      },
-      {
         "start": 313,
         "end": 425,
         "figure": "irony",
@@ -888,12 +786,6 @@ window.PASSAGES = [
     "cue": "Solon names Tellos, not Croesus; the king must ask why.",
     "text": "O king, Tellos the Athenian.\" And Croesus, marvelling at that which he said, asked him earnestly: \"In what respect dost thou judge Tellos to be the most happy?\" And he said: \"Tellos, in the first place, living while his native State was prosperous, had sons fair and good and saw from all of them children begotten and living to grow up; and secondly he had what with us is accounted wealth, and after his life a most glorious end: for when a battle was fought by the Athenians at Eleusis against the neighbouring people, he brought up supports and routed the foe and there died by a most fair death; and the Athenians buried him publicly where he fell, and honoured him greatly.\" 31. So when Solon had moved Croesus to inquire further by the story of Tellos, recounting how many points of happiness he had, the king asked again whom he had seen pro",
     "spans": [
-      {
-        "start": 0,
-        "end": 28,
-        "figure": "apostrophe",
-        "why": "The direct address (O king) honours Croesus, but the name that follows does not."
-      },
       {
         "start": 99,
         "end": 160,
@@ -978,12 +870,6 @@ window.PASSAGES = [
     "cue": "Catiline to his last army: a speech that denies the power of speeches.",
     "text": "I am well aware, soldiers, that words can not inspire courage; and that a spiritless army can not be rendered active, or a timid army valiant, by the speech of its commander. Whatever courage is in the heart of a man, whether from nature or from habit, so much will be shown by him in the field; and on him whom neither glory nor danger can move, exhortation is bestowed in vain; for the terror in his breast stops his ears. I have called you together, however, to give you a few instructions, and to explain to you, at the same time, my reasons for the course which I have adopted. You all know, soldiers, how severe a penalty the inactivity and cowardice of Lentulus has brought upon himself and us; and how, while waiting for reinforcements from the city, I was unable to march into Gaul. In what situation our affairs now are, you all understand as well as myself.",
     "spans": [
-      {
-        "start": 0,
-        "end": 62,
-        "figure": "apostrophe",
-        "why": "He names them as soldiers before he tells them words will not save them."
-      },
       {
         "start": 32,
         "end": 174,
@@ -1136,12 +1022,6 @@ window.PASSAGES = [
     "cue": "Praise of the ancestors is itself put on trial: Time, not the orator, is their monument.",
     "text": "Those who praise your forefathers, men of Athens, desire, no doubt, to gratify you by their speeches; and yet I do not think that they are acting in the interests of those whom they praise. For the subject on which they attempt to speak is one to which no words can do justice; and so, although they thus win for themselves the reputation of capable speakers, the impression which they convey to their hearers of the merit of our forefathers is not adequate to our conception of it. For my part I believe that their highest praise is constituted by Time: for the time that has passed has been long, and still no generation has arisen, whose achievements could be compared with advantage to theirs. As for myself, I shall attempt to point out the way in which, in my opinion, you can best make your preparations. For the truth is, that if all o",
     "spans": [
-      {
-        "start": 35,
-        "end": 101,
-        "figure": "apostrophe",
-        "why": "The people are named as those who like to hear themselves praised through their dead."
-      },
       {
         "start": 50,
         "end": 82,
@@ -1549,12 +1429,6 @@ window.PASSAGES = [
     "text": "Do you, therefore, under these circumstances, citizens of Rome, as you have done previously, protect your own homes with watch and ward. I myself have taken thought and made provision for the safe defence of the city without any disturbance to you or any alarm of war. Your fellow-citizens in all the colonial and municipal districts, having been informed by me of this midnight excursion of Catilina, will easily protect their own towns and territories. The gladiators, thought by Catilina most certain to join him in large numbers (though as a matter of fact they are less disaffected than a section of the patricians), will nevertheless be submissive to our authority. Q. Metellus, whom I in anticipation of this movement sent forward to the districts of the Ager Gallicus and Picenum, will either crush the villain or will hamper all his movements and attempts.",
     "spans": [
       {
-        "start": 46,
-        "end": 115,
-        "figure": "apostrophe",
-        "why": "The direct address (vocative) comes first, and then the charge of the night."
-      },
-      {
         "start": 137,
         "end": 268,
         "figure": "antithesis",
@@ -1576,12 +1450,6 @@ window.PASSAGES = [
     "cue": "A thanksgiving without blood: the gods are paid in festival, not in funerals.",
     "text": "So, citizens of Rome, since a public thanksgiving has been voted to be held at all the sacred couches, keep the festal days with your wives and children. Many honours justly deserved have often ere now been paid to the immortal gods, but surely none more justly due to them than these. For you have been rescued from a most barbarous and heartrending destruction, and rescued without bloodshed, without slaughter, without an army, without a prolonged struggle; by civil weapons, and with me in my civil capacity as your only leader and general, you have won the day. Yes, recall to memory, men of Rome, all our internal dissensions, not only those of which you have heard, but those which you yourselves remember and have seen. L. Sulla crushed P. Sulpicius; C. Marius",
     "spans": [
-      {
-        "start": 0,
-        "end": 64,
-        "figure": "apostrophe",
-        "why": "The people are named as those who still have wives and children to keep the day with."
-      },
       {
         "start": 245,
         "end": 284,
@@ -1623,12 +1491,6 @@ window.PASSAGES = [
         "why": "He asks for a memorial in their hearts rather than in stone, so the honour is to be inward."
       },
       {
-        "start": 30,
-        "end": 84,
-        "figure": "apostrophe",
-        "why": "The people are named as those who might have given what he will not take."
-      },
-      {
         "start": 74,
         "end": 148,
         "figure": "anaphora",
@@ -1644,12 +1506,6 @@ window.PASSAGES = [
     "cue": "Before the vote, the consul puts his own safety second, and says so.",
     "text": "At this moment, conscript fathers, I see well which way my own interest lies. If you adopt the proposal of C. Caesar, then since he has adopted that course in political life which is considered popular, perhaps as he is the originator and advocate of the motion, I shall have less reason to fear an outburst of popular resentment. If you adopt the alternative proposal, possibly I shall bring upon myself a larger amount of embarrassment. But in any case let the chances of danger to me be entirely neglected in comparison with the advantages to the state. We have then from Caesar, as his high position and the distinction of his family required, a motion which is a sort of guarantee of the lasting nature of his patriotism. He has realised the difference between the irresponsibility of demagogues and a real devotion to the true welfare of the people.",
     "spans": [
-      {
-        "start": 0,
-        "end": 77,
-        "figure": "apostrophe",
-        "why": "He addresses the senate, and then names his own interest only to set it aside."
-      },
       {
         "start": 78,
         "end": 201,
@@ -1741,12 +1597,6 @@ window.PASSAGES = [
     "text": "O miserable man if you are aware, more miserable still if you are not aware, that this is recorded in writings, is handed down to men's recollection, that our very latest posterity in the most distant ages will never forget this fact, that the consuls were expelled from Italy, and with them Cnaeus Pompeius, who was the glory and light of the empire of the Roman people; that all the men of consular rank, whose health would allow them to share in that disaster and that flight, and the praetors, and men of praetorian rank, and the tribunes of the people, and a great part of the senate, and all the flower of the youth of the city, and, in a word, the republic itself was driven out and expelled from its abode. As, then, there is in seeds the cause which produces trees and plants, so of this most lamentable war you were the seed.",
     "spans": [
       {
-        "start": 0,
-        "end": 75,
-        "figure": "apostrophe",
-        "why": "The direct address (vocative) comes first, and then two miseries, the second worse than the first."
-      },
-      {
         "start": 16,
         "end": 75,
         "figure": "antithesis",
@@ -1764,6 +1614,9 @@ window.PASSAGES = [
         "figure": "epithet",
         "why": "Glory and light are two names for one man now expelled."
       }
+    ],
+    "unmarkedFigures": [
+      "apostrophe"
     ]
   },
   {
@@ -1774,12 +1627,6 @@ window.PASSAGES = [
     "cue": "Before the advice comes a law for advisers: no malice, no favour, the best policy only.",
     "text": "It was the duty, men of Athens, of every speaker not to allow either malice or favour to influence any speech which he might make, but simply to declare the policy which he considered to be the best, particularly when your deliberations were concerned with public affairs of great importance. But since there are some who are led on to address you, partly out of contentiousness, partly from causes which I need not discuss, it is for you, men of Athens--you, the People--to dismiss all other considerations, and both in the votes that you give and in the measures that you take to attend solely to what you believe to be for the good of the city. Now our present anxiety arises out of affairs in the Chersonese, and the campaign, now in its eleventh month, which Philip is conducting in Thrace. But most of the speeches which we have heard have been about the acts and intentions of Diopeithes.",
     "spans": [
-      {
-        "start": 17,
-        "end": 85,
-        "figure": "apostrophe",
-        "why": "The people are named as those who must hear policy, not passion."
-      },
       {
         "start": 49,
         "end": 109,
@@ -1802,12 +1649,6 @@ window.PASSAGES = [
     "cue": "A deliberative period: money, then ships, then a law that the force remain at the war.",
     "text": "If, men of Athens, you first supply the sum I have mentioned, and then, after making ready the rest of the armament--soldiers, ships, cavalry--bind the whole force in its entirety, by law, to remain at the seat of war; if you become your own paymasters, your own commissioners of supply, but require your general to account for the actual operations; then there will be an end of these perpetual discussions of one and the same theme, which end in nothing but discussion: and in addition to this, men of Athens, you will, in the first place, deprive him of his chief source of supply. For what is this? Why, he carries on the war at the cost of your own allies, harrying and plundering those who sail the seas! And what will you gain besides this? You will place yourselves out of reach of disaster.",
     "spans": [
-      {
-        "start": 0,
-        "end": 60,
-        "figure": "apostrophe",
-        "why": "The people are named as paymasters of their own war."
-      },
       {
         "start": 117,
         "end": 141,
@@ -1868,22 +1709,10 @@ window.PASSAGES = [
     "text": "Men of Athens, I honour and love you; but I shall obey God rather than you, and while I have life and strength I shall never cease from the practice and teaching of philosophy, exhorting any one whom I meet and saying to him after my manner: You, my friend,—a citizen of the great and mighty and wise city of Athens,—are you not ashamed of heaping up the greatest amount of money and honour and reputation, and caring so little about wisdom and truth and the greatest improvement of the soul, which you never regard or heed at all? And if the person with whom I am arguing, says: Yes, but I do care; then I do not leave him or let him go at once; but I proceed to interrogate and examine and cross-examine him, and if I think that he has no virtue in him, but only says that he has, I reproach him with undervaluing the greater, and overvaluing the less.",
     "spans": [
       {
-        "start": 0,
-        "end": 37,
-        "figure": "apostrophe",
-        "why": "He uses a pious form of direct address (vocative) toward the very men who will condemn him."
-      },
-      {
         "start": 15,
         "end": 74,
         "figure": "antithesis",
         "why": "He honours the Athenians but will obey God, and that but contains his whole defence."
-      },
-      {
-        "start": 242,
-        "end": 336,
-        "figure": "apostrophe",
-        "why": "He turns from the court to any one man, and makes the city a witness against him."
       },
       {
         "start": 317,
@@ -1901,12 +1730,6 @@ window.PASSAGES = [
     "cue": "A funeral speech is about to be mocked, and first a young man is met coming from the Council.",
     "text": "Whence come you, Menexenus? Are you from the Agora? MENEXENUS: Yes, Socrates; I have been at the Council. SOCRATES: And what might you be doing at the Council? And yet I need hardly ask, for I see that you, believing yourself to have arrived at the end of education and of philosophy, and to have had enough of them, are mounting upwards to things higher still, and, though rather young for the post, are intending to govern us elder men, like the rest of your family, which has always provided some one who kindly took care of us. MENEXENUS: Yes, Socrates, I shall be ready to hold office, if you allow and advise that I should, but not if you think otherwise. I went to the council chamber because I heard that the Council was about to choose some one who was to speak over the dead.",
     "spans": [
-      {
-        "start": 0,
-        "end": 27,
-        "figure": "apostrophe",
-        "why": "The friend is named, and the question is asked with gentle humour."
-      },
       {
         "start": 116,
         "end": 185,
@@ -1966,12 +1789,6 @@ window.PASSAGES = [
       {
         "start": 469,
         "end": 573,
-        "figure": "apostrophe",
-        "why": "He names her, then himself, then the sword, so that three facts make one command."
-      },
-      {
-        "start": 469,
-        "end": 573,
         "figure": "asyndeton",
         "why": "Four short clauses come without and, and their brevity conveys the terror."
       }
@@ -1996,12 +1813,6 @@ window.PASSAGES = [
         "end": 314,
         "figure": "hypotyposis",
         "why": "Three sights, the hill taken, the enemy pouring down, and his own men in flight, frame one stand."
-      },
-      {
-        "start": 429,
-        "end": 499,
-        "figure": "apostrophe",
-        "why": "He turns first to his own fleeing men, not to the enemy."
       },
       {
         "start": 375,
@@ -2106,7 +1917,7 @@ window.PASSAGES = [
         "start": 350,
         "end": 392,
         "figure": "apostrophe",
-        "why": "Gregory keeps Isaiah's direct address (O you poor little one) as a word for the poor hearer."
+        "why": "In Isaiah the Lord turns to Zion, the afflicted city, and speaks to her as to a woman; Gregory keeps the address as a word for the poor hearer."
       },
       {
         "start": 0,
@@ -2548,12 +2359,6 @@ window.PASSAGES = [
     "text": "What is it, Catilina? Do you not heed, do you not mark the silence of the house? Their silence denotes consent. Why do you wait for them to express their sanction in words, when you can see by their silence the nature of their wishes? If I had used this language to my excellent young friend P. Sestius, or to the gallant M. Marcellus, the senate would have been amply justified in laying violent hands upon me, consul as I am, here in this very temple. But in your case, Catilina, their calmness indicates their approval, their tolerance implies their deliberate assent, and their silence is equivalent to loud denunciation of you. Nor is it only these senators, whose resolutions you of course rega",
     "spans": [
       {
-        "start": 0,
-        "end": 80,
-        "figure": "apostrophe",
-        "why": "The name comes first, then two questions about a silence."
-      },
-      {
         "start": 81,
         "end": 111,
         "figure": "personification",
@@ -2598,12 +2403,6 @@ window.PASSAGES = [
         "end": 131,
         "figure": "anaphora",
         "why": "Is it possible is asked twice, and the answer is no."
-      },
-      {
-        "start": 219,
-        "end": 282,
-        "figure": "apostrophe",
-        "why": "A wish is flung at the man and already given up."
       }
     ]
   },
@@ -2615,12 +2414,6 @@ window.PASSAGES = [
     "cue": "He is said to have driven Catiline into exile, and he treats the charge as a compliment too large.",
     "text": "And yet, citizens of Rome, there are people who say that I have driven Catilina into exile. Truly if a word of mine could do so much, I should very soon drive into exile the men who use such language. He was evidently a timid creature, or perhaps so peaceable a citizen that he could not bear the consul's lightest word; the moment he was bidden to go into exile, he obeyed! What is this? When I yesterday, men of Rome, having nearly been murdered in my own house, convened the senate in the temple of Jupiter Stator, I denounced the whole matter to the members of that assembly. When Catilina presented him self, did any single senator welcome him? Did any one give him a word of greeting? Did any one, I say, look at him as one looks at a bad citizen and not rather as one regards a most vindictive enemy?",
     "spans": [
-      {
-        "start": 9,
-        "end": 91,
-        "figure": "apostrophe",
-        "why": "The people are named, and then the rumour."
-      },
       {
         "start": 92,
         "end": 200,
@@ -2643,12 +2436,6 @@ window.PASSAGES = [
     "cue": "With the leaders seized, the consul tells the people the war's head is already off.",
     "text": "And now, men of Rome, since you have seized and secured with a firm grasp the abominable leaders in this most wicked and dangerous war, you are bound to believe that all the forces of Catilina were defeated, that all his hopes and all his resources collapsed, when these dangers which threatened the city were averted. Yes, when I was ejecting him from the city, I foresaw this result clearly, men of Rome; I foresaw that, if Catilina were removed, I need not be terrified by the drowsiness of P. Lentulus or the corpulence of L. Cassius or the headstrong rashness of C. Cethegus. Catilina was the one man in the whole number really formidable, and he only so long as he was confined within the walls of Rome. Catilina knew everything and penetrated everywhere: he had the power and the audacity requisite for appealing, for tempting, and for working on men's feelings.",
     "spans": [
-      {
-        "start": 0,
-        "end": 73,
-        "figure": "apostrophe",
-        "why": "The people are named as those who now hold the men."
-      },
       {
         "start": 28,
         "end": 96,
@@ -2755,12 +2542,6 @@ window.PASSAGES = [
     "cue": "The gadfly of Athens: a ludicrous figure, he says, and he will not drop it.",
     "text": "And now, Athenians, I am not going to argue for my own sake, as you may think, but for yours, that you may not sin against the God by condemning me, who am his gift to you. For if you kill me you will not easily find a successor to me, who, if I may use such a ludicrous figure of speech, am a sort of gadfly, given to the state by God; and the state is a great and noble steed who is tardy in his motions owing to his very size, and requires to be stirred into life. I am that gadfly which God has attached to the state, and all day long and in all places am always fastening upon you, arousing and persuading and reproaching you. You will not easily find another like me, and therefore I would advise you to spare me. I dare say that you may feel out of temper (like a person who is suddenly awakened from sleep), and you think that you might easily strike me dead as Anytus advises, and then you would sleep on for the remainder of your lives, unless God in his care of you sent you another gadfly.",
     "spans": [
-      {
-        "start": 0,
-        "end": 59,
-        "figure": "apostrophe",
-        "why": "The direct address (vocative) comes first, and then the claim that the speech is for their sake."
-      },
       {
         "start": 25,
         "end": 92,
@@ -3092,12 +2873,6 @@ window.PASSAGES = [
     "text": "When the facts are agreed on by both sides, the verdict is determined by the laws and by those who voted, who have final authority over our government; but if there is disagreement on any matter, it is your duty, citizens, to decide. In this case I think even the defendant will not disagree with me; for my boy, struck in the side on the training field by a javelin thrown by this young man, died on the spot. I therefore charge him not with intentional but with unintentional homicide. For me, of course, the misfortune he unintentionally caused is just as great as if he had acted intentionally; he has not burdened the spirit of the dead man but of those still living. So I beg you, pity the parents' loss of their child, mourn for the deceased's unseasonable death, ban the killer from the places prescribed in the law, and do not ignore the pollution he has brought on the whole city.",
     "spans": [
       {
-        "start": 196,
-        "end": 232,
-        "figure": "apostrophe",
-        "why": "He turns to the jury and names their office."
-      },
-      {
         "start": 434,
         "end": 486,
         "figure": "antithesis",
@@ -3136,12 +2911,6 @@ window.PASSAGES = [
         "end": 886,
         "figure": "antithesis",
         "why": "Words are set against deeds, dressed as a sententia."
-      },
-      {
-        "start": 545,
-        "end": 578,
-        "figure": "apostrophe",
-        "why": "He turns from argument to the men who sit."
       }
     ],
     "species": "forensic",
@@ -3296,12 +3065,6 @@ window.PASSAGES = [
     "text": "So, gentlemen—you who punish evil deeds and distinguish righteous actions—I seek refuge in your pity in fact, not in word, and I make this request: where the facts are clear, don't let yourselves be persuaded by a wicked subtlety of words to think that the truth of what was done is really false. For subtlety is persuasive rather than true, while truth is less deceitful but also less powerful.",
     "spans": [
       {
-        "start": 0,
-        "end": 73,
-        "figure": "apostrophe",
-        "why": "He names the jury by their office before he asks for pity."
-      },
-      {
         "start": 96,
         "end": 121,
         "figure": "antithesis",
@@ -3374,12 +3137,6 @@ window.PASSAGES = [
         "end": 679,
         "figure": "antithesis",
         "why": "Word (logos) is set against deed (ergon): blame should fall on the deed, not on the precision of the speech."
-      },
-      {
-        "start": 243,
-        "end": 291,
-        "figure": "apostrophe",
-        "why": "The jury is separated from both litigants."
       }
     ],
     "species": "forensic",
@@ -3645,12 +3402,6 @@ window.PASSAGES = [
     "text": "I have not lived so long, Lacedaemonians, without having had the experience of many wars, and I see those among you of the same age as myself, who will not fall into the common misfortune of longing for war from inexperience or from a belief in its advantage and its safety. This, the war on which you are now debating, would be one of the greatest magnitude, on a sober consideration of the matter. In a struggle with Peloponnesians and neighbours our strength is of the same character, and it is possible to move swiftly on the different points. But a struggle with a people who live in a distant land, who have also an extraordinary familiarity with the sea, and who are in the highest state of preparation in every other department; with wealth private and public, with ships, and horses, and heavy infantry, and a population such as no one other Hellenic place can equal, and lastly a number of tributary allies—what can justify us in rashly beginning such a struggle?",
     "spans": [
       {
-        "start": 0,
-        "end": 40,
-        "figure": "apostrophe",
-        "why": "He addresses the assembly by name."
-      },
-      {
         "start": 42,
         "end": 88,
         "figure": "ethos",
@@ -3783,12 +3534,6 @@ window.PASSAGES = [
         "why": "It is a hard maxim (gnome), and its point is that pity and empire cannot live together."
       },
       {
-        "start": 40,
-        "end": 115,
-        "figure": "apostrophe",
-        "why": "He turns the city's repentance into a proof of weakness."
-      },
-      {
         "start": 117,
         "end": 192,
         "figure": "antithesis",
@@ -3842,12 +3587,6 @@ window.PASSAGES = [
     "cue": "Sicily: Alcibiades answers Nicias by defending his splendour as public power.",
     "text": "Athenians, I have a better right to command than others—I must begin with this as Nicias has attacked me—and at the same time I believe myself to be worthy of it. The things for which I am abused, bring fame to my ancestors and to myself, and to the country profit besides. The Hellenes, after expecting to see our city ruined by the war, concluded it to be even greater than it really is, by reason of the magnificence with which I represented it at the Olympic games, when I sent into the lists seven chariots, a number never before entered by any private person, and won the first prize, and was second and fourth, and took care to have everything else in a style worthy of my victory. Custom regards such displays as honourable, and they cannot be made without leaving behind them an impression of power. Again, any",
     "spans": [
-      {
-        "start": 0,
-        "end": 55,
-        "figure": "apostrophe",
-        "why": "He opens on his own claim, not on Sicily."
-      },
       {
         "start": 163,
         "end": 272,
@@ -3971,15 +3710,9 @@ window.PASSAGES = [
     "author": "Sophocles",
     "work": "Oedipus the King",
     "locus": "1–13",
-    "cue": "In the prologue the king speaks as father of the city, opening in apostrophe.",
+    "cue": "In the prologue the king speaks as father of the city, and he opens by addressing the suppliants as his children.",
     "text": "My children, latest born to Cadmus old, Why sit ye here as suppliants, in your hands Branches of olive filleted with wool? What means this reek of incense everywhere, And everywhere laments and litanies? Children, it were not meet that I should learn From others, and am hither come, myself, I Oedipus, your world-renowned king. Ho! aged sire, whose venerable locks Proclaim thee spokesman of this company, Explain your mood and purport. Is it dread Of ill that moves you or a boon ye crave? My zeal in your behalf ye cannot doubt; Ruthless indeed were I and obdurate If such petitioners as you I spurned. PRIEST. Yea, Oedipus, my sovereign lord and king, Thou seest how both extremes of age besiege Thy palace altars—fledglings hardly winged, and greybeards bowed with years; priests, as am I of Zeus, and these the flower of our youth.",
     "spans": [
-      {
-        "start": 0,
-        "end": 38,
-        "figure": "apostrophe",
-        "why": "The city is addressed as children."
-      },
       {
         "start": 123,
         "end": 203,
@@ -4321,12 +4054,6 @@ window.PASSAGES = [
     "text": "To Vincentius, My Brother Dearly Beloved, Augustin Sends Greeting. Chap. I. 1. I have received a letter which I believe to be from you to me: at least I have not thought this incredible, for the person who brought it is one whom I know to be a Catholic Christian, and who, I think, would not dare to impose upon me. But even though the letter may perchance not be from you, I have considered it necessary to write a reply to the author, whoever he may be. You know me now to be more desirous of rest, and earnest in seeking it, than when you knew me in my earlier years at Carthage, in the lifetime of your immediate predecessor Rogatus. But we are precluded from this rest by the Donatists, the repression and correction of whom, by the powers which are ordained of God, appears to me to be labour not in vain.",
     "spans": [
       {
-        "start": 0,
-        "end": 40,
-        "figure": "apostrophe",
-        "why": "The letter opens in friendship, though the controversy will not."
-      },
-      {
         "start": 15,
         "end": 40,
         "figure": "ethos",
@@ -4363,12 +4090,6 @@ window.PASSAGES = [
         "end": 120,
         "figure": "definition",
         "why": "The issue is named before the proof."
-      },
-      {
-        "start": 93,
-        "end": 120,
-        "figure": "apostrophe",
-        "why": "The subject is addressed as the Lord's own."
       }
     ],
     "track": "augustine",
@@ -5428,9 +5149,6 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -5542,9 +5260,6 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -5577,9 +5292,6 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -5766,9 +5478,6 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -6201,9 +5910,6 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cem"
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -6341,7 +6047,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 48,
         "figure": "apostrophe",
-        "why": "He addresses the scribes and Pharisees directly by name."
+        "why": "He has been speaking to the multitude and to his disciples, and he turns from them to address the scribes and Pharisees."
       },
       {
         "start": 53,
@@ -6982,9 +6688,6 @@ window.PASSAGES = [
     "track": "english",
     "src": [
       "eng_cer"
-    ],
-    "unmarkedFigures": [
-      "apostrophe"
     ]
   },
   {
@@ -7299,12 +7002,6 @@ window.PASSAGES = [
     "cue": "Lear, refused by both daughters, threatens them.",
     "text": "No, you unnatural hags, I will have such revenges on you both That all the world shall – I will do such things, – What they are, yet I know not; but they shall be The terrors of the earth.",
     "spans": [
-      {
-        "start": 0,
-        "end": 22,
-        "figure": "apostrophe",
-        "why": "He addresses his daughters directly, and with abuse."
-      },
       {
         "start": 62,
         "end": 88,
