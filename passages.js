@@ -99,6 +99,12 @@ window.PASSAGES = [
         "end": 776,
         "figure": "asyndeton",
         "why": "Clause follows clause with no and to soften them, so that a night's work becomes a list."
+      },
+      {
+        "start": 32,
+        "end": 61,
+        "figure": "anaphora",
+        "why": "In what opens two questions in a row, and the place narrows from the country to the city."
       }
     ]
   },
@@ -127,6 +133,12 @@ window.PASSAGES = [
         "end": 313,
         "figure": "epithet",
         "why": "He stacks names for one man, each heavier than the last."
+      },
+      {
+        "start": 0,
+        "end": 55,
+        "figure": "asyndeton",
+        "why": "The three refusals are joined without conjunctions, so each stands by itself."
       }
     ]
   },
@@ -155,6 +167,12 @@ window.PASSAGES = [
         "end": 966,
         "figure": "praeteritio",
         "why": "He says that he will not name it, and so he names it more sharply than a charge would."
+      },
+      {
+        "start": 0,
+        "end": 50,
+        "figure": "apostrophe",
+        "why": "He addresses the accused by name in the middle of the question."
       }
     ]
   },
@@ -183,6 +201,18 @@ window.PASSAGES = [
         "end": 1023,
         "figure": "antithesis",
         "why": "Whether the fears are founded or groundless, both alternatives end in the same command: go."
+      },
+      {
+        "start": 0,
+        "end": 44,
+        "figure": "apostrophe",
+        "why": "Catilina is addressed by name, and the country’s plea is put to him directly."
+      },
+      {
+        "start": 102,
+        "end": 170,
+        "figure": "anaphora",
+        "why": "No opens both clauses, first for crime and then for scandal."
       }
     ]
   },
@@ -242,9 +272,21 @@ window.PASSAGES = [
       },
       {
         "start": 450,
+        "end": 480,
+        "figure": "anaphora",
+        "why": "He has opens the first two clauses of the report."
+      },
+      {
+        "start": 450,
         "end": 491,
         "figure": "asyndeton",
         "why": "Three verbs stand with no and between them, so the flight is made to sound like a rout."
+      },
+      {
+        "start": 77,
+        "end": 142,
+        "figure": "anaphora",
+        "why": "With opens the first two members, and each names a part of the man and its vice."
       }
     ]
   },
@@ -271,8 +313,8 @@ window.PASSAGES = [
       {
         "start": 0,
         "end": 81,
-        "figure": "rhetorical question",
-        "why": "The how does not ask how great the misery is; it asserts that the misery is great."
+        "figure": "exclamatio",
+        "why": "The how does not ask how great the misery is; it cries out that the misery is great, so the sentence is an exclamation and not a question."
       }
     ]
   },
@@ -363,6 +405,12 @@ window.PASSAGES = [
         "end": 71,
         "figure": "climax",
         "why": "The terms rise from blind, to stubborn, to out of one's mind."
+      },
+      {
+        "start": 15,
+        "end": 71,
+        "figure": "anaphora",
+        "why": "So opens each of the three members of the question."
       }
     ]
   },
@@ -391,6 +439,12 @@ window.PASSAGES = [
         "end": 264,
         "figure": "climax",
         "why": "The climax moves from the state to himself, and the last anxiety is the one he will refuse to honour."
+      },
+      {
+        "start": 0,
+        "end": 107,
+        "figure": "anaphora",
+        "why": "I perceive opens both clauses, first for the faces of the senate and then for its anxiety."
       }
     ]
   },
@@ -410,15 +464,21 @@ window.PASSAGES = [
       },
       {
         "start": 30,
-        "end": 80,
+        "end": 107,
         "figure": "tricolon",
         "why": "The commands name the cares of a senate that still has something to save, and the third member completes the set."
       },
       {
-        "start": 0,
-        "end": 57,
-        "figure": "rhetorical question",
-        "why": "It is a command, though it is phrased as counsel to the senate."
+        "start": 30,
+        "end": 107,
+        "figure": "asyndeton",
+        "why": "The commands follow one another without conjunctions, as counsel pressed on the senate."
+      },
+      {
+        "start": 109,
+        "end": 155,
+        "figure": "anaphora",
+        "why": "Your opens each of the things the senate is to preserve."
       }
     ]
   },
@@ -761,6 +821,12 @@ window.PASSAGES = [
         "end": 63,
         "figure": "chiasmus",
         "why": "The pair weak and must inverts the pair strong and can, in fortune and not only in grammar."
+      },
+      {
+        "start": 0,
+        "end": 62,
+        "figure": "isocolon",
+        "why": "The two members are of the same shape and nearly the same length."
       }
     ]
   },
@@ -1530,9 +1596,9 @@ window.PASSAGES = [
       },
       {
         "start": 368,
-        "end": 420,
+        "end": 459,
         "figure": "asyndeton",
-        "why": "Three withouts name the rescue by what it did not cost."
+        "why": "The withouts follow one another without conjunctions, and they name the rescue by what it did not cost."
       }
     ]
   },
@@ -1567,6 +1633,12 @@ window.PASSAGES = [
         "end": 84,
         "figure": "apostrophe",
         "why": "The people are named as those who might have given what he will not take."
+      },
+      {
+        "start": 74,
+        "end": 148,
+        "figure": "anaphora",
+        "why": "Any opens each of the three things he declines."
       }
     ]
   },
@@ -1620,7 +1692,7 @@ window.PASSAGES = [
       },
       {
         "start": 308,
-        "end": 420,
+        "end": 434,
         "figure": "personification",
         "why": "The country is given hands, and stretches them toward the senate."
       },
@@ -1753,6 +1825,12 @@ window.PASSAGES = [
         "end": 349,
         "figure": "climax",
         "why": "The members run from paying to supplying to holding the general to account, and the last carries the reproach."
+      },
+      {
+        "start": 117,
+        "end": 141,
+        "figure": "asyndeton",
+        "why": "The three parts of the armament are listed without conjunctions."
       }
     ]
   },
@@ -1782,6 +1860,9 @@ window.PASSAGES = [
         "figure": "antithesis",
         "why": "The shame lies not in poverty but in the refusal to fight it, which gives shame a new name."
       }
+    ],
+    "unmarkedFigures": [
+      "isocolon"
     ]
   },
   {
@@ -1961,7 +2042,7 @@ window.PASSAGES = [
       },
       {
         "start": 314,
-        "end": 483,
+        "end": 488,
         "figure": "climax",
         "why": "The powers are described as short, not long, and swallowed up, so each is greater than the last and each is absorbed in the next."
       },
@@ -2094,6 +2175,12 @@ window.PASSAGES = [
         "end": 137,
         "figure": "antithesis",
         "why": "Clemency is praised in the one man who need not be clement."
+      },
+      {
+        "start": 4,
+        "end": 89,
+        "figure": "anaphora",
+        "why": "Such opens each member, so that the praise is gathered under one word."
       }
     ]
   },
@@ -2489,6 +2576,12 @@ window.PASSAGES = [
         "end": 631,
         "figure": "antithesis",
         "why": "Silence and loud give the same verdict."
+      },
+      {
+        "start": 22,
+        "end": 80,
+        "figure": "anaphora",
+        "why": "Do you not opens both questions."
       }
     ]
   },
@@ -2542,7 +2635,7 @@ window.PASSAGES = [
       },
       {
         "start": 375,
-        "end": 379,
+        "end": 388,
         "figure": "rhetorical question",
         "why": "The what that follows mocks the timid creature."
       }
@@ -2648,7 +2741,7 @@ window.PASSAGES = [
       },
       {
         "start": 336,
-        "end": 380,
+        "end": 399,
         "figure": "simile",
         "why": "Death is likened to a dreamless sleep, if the first alternative is true."
       },
@@ -2760,7 +2853,7 @@ window.PASSAGES = [
       },
       {
         "start": 278,
-        "end": 380,
+        "end": 389,
         "figure": "antithesis",
         "why": "The humble are to learn both what is eternal and what is transitory."
       },
@@ -2794,7 +2887,7 @@ window.PASSAGES = [
       },
       {
         "start": 243,
-        "end": 380,
+        "end": 410,
         "figure": "antithesis",
         "why": "If two of the three powers become one, the naval balance is lost; the antithesis states that arithmetic."
       }
@@ -3081,8 +3174,8 @@ window.PASSAGES = [
       {
         "start": 387,
         "end": 450,
-        "figure": "rhetorical question",
-        "why": "The cry does not seek an answer; it is the charge reversed."
+        "figure": "exclamatio",
+        "why": "The cry does not seek an answer; it is the charge reversed, put as an exclamation."
       },
       {
         "start": 832,
@@ -3361,6 +3454,12 @@ window.PASSAGES = [
         "end": 537,
         "figure": "homoeoteleuton",
         "why": "Wholly and holily rhyme, so the ear is caught before the case begins."
+      },
+      {
+        "start": 14,
+        "end": 136,
+        "figure": "anaphora",
+        "why": "To a opens each member, and only the thing and its embellishment change."
       }
     ],
     "species": "epideictic",
@@ -3400,6 +3499,9 @@ window.PASSAGES = [
     "track": "gorgias",
     "src": [
       "gorgias_vh"
+    ],
+    "unmarkedFigures": [
+      "isocolon"
     ]
   },
   {
@@ -3433,6 +3535,9 @@ window.PASSAGES = [
     "track": "gorgias",
     "src": [
       "gorgias_vh"
+    ],
+    "unmarkedFigures": [
+      "isocolon"
     ]
   },
   {
@@ -3499,6 +3604,9 @@ window.PASSAGES = [
     "track": "gorgias",
     "src": [
       "gorgias_vh"
+    ],
+    "unmarkedFigures": [
+      "isocolon"
     ]
   },
   {
@@ -4017,6 +4125,12 @@ window.PASSAGES = [
         "end": 97,
         "figure": "antithesis",
         "why": "There are two questions, the second harder than the first."
+      },
+      {
+        "start": 18,
+        "end": 97,
+        "figure": "anaphora",
+        "why": "Who can opens both questions."
       }
     ],
     "orig": "Quid est enim tempus? Quis hoc facile breviterque explicaverit? Quis hoc ad verbum de illo proferendum vel cogitatione comprehenderit? Quid autem familiarius et notius in loquendo commemoramus quam tempus? Et intellegimus utique, cum id loquimur, intellegimus etiam, cum alio loquente id audimus. Quid est ergo tempus? Si nemo ex me quaerat, scio; si quaerenti explicare velim, nescio; fidenter tamen dico scire me, quod, si nihil praeteriret, non esset praeteritum tempus, et si nihil adveniret, non esset futurum tempus, et si nihil esset, non esset praesens tempus.",
@@ -4051,6 +4165,12 @@ window.PASSAGES = [
         "end": 1336,
         "figure": "exclamatio",
         "why": "He turns his cry against himself."
+      },
+      {
+        "start": 118,
+        "end": 152,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer none; it is a statement put as a question."
       }
     ],
     "orig": "9. Furtum certe punit lex tua, Domine et lex scripta in cordibus hominumCf. Rom 2, 14–15; cf. Ex 20, 15; Lev 15, 11; Deut 5, 19., quam ne ipsa quidem delet iniquitas; quis enim fur aequo animo furem patitur? Nec copiosus adactum inopia. Et ego furtum facere volui et feci nulla compulsus egestate nisi penuria et fastidio iustitiae et sagina iniquitatis. Nam id furatus sum, quod mihi abundabat et multo melius, nec ea re volebam frui, quam furto appetebam, sed ipso furto et peccato. Arbor erat pirus in vicinia nostrae vineae pomis onusta nec forma nec sapore illecebrosis. Ad hanc excutiendam atque asportandam nequissimi adulescentuli perreximus nocte intempesta, quousque ludum de pestilentiae more in areis produxeramus, et abstulimus inde onera ingentia non ad nostras epulas, sed vel proicienda porcis, etiamsi aliquid inde comedimus, dum tamen fieret a nobis quod eo liberet, quo non liceret",
@@ -4308,6 +4428,12 @@ window.PASSAGES = [
         "end": 322,
         "figure": "climax",
         "why": "The charge moves from the judge to the public and then to the congregation itself, so that it rises as it comes nearer."
+      },
+      {
+        "start": 0,
+        "end": 323,
+        "figure": "tricolon",
+        "why": "Three sentences of the same form follow one another, and each charges a new party."
       }
     ],
     "track": "english",
@@ -4334,6 +4460,12 @@ window.PASSAGES = [
         "end": 84,
         "figure": "enumeratio",
         "why": "The remaining virtues are listed together, so that the denial covers every one of them."
+      },
+      {
+        "start": 9,
+        "end": 57,
+        "figure": "tricolon",
+        "why": "Three members of the same form come before the list loosens."
       }
     ],
     "track": "english",
@@ -4360,6 +4492,18 @@ window.PASSAGES = [
         "end": 94,
         "figure": "asyndeton",
         "why": "The three clauses are joined by commas alone, without and, so each denial stands by itself."
+      },
+      {
+        "start": 24,
+        "end": 82,
+        "figure": "anaphora",
+        "why": "We cannot opens each of the three members."
+      },
+      {
+        "start": 24,
+        "end": 82,
+        "figure": "climax",
+        "why": "The verbs rise from dedicate through consecrate to hallow, each more sacred than the last."
       }
     ],
     "species": "epideictic",
@@ -4387,6 +4531,18 @@ window.PASSAGES = [
         "end": 159,
         "figure": "asyndeton",
         "why": "The clauses follow one another without conjunctions, as the enemy’s haste would have them."
+      },
+      {
+        "start": 16,
+        "end": 71,
+        "figure": "tricolon",
+        "why": "Three members of the same form follow the course of the chase."
+      },
+      {
+        "start": 16,
+        "end": 71,
+        "figure": "climax",
+        "why": "The verbs rise from the pursuit to the capture to the division of the spoil."
       }
     ],
     "track": "english",
@@ -4420,6 +4576,12 @@ window.PASSAGES = [
         "end": 277,
         "figure": "personification",
         "why": "The dog is treated throughout as a person who lies and pleads: he manufactures falsehood, lies with his tail and his eye, and has a protesting paw, as if he could claim his innocence."
+      },
+      {
+        "start": 111,
+        "end": 187,
+        "figure": "tricolon",
+        "why": "Three members of the same form name the dog’s instruments of deceit."
       }
     ],
     "track": "english",
@@ -4504,6 +4666,12 @@ window.PASSAGES = [
         "end": 258,
         "figure": "antithesis",
         "why": "Love and fear are set against each other in two members of the same form."
+      },
+      {
+        "start": 50,
+        "end": 70,
+        "figure": "litotes",
+        "why": "No light thing means a grave thing, and the understatement keeps the charge measured."
       }
     ],
     "track": "english",
@@ -4582,6 +4750,12 @@ window.PASSAGES = [
         "end": 154,
         "figure": "chiasmus",
         "why": "The terms are crossed (I, events; events, me), and the crossing states his claim that he followed events rather than led them."
+      },
+      {
+        "start": 65,
+        "end": 154,
+        "figure": "antithesis",
+        "why": "Controlling events is set against being controlled by them, and claim against confession."
       }
     ],
     "track": "english",
@@ -4608,6 +4782,18 @@ window.PASSAGES = [
         "end": 48,
         "figure": "personification",
         "why": "The railroad is made an agent that rides men as men ride a horse."
+      },
+      {
+        "start": 0,
+        "end": 48,
+        "figure": "antithesis",
+        "why": "What men think they do is set against what is done to them."
+      },
+      {
+        "start": 32,
+        "end": 48,
+        "figure": "metaphor",
+        "why": "Men are spoken of as the road on which the railroad rides."
       }
     ],
     "track": "english",
@@ -4640,6 +4826,12 @@ window.PASSAGES = [
         "end": 185,
         "figure": "correctio",
         "why": "He stops to narrow what he has just said: the present minister has thought of war, or of something that only looks like it."
+      },
+      {
+        "start": 0,
+        "end": 243,
+        "figure": "isocolon",
+        "why": "The two members are built alike and are of nearly the same length, so that the two errors can be weighed against each other."
       }
     ],
     "track": "english",
@@ -4666,6 +4858,12 @@ window.PASSAGES = [
         "end": 41,
         "figure": "antithesis",
         "why": "Rising is set against falling and sin against virtue."
+      },
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "isocolon",
+        "why": "The two members are of the same length and have the same parts."
       }
     ],
     "track": "english",
@@ -4692,6 +4890,12 @@ window.PASSAGES = [
         "end": 41,
         "figure": "personification",
         "why": "Time is made the agent that wastes the king."
+      },
+      {
+        "start": 0,
+        "end": 41,
+        "figure": "antithesis",
+        "why": "What the king did to time is set against what time now does to him."
       }
     ],
     "track": "english",
@@ -4724,6 +4928,12 @@ window.PASSAGES = [
         "end": 150,
         "figure": "antithesis",
         "why": "Each pair sets contraries against each other in a repeated frame."
+      },
+      {
+        "start": 14,
+        "end": 128,
+        "figure": "anaphora",
+        "why": "That opens each member of the woe."
       }
     ],
     "track": "english",
@@ -4751,6 +4961,12 @@ window.PASSAGES = [
         "end": 209,
         "figure": "chiasmus",
         "why": "They and this nation exchange places in the second sentence, so that the question is turned back on those who asked it."
+      },
+      {
+        "start": 27,
+        "end": 209,
+        "figure": "antithesis",
+        "why": "The ministers are set against the nation, and their questions against the nation’s questions."
       }
     ],
     "track": "english",
@@ -4841,6 +5057,12 @@ window.PASSAGES = [
         "end": 78,
         "figure": "personification",
         "why": "America is made a person who takes a vow."
+      },
+      {
+        "start": 11,
+        "end": 104,
+        "figure": "anaphora",
+        "why": "False to heads the first two members, and the third returns to it after the vow."
       }
     ],
     "track": "english",
@@ -4873,6 +5095,12 @@ window.PASSAGES = [
         "end": 244,
         "figure": "enumeratio",
         "why": "The four qualities are listed again, each with its due, as a reckoning."
+      },
+      {
+        "start": 0,
+        "end": 131,
+        "figure": "anaphora",
+        "why": "As opens each of the four members."
       }
     ],
     "track": "english",
@@ -4905,6 +5133,18 @@ window.PASSAGES = [
         "end": 104,
         "figure": "sententia",
         "why": "The rule for the whole mission is stated in a short maxim."
+      },
+      {
+        "start": 68,
+        "end": 104,
+        "figure": "anaphora",
+        "why": "Freely opens both members."
+      },
+      {
+        "start": 68,
+        "end": 104,
+        "figure": "antithesis",
+        "why": "Receiving is set against giving."
       }
     ],
     "track": "english",
@@ -4958,6 +5198,18 @@ window.PASSAGES = [
         "end": 190,
         "figure": "simile",
         "why": "The likeness is stated openly, with any more than in place of like or as: to retract the freedom the proclamation has given is set beside raising the dead, and neither can be done."
+      },
+      {
+        "start": 63,
+        "end": 120,
+        "figure": "anaphora",
+        "why": "If it is opens both sentences, one for each case."
+      },
+      {
+        "start": 30,
+        "end": 143,
+        "figure": "antithesis",
+        "why": "Valid is set against not valid, and each case is followed out in a sentence of the same form."
       }
     ],
     "track": "english",
@@ -4984,6 +5236,12 @@ window.PASSAGES = [
         "end": 233,
         "figure": "isocolon",
         "why": "The two horns are given in parallel sentences, so that the hearer sees the same verdict twice."
+      },
+      {
+        "start": 53,
+        "end": 233,
+        "figure": "antithesis",
+        "why": "Knowing is set against not knowing, and each case is followed out in a sentence of the same form."
       }
     ],
     "track": "english",
@@ -5069,6 +5327,12 @@ window.PASSAGES = [
         "end": 157,
         "figure": "sententia",
         "why": "The series ends in a general truth that no legislature can alter."
+      },
+      {
+        "start": 0,
+        "end": 119,
+        "figure": "asyndeton",
+        "why": "The four commands are joined without conjunctions."
       }
     ],
     "track": "english",
@@ -5095,6 +5359,12 @@ window.PASSAGES = [
         "end": 174,
         "figure": "irony",
         "why": "The reasons he gives for sparing Corry are the rules of the House and the offices Corry holds. They are offered as respect, but they imply that villain and fool would otherwise fit, and happens makes the office an accident."
+      },
+      {
+        "start": 0,
+        "end": 119,
+        "figure": "anaphora",
+        "why": "I will not call him opens both sentences, and only the name changes."
       }
     ],
     "track": "english",
@@ -5147,6 +5417,24 @@ window.PASSAGES = [
         "end": 88,
         "figure": "praeteritio",
         "why": "He disclaims any purpose of praise, and the speech that follows is all praise."
+      },
+      {
+        "start": 0,
+        "end": 27,
+        "figure": "apostrophe",
+        "why": "He addresses the crowd directly before he says anything else."
+      },
+      {
+        "start": 0,
+        "end": 27,
+        "figure": "asyndeton",
+        "why": "The three names are given without conjunctions."
+      },
+      {
+        "start": 48,
+        "end": 88,
+        "figure": "antithesis",
+        "why": "Burying is set against praising, in two members of the same form."
       }
     ],
     "track": "english",
@@ -5257,6 +5545,12 @@ window.PASSAGES = [
         "end": 120,
         "figure": "anaphora",
         "why": "Because opens each of the two reasons."
+      },
+      {
+        "start": 0,
+        "end": 19,
+        "figure": "apostrophe",
+        "why": "He addresses the president of the Convention (sir) as he gives his consent."
       }
     ],
     "species": "deliberative",
@@ -5284,6 +5578,18 @@ window.PASSAGES = [
         "end": 224,
         "figure": "litotes",
         "why": "He denies the contrary, not unthinking, and so answers the phrase unthinking multitude in its own words."
+      },
+      {
+        "start": 0,
+        "end": 26,
+        "figure": "apostrophe",
+        "why": "He addresses the presiding officer (Sir) before he answers the appeals."
+      },
+      {
+        "start": 82,
+        "end": 123,
+        "figure": "metaphor",
+        "why": "The appeals are said to tickle the ear, as if they gave pleasure to the body and not reasons to the mind."
       }
     ],
     "track": "english",
@@ -5327,6 +5633,12 @@ window.PASSAGES = [
     "spans": [
       {
         "start": 78,
+        "end": 112,
+        "figure": "isocolon",
+        "why": "The two members, life so dear and peace so sweet, are of the same shape."
+      },
+      {
+        "start": 78,
         "end": 168,
         "figure": "rhetorical question",
         "why": "The question expects no answer; it is a charge that peace on these terms is slavery."
@@ -5336,6 +5648,12 @@ window.PASSAGES = [
         "end": 193,
         "figure": "apostrophe",
         "why": "He turns from the convention and addresses God."
+      },
+      {
+        "start": 249,
+        "end": 281,
+        "figure": "isocolon",
+        "why": "The two members, give me liberty and give me death, are of the same form and length."
       },
       {
         "start": 249,
@@ -5354,6 +5672,12 @@ window.PASSAGES = [
         "end": 281,
         "figure": "anaphora",
         "why": "Give me opens both members of the last cry."
+      },
+      {
+        "start": 0,
+        "end": 23,
+        "figure": "rhetorical question",
+        "why": "The question does not ask for a reason; it reproaches the convention for standing idle."
       }
     ],
     "species": "deliberative",
@@ -5381,6 +5705,12 @@ window.PASSAGES = [
         "end": 35,
         "figure": "antithesis",
         "why": "Then is set against now, and bravery against faltering."
+      },
+      {
+        "start": 67,
+        "end": 104,
+        "figure": "tricolon",
+        "why": "Three coordinated words describe the state of the enemy."
       }
     ],
     "track": "english",
@@ -5445,6 +5775,12 @@ window.PASSAGES = [
         "end": 261,
         "figure": "hypotyposis",
         "why": "The last question sets the disarmed colony before the eyes, with a guard in every house."
+      },
+      {
+        "start": 0,
+        "end": 17,
+        "figure": "apostrophe",
+        "why": "He addresses the president of the convention (sir) as he states the objection."
       }
     ],
     "species": "deliberative",
@@ -5504,6 +5840,18 @@ window.PASSAGES = [
         "end": 280,
         "figure": "parenthesis",
         "why": "He breaks off to correct the word election, and the aside sharpens the charge."
+      },
+      {
+        "start": 0,
+        "end": 62,
+        "figure": "anaphora",
+        "why": "Will opens both questions."
+      },
+      {
+        "start": 63,
+        "end": 162,
+        "figure": "antithesis",
+        "why": "You say is set against I say, and better men against worse men."
       }
     ],
     "species": "deliberative",
@@ -5706,6 +6054,12 @@ window.PASSAGES = [
         "end": 119,
         "figure": "antithesis",
         "why": "Cradle is set against hearse, birth against burial, in two short members."
+      },
+      {
+        "start": 77,
+        "end": 119,
+        "figure": "isocolon",
+        "why": "The two members are of the same length and shape."
       }
     ],
     "track": "english",
@@ -5754,16 +6108,28 @@ window.PASSAGES = [
         "why": "The nation is called a house, and the borrowed saying carries the argument that follows."
       },
       {
+        "start": 169,
+        "end": 202,
+        "figure": "metaphor",
+        "why": "Lincoln returns to the figure of the house: the Union is the house, and its dissolution would be the fall."
+      },
+      {
         "start": 125,
         "end": 248,
         "figure": "correctio",
-        "why": "He sets aside the outcomes he does not expect and puts the one he does expect in their place."
+        "why": "He sets aside the outcomes he does not expect (the Union dissolved, the house fallen) and puts the one he does expect in their place."
       },
       {
         "start": 250,
         "end": 296,
         "figure": "dilemma",
         "why": "He leaves only two outcomes, all slave or all free, and both are unfavourable to those who would keep the nation half slave and half free (the course of Douglas’s policy), since neither outcome leaves the division standing."
+      },
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "sententia",
+        "why": "The saying is a general maxim, and Lincoln applies it to the nation."
       }
     ],
     "track": "english",
@@ -5848,6 +6214,12 @@ window.PASSAGES = [
         "end": 171,
         "figure": "metaphor",
         "why": "The scheme is called a cheap candle lit on one side of the Channel to light the other."
+      },
+      {
+        "start": 102,
+        "end": 138,
+        "figure": "apostrophe",
+        "why": "Johnson addresses his hearer (Sir) before he gives his answer."
       }
     ],
     "track": "english",
@@ -5906,6 +6278,12 @@ window.PASSAGES = [
         "end": 91,
         "figure": "antithesis",
         "why": "Small flies are set against wasps and hornets, what is caught against what breaks through."
+      },
+      {
+        "start": 0,
+        "end": 92,
+        "figure": "sententia",
+        "why": "The sentence is a general maxim about laws, briefly stated."
       }
     ],
     "track": "english",
@@ -5932,6 +6310,12 @@ window.PASSAGES = [
         "end": 109,
         "figure": "antithesis",
         "why": "Light things borne up are set against weighty things drowned."
+      },
+      {
+        "start": 10,
+        "end": 109,
+        "figure": "sententia",
+        "why": "The sentence is a general maxim about fame, briefly stated."
       }
     ],
     "track": "english",
@@ -6149,6 +6533,12 @@ window.PASSAGES = [
         "end": 117,
         "figure": "personification",
         "why": "Passion and reason are made rival rulers, and passion seizes the sceptre."
+      },
+      {
+        "start": 88,
+        "end": 117,
+        "figure": "metaphor",
+        "why": "Rule is named the sceptre, the sign of a king’s authority."
       }
     ],
     "track": "english",
@@ -6175,6 +6565,12 @@ window.PASSAGES = [
         "end": 49,
         "figure": "antithesis",
         "why": "Flying is set against limping, falsehood against truth."
+      },
+      {
+        "start": 0,
+        "end": 49,
+        "figure": "sententia",
+        "why": "The sentence is a general maxim about falsehood and its correction."
       }
     ],
     "track": "english",
@@ -6253,6 +6649,12 @@ window.PASSAGES = [
         "end": 94,
         "figure": "antithesis",
         "why": "Evil that lives is set against good that is buried."
+      },
+      {
+        "start": 14,
+        "end": 95,
+        "figure": "sententia",
+        "why": "The lines state a general maxim about how men are remembered."
       }
     ],
     "track": "english",
@@ -6285,6 +6687,12 @@ window.PASSAGES = [
         "end": 172,
         "figure": "exclamatio",
         "why": "The passage ends in an open cry of warning."
+      },
+      {
+        "start": 26,
+        "end": 112,
+        "figure": "metaphor",
+        "why": "Liberty in its ugly moments is named a reptile, and the verbs that follow belong to the reptile."
       }
     ],
     "track": "english",
@@ -6311,6 +6719,12 @@ window.PASSAGES = [
         "end": 116,
         "figure": "tricolon",
         "why": "Three members of the same form follow the first statement, each adding one epithet."
+      },
+      {
+        "start": 28,
+        "end": 116,
+        "figure": "anaphora",
+        "why": "It is a opens each member after the first, and only the epithet changes."
       }
     ],
     "track": "english",
@@ -6369,6 +6783,18 @@ window.PASSAGES = [
         "end": 85,
         "figure": "symploce",
         "why": "Each member begins with I and ends with as a child."
+      },
+      {
+        "start": 20,
+        "end": 85,
+        "figure": "anaphora",
+        "why": "I opens each of the three members, with a new verb each time."
+      },
+      {
+        "start": 20,
+        "end": 85,
+        "figure": "tricolon",
+        "why": "Three members of the same form name what the child does."
       }
     ],
     "track": "english",
@@ -6396,6 +6822,12 @@ window.PASSAGES = [
         "end": 89,
         "figure": "anaphora",
         "why": "He was there opens all three members."
+      },
+      {
+        "start": 0,
+        "end": 89,
+        "figure": "tricolon",
+        "why": "Three members of the same form place the accused at the scene."
       }
     ],
     "species": "forensic",
@@ -6533,6 +6965,12 @@ window.PASSAGES = [
         "end": 198,
         "figure": "epimone",
         "why": "Let it come is said, then said again with a notice that it is being repeated."
+      },
+      {
+        "start": 51,
+        "end": 73,
+        "figure": "metaphor",
+        "why": "The coming servitude is named chains, and the chains are already made."
       }
     ],
     "species": "deliberative",
@@ -6560,6 +6998,12 @@ window.PASSAGES = [
         "end": 149,
         "figure": "antithesis",
         "why": "One State is set against the whole Union."
+      },
+      {
+        "start": 0,
+        "end": 32,
+        "figure": "apostrophe",
+        "why": "He addresses the presiding officer (Sir) in the middle of the cry."
       }
     ],
     "track": "english",
@@ -6681,6 +7125,18 @@ window.PASSAGES = [
     "text": "But his unbiased opinion, his mature judgment, his enlightened conscience, he ought not to sacrifice to you, to any man, or to any set of men living.",
     "spans": [
       {
+        "start": 4,
+        "end": 73,
+        "figure": "anaphora",
+        "why": "His opens each of the three members."
+      },
+      {
+        "start": 101,
+        "end": 148,
+        "figure": "anaphora",
+        "why": "To opens each member of the widening list."
+      },
+      {
         "start": 0,
         "end": 100,
         "figure": "anastrophe",
@@ -6697,6 +7153,12 @@ window.PASSAGES = [
         "end": 148,
         "figure": "climax",
         "why": "The list of those to whom nothing is owed widens with each member."
+      },
+      {
+        "start": 4,
+        "end": 73,
+        "figure": "asyndeton",
+        "why": "The three members are joined without conjunctions."
       }
     ],
     "track": "english",
@@ -6749,6 +7211,12 @@ window.PASSAGES = [
         "end": 162,
         "figure": "polysyndeton",
         "why": "And joins each event to the next, so that the end comes one step at a time."
+      },
+      {
+        "start": 0,
+        "end": 73,
+        "figure": "anaphora",
+        "why": "They opens each member."
       }
     ],
     "track": "english",
@@ -6776,6 +7244,12 @@ window.PASSAGES = [
         "end": 170,
         "figure": "polysyndeton",
         "why": "The clauses are joined by and, and the last clause is given plainly, as an event that followed."
+      },
+      {
+        "start": 33,
+        "end": 152,
+        "figure": "isocolon",
+        "why": "The two members have the same construction and nearly the same length."
       }
     ],
     "track": "english",
@@ -6828,6 +7302,12 @@ window.PASSAGES = [
         "end": 134,
         "figure": "ellipsis",
         "why": "The word delight is left out of the second member and supplied from the first."
+      },
+      {
+        "start": 0,
+        "end": 88,
+        "figure": "anaphora",
+        "why": "To be alone with opens both members."
       }
     ],
     "track": "english",

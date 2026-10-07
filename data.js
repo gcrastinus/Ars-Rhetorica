@@ -670,6 +670,27 @@ function wrapFigs(text, spans, prefer){
 function esc(s){ return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function citeP(p){ return p.author+', <i>'+esc(p.work)+'</i> '+esc(p.locus); }
 function excerpt(p, n){ n = n || 220; const t = p.text || ''; return t.length > n ? t.slice(0, n).replace(/\s+\S*$/, '') + '…' : t; }
+// The first span of the figure that falls wholly inside the excerpt of length n, if there is one.
+function shownSpan(p, fig, n){
+  const shown = excerpt(p, n).replace(/…$/, '').length;
+  return (p.spans||[]).find(s => s.figure === fig && s.end <= shown);
+}
+// Passages that may serve as wrong answers for a figure: they neither mark the figure nor list it
+// in unmarkedFigures (figures present but left unmarked), and their excerpt differs from the answer's.
+function wrongPool(yes, fig, n){
+  const shown = excerpt(yes, n);
+  return passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0
+    && (p.unmarkedFigures||[]).indexOf(fig) < 0 && excerpt(p, n) !== shown);
+}
+// k wrong answers whose excerpts all differ from one another (some passages share an opening).
+function pickWrong(yes, fig, n, k){
+  const out = [], seen = [];
+  sample(wrongPool(yes, fig, n), Infinity).forEach(p => {
+    const e = excerpt(p, n);
+    if(out.length < k && seen.indexOf(e) < 0){ out.push(p); seen.push(e); }
+  });
+  return out;
+}
 function pickPass(pred, prefix){
   let arr = pred ? passages().filter(pred) : passages();
   if(!arr.length && window.__ARS_QUIZ){
@@ -929,16 +950,17 @@ EX.figwhich = {
   instr:'Each question gives four real passages; which one is using the named figure? Ten make a set; a passage is not reused.',
   src:['cic_cat'],
   gen(diff){
-    const figs = Object.keys(FIGURE_GLOSS).filter(f => isCoreFigure(f) && withFig(f).length >= 1);
+    const n = diff<=2?160:120;
+    const figs = Object.keys(FIGURE_GLOSS).filter(f => isCoreFigure(f) && passages().some(x => shownSpan(x, f, n)));
     const fig = pickSeen(figs, f => 'fwfig:'+f);
-    const yes = pickPass(x => withFig(fig).indexOf(x)>=0, 'fwy:');
-    const nos = sample(passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0), 3);
+    const yes = pickPass(x => !!shownSpan(x, fig, n), 'fwy:');
+    const nos = pickWrong(yes, fig, n, 3);
     const optsP = [yes].concat(nos);
     return mcQ({
       prompt:'Which excerpt is using <strong>'+esc(fig)+'</strong> <em>('+esc(FIGURE_GLOSS[fig]||'')+')</em>?',
-      options: optsP.map(p => '<span style="font-size:16px">'+esc(excerpt(p, diff<=2?160:120))+'</span><br><span style="font-size:14px;color:var(--ink-soft);font-style:italic">'+citeP(p)+'</span>'),
+      options: optsP.map(p => '<span style="font-size:16px">'+esc(excerpt(p, n))+'</span><br><span style="font-size:14px;color:var(--ink-soft);font-style:italic">'+citeP(p)+'</span>'),
       correct:0, src: srcOf(yes),
-      note: citeP(yes)+'. '+((yes.spans.find(s=>s.figure===fig)||{}).why || FIGURE_GLOSS[fig]),
+      note: citeP(yes)+'. '+((shownSpan(yes, fig, n)||{}).why || FIGURE_GLOSS[fig]),
       also:'Figures of speech appear in tragedy and in Gorgias alike, and the test is whether we can still hear them in Cicero’s English.'
     });
   }
@@ -1162,9 +1184,9 @@ EX.figfurther = {
     const target = (diff <= 2) ? mine[0] : rand(mine);
     const gloss = FIGURE_GLOSS[fig] || target.why;
     const n = diff <= 2 ? 160 : 120;
-    const pool = passages().filter(p => p.id !== yes.id && figNames(p).indexOf(fig) < 0);
+    const pool = pickWrong(yes, fig, n, 3);
     if(rand([0,1]) === 1 && target.end <= n - 10 && pool.length >= 3){
-      const optsP = [yes].concat(sample(pool, 3));
+      const optsP = [yes].concat(pool);
       return mcQ({
         prompt:'Which excerpt is using <strong>'+esc(fig)+'</strong> <em>('+esc(gloss)+')</em>?',
         options: optsP.map(p => '<span style="font-size:16px">'+esc(excerpt(p, n))+'</span><br><span style="font-size:14px;color:var(--ink-soft);font-style:italic">'+citeP(p)+'</span>'),

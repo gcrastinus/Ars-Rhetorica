@@ -20,12 +20,13 @@ const P = [];
 
 (function(){
   const t = "These studies are the food of youth, the delight of old age; the ornament of prosperity, the refuge and comfort of adversity; a delight at home, and no hindrance abroad; they are with us at night, they go with us on our travels, they accompany us to our rural retreats.";
-  P.push({id:'q-cic-arch-1', author:'Cicero', work:'Pro Archia', locus:'16', species:'forensic', src:'cic_orat',
+  P.push({id:'q-cic-arch-1', unmarkedFigures:['metaphor'], author:'Cicero', work:'Pro Archia', locus:'16', species:'forensic', src:'cic_orat',
     cue:'Cicero defends the poet Archias by praising the studies that made him.',
     text:t, spans:qmark(t, [
       {s:'the food of youth, the delight of old age', f:'antithesis', w:'Youth is set against age and food against delight, in parallel frames.'},
       {s:'the ornament of prosperity, the refuge and comfort of adversity', f:'antithesis', w:'Prosperity and adversity take opposite offices of the same studies.'},
-      {s:'they are with us at night, they go with us on our travels, they accompany us to our rural retreats', f:'tricolon', w:'There are three members with the same subject, rising from night to travel to retreat.'}
+      {s:'they are with us at night, they go with us on our travels, they accompany us to our rural retreats', f:'tricolon', w:'There are three members with the same subject, rising from night to travel to retreat.'},
+      {s:'a delight at home, and no hindrance abroad', f:'litotes', w:'No hindrance is said where a help is meant, so the denial understates the praise.'}
     ])});
 })();
 
@@ -46,7 +47,8 @@ const P = [];
     cue:'Pericles before the war: do not yield.',
     text:t, spans:qmark(t, [
       {s:'we must not yield to the Peloponnesians', f:'sententia', w:'A general claim, briefly stated, is offered as the city’s rule.'},
-      {s:'it is as true of a state as of a man that, once it begins to submit, it will find itself with a master', f:'simile', w:'The city is measured by the man, and concession makes a master.'}
+      {s:'it is as true of a state as of a man that, once it begins to submit, it will find itself with a master', f:'simile', w:'The city is measured by the man, and concession makes a master.'},
+      {s:'There is one principle, Athenians', f:'apostrophe', w:'Pericles addresses the assembly by name as he states his rule.'}
     ])});
 })();
 
@@ -87,7 +89,8 @@ const P = [];
     cue:'Catiline to his soldiers before the last battle: words cannot make the timid valiant.',
     text:t, spans:qmark(t, [
       {s:'a spiritless army cannot be rendered active, or a timid one valiant, by speeches from their commander', f:'antithesis', w:'In the pairs spiritless and active, timid and valiant, the speech denies its own power.'},
-      {s:'He whom neither glory nor danger can move, it is vain to exhort', f:'sententia', w:'This is a brief rule about pathos: some breasts will not take the charge.'}
+      {s:'He whom neither glory nor danger can move, it is vain to exhort', f:'sententia', w:'This is a brief rule about pathos: some breasts will not take the charge.'},
+      {s:'I am well aware, soldiers', f:'apostrophe', w:'Catiline addresses his soldiers directly before the battle.'}
     ])});
 })();
 
@@ -108,18 +111,21 @@ const P = [];
     cue:'Demosthenes opens on Olynthus: be of one mind about Philip.',
     text:t, spans:qmark(t, [
       {s:'all of you should be of one mind, and should both feel and say the same things about Philip', f:'isocolon', w:'To feel and to say the same things are members of like shape.'},
-      {s:'it is for your interest to take the course which I recommend, and to make your preparations at once', f:'climax', w:'The counsel rises to action, from being convinced to taking the course to preparing at once.'}
+      {s:'it is for your interest to take the course which I recommend, and to make your preparations at once', f:'climax', w:'The counsel rises to action, from being convinced to taking the course to preparing at once.'},
+      {s:'If I were asked, men of Athens', f:'apostrophe', w:'Demosthenes addresses the assembly directly at the opening.'}
     ])});
 })();
 
 (function(){
   const t = "The difficulty, my friends, is not in avoiding death, but in avoiding unrighteousness; for that runs faster than death. I am old and move slowly, and the slower runner has overtaken me, and my accusers are keen and quick, and the faster runner, who is unrighteousness, has overtaken them.";
-  P.push({id:'q-plato-ap-diff', author:'Plato', work:'Apology', locus:'39a–b', species:'forensic', src:'plato_jowett',
+  P.push({id:'q-plato-ap-diff', unmarkedFigures:['personification'], author:'Plato', work:'Apology', locus:'39a–b', species:'forensic', src:'plato_jowett',
     cue:'After the sentence: death is the slower runner.',
     text:t, spans:qmark(t, [
       {s:'not in avoiding death, but in avoiding unrighteousness', f:'antithesis', w:'Death is set against unrighteousness, so the true difficulty is named by its opposite.'},
       {s:'for that runs faster than death', f:'metaphor', w:'Unrighteousness is pictured as a runner, and the likeness carries the claim.'},
-      {s:'the slower runner has overtaken me, and my accusers are keen and quick, and the faster runner, who is unrighteousness, has overtaken them', f:'antithesis', w:'Slow death overtakes him and swift unrighteousness overtakes them, and so the figure is completed.'}
+      {s:'the slower runner has overtaken me, and my accusers are keen and quick, and the faster runner, who is unrighteousness, has overtaken them', f:'antithesis', w:'Slow death overtakes him and swift unrighteousness overtakes them, and so the figure is completed.'},
+      {s:'The difficulty, my friends', f:'apostrophe', w:'Socrates turns to the jurors who voted for him and addresses them as friends.'},
+      {s:'The difficulty, my friends, is not in avoiding death, but in avoiding unrighteousness', f:'sententia', w:'A general truth about death and wrongdoing is stated briefly, as a rule for every man.'}
     ])});
 })();
 
@@ -129,7 +135,8 @@ const P = [];
     cue:'Sallust on the turn of Fortune after Carthage fell.',
     text:t, spans:qmark(t, [
       {s:'when mighty princes had been vanquished in war; when barbarous tribes and populous states had been reduced to subjection; when Carthage, the rival of Rome’s dominion, had been utterly destroyed', f:'climax', w:'The members rise from princes to tribes to the fall of Carthage, the rival city.'},
-      {s:'Fortune began to grow cruel, and to throw all things into confusion', f:'personification', w:'Fortune is made an agent with a will.'}
+      {s:'Fortune began to grow cruel, and to throw all things into confusion', f:'personification', w:'Fortune is made an agent with a will.'},
+      {s:'when, by perseverance and integrity, the republic had increased its power; when mighty princes had been vanquished in war', f:'anaphora', w:'When opens each member, and the hearer waits for the turn that follows them.'}
     ])});
 })();
 
@@ -139,7 +146,9 @@ const P = [];
     cue:'The laws of Athens made to speak against flight.',
     text:t, spans:qmark(t, [
       {s:'The laws will say: Tell us, Socrates, what are you about?', f:'prosopopoeia', w:'The laws are given a voice and a question.'},
-      {s:'Are you not going by an act of yours to destroy us — the laws, who have brought you up?', f:'rhetorical question', w:'The question is a charge that treats flight as parricide, the killing of the laws as of a parent.'}
+      {s:'Are you not going by an act of yours to destroy us — the laws, who have brought you up?', f:'rhetorical question', w:'The question is a charge that treats flight as parricide, the killing of the laws as of a parent.'},
+      {s:'Consider, Socrates, if you go forth, to what you are going. The laws will say: Tell us, Socrates, what are you about?', f:'apostrophe', w:'Socrates is addressed by name twice, first by the speaker and then by the laws.'},
+      {s:'The laws will say: Tell us, Socrates, what are you about? Are you not going by an act of yours to destroy us — the laws, who have brought you up?', f:'personification', w:'The laws are made persons who speak, question, and reproach, as parents would.'}
     ])});
 })();
 
@@ -149,7 +158,8 @@ const P = [];
     cue:'Mardonios flatters Xerxes into Europe.',
     text:t, spans:qmark(t, [
       {s:'thou dost surpass not only all the Persians who have been before thee, but also those who shall come after', f:'hyperbole', w:'Mardonios says that Xerxes outdoes past and future Persians alike, a deliberate excess offered as counsel.'},
-      {s:'they who dwell in Europe should be brought to be thy slaves, seeing that they are men of no account', f:'irony', w:'He calls those who will break the expedition men of no account, and the slight serves as the argument.'}
+      {s:'they who dwell in Europe should be brought to be thy slaves, seeing that they are men of no account', f:'irony', w:'He calls those who will break the expedition men of no account, and the slight serves as the argument.'},
+      {s:'Master, thou dost surpass', f:'apostrophe', w:'Mardonios addresses the king directly as master.'}
     ])});
 })();
 
@@ -159,7 +169,8 @@ const P = [];
     cue:'Creon: the city’s appointee must be obeyed, just or unjust.',
     text:t, spans:qmark(t, [
       {s:'in little things and great, in just things and unjust', f:'antithesis', w:'Obedience is claimed on both sides of each pair, little and great, just and unjust.'},
-      {s:'he who is a good servant in the house will be a good ruler in the state', f:'sententia', w:'A general rule about ruling is offered as if it settled Antigone’s case.'}
+      {s:'he who is a good servant in the house will be a good ruler in the state', f:'sententia', w:'A general rule about ruling is offered as if it settled Antigone’s case.'},
+      {s:'in little things and great, in just things and unjust', f:'anaphora', w:'In opens both members of the pair.'}
     ])});
 })();
 
@@ -169,13 +180,15 @@ const P = [];
     cue:'Wisdom without eloquence helps little; eloquence without wisdom hinders.',
     text:t, spans:qmark(t, [
       {s:'Wisdom without eloquence is of little use to states, but eloquence without wisdom is often a great hindrance, and never of any use', f:'antithesis', w:'Wisdom without eloquence is set against eloquence without wisdom, and both alternatives are named.'},
-      {s:'the true wisdom — that is, the wisdom of God', f:'correctio', w:'He takes back “wisdom” to put a sharper name in its place, the wisdom of God.'}
+      {s:'the true wisdom — that is, the wisdom of God', f:'correctio', w:'He takes back “wisdom” to put a sharper name in its place, the wisdom of God.'},
+      {s:'Wisdom without eloquence is of little use to states, but eloquence without wisdom', f:'chiasmus', w:'Wisdom and eloquence change places in the second member, so the order is reversed.'},
+      {s:'Wisdom without eloquence is of little use to states, but eloquence without wisdom is often a great hindrance, and never of any use', f:'sententia', w:'A general rule about wisdom and eloquence is stated briefly, as a maxim for every speaker.'}
     ])});
 })();
 
 (function(){
   const t = "How many pictures of high endeavour has the great poet left us, of brave men, of famous cities, of wars! How many speeches of kings and of captains, how many descriptions of places, how many precepts of life and of manners! These we may set before us as patterns, and from them take what is of use for our own speaking and our own life.";
-  P.push({id:'q-cic-arch-poet', author:'Cicero', work:'Pro Archia', locus:'14', species:'forensic', src:'cic_orat',
+  P.push({id:'q-cic-arch-poet', unmarkedFigures:['tricolon'], author:'Cicero', work:'Pro Archia', locus:'14', species:'forensic', src:'cic_orat',
     cue:'The poet as a store of examples for the orator.',
     text:t, spans:qmark(t, [
       {s:'How many pictures of high endeavour has the great poet left us, of brave men, of famous cities, of wars!', f:'exclamatio', w:'An open cry of plenty comes before the list.'},
