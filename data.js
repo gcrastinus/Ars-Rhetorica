@@ -646,6 +646,13 @@ function passageById(id){
   const all = (window.PASSAGES || []).concat(window.QUIZ_PASSAGES || []);
   return all.find(p => p.id === id);
 }
+// Ids of passages whose text repeats a later entry word for word (Thucydides 2.37 is filed twice,
+// as thuc-per-2 and thuc-fun-2). The later entry is kept; the species pool drops the earlier one.
+function dupTextIds(){
+  const last = {}, dup = {};
+  passages().forEach(p => { if(last[p.text]) dup[last[p.text]] = true; last[p.text] = p.id; });
+  return dup;
+}
 function byTrack(tr){ return passages().filter(p => p.track === tr); }
 function figNames(p){ return [...new Set((p.spans||[]).map(s => s.figure))]; }
 function withFig(name){ return passages().filter(p => (p.spans||[]).some(s => s.figure === name)); }
@@ -722,7 +729,8 @@ EX.species = {
   instr:'Name the species, or kind of speech, by the office of the hearer: forensic (the past; the just and the unjust), deliberative (the future; the expedient), or epideictic (the present; the noble and the shameful). Ten questions make a set; at difficulty 1 each is worth 10, and 100 completes the set.',
   src:['arist_rhet'],
   gen(diff){
-    const p = pickPass(x => isOration(x), 'sp:');
+    const dup = dupTextIds();
+    const p = pickPass(x => isOration(x) && !dup[x.id], 'sp:');
     const sp = speciesOf(p);
     const labels = {
       forensic:'Forensic: the jury, the past, the just and the unjust',
@@ -810,7 +818,7 @@ EX.pathos = {
     const e = pickSeen(itemPool('PASSIONS', PASSIONS), x => 'pa:'+x.id);
     const names = [...new Set(PASSIONS.map(p => p.name))];
     const rest = names.filter(n => n !== e.name);
-    const options = [e.name].concat(rest.slice(0, diff <= 2 ? 2 : 3));
+    const options = [e.name].concat(sample(rest, diff <= 2 ? 2 : 3));
     return mcQ({
       prompt: e.prompt || 'Which passion is being moved?',
       options: options.map(n => n.charAt(0).toUpperCase()+n.slice(1)),
@@ -827,7 +835,7 @@ EX.taxis = {
   gen(diff){
     const e = pickSeen(itemPool('TAXIS_ITEMS', TAXIS_ITEMS), x => 'tx:'+x.id);
     const names = TAXIS_PARTS.map(t => t.key);
-    const options = [e.part].concat(names.filter(n => n !== e.part).slice(0,3));
+    const options = [e.part].concat(sample(names.filter(n => n !== e.part), 3));
     const labels = {};
     TAXIS_PARTS.forEach(t => { labels[t.key] = t.name + ': ' + t.duty; });
     return mcQ({
@@ -1048,12 +1056,16 @@ EX.antiphon = {
 };
 EX.debates = {
   id:'debates', title:'Paired Debates',
-  instr:'The debates are Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles’ funeral oration, Catiline and Caesar, Antiphon’s two sides, and Socrates before the jury. Name the kind of speech, or the claim of a voice. A pair is not reused in the set.',
+  instr:'The debates are Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles’ funeral oration, Catiline and Caesar, Antiphon’s two sides, and Socrates before the jury. Name the kind of speech, or the claim of a voice. A set is six questions, one from each debate, so a pair is not reused in the set.',
   src:['thuc_crawley','sallust_w','antiphon'],
+  setLen:6,
   gen(diff){
     const kinds = [];
     itemPool('DEBATES', DEBATES).forEach(d => { kinds.push({d, kind:'species'}); kinds.push({d, kind:'claim'}); });
-    const item = pickSeen(kinds, x => 'db:'+x.d.id+':'+x.kind);
+    // A pair already asked in this set is not offered again, whichever question it was asked under.
+    const used = (state.sessionSeen || []).filter(k => /^db:/.test(k)).map(k => k.split(':')[1]);
+    const unused = kinds.filter(x => used.indexOf(x.d.id) < 0);
+    const item = pickSeen(unused.length ? unused : kinds, x => 'db:'+x.d.id+':'+x.kind);
     const d = item.d;
     const pa = passageById(d.a.pid);
     const pb = passageById(d.b.pid);
@@ -1131,7 +1143,7 @@ EX.whole = {
 };
 EX.augoffice = {
   id:'augoffice', title:'The Christian orator',
-  instr:'Augustine keeps Cicero’s three offices, to teach, to delight, and to move (docere, delectare, flectere), along with the three styles; but the end is now Scripture’s truth, not a fee. Ten questions; a passage is not repeated in the set.',
+  instr:'Augustine keeps Cicero’s three offices, to teach, to delight, and to move (docere, delectare, flectere), along with the three styles; but the end is now Scripture’s truth, not a fee. Eight questions make a set; a passage is not repeated in the set.',
   src:['ddc'],
   setLen:8,
   gen(diff){

@@ -265,13 +265,16 @@ $('diffSel').onchange = syncDiffHint;
 $('selAll').onclick = () => $('setList').querySelectorAll('input').forEach(i => i.checked = true);
 $('selNone').onclick = () => $('setList').querySelectorAll('input').forEach(i => i.checked = false);
 
+// Two questions are the same if they ask the same thing of the same passage with the same right answer.
+// The order of the options and the choice of wrong options do not make a new question.
 function fingerprint(q){
   if(!q) return '';
-  const bits = [q.kind||'', q.prompt||'', q.passage||'', q.passageHtml||'', q.source||''];
-  if(q.options) bits.push(q.options.join('|'));
-  if(q.labels) bits.push(q.labels.join('|'));
-  if(q.target) bits.push(String(q.target));
-  return bits.join('::').replace(/<[^>]+>/g,' ').slice(0, 420);
+  const norm = x => String(x||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+  const bits = [q.kind||'', norm(q.prompt), norm(q.passage), norm(q.passageHtml), norm(q.source)];
+  if(q.kind === 'mc' && q.options) bits.push('=' + norm(q.options[q.correct]));
+  if(q.mark) bits.push(JSON.stringify(q.mark));
+  if(q.target) bits.push(Array.isArray(q.target) ? q.target.join() : String(q.target));
+  return bits.join('::');
 }
 
 function strip(html){
@@ -418,6 +421,7 @@ function generateItems(){
   const items = [];
   const seen = new Set();
 
+  const notes = [];
   ids.forEach(exId => {
     const meta = QUIZ_SETS.find(s => s.ex === exId);
     const title = (meta && meta.title) || exId;
@@ -425,34 +429,33 @@ function generateItems(){
     const gen = EX[exId] && EX[exId].gen;
     if(!gen) return;
     state.ex = EX[exId];
-    let made = 0, tries = 0;
-    while(made < n && tries < n * 40){
+    let made = 0, tries = 0, madeHidden = 0, hiddenOut = SMALL[exId] ? true : false, misses = 0;
+    // Alternate course and quiz-only items. When the quiz-only corpus has nothing new to give,
+    // stop asking it; when the whole bank has nothing new, print fewer questions rather than a repeat.
+    while(made < n && tries < n * 60){
       tries++;
-      const preferHidden = !SMALL[exId] && (made % 2 === 1);
+      const preferHidden = !hiddenOut && (made % 2 === 1);
       window.__ARS_QUIZ_PREFER = preferHidden ? 'hidden' : 'app';
       let q;
       try{ q = gen(diff); }
-      catch(e){ continue; }
-      if(!q) continue;
-      const fp = fingerprint(q);
-      if(seen.has(fp)) continue;
+      catch(e){ q = null; }
+      const fp = q ? fingerprint(q) : '';
+      if(!q || seen.has(fp)){
+        misses++;
+        if(preferHidden && misses >= 30){ hiddenOut = true; misses = 0; }
+        else if(!preferHidden && misses >= 60) break;
+        continue;
+      }
+      misses = 0;
       seen.add(fp);
       items.push({exId:exId, setTitle:title, roman:roman, q:q, formatted:formatItem(q, title, roman)});
       made++;
+      if(preferHidden) madeHidden++;
     }
     if(made < n){
-      window.__ARS_QUIZ_PREFER = 'app';
-      while(made < n && tries < n * 50){
-        tries++;
-        let q;
-        try{ q = gen(diff); }catch(e){ break; }
-        if(!q) break;
-        const fp = fingerprint(q);
-        if(seen.has(fp)) continue;
-        seen.add(fp);
-        items.push({exId:exId, setTitle:title, roman:roman, q:q, formatted:formatItem(q, title, roman)});
-        made++;
-      }
+      notes.push(title+': '+made+' of '+n+' printed; the bank has no more distinct questions at this difficulty.');
+    } else if(!SMALL[exId] && !OPTIONAL[exId] && madeHidden < Math.floor(n / 2)){
+      notes.push(title+': only '+madeHidden+' of '+n+' from the quiz-only corpus; the rest are course items the students have seen.');
     }
   });
 
@@ -465,7 +468,7 @@ function generateItems(){
   }
 
   if(!items.length) throw new Error('No questions could be generated. Try another difficulty or set.');
-  return {items, diff, n, nDoc};
+  return {items, diff, n, nDoc, notes};
 }
 
 function renderPaper(bundle){
@@ -529,7 +532,8 @@ $('genBtn').onclick = () => {
     const bundle = generateItems();
     renderPaper(bundle);
     $('printBtn').style.display = '';
-    setStatus('<b>'+bundle.items.length+' questions</b> ready. Scroll down to review, then Print / Save as PDF.', 'ok');
+    setStatus('<b>'+bundle.items.length+' questions</b> ready. Scroll down to review, then Print / Save as PDF.'+
+      (bundle.notes.length ? '<br>'+bundle.notes.map(x => esc(x)).join('<br>') : ''), 'ok');
     $('paper').scrollIntoView({behavior:'smooth', block:'start'});
   }catch(e){
     setStatus(e.message || String(e), 'err');

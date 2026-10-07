@@ -620,19 +620,30 @@ function shuffle(a){ return sample(a, a.length); }
 function pickSeen(arr, idFn){
   const idOf = x => idFn ? idFn(x) : (x.id || x.q || JSON.stringify(x));
   const exId = state.ex && state.ex.id;
+  // The history is kept in order of last sight, oldest first.
   const longSeen = (exId && store.seen && store.seen[exId]) || [];
   const freshSession = arr.filter(x => state.sessionSeen.indexOf(idOf(x)) < 0);
   const freshLong = freshSession.filter(x => longSeen.indexOf(idOf(x)) < 0);
-  const pool = freshLong.length ? freshLong : (freshSession.length ? freshSession : arr);
+  let pool;
+  if(freshLong.length) pool = freshLong;
+  else if(freshSession.length){
+    // Every item has been seen before: prefer the ones seen longest ago (the oldest third, at random).
+    const byAge = freshSession.slice().sort((a,b) => longSeen.indexOf(idOf(a)) - longSeen.indexOf(idOf(b)));
+    pool = byAge.slice(0, Math.max(1, Math.ceil(byAge.length / 3)));
+  }
+  else pool = arr;
   const it = rand(pool);
   const k = idOf(it);
   if(state.sessionSeen.indexOf(k) < 0) state.sessionSeen.push(k);
   if(exId){
     store.seen = store.seen || {};
-    const bag = store.seen[exId] || (store.seen[exId] = []);
-    if(bag.indexOf(k) < 0) bag.push(k);
-    const cap = Math.max(arr.length, (state.setLen || 10) * 2);
-    if(bag.length > cap) store.seen[exId] = bag.slice(-cap);
+    let bag = store.seen[exId] || (store.seen[exId] = []);
+    const at = bag.indexOf(k);
+    if(at >= 0) bag.splice(at, 1);
+    bag.push(k);
+    // Some exercises keep two kinds of key in one history (a figure and a passage), so the cap is generous
+    // and never cut to the size of the list in hand.
+    if(bag.length > 2000) store.seen[exId] = bag.slice(-2000);
     save();
   }
   return it;
