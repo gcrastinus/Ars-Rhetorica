@@ -7092,5 +7092,136 @@ window.PASSAGES = [
     "src": [
       "eng_cer"
     ]
-  }
+  },
+{
+  "id": "lys-12-3",
+  "author": "Lysias",
+  "work": "Against Eratosthenes",
+  "locus": "12.3",
+  "cue": "The opening of Lysias’s accusation of Eratosthenes, one of the Thirty, for the death of his brother.",
+  "text": "Now as for myself, gentlemen, having never engaged in any suit either on my own account or on that of others, I have now been compelled by what has occurred to accuse this man:",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-24-1",
+  "author": "Lysias",
+  "work": "On the Refusal of a Pension to the Invalid",
+  "locus": "24.1",
+  "cue": "A disabled citizen, defending his pension before the Council, begins with the man who brought the case.",
+  "text": "I can almost find it in me to be grateful to my accuser, gentlemen of the Council, for having involved me in these proceedings. For previously I had no excuse for rendering an account of my life; but now, owing to this man, I have got one.",
+  "spans": [
+    {
+      "start": 128,
+      "end": 239,
+      "figure": "antithesis",
+      "why": "Previously he had no excuse for rendering an account of his life; now, owing to this man, he has got one."
+    }
+  ],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-25-1",
+  "author": "Lysias",
+  "work": "Defence Against a Charge of Subverting the Democracy",
+  "locus": "25.1",
+  "cue": "A man who stayed in the city under the Thirty speaks to jurors who remember those years.",
+  "text": "I can find full excuse for you, gentlemen of the jury, if on hearing such statements and remembering past events you are equally incensed against all those who remained in the city.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-19-fear",
+  "author": "Lysias",
+  "work": "On the Property of Aristophanes",
+  "locus": "19.1",
+  "cue": "The son, whose father’s property is claimed for the treasury, says what losing this speech would mean.",
+  "text": "I find myself greatly embarrassed by this trial, gentlemen of the jury, when I consider that if I fail to speak with effect to-day not only I but my father besides will be held to be guilty, and I shall be deprived of the whole of my possessions.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-19-apt",
+  "author": "Lysias",
+  "work": "On the Property of Aristophanes",
+  "locus": "19.1",
+  "cue": "A suit over the property of Aristophanes. In this sentence the speaker turns to the defence of his father and of himself.",
+  "text": "It is necessary therefore, even if I have no natural aptitude for the task, to defend my father and myself as best I can.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-1-1",
+  "author": "Lysias",
+  "work": "On the Murder of Eratosthenes: Defence",
+  "locus": "1.1",
+  "cue": "The husband, charged with killing Eratosthenes, has just said he is sure of what follows: how the jury would feel if the case were their own.",
+  "text": "if you had the same feelings about others as about yourselves, not one of you but would be indignant at what has been done; you would all regard the penalties appointed for those who resort to such practices as too mild.",
+  "spans": [
+    {
+      "start": 63,
+      "end": 100,
+      "figure": "litotes",
+      "why": "“Not one of you but would be indignant” denies that any juror would fail to feel the indignation."
+    }
+  ],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "cic-arch-1",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "1",
+  "cue": "The defence of the poet Archias opens with an inventory of Cicero’s ability, practice, and study. The next clause names Archias’s claim on them.",
+  "text": "If there is any natural ability in me, O judges,—and I know how slight that is; or if I have any practice as a speaker,—and in that line I do not deny that I have some experience; or if I have any method in my oratory, drawn from my study of the liberal sciences, and from that careful training to which I admit that at no part of my life have I ever been disinclined;",
+  "spans": [
+    {
+      "start": 80,
+      "end": 368,
+      "figure": "anaphora",
+      "why": "The words “or if” open two members in succession, one on practice as a speaker and one on method in oratory."
+    },
+    {
+      "start": 0,
+      "end": 368,
+      "figure": "tricolon",
+      "why": "Three conditions are coordinated: any natural ability, any practice as a speaker, and any method in his oratory."
+    }
+  ],
+  "species": "forensic",
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-man-1",
+  "author": "Cicero",
+  "work": "On the Manilian Law",
+  "locus": "1",
+  "cue": "Speaking for the Manilian law, he says why his youth has kept him from addressing this place.",
+  "text": "For as hitherto I have not dared, on account of my youth, to intrude upon the authority of this place, and as I considered that no arguments ought to be brought to this place except such as were the fruit of great ability, and worked up with the greatest industry, I have thought it fit to devote all my time to the necessities of my friends.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "cic_yonge"
+  ]
+}
 ];

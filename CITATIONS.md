@@ -26,6 +26,16 @@ A claim in this application is admitted only if it was read in one of these work
 - **Sallust**, *Bellum Catilinae*, trans. J. S. Watson. Public domain. Catiline 20; Caesar 51.
 - **Livy**, *Ab urbe condita*, public-domain English (Spillan; Canon Roberts).
 - **Tacitus**, *Annals*, trans. Thomas Gordon. Public domain. *Agricola* (Calgacus), trans. Arthur Murphy. Public domain. Murphy has “where they make a desert, they call it peace”; Church & Brodribb have “solitude,” not “desert.” C&B is not the English of these two excerpts.
+
+- **Lysias**, *Against Eratosthenes* 12.3 (opening sentence), *On the Refusal of a Pension to the Invalid* 24.1 (first two sentences), *Defence Against a Charge of Subverting the Democracy* 25.1 (first sentence), *On the Property of Aristophanes* 19.1 (the two opening sentences, filed separately), *On the Murder of Eratosthenes: Defence* 1.1 (the clause of the second sentence that begins “if you had the same feelings”). Trans. W. R. M. Lamb, Loeb Classical Library (1930). Public domain in the United States. Lamb died in 1961, so a life-plus-seventy term may still bind abroad until the end of 2031. Footnotes in the Perseus XML are omitted; spacing is collapsed to single spaces. Where the Loeb page prints “to-day,” that hyphen is kept (Perseus drops it in speech 19). The wording was checked against the 1930 Loeb pages. The quotation is a continuous substring of the section, and it stops where a later sentence would change the pistis.
+  - 12.3: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0154%3Aspeech%3D12%3Asection%3D3
+  - 24.1: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0154%3Aspeech%3D24%3Asection%3D1
+  - 25.1: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0154%3Aspeech%3D25%3Asection%3D1
+  - 19.1: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0154%3Aspeech%3D19%3Asection%3D1
+  - 1.1: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.01.0154%3Aspeech%3D1%3Asection%3D1
+- **Cicero**, *For Archias* 1 (the opening inventory, through the semicolon before the claim about Aulus Licinius) and *On the Manilian Law* 1 (the sentence on his youth, after the praise of the place). Trans. C. D. Yonge, *The Orations of Marcus Tullius Cicero* (Bohn, 1856). Public domain in the United States and abroad (Yonge died in 1891). The Catilinarian English in the bank is Blakiston. These two speeches are Yonge. Spacing is collapsed to single spaces.
+  - Archias 1: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.02.0019%3Atext%3DArch.%3Asection%3D1
+  - Manilian Law 1: https://www.perseus.tufts.edu/hopper/xmlchunk?doc=Perseus%3Atext%3A1999.02.0019%3Atext%3DMan.%3Asection%3D1
 - **Demosthenes**, public orations, trans. A. W. Pickard-Cambridge (*The Public Orations of Demosthenes*). Public domain. (The bank’s English is Pickard, not Vince.)
 - **Sophocles**, *Oedipus Tyrannus* and *Antigone*, trans. F. Storr, Loeb 1912–13. Public domain.
 - **Homer**, *Iliad*, trans. Alexander Pope. Public domain.

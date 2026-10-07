@@ -13,6 +13,12 @@ const SRC = {
     full:'Cicero, <i>Orator</i> and <i>De oratore</i>, trans. C. D. Yonge. Public domain. Docere, delectare, movere; the three styles.', note:''},
   cic_cat:{kind:'primary', short:'Cicero, Catilinarians',
     full:'Cicero, <i>In Catilinam</i> I–IV: the bank’s English is H. E. D. Blakiston (1894), public domain. Other speeches in this key (<i>Pro Milone</i>, <i>Pro Marcello</i>, <i>Philippics</i>, <i>In Verrem</i>) remain the public-domain English already in the bank.', note:'Catilinarian excerpts match Blakiston (attalus.org), not Yonge’s “When, O Catiline…”.'},
+  cic_yonge:{kind:'primary', short:'Cicero, orations, trans. Yonge',
+    full:'Cicero, <i>Pro Archia</i> and <i>Pro Lege Manilia</i>, trans. C. D. Yonge, <i>The Orations of Marcus Tullius Cicero</i> (Bohn, 1856). Public domain in the United States and abroad. The Catilinarian English in the bank is Blakiston. These two speeches are Yonge.',
+    note:'Yonge died in 1891. Quoted from the Perseus text, with spacing collapsed to single spaces.'},
+  lysias_lamb:{kind:'primary', short:'Lysias, trans. Lamb',
+    full:'Lysias, selected speeches, trans. W. R. M. Lamb, Loeb Classical Library (1930). Public domain in the United States. Lamb died in 1961, so a life-plus-seventy term may still bind abroad until the end of 2031.',
+    note:'Quoted from the Perseus text of the Loeb. Footnotes are omitted and spacing is collapsed to single spaces.'},
   quint:{kind:'primary', short:'Quintilian, <i>Institutio oratoria</i>',
     full:'Quintilian, <i>Institutio oratoria</i>, trans. H. E. Butler, Loeb (1920–22). Public domain in the United States.', note:''},
   ddc:{kind:'primary', short:'Augustine, <i>De doctrina christiana</i> IV',
@@ -562,7 +568,26 @@ const PISTEIS_ITEMS = [
   {pid:'eng-henry-better-men', pistis:'logos', why:'He says these men will be infinitely worse than the English commoners, because they are to be chosen blindfolded.'},
   {pid:'eng-webster-knapp-there', pistis:'logos', why:'He argues presence at the murder from the facts that the man was there before it, there after it, and there unwilling to be seen.'},
   {pid:'eng-lincoln-cooper-guilty', pistis:'logos', why:'If the hearer knows of the guilt, he is inexcusable unless he names the man and proves the fact; if he does not know of it, he is inexcusable for asserting it.'},
-  {pid:'eng-paine-king-law', pistis:'logos', why:'As in absolute governments the king is law, so, he says, in free countries the law ought to be king.'}
+  {pid:'eng-paine-king-law', pistis:'logos', why:'As in absolute governments the king is law, so, he says, in free countries the law ought to be king.'},
+  // Lysias (Lamb) and two Yonge speeches, plus labels on passages already in the bank. Each one holds for the excerpt of about 240 characters and for the longer excerpt.
+  {pid:'lys-12-3', pistis:'ethos', why:'He says that he has never engaged in any suit, on his own account or on that of others, and that he has now been compelled to accuse this man.'},
+  {pid:'lys-24-1', pistis:'ethos', why:'He can almost find it in him to be grateful to his accuser, for previously he had no excuse for rendering an account of his life, and now, owing to this man, he has got one.'},
+  {pid:'lys-25-1', pistis:'ethos', why:'He says he can find full excuse for the jury if, remembering past events, they are equally incensed against all those who remained in the city.'},
+  {pid:'lys-19-apt', pistis:'ethos', why:'He says it is necessary, even if he has no natural aptitude for the task, to defend his father and himself as best he can.'},
+  {pid:'cic-man-1', pistis:'ethos', why:'He says that hitherto he has not dared, on account of his youth, to intrude upon the authority of this place, and that no arguments ought to be brought here except such as were the fruit of great ability.'},
+  {pid:'cic-arch-1', pistis:'ethos', why:'He says that any natural ability in him is slight, that he has some experience as a speaker, and that his method is drawn from his study.'},
+  {pid:'lys-1-1', pistis:'pathos', why:'He says that if they had the same feelings about others as about themselves, not one of them but would be indignant, and they would regard the appointed penalties as too mild.'},
+  {pid:'lys-19-fear', pistis:'pathos', why:'He says he is greatly embarrassed, because if he fails to speak with effect today, he and his father will be held to be guilty.'},
+  {pid:'tac-cal-2', pistis:'pathos', why:'“To ravage, to slaughter, to usurp under false titles, they call empire” and “where they make a desert, they call it peace” are spoken to make that rule hateful.'},
+  {pid:'eng-isaiah-evil-good', pistis:'pathos', why:'“Woe unto them that call evil good, and good evil” cries out against those who confound moral names.'},
+  {pid:'eng-lear-such-things', pistis:'pathos', why:'“you unnatural hags,” “I will do such things,” “yet I know not” and “The terrors of the earth” set a rage in front of the hearer.'},
+  {pid:'eng-douglass-false', pistis:'pathos', why:'“America is false to the past, false to the present, and solemnly binds herself to be false to the future” charges the nation so that the hearers feel the shame of it.'},
+  {pid:'cic-cat2-3', pistis:'logos', why:'He utterly despises Catilina’s army in comparison with the legions from Cisalpine Gaul and the new troops which Q. Metellus has levied.'},
+  {pid:'thuc-corc', pistis:'logos', why:'He calls it folly to sacrifice them, and he names the reason he wants remembered: there are but three considerable naval powers in Hellas, Athens, Corcyra, and Corinth.'},
+  {pid:'eng-henry-stronger', pistis:'logos', why:'He asks when they will be stronger, and whether that time will be when they are totally disarmed.'},
+  {pid:'eng-lincoln-house-divided', pistis:'logos', why:'He says that this government cannot endure permanently half slave and half free.'},
+  {pid:'eng-swift-cobwebs', pistis:'logos', why:'He says that laws, like cobwebs, may catch small flies, but let wasps and hornets break through.'},
+  {pid:'eng-burke-bristol-conscience', pistis:'logos', why:'He says that his unbiased opinion, his mature judgment, and his enlightened conscience ought not to be sacrificed to any man or to any set of men.'}
 ];
 function pistisOf(p){
   const extra = (window.QUIZ_ITEMS && window.QUIZ_ITEMS.PISTEIS_ITEMS) || [];
