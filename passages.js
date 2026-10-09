@@ -916,7 +916,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.1",
     "cue": "This is the first of Gregory's pairs, where the same vice is not cured by the same word.",
-    "text": "Differently, then, to be admonished are men and women; because on the former heavier injunctions, on the latter lighter are to be laid, that those may be exercised by great things, but these winningly converted by light ones. (Admonition 2.) Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1.",
+    "text": "Differently, then, to be admonished are men and women; because on the former heavier injunctions, on the latter lighter are to be laid, that those may be exercised by great things, but these winningly converted by light ones. (Admonition 2.) Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father.",
     "spans": [
       {
         "start": 63,
@@ -938,7 +938,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "II.5",
     "cue": "The pastor is to be near in pity and high in prayer, and not to drop either.",
-    "text": "The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself, and by loftiness of speculation transcend even himself in his aspiration after the invisible; lest either in seeking high things he despise the weak things of his neighbours, or in suiting himself to the weak things of his neighbours he relinquish his aspiration after high things. For hence it is that Paul is caught up into Paradise 2 Corinthians 12:3 and explores the secrets of the third heaven, and, yet, though borne aloft in that contemplation of things invisible, recalls the vision of his mind to the bed of the carnal, and directs how they should have intercourse with each other in their hidden privacy, saying, But on account of fornication let every man have his own wife, and let every woman have her own husband.",
+    "text": "The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself, and by loftiness of speculation transcend even himself in his aspiration after the invisible; lest either in seeking high things he despise the weak things of his neighbours, or in suiting himself to the weak things of his neighbours he relinquish his aspiration after high things. For hence it is that Paul is caught up into Paradise and explores the secrets of the third heaven, and, yet, though borne aloft in that contemplation of things invisible, recalls the vision of his mind to the bed of the carnal, and directs how they should have intercourse with each other in their hidden privacy, saying, But on account of fornication let every man have his own wife, and let every woman have her own husband.",
     "spans": [
       {
         "start": 20,
@@ -966,23 +966,23 @@ window.PASSAGES = [
     "work": "Gospel according to St Matthew",
     "locus": "5:3–8",
     "cue": "The Beatitudes: blessing named eight times, each with its reason.",
-    "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. The poor in spirit. . .That is, the humble; and they whose spirit is not set upon riches. 5:4. Blessed are the meek: for they shall possess the land. 5:5. Blessed are they that mourn: for they shall be comforted. 5:6. Blessed are they that hunger and thirst after justice: for they shall have their fill. 5:7. Blessed are the merciful: for they shall obtain mercy. 5:8. Blessed are the clean of heart: they shall see God. 5:9. Blessed are the peacemakers: for they shall be called the children of God. 5:10. Blessed are they that suffer persecution for justice' sake: for theirs is the kingdom of heaven. 5:11. Blessed are ye when they shall revile you, and persecute you, and speak all that is evil against you, untruly, for my sake: 5:12.",
+    "text": "Blessed are the poor in spirit: for theirs is the kingdom of heaven. 5:4. Blessed are the meek: for they shall possess the land. 5:5. Blessed are they that mourn: for they shall be comforted. 5:6. Blessed are they that hunger and thirst after justice: for they shall have their fill. 5:7. Blessed are the merciful: for they shall obtain mercy. 5:8. Blessed are the clean of heart: they shall see God. 5:9. Blessed are the peacemakers: for they shall be called the children of God. 5:10. Blessed are they that suffer persecution for justice' sake: for theirs is the kingdom of heaven. 5:11. Blessed are ye when they shall revile you, and persecute you, and speak all that is evil against you, untruly, for my sake: 5:12.",
     "spans": [
       {
-        "start": 164,
-        "end": 281,
+        "start": 74,
+        "end": 191,
         "figure": "anaphora",
         "why": "Blessed are opens each lot in the same way."
       },
       {
-        "start": 164,
-        "end": 373,
+        "start": 74,
+        "end": 283,
         "figure": "tricolon",
         "why": "Three blessings come in series, each a reversal of what the world pays."
       },
       {
-        "start": 224,
-        "end": 281,
+        "start": 134,
+        "end": 191,
         "figure": "antithesis",
         "why": "Mourning is set against comfort, and the comfort answers the mourning without denying it."
       }
@@ -1056,7 +1056,7 @@ window.PASSAGES = [
     "work": "Gospel according to St Matthew",
     "locus": "6:9–13",
     "cue": "The Lord's Prayer: petitions in a rising order, from the Name to our bread.",
-    "text": "Our Father who art in heaven, hallowed be thy name. 6:10. Thy kingdom come. Thy will be done on earth as it is in heaven. 6:11. Give us this day our supersubstantial bread. Supersubstantial bread. . .In St. Luke the same word is rendered daily bread. It is understood of the bread of life, which we receive in the Blessed Sacrament. 6:12. And forgive us our debts, as we also forgive our debtors. 6:13. And lead us not into temptation. But deliver us from evil. Amen. Lead us not into temptation. . .That is, suffer us not to be overcome by temptation.",
+    "text": "Our Father who art in heaven, hallowed be thy name. 6:10. Thy kingdom come. Thy will be done on earth as it is in heaven. 6:11. Give us this day our supersubstantial bread. 6:12. And forgive us our debts, as we also forgive our debtors. 6:13. And lead us not into temptation. But deliver us from evil. Amen.",
     "spans": [
       {
         "start": 0,
@@ -1486,7 +1486,7 @@ window.PASSAGES = [
     "work": "Histories",
     "locus": "6.98",
     "cue": "Three Persian generations weighed against twenty of Hellas: the evils named as a sum.",
-    "text": "Xerxes the son of Dareios and Artoxerxes the son of Xerxes, three generations following upon one another, there happened more evils to Hellas than during the twenty other generations which came before Dareios, some of the evils coming to it from the Persians, and others from the leaders themselves of Hellas warring together for supremacy. Thus it was not unreasonable that Delos should be moved, which was before unmoved. [And in an oracle it was thus written about it: 87 \"Delos too will I move, unmoved though it hath been aforetime.\"] Now in the Hellenic tongue the names which have been mentioned have this meaning--Dareios means \"compeller,\" 88 Xerxes \"warrior,\" 89 Artoxerxes \"great warrior.\"",
+    "text": "Xerxes the son of Dareios and Artoxerxes the son of Xerxes, three generations following upon one another, there happened more evils to Hellas than during the twenty other generations which came before Dareios, some of the evils coming to it from the Persians, and others from the leaders themselves of Hellas warring together for supremacy. Thus it was not unreasonable that Delos should be moved, which was before unmoved. [And in an oracle it was thus written about it: \"Delos too will I move, unmoved though it hath been aforetime.\"] Now in the Hellenic tongue the names which have been mentioned have this meaning--Dareios means \"compeller,\" Xerxes \"warrior,\" Artoxerxes \"great warrior.\"",
     "spans": [
       {
         "start": 0,
@@ -1599,7 +1599,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.2",
     "cue": "Poor and rich: the one needs comfort against trouble, the other fear against swelling.",
-    "text": "Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation. For to the poor one it is said by the Lord through the prophet, Fear not, for you shall not be confounded Isaiah 54:4. And not long after, soothing her, He says, O you poor little one, tossed with tempest Isaiah 54:11. And again He comforts her, saying, I have chosen you in the furnace of poverty Isaiah 48:10. But, on the other hand, Paul says to his disciple concerning the rich, Charge the rich of this world, that they be not high-minded nor trust in the uncertainty of their riches 1 Timothy 6:17; where it is to be particularly noted that the teacher of humility in making mention of the rich, says not Entreat, but Charge; because, though pity is to be bestowed on infirmity, yet to elation no honour is due.",
+    "text": "Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation. For to the poor one it is said by the Lord through the prophet, Fear not, for you shall not be confounded. And not long after, soothing her, He says, O you poor little one, tossed with tempest. And again He comforts her, saying, I have chosen you in the furnace of poverty. But, on the other hand, Paul says to his disciple concerning the rich, Charge the rich of this world, that they be not high-minded nor trust in the uncertainty of their riches; where it is to be particularly noted that the teacher of humility in making mention of the rich, says not Entreat, but Charge; because, though pity is to be bestowed on infirmity, yet to elation no honour is due.",
     "spans": [
       {
         "start": 60,
@@ -1608,8 +1608,8 @@ window.PASSAGES = [
         "why": "Comfort for the poor and fear for the rich are two remedies for two conditions."
       },
       {
-        "start": 350,
-        "end": 392,
+        "start": 338,
+        "end": 380,
         "figure": "apostrophe",
         "why": "In Isaiah the Lord turns to Zion, the afflicted city, and speaks to her as to a woman; Gregory keeps the address as a word for the poor hearer."
       }
@@ -1621,7 +1621,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.3",
     "cue": "Joyful and sad: threatenings for the one, promises for the other.",
-    "text": "Differently to be admonished are the joyful and the sad. That is, before the joyful are to be set the sad things that follow upon punishment; but before the sad the promised glad things of the kingdom. Let the joyful learn by the asperity of threatenings what to be afraid of: let the sad bear what joys of reward they may look forward to. For to the former it is said, Woe unto you that laugh now! For you shall weep Luke 6:25; but the latter hear from the teaching of the same Master, I will see you again, and your heart shall rejoice, and your joy no man shall take from you John 16:22. But some are not made joyful or sad by circumstances, but are so by temperament. And to such it should be intimated that certain defects are connected with certain temperaments; that the joyful have lechery close at hand, and the sad wrath.",
+    "text": "Differently to be admonished are the joyful and the sad. That is, before the joyful are to be set the sad things that follow upon punishment; but before the sad the promised glad things of the kingdom. Let the joyful learn by the asperity of threatenings what to be afraid of: let the sad bear what joys of reward they may look forward to. For to the former it is said, Woe unto you that laugh now! For you shall weep; but the latter hear from the teaching of the same Master, I will see you again, and your heart shall rejoice, and your joy no man shall take from you. But some are not made joyful or sad by circumstances, but are so by temperament. And to such it should be intimated that certain defects are connected with certain temperaments; that the joyful have lechery close at hand, and the sad wrath.",
     "spans": [
       {
         "start": 66,
@@ -1868,7 +1868,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.4",
     "cue": "Subjects and prelates: crush not, swell not.",
-    "text": "Differently to be admonished are subjects and prelates: the former that subjection crush them not, the latter that superior place elate them not: the former that they fail not to fulfil what is commanded them, the latter that they command not more to be fulfilled than is just: the former that they submit humbly, the latter that they preside temperately. For this, which may be understood also figuratively, is said to the former, Children, obey your parents in the Lord: but to the latter it is enjoined, And you, fathers, provoke not your children to wrath Colossians 3:20-21. Let the former learn how to order their inward thoughts before the eyes of the hidden judge; the latter how also to those that are committed to them to afford outwardly examples of good living.",
+    "text": "Differently to be admonished are subjects and prelates: the former that subjection crush them not, the latter that superior place elate them not: the former that they fail not to fulfil what is commanded them, the latter that they command not more to be fulfilled than is just: the former that they submit humbly, the latter that they preside temperately. For this, which may be understood also figuratively, is said to the former, Children, obey your parents in the Lord: but to the latter it is enjoined, And you, fathers, provoke not your children to wrath. Let the former learn how to order their inward thoughts before the eyes of the hidden judge; the latter how also to those that are committed to them to afford outwardly examples of good living.",
     "spans": [
       {
         "start": 56,
@@ -2147,7 +2147,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.10",
     "cue": "Humble and haughty: eternal things to the one, nothingness of glory to the other.",
-    "text": "Differently to be admonished are the humble and the haughty. To the former it is to be insinuated how true is that excellence which they hold in hoping for it; to the latter it is to be intimated how that temporal glory is as nothing which even when embracing it they hold not. Let the humble hear how eternal are the things that they long for, how transitory the things which they despise; let the haughty hear how transitory are the things they court, how eternal the things they lose. Let the humble hear from the authoritative voice of the Truth, Every one that humbles himself shall be exalted Luke 18:14. Let the haughty hear, Every one that exalts himself shall be humbled Luke 18:14. Let the humble hear, Humility goes before glory; let the haughty hear, The spirit is exalted before a fall Proverbs 15:33; 16:18.",
+    "text": "Differently to be admonished are the humble and the haughty. To the former it is to be insinuated how true is that excellence which they hold in hoping for it; to the latter it is to be intimated how that temporal glory is as nothing which even when embracing it they hold not. Let the humble hear how eternal are the things that they long for, how transitory the things which they despise; let the haughty hear how transitory are the things they court, how eternal the things they lose. Let the humble hear from the authoritative voice of the Truth, Every one that humbles himself shall be exalted. Let the haughty hear, Every one that exalts himself shall be humbled. Let the humble hear, Humility goes before glory; let the haughty hear, The spirit is exalted before a fall.",
     "spans": [
       {
         "start": 61,
@@ -2301,7 +2301,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.1",
     "cue": "Young and old: severity for the one, entreaty for the other, as Paul wrote of an elder.",
-    "text": "Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1. (Admonition 3.) Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation.",
+    "text": "Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father. (Admonition 3.) Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation.",
     "spans": [
       {
         "start": 78,
@@ -3439,7 +3439,7 @@ window.PASSAGES = [
     "work": "Sermons on the New Testament",
     "locus": "Sermon 1",
     "cue": "A sermon opening: the evangelists' agreement as a rhetorical problem of witnesses.",
-    "text": "May He, beloved, fulfil your expectation who hath awakened it: for though I feel confident that what I have to say is not my own, but God's, yet with far more reason do I say, what the Apostle in his humility saith, \"We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.\" [1685] I do not doubt accordingly that you remember my promise; in Him I made it through whom I now fulfil it, for both when I made the promise, did I ask of the Lord, and now when I fulfil it, do I receive of Him.",
+    "text": "May He, beloved, fulfil your expectation who hath awakened it: for though I feel confident that what I have to say is not my own, but God's, yet with far more reason do I say, what the Apostle in his humility saith, \"We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.\" I do not doubt accordingly that you remember my promise; in Him I made it through whom I now fulfil it, for both when I made the promise, did I ask of the Lord, and now when I fulfil it, do I receive of Him.",
     "spans": [],
     "track": "augustine",
     "src": [
