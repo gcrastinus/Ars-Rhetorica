@@ -75,7 +75,9 @@ const SRC = {
   eng_cer:{kind:'primary', short:'English authors, from Farnsworth’s <i>Classical English Rhetoric</i>', full:'Passages by English and American writers and speakers, quoted as printed in Ward Farnsworth, <i>Farnsworth’s Classical English Rhetoric</i> (David R. Godine, 2011). The passages themselves are public domain; Farnsworth’s commentary is not reproduced.', note:''},
   eng_cem:{kind:'primary', short:'English authors, from Farnsworth’s <i>Classical English Metaphor</i>', full:'Passages by English and American writers and speakers, quoted as printed in Ward Farnsworth, <i>Farnsworth’s Classical English Metaphor</i> (David R. Godine, 2016). The passages themselves are public domain; Farnsworth’s commentary is not reproduced.', note:''},
   kjv:{kind:'primary', short:'King James Bible', full:'The Holy Bible, Authorized (King James) Version, 1611. Public domain in the United States.', note:''},
-  lincoln_ev:{kind:'primary', short:'Abraham Lincoln, <i>Speeches and Letters</i>', full:'Abraham Lincoln, <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Everyman’s Library, 1907). Public domain.', note:''}
+  lincoln_ev:{kind:'primary', short:'Abraham Lincoln, <i>Speeches and Letters</i>', full:'Abraham Lincoln, <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Everyman’s Library, 1907). Public domain.', note:''},
+  burke_n:{kind:'primary', short:'Edmund Burke, <i>Speech on Conciliation with America</i>', full:'Edmund Burke, <i>Speech on Conciliation with America</i>, ed. Sidney Carleton Newsom (Project Gutenberg no. 5655). Burke’s text of 1775 is public domain.', note:''},
+  webster_w:{kind:'primary', short:'Daniel Webster, <i>Great Speeches and Orations</i>', full:'Daniel Webster, <i>The Great Speeches and Orations of Daniel Webster</i>, ed. Edwin P. Whipple (the Project Gutenberg text, no. 12606, is from a printing of 1923). Public domain in the United States.', note:''}
 };
 function srcLine(keys){
   if(!keys) return '';
@@ -743,7 +745,19 @@ const ETHOS_ITEMS = [
     prompt:'Pericles answers the assembly’s anger by naming what he brings to its counsel. Which phrase shows goodwill (eunoia), as Aristotle uses the word?',
     options:['second to no man either in knowledge of the proper policy','or in the ability to expound it','not only a patriot','but an honest one'],
     correct:2,
-    note:'Pericles glosses each phrase himself in the next sentence: a man with knowledge and the power to expound it, “but no love for his country, he would be but a cold advocate for her interests.” Love of the city is the goodwill toward the hearers that Aristotle names beside good sense and virtue (Rhetoric II.1, 1378a). Knowledge of policy is good sense (phronesis), and honesty that is “proof against bribery” is virtue (arete).'}
+    note:'Pericles glosses each phrase himself in the next sentence: a man with knowledge and the power to expound it, “but no love for his country, he would be but a cold advocate for her interests.” Love of the city is the goodwill toward the hearers that Aristotle names beside good sense and virtue (Rhetoric II.1, 1378a). Knowledge of policy is good sense (phronesis), and honesty that is “proof against bribery” is virtue (arete).'},
+  {id:'et26', pid:'dem-rhod-15', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'Demosthenes says that he is no patron of the Rhodian democrats and has no friend among them, and that he would not have made the proposal “had I not believed it to be for your advantage.” He shows that he seeks the hearers’ good and not a private interest, which is goodwill.'},
+  {id:'et27', pid:'dem-chers-68', which:'arete', label:'Virtue (arete)',
+    why:'He denies that he is “Bold, offensive, shameless” and claims “more courage” than the bold speakers. Courage, and the refusal of shamelessness, belong to virtue.'},
+  {id:'et28', pid:'dem-chers-24', which:'arete', label:'Virtue (arete)',
+    why:'He promises to “speak without reserve,” and says that he “could not speak otherwise.” Frankness that does not spare the hearers shows an honest man, which is virtue.'},
+  {id:'et29', pid:'eng-burke-tranquillity', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Burke says that he is not settling “a point of law” but “restoring tranquillity,” and that the character of a people must decide what government fits them. He asks to be trusted as a man who judges what the situation requires, which is practical wisdom.'},
+  {id:'et30', pid:'lys-32-1', which:'arete', label:'Virtue (arete)',
+    why:'The speaker calls a dispute with relations “most disgraceful” and says that he would not have brought it if the matter were not important. His reluctance shows a decent man who respects the claims of kinship, which is virtue.'},
+  {id:'et31', pid:'eng-webster-mariner', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Webster proposes to “imitate this prudence” of the mariner and to return to the question before going further. He shows himself as a man who judges where the debate stands and what should be done next, which is practical wisdom.'}
 ];
 const LEXIS_ITEMS = [
   {id:'lx1', pid:'gor-hel-8', kind:'style',

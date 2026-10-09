@@ -6656,5 +6656,85 @@ window.PASSAGES = [
   "src": [
     "lysias_lamb"
   ]
+},
+{
+  "id": "dem-rhod-15",
+  "author": "Demosthenes",
+  "work": "For the Freedom of the Rhodians",
+  "locus": "15.15",
+  "cue": "Demosthenes tells the assembly why he proposes to help the Rhodian democrats.",
+  "text": "And further, I should never have made my present proposal, had I been thinking only of the interests of the popular party in Rhodes. I am not their official patron, nor have I a single personal friend among them; and even if both these things were otherwise, I should not have made this proposal, had I not believed it to be for your advantage.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "dem-chers-68",
+  "author": "Demosthenes",
+  "work": "On the Chersonese",
+  "locus": "8.68",
+  "cue": "Demosthenes answers those who call him a coward because he will not move a motion or take a risk.",
+  "text": "Bold, offensive, shameless, I am not, and I trust I may never be; and yet I think I have more courage than very many of your dashing statesmen.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "dem-chers-24",
+  "author": "Demosthenes",
+  "work": "On the Chersonese",
+  "locus": "8.24",
+  "cue": "Demosthenes turns to what the generals at sea are forced to do for money.",
+  "text": "The possible effect of this is a matter which some of you require to understand, and I will speak without reserve; for indeed I could not speak otherwise.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "eng-burke-tranquillity",
+  "author": "Edmund Burke",
+  "work": "Speech on Moving His Resolutions for Conciliation with the Colonies",
+  "locus": "(1775)",
+  "cue": "Burke tells the House what kind of question the American colonies put before it.",
+  "text": "I am not determining a point of law, I am restoring tranquillity; and the general character and situation of a people must determine what sort of government is fitted for them.",
+  "spans": [],
+  "track": "english",
+  "species": "deliberative",
+  "src": [
+    "burke_n"
+  ]
+},
+{
+  "id": "lys-32-1",
+  "author": "Lysias",
+  "work": "Against Diogeiton",
+  "locus": "32.1",
+  "cue": "The speaker opens a suit for his wife’s brothers against their own grandfather and guardian.",
+  "text": "If the matters in dispute were not important, gentlemen of the jury, I should never have allowed these persons to appear before you; for I regard a dispute with one's relations as most disgraceful, and I know that you reprobate not merely those who are guilty of wrong, but also anyone who is unable to tolerate the sharp practice of a kinsman.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "eng-webster-mariner",
+  "author": "Daniel Webster",
+  "work": "Second Speech on Foot’s Resolution (Reply to Hayne)",
+  "locus": "(1830)",
+  "cue": "Webster opens his reply in the Senate after a debate that has wandered far from its question.",
+  "text": "When the mariner has been tossed for many days in thick weather, and on an unknown sea, he naturally avails himself of the first pause in the storm, the earliest glance of the sun, to take his latitude, and ascertain how far the elements have driven him from his true course. Let us imitate this prudence, and, before we float farther on the waves of this debate, refer to the point from which we departed, that we may at least be able to conjecture where we now are.",
+  "spans": [],
+  "track": "english",
+  "species": "deliberative",
+  "src": [
+    "webster_w"
+  ]
 }
 ];
