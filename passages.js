@@ -8768,5 +8768,751 @@ window.PASSAGES = [
   "src": [
     "cic_yonge"
   ]
+},
+{
+  "id": "cic-cat3-s15",
+  "author": "Cicero",
+  "work": "Third Oration against Catiline",
+  "locus": "3.6.15",
+  "cue": "Cicero tells the people what the senate decreed after the conspirators were exposed, and names the thanksgiving voted in his honor.",
+  "text": "Lastly a solemn thanksgiving to the immortal gods for their exceptional favour was voted on my account, an honour which has never before been granted to any civil magistrate since the foundation of Rome: and the terms of the resolution were that I had delivered the city from conflagration, the citizens from massacre, and Italy from war. And if this thanksgiving be compared with those held on previous occasions, there is this difference between them, that all others were granted in recognition of the good government and this alone for the preservation of the state.",
+  "spans": [
+    {
+      "start": 246,
+      "end": 337,
+      "figure": "tricolon",
+      "why": "Three members name what was saved and from what: the city from fire, the citizens from massacre, and Italy from war."
+    },
+    {
+      "start": 459,
+      "end": 569,
+      "figure": "antithesis",
+      "why": "The thanksgivings for good government are set against this one, the only one for the preservation of the state."
+    }
+  ],
+  "unmarkedFigures": [
+    "isocolon",
+    "ellipsis",
+    "hyperbole"
+  ]
+},
+{
+  "id": "cic-cat3-s17",
+  "author": "Cicero",
+  "work": "Third Oration against Catiline",
+  "locus": "3.7.17",
+  "cue": "Cicero explains why he drove Catiline out of Rome instead of letting him stay among the conspirators.",
+  "text": "A man like this, a man so determined, so audacious, so well-prepared, so shrewd, a criminal so alert, so careful in his wicked work, if I had not forced him to exchange his secret treason in our midst for the open command of his banditti, I will say what I think, men of Rome, if I had not done this, I should not easily have averted from you the crushing weight of the impending disaster.",
+  "spans": [
+    {
+      "start": 23,
+      "end": 131,
+      "figure": "anaphora",
+      "why": "The word “so” begins each member of the description of Catiline."
+    },
+    {
+      "start": 23,
+      "end": 131,
+      "figure": "asyndeton",
+      "why": "The members follow one another with no conjunction between them."
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "climax",
+    "epanalepsis",
+    "metaphor"
+  ]
+},
+{
+  "id": "cic-cat3-s18",
+  "author": "Cicero",
+  "work": "Third Oration against Catiline",
+  "locus": "3.8.18",
+  "cue": "Cicero tells the people that the gods guided the discovery of the conspiracy, and he begins to speak of the portents of his consulship.",
+  "text": "However, all these arrangements, citizens of Rome, have been made by me under such conditions as to suggest that they have been executed and ordered with the consent and by the wisdom of the immortal gods: and as we may draw this inference from the fact that the direction of matters so important by wisdom merely human appears almost an impossibility, so I may aver that the gods so graciously at this crisis vouchsafed us their help and assistance, that we could almost see them with our eyes. For to pass over other signs, such as the meteors seen by night in the west and the fiery appearance of the sky, to say nothing of thunderbolts and earthquakes, to omit all the other portents which occurred in my consulship so frequently as to be evident intimations from the immortal gods of what is happening now, this occurrence at least, which I am about to relate to you, must not be passed over or left unnoticed.",
+  "spans": [
+    {
+      "start": 496,
+      "end": 810,
+      "figure": "praeteritio",
+      "why": "Cicero says that he will pass over the meteors, the thunderbolts, and the other portents, and in saying so he names them."
+    }
+  ],
+  "unmarkedFigures": [
+    "hyperbole",
+    "tricolon",
+    "anaphora"
+  ]
+},
+{
+  "id": "cic-cat3-s22",
+  "author": "Cicero",
+  "work": "Third Oration against Catiline",
+  "locus": "3.9.22",
+  "cue": "Cicero says that the credit for stopping the conspiracy belongs to Jupiter and not to himself.",
+  "text": "If I said that the resistance to them came from me, I should be taking too much upon myself and be deemed presumptuous. No, Jupiter, Jupiter himself, has resisted them; Jupiter has willed the preservation of the Capitol, of these temples, of the whole city, of all of you. Only under the guidance of the immortal gods did I entertain this determination and this purpose, men of Rome, and arrive at these important sources of information. Yes, Lentulus and our other internal enemies would surely never have been so insane as to intrust interests so important to strangers and foreigners, if the immortal gods had not deprived their violent minds of all reasoning faculties.",
+  "spans": [
+    {
+      "start": 120,
+      "end": 187,
+      "figure": "anaphora",
+      "why": "The name of Jupiter begins two clauses in succession."
+    },
+    {
+      "start": 205,
+      "end": 271,
+      "figure": "asyndeton",
+      "why": "The four objects of Jupiter’s care follow one another with no conjunction."
+    }
+  ],
+  "unmarkedFigures": [
+    "epizeuxis",
+    "climax",
+    "correctio",
+    "conduplicatio",
+    "tricolon"
+  ]
+},
+{
+  "id": "cic-cat3-s25",
+  "author": "Cicero",
+  "work": "Third Oration against Catiline",
+  "locus": "3.10.25",
+  "cue": "Cicero compares the earlier civil wars with Catiline’s plot, which aimed at the destruction of the city itself.",
+  "text": "Yet all these former dissensions were such as tended not to the destruction of Rome but to some change in the form of government: the men I have mentioned did not desire to destroy all government, but merely to secure the principal part in whatever government there was; they did not wish that this city should be burnt down but that they should be powerful in her. In this war, the greatest and most barbarous within the memory of man, a war such as no uncivilised government has ever carried on with its own subjects, a war in which Lentulus, Catilina, Cethegus, and Cassius, deliberately adopted the principle that all persons, whose safety would be secured by the safety of the city, should be reckoned as enemies, in this war, I say, men of Rome, I have conducted myself so as to preserve the safety of all of you, and though your enemies had imagined that only so many of the citizens would survive as should have escaped the indiscriminate massacre, and only so much of the city, as could not have been reached by the flames, I have kept both the city and the citizens absolutely untouched and unharmed.",
+  "spans": [
+    {
+      "start": 46,
+      "end": 128,
+      "figure": "antithesis",
+      "why": "The destruction of Rome is set against a change in the form of government."
+    },
+    {
+      "start": 271,
+      "end": 364,
+      "figure": "antithesis",
+      "why": "Burning the city is set against ruling in it, so that the earlier rebels are distinguished from Catiline."
+    },
+    {
+      "start": 437,
+      "end": 534,
+      "figure": "anaphora",
+      "why": "The words “a war” begin two members in succession."
+    }
+  ],
+  "unmarkedFigures": [
+    "epanalepsis",
+    "hyperbole",
+    "isocolon",
+    "conduplicatio"
+  ]
+},
+{
+  "id": "cic-cat3-s27",
+  "author": "Cicero",
+  "work": "Third Oration against Catiline",
+  "locus": "3.12.27",
+  "cue": "Near the end of the speech Cicero asks the people to protect him from the enemies he has made.",
+  "text": "I took precautions that the wicked and abominable designs of violent men might be no injury to you: it is yours to take precautions that they may not injure me. However, men of Rome, to me myself no injury can now be done by them. There is a strong defence to be found in the favour of the good citizens, and this I have secured for ever; there is a strong authority in the state, and this will always silently defend me; there is great strength in the voice of conscience, and those who disregard its warning, when they wish to assail me, will betray themselves.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 159,
+      "figure": "antithesis",
+      "why": "The care Cicero took for the people is set against the care they must now take for him."
+    },
+    {
+      "start": 231,
+      "end": 472,
+      "figure": "anaphora",
+      "why": "The words “there is” begin each of three members."
+    },
+    {
+      "start": 231,
+      "end": 562,
+      "figure": "tricolon",
+      "why": "Three members name his protections: the favor of good citizens, the authority of the state, and conscience."
+    }
+  ],
+  "unmarkedFigures": [
+    "personification",
+    "metaphor",
+    "isocolon"
+  ]
+},
+{
+  "id": "cic-cat4-s6",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.3.6",
+  "cue": "Cicero warns the senate that the conspiracy has spread beyond Rome and must be dealt with at once.",
+  "text": "You see how serious an affair has been brought to your notice; if you think that only a few men are implicated in it, you are gravely mistaken. The seeds of this evil have been carried further than you think; the contagion has not only spread through Italy, but it has crossed the Alps and has already infected many of the provinces in its insidious progress. It cannot possibly be stamped out by suspense of judgment and procrastination; however you decide to deal with it, you must take repressive measures without delay.",
+  "spans": [
+    {
+      "start": 144,
+      "end": 358,
+      "figure": "metaphor",
+      "why": "The conspiracy is spoken of as seed carried abroad and as a contagion that spreads and infects the provinces."
+    }
+  ],
+  "unmarkedFigures": [
+    "hyperbole",
+    "antithesis"
+  ]
+},
+{
+  "id": "cic-cat4-s11",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.6.11",
+  "cue": "Cicero argues that his severity toward the conspirators comes from mercy, and he describes what they intended.",
+  "text": "Although, conscript fathers, in punishing a crime so inhuman, is there any possibility of barbarity? My opinion is determined by my own feelings: for I protest, as I hope to enjoy with you the benefits of the preservation of the state, that the sternness of my action in this case is not inspired by any harshness of temper, who can be more merciful than I am? no, but by a quite exceptionally humane and merciful state of mind. For I think I see before my eyes this city, the light of the world and the refuge of all nations, sinking into one sudden conflagration; my imagination pictures in a dead and buried city wretched heaps of unburied citizens; yes, I am always seeing the frenzied look of Cethegus as he revels in your slaughter!",
+  "spans": [
+    {
+      "start": 0,
+      "end": 100,
+      "figure": "rhetorical question",
+      "why": "The question asks for no answer; it asserts that no punishment of so inhuman a crime can be called barbarous."
+    },
+    {
+      "start": 473,
+      "end": 525,
+      "figure": "metaphor",
+      "why": "Rome is called the light of the world and the refuge of all nations."
+    },
+    {
+      "start": 566,
+      "end": 738,
+      "figure": "hypotyposis",
+      "why": "Cicero describes the burned city and Cethegus in it so vividly that the senators seem to see the scene."
+    }
+  ],
+  "unmarkedFigures": [
+    "antithesis",
+    "parenthesis",
+    "exclamatio",
+    "hyperbole"
+  ]
+},
+{
+  "id": "cic-cat4-s12",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.6.12",
+  "cue": "Cicero argues from the case of a father whose family has been murdered by a slave.",
+  "text": "In fact, I ask whether a father, who finds his children killed by a slave, his wife murdered, and his house burnt, and does not wreak the bitterest vengeance on that slave, is considered mild and merciful rather than most unnatural and barbarous? I confess that to me he would seem unfeeling and iron-hearted, in not assuaging his own pain and anguish by causing pain and anguish to the guilty person.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 246,
+      "figure": "rhetorical question",
+      "why": "The question argues by comparison and expects only one answer, that such a father would not be called merciful."
+    },
+    {
+      "start": 43,
+      "end": 113,
+      "figure": "tricolon",
+      "why": "Three members name the father’s losses: his children, his wife, and his house."
+    }
+  ],
+  "unmarkedFigures": [
+    "asyndeton",
+    "antithesis",
+    "polyptoton",
+    "climax"
+  ]
+},
+{
+  "id": "cic-cat4-s14",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.7.14",
+  "cue": "Cicero tells the senate that the whole people has gathered around the temple to support it.",
+  "text": "All the members of all the privileged orders are present, all citizens, in short, of all ages: the Forum is full, the temples round the Forum are full, all the approaches of this temple and of this place are crowded. This is the only known instance since the foundation of the city of a cause in which all men are absolutely unanimous, excepting only those who, seeing that they were bound to perish, preferred to perish in the universal ruin rather than alone.",
+  "spans": [
+    {
+      "start": 95,
+      "end": 215,
+      "figure": "asyndeton",
+      "why": "Three clauses follow one another with no conjunction."
+    },
+    {
+      "start": 95,
+      "end": 150,
+      "figure": "epistrophe",
+      "why": "Two clauses in succession end with the word “full.”"
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "isocolon",
+    "hyperbole",
+    "anaphora",
+    "polyptoton",
+    "antithesis"
+  ]
+},
+{
+  "id": "cic-cat4-s15",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.7.15",
+  "cue": "Cicero describes the zeal of all classes for the safety of the state, and begins with the Roman knights.",
+  "text": "These men indeed I willingly except and exclude from what I say; and I think that they should be classed not as bad citizens merely, but as vindictive foes. But all the rest, great heavens! in what crowds, with what enthusiasm, with what noble energy they unite in their desire to promote the general safety and honour! Why should I here mention specially the Roman knights? They concede to you indeed the chief place in rank and deliberative power, but they still claim to vie with you in patriotism.",
+  "spans": [
+    {
+      "start": 105,
+      "end": 155,
+      "figure": "antithesis",
+      "why": "Bad citizens are set against enemies, so that the conspirators are classed as foreign enemies and not as citizens."
+    },
+    {
+      "start": 206,
+      "end": 250,
+      "figure": "anaphora",
+      "why": "The words “with what” begin two members in succession."
+    },
+    {
+      "start": 375,
+      "end": 500,
+      "figure": "antithesis",
+      "why": "What the knights yield to the senators, rank and power, is set against what they claim, an equal patriotism."
+    }
+  ],
+  "unmarkedFigures": [
+    "exclamatio",
+    "praeteritio",
+    "rhetorical question",
+    "tricolon",
+    "climax"
+  ]
+},
+{
+  "id": "cic-cat4-s21",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.10.21",
+  "cue": "Cicero lists the great generals of Rome and asks for a place among them for the man who saved the city.",
+  "text": "Let the great Scipio be ever famous, whose brave and wise policy compelled Hannibal to return to Africa and abandon Italy. Let the second Africanus, who destroyed the two cities most dangerous to this empire, Carthage and Numantia, be honoured with extraordinary renown. Let the famous Paulus be deemed a man of mark, whose triumphal procession was made illustrious by the captive Perses, once the most powerful and most noble of kings. Let Marius have undying honour, who twice delivered Italy from invasion and from fear of slavery. Let Pompeius rank before them all, whose great deeds and merits are limited only by the same tracts and boundaries as those of the sun's course. Surely among these glorious memories our fame will find some place, unless perhaps it is greater to throw open provinces to our advance than to provide that even those who are absent may still have some home to which to return in triumph.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 534,
+      "figure": "anaphora",
+      "why": "The word “Let” begins each sentence in the list of generals."
+    },
+    {
+      "start": 570,
+      "end": 678,
+      "figure": "hyperbole",
+      "why": "Pompey’s deeds are said to reach as far as the course of the sun."
+    },
+    {
+      "start": 748,
+      "end": 917,
+      "figure": "irony",
+      "why": "Cicero pretends to allow that conquering provinces is greater than saving the city, but he means the opposite."
+    }
+  ],
+  "unmarkedFigures": [
+    "enumeratio",
+    "climax",
+    "antithesis"
+  ]
+},
+{
+  "id": "cic-cat4-s24",
+  "author": "Cicero",
+  "work": "Fourth Oration against Catiline",
+  "locus": "4.11.24",
+  "cue": "In the last section of the speech Cicero asks the senate to decide with care and courage.",
+  "text": "Wherefore come to a decision with care, as you have determined to do, and with courage, as to the supreme welfare of yourselves and of the Roman people, as to your wives and children, as to your altars and hearths, your sanctuaries and temples, the buildings and homes of the whole city, as to your sovereignty and your liberty, the safety of Italy, the whole commonwealth of Rome.",
+  "spans": [
+    {
+      "start": 88,
+      "end": 327,
+      "figure": "anaphora",
+      "why": "The words “as to” begin each member of the list."
+    },
+    {
+      "start": 159,
+      "end": 380,
+      "figure": "enumeratio",
+      "why": "Cicero lists, one after another, all that depends on the decision."
+    }
+  ],
+  "unmarkedFigures": [
+    "asyndeton",
+    "isocolon",
+    "climax",
+    "polysyndeton"
+  ]
+},
+{
+  "id": "cic-phil2-64",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.64",
+  "cue": "Cicero describes the auction of Pompey’s property, which Antonius alone dared to buy.",
+  "text": "Caesar came back from Alexandria, fortunate, as he seemed at least to himself; but in my opinion no one can be fortunate who is unfortunate for the republic. The spear was set up in front of the temple of Jupiter Stator, and the property of Cnaeus Pompeius Magnus—(miserable that I am, for even now that my tears have ceased to flow, my grief remains deeply implanted in my heart),—the property, I say, of Cnaeus Pompeius the Great was submitted to the pitiless voice of the auctioneer. On that one occasion the state forgot its slavery, and groaned aloud; and though men's minds were enslaved, as every thing was kept under by fear, still the groans of the Roman people were free. While all men were waiting to see who would be so impious, who would be so mad, who would be so declared an enemy to gods and to men as to dare to mix himself up with that wicked auction, no one was found except Antonius, even though there were plenty of men collected round that spear who would have dared any thing else.",
+  "spans": [
+    {
+      "start": 97,
+      "end": 156,
+      "figure": "sententia",
+      "why": "A general rule is stated briefly, that no one is fortunate whose fortune harms the republic."
+    },
+    {
+      "start": 508,
+      "end": 555,
+      "figure": "personification",
+      "why": "The state is made a person who forgets that it is enslaved and groans aloud."
+    },
+    {
+      "start": 716,
+      "end": 814,
+      "figure": "anaphora",
+      "why": "The words “who would be so” begin each of three members."
+    }
+  ],
+  "unmarkedFigures": [
+    "antithesis",
+    "irony",
+    "parenthesis",
+    "tricolon",
+    "climax"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil2-67",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.67",
+  "cue": "Cicero describes how quickly Antonius squandered the property of Pompey.",
+  "text": "What Charybdis was ever so voracious? Charybdis, do I say? Charybdis, if she existed at all, was only one animal. The ocean I swear most solemnly, appears scarcely capable of having swallowed up such numbers of things so widely scattered and distributed in such different places with such rapidity. No thing was shut up, nothing sealed up, no list was made of any thing.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 37,
+      "figure": "metaphor",
+      "why": "Antonius is called by the name of Charybdis, the whirlpool that swallowed ships, because he swallowed up Pompey’s property."
+    },
+    {
+      "start": 38,
+      "end": 113,
+      "figure": "correctio",
+      "why": "Cicero takes back the name Charybdis because it is too small for Antonius."
+    },
+    {
+      "start": 114,
+      "end": 297,
+      "figure": "hyperbole",
+      "why": "Cicero says that even the ocean could hardly have swallowed so much so quickly."
+    },
+    {
+      "start": 299,
+      "end": 370,
+      "figure": "asyndeton",
+      "why": "Three clauses follow one another with no conjunction."
+    }
+  ],
+  "unmarkedFigures": [
+    "rhetorical question",
+    "anaphora",
+    "tricolon",
+    "irony"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil2-68",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.68",
+  "cue": "Cicero attacks Antonius for living in the house of Pompey.",
+  "text": "Oh the cruel audacity! Did you dare to enter into that house? Did you dare to cross that most sacred threshold? and to show your most profligate countenance to the household gods who protect that abode? A house which for a long time no one could behold, no one could pass by without tears! Are you not ashamed to dwell so long in that house? one in which, stupid and ignorant as you are, still you can see nothing which is not painful to you.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 22,
+      "figure": "exclamatio",
+      "why": "Cicero opens with an open cry of indignation."
+    },
+    {
+      "start": 23,
+      "end": 83,
+      "figure": "anaphora",
+      "why": "The words “Did you dare” begin two questions in succession."
+    },
+    {
+      "start": 290,
+      "end": 341,
+      "figure": "rhetorical question",
+      "why": "The question asks for no answer; it charges Antonius with shamelessness."
+    }
+  ],
+  "unmarkedFigures": [
+    "apostrophe",
+    "tricolon",
+    "climax",
+    "hyperbole"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil2-69",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.69",
+  "cue": "Cicero contrasts the house as Pompey kept it with the house as Antonius keeps it.",
+  "text": "I pity even the walls and the room. For what had that house ever beheld except what was modest, except what proceeded from the purest principles and from the most virtuous practice? For that man was, O conscript fathers, as you yourselves know, not only illustrious abroad, but also admirable at home; and not more praiseworthy for his exploits in foreign countries, than for his domestic arrangements. Now in his house every bedchamber is a brothel, and every diningroom a cookshop. Although he denies this:—Do not, do not make inquiries. He is become economic. He desired that mistress of his to take possession of whatever belonged to her, according to the laws of the Twelve Tables. He has taken his keys from her, and turned her out of doors. What a well-tried citizen! of what proved virtue is he! the most honorable passage in whose life is the one when he divorced himself from this actress.",
+  "spans": [
+    {
+      "start": 245,
+      "end": 300,
+      "figure": "antithesis",
+      "why": "Pompey’s fame abroad is set against his conduct at home."
+    },
+    {
+      "start": 420,
+      "end": 482,
+      "figure": "metaphor",
+      "why": "The rooms of the house are called by the names of a brothel and a cookshop."
+    },
+    {
+      "start": 748,
+      "end": 803,
+      "figure": "irony",
+      "why": "Cicero praises Antonius as a citizen of proved virtue and means the opposite."
+    }
+  ],
+  "unmarkedFigures": [
+    "personification",
+    "rhetorical question",
+    "isocolon",
+    "epizeuxis",
+    "anaphora"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil2-112",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.112",
+  "cue": "Near the end of the speech Cicero asks Antonius why the senate is surrounded by armed men.",
+  "text": "But this single day, this very day that now is, this very moment while I am speaking, defend your conduct during this very moment, if you can. Why has the senate been surrounded with a belt of armed men? Why are your satellites listening to me sword in hand? Why are not the folding-doors of the temple of Concord open? Why do you bring men of all nations the most barbarous, Ityrcans, armed with arrows, into the forum? He says that he does so as a guard. Is it not then better to perish a thousand times than to be unable to live in one's own city without a guard of armed men? But believe me, there is no protection in that;—a man must be defended by the affection and good will of his fellow-citizens, not by arms.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 84,
+      "figure": "climax",
+      "why": "The time narrows by steps, from this day, to this very day, to this very moment, and the demand grows sharper."
+    },
+    {
+      "start": 143,
+      "end": 420,
+      "figure": "anaphora",
+      "why": "The word “Why” begins four questions in succession."
+    },
+    {
+      "start": 628,
+      "end": 717,
+      "figure": "antithesis",
+      "why": "The good will of fellow-citizens is set against arms as a man’s defense."
+    }
+  ],
+  "unmarkedFigures": [
+    "rhetorical question",
+    "sententia",
+    "hyperbole",
+    "hypophora",
+    "apostrophe"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil2-113",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.113",
+  "cue": "Cicero distinguishes peace from slavery, which he says must be resisted even by war.",
+  "text": "The name of peace is sweet, the thing itself is most salutary. But between peace and slavery there is a wide difference. Peace is liberty in tranquillity; slavery is the worst of all evils,—to be repelled, if need be, not only by war, but even by death.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 61,
+      "figure": "antithesis",
+      "why": "The name of peace is set against the thing itself."
+    },
+    {
+      "start": 121,
+      "end": 188,
+      "figure": "antithesis",
+      "why": "Peace is defined as liberty in tranquillity, and slavery is set against it as the worst of evils."
+    }
+  ],
+  "unmarkedFigures": [
+    "sententia",
+    "isocolon",
+    "hyperbole",
+    "asyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil2-118",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "2.118",
+  "cue": "In the peroration Cicero urges Antonius to be reconciled to the republic and declares that he himself will not abandon it.",
+  "text": "Consider, I beg you, Marcus Antonius, do some time or other consider the republic: think of the family of which you are born, not of the men with whom you are living. Be reconciled to the republic. However, do you decide on your conduct. As to mine, I myself will declare what that shall be. I defended the republic as a young man, I will not abandon it now that I am old. I scorned the sword of Catiline, I will not quail before yours.",
+  "spans": [
+    {
+      "start": 83,
+      "end": 165,
+      "figure": "antithesis",
+      "why": "The family of his birth is set against the men he lives with."
+    },
+    {
+      "start": 292,
+      "end": 371,
+      "figure": "antithesis",
+      "why": "Cicero as a young man is set against Cicero as an old man, and the defense of the republic continues in both."
+    },
+    {
+      "start": 292,
+      "end": 436,
+      "figure": "isocolon",
+      "why": "Two sentences of the same shape follow each other, and each sets a past act beside a promise."
+    }
+  ],
+  "unmarkedFigures": [
+    "conduplicatio",
+    "apostrophe",
+    "asyndeton",
+    "chiasmus"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil3-12",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "3.12",
+  "cue": "Cicero argues that Antonius ceased to be consul on the day he offered Caesar a crown at the Lupercalia.",
+  "text": "For on the day when he, in the sight of the Roman people, harangued the mob, naked, perfumed, and drunk, and labored moreover to put a crown on the head of his colleague, on that day he abdicated not only the consulship, but also his own freedom. At, all events he himself must at once have become a slave, if Caesar had been willing to accept from him that ensign of royalty. Can I then think him a consul, can I think him a Roman citizen, can I think him a freeman, can I even think him a man, who on that shameful and wicked day showed what he was willing to endure while Caesar lived, and what he was anxious to obtain himself after he was dead?",
+  "spans": [
+    {
+      "start": 377,
+      "end": 494,
+      "figure": "anaphora",
+      "why": "The words “can I think him” begin each member of the question."
+    },
+    {
+      "start": 377,
+      "end": 494,
+      "figure": "climax",
+      "why": "Each step denies Antonius a more basic title, from consul to citizen to freeman to man, so the charge grows heavier."
+    },
+    {
+      "start": 377,
+      "end": 649,
+      "figure": "rhetorical question",
+      "why": "The question asks for no answer; it asserts that Antonius is not even a man."
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "polysyndeton",
+    "antithesis"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil3-35",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "3.35",
+  "cue": "Cicero urges the senators to die with dignity rather than live as slaves to Antonius and his friends.",
+  "text": "You know the insolence of Antonius; you know his friends, you know his whole household. To be slaves to lustful, wanton, debauched, profligate, drunken gamblers, is the extremity of misery combined with the extremity of infamy. And if now (but may the immortal gods avert the omen!) that worst of fates shall befall the republic, then, as brave gladiators take care to perish with honor, let us too, who are the chief men of all countries and nations, take care to fall with dignity rather than to live as slaves with ignominy.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 86,
+      "figure": "anaphora",
+      "why": "The words “you know” begin each of three members."
+    },
+    {
+      "start": 104,
+      "end": 160,
+      "figure": "asyndeton",
+      "why": "Five words of abuse follow one another with no conjunction."
+    },
+    {
+      "start": 336,
+      "end": 526,
+      "figure": "simile",
+      "why": "The senators are compared openly with brave gladiators who take care to die with honor."
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "antithesis",
+    "parenthesis",
+    "isocolon"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-phil3-36",
+  "author": "Cicero",
+  "work": "Philippics",
+  "locus": "3.36",
+  "cue": "At the end of the speech Cicero calls on the senate to choose liberty or an honorable death.",
+  "text": "There is nothing more detestable than disgrace; nothing more shameful than slavery. We have been born to glory and to liberty; let us either preserve them or die with dignity. Too long have we concealed what we have felt: now at length it is revealed: every one has plainly shown what are his feelings to both sides, and what are his inclinations.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 83,
+      "figure": "sententia",
+      "why": "A general rule is stated briefly, that nothing is worse than disgrace and slavery."
+    },
+    {
+      "start": 0,
+      "end": 82,
+      "figure": "isocolon",
+      "why": "Two members of the same length and shape set disgrace and slavery side by side."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "antithesis",
+    "asyndeton",
+    "dilemma"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
 }
 ];
