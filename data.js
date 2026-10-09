@@ -1541,7 +1541,9 @@ EX.greg = {
       let wrong;
       if(longer.length){
         const one = sample(longer, 1);
-        wrong = one.concat(sample(closer.filter(p => p !== one[0]), 2));
+        // About half the time, one wrong option shorter than the key, so the key is not usually the shortest.
+        const two = rand([0,1]) ? [] : sample(names.filter(p => p.length < g.pair.length && p !== one[0]), 1);
+        wrong = one.concat(two, sample(closer.filter(p => p !== one[0] && two.indexOf(p) < 0), 2 - two.length));
       } else wrong = sample(closer, 3);
       return mcQ({
         prompt:'Gregory writes: <em>'+esc(g.quote)+'</em> Which pair of hearers is he dividing?',
@@ -1556,7 +1558,9 @@ EX.greg = {
     let pickedW;
     if(longerW.length){
       const one = sample(longerW, 1);
-      pickedW = one.concat(sample(closerW.filter(x => x.pair !== one[0].pair), 2));
+      // About half the time, one wrong option shorter than the key, so the key is not usually the shortest.
+      const two = rand([0,1]) ? [] : sample(pool.filter(x => x.why.length < g.why.length && x.pair !== one[0].pair), 1);
+      pickedW = one.concat(two, sample(closerW.filter(x => x.pair !== one[0].pair && two.indexOf(x) < 0), 2 - two.length));
     } else pickedW = sample(closerW, 3);
     const others = pickedW.map(x => x.why);
     return mcQ({
