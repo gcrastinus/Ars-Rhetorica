@@ -7781,5 +7781,164 @@ window.PASSAGES = [
   "src": [
     "lysias_lamb"
   ]
+},
+{
+  "id": "thuc-fun-41",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "2.41",
+  "cue": "Pericles speaks at the public funeral of the Athenians who fell in the first year of the war.",
+  "text": "For Athens alone of her contemporaries is found when tested to be greater than her reputation, and alone gives no occasion to her assailants to blush at the antagonist by whom they have been worsted, or to her subjects to question her title by merit to rule. Rather, the admiration of the present and succeeding ages will be ours, since we have not left our power without witness, but have shown it by mighty proofs; and far from needing a Homer for our panegyrist, or other of his craft whose verses might charm for the moment only for the impression which they gave to melt at the touch of fact, we have forced every sea and land to be the highway of our daring, and everywhere, whether for evil or for good, have left imperishable monuments behind us.",
+  "spans": [],
+  "species": "epideictic",
+  "track": "blaisdell",
+  "unmarkedFigures": [
+    "antithesis",
+    "hyperbole",
+    "metaphor"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-fun-42",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "2.42",
+  "cue": "Pericles turns, at the public funeral, from the city to the men who died for it.",
+  "text": "For there is justice in the claim that steadfastness in his country’s battles should be as a cloak to cover a man’s other imperfections; since the good action has blotted out the bad, and his merit as a citizen more than outweighed his demerits as an individual. But none of these allowed either wealth with its prospect of future enjoyment to unnerve his spirit, or poverty with its hope of a day of freedom and riches to tempt him to shrink from danger.",
+  "spans": [],
+  "species": "epideictic",
+  "track": "blaisdell",
+  "unmarkedFigures": [
+    "simile",
+    "metaphor",
+    "antithesis",
+    "isocolon",
+    "polyptoton"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-fun-44",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "2.44",
+  "cue": "Near the end of the funeral speech, Pericles addresses the parents of the dead.",
+  "text": "Comfort, therefore, not condolence, is what I have to offer to the parents of the dead who may be here. Numberless are the chances to which, as they know, the life of man is subject; but fortunate indeed are they who draw for their lot a death so glorious as that which has caused your mourning, and to whom life has been so exactly measured as to terminate in the happiness in which it has been passed.",
+  "spans": [],
+  "species": "epideictic",
+  "track": "blaisdell",
+  "unmarkedFigures": [
+    "antithesis",
+    "correctio",
+    "sententia",
+    "anastrophe"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "plato-menex-237b",
+  "author": "Plato",
+  "work": "Menexenus",
+  "locus": "237b–c",
+  "cue": "Socrates repeats a funeral speech for the Athenian dead which, he says, Aspasia composed.",
+  "text": "And first as to their birth. Their ancestors were not strangers, nor are these their descendants sojourners only, whose fathers have come from another country; but they are the children of the soil, dwelling and living in their own land. And the country which brought them up is not like other countries, a stepmother to her children, but their own true mother; she bore them and nourished them and received them, and in her bosom they now repose.",
+  "spans": [],
+  "species": "epideictic",
+  "unmarkedFigures": [
+    "antithesis",
+    "metaphor",
+    "personification",
+    "tricolon",
+    "polysyndeton"
+  ],
+  "src": [
+    "plato_jowett"
+  ]
+},
+{
+  "id": "plato-menex-238b",
+  "author": "Plato",
+  "work": "Menexenus",
+  "locus": "238b–c",
+  "cue": "In the funeral speech that Socrates repeats, the speaker turns from the land of Attica to its government.",
+  "text": "Thus born into the world and thus educated, the ancestors of the departed lived and made themselves a government, which I ought briefly to commemorate. For government is the nurture of man, and the government of good men is good, and of bad men bad. And I must show that our ancestors were trained under a good government, and for this reason they were good, and our contemporaries are also good, among whom our departed friends are to be reckoned.",
+  "spans": [],
+  "species": "epideictic",
+  "unmarkedFigures": [
+    "sententia",
+    "metaphor",
+    "antithesis",
+    "conduplicatio",
+    "polyptoton"
+  ],
+  "src": [
+    "plato_jowett"
+  ]
+},
+{
+  "id": "lys-2-66",
+  "author": "Lysias",
+  "work": "Funeral Oration",
+  "locus": "2.66",
+  "cue": "At a public funeral, the speaker turns to the foreigners who died fighting for the Athenian democracy at the Peiraeus.",
+  "text": "Thus the struggles at the Peiraeus have earned for those men the envy of all mankind. But it is right that we should also praise the strangers who lie here: they came to the support of the people, and fought for our salvation; they regarded valor as their native land, and with this noble end they closed their lives. In return the city has not only mourned them but given them a public funeral, and has granted them in perpetuity the same honors as it gives to its own people.",
+  "spans": [],
+  "species": "epideictic",
+  "unmarkedFigures": [
+    "metaphor",
+    "antithesis",
+    "hyperbole"
+  ],
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-2-80",
+  "author": "Lysias",
+  "work": "Funeral Oration",
+  "locus": "2.80",
+  "cue": "Near the end of the funeral speech, the speaker reflects on how the city honors the dead.",
+  "text": "Of their nature it comes that they are mourned as mortal, of their valor that they are lauded as immortal. Thus you see them given a public funeral, and contests of strength and knowledge and wealth held at their tomb; because we think that those who have fallen in war are worthy of receiving the same honors as the immortals.",
+  "spans": [],
+  "species": "epideictic",
+  "unmarkedFigures": [
+    "antithesis",
+    "isocolon",
+    "tricolon",
+    "polysyndeton",
+    "homoeoteleuton"
+  ],
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "eng-webster-venerable",
+  "author": "Daniel Webster",
+  "work": "Address at the Laying of the Corner-Stone of the Bunker Hill Monument",
+  "locus": "(1825)",
+  "cue": "Fifty years after the battle of Bunker Hill, Webster speaks at the laying of the monument’s corner-stone and turns to the surviving veterans in the crowd.",
+  "text": "VENERABLE MEN! you have come down to us from a former generation. Heaven has bounteously lengthened out your lives, that you might behold this joyous day. You are now where you stood fifty years ago, this very hour, with your brothers and your neighbors, shoulder to shoulder, in the strife for your country. Behold, how altered! The same heavens are indeed over your heads; the same ocean rolls at your feet; but all else how changed!",
+  "spans": [],
+  "species": "epideictic",
+  "track": "english",
+  "unmarkedFigures": [
+    "apostrophe",
+    "exclamatio",
+    "anaphora",
+    "antithesis",
+    "isocolon"
+  ],
+  "src": [
+    "webster_w"
+  ]
 }
 ];
