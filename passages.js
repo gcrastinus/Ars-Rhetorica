@@ -7106,5 +7106,391 @@ window.PASSAGES = [
   "src": [
     "arist_freese"
   ]
+},
+{
+  "id": "arist-rhet-3.9.2",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.2",
+  "cue": "Aristotle describes the continuous style, the older manner of writing, whose sentences are joined by connecting particles.",
+  "text": "By a continuous style I mean that which has no end in itself and only stops when the sense is complete. It is unpleasant, because it is endless, for all wish to have the end in sight. That explains why runners, just when they have reached the goal, lose their breath and strength, whereas before, when the end is in sight, they show no signs of fatigue.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.3",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.3",
+  "cue": "Aristotle says why the periodic style, made of sentences with a beginning and an end, is easy to learn.",
+  "text": "It is easy to learn, because it can be easily retained in the memory. The reason is that the periodic style has number, which of all things is the easiest to remember; that explains why all learn verse with greater facility than prose, for it has number by which it can be measured.",
+  "spans": [],
+  "unmarkedFigures": [
+    "polyptoton"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.4",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.4",
+  "cue": "Aristotle judges a line of tragic verse about Calydon, a city of Aetolia, which is not in the Peloponnese.",
+  "text": "But the period must be completed with the sense and not stop short, as in the iambics of Sophocles, This is Calydon, territory of the land of Pelops; for by a division of this kind it is possible to suppose the contrary of the fact, as in the example, that Calydon is in Peloponnesus.",
+  "spans": [],
+  "unmarkedFigures": [
+    "epithet"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.6a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.6",
+  "cue": "Aristotle says what happens when the clauses of a period are too short.",
+  "text": "If too short, they often make the hearer stumble; for when he is hurrying on towards the measure of which he already has a definite idea, if he is checked by the speaker stopping, a sort of stumble is bound to occur in consequence of the sudden stop.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.6b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.6",
+  "cue": "Aristotle says what happens when the clauses of a period are too long.",
+  "text": "If too long, they leave the hearer behind, as those who do not turn till past the ordinary limit leave behind those who are walking with them. Similarly long periods assume the proportions of a speech and resemble dithyrambic preludes.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.7a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.7",
+  "cue": "Aristotle quotes the opening of the Panegyricus of Isocrates as an example of one kind of clause in the periodic style.",
+  "text": "“I have often wondered at those who gathered together the general assemblies and instituted the gymnastic contests”",
+  "spans": [],
+  "unmarkedFigures": [
+    "isocolon"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.7b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.7",
+  "cue": "Aristotle quotes another sentence of Isocrates.",
+  "text": "“For some of them perished miserably, others saved themselves disgracefully”",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis",
+    "isocolon",
+    "homoeoteleuton"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.7c",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.7",
+  "cue": "Aristotle quotes a sentence of Isocrates about Xerxes, who bridged the Hellespont and cut a canal through the peninsula of Mount Athos.",
+  "text": "“To sail over the mainland, to go by land over the sea, bridging over the Hellespont and digging through Athos”",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis",
+    "tricolon",
+    "asyndeton",
+    "hyperbole",
+    "anaphora",
+    "chiasmus"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.8",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.8",
+  "cue": "Aristotle says why the style made of opposed clauses pleases.",
+  "text": "This kind of style is pleasing, because contraries are easily understood and even more so when placed side by side, and also because antithesis resembles a syllogism; for refutation is a bringing together of contraries.",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.9",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.9",
+  "cue": "Aristotle gives an example of clauses that end alike, in Freese’s English rendering of the Greek.",
+  "text": "“while he lived you spoke ill of him, now he is dead you write ill of him.”",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis",
+    "isocolon",
+    "epistrophe"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.2",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.2",
+  "cue": "Aristotle says why metaphor pleases, and gives an example from Homer.",
+  "text": "Now we do not know the meaning of strange words, and proper terms we know already. It is metaphor, therefore, that above all produces this effect; for when Homer calls old age stubble, he teaches and informs us through the genus; for both have lost their bloom.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.3",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.3",
+  "cue": "Aristotle compares the simile with the metaphor.",
+  "text": "For the simile, as we have said, is a metaphor differing only by the addition of a word, wherefore it is less pleasant because it is longer; it does not say that this is that, so that the mind does not even examine this.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.6",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.6",
+  "cue": "Aristotle says when words are popular with hearers.",
+  "text": "…as to words, they are popular if they contain metaphor, provided it be neither strange, for then it is difficult to take in at a glance, nor superficial, for then it does not impress the hearer…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.7a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.7",
+  "cue": "Aristotle gives examples of the most popular kind of metaphor, which is based on proportion.",
+  "text": "Thus, Pericles said that the youth that had perished during the war had disappeared from the State as if the year had lost its springtime.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "simile"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.7b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.7",
+  "cue": "Aristotle judges a sentence in the Funeral Oration of Lysias on those who fell at Salamis.",
+  "text": "…that it was right that Greece should cut her hair at the tomb of those who fell at Salamis, since her freedom was buried along with their valor. If the speaker had said that it was fitting that Greece should weep, her valor being buried with them, it would have been a metaphor and a vivid one, whereas “freedom” by the side of “valor” produces a kind of antithesis.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "antithesis",
+    "personification"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.7c",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.7",
+  "cue": "Aristotle judges a phrase of Lycoleon, spoken on behalf of the general Chabrias, whose bronze statue stood in the city.",
+  "text": "And Lycoleon on behalf of Chabrias said, “not even reverencing the suppliant attitude of his statue of bronze,” a metaphor for the moment, not for all time, but still vivid; for when Chabrias is in danger, the statue intercedes for him, the inanimate becomes animate, the memorial of what he has done for the State.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "personification"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.7d",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.7",
+  "cue": "Aristotle quotes a saying about a treaty of peace.",
+  "text": "And again, it is a metaphor to say that such a treaty is “a trophy far more splendid than those gained in war; for the latter are raised in memory of trifling advantages and a single favor of fortune, but the former commemorates the end of the whole war”; for both treaty and trophy are signs of victory.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "antithesis",
+    "sententia",
+    "isocolon"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.2",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.2",
+  "cue": "Aristotle explains what he means by setting things “before the eyes.”",
+  "text": "I mean that things are set before the eyes by words that signify actuality. For instance, to say that a good man is “four-square” is a metaphor, for both these are complete, but the phrase does not express actuality, whereas “of one having the prime of his life in full bloom” does…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "conduplicatio"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.3",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.3",
+  "cue": "Aristotle explains why Homer’s lines about stones and arrows are vivid.",
+  "text": "And as Homer often, by making use of metaphor, speaks of inanimate things as if they were animate; and it is to creating actuality in all such cases that his popularity is due, as in the following examples: Again the ruthless stone rolled down to the plain. The arrow flew.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "personification"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.5",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.5",
+  "cue": "Aristotle says where metaphors should be drawn from, and gives a saying of the philosopher Archytas.",
+  "text": "…in philosophy it needs sagacity to grasp the similarity in things that are apart. Thus Archytas said that there was no difference between an arbitrator and an altar, for the wronged betakes itself to one or the other.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "simile",
+    "sententia"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.6",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.6",
+  "cue": "Aristotle explains why some sayings please by surprising the hearer.",
+  "text": "These novelties occur in poetry as well as in prose; for instance, the following verse does not finish as the hearer expected: And he strode on, under his feet—chilblains, whereas the hearer thought he was going to say “sandals.”",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.9",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.9",
+  "cue": "Aristotle says what makes a smart saying more popular.",
+  "text": "Now the form of expression of these sayings is the same; but the more concisely and antithetically they are expressed, the greater is their popularity. The reason is that antithesis is more instructive and conciseness gives knowledge more rapidly.",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis",
+    "isocolon",
+    "sententia"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.15",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.15",
+  "cue": "Aristotle says that approved hyperboles are also metaphors, and gives an example about a man with a black eye.",
+  "text": "For instance, one may say of a man whose eye is all black and blue, “you would have thought he was a basket of mulberries,” because the black eye is something purple, but the great quantity constitutes the hyperbole.",
+  "spans": [],
+  "unmarkedFigures": [
+    "hyperbole",
+    "metaphor",
+    "simile"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.15b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.15–16",
+  "cue": "Aristotle says who uses hyperbole, and who should not.",
+  "text": "There is something youthful about hyperboles; for they show vehemence. Wherefore those who are in a passion most frequently make use of them…",
+  "spans": [],
+  "unmarkedFigures": [
+    "hyperbole",
+    "sententia"
+  ],
+  "src": [
+    "arist_freese"
+  ]
 }
 ];
