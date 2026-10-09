@@ -1181,7 +1181,19 @@ EX.figwhich = {
     const eligible = passages().filter(x => shownSpan(x, fig, n));
     const balanced = eligible.filter(x => wrongPool(x, fig, n).some(p => whichOptLen(p, n) >= whichOptLen(x, n)));
     const yes = pickSeen(balanced.length ? balanced : eligible, x => 'fwy:'+x.id);
-    const nos = pickWrongLen(yes, fig, n, 3);
+    // Wrong excerpts drawn at random from those closest in length to the right one,
+    // so that length does not mark the answer either way.
+    const yl = whichOptLen(yes, n);
+    const near = wrongPool(yes, fig, n).sort((a,b) => Math.abs(whichOptLen(a, n) - yl) - Math.abs(whichOptLen(b, n) - yl));
+    const nos = [], seen = [excerpt(yes, n)];
+    function take(arr, k){
+      sample(arr, arr.length).forEach(p => {
+        const e = excerpt(p, n);
+        if(k > 0 && nos.length < 3 && seen.indexOf(e) < 0){ nos.push(p); seen.push(e); k--; }
+      });
+    }
+    take(near.slice(0, 10), 3);
+    if(nos.length < 3) take(near, 3);
     const optsP = [yes].concat(nos);
     return mcQ({
       prompt:'Which excerpt is using <strong>'+esc(fig)+'</strong> <em>('+esc(FIGURE_GLOSS[fig]||'')+')</em>?',
