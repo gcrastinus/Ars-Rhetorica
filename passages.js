@@ -6526,5 +6526,135 @@ window.PASSAGES = [
   "src": [
     "cic_yonge"
   ]
+},
+{
+  "id": "thuc-per-60",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "2.60",
+  "cue": "Pericles answers an assembly that is angry with him for advising the war.",
+  "text": "And yet if you are angry with me, it is with one who, as I believe, is second to no man either in knowledge of the proper policy, or in the ability to expound it, and who is moreover not only a patriot but an honest one. A man possessing that knowledge without that faculty of exposition might as well have no idea at all on the matter: if he had both these gifts, but no love for his country, he would be but a cold advocate for her interests; while were his patriotism not proof against bribery, everything would go for a price.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-nic-convictions",
+  "author": "Nicias (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "6.9",
+  "cue": "Nicias speaks against the Sicilian expedition, which he has been chosen to command.",
+  "text": "And yet, individually, I gain in honour by such a course, and fear as little as other men for my person—not that I think a man need be any the worse citizen for taking some thought for his person and estate; on the contrary, such a man would for his own sake desire the prosperity of his country more than others—nevertheless, as I have never spoken against my convictions to gain honour, I shall not begin to do so now, but shall say what I think best.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-per-140",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "1.140",
+  "cue": "Pericles opens his first speech on the demands of the Spartans.",
+  "text": "There is one principle, Athenians, which I hold to through everything, and that is the principle of no concession to the Peloponnesians. I know that the spirit which inspires men while they are being persuaded to make war is not always retained in action; that as circumstances change, resolutions change.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "sal-caes-passion",
+  "author": "Julius Caesar (Sallust)",
+  "work": "Conspiracy of Catiline",
+  "locus": "51",
+  "cue": "Caesar opens his opinion in the senate on the punishment of the conspirators.",
+  "text": "It becomes all men, Conscript Fathers, who deliberate on dubious matters, to be influenced neither by hatred, affection, anger, nor pity. The mind, when such feelings obstruct its view, can not easily see what is right; nor has any human being consulted, at the same moment, his passion and his interest.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "sallust_w"
+  ]
+},
+{
+  "id": "sal-cato-often",
+  "author": "Cato (Sallust)",
+  "work": "Conspiracy of Catiline",
+  "locus": "52",
+  "cue": "Cato speaks after Caesar in the same debate on the conspirators.",
+  "text": "Often, Conscript Fathers, have I spoken at great length in this assembly; often have I complained of the luxury and avarice of our citizens, and, by that very means, have incurred the displeasure of many. I, who never excused to myself, or to my own conscience, the commission of any fault, could not easily pardon the misconduct, or indulge the licentiousness, of others.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "sallust_w"
+  ]
+},
+{
+  "id": "plato-ap-31b",
+  "author": "Plato",
+  "work": "Apology",
+  "locus": "31a–b",
+  "cue": "Socrates tells the jury why he has spent his life questioning the Athenians.",
+  "text": "When I say that I am given to you by God, the proof of my mission is this:—if I had been like other men, I should not have neglected all my own concerns or patiently seen the neglect of them during all these years, and have been doing yours, coming to you individually like a father or elder brother, exhorting you to regard virtue; such conduct, I say, would be unlike human nature.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "plato_jowett"
+  ]
+},
+{
+  "id": "dem-crown-1",
+  "author": "Demosthenes",
+  "work": "On the Crown",
+  "locus": "18.1",
+  "cue": "Demosthenes opens his defense of Ctesiphon, who proposed that he be crowned.",
+  "text": "I pray first, men of Athens, to every god and goddess, that the goodwill, which I ever feel towards this city and towards all of you, may in equal measure be vouchsafed to me by you at this present trial…",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "dem-rhod-1",
+  "author": "Demosthenes",
+  "work": "For the Freedom of the Rhodians",
+  "locus": "15.1",
+  "cue": "Demosthenes opens his speech to the assembly on the cause of the Rhodian democrats.",
+  "text": "It is, I think, your duty, men of Athens, when you are deliberating upon affairs of such importance, to grant freedom of speech to every one of your advisers. And for my part, I have never yet felt any difficulty in pointing out to you the best course; for I believe that, broadly speaking, you all know from the first what this is. My difficulty is to persuade you to act upon your knowledge.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "lys-3-3",
+  "author": "Lysias",
+  "work": "Against Simon",
+  "locus": "3.3",
+  "cue": "The defendant, accused by Simon of wounding, explains why he kept the matter quiet until now.",
+  "text": "What especially vexes me, gentlemen, is that I shall be compelled to speak to you of the facts of this case: for it was my feeling of shame at the mere thought of these becoming widely known that made me put up with my wrongs. But since Simon has placed me in such a necessity, I will relate to you the whole of the facts without the slightest reserve.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-21-1",
+  "author": "Lysias",
+  "work": "Defence Against a Charge of Taking Bribes",
+  "locus": "21.1",
+  "cue": "The defendant, charged with taking bribes, turns from the charges to his own life.",
+  "text": "In regard to the counts of the accusation, gentlemen of the jury, you have been sufficiently informed; but I must ask your attention also for what has yet to be added, so that you may understand what kind of person I am before you give your verdict upon me. I was certified of age in the archonship of Theopompus: appointed to produce tragic drama, I spent thirty minae and two months later, at the Thargelia, two thousand drachmae, when I won a victory with a male chorus; and in the archonship of Glaucippus, at the Great Panathenaea, eight hundred drachmae on pyrrhic dancers.",
+  "spans": [],
+  "species": "forensic",
+  "src": [
+    "lysias_lamb"
+  ]
 }
 ];

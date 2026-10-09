@@ -692,7 +692,31 @@ const ETHOS_ITEMS = [
   // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
   {id:'eng-et1', pid:'eng-franklin-consent', which:'phronesis', label:'Practical wisdom (phronesis)', why:'He weighs the plan against the alternatives and accepts it for want of a better, which is the judgement of a prudent man.'},
   {id:'eng-et2', pid:'eng-hoar-humane', which:'eunoia', label:'Goodwill (eunoia)', why:'He first affirms that the soldiers are humane, so that his criticism comes from a friend of the army and not an enemy.'},
-  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He uses praeteritio: he says he will not charge Douglas with wilful misquotation, and in saying so he puts that charge before the hearers. But he asserts only what can be shown, that the quotation is inaccurate, so he gains credit as a fair man while the graver charge is still lodged; and fairness, that is, justice, is a virtue (arete).'}
+  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He uses praeteritio: he says he will not charge Douglas with wilful misquotation, and in saying so he puts that charge before the hearers. But he asserts only what can be shown, that the quotation is inaccurate, so he gains credit as a fair man while the graver charge is still lodged; and fairness, that is, justice, is a virtue (arete).'},
+  // Speeches added from Thucydides, Sallust, Plato, Demosthenes, and Lysias. Aristotle names the three in Rhetoric II.1, 1378a.
+  {id:'et16', pid:'thuc-nic-convictions', which:'arete', label:'Virtue (arete)',
+    why:'Nicias says that he has “never spoken against my convictions to gain honour,” although the expedition would bring him honour. The speech shows an honest man, and honesty belongs to virtue.'},
+  {id:'et17', pid:'thuc-per-140', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Pericles shows that he knows how men behave in war: “as circumstances change, resolutions change.” He asks to be trusted as a man who judges well, which is practical wisdom.'},
+  {id:'et18', pid:'sal-caes-passion', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Caesar shows that he judges without hatred, affection, anger, or pity, because “The mind, when such feelings obstruct its view, can not easily see what is right.” Right judgment about what should be done is practical wisdom.'},
+  {id:'et19', pid:'sal-cato-often', which:'arete', label:'Virtue (arete)',
+    why:'Cato reminds the senate that he has often complained of luxury and avarice and has made enemies by it, and that he never excused a fault in himself. He offers his own strictness as a proof of his virtue.'},
+  {id:'et20', pid:'plato-ap-31b', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'Socrates has neglected his own concerns and has gone to each Athenian “like a father or elder brother.” The speech shows goodwill toward the hearers.'},
+  {id:'et21', pid:'dem-crown-1', which:'eunoia', label:'Goodwill (eunoia)',
+    why:'Demosthenes names “the goodwill, which I ever feel towards this city and towards all of you,” and prays for the same in return. Goodwill toward the hearers is the third of Aristotle’s grounds of trust.'},
+  {id:'et22', pid:'dem-rhod-1', which:'phronesis', label:'Practical wisdom (phronesis)',
+    why:'Demosthenes says that he has “never yet felt any difficulty in pointing out to you the best course.” He claims to know what should be done, which is practical wisdom.'},
+  {id:'et23', pid:'lys-3-3', which:'arete', label:'Virtue (arete)',
+    why:'The speaker says that shame at having these facts known made him put up with his wrongs. The reluctance shows a decent and modest man, so the speech persuades by his character.'},
+  {id:'et24', pid:'lys-21-1', which:'arete', label:'Virtue (arete)',
+    why:'He asks the jury to understand “what kind of person I am” and lists the public services he paid for. The account shows a generous and public-spirited citizen, and Aristotle counts liberality among the virtues (Rhetoric I.9).'},
+  {id:'et25', pid:'thuc-per-60', which:'eunoia', label:'Goodwill (eunoia)',
+    prompt:'Pericles answers the assembly’s anger by naming what he brings to its counsel. Which phrase shows goodwill (eunoia), as Aristotle uses the word?',
+    options:['second to no man either in knowledge of the proper policy','or in the ability to expound it','not only a patriot','but an honest one'],
+    correct:2,
+    note:'Pericles glosses each phrase himself in the next sentence: a man with knowledge and the power to expound it, “but no love for his country, he would be but a cold advocate for her interests.” Love of the city is the goodwill toward the hearers that Aristotle names beside good sense and virtue (Rhetoric II.1, 1378a). Knowledge of policy is good sense (phronesis), and honesty that is “proof against bribery” is virtue (arete).'}
 ];
 const LEXIS_ITEMS = [
   {id:'lx1', pid:'gor-hel-8', kind:'style',
@@ -965,6 +989,17 @@ EX.ethos = {
   gen(diff){
     const e = pickSeen(itemPool('ETHOS_ITEMS', ETHOS_ITEMS), x => 'et:'+x.id);
     const p = passageById(e.pid);
+    // An item with its own options asks which words of the passage show one of the three.
+    if(e.options){
+      const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
+      return mcQ({
+        prompt: e.prompt, options: e.options, correct: e.correct,
+        passage: cue + (p ? esc(p.text) : ''),
+        source: p ? citeP(p) : '', orig: p && p.orig, olang: p && p.olang, src: p ? srcOf(p) : 'arist_rhet',
+        note: e.note,
+        also:'A reputation named from outside the speech is an inartistic proof, whereas ethos here is what the speech itself shows.'
+      });
+    }
     const labels = [
       {v:'phronesis', lab:'Practical wisdom (phronesis): he seems to know what to do'},
       {v:'arete', lab:'Virtue (arete): he seems a good man'},
