@@ -6736,5 +6736,375 @@ window.PASSAGES = [
   "src": [
     "webster_w"
   ]
+},
+{
+  "id": "arist-rhet-3.3.1",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.1",
+  "cue": "Aristotle quotes phrases from the speeches of Alcidamas, a sophist, as examples of frigid style.",
+  "text": "And as Alcidamas says, “the soul full of anger and the face fire-colored,” “he thought that their zeal would be end-accomplishing,” “he made persuasive words end-accomplishing,” and “the azure-colored floor of the sea,”…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "asyndeton",
+    "tricolon"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle discusses the third of the four causes of frigid style.",
+  "text": "A third cause is the use of epithets that are either long or unseasonable or too crowded; thus, in poetry it is appropriate to speak of white milk, but in prose it is less so; and if epithets are employed to excess, they reveal the art and make it evident that it is poetry.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle allows some epithets in prose and then sets a limit.",
+  "text": "And yet such may be used to a certain extent, since it removes the style from the ordinary and gives a “foreign” air. But one must aim at the mean, for neglect to do so does more harm than speaking at random; for a random style lacks merit, but excess is vicious.",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis",
+    "sententia",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3c",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle gives instances of the style of Alcidamas, a sophist, whose style he calls frigid.",
+  "text": "For instance, he does not say “sweat” but “damp sweat”; not “to the Isthmian games” but “to the solemn assembly of the Isthmian games”; not “laws”, but “the laws, the rulers of states”…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "personification",
+    "anaphora",
+    "asyndeton",
+    "antithesis",
+    "correctio"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3d",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle describes what happens when a speaker uses poetic language without taste.",
+  "text": "Hence those who employ poetic language by their lack of taste make the style ridiculous and frigid, and such idle chatter produces obscurity; for when words are piled upon one who already knows, it destroys perspicuity by a cloud of verbiage.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "sententia"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3e",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle says which kinds of poets use which kinds of unusual words.",
+  "text": "This is why compound words are especially employed by dithyrambic poets, who are full of noise; strange words by epic poets, for they imply dignity and self-assertion; metaphor to writers of iambics, who now employ them, as we have stated.",
+  "spans": [],
+  "unmarkedFigures": [
+    "tricolon"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.4a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.4",
+  "cue": "Aristotle discusses the fourth cause of frigid style and quotes Gorgias.",
+  "text": "The fourth cause of frigidity of style is to be found in metaphors; for metaphors also are inappropriate, some because they are ridiculous—for the comic poets also employ them—others because they are too dignified and somewhat tragic; and if they are farfetched, they are obscure, as when Gorgias says: “Affairs pale and bloodless”; “you have sown shame and reaped misfortune”; for this is too much like poetry.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "antithesis",
+    "tricolon",
+    "parenthesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.4b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.4",
+  "cue": "Aristotle quotes two phrases of Alcidamas, one on philosophy and one on the Odyssey.",
+  "text": "And as Alcidamas calls philosophy “a bulwark of the laws,” and the Odyssey “a beautiful mirror of human life,”…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.4c",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.4",
+  "cue": "Aristotle tells what Gorgias said to a swallow. In the myth, Philomela was a young woman who was turned into a swallow.",
+  "text": "As for what Gorgias said to the swallow which, flying over his head, let fall her droppings upon him, it was in the best tragic style. He exclaimed, “Fie, for shame, Philomela!”; for there would have been nothing in this act disgraceful for a bird, whereas it would have been for a young lady. The reproach therefore was appropriate, addressing her as she was, not as she is.",
+  "spans": [],
+  "unmarkedFigures": [
+    "apostrophe",
+    "exclamatio",
+    "antithesis",
+    "metaphor",
+    "personification",
+    "irony"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.1",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.1",
+  "cue": "Aristotle begins his account of the simile with a line of Homer about Achilles.",
+  "text": "The simile also is a metaphor; for there is very little difference. When the poet says of Achilles, he rushed on like a lion, it is a simile; if he says, “a lion, he rushed on,” it is a metaphor; for because both are courageous, he transfers the sense and calls Achilles a lion.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.2",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.2",
+  "cue": "Aristotle says whether the simile belongs in prose.",
+  "text": "The simile is also useful in prose, but should be less frequently used, for there is something poetical about it. Similes must be used like metaphors, which only differ in the manner stated.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.3a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.3",
+  "cue": "Aristotle begins a list of similes used by orators and writers. Idrieus was a prince of Caria who had been held in prison.",
+  "text": "Androtion said of Idrieus that he was like curs just unchained…",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.3b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.3",
+  "cue": "Aristotle quotes similes from Plato’s Republic.",
+  "text": "Again, Plato in the Republic compares those who strip the dead to curs, which bite stones, but do not touch those who throw them; he also says that the people is like a ship's captain who is vigorous, but rather deaf; that poets' verses resemble those who are in the bloom of youth but lack beauty…",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor",
+    "tricolon"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.3c",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.3",
+  "cue": "Aristotle quotes two similes of Pericles, one on the Samians and one on the Boeotians.",
+  "text": "Pericles said that the Samians were like children who cry while they accept the scraps. He also compared the Boeotians to holm-oaks…",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.3d",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.3",
+  "cue": "Aristotle quotes a simile of the philosopher Antisthenes about a man named Cephisodotus.",
+  "text": "Antisthenes likened the skinny Cephisodotus to incense…",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.4",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.4",
+  "cue": "Aristotle gives a rule for the metaphor from proportion. Dionysus is the god of wine, and Ares the god of war.",
+  "text": "But in all cases the metaphor from proportion should be reciprocal and applicable to either of the two things of the same genus; for instance, if the goblet is the shield of Dionysus…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.4",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.4",
+  "cue": "Aristotle has said that those who use the art of style must conceal it. Theodorus was a famous tragic actor.",
+  "text": "For men become suspicious of one whom they think to be laying a trap for them, as they are of mixed wines. Such was the case with the voice of Theodorus as contrasted with that of the rest of the actors; for his seemed to be the voice of the speaker, that of the others the voice of someone else.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.10a",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.10",
+  "cue": "Aristotle gives examples of two names for the same people.",
+  "text": "And some call actors flatterers of Dionysus, whereas they call themselves “artists.” Both these names are metaphors, but the one is a term of abuse, the other the contrary. Similarly, pirates now call themselves purveyors…",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.10b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.10",
+  "cue": "Aristotle judges a line from the Telephus of Euripides, in which a man describes his voyage.",
+  "text": "The saying in the Telephus of Euripides, Ruling over the oar and having landed in Mysia, is inappropriate, because the word ruling exceeds the dignity of the subject, and so the artifice can be seen.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.11",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.11",
+  "cue": "Aristotle judges a metaphor of the poet Dionysius. Calliope is the Muse of epic poetry.",
+  "text": "Forms of words also are faulty, if they do not express an agreeable sound; for instance, Dionysius the Brazen in his elegiacs speaks of poetry as the scream of Calliope; both are sounds, but the metaphor is bad, because the sounds have no meaning.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.12",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.12",
+  "cue": "Aristotle quotes a riddle about the cupping-glass, a heated cup that physicians pressed onto the skin.",
+  "text": "Further, metaphors must not be far-fetched, but we must give names to things that have none by deriving the metaphor from what is akin and of the same kind, so that, as soon as it is uttered, it is clearly seen to be akin, as in the famous enigma, I saw a man who glued bronze with fire upon another. There was no name for what took place, but as in both cases there is a kind of application, he called the application of the cupping-glass gluing.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.14",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.14",
+  "cue": "Aristotle tells a story about the poet Simonides and the winner of a mule-race. A mule is the offspring of a horse and an ass.",
+  "text": "When the winner in a mule-race offered Simonides a small sum, he refused to write an ode, as if he thought it beneath him to write on half-asses; but when he gave him a sufficient amount, he wrote, Hail, daughters of storm-footed steeds! and yet they were also the daughters of asses.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "epithet",
+    "apostrophe",
+    "irony"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.15",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.15",
+  "cue": "Aristotle discusses diminutives, the forms of a word that name a small thing.",
+  "text": "It is the diminutive which makes the good and the bad appear less, as Aristophanes in the Babylonians jestingly uses “goldlet, cloaklet, affrontlet, diseaselet” instead of “gold, cloak, affront, disease.”",
+  "spans": [],
+  "unmarkedFigures": [
+    "asyndeton",
+    "enumeratio",
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
 }
 ];
