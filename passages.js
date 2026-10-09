@@ -7940,5 +7940,833 @@ window.PASSAGES = [
   "src": [
     "webster_w"
   ]
+},
+{
+  "id": "cic-arch-8",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "8",
+  "cue": "Cicero says that the case for Archias’s citizenship is already proved, and he calls Lucius Lucullus as a witness.",
+  "text": "If we have nothing else to speak about except the rights of citizenship and the law, I need say no more. The cause is over. For which of all these statements, O Gratius, can be invalidated? Will you deny that he was enrolled, at the time I speak of, as a citizen of Heraclea? There is a man present of the very highest authority, a most scrupulous and truthful man, Lucius Lucullus, who will tell you not that he thinks it, but that he knows it; not that he has heard of it, but that he saw it; not even that he was present when it was done, but that he actually did it himself.",
+  "spans": [
+    {
+      "start": 124,
+      "end": 189,
+      "figure": "rhetorical question",
+      "why": "Cicero does not expect Gratius to name a statement; the question asserts that none of them can be refuted."
+    },
+    {
+      "start": 401,
+      "end": 577,
+      "figure": "climax",
+      "why": "The witness rises by steps from knowing it, to seeing it, to having done it himself, and each step is stronger than the one before."
+    },
+    {
+      "start": 401,
+      "end": 444,
+      "figure": "antithesis",
+      "why": "Thinking a thing is set against knowing it, and the second is the stronger claim."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "tricolon",
+    "isocolon",
+    "apostrophe"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-14",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "14",
+  "cue": "Cicero says that literature preserves the examples of brave men, and that he has kept those examples before him in public life.",
+  "text": "But all books are full of such precepts, and all the sayings of philosophers, and all antiquity is full of precedents teaching the same lesson; but all these things would lie buried in darkness, if the light of literature and learning were not applied to them. How many images of the bravest men, carefully elaborated, have both the Greek and Latin writers bequeathed to us, not merely for us to look at and gaze upon, but also for our imitation! And I, always keeping them before my eyes as examples for my own public conduct, have endeavoured to model my mind and views by continually thinking of those excellent men.",
+  "spans": [
+    {
+      "start": 4,
+      "end": 117,
+      "figure": "anaphora",
+      "why": "The word “all” begins each of the three members: all books, all the sayings of philosophers, all antiquity."
+    },
+    {
+      "start": 148,
+      "end": 259,
+      "figure": "metaphor",
+      "why": "Precepts and examples without literature are said to lie buried in darkness, and literature is called the light that shows them."
+    },
+    {
+      "start": 261,
+      "end": 446,
+      "figure": "exclamatio",
+      "why": "The sentence is an exclamation of wonder at the number of examples the Greek and Latin writers have left."
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "polysyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-16",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "16",
+  "cue": "Cicero argues that even if literature brought no other advantage, the pleasure it gives would justify the study.",
+  "text": "Though, even if there were no such great advantage to be reaped from it, and if it were only pleasure that is sought from these studies, still I imagine you would consider it a most reasonable and liberal employment of the mind: for other occupations are not suited to every time, nor to every age or place; but these studies are the food of youth, the delight of old age; the ornament of prosperity, the refuge and comfort of adversity; a delight at home, and no hindrance abroad; they are companions by night, and in travel, and in the country.",
+  "spans": [
+    {
+      "start": 312,
+      "end": 480,
+      "figure": "antithesis",
+      "why": "Each pair sets opposites side by side: youth and old age, prosperity and adversity, home and abroad."
+    },
+    {
+      "start": 312,
+      "end": 347,
+      "figure": "metaphor",
+      "why": "Studies are called the food of youth, because they nourish the young mind as food nourishes the body."
+    },
+    {
+      "start": 482,
+      "end": 545,
+      "figure": "personification",
+      "why": "The studies are made companions who go with us by night, on a journey, and into the country."
+    }
+  ],
+  "unmarkedFigures": [
+    "asyndeton",
+    "isocolon",
+    "tricolon",
+    "polysyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-18",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "18",
+  "cue": "After describing Archias’s gift for composing verses on the spot, Cicero says why poets are called holy.",
+  "text": "Should not I, then, love this man? should I not admire him? should not I think it my duty to defend him in every possible way? And, indeed, we have constantly heard from men of the greatest eminence and learning, that the study of other sciences was made up of learning, and rules, and regular method; but that a poet was such by the unassisted work of nature, and was moved by the vigour of his own mind, and was inspired, as it were, by some divine wrath. Wherefore rightly does our own great Ennius call poets holy; because they seem to be recommended to us by some especial gift, as it were, and liberality of the gods.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 126,
+      "figure": "rhetorical question",
+      "why": "The questions ask for no answer; each one asserts that Cicero must love, admire, and defend Archias."
+    },
+    {
+      "start": 0,
+      "end": 126,
+      "figure": "tricolon",
+      "why": "Three questions are coordinated, on loving, admiring, and defending Archias, and the third is the longest."
+    },
+    {
+      "start": 218,
+      "end": 359,
+      "figure": "antithesis",
+      "why": "Other studies are made of learning and rules, but the poet is made by nature."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "asyndeton",
+    "isocolon",
+    "polysyndeton",
+    "climax"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-19",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "19",
+  "cue": "Cicero asks the judges to hold the name of poet holy, as even barbarians do.",
+  "text": "Let then, judges, this name of poet, this name which no barbarians even have ever disregarded, be holy in your eyes, men of cultivated minds as you all are. Rocks and deserts reply to the poet's voice; savage beasts are often moved and arrested by song; and shall we, who have been trained in the pursuit of the most virtuous acts, refuse to be swayed by the voice of poets?",
+  "spans": [
+    {
+      "start": 18,
+      "end": 93,
+      "figure": "anaphora",
+      "why": "The words “this name” begin two members in succession."
+    },
+    {
+      "start": 157,
+      "end": 200,
+      "figure": "personification",
+      "why": "Rocks and deserts are given a voice with which to answer the poet."
+    },
+    {
+      "start": 254,
+      "end": 374,
+      "figure": "rhetorical question",
+      "why": "The question is a charge, since men trained in virtue ought to be moved by poets if rocks and beasts are moved by song."
+    }
+  ],
+  "unmarkedFigures": [
+    "antithesis",
+    "hyperbole",
+    "litotes"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-21",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "21",
+  "cue": "Cicero argues that the poems on Lucullus’s war against Mithridates bring glory to the whole Roman people.",
+  "text": "Ours is the glory which will be for ever celebrated, which is derived from the fleet of the enemy which was sunk after its admirals had been slain, and from the marvellous naval battle off Tenedos: those trophies belong to us, those monuments are ours, those triumphs are ours. Therefore, I say that the men by whose genius these exploits are celebrated, make illustrious at the same time the glory of the Roman people.",
+  "spans": [
+    {
+      "start": 198,
+      "end": 276,
+      "figure": "tricolon",
+      "why": "Three short members, on trophies, monuments, and triumphs, claim the victory for the Roman people."
+    },
+    {
+      "start": 198,
+      "end": 276,
+      "figure": "anaphora",
+      "why": "The word “those” begins each of the three members."
+    }
+  ],
+  "unmarkedFigures": [
+    "asyndeton",
+    "isocolon",
+    "epistrophe"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-25",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "25",
+  "cue": "Cicero answers the charge that Archias had no claim to Roman citizenship by pointing to generals who gave it freely.",
+  "text": "Therefore, I suppose, if Archias were not a Roman citizen according to the laws, he could not have contrived to get presented with the freedom of the city by some general! Sulla, when he was giving it to the Spaniards and Gauls, would, I suppose, have refused him if he had asked for it! a man whom we ourselves saw in the public assembly, when a bad poet of the common people had put a book in his hand, because he had made an epigram on him with every other verse too long, immediately ordered some of the things which he was selling at the moment to be given him as a reward, on condition of not writing anything more about him for the future. Would not he who thought the industry of a bad poet still worthy of some reward, have sought out the genius, and excellence, and copiousness in writing of this man?",
+  "spans": [
+    {
+      "start": 0,
+      "end": 287,
+      "figure": "irony",
+      "why": "Cicero means the opposite of what he says, since Archias could easily have had the citizenship from a general and so had no reason to claim it falsely."
+    },
+    {
+      "start": 647,
+      "end": 811,
+      "figure": "rhetorical question",
+      "why": "The question argues from the lesser to the greater, because if Sulla rewarded a bad poet, he would surely have sought out a good one."
+    }
+  ],
+  "unmarkedFigures": [
+    "polysyndeton",
+    "exclamatio"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-arch-29",
+  "author": "Cicero",
+  "work": "For Archias",
+  "locus": "29",
+  "cue": "Cicero says that the hope of fame after death is what moves good men to undertake great labors.",
+  "text": "Certainly, if the mind had no anticipations of posterity, and if it were to confine all its thoughts within the same limits as those by which the space of our lives is bounded, it would neither break itself with such severe labours, nor would it be tormented with such cares and sleepless anxiety, nor would it so often have to fight for its very life. At present there is a certain virtue in every good man, which night and day stirs up the mind with the stimulus of glory, and reminds it that all mention of our name will not cease at the same time with our lives, but that our fame will endure to all posterity.",
+  "spans": [
+    {
+      "start": 177,
+      "end": 351,
+      "figure": "tricolon",
+      "why": "Three members, each beginning with “neither” or “nor,” name the labors the mind would be spared."
+    },
+    {
+      "start": 373,
+      "end": 489,
+      "figure": "personification",
+      "why": "Virtue is made an agent that stirs up the mind night and day and reminds it of posterity."
+    },
+    {
+      "start": 495,
+      "end": 613,
+      "figure": "antithesis",
+      "why": "Fame that ceases with our lives is set against fame that endures to all posterity."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "polysyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-milo-10",
+  "author": "Cicero",
+  "work": "Pro Milone",
+  "locus": "10",
+  "cue": "Cicero argues that a man whose life is attacked by a plotter may lawfully defend himself, even by killing.",
+  "text": "But what death can be unjust when inflicted on a secret plotter and robber? What is the meaning of our retinues, what of our swords? Surely it would never be permitted to us to have them if we might never use them. This, therefore, is a law, O judges, not written, but born with us,—which we have not learnt or received by tradition, or read, but which we have taken and sucked in and imbibed from nature herself; a law which we were not taught but to which we were made,—which we were not trained in, but which is ingrained in us,—namely, that if our life be in danger from plots, or from open violence, or from the weapons of robbers or enemies, every means of securing our safety is honourable.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 75,
+      "figure": "rhetorical question",
+      "why": "The question asks for no answer; it asserts that the death of a plotter and robber cannot be unjust."
+    },
+    {
+      "start": 235,
+      "end": 281,
+      "figure": "antithesis",
+      "why": "Written law is set against the law that is born with us."
+    },
+    {
+      "start": 472,
+      "end": 530,
+      "figure": "antithesis",
+      "why": "Being trained in a law is set against having it ingrained by nature."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "tricolon",
+    "isocolon",
+    "polysyndeton",
+    "sententia"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-milo-59",
+  "author": "Cicero",
+  "work": "Pro Milone",
+  "locus": "59",
+  "cue": "Cicero answers the evidence taken from Clodius’s slaves by asking who arranged their examination.",
+  "text": "But now the examinations which have just been conducted in the hall of liberty, are said to press against Milo? Who are the slaves who have been examined? Do you ask? The slaves of Publius Clodius. Who demanded that they should be examined? Appius. Who produced them? Appius. Where were they brought from? From the house of Appius. O ye good gods, what can be done with more animosity?",
+  "spans": [
+    {
+      "start": 112,
+      "end": 275,
+      "figure": "anaphora",
+      "why": "The word “Who” begins three questions in succession."
+    },
+    {
+      "start": 198,
+      "end": 331,
+      "figure": "epistrophe",
+      "why": "Each answer ends with the same name, Appius, so that the hearer sees one man behind every step."
+    },
+    {
+      "start": 348,
+      "end": 385,
+      "figure": "rhetorical question",
+      "why": "The question is a charge, and it means that nothing could be done with more animosity than this."
+    }
+  ],
+  "unmarkedFigures": [
+    "hypophora",
+    "apostrophe",
+    "exclamatio",
+    "asyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-milo-85",
+  "author": "Cicero",
+  "work": "Pro Milone",
+  "locus": "85",
+  "cue": "Cicero says that Clodius was killed near the Alban shrines he had profaned, and that the gods punished him there.",
+  "text": "That result was brought about, O judges, not by human wisdom, nor even by any moderate degree of care on the part of the immortal gods. In truth, those very holy places themselves which beheld that monster fall, appear to have been moved themselves, and to have asserted their rights over him. I implore you, I call you to witness,—you, I say, O you Alban hills and groves, and you, O you altars of the Albans, now overthrown, but nevertheless partners of and equals in honour with the sacred rites of the Roman people,—you, whom that man with headlong insanity, having cut down and destroyed the most holy groves, had overwhelmed with his insane masses of buildings; it was your power then that prevailed, it was the divinity of your altars, the religious reverence due to you, and which he had profaned by every sort of wickedness, that prevailed; and you, too, O sacred Jupiter of Latium, whose lakes and groves and boundaries he had constantly polluted with every sort of abominable wickedness and debauchery, you at last from your high and holy mountain, opened your eyes for the purpose of punishing him; it is to you, to all of you, that those punishments, late indeed, but still just and well deserved, have been made an atonement for his wickedness.",
+  "spans": [
+    {
+      "start": 146,
+      "end": 292,
+      "figure": "personification",
+      "why": "The holy places are said to have seen Clodius fall, to have been moved, and to have claimed their rights over him."
+    },
+    {
+      "start": 294,
+      "end": 409,
+      "figure": "apostrophe",
+      "why": "Cicero turns from the judges to call on the Alban hills, groves, and altars as witnesses."
+    },
+    {
+      "start": 850,
+      "end": 1109,
+      "figure": "apostrophe",
+      "why": "Cicero turns to address Jupiter of Latium, a god, and says that he at last opened his eyes to punish Clodius."
+    }
+  ],
+  "unmarkedFigures": [
+    "metaphor",
+    "anaphora",
+    "antithesis",
+    "polysyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-milo-102",
+  "author": "Cicero",
+  "work": "Pro Milone",
+  "locus": "102",
+  "cue": "In the peroration Cicero laments that he may fail to save Milo, the man who had brought him back from exile.",
+  "text": "Oh, miserable man that I am! Oh, unhappy man that I am! Were you, O Milo, able through the instrumentality of these men to recall me to my country, and cannot I through the agency of the very same men even retain you in yours? What answer shall I make to my children, who consider you a second father? What answer shall I make to you, O my brother Quintus, you who are now absent, you who were my companion in that cruel time? Shall I reply, that I was unable to preserve the safety of Milo by the instrumentality of those very men by whose means he had preserved mine? And what is the cause in which I shall have failed to do so? One which is sanctioned by all the nations of the earth. From whom must I say that I failed to procure it? From those very men who of all others have gained the greatest tranquillity by the death of Publius Clodius. And who will it be who has entreated in vain? I.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 55,
+      "figure": "exclamatio",
+      "why": "Cicero cries out his grief openly before he gives any reason for it."
+    },
+    {
+      "start": 56,
+      "end": 226,
+      "figure": "antithesis",
+      "why": "Milo’s success in bringing Cicero back is set against Cicero’s failure to keep Milo."
+    },
+    {
+      "start": 227,
+      "end": 326,
+      "figure": "anaphora",
+      "why": "The words “What answer shall I make” begin two questions in succession."
+    },
+    {
+      "start": 335,
+      "end": 425,
+      "figure": "apostrophe",
+      "why": "Cicero turns to address his brother Quintus, who is absent."
+    },
+    {
+      "start": 847,
+      "end": 895,
+      "figure": "hypophora",
+      "why": "Cicero asks a question and answers it himself with one word."
+    }
+  ],
+  "unmarkedFigures": [
+    "rhetorical question",
+    "epistrophe",
+    "isocolon"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-milo-105",
+  "author": "Cicero",
+  "work": "Pro Milone",
+  "locus": "105",
+  "cue": "These are the last words of the defense of Milo, in which Cicero says that he can no longer speak for weeping.",
+  "text": "O happy will that land be which shall receive him! Ungrateful will this land be if it banishes him; miserable if it loses him. However, I must make an end. Nor, indeed, can I speak any longer for weeping; and this man forbids me to defend him by tears. I pray and entreat you, O judges, when you are giving your votes, to dare to decide as you think just. And believe me that man will be sure greatly to approve of your virtue, and justice, and good faith; who, in selecting the judges, selected all the best, and wisest and most fearless men whom he could find.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 98,
+      "figure": "antithesis",
+      "why": "The land that receives Milo is called happy, and this land, if it banishes him, ungrateful."
+    },
+    {
+      "start": 100,
+      "end": 125,
+      "figure": "ellipsis",
+      "why": "The words “will this land be” are left out, and the hearer supplies them from the clause before."
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "exclamatio",
+    "polysyndeton",
+    "isocolon"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-marc-7",
+  "author": "Cicero",
+  "work": "Pro Marcello",
+  "locus": "7",
+  "cue": "Cicero tells Caesar that the glory of pardoning Marcellus belongs to him alone, and to no soldier and no chance.",
+  "text": "But in this glory, O Caius Caesar, which you have just earned, you have no partner. The whole of this, however great it may be,—and surely it is as great as possible,—the whole of it, I say, is your own. The centurion can claim for himself no share of that praise, neither can the prefect, nor the battalion, nor the squadron. Nay, even that very mistress of all human affairs, Fortune herself, cannot thrust herself into any participation in that glory; she yields to you; she confesses that it is all your own, your peculiar private desert. For rashness is never united with wisdom, nor is chance ever admitted to regulate affairs conducted with prudence.",
+  "spans": [
+    {
+      "start": 265,
+      "end": 325,
+      "figure": "polysyndeton",
+      "why": "The conjunction “nor” is placed before each member of the series."
+    },
+    {
+      "start": 378,
+      "end": 541,
+      "figure": "personification",
+      "why": "Fortune is made a person who would like a share of the glory, but yields it and confesses that it is Caesar’s own."
+    },
+    {
+      "start": 543,
+      "end": 657,
+      "figure": "sententia",
+      "why": "The paragraph closes with a general rule, that chance has no part in what prudence directs."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "asyndeton",
+    "apostrophe",
+    "hyperbole",
+    "epanalepsis",
+    "conduplicatio"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-marc-8",
+  "author": "Cicero",
+  "work": "Pro Marcello",
+  "locus": "8",
+  "cue": "Cicero compares Caesar’s victories over nations with his victory over his own anger in pardoning Marcellus.",
+  "text": "You have subdued nations, savage in their barbarism, countless in their numbers, boundless, if we regard the extent of country peopled by them, and rich in every kind of resource; but still you were only conquering things, the nature and condition of which was such that they could be overcome by force. For there is no strength so great that it cannot be weakened and broken by arms and violence. But to subdue one's inclinations, to master one's angry feelings, to be moderate in the hour of victory, to not merely raise from the ground a prostrate adversary, eminent for noble birth, for genius, and for virtue, but even to increase his previous dignity, —they are actions of such a nature, that the man who does them, I do not compare to the most illustrious man, but I consider equal to God.",
+  "spans": [
+    {
+      "start": 304,
+      "end": 397,
+      "figure": "sententia",
+      "why": "A general rule is stated briefly, that whatever is strong can be broken by force."
+    },
+    {
+      "start": 699,
+      "end": 795,
+      "figure": "hyperbole",
+      "why": "Cicero carries the praise past every human measure by making the man who masters himself equal to God."
+    }
+  ],
+  "unmarkedFigures": [
+    "antithesis",
+    "anaphora",
+    "tricolon",
+    "isocolon",
+    "enumeratio",
+    "asyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-marc-10",
+  "author": "Cicero",
+  "work": "Pro Marcello",
+  "locus": "10",
+  "cue": "Cicero addresses Caesar and says that the senate cannot praise him enough for his wish to preserve what the war has left to the republic.",
+  "text": "But as for you whom we behold present among us, whose mind, and feelings, and countenance, we at this moment see to be such, that you wish to preserve everything which the fortune of war has left to the republic, oh with what praises must we extol you? with what zeal must we follow you? with what affection must we devote ourselves to you! The very walls, I declare, the very walls of this senate-house appear to me eager to return you thanks; because, in a short time, you will have restored their ancient authority to this venerable abode of themselves and of their ancestors.",
+  "spans": [
+    {
+      "start": 216,
+      "end": 340,
+      "figure": "anaphora",
+      "why": "The words “with what” begin each of three members."
+    },
+    {
+      "start": 341,
+      "end": 443,
+      "figure": "personification",
+      "why": "The walls of the senate-house are said to be eager to thank Caesar."
+    }
+  ],
+  "unmarkedFigures": [
+    "tricolon",
+    "rhetorical question",
+    "apostrophe",
+    "exclamatio",
+    "epizeuxis",
+    "conduplicatio",
+    "hyperbole"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-marc-28",
+  "author": "Cicero",
+  "work": "Pro Marcello",
+  "locus": "28",
+  "cue": "Cicero urges Caesar to think of his life as the fame that will outlast his body.",
+  "text": "Nor is this to be considered your life which is contained in your body and in your breath. That,—that, I say, is your life, which will flourish in the memory of all ages; which posterity will cherish; which eternity itself will always preserve. This is what you must be subservient to; it is to this that you ought to display yourself; which indeed has long ago had many actions of yours to admire, and which now is expecting some which it may also praise. Unquestionably, posterity will stand amazed when they hear and read of your military commands,—of the provinces which you have added to the empire,—of the Rhine, of the ocean, of the Nile, all made subject to us,—of your countless battles, of your incredible victories, of your innumerable monuments and triumphs.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 122,
+      "figure": "antithesis",
+      "why": "The life of the body and breath is set against the life that lasts in fame."
+    },
+    {
+      "start": 124,
+      "end": 243,
+      "figure": "tricolon",
+      "why": "Three members, each beginning with “which,” say how his fame will last: in memory, in posterity, and in eternity."
+    },
+    {
+      "start": 525,
+      "end": 769,
+      "figure": "enumeratio",
+      "why": "Cicero lists the things posterity will read of, one after another: commands, provinces, rivers and ocean, battles, victories, monuments."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "epizeuxis",
+    "personification",
+    "hyperbole",
+    "asyndeton"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-lig-9",
+  "author": "Cicero",
+  "work": "For Ligarius",
+  "locus": "9",
+  "cue": "Cicero attacks the prosecutor Tubero, who had himself fought against Caesar at Pharsalus.",
+  "text": "But I ask this—Who is it who thinks that it was any crime in Ligarius to have been in Africa? Why, the very man who himself also wished to be in Africa, and who complains that he was prevented by Ligarius from going there, and who certainly was in arms and fought against Caesar. For, O Tubero, what was that drawn sword of yours doing in the battle of Pharsalia? against whose side was that sword-point of yours aimed? What was the feeling with which you took up arms? What was your intention? Where were your eyes? your hands? your eagerness of mind? what were you desirous of? What were you willing for? I am pressing you too hard. The young man appears to be moved. I will return to myself. I also was in arms in the same camp.",
+  "spans": [
+    {
+      "start": 15,
+      "end": 151,
+      "figure": "hypophora",
+      "why": "Cicero asks who calls it a crime to have been in Africa, and answers his own question."
+    },
+    {
+      "start": 295,
+      "end": 419,
+      "figure": "rhetorical question",
+      "why": "Cicero asks for no information; the questions charge Tubero with having fought against Caesar himself."
+    },
+    {
+      "start": 495,
+      "end": 552,
+      "figure": "asyndeton",
+      "why": "The questions follow one another with no conjunction between them."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "apostrophe",
+    "climax",
+    "tricolon"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-lig-30",
+  "author": "Cicero",
+  "work": "For Ligarius",
+  "locus": "30",
+  "cue": "Cicero says that he will plead for Ligarius as one pleads with a father, not as one pleads before a judge.",
+  "text": "Say, O Caesar, that you are sitting as judge on the conduct of Ligarius. Ask me in what garrisons he was. I make no reply. I do not even adduce these arguments, which, perhaps, might have weight even with a judge,—“He went as a lieutenant before the war broke out; he was left there in time of peace; he was overtaken by the war; in the war itself he was not cruel; he was in disposition and zeal wholly yours.” This is the way in which men are in the habit of pleading before a judge. But I am addressing a parent. “I have erred; I have acted rashly; I repent; I flee to your clemency; I beg pardon for my fault; I entreat you to pardon me.” If no one has gained such indulgence from you, it is an arrogant address.",
+  "spans": [
+    {
+      "start": 412,
+      "end": 515,
+      "figure": "antithesis",
+      "why": "Pleading before a judge is set against pleading with a parent, who is asked for pardon and not for acquittal."
+    },
+    {
+      "start": 517,
+      "end": 641,
+      "figure": "asyndeton",
+      "why": "Six short clauses follow one another with no conjunction."
+    },
+    {
+      "start": 517,
+      "end": 641,
+      "figure": "anaphora",
+      "why": "The word “I” begins each clause of the plea."
+    }
+  ],
+  "unmarkedFigures": [
+    "polysyndeton",
+    "climax"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-lig-37",
+  "author": "Cicero",
+  "work": "For Ligarius",
+  "locus": "37–38",
+  "cue": "In the last part of the speech Cicero asks Caesar to pardon Ligarius as he had pardoned Marcellus.",
+  "text": "That, therefore, which in the case of that most noble and most illustrious man, Marcus Marcellus, you lately did in the senate-house, do now also in the forum with respect to these most virtuous brothers, who are so highly esteemed by all the crowd here present. As you granted him to the senate, so grant this man to the people, whose affections you have always considered most important to you. And if that day was one most glorious to you, and at the same time most acceptable to the Roman people, do not, I entreat you,—do not hesitate to earn the praise of a glory like that as frequently as possible. For there is nothing so calculated to win the affections of the people as kindness. Of all your many virtues, there is none more admirable, none more beloved than your mercy. For there is no action by which men make a nearer approach to the gods, than by conferring safety on others.",
+  "spans": [
+    {
+      "start": 263,
+      "end": 328,
+      "figure": "isocolon",
+      "why": "Two members of equal length and shape set the senate and the people side by side."
+    },
+    {
+      "start": 607,
+      "end": 690,
+      "figure": "sententia",
+      "why": "A general rule is stated briefly, that nothing wins the people as kindness does."
+    },
+    {
+      "start": 726,
+      "end": 764,
+      "figure": "anaphora",
+      "why": "The word “none” begins two members in succession."
+    },
+    {
+      "start": 782,
+      "end": 890,
+      "figure": "sententia",
+      "why": "A general rule is stated briefly, that men come nearest to the gods by saving others."
+    }
+  ],
+  "unmarkedFigures": [
+    "antithesis",
+    "conduplicatio",
+    "epizeuxis",
+    "hyperbole"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-man-28",
+  "author": "Cicero",
+  "work": "On the Manilian Law",
+  "locus": "28",
+  "cue": "Speaking for the Manilian law, Cicero names knowledge of military affairs as the first quality of a great general and finds it in Pompey.",
+  "text": "Who, then, ever was, or ought to have been, better acquainted with military affairs than this man? who, the moment that he left school and finished his education as a boy, at a time when there was a most important war going on, and most active enemies were banded against us, went to his father's army and to the discipline of the camp; who, when scarcely out of his boyhood, became a soldier of a consummate general,—when entering on manhood, became himself the general of a mighty army; who has been more frequently engaged with the enemy, than any one else has ever disputed with an adversary; who has himself, as general, conducted more wars than other men have read of; who has subdued more provinces than other men have wished for; whose youth was trained to the knowledge of military affairs, not by the precepts of others, but by commanding himself,—not by the disasters of war, but by victories,—not by campaigns, but by triumphs.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 98,
+      "figure": "rhetorical question",
+      "why": "The question asks for no answer; it asserts that no one was ever better acquainted with military affairs than Pompey."
+    },
+    {
+      "start": 489,
+      "end": 736,
+      "figure": "anaphora",
+      "why": "The words “who has” begin three members in succession."
+    },
+    {
+      "start": 800,
+      "end": 938,
+      "figure": "antithesis",
+      "why": "Each pair sets what others learn from against what Pompey learned from: precepts against command, disasters against victories, campaigns against triumphs."
+    }
+  ],
+  "unmarkedFigures": [
+    "hyperbole",
+    "tricolon",
+    "isocolon",
+    "climax"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-man-30",
+  "author": "Cicero",
+  "work": "On the Manilian Law",
+  "locus": "30",
+  "cue": "Cicero calls the lands Pompey has defended to bear witness to his courage.",
+  "text": "Italy is my witness, which that illustrious conqueror himself, Lucius Sulla, confessed had been delivered by this man's valour and ready assistance. Sicily is my witness, which he released when it was surrounded on all sides by many dangers, not by the dread of his power, but by the promptitude of his wisdom. Africa is my witness, which, having been overwhelmed by numerous armies of enemies, overflowed with the blood of those same enemies. Gaul is my witness, through which a road into Spain was laid open to our legions by the destruction of the Gauls. Spain is my witness, which has repeatedly seen our many enemies there defeated and subdued by this man.",
+  "spans": [
+    {
+      "start": 0,
+      "end": 148,
+      "figure": "personification",
+      "why": "Italy, and after it Sicily, Africa, Gaul, and Spain, are called as witnesses, as if they were persons who could testify."
+    },
+    {
+      "start": 242,
+      "end": 309,
+      "figure": "antithesis",
+      "why": "The fear of his power is set against the quickness of his wisdom."
+    }
+  ],
+  "unmarkedFigures": [
+    "anaphora",
+    "epistrophe",
+    "enumeratio",
+    "isocolon",
+    "metaphor",
+    "hyperbole"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
+},
+{
+  "id": "cic-man-35",
+  "author": "Cicero",
+  "work": "On the Manilian Law",
+  "locus": "35",
+  "cue": "Cicero sums up how quickly Pompey cleared the sea of pirates.",
+  "text": "And thus Cnaeus Pompeius at the end of winter prepared, at the beginning of spring undertook, and by the middle of summer terminated, this most important war, which had lasted so long, which was scattered in such distant and such various places, and by which every nation and country was incessantly distressed.",
+  "spans": [
+    {
+      "start": 25,
+      "end": 132,
+      "figure": "tricolon",
+      "why": "Three members name the season and the stage of the war: preparing, beginning, and finishing it."
+    },
+    {
+      "start": 25,
+      "end": 132,
+      "figure": "isocolon",
+      "why": "The three members have the same shape, a time of year followed by a verb."
+    }
+  ],
+  "unmarkedFigures": [
+    "climax",
+    "anaphora",
+    "polysyndeton",
+    "hyperbole"
+  ],
+  "src": [
+    "cic_yonge"
+  ]
 }
 ];
