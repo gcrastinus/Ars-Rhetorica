@@ -1082,7 +1082,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.1",
     "cue": "This is the first of Gregory's pairs, where the same vice is not cured by the same word.",
-    "text": "Differently, then, to be admonished are men and women; because on the former heavier injunctions, on the latter lighter are to be laid, that those may be exercised by great things, but these winningly converted by light ones. (Admonition 2.) Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1. Chapter 2 How the poor and the rich should be admonished.",
+    "text": "Differently, then, to be admonished are men and women; because on the former heavier injunctions, on the latter lighter are to be laid, that those may be exercised by great things, but these winningly converted by light ones. (Admonition 2.) Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1.",
     "spans": [
       {
         "start": 63,
@@ -2820,7 +2820,7 @@ window.PASSAGES = [
     "work": "Pastoral Rule",
     "locus": "III.1",
     "cue": "Young and old: severity for the one, entreaty for the other, as Paul wrote of an elder.",
-    "text": "Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1. Chapter 2 How the poor and the rich should be admonished. (Admonition 3.) Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation.",
+    "text": "Differently to be admonished are young men and old; because for the most part severity of admonition directs the former to improvement, while kind remonstrance disposes the latter to better deeds. For it is written, Rebuke not an elder, but entreat him as a father 1 Timothy 5:1. (Admonition 3.) Differently to be admonished are the poor and the rich: for to the former we ought to offer the solace of comfort against tribulation, but in the latter to induce fear as against elation.",
     "spans": [
       {
         "start": 78,
@@ -4051,7 +4051,7 @@ window.PASSAGES = [
     "work": "Letters",
     "locus": "93.1",
     "cue": "A letter of controversy: the Donatist addressed as brother, then refuted.",
-    "text": "To Vincentius, My Brother Dearly Beloved, Augustin Sends Greeting. Chap. I. 1. I have received a letter which I believe to be from you to me: at least I have not thought this incredible, for the person who brought it is one whom I know to be a Catholic Christian, and who, I think, would not dare to impose upon me. But even though the letter may perchance not be from you, I have considered it necessary to write a reply to the author, whoever he may be. You know me now to be more desirous of rest, and earnest in seeking it, than when you knew me in my earlier years at Carthage, in the lifetime of your immediate predecessor Rogatus. But we are precluded from this rest by the Donatists, the repression and correction of whom, by the powers which are ordained of God, appears to me to be labour not in vain.",
+    "text": "To Vincentius, My Brother Dearly Beloved, Augustin Sends Greeting. I have received a letter which I believe to be from you to me: at least I have not thought this incredible, for the person who brought it is one whom I know to be a Catholic Christian, and who, I think, would not dare to impose upon me. But even though the letter may perchance not be from you, I have considered it necessary to write a reply to the author, whoever he may be. You know me now to be more desirous of rest, and earnest in seeking it, than when you knew me in my earlier years at Carthage, in the lifetime of your immediate predecessor Rogatus. But we are precluded from this rest by the Donatists, the repression and correction of whom, by the powers which are ordained of God, appears to me to be labour not in vain.",
     "spans": [
       {
         "start": 15,
@@ -4077,21 +4077,8 @@ window.PASSAGES = [
     "work": "Sermons on the New Testament",
     "locus": "Sermon 1",
     "cue": "A sermon opening: the evangelists' agreement as a rhetorical problem of witnesses.",
-    "text": "Sermon I. [LI. Benedictine Edition.] Of the agreement of the evangelists Matthew and Luke in the generations of the Lord. 1. May He, beloved, fulfil your expectation who hath awakened it: for though I feel confident that what I have to say is not my own, but God's, yet with far more reason do I say, what the Apostle in his humility saith, \"We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.\" [1685] I do not doubt accordingly that you remember my promise; in Him I made it through whom I now fulfil it, for both when I made the promise, did I ask of the Lord, and now when I fulfil it, do I receive of Him.",
-    "spans": [
-      {
-        "start": 0,
-        "end": 9,
-        "figure": "exordium",
-        "why": "This is the school-numbering of the NPNF; the speech itself follows."
-      },
-      {
-        "start": 37,
-        "end": 120,
-        "figure": "definition",
-        "why": "The issue is named before the proof."
-      }
-    ],
+    "text": "May He, beloved, fulfil your expectation who hath awakened it: for though I feel confident that what I have to say is not my own, but God's, yet with far more reason do I say, what the Apostle in his humility saith, \"We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.\" [1685] I do not doubt accordingly that you remember my promise; in Him I made it through whom I now fulfil it, for both when I made the promise, did I ask of the Lord, and now when I fulfil it, do I receive of Him.",
+    "spans": [],
     "track": "augustine",
     "species": "epideictic",
     "src": [
