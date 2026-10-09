@@ -7492,5 +7492,294 @@ window.PASSAGES = [
   "src": [
     "arist_freese"
   ]
+},
+{
+  "id": "thuc-arch-money",
+  "author": "Archidamus (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "1.83",
+  "cue": "Archidamus, king of Sparta, advises the Spartans not to vote for war with Athens before they are ready.",
+  "text": "The Athenians have allies as numerous as our own, and allies that pay tribute, and war is a matter not so much of arms as of money, which makes arms of use. And this is more than ever true in a struggle between a continental and a maritime power.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis",
+    "sententia",
+    "conduplicatio"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-ath-weaker",
+  "author": "The Athenian envoys (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "1.76",
+  "cue": "Athenian envoys at Sparta answer the charge that Athens holds its empire unjustly.",
+  "text": "It follows that it was not a very wonderful action, or contrary to the common practice of mankind, if we did accept an empire that was offered to us, and refused to give it up under the pressure of three of the strongest motives, fear, honour, and interest. And it was not we who set the example, for it has always been law that the weaker should be subject to the stronger.",
+  "spans": [],
+  "unmarkedFigures": [
+    "enumeratio",
+    "tricolon",
+    "sententia",
+    "litotes",
+    "occupatio"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-per-141",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "1.141",
+  "cue": "Pericles compares the resources of the Peloponnesians with those of Athens.",
+  "text": "Capital, it must be remembered, maintains a war more than forced contributions. Farmers are a class of men that are always more ready to serve in person than in purse.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "sententia",
+    "antithesis"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-per-142",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "1.142",
+  "cue": "Pericles answers the fear that the Peloponnesians will build a navy to match the Athenian fleet.",
+  "text": "It must be kept in mind that seamanship, just like anything else, is a matter of art, and will not admit of being taken up occasionally as an occupation for times of leisure; on the contrary, it is so exacting as to leave leisure for nothing else.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "sententia",
+    "antithesis",
+    "conduplicatio",
+    "correctio",
+    "simile"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-per-143",
+  "author": "Pericles (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "1.143",
+  "cue": "Pericles advises the Athenians not to meet the larger Peloponnesian army in a pitched battle.",
+  "text": "A victory would only be succeeded by another battle against the same superiority: a reverse involves the loss of our allies, the source of our strength, who will not remain quiet a day after we become unable to march against them.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis",
+    "isocolon"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-herm-nature",
+  "author": "Hermocrates (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "4.61",
+  "cue": "Hermocrates of Syracuse urges the Sicilian cities, meeting at Gela, to make peace among themselves.",
+  "text": "That the Athenians should cherish this ambition and practise this policy is very excusable; and I do not blame those who wish to rule, but those who are over-ready to serve. It is just as much in men’s nature to rule those who submit to them, as it is to resist those who molest them; one is not less invariable than the other.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis",
+    "sententia",
+    "litotes"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-herm-examples",
+  "author": "Hermocrates (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "4.62",
+  "cue": "Hermocrates warns any city that is sure of winning its quarrel by right or by force.",
+  "text": "Let him remember that many before now have tried to chastise a wrongdoer, and failing to punish their enemy have not even saved themselves; while many who have trusted in force to gain an advantage, instead of gaining anything more, have been doomed to lose what they had.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis",
+    "isocolon"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-herm-concede",
+  "author": "Hermocrates (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "4.64",
+  "cue": "Hermocrates says what Syracuse, the greatest city at the congress, is willing to give up.",
+  "text": "For myself, though, as I said at first, the representative of a great city, and able to think less of defending myself than of attacking others, I am prepared to concede something in prevision of these dangers. I am not inclined to ruin myself for the sake of hurting my enemies, or so blinded by animosity as to think myself equally master of my own plans and of fortune which I cannot command; but I am ready to give up anything in reason.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-bras-party",
+  "author": "Brasidas (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "4.86",
+  "cue": "Brasidas, the Spartan general, asks the people of Acanthus to open their gates and leave the Athenian alliance.",
+  "text": "Some of you may hang back because they have private enemies, and fear that I may put the city into the hands of a party: none need be more tranquil than they. I am not come here to help this party or that; and I do not consider that I should be bringing you freedom in any real sense, if I should disregard your constitution, and enslave the many to the few or the few to the many.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "chiasmus",
+    "antithesis",
+    "occupatio"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-nic-native",
+  "author": "Nicias (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "7.61",
+  "cue": "Nicias speaks to the Athenian army at Syracuse before the last battle in the harbor.",
+  "text": "Soldiers of the Athenians and of the allies, we have all an equal interest in the coming struggle, in which life and country are at stake for us quite as much as they can be for the enemy; since if our fleet wins the day, each can see his native city again, wherever that city may be. You must not lose heart, or be like men without any experience, who fail in a first essay and ever afterwards fearfully forebode a future as disastrous.",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "thuc-plat-compassion",
+  "author": "The Plataeans (Thucydides)",
+  "work": "History of the Peloponnesian War",
+  "locus": "3.59",
+  "cue": "The Plataeans, who have surrendered to the Spartans, plead for their lives before the Spartan judges.",
+  "text": "…it were more so to spare us and to yield to the impressions of a reasonable compassion; reflecting not merely on the awful fate in store for us, but also on the character of the sufferers, and on the impossibility of predicting how soon misfortune may fall even upon those who deserve it not.",
+  "spans": [],
+  "unmarkedFigures": [
+    "tricolon",
+    "enumeratio"
+  ],
+  "src": [
+    "thuc_crawley"
+  ]
+},
+{
+  "id": "dem-phil1-23",
+  "author": "Demosthenes",
+  "work": "First Philippic",
+  "locus": "23",
+  "cue": "Demosthenes explains why the force he proposes against Philip is of the size it is.",
+  "text": "The size of the force, men of Athens, is determined by the fact that we cannot at present provide an army capable of meeting Philip in the open field; we must make plundering forays, and our warfare must at first be of a predatory nature. Consequently the force must not be over-big—we could then neither pay nor feed it—any more than it must be wholly insignificant.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis",
+    "parenthesis"
+  ],
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "dem-phil1-31",
+  "author": "Demosthenes",
+  "work": "First Philippic",
+  "locus": "31–32",
+  "cue": "Demosthenes argues that Athens needs a standing force against Philip.",
+  "text": "…most of Philip's plans are successfully carried out because he takes advantage of winds and seasons; for he waits for the Etesian winds or the winter-season, and only attacks when it would be impossible for us to effect a passage to the scene of action. Bearing this in mind, we must not carry on the war by means of isolated expeditions; we shall always be too late.",
+  "spans": [],
+  "species": "deliberative",
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "dem-phil3-8",
+  "author": "Demosthenes",
+  "work": "Third Philippic",
+  "locus": "8",
+  "cue": "Demosthenes asks whether Athens is really at peace with Philip.",
+  "text": "But if another with weapons in his hands and a large force about him holds out to you the name of peace, while his own acts are acts of war, what course remains open to us but that of resistance?",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "rhetorical question",
+    "antithesis"
+  ],
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "dem-phil3-16",
+  "author": "Demosthenes",
+  "work": "Third Philippic",
+  "locus": "16",
+  "cue": "Demosthenes answers those who say that Philip’s seizure of a few small places does not matter to Athens.",
+  "text": "For whether these acts were trifles which could have no interest for you is another matter; but the principles of religion and justice, whether a man transgress them in small things or great, have always the same force.",
+  "spans": [],
+  "species": "deliberative",
+  "unmarkedFigures": [
+    "antithesis",
+    "sententia"
+  ],
+  "src": [
+    "demosth"
+  ]
+},
+{
+  "id": "lys-12-18",
+  "author": "Lysias",
+  "work": "Against Eratosthenes",
+  "locus": "12.18",
+  "cue": "Lysias tells how the Thirty treated the body of his brother Polemarchus, whom they had put to death.",
+  "text": "And when he was being brought away dead from the prison, although we had three houses amongst us, they did not permit his funeral to be conducted from any of them, but they hired a small hut in which to lay him out. We had plenty of cloaks, yet they refused our request of one for the funeral; but our friends gave either a cloak, or a pillow, or whatever each had to spare, for his interment.",
+  "spans": [],
+  "species": "forensic",
+  "unmarkedFigures": [
+    "antithesis",
+    "polysyndeton",
+    "tricolon"
+  ],
+  "src": [
+    "lysias_lamb"
+  ]
+},
+{
+  "id": "lys-12-19",
+  "author": "Lysias",
+  "work": "Against Eratosthenes",
+  "locus": "12.19",
+  "cue": "Lysias describes how the Thirty plundered his family’s house.",
+  "text": "…and yet to what extremes of insatiable greed for gain did they go, in this revelation that they made of their personal character! For some twisted gold earrings, which Polemarchus's wife had in her possession when she first came into his house, were taken out of her ears by Melobius.",
+  "spans": [],
+  "species": "forensic",
+  "unmarkedFigures": [
+    "exclamatio"
+  ],
+  "src": [
+    "lysias_lamb"
+  ]
 }
 ];
