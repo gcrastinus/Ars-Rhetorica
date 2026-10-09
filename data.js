@@ -1324,8 +1324,8 @@ EX.debates = {
     return mcQ({
       prompt:'This voice is arguing which claim?',
       options:[who.claim, other.claim,
-               'The speech is only a list of the parts of an oration.',
-               'The hearer is asked only to name a figure of speech.'],
+               'The speaker declines to take either side in the question.',
+               'The speaker asks only to be admired.'],
       correct:0,
       passage: p ? esc(excerpt(p, 280)) : '',
       source: who.who+' — '+d.locus, src: d.src,
