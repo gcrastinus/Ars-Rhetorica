@@ -3699,7 +3699,6 @@ window.PASSAGES = [
         "why": "Creon turns her love into a taunt."
       }
     ],
-    "species": "forensic",
     "track": "drama",
     "src": [
       "soph_storr"
@@ -3726,7 +3725,6 @@ window.PASSAGES = [
         "why": "His name is offered as his credit, and it also prepares the irony to come."
       }
     ],
-    "species": "deliberative",
     "track": "drama",
     "src": [
       "soph_storr"
@@ -3759,7 +3757,6 @@ window.PASSAGES = [
         "why": "The two gifts are named as the city's order."
       }
     ],
-    "species": "epideictic",
     "track": "plato",
     "src": [
       "plato_jowett"
@@ -3973,8 +3970,7 @@ window.PASSAGES = [
     "track": "augustine",
     "src": [
       "ddc"
-    ],
-    "species": "epideictic"
+    ]
   },
   {
     "id": "aug-ddc-17",
@@ -4008,8 +4004,7 @@ window.PASSAGES = [
     "track": "augustine",
     "src": [
       "ddc"
-    ],
-    "species": "epideictic"
+    ]
   },
   {
     "id": "aug-ddc-24",
@@ -4080,7 +4075,6 @@ window.PASSAGES = [
     "text": "May He, beloved, fulfil your expectation who hath awakened it: for though I feel confident that what I have to say is not my own, but God's, yet with far more reason do I say, what the Apostle in his humility saith, \"We have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.\" [1685] I do not doubt accordingly that you remember my promise; in Him I made it through whom I now fulfil it, for both when I made the promise, did I ask of the Lord, and now when I fulfil it, do I receive of Him.",
     "spans": [],
     "track": "augustine",
-    "species": "epideictic",
     "src": [
       "aug_npnf"
     ]
