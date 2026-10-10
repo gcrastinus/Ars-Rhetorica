@@ -1731,7 +1731,7 @@ EX.lexis = {
 };
 EX.effects = {
   id:'effects', title:'Choosing among Correct Sentences',
-  instr:'Each question gives a short passage and three or four versions of the sentence that follows it. Every version is correct and says the same thing, but the versions differ in order, voice, or construction. Choose the version that has the effect the question names. Ten questions make a set; an item is not repeated in the set.',
+  instr:'Each question gives a short passage and three or four versions of the sentence that follows it. Every version is correct and says the same thing, but the versions differ in order, voice, or construction. We choose the version that has the effect the question names. Ten questions make a set; an item is not repeated in the set.',
   src:['appown','quint','arist_freese','cic_orat'],
   gen(diff){
     const e = pickSeen(itemPool('EFFECT_ITEMS', EFFECT_ITEMS), x => 're:'+x.id);
@@ -2092,7 +2092,7 @@ const ACTS = [
      {kind:'deck', deck:'logos', tag:'TUTORIAL', title:'Enthymeme, example, topics', desc:'The rhetorical syllogism (enthymeme) and the example (paradeigma). A premise the hearers supply is not a defect.'},
      {kind:'ex', ex:'enthymeme', tag:'EXERCISE', title:'Supply the missing premise', desc:'Name the unspoken premise in Cicero, Antiphon, Gorgias, Thucydides, Sophocles, Plato.'},
      {kind:'ex', ex:'stasis', tag:'EXERCISE', title:'The issue (status)', desc:'Fact, definition, quality, or transference: on which issue does the case stand, in Cicero’s examples and in real speeches?'},
-     {kind:'ex', ex:'topics', tag:'EXERCISE', title:'The topics', desc:'From which topic is the argument drawn, in Aristotle’s list in the Rhetoric and in Cicero’s Topics?'}
+     {kind:'ex', ex:'topics', tag:'EXERCISE', title:'The topics', desc:'The set asks from which topic the argument is drawn, in Aristotle’s list in the Rhetoric and in Cicero’s Topics.'}
    ]},
   {roman:'III', name:'Invention · Ethos and Pathos', latin:'ethos et pathos',
    gloss:'The speaker’s character shown in the speech; Aristotle’s account of the passions; Aquinas’s passions concerning good or evil as such (concupiscible) and passions concerning the arduous good or evil (irascible); Gregory the Great’s account of the kinds of men and his contrasts of pairs of listeners.',
