@@ -624,7 +624,7 @@ const STASIS_LABELS = {
   fact:'Fact: it is disputed whether the thing was done or is so',
   definition:'Definition: the act is granted, and its name is disputed',
   quality:'Quality: the act is granted, and its character is disputed',
-  transference:'Transference: whether the action is rightly brought is disputed'
+  transference:'Transference: whether an action may be brought is disputed'
 };
 const STASIS_PARTS = {
   absolute:'Absolute: the act is defended as right in its own nature',
@@ -685,30 +685,30 @@ const TOPOI_ITEMS = [
 ];
 // Aristotle's topics of the enthymeme (Rhetoric II.23), named as Freese gives them.
 const TOPOI_ARIST = {
-  opposites:'Opposites: what holds of a thing is tested on its opposite',
-  inflections:'Inflections: what holds of a word holds of its derived forms',
-  relatives:'Relative terms: what holds of one party holds of the other',
-  moreless:'More and less: what fails in the likelier case fails in the less',
-  time:'Time: what would have been granted before is due now as well',
-  turning:'Turning the charge: the accusation is turned on the accuser',
-  definition:'Definition: the conclusion is drawn from what the thing is',
+  opposites:'Opposites: what holds of one term is examined in its opposite',
+  inflections:'Inflections: what holds of a word holds for its derived forms',
+  relatives:'Relative terms: what holds for one person holds for the other',
+  moreless:'More and less: if the likelier case fails, the less must fail',
+  time:'Time: what would have been granted earlier is due now as well',
+  turning:'Turning the charge: the accusation is turned upon the accuser',
+  definition:'Definition: the conclusion is inferred from what the thing is',
   division:'Division: the possible cases are listed and each is set aside',
-  induction:'Induction: a general rule is drawn from a number of like cases',
+  induction:'Induction: a general rule is drawn from several similar cases',
   judgment:'Previous judgment: those who must be believed have decided it',
-  parts:'Parts: the whole is examined by going through each of its parts',
-  consequence:'Consequence: a thing is urged or opposed by what follows it',
+  parts:'Parts: the whole is examined by going through each part of it',
+  consequence:'Consequence: a thing is urged or opposed for its consequences',
   crossing:'Two opposites: good and evil follow on each of two contraries',
   analogy:'Analogy: what is granted in one case holds in its counterpart',
-  sameresult:'Same result: things that have the same result are treated alike',
-  changechoice:'Change of choice: men choose now the contrary of what they chose',
-  motive:'Possible motive: a possible motive is taken as the real one',
-  incredible:'The incredible: a thing so unlikely would not be said if untrue',
-  contradiction:'Contradiction: the opponent’s words and deeds do not agree',
+  sameresult:'Same result: things with the same result are held to be alike',
+  changechoice:'Change of choice: people choose the contrary of a past choice',
+  motive:'Possible motive: a possible motive is taken as the actual one',
+  incredible:'The incredible: a thing so unlikely would not be said falsely',
+  contradiction:'Contradiction: the opponent’s words and deeds are at variance',
   falseopinion:'Cause of a slander: the reason for the false opinion is given',
-  cause:'Cause: the effect is judged by whether its cause was present',
-  contrary:'Contrary acts: two contrary courses are examined together',
-  mistakes:'Mistakes: an error that was made is used to accuse or defend',
-  name:'Meaning of a name: the name is taken to show what the person is'
+  cause:'Cause: the effect is decided by whether its cause was present',
+  contrary:'Contrary acts: the two contrary courses are examined together',
+  mistakes:'Mistakes: an error made before is used to accuse or to defend',
+  name:'Meaning of a name: a name is taken to show what the person is'
 };
 // Cicero's topics (Topica 8–24), named as Yonge gives them.
 const TOPOI_CIC = {
@@ -718,17 +718,17 @@ const TOPOI_CIC = {
   conjugates:'Conjugates: the argument rests on words of the same root',
   genus:'Genus: what is granted of the kind holds of what is under it',
   species:'Species: the argument turns on which form of the kind is meant',
-  similarity:'Similarity: cases that are alike are to be judged in a like way',
-  difference:'Difference: two things that seem alike are shown to differ',
-  contraries:'Contraries: what holds of a thing is denied of its contrary',
+  similarity:'Similarity: cases that are alike must be judged in a like way',
+  difference:'Difference: two things that seem alike are shown to be unlike',
+  contraries:'Contraries: what is true of a thing is denied of its contrary',
   adjuncts:'Adjuncts: the argument rests on what goes along with the thing',
-  antecedents:'Antecedents: the argument rests on what went before the act',
+  antecedents:'Antecedents: the argument rests upon what went before the act',
   consequents:'Consequents: the argument rests on what followed after the act',
-  contradictories:'Contradictories: two claims are shown unable to stand together',
-  causes:'Efficient causes: the effect is traced to what produced it',
+  contradictories:'Contradictories: two claims are shown unable to stand at once',
+  causes:'Efficient causes: the effect is explained by what produced it',
   effects:'Effects: the argument rests on what has been brought about',
-  comparison:'Comparison: the case is set beside a greater, equal, or less one',
-  authority:'Authority: a weighty opinion is brought in from outside the case'
+  comparison:'Comparison: a case is laid beside one greater, equal, or less',
+  authority:'Authority: a weighty opinion is brought from outside the case'
 };
 const GREG_PAIRS = [
   {id:'g1', pair:'the joyful and the sad', why:'The first are to be checked lest they run to excess; the second are to be comforted lest they break.', src:'greg'},
