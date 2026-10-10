@@ -871,11 +871,11 @@ const PISTEIS_ITEMS = [
   {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and passion oppose good deliberation.'},
   {pid:'ant-3.1.1', pistis:'logos', why:'The facts are agreed, so the charge is a description of cause.'},
   {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual captatio (the bid for the jury’s goodwill), and his manner of speaking becomes the proof of his character.'},
-  {pid:'aug-chast', pistis:'pathos', why:'The divided will is shown so that the hearer feel the shame of “not yet.”'},
+  {pid:'aug-chast', pistis:'pathos', why:'The divided will is shown so that the hearer feels the shame of “not yet.”'},
   {pid:'thuc-fun-2', pistis:'ethos', why:'Athens is characterized, and the city’s ethos becomes the speaker’s.'},
   {pid:'sal-caes-1', pistis:'logos', why:'Caesar argues from the laws and from the consequences of a novel penalty.'},
   {pid:'cic-cat1-4', pistis:'pathos', why:'“Where are we?” The question raises fear and indignation before the proof is unfolded.'},
-  {pid:'gor-hel-10', pistis:'pathos', why:'Song is treated as witchery, and the doctrine of pathos is offered as a physics of the soul.'},
+  {pid:'gor-hel-10', pistis:'pathos', why:'Song is treated as witchery, and the account of the passions is offered as an account of how the soul is moved.'},
   {pid:'soph-ant-2', pistis:'ethos', why:'“My nature is for mutual love, not hate”: character is named as the ground of the act.'},
   {pid:'cic-milo-1', pistis:'ethos', why:'The advocate’s confessed fear is made a proof of the man he defends, and of the danger.'},
   {pid:'thuc-arch-1', pistis:'ethos', why:'The speaker appeals to his age and his experience of many wars, so his character is the reason to wait.'},
@@ -953,13 +953,13 @@ const PISTEIS_ITEMS = [
   {pid:'thuc-per-141', pistis:'logos', why:'Pericles states two general premises, about money and about farmers, from which it follows that the Peloponnesians cannot sustain a long war. The force of the passage lies in this reasoning, not in the speaker’s character or the hearers’ feelings.'},
   {pid:'thuc-per-142', pistis:'logos', why:'Seamanship is an art that needs constant practice, so a people of farmers cannot learn it in their spare time. This is an argument from the nature of an art, and it neither rests on Pericles’ character nor appeals to a passion.'},
   {pid:'thuc-per-143', pistis:'logos', why:'Pericles sets out what follows from either outcome of a battle on land: a victory brings only another battle, and a defeat loses the allies. The passage persuades by reasoning about consequences, not by the speaker’s character or the hearers’ feelings.'},
-  {pid:'thuc-herm-nature', pistis:'logos', why:'Hermocrates reasons from human nature, since men always rule those who submit to them, and so the fault lies with those who are over-ready to serve. The general premise carries the passage, and he does not rest it on his own character or on a passion of the hearers.'},
+  {pid:'thuc-herm-nature', pistis:'logos', why:'Hermocrates reasons from human nature, since men always rule those who submit to them, and so the fault lies with those who are over-ready to serve. The general premise is what persuades, and he does not rest it on his own character or on a passion of the hearers.'},
   {pid:'thuc-herm-examples', pistis:'logos', why:'Hermocrates argues from examples, since many who tried to punish a wrong, or to gain by force, lost what they had. Aristotle counts the example, beside the enthymeme, as one of the two kinds of logical proof (I.2).'},
   {pid:'dem-phil1-23', pistis:'logos', why:'Demosthenes derives the size of the force from facts about the war: Athens cannot yet meet Philip in the field, and it could neither pay nor feed a large army. The passage reasons from the situation, with no appeal to character or to feeling.'},
   {pid:'dem-phil1-31', pistis:'logos', why:'Philip attacks when the winds and the season keep the Athenians from sailing, so a force sent out only when it is needed will always arrive too late. This is an argument from cause to consequence, not an appeal to character or to feeling.'},
   {pid:'dem-phil3-8', pistis:'logos', why:'Demosthenes argues that peace is judged by acts and not by its name; Philip’s acts are acts of war, and so resistance is the only course left. The question draws a conclusion from the facts, and it does not rest on the speaker’s character.'},
   {pid:'dem-phil3-16', pistis:'logos', why:'Demosthenes states a general principle, that religion and justice have the same force in small things and in great, and applies it to Philip’s small breaches of the peace. The principle persuades; the passage does not rest on the speaker’s character or stir a passion.'},
-  {pid:'eng-mason-screw', pistis:'logos', why:'Mason argues from likeness: an aristocratic body gains power by slow degrees and holds what it gains, as a screw does, and so it should be suspected of encroaching. The simile carries an argument, and the sentence does not rest on Mason’s character or on a passion.'},
+  {pid:'eng-mason-screw', pistis:'logos', why:'Mason argues from likeness: an aristocratic body gains power by slow degrees and holds what it gains, as a screw does, and so it should be suspected of encroaching. The simile is itself an argument, and the sentence does not rest on Mason’s character or on a passion.'},
   {pid:'thuc-herm-concede', pistis:'ethos', why:'Hermocrates shows himself moderate and prudent, ready to give up something in reason and not blinded by animosity, and he offers his own conduct as the pattern for the other cities. The proof is the speaker’s character as the speech shows it.'},
   {pid:'thuc-bras-party', pistis:'ethos', why:'Brasidas answers the hearers’ doubts by vouching for his own intentions: he has not come to help one party, and he will not overturn their constitution. The Acanthians are asked to trust the man, so the pistis is ethos (his goodwill and honesty).'},
   {pid:'thuc-per-60', pistis:'ethos', why:'Pericles meets the anger of the Athenians by describing himself as second to no man in knowing the right policy and in explaining it, and as a patriot and an honest one. The passage persuades through the speaker’s character.'},
@@ -1002,12 +1002,12 @@ const ETHOS_ITEMS = [
   {id:'et12', pid:'aug-ddc-2', which:'eunoia', label:'Goodwill (eunoia)',
     why:'Truth must not stand unarmed, and the Christian orator’s goodwill is for the hearer’s good, not for a fee.'},
   // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
-  {id:'eng-et1', pid:'eng-franklin-consent', which:'phronesis', label:'Practical wisdom (phronesis)', why:'He weighs the plan against the alternatives and accepts it for want of a better, which is the judgement of a prudent man.'},
+  {id:'eng-et1', pid:'eng-franklin-consent', which:'phronesis', label:'Practical wisdom (phronesis)', why:'He weighs the plan against the alternatives and accepts it for want of a better, which is the judgment of a prudent man.'},
   {id:'eng-et2', pid:'eng-hoar-humane', which:'eunoia', label:'Goodwill (eunoia)', why:'He first affirms that the soldiers are humane, so that his criticism comes from a friend of the army and not an enemy.'},
-  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He uses praeteritio: he says he will not charge Douglas with wilful misquotation, and in saying so he puts that charge before the hearers. But he asserts only what can be shown, that the quotation is inaccurate, so he gains credit as a fair man while the graver charge is still lodged; and fairness, that is, justice, is a virtue (arete).'},
+  {id:'eng-et3', pid:'eng-lincoln-misquotes', which:'arete', label:'Virtue (arete)', why:'He uses praeteritio: he says he will not charge Douglas with willful misquotation, and in saying so he puts that charge before the hearers. But he asserts only what can be shown, that the quotation is inaccurate, so he gains credit as a fair man while the graver charge is still lodged; and fairness, that is, justice, is a virtue (arete).'},
   // Speeches added from Thucydides, Sallust, Plato, Demosthenes, and Lysias. Aristotle names the three in Rhetoric II.1, 1378a.
   {id:'et16', pid:'thuc-nic-convictions', which:'arete', label:'Virtue (arete)',
-    why:'Nicias says that he has “never spoken against my convictions to gain honour,” although the expedition would bring him honour. The speech shows an honest man, and honesty belongs to virtue.'},
+    why:'Nicias says that he has “never spoken against my convictions to gain honour,” although the expedition would bring him honor. The speech shows an honest man, and honesty belongs to virtue.'},
   {id:'et17', pid:'thuc-per-140', which:'phronesis', label:'Practical wisdom (phronesis)',
     why:'Pericles shows that he knows how men behave in war: “as circumstances change, resolutions change.” He asks to be trusted as a man who judges well, which is practical wisdom.'},
   {id:'et18', pid:'sal-caes-passion', which:'phronesis', label:'Practical wisdom (phronesis)',
@@ -1463,7 +1463,7 @@ EX.pisteis = {
       passage: cue + esc(excerpt(p, diff >= 4 ? 240 : 400)),
       source: citeP(p), orig: p.orig, olang: p.olang, src: srcOf(p),
       note: item.pistis.charAt(0).toUpperCase()+item.pistis.slice(1)+'. '+item.why,
-      also:'A passage may use more than one pistis (Aristotle I.2), so name the one that is carrying the moment.'
+      also:'A passage may use more than one pistis (Aristotle I.2), so name the one the speech is showing.'
     });
   }
 };
