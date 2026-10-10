@@ -16,7 +16,7 @@ const SRC = {
   cic_cat:{kind:'primary', short:'Cicero, Catilinarians',
     full:'Cicero, <i>In Catilinam</i> I–IV: the bank’s English is H. E. D. Blakiston (1894), public domain. Other speeches in this key (<i>Pro Milone</i>, <i>Pro Marcello</i>, <i>Philippics</i>, <i>In Verrem</i>) remain the public-domain English already in the bank.', note:'Catilinarian excerpts match Blakiston (attalus.org), not Yonge’s “When, O Catiline…”.'},
   cic_yonge:{kind:'primary', short:'Cicero, orations, trans. Yonge',
-    full:'Cicero, <i>Pro Archia</i> and <i>Pro Lege Manilia</i>, trans. C. D. Yonge, <i>The Orations of Marcus Tullius Cicero</i> (Bohn, 1856). Public domain in the United States and abroad. The Catilinarian English in the bank is Blakiston. These two speeches are Yonge.',
+    full:'Cicero’s speeches, trans. C. D. Yonge, <i>The Orations of Marcus Tullius Cicero</i>: <i>For Archias</i>, <i>On the Manilian Law</i>, <i>For Sextus Roscius of Ameria</i>, <i>For Aulus Caecina</i> and <i>For Aulus Cluentius</i> from the first volume (Bohn, 1856); <i>Pro Milone</i>, <i>Pro Marcello</i>, <i>For Ligarius</i> and <i>For Caius Rabirius Postumus</i> from the third volume (George Bell and Sons, 1891); and the Second and Third <i>Philippics</i> (George Bell and Sons, 1903 printing). Public domain in the United States and abroad. The Catilinarian English in the bank is Blakiston, not Yonge.',
     note:'Yonge died in 1891. Quoted from the Perseus text, with spacing collapsed to single spaces.'},
   lysias_lamb:{kind:'primary', short:'Lysias, trans. Lamb',
     full:'Lysias, selected speeches, trans. W. R. M. Lamb, Loeb Classical Library (1930). Public domain in the United States. Lamb died in 1961, so a life-plus-seventy term may still bind abroad until the end of 2031.',
@@ -1291,7 +1291,7 @@ EX.enthymeme = {
 EX.stasis = {
   id:'stasis', title:'The Issue (Status)',
   instr:'Cicero says that every case stands on one of four issues (status): fact, definition, quality, or transference. Name the issue on which each case stands. From difficulty 3, a case on the issue of quality may ask instead which of Cicero’s divisions of that issue the defense uses. Ten questions make a set; a case is not repeated in the set.',
-  src:['cic_inv','cic_part'],
+  src:['cic_inv','cic_part','cic_yonge','lysias_lamb','webster_w','quint'],
   gen(diff){
     const e = pickSeen(itemPool('STASIS_ITEMS', STASIS_ITEMS), x => 'st:'+x.id);
     const cue = e.cue ? '<div class="q-cue">'+esc(e.cue)+'</div>' : '';
@@ -1859,7 +1859,7 @@ const ACTS = [
    items:[
      {kind:'deck', deck:'logos', tag:'TUTORIAL', title:'Enthymeme, example, topics', desc:'The rhetorical syllogism (enthymeme) and the example (paradeigma). A premise the hearers supply is not a defect.'},
      {kind:'ex', ex:'enthymeme', tag:'EXERCISE', title:'Supply the missing premise', desc:'Name the unspoken premise in Cicero, Antiphon, Gorgias, Thucydides, Sophocles, Plato.'},
-     {kind:'ex', ex:'stasis', tag:'EXERCISE', title:'The issue (status)', desc:'Fact, definition, quality, or transference: on which issue does the case stand, in Cicero’s own examples?'}
+     {kind:'ex', ex:'stasis', tag:'EXERCISE', title:'The issue (status)', desc:'Fact, definition, quality, or transference: on which issue does the case stand, in Cicero’s examples and in real speeches?'}
    ]},
   {roman:'III', name:'Invention · Ethos and Pathos', latin:'ethos et pathos',
    gloss:'The speaker’s character shown in the speech; Aristotle’s account of the passions; Aquinas’s passions concerning good or evil as such (concupiscible) and passions concerning the arduous good or evil (irascible); Gregory the Great’s account of the kinds of men and his contrasts of pairs of listeners.',
