@@ -185,9 +185,9 @@ DECKS.taxis = {
 DECKS.lexis = {
   title:'Style', sub:'Lexis (clarity, propriety, metaphor)',
   panels:[
-{ src:['arist_rhet'], h:'<p><strong>Virtue of style.</strong> Aristotle (III.2) asks that style be clear, and neither mean nor above the dignity of the subject. In the <em>Poetics</em> (1459a) he writes: “The greatest thing by far is to be a master of metaphor.” So clarity comes first and ornament second, and the vice of the sophist is to make the style do the work of the argument.</p><p>Gorgias is the exhibit here. Van Hook’s Helen is almost all figure: antithesis, isocolon, homoeoteleuton. This is not a mistake but a demonstration of what logos can do when it is treated as a drug, and Aristotle admires the power while he distrusts the use.</p>' },
+{ src:['arist_rhet'], h:'<p><strong>Virtue of style.</strong> Aristotle (III.2) asks that style be clear, and neither mean nor above the dignity of the subject. In the <em>Poetics</em> (1459a) he writes: “The greatest thing by far is to be a master of metaphor.” So clarity comes first and ornament second, and the vice of the sophist is to make the style take the place of the argument.</p><p>Gorgias is the exhibit here. Van Hook’s Helen is almost all figure: antithesis, isocolon, homoeoteleuton. This is not a mistake but a demonstration of what logos can do when it is treated as a drug, and Aristotle admires the power while he distrusts the use.</p>' },
 { src:['gorgias_vh','arist_rhet'], h:'<p><strong>Figures the ear can name.</strong> Here is a short working list of figures of speech, which are neither the means of persuasion nor the offices of the oration:</p><ul style="margin:8px 0 8px 22px"><li><strong>Anaphora</strong>: the same word at the head of successive members.</li><li><strong>Antithesis</strong>: opposed thoughts in parallel frames.</li><li><strong>Tricolon</strong>: three members, often rising.</li><li><strong>Isocolon</strong>: members of equal length.</li><li><strong>Homoeoteleuton</strong>: like endings (Gorgias’s signature).</li><li><strong>Apostrophe</strong>: a turn away from the hearers to address someone absent or dead, a god, or a thing treated as a person; a plain address to the hearers themselves, such as “men of Athens” or “conscript fathers,” is not apostrophe.</li><li><strong>Rhetorical question</strong>: a question that is really a charge.</li><li><strong>Metaphor</strong>: naming one thing with another’s name.</li><li><strong>Irony</strong>: saying the less, or the opposite, to mean the more.</li><li><strong>Chiasmus</strong>: a crossing of terms in the order ABBA.</li></ul><p>The figures exercises that follow ask us to find these in a real passage. They do not ask us to name ethos, or pathos, or an exordium, because those belong to invention and arrangement.</p><p>These are among the commonly taught figures, and the main figures exercises ask only about them. Less common figures (correctio, epizeuxis, polysyndeton, aposiopesis, and others) are still marked in the passages, but they are optional; Division VI ends with an optional set, Further figures, that drills them.</p>' },
-{ src:['gorgias_vh','thuc_crawley'], h:'<p><strong>When style does the work of argument.</strong> Aristotle’s warning is practical, as two sentences will show.</p><p>Gorgias says of logos that it is “a powerful potentate, who with frailest, feeblest frame works wonders.” Here the figure is the claim: speech is small and does what a ruler does. If we strip away the antithesis and the personification, little argument remains.</p><p>Diodotus says of counsel: “I think the two things most opposed to good counsel are haste and passion.” We may keep or drop the balance of the members, and the claim still stands. That is style serving an argument, not replacing one.</p><p>The exercise in this division asks which is which. The Gorgias figures set in Division VI drills the ear, and this exercise trains the judgment that should follow the ear.</p>' }
+{ src:['gorgias_vh','thuc_crawley'], h:'<p><strong>When style takes the place of argument.</strong> Aristotle’s warning is practical, as two sentences will show.</p><p>Gorgias says of logos that it is “a powerful potentate, who with frailest, feeblest frame works wonders.” Here the figure is the claim: speech is small and does what a ruler does. If we remove the antithesis and the personification, little argument remains.</p><p>Diodotus says of counsel: “I think the two things most opposed to good counsel are haste and passion.” We may keep or drop the balance of the members, and the claim still stands. That is style serving an argument, not replacing one.</p><p>The exercise in this division asks which is which. The Gorgias figures set in Division VI drills the ear, and this exercise trains the judgment that should follow the ear.</p>' }
 ]};
 
 
@@ -204,7 +204,7 @@ DECKS.effects = {
 DECKS.gorgias = {
   title:'Gorgias · Encomium of Helen', sub:'Persuasion as a drug',
   panels:[
-{ src:['gorgias_vh'], h:'<p><strong>A showpiece, not a law-court speech.</strong> The <em>Encomium of Helen</em> is epideictic: it praises a woman the tradition blames, and it displays what logos can do. In Van Hook’s translation (1913): “Logos is a powerful potentate, who with frailest, feeblest frame works wonders. For it can put an end to fear and make vexation vanish; it can inspire exultation and increase compassion.”</p><p>Speech is small, but its effect is not small. Aristotle will classify this as pathos produced by lexis, whereas Gorgias offers it as a physics of the soul.</p>' },
+{ src:['gorgias_vh'], h:'<p><strong>A showpiece, not a law-court speech.</strong> The <em>Encomium of Helen</em> is epideictic: it praises a woman the tradition blames, and it displays what logos can do. In Van Hook’s translation (1913): “Logos is a powerful potentate, who with frailest, feeblest frame works wonders. For it can put an end to fear and make vexation vanish; it can inspire exultation and increase compassion.”</p><p>Speech is small, but its effect is not small. Aristotle will classify this as pathos produced by lexis, whereas Gorgias offers it as an account of how the soul is moved.</p>' },
 { src:['gorgias_vh'], h:'<p><strong>Four aitiai.</strong> Helen went, and the question is why. Gorgias gives four causes (aitiai), and if any one of them holds, she is to be acquitted:</p><ol style="margin:8px 0 8px 22px"><li>The disposition of <strong>fortune</strong>, the gods, necessity.</li><li><strong>Violence</strong>: she was taken.</li><li><strong>Persuasion</strong>: logos deceived her.</li><li><strong>Love</strong>.</li></ol><p>“For either by the disposition of fortune and the ratification of the gods and the determination of necessity she did what she did, or by violence confounded, or by persuasion dumbfounded or to Love surrendered.” If logos is a drug, then being persuaded is being acted on, and the accuser has charged the patient.</p>',
   q:{ prompt:'On Gorgias’s four aitiai, being persuaded by speech is most like',
       options:['Choosing freely, and therefore being guilty','Acted on, as by a drug or violence, and so not culpable','A logical demonstration from premises that are necessary','A forensic narration of agreed facts'],
@@ -1141,8 +1141,8 @@ const LEXIS_ITEMS = [
 const AUG_ITEMS = [
   {id:'au1', pid:'aug-ddc-12',
     prompt:'Augustine, following Cicero, names three aims: to teach, to delight, to persuade. Which of the three is a necessity?',
-    options:['To delight, since without pleasure no hearer will listen at all','To teach, since it depends on what we say, not how','To persuade, since the applause of the hearers is the test','None, since a Christian must not use rhetoric at all'],
-    correct:1, note:'In DDC IV, to teach is a necessity, to delight a beauty, to persuade a triumph. Teaching lies in the matter, the other two in the manner.'},
+    options:['To delight, since without pleasure no hearer will listen at all','To teach, since it depends on what we say, not how we say it','To persuade, since the applause of the hearers is the test','None, since a Christian must not use rhetoric at all'],
+    correct:1, note:'In DDC IV, to teach is a necessity, to delight is a beauty, and to persuade is a triumph. Teaching lies in the matter, and the other two lie in the manner.'},
   {id:'au2', pid:'aug-ddc-17',
     prompt:'Which style does Augustine assign to teaching?',
     options:['The grand (grande), because teaching must move to tears','The subdued (summissum), because teaching must be understood','The temperate (temperatum), for praise and blame, which delight the hearer','No single style, since every style is fit for teaching alike'],
@@ -1150,13 +1150,13 @@ const AUG_ITEMS = [
   {id:'au3', pid:'aug-ddc-24',
     prompt:'The sign that the grand style has done its office is',
     options:['Applause, and a name for the preacher','Tears, and a change: the Caterva ended','Matching endings (homoeoteleuton) in every member','The suppression of everything taken from Cicero'],
-    correct:1, note:'He asked for groans, not cheers, and the Caterva story is the emblem of flectere.'},
+    correct:1, note:'He asked for groans, not cheers, and the Caterva story shows flectere.'},
   {id:'au4', pid:'aug-ddc-2',
     prompt:'Why may the Christian use rhetoric?',
     options:['Because winning a paid case is the end of the art','Because truth must not stand unarmed against falsehood','Because pagan eloquence is good in itself, whatever cause it serves','Because the Scriptures command the preacher to study the pagan orators'],
     correct:1, note:'In DDC IV the art is available for truth or for falsehood. Who will dare say that truth should take the field unarmed?'},
   {id:'au5', pid:'aug-ddc-17',
-    prompt:'The temperate style, on Augustine’s map, is especially for',
+    prompt:'The temperate style, in Augustine’s account, is especially for',
     options:['Teaching a difficult doctrine so that it is understood','Praise and blame, which delight and make the good attractive','Moving the hearers to act at once, so that their whole life is changed','Teaching only, since delight has no place in Christian speech'],
     correct:1, note:'The temperate style serves delectare, showing the good as lovely; the grand serves flectere, pushing the will to act.'},
   {id:'au6', pid:'aug-serm-1',
@@ -1181,7 +1181,7 @@ const AUG_ITEMS = [
     correct:1, note:'On Christian Doctrine IV.20.40. Augustine begins this run of Paul’s exhortations with the words “In the following words of the apostle we have the temperate style,” and he points out the periods of two members with which Paul closes them.'},
   {id:'au11', pid:'aug-ddc-20-42-style',
     prompt:'How, according to Augustine, does the majestic style differ from the temperate?',
-    options:['It uses no ornaments at all, since ornament belongs only to the temperate style','It seeks out more ornaments than the temperate style, and so it is the more decorated of the two','It differs only in length, because it speaks of great matters at greater length','It is carried by strong feeling, and it takes ornaments as they come rather than seeking them'],
+    options:['It uses no ornaments at all, since ornament belongs only to the temperate style','It seeks out more ornaments than the temperate style, and so it is the more decorated of the two','It differs only in length, because it speaks of great matters at greater length','It depends on strong feeling, and it takes ornaments as they come rather than seeking them'],
     correct:3, note:'On Christian Doctrine IV.20.42. The majestic style “is not so much decked out with verbal ornaments as exalted into vehemence by mental emotion.” It uses nearly all the ornaments of the temperate style, “but if they do not happen to be at hand, it does not seek for them.”'},
   {id:'au12', pid:'aug-ddc-20-43',
     prompt:'In which style does Augustine place this passage of Paul to the Romans?',
@@ -2110,9 +2110,9 @@ const ACTS = [
      {kind:'ex', ex:'taxisorder', tag:'EXERCISE', title:'The six offices', desc:'Their duties, their order, and when narration shrinks.'}
    ]},
   {roman:'V', name:'Style', latin:'lexis',
-   gloss:'Clear and fitting speech first; metaphor as seeing likeness; the sophistic vice of making style do the work of argument; and the choice among correct sentences by order, voice, and construction.',
+   gloss:'Clear and fitting speech first; metaphor as seeing likeness; the sophistic vice of making style take the place of argument; and the choice among correct sentences by order, voice, and construction.',
    items:[
-     {kind:'deck', deck:'lexis', tag:'TUTORIAL', title:'Virtue of style', desc:'Aristotle III; clarity first; when figures do the work of argument, and when they do not.'},
+     {kind:'deck', deck:'lexis', tag:'TUTORIAL', title:'Virtue of style', desc:'Aristotle III; clarity first; when figures take the place of argument, and when they do not.'},
      {kind:'ex', ex:'lexis', tag:'EXERCISE', title:'Style and the argument', desc:'Does the claim still stand in plain clauses, or is the figure the claim?'},
      {kind:'deck', deck:'effects', tag:'TUTORIAL', title:'Choosing among correct sentences', desc:'Known and new information, end focus, cohesion and the passive, the cleft, rhythm and the period.'},
      {kind:'ex', ex:'effects', tag:'EXERCISE', title:'Choosing among correct sentences', desc:'Several versions of a sentence are all correct, but which one serves the passage best?'}
