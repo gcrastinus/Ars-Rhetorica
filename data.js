@@ -398,7 +398,7 @@ const ENTHYMEMES = [
     distractors:['In a time of danger the senate may set any penalty that the safety of the state requires.','The heavier the penalty, the surer the deterrent.','The laws were written for ordinary crimes, and a conspiracy against the state is not one.'], src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
   {id:'e12', said:'Give me chastity and continency, only not yet.', missing:'A prayer that postpones the good it names is still a love of the old disease.',
     distractors:['A prayer for chastity is answered the moment it is spoken, whenever its fulfilment comes.','To ask for a good is already to will it wholly.','To ask for a virtue at a later time is already to possess that virtue in the present.'], src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
-  {id:'e13', said:'I have a better right to command than others — I must begin with this as Nicias has attacked me.', missing:'The man whose private splendour brings the city profit is fit to command.',
+  {id:'e13', said:'I have a better right to command than others — I must begin with this as Nicias has attacked me.', missing:'The man whose private splendor brings the city profit is fit to command.',
     distractors:['A man who spends his wealth on display is unfit to be trusted with the city’s fleet.','A general’s private life has no bearing on command.','Command belongs to the oldest citizen, whatever his wealth or his reputation abroad.'], src:'thuc_crawley', cite:'Thucydides 6.16, Alcibiades'},
   {id:'e14', said:'An eloquent man must speak so as to teach, to delight, and to persuade.', missing:'These three offices belong to the same orator, not to three different arts.',
     distractors:['Teaching belongs to the philosopher and persuading to the orator, and no one man does both.','An orator need only persuade, and never teach.','Delight is a vice in speech about sacred things, and the Christian orator should avoid it.'], src:'ddc', cite:'Augustine, De doctrina christiana IV'},
@@ -1856,7 +1856,7 @@ EX.antiphon = {
       'ant-3.2.4':'from cause (the running-out, not the throw)',
       'ant-3.2.6':'from the name of the act (whose hamartia?)',
       'ant-3.2.10':'from consequences (pollution, miasma)',
-      'ant-3.3.1':'from refutation of the defence’s descriptions',
+      'ant-3.3.1':'from refutation of the defense’s descriptions',
       'ant-3.3.4':'from more and less (who missed the target)',
       'ant-3.3.5':'from the city’s pollution if the killer walks',
       'ant-3.4.1':'from character again, and from misfortune',
@@ -1904,7 +1904,7 @@ EX.debates = {
       const labels = {
         forensic:'Forensic: a past act tried in court, the just and the unjust',
         deliberative:'Deliberative: a future policy, the expedient and the harmful',
-        epideictic:'Epideictic: praise and blame of the present, the noble and the base'
+        epideictic:'Epideictic: present praise and blame, the noble and the base'
       };
       return mcQ({
         prompt:'<strong>'+esc(d.title)+'</strong>, '+esc(d.locus)+'.<br>Two voices: <em>'+esc(d.a.who)+'</em> and <em>'+esc(d.b.who)+'</em>. What is the species of the debate?',

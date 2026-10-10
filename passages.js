@@ -809,7 +809,7 @@ window.PASSAGES = [
     "author": "Livy",
     "work": "History of Rome",
     "locus": "1.53",
-    "cue": "Sextus at Gabii: a son's favor, and a father's lesson in treachery.",
+    "cue": "This is Sextus at Gabii: a son's favor, and a father's lesson in treachery.",
     "text": "Sextus Tarquinius had been sent to them as their general, by the special favour of the gods. By his exposing himself to fatigues and dangers, and by his generosity in dividing the plunder, he was so beloved by the soldiers, that Tarquin the father had not greater power at Rome than the son at Gabii. When he saw he had got sufficient strength collected to support him in any undertaking, he sent one of his confidants to Rome to ask his father what he wished him to do, seeing the gods had granted him the sole management of all affairs at Gabii. To this courier no answer by word of mouth was given, because, I suppose, he appeared of questionable fidelity. The king going into a garden of the palace, as it were to consider of the matter, followed by his son's messenger; walking there for some time in silence, he is said to have struck off the heads of the tallest poppies with his staff.",
     "spans": [
       {
@@ -1620,7 +1620,7 @@ window.PASSAGES = [
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
     "locus": "III.3",
-    "cue": "Joyful and sad: threatenings for the one, promises for the other.",
+    "cue": "The joyful are admonished with threatenings, and the sad with promises.",
     "text": "Differently to be admonished are the joyful and the sad. That is, before the joyful are to be set the sad things that follow upon punishment; but before the sad the promised glad things of the kingdom. Let the joyful learn by the asperity of threatenings what to be afraid of: let the sad bear what joys of reward they may look forward to. For to the former it is said, Woe unto you that laugh now! For you shall weep; but the latter hear from the teaching of the same Master, I will see you again, and your heart shall rejoice, and your joy no man shall take from you. But some are not made joyful or sad by circumstances, but are so by temperament. And to such it should be intimated that certain defects are connected with certain temperaments; that the joyful have lechery close at hand, and the sad wrath.",
     "spans": [
       {
@@ -2124,7 +2124,7 @@ window.PASSAGES = [
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
     "locus": "III.9",
-    "cue": "Meek and passionate: sloth beside gentleness, and a sweep of anger.",
+    "cue": "The meek have sloth beside gentleness, and the passionate a sweep of anger.",
     "text": "Differently to be admonished are the meek and the passionate. For sometimes the meek, when they are in authority, suffer from the torpor of sloth, which is a kindred disposition, and as it were placed hard by. And for the most part from the laxity of too great gentleness they soften the force of strictness beyond need. But on the other hand the passionate, in that they are swept on into frenzy of mind by the impulse of anger, break up the calm of quietness, and so throw into confusion the life of those that are put under them. For, when rage drives them headlong, they know not what they do in their anger, they know not what in their anger they suffer from themselves. But sometimes, what is more serious, they think the goad of their anger to be the zeal of righteousness.",
     "spans": [
       {
@@ -2272,7 +2272,7 @@ window.PASSAGES = [
     "author": "Homer",
     "work": "Iliad (Pope)",
     "locus": "1.1–3",
-    "cue": "The wrath's work: souls to Pluto, bodies to dogs.",
+    "cue": "The wrath's work sends souls to Pluto and bodies to dogs.",
     "text": "That wrath which hurl’d to Pluto’s gloomy reign The souls of mighty chiefs untimely slain; Whose limbs unburied on the naked shore, Devouring dogs and hungry vultures tore. Since great Achilles and Atrides strove, Such was the sovereign doom, and such the will of Jove! Declare, O Muse! in what ill-fated hour Sprung the fierce strife, from what offended power Latona’s son a dire contagion spread, And heap’d the camp with mountains of the dead; The king of men his reverent priest defied, And for the king’s offence the people died.",
     "spans": [
       {
@@ -5600,7 +5600,7 @@ window.PASSAGES = [
     "author": "Jeremy Bentham",
     "work": "An Introduction to the Principles of Morals and Legislation",
     "locus": "(1789)",
-    "cue": "The opening sentence of Bentham’s treatise.",
+    "cue": "This is the opening sentence of Bentham’s treatise.",
     "text": "Nature has placed mankind under the governance of two sovereign masters, pain and pleasure.",
     "spans": [
       {
