@@ -1886,7 +1886,7 @@ EX.antiphon = {
 };
 EX.debates = {
   id:'debates', title:'Paired Debates',
-  instr:'The paired speeches include Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles’ funeral oration, Catiline and Caesar, Nicias and Alcibiades, the Corcyraeans and the Corinthians, the Plataeans and the Thebans, Caesar and Cato, Hermocrates and Euphemus, and Antiphon’s two sides. Name the kind of speech, or the claim of a voice. A set is six questions, and a pair is not reused in the set.',
+  instr:'The paired speeches include Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles’ funeral oration, Catiline and Caesar, Nicias and Alcibiades, the Corcyraeans and the Corinthians, the Plataeans and the Thebans, Caesar and Cato, Hermocrates and Euphemus, and Antiphon’s two sides. We name the kind of speech, or the claim of a voice. A set is six questions, and a pair is not reused in the set.',
   src:['thuc_crawley','sallust_w','antiphon'],
   setLen:6,
   gen(diff){
@@ -1914,7 +1914,7 @@ EX.debates = {
                  (pb ? '<p><strong>'+esc(d.b.who)+'.</strong> '+esc(excerpt(pb, 180))+'</p>' : ''),
         src: d.src, source: d.locus,
         note: d.species.charAt(0).toUpperCase()+d.species.slice(1)+'. '+d.a.who+': '+d.a.claim+' '+d.b.who+': '+d.b.claim,
-        also:'These are paired debates from Greek and Roman historians, and the kind of speech should be named before we take a side.'
+        also:'These are paired debates from Greek and Roman historians, and we name the kind of speech before we take a side.'
       });
     }
     const who = rand([d.a, d.b]);
@@ -2115,7 +2115,7 @@ const ACTS = [
      {kind:'deck', deck:'lexis', tag:'TUTORIAL', title:'Virtue of style', desc:'Aristotle III; clarity first; when figures take the place of argument, and when they do not.'},
      {kind:'ex', ex:'lexis', tag:'EXERCISE', title:'Style and the argument', desc:'Does the claim still stand in plain clauses, or is the figure the claim?'},
      {kind:'deck', deck:'effects', tag:'TUTORIAL', title:'Choosing among correct sentences', desc:'Known and new information, end focus, cohesion and the passive, the cleft, rhythm and the period.'},
-     {kind:'ex', ex:'effects', tag:'EXERCISE', title:'Choosing among correct sentences', desc:'Several versions of a sentence are all correct, but which one serves the passage best?'}
+     {kind:'ex', ex:'effects', tag:'EXERCISE', title:'Choosing among correct sentences', desc:'The set asks which of several correct versions serves the passage best.'}
    ]},
   {roman:'VI', name:'Figures', latin:'figurae',
    gloss:'The sets ask us to mark the part of the passage that is the figure, or to say which of four excerpts uses it. The filters are Cicero, Gorgias’s Helen, and Augustine; tragedy and early prose are in the mixed sets. These sets ask only about the commonly taught figures, and an optional set at the end drills the rest.',
