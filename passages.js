@@ -446,7 +446,7 @@ window.PASSAGES = [
     "id": "cic-phil-1",
     "author": "Cicero",
     "work": "Philippics",
-    "locus": "1.1",
+    "locus": "2.1",
     "cue": "The First Philippic opens by binding Cicero's person to the republic's enemies.",
     "text": "To what destiny of mine, O conscript fathers, shall I say that it is owing, that none for the last twenty years has been an enemy to the republic without at the same time declaring war against me? Nor is there any necessity for naming any particular person; you yourselves recollect instances in proof of my statement. They have all hitherto suffered severer punishments than I could have wished for them; but I marvel that you, O Antonius, do not fear the end of those men whose conduct you are imitating. And in others I was less surprised at this. None of those men of former times was a voluntary enemy to me; all of them were attacked by me for the sake of the republic. But you, who have never been injured by me, not even by a word, in order to appear more audacious than Catiline, more frantic than Clodius, have of your own accord attacked me with abuse, and have considered that your alienation from me would be a recommendation of you to impious citizens.",
     "spans": [
@@ -9514,5 +9514,637 @@ window.PASSAGES = [
   "src": [
     "cic_yonge"
   ]
-}
+},
+  {
+    "id": "aug-conf-1-4",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "1.4",
+    "cue": "Augustine asks what God is and answers with names of praise, most of them set in opposed pairs.",
+    "text": "What art Thou then, my God? what, but the Lord God? For who is Lord but the Lord? or who is God save our God? Most highest, most good, most potent, most omnipotent; most merciful, yet most just; most hidden, yet most present; most beautiful, yet most strong, stable, yet incomprehensible; unchangeable, yet all-changing; never new, never old; all-renewing, and bringing age upon the proud, and they know it not; ever working, ever at rest; still gathering, yet nothing lacking; supporting, filling, and overspreading; creating, nourishing, and maturing; seeking, yet having all things. Thou lovest, without passion; art jealous, without anxiety; repentest, yet grievest not; art angry, yet serene; changest Thy works, Thy purpose unchanged; receivest again what Thou findest, yet didst never lose; never in need, yet rejoicing in gains; never covetous, yet exacting usury. Thou receivest over and above, that Thou mayest owe; and who hath aught that is not Thine? Thou payest debts, owing nothing; remittest debts, losing nothing.",
+    "spans": [
+      {
+        "start": 165,
+        "end": 224,
+        "figure": "antithesis",
+        "why": "Each pair joins two attributes that seem opposed in a man, mercy and justice, hiddenness and presence, and asserts both of God."
+      },
+      {
+        "start": 52,
+        "end": 109,
+        "figure": "rhetorical question",
+        "why": "The questions expect the answer that there is no other, so they assert that the Lord alone is God."
+      },
+      {
+        "start": 110,
+        "end": 163,
+        "figure": "anaphora",
+        "why": "Most begins each of the four titles in turn."
+      },
+      {
+        "start": 964,
+        "end": 1030,
+        "figure": "isocolon",
+        "why": "Two members of the same length and shape set paying and remitting side by side."
+      }
+    ],
+    "unmarkedFigures": [
+      "tricolon",
+      "asyndeton",
+      "apostrophe"
+    ],
+    "orig": "Quid es ergo Deus meus? Quid, rogo, nisi Dominus Deus? Quis enim Dominus praeter Dominum? Aut quis Deus praeter Deum nostrum? Summe, optime, potentissime, omnipotentissime, misericordissime et iustissime, secretissime et praesentissime, pulcherrime et fortissime, stabilis et incomprehensibilis, immutabilis, mutans omnia, numquam novus, numquam vetus, innovans omnia et in vetustatem perducens superbos et nesciunt; semper agens, semper quietus, colligens et non egens, portans et implens et protegens, creans et nutriens et perficiens, quaerens, cum nihil desit tibi. Amas nec aestuas, zelas et securus es, paenitet te et non doles, irasceris et tranquillus es, opera mutas nec mutas consilium; recipis quod invenis et numquam amisisti; numquam inops et gaudes lucris, numquam avarus et usuras exigis. Supererogatur tibi, ut debeas, et quis habet quidquam non tuum? Reddis debita nulli debens, donas debita nihil perdens.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-1-13",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "1.13",
+    "cue": "As a boy Augustine wept for Dido in the Aeneid, but he did not weep for his own death in sin.",
+    "text": "For what more miserable than a miserable being who commiserates not himself; weeping the death of Dido for love to Aeneas, but weeping not his own death for want of love to Thee, O God. Thou light of my heart, Thou bread of my inmost soul, Thou Power who givest vigour to my mind, who quickenest my thoughts, I loved Thee not. I committed fornication against Thee, and all around me thus fornicating there echoed \"Well done! well done!\" for the friendship of this world is fornication against Thee; and \"Well done! well done!\" echoes on till one is ashamed not to be thus a man. And for all this I wept not, I who wept for Dido slain, and \"seeking by the sword a stroke and wound extreme,\" myself seeking the while a worse extreme, the extremest and lowest of Thy creatures, having forsaken Thee, earth passing into the earth. And if forbid to read all this, I was grieved that I might not read what grieved me. Madness like this is thought a higher and a richer learning, than that by which I learned to read and write.",
+    "spans": [
+      {
+        "start": 77,
+        "end": 177,
+        "figure": "antithesis",
+        "why": "Two deaths are set in parallel frames: Dido’s, which came from her love of Aeneas, and his own, which came from his want of love of God."
+      },
+      {
+        "start": 210,
+        "end": 238,
+        "figure": "metaphor",
+        "why": "God is called bread, because He nourishes the soul as bread nourishes the body."
+      },
+      {
+        "start": 186,
+        "end": 279,
+        "figure": "anaphora",
+        "why": "Thou begins each of the three names that he gives to God."
+      },
+      {
+        "start": 4,
+        "end": 75,
+        "figure": "polyptoton",
+        "why": "The root of miserable is repeated as miserable and commiserates, so the word turns back on the man who does not pity himself."
+      }
+    ],
+    "unmarkedFigures": [
+      "apostrophe",
+      "tricolon",
+      "rhetorical question"
+    ],
+    "orig": "Quid enim miserius misero non miserante se ipsum et flente Didonis mortem, quae fiebat amando Aenean, non flente autem mortem suam, quae fiebat non amando te, Deus, lumen cordis mei et panis oris intus animae meae et virtus maritans mentem meam et sinum cogitationis meae? Non te amabam et fornicabar abs te et fornicanti sonabat undique: Euge, euge. Amicitia enim mundi huius fornicatio est abs te et Euge, euge dicitur, ut pudeat, si non ita homo sit. Et haec non flebam et flebam Didonem exstinctam ferroque extrema secutam, sequens ipse extrema condita tua relicto te et terra iens in terram; et si prohiberer ea legere, dolerem, quia non legerem quod dolerem. Talis dementia honestiores et uberiores litterae putantur quam illae, quibus legere et scribere didici.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-1-16",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "1.16",
+    "cue": "Augustine attacks the custom of teaching boys from poems in which the gods commit crimes.",
+    "text": "But woe is thee, thou torrent of human custom! Who shall stand against thee? how long shalt thou not be dried up? how long roll the sons of Eve into that huge and hideous ocean, which even they scarcely overpass who climb the cross? Did not I read in thee of Jove the thunderer and the adulterer? both, doubtless, he could not be; but so the feigned thunder might countenance and pander to real adultery.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "apostrophe",
+        "why": "He turns from God, whom the whole book addresses, and speaks to custom as if it could hear him."
+      },
+      {
+        "start": 47,
+        "end": 113,
+        "figure": "rhetorical question",
+        "why": "The questions expect no answer; they lament that no one resists custom."
+      },
+      {
+        "start": 114,
+        "end": 231,
+        "figure": "metaphor",
+        "why": "Custom is a river that carries the sons of Eve out into an ocean, which even those who climb the cross can scarcely cross."
+      },
+      {
+        "start": 297,
+        "end": 403,
+        "figure": "antithesis",
+        "why": "The feigned thunder is set against the real adultery, so the fable gives authority to an actual sin."
+      }
+    ],
+    "unmarkedFigures": [
+      "personification"
+    ],
+    "orig": "Sed vae tibi, flumen moris humani! Quis resistet tibi? Quandiu non siccaberis? Quousque volves Evae filios in mare magnum et formidulosum, quod vix transeunt qui lignum conscenderint? Nonne ego in te legi et tonantem Iovem et adulterantem? Et utique non posset haec duo, sed actum est, ut haberet auctoritatem imitandum verum adulterium lenocinante falso tonitru.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-4-6",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "4.6",
+    "cue": "After the death of his friend, Augustine wonders that he himself can still live.",
+    "text": "For I wondered that others, subject to death, did live, since he whom I loved, as if he should never die, was dead; and I wondered yet more that myself, who was to him a second self, could live, he being dead. Well said one of his friend, \"Thou half of my soul\"; for I felt that my soul and his soul were \"one soul in two bodies\": and therefore was my life a horror to me, because I would not live halved. And therefore perchance I feared to die, lest he whom I had much loved should die wholly.",
+    "spans": [
+      {
+        "start": 0,
+        "end": 114,
+        "figure": "antithesis",
+        "why": "Others who must die are living, but the friend he loved as if he would never die is dead."
+      },
+      {
+        "start": 240,
+        "end": 260,
+        "figure": "metaphor",
+        "why": "A friend is called half of the soul, so that the death of one leaves the other only half alive."
+      },
+      {
+        "start": 381,
+        "end": 494,
+        "figure": "antithesis",
+        "why": "To live halved is set against dying wholly, because while Augustine lives, the half of his friend that is in him still lives."
+      }
+    ],
+    "unmarkedFigures": [
+      "sententia",
+      "hyperbole"
+    ],
+    "orig": "Mirabar enim ceteros mortales vivere, quia ille, quem quasi non moriturum dilexeram, mortuus erat, et me magis, quia ille alter eram, vivere illo mortuo mirabar. Bene quidam dixit de amico suo: dimidium animae suae. Nam ego sensi animam meam et animam illius unam fuisse animam in duobus corporibus, et ideo mihi horrori erat vita, quia nolebam dimidius vivere, et ideo forte mori metuebam, ne totus ille moreretur, quem multum amaveram.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-4-8",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "4.8",
+    "cue": "Augustine lists the pleasures of friendship that consoled him after his grief.",
+    "text": "There were other things which in them did more take my mind; to talk and jest together, to do kind offices by turns; to read together honied books; to play the fool or be earnest together; to dissent at times without discontent, as a man might with his own self; and even with the seldomness of these dissentings, to season our more frequent consentings; sometimes to teach, and sometimes learn; long for the absent with impatience; and welcome the coming with joy. These and the like expressions, proceeding out of the hearts of those that loved and were loved again, by the countenance, the tongue, the eyes, and a thousand pleasing gestures, were so much fuel to melt our souls together, and out of many make but one.",
+    "spans": [
+      {
+        "start": 645,
+        "end": 719,
+        "figure": "metaphor",
+        "why": "The signs of affection are called fuel, because they warmed the friends’ souls until the souls were joined as one."
+      },
+      {
+        "start": 355,
+        "end": 394,
+        "figure": "antithesis",
+        "why": "Teaching and learning are opposed, and the friends took both parts in turn."
+      },
+      {
+        "start": 272,
+        "end": 353,
+        "figure": "homoeoteleuton",
+        "why": "The members end in dissentings and consentings, which sound alike, and the rare disagreement is set against the frequent agreement."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis",
+      "asyndeton",
+      "isocolon"
+    ],
+    "orig": "Alia erant, quae in eis amplius capiebant animum, colloqui et corridere et vicissim benevole obsequi, simul legere libros dulciloquos, simul nugari et simul honestari, dissentire interdum sine odio tamquam ipse homo secum atque ipsa rarissima dissensione condire consensiones plurimas, docere aliquid invicem aut discere ab invicem, desiderare absentes cum molestia, suscipere venientes cum laetitia; his atque huiusmodi signis a corde amantium et redamantium procedentibus per os, per linguam, per oculos et mille motus gratissimos quasi fomitibus conflare animos et ex pluribus unum facere.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-4-12",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "4.12",
+    "cue": "Augustine urges his soul to love bodies and souls in God, who made them, and to bring other souls back to Him.",
+    "text": "If bodies please thee, praise God on occasion of them, and turn back thy love upon their Maker; lest in these things which please thee, thou displease. If souls please thee, be they loved in God: for they too are mutable, but in Him are they firmly stablished; else would they pass, and pass away. In Him then be they beloved; and carry unto Him along with thee what souls thou canst, and say to them, \"Him let us love, Him let us love: He made these, nor is He far off. For He did not make them, and so depart, but they are of Him, and in Him. See there He is, where truth is loved. He is within the very heart, yet hath the heart strayed from Him. Go back into your heart, ye transgressors, and cleave fast to Him that made you. Stand with Him, and ye shall stand fast. Rest in Him, and ye shall be at rest. Whither go ye in rough ways? Whither go ye? The good that you love is from Him; but it is good and pleasant through reference to Him, and justly shall it be embittered, because unjustly is any thing loved which is from Him, if He be forsaken for it. To what end then would ye still and still walk these difficult and toilsome ways? There is no rest, where ye seek it. Seek what ye seek; but it is not there where ye seek. Ye seek a blessed life in the land of death; it is not there. For how should there be a blessed life where life itself is not?",
+    "spans": [
+      {
+        "start": 0,
+        "end": 172,
+        "figure": "anaphora",
+        "why": "If bodies please thee is repeated as If souls please thee, so bodies and souls are treated in the same frame."
+      },
+      {
+        "start": 731,
+        "end": 809,
+        "figure": "isocolon",
+        "why": "Two members of the same shape promise firmness and rest to those who hold to God."
+      },
+      {
+        "start": 1178,
+        "end": 1231,
+        "figure": "antithesis",
+        "why": "What they seek is right, but the place where they seek it is wrong."
+      },
+      {
+        "start": 1294,
+        "end": 1358,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer that there cannot be, so it closes the argument."
+      }
+    ],
+    "unmarkedFigures": [
+      "apostrophe",
+      "polyptoton",
+      "antithesis"
+    ],
+    "orig": "Si placent corpora, Deum ex illis lauda et in artificem eorum retorque amorem, ne in his, quae tibi placent, tu displiceas. Si placent animae, in Deo amentur, quia et ipsae mutabiles sunt et in illo fixae stabiliuntur: alioquin irent et perirent. In illo ergo amentur, et rape ad eum tecum quas potes et dic eis: \"Hunc amemus, hunc amemus: ipse fecit haec et non est longe\". Non enim fecit atque abiit, sed ex illo in illo sunt. Ecce ubi est: ubi sapit veritas. Intimus cordi est, sed cor erravit ab eo. Redite, praevaricatores, ad cor et inhaerete illi, qui fecit vos. State cum eo et stabitis, requiescite in eo et quieti eritis. Quo itis in aspera? Quo itis? Bonum, quod amatis, ab illo est: sed quantum est ad illum, bonum est et suave; sed amarum erit iuste, quia iniuste amatur deserto illo quidquid ab illo est. Quo vobis adhuc et adhuc ambulare vias difficiles et laboriosas? Non est requies, ubi quaeritis eam. Quaerite quod quaeritis, sed ibi non est, ubi quaeritis. Beatam vitam quaeritis in regione mortis; non est illic. Quomodo enim beata vita, ubi nec vita?",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-8-3",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "8.3",
+    "cue": "Augustine asks why the soul rejoices more over what it recovers than over what it never lost, and gives examples from ordinary life.",
+    "text": "What then takes place in the soul, when it is more delighted at finding or recovering the things it loves, than if it had ever had them? yea, and other things witness hereunto; and all things are full of witnesses, crying out, \"So is it.\" The conquering commander triumpheth; yet had he not conquered unless he had fought; and the more peril there was in the battle, so much the more joy is there in the triumph. The storm tosses the sailors, threatens shipwreck; all wax pale at approaching death; sky and sea are calmed, and they are exceeding joyed, as having been exceeding afraid.",
+    "spans": [
+      {
+        "start": 327,
+        "end": 411,
+        "figure": "sententia",
+        "why": "This general rule, that greater danger brings greater joy in victory, is stated briefly."
+      },
+      {
+        "start": 527,
+        "end": 584,
+        "figure": "antithesis",
+        "why": "The sailors’ joy is set against their earlier fear, in the same words."
+      },
+      {
+        "start": 181,
+        "end": 238,
+        "figure": "personification",
+        "why": "Things are made into witnesses who cry out in agreement."
+      }
+    ],
+    "unmarkedFigures": [
+      "hypotyposis",
+      "rhetorical question"
+    ],
+    "orig": "Quid ergo agitur in anima, cum amplius delectatur inventis aut redditis rebus, quas diligit, quam si eas semper habuisset? Contestantur enim et cetera et plena sunt omnia testimoniis clamantibus: \"Ita est\". Triumphat victor imperator et non vicisset, nisi pugnavisset, et quanto maius periculum fuit in proelio, tanto est gaudium maius in triumpho. Iactat tempestas navigantes minaturque naufragium; omnes futura morte pallescunt: tranquillatur caelum et mare, et exsultant nimis, quoniam timuerunt nimis.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-8-5",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "8.5",
+    "cue": "Augustine describes how his own will had become a chain that held him back from serving God.",
+    "text": "Which thing I was sighing for, bound as I was, not with another's irons, but by my own iron will. My will the enemy held, and thence had made a chain for me, and bound me. For of a forward will, was a lust made; and a lust served, became custom; and custom not resisted, became necessity. By which links, as it were, joined together (whence I called it a chain) a hard bondage held me enthralled. But that new will which had begun to be in me, freely to serve Thee, and to wish to enjoy Thee, O God, the only assured pleasantness, was not yet able to overcome my former wilfulness, strengthened by age. Thus did my two wills, one new, and the other old, one carnal, the other spiritual, struggle within me; and by their discord, undid my soul.",
+    "spans": [
+      {
+        "start": 172,
+        "end": 288,
+        "figure": "climax",
+        "why": "Each member takes up the last word of the one before, and the steps rise from will to lust, to custom, and to necessity."
+      },
+      {
+        "start": 98,
+        "end": 171,
+        "figure": "metaphor",
+        "why": "Habit is called a chain, because it held him as a chain holds a prisoner."
+      },
+      {
+        "start": 47,
+        "end": 96,
+        "figure": "antithesis",
+        "why": "Another man’s irons are set against his own iron will, so the bondage is his own."
+      },
+      {
+        "start": 626,
+        "end": 685,
+        "figure": "antithesis",
+        "why": "The two wills are set against each other as new and old, carnal and spiritual."
+      },
+      {
+        "start": 216,
+        "end": 269,
+        "figure": "anadiplosis",
+        "why": "Custom ends one member and begins the next."
+      }
+    ],
+    "orig": "Cui rei ego suspirabam ligatus non ferro alieno, sed mea ferrea voluntate. Velle meum tenebat inimicus et inde mihi catenam fecerat et constrinxerat me. Quippe ex voluntate perversa facta est libido, et dum servitur libidini, facta est consuetudo, et dum consuetudini non resistitur, facta est necessitas. Quibus quasi ansulis sibimet innexis (unde catenam appellavi) tenebat me obstrictum dura servitus. Voluntas autem nova, quae mihi esse coeperat, ut te gratis colerem fruique te vellem, Deus, sola certa iucunditas, nondum erat idonea ad superandam priorem vetustate roboratam. Ita duae voluntates meae, una vetus, alia nova, illa carnalis, illa spiritalis, confligebant inter se atque discordando dissipabant animam meam.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-8-9",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "8.9",
+    "cue": "Augustine asks why the body obeys the mind at once, while the mind resists its own command.",
+    "text": "Whence is this monstrousness? and to what end? Let Thy mercy gleam that I may ask, if so be the secret penalties of men, and those darkest pangs of the sons of Adam, may perhaps answer me. Whence is this monstrousness? and to what end? The mind commands the body, and it obeys instantly; the mind commands itself, and is resisted. The mind commands the hand to be moved; and such readiness is there, that command is scarce distinct from obedience. Yet the mind is mind, the hand is body. The mind commands the mind, its own self, to will, and yet it doth not. Whence this monstrousness? and to what end?",
+    "spans": [
+      {
+        "start": 236,
+        "end": 330,
+        "figure": "antithesis",
+        "why": "The same command meets obedience in the body and resistance in the mind."
+      },
+      {
+        "start": 236,
+        "end": 369,
+        "figure": "anaphora",
+        "why": "The mind commands begins each of the three members."
+      },
+      {
+        "start": 0,
+        "end": 46,
+        "figure": "epimone",
+        "why": "The question is repeated three times as a refrain, so the reader dwells on the puzzle."
+      }
+    ],
+    "unmarkedFigures": [
+      "rhetorical question"
+    ],
+    "orig": "Unde hoc monstrum? Et quare istuc? Luceat misericordia tua, et interrogem, si forte mihi respondere possint latebrae poenarum hominum et tenebrosissimae contritiones filiorum Adam. Unde hoc monstrum? Et quare istuc? Imperat animus corpori, et paretur statim: imperat animus sibi, et resistitur. Imperat animus, ut moveatur manus, et tanta est facilitas, ut vix a servitio discernatur imperium; et animus animus est, manus autem corpus est. Imperat animus, ut velit animus, nec alter est nec facit tamen. Unde hoc monstrum? Et quare istuc?",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-8-11",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "8.11",
+    "cue": "Just before his conversion, Augustine hears his old pleasures pleading with him not to leave them.",
+    "text": "The very toys of toys, and vanities of vanities, my ancient mistresses, still held me; they plucked my fleshy garment, and whispered softly, \"Dost thou cast us off? and from that moment shall we no more be with thee for ever? and from that moment shall not this or that be lawful for thee for ever?\" And what was it which they suggested in that I said, \"this or that,\" what did they suggest, O my God? Let Thy mercy turn it away from the soul of Thy servant. What defilements did they suggest! what shame! And now I much less than half heard them, and not openly showing themselves and contradicting me, but muttering as it were behind my back, and privily plucking me, as I was departing, but to look back on them. Yet they did retard me, so that I hesitated to burst and shake myself free from them, and to spring over whither I was called; a violent habit saying to me, \"Thinkest thou, thou canst live without them?\"",
+    "spans": [
+      {
+        "start": 87,
+        "end": 139,
+        "figure": "personification",
+        "why": "The pleasures are made into persons who pull at his clothes and whisper to him."
+      },
+      {
+        "start": 49,
+        "end": 70,
+        "figure": "metaphor",
+        "why": "His old pleasures are called mistresses, because he had loved them as a man loves a mistress."
+      },
+      {
+        "start": 874,
+        "end": 918,
+        "figure": "rhetorical question",
+        "why": "Habit asks the question to make him doubt, and it expects the answer no."
+      },
+      {
+        "start": 459,
+        "end": 505,
+        "figure": "exclamatio",
+        "why": "He breaks off his account with an open cry of shame."
+      }
+    ],
+    "unmarkedFigures": [
+      "prosopopoeia"
+    ],
+    "orig": "Retinebant nugae nugarum et vanitates vanitantium, antiquae amicae meae, et succutiebant vestem meam carneam et submurmurabant: \"Dimittisne nos?\" et: \"A momento isto non erimus tecum ultra in aeternum\", et: \"A momento isto non tibi licebit hoc et illud ultra in aeternum\". Et quae suggerebant in eo, quod dixi: \"hoc et illud\", quae suggerebant, Deus meus! Avertat ab anima servi tui misericordia tua! Quas sordes suggerebant, quae dedecora! Et audiebam eas iam longe minus quam dimidius, non tamquam libere contradicentes eundo in obviam, sed velut a dorso mussitantes et discedentem quasi furtim vellicantes, ut respicerem. Retardabant tamen cunctantem me abripere atque excutere ab eis et transilire quo vocabar, cum diceret mihi consuetudo violenta: \"Putasne sine istis poteris?\".",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-9-1",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "9.1",
+    "cue": "After his conversion, Augustine thanks God for breaking the bonds that held his will.",
+    "text": "O Lord, I am Thy servant; I am Thy servant, and the son of Thy handmaid: Thou hast broken my bonds in sunder. I will offer to Thee the sacrifice of praise. Let my heart and my tongue praise Thee; yea, let all my bones say, O Lord, who is like unto Thee? Let them say, and answer Thou me, and say unto my soul, I am thy salvation. Who am I, and what am I? What evil have not been either my deeds, or if not my deeds, my words, or if not my words, my will? But Thou, O Lord, are good and merciful, and Thy right hand had respect unto the depth of my death, and from the bottom of my heart emptied that abyss of corruption. And this Thy whole gift was, to nill what I willed, and to will what Thou willedst. But where through all those years, and out of what low and deep recess was my free-will called forth in a moment, whereby to submit my neck to Thy easy yoke, and my shoulders unto Thy light burden, O Christ Jesus, my Helper and my Redeemer? How sweet did it at once become to me, to want the sweetnesses of those toys! and what I feared to be parted from, was now a joy to part with.",
+    "spans": [
+      {
+        "start": 650,
+        "end": 703,
+        "figure": "antithesis",
+        "why": "His own will is set against God’s will, and God’s gift was to turn him from the one to the other."
+      },
+      {
+        "start": 379,
+        "end": 453,
+        "figure": "climax",
+        "why": "Each member takes up the one before, and the series goes from deeds to words and then to the will itself."
+      },
+      {
+        "start": 73,
+        "end": 108,
+        "figure": "metaphor",
+        "why": "The habits that held his will are called bonds, and God has broken them."
+      },
+      {
+        "start": 1028,
+        "end": 1087,
+        "figure": "antithesis",
+        "why": "What he had feared to lose became a joy to give up."
+      },
+      {
+        "start": 8,
+        "end": 42,
+        "figure": "epizeuxis",
+        "why": "The same words are repeated at once, to dwell on his new service."
+      }
+    ],
+    "unmarkedFigures": [
+      "rhetorical question"
+    ],
+    "orig": "O Domine, ego servus tuus, ego servus tuus et filius ancillae tuae. Dirupisti vincula mea; tibi sacrificabo hostiam laudis. Laudet te cor meum et lingua mea, et omnia ossa mea dicant: Domine, quis similis tibi? Dicant, et responde mihi et dic animae meae: Salus tua ego sum. Quis ego et qualis ego? Quid non mali aut facta mea aut, si non facta, dicta mea aut, si non dicta, voluntas mea fuit? Tu autem, Domine, bonus et misericors et dextera tua respiciens profunditatem mortis meae et a fundo cordis mei exhauriens abyssum corruptionis. Et hoc erat totum nolle, quod volebam, et velle, quod volebas. Sed ubi erat tam annoso tempore et de quo imo altoque secreto evocatum est in momento liberum arbitrium meum, quod subderem cervicem leni iugo tuo et umeros levi sarcinae tuae, Christe Iesu, adiutor meus et redemptor meus? Quam suave mihi subito factum est carere suavitatibus nugarum, et quas amittere metus fuerat, iam dimittere gaudium erat.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-9-10",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "9.10",
+    "cue": "At Ostia, Augustine and his mother imagine every created voice falling silent, so that God alone might speak.",
+    "text": "We were saying then: If to any the tumult of the flesh were hushed, hushed the images of earth, and waters, and air, hushed also the pole of heaven, yea the very soul be hushed to herself, and by not thinking on self surmount self, hushed all dreams and imaginary revelations, every tongue and every sign, and whatsoever exists only in transition, since if any could hear, all these say, We made not ourselves, but He made us that abideth for ever—If then having uttered this, they too should be hushed, having roused only our ears to Him who made them, and He alone speak, not by them but by Himself, that we may hear His Word, not through any tongue of flesh, nor Angel's voice, nor sound of thunder, nor in the dark riddle of a similitude, but might hear Whom in these things we love, might hear His Very Self without these (as we two now strained ourselves, and in swift thought touched on that Eternal Wisdom which abideth over all);—could this be continued on, and other visions of kind far unlike be withdrawn, and this one ravish, and absorb, and wrap up its beholder amid these inward joys, so that life might be for ever like that one moment of understanding which now we sighed after; were not this, Enter into thy Master's joy? And when shall that be? When we shall all rise again, though we shall not all be changed?",
+    "spans": [
+      {
+        "start": 21,
+        "end": 147,
+        "figure": "anaphora",
+        "why": "Hushed is repeated in member after member, and each member silences a larger part of creation."
+      },
+      {
+        "start": 1031,
+        "end": 1075,
+        "figure": "tricolon",
+        "why": "Three verbs, ravish, absorb, and wrap up, describe the vision taking hold of the one who sees it."
+      },
+      {
+        "start": 1196,
+        "end": 1239,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer yes; such a moment would be the joy that the Gospel promises."
+      },
+      {
+        "start": 629,
+        "end": 741,
+        "figure": "polysyndeton",
+        "why": "Nor is placed before each member, so each way of hearing is set aside in turn."
+      }
+    ],
+    "unmarkedFigures": [
+      "climax"
+    ],
+    "orig": "Dicebamus ergo: \"Si cui sileat tumultus carnis, sileant phantasiae terrae et aquarum et aeris, sileant et poli et ipsa sibi anima sileat et transeat se non se cogitando, sileant somnia et imaginariae revelationes, omnis lingua et omne signum et quidquid transeundo fit si cui sileat omnino (quoniam si quis audiat, dicunt haec omnia: \"Non ipsa nos fecimus, sed fecit nos qui manet in aeternum\") his dictis si iam taceant, quoniam erexerunt aurem in eum, qui fecit ea, et loquatur ipse solus non per ea, sed per se ipsum, ut audiamus verbum eius, non per linguam carnis neque per vocem angeli nec per sonitum nubis nec per aenigma similitudinis, sed ipsum, quem in his amamus, ipsum sine his audiamus, sicut nunc extendimus nos et rapida cogitatione attingimus, aeternam sapientiam super omnia manentem, si continuetur hoc et subtrahantur aliae visiones longe imparis generis et haec una rapiat et absorbeat et recondat in interiora gaudia spectatorem suum, ut talis sit sempiterna vita, quale fuit hoc momentum intellegentiae, cui suspiravimus, nonne hoc est: Intra in gaudium Domini tui? Et istud quando? An cum omnes resurgimus, sed non omnes immutabimur?\"",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-10-6",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "10.6",
+    "cue": "Augustine asks the earth, the sea, the air, and the heavens whether they are his God, and each answers that it is not.",
+    "text": "And what is this? I asked the earth, and it answered me, \"I am not He\"; and whatsoever are in it confessed the same. I asked the sea and the deeps, and the living creeping things, and they answered, \"We are not thy God, seek above us.\" I asked the moving air; and the whole air with his inhabitants answered, \"Anaximenes was deceived, I am not God.\" I asked the heavens, sun, moon, stars, \"Nor (say they) are we the God whom thou seekest.\" And I replied unto all the things which encompass the door of my flesh: \"Ye have told me of my God, that ye are not He; tell me something of Him.\" And they cried out with a loud voice, \"He made us.\"",
+    "spans": [
+      {
+        "start": 18,
+        "end": 70,
+        "figure": "personification",
+        "why": "The earth is made to answer like a person, and its answer is that it is not God."
+      },
+      {
+        "start": 18,
+        "end": 369,
+        "figure": "anaphora",
+        "why": "I asked begins each of the four sentences, and each question goes to a higher part of the world."
+      },
+      {
+        "start": 513,
+        "end": 585,
+        "figure": "apostrophe",
+        "why": "He turns to speak to the created things themselves, as if they could reply."
+      }
+    ],
+    "unmarkedFigures": [
+      "prosopopoeia"
+    ],
+    "orig": "Et quid est hoc? Interrogavi terram, et dixit: \"Non sum\"; et quaecumque in eadem sunt, idem confessa sunt. Interrogavi mare et abyssos et reptilia animarum vivarum, et responderunt: \"Non sumus Deus tuus; quaere super nos\". Interrogavi auras flabiles, et inquit universus aer cum incolis suis: \"Fallitur Anaximenes; non sum Deus\". Interrogavi caelum, solem, lunam, stellas: \"Neque nos sumus Deus, quem quaeris\", inquiunt. Et dixi omnibus his, quae circumstant fores carnis meae: \"Dicite mihi de Deo meo, quod vos non estis, dicite mihi de illo aliquid\". Et exclamaverunt voce magna: Ipse fecit nos.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-10-8",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "10.8",
+    "cue": "Augustine describes his memory as a great building in which images are stored.",
+    "text": "I will pass then beyond this power of my nature also, rising by degrees unto Him Who made me. And I come to the fields and spacious palaces of my memory, where are the treasures of innumerable images, brought into it from things of all sorts perceived by the senses. There is stored up, whatsoever besides we think, either by enlarging or diminishing, or any other way varying those things which the sense hath come to; and whatever else hath been committed and laid up, which forgetfulness hath not yet swallowed up and buried. When I enter there, I require what I will to be brought forth, and something instantly comes; others must be longer sought after, which are fetched, as it were, out of some inner receptacle; others rush out in troops, and while one thing is desired and required, they start forth, as who should say, \"Is it perchance I?\" These I drive away with the hand of my heart, from the face of my remembrance; until what I wish for be unveiled, and appear in sight, out of its secret place. Other things come up readily, in unbroken order, as they are called for; those in front making way for the following; and as they make way, they are hidden from sight, ready to come when I will. All which takes place when I repeat a thing by heart.",
+    "spans": [
+      {
+        "start": 108,
+        "end": 199,
+        "figure": "metaphor",
+        "why": "Memory is called fields, palaces, and a treasury, because it holds images as a great house holds its stores."
+      },
+      {
+        "start": 720,
+        "end": 849,
+        "figure": "personification",
+        "why": "Memories are made to push forward and speak, as people in a crowd do when they hope to be called."
+      },
+      {
+        "start": 471,
+        "end": 527,
+        "figure": "personification",
+        "why": "Forgetfulness is made an agent that swallows and buries what is stored."
+      },
+      {
+        "start": 850,
+        "end": 927,
+        "figure": "metaphor",
+        "why": "The heart is given a hand and remembrance a face, so the act of putting a memory aside is pictured as a bodily act."
+      }
+    ],
+    "orig": "Transibo ergo et istam naturae meae, gradibus ascendens ad eum, qui fecit me, et venio in campos et lata praetoria memoriae, ubi sunt thesauri innumerabilium imaginum de cuiuscemodi rebus sensis invectarum. Ibi reconditum est, quidquid etiam cogitamus, vel augendo vel minuendo vel utcumque variando ea quae sensus attigerit, et si quid aliud commendatum et repositum est, quod nondum absorbuit et sepelivit oblivio. Ibi quando sum, posco, ut proferatur quidquid volo, et quaedam statim prodeunt, quaedam requiruntur diutius et tamquam de abstrusioribus quibusdam receptaculis eruuntur, quaedam catervatim se proruunt et, dum aliud petitur et quaeritur, prosiliunt in medium quasi dicentia: \"Ne forte nos sumus?\". Et abigo ea manu cordis a facie recordationis meae, donec enubiletur quod volo atque in conspectum prodeat ex abditis. Alia faciliter atque imperturbata serie sicut poscuntur suggeruntur et cedunt praecedentia consequentibus et cedendo conduntur, iterum cum voluero processura. Quod totum fit, cum aliquid narro memoriter.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  },
+  {
+    "id": "aug-conf-10-29",
+    "author": "Augustine",
+    "work": "Confessions",
+    "locus": "10.29",
+    "cue": "Augustine places all his hope in God’s mercy and asks God to give the continence that He commands.",
+    "text": "And all my hope is no where but in Thy exceeding great mercy. Give what Thou enjoinest, and enjoin what Thou wilt. Thou enjoinest us continency; and when I knew, saith one, that no man can be continent, unless God give it, this also was a part of wisdom to know whose gift she is. By continency verily are we bound up and brought back into One, whence we were dissipated into many. For too little doth he love Thee, who loves any thing with Thee, which he loveth not for Thee. O love, who ever burnest and never consumest! O charity, my God, kindle me. Thou enjoinest continency: give me what Thou enjoinest, and enjoin what Thou wilt.",
+    "spans": [
+      {
+        "start": 62,
+        "end": 114,
+        "figure": "chiasmus",
+        "why": "Enjoinest ends the first member and enjoin begins the second, so the order is crossed; God gives what He commands, and commands what He wills."
+      },
+      {
+        "start": 382,
+        "end": 476,
+        "figure": "sententia",
+        "why": "A general rule about love is stated in one short sentence."
+      },
+      {
+        "start": 322,
+        "end": 380,
+        "figure": "antithesis",
+        "why": "One and many are opposed, because continence gathers the soul that was scattered among many things."
+      },
+      {
+        "start": 477,
+        "end": 552,
+        "figure": "apostrophe",
+        "why": "He turns to love and calls on it as on a person, and then names it as God."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis",
+      "epimone"
+    ],
+    "orig": "Et tota spes mea non nisi in magna valde misericordia tua. Da quod iubes et iube quod vis. Imperas nobis continentiam. Et cum scirem, ait quidam, quia nemo potest esse continens, nisi Deus det, et hoc ipsum erat sapientiae, scire cuius esset hoc donum. Per continentiam quippe colligimur et redigimur in unum, a quo in multa defluximus. Minus enim te amat qui tecum aliquid amat, quod non propter te amat. O amor, qui semper ardes et numquam exstingueris, caritas, Deus meus, accende me! Continentiam iubes: da quod iubes et iube quod vis.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "aug_pusey"
+    ]
+  }
 ];
