@@ -10769,5 +10769,268 @@ window.PASSAGES = [
     "src": [
       "ddc"
     ]
+  },
+  {
+    "id": "thuc-nic-sicily",
+    "author": "Nicias (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.9",
+    "cue": "Nicias opens the second assembly on the Sicilian expedition, which he has been chosen to command.",
+    "text": "Although this assembly was convened to consider the preparations to be made for sailing to Sicily, I think, notwithstanding, that we have still this question to examine, whether it be better to send out the ships at all, and that we ought not to give so little consideration to a matter of such moment, or let ourselves be persuaded by foreigners into undertaking a war with which we have nothing to do.",
+    "spans": [],
+    "src": [
+      "thuc_crawley"
+    ]
+  },
+  {
+    "id": "thuc-cor-neutral",
+    "author": "The Corinthians (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.40",
+    "cue": "The Corinthians answer the Corcyraeans before the Athenian assembly, which is deciding whether to make an alliance with Corcyra.",
+    "text": "For you cannot become their auxiliary and remain our friend; if you join in their attack, you must share the punishment which the defenders inflict on them. And yet you have the best possible right to be neutral, or, failing this, you should on the contrary join us against them. Corinth is at least in treaty with you; with Corcyra you were never even in truce.",
+    "spans": [
+      {
+        "start": 280,
+        "end": 362,
+        "figure": "antithesis",
+        "why": "Corinth and Corcyra are set against each other, a treaty against not even a truce."
+      }
+    ],
+    "src": [
+      "thuc_crawley"
+    ]
+  },
+  {
+    "id": "thuc-theb-vindicate",
+    "author": "The Thebans (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.67",
+    "cue": "The Thebans close their speech against the Plataeans before the Spartan judges.",
+    "text": "Vindicate, therefore, Lacedaemonians, the Hellenic law which they have broken; and to us, the victims of its violation, grant the reward merited by our zeal. Nor let us be supplanted in your favour by their harangues, but offer an example to the Hellenes, that the contests to which you invite them are of deeds, not words: good deeds can be shortly stated, but where wrong is done a wealth of language is needed to veil its deformity.",
+    "spans": [
+      {
+        "start": 303,
+        "end": 322,
+        "figure": "antithesis",
+        "why": "Deeds are set against words, and the Plataeans are said to offer only words."
+      },
+      {
+        "start": 324,
+        "end": 434,
+        "figure": "sententia",
+        "why": "A general maxim about deeds and words is applied to the long speech of the Plataeans."
+      }
+    ],
+    "unmarkedFigures": [
+      "metaphor"
+    ],
+    "src": [
+      "thuc_crawley"
+    ]
+  },
+  {
+    "id": "thuc-herm-camarina",
+    "author": "Hermocrates (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.76",
+    "cue": "Hermocrates of Syracuse speaks to the assembly at Camarina, which is deciding whether to side with Syracuse or with Athens.",
+    "text": "They are come to Sicily with the pretext that you know, and the intention which we all suspect, in my opinion less to restore the Leontines to their homes than to oust us from ours; as it is out of all reason that they should restore in Sicily the cities that they lay waste in Hellas, or should cherish the Leontine Chalcidians because of their Ionian blood and keep in servitude the Euboean Chalcidians, of whom the Leontines are a colony.",
+    "spans": [
+      {
+        "start": 110,
+        "end": 180,
+        "figure": "antithesis",
+        "why": "Restoring the Leontines to their homes is set against driving the Syracusans from theirs."
+      },
+      {
+        "start": 226,
+        "end": 284,
+        "figure": "antithesis",
+        "why": "Restoring cities in Sicily is set against laying cities waste in Hellas."
+      }
+    ],
+    "src": [
+      "thuc_crawley"
+    ]
+  },
+  {
+    "id": "thuc-euph-fear",
+    "author": "Euphemus (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.83",
+    "cue": "Euphemus, the Athenian envoy, answers Hermocrates before the assembly at Camarina.",
+    "text": "Now, as we have said, fear makes us hold our empire in Hellas, and fear makes us now come, with the help of our friends, to order safely matters in Sicily, and not to enslave any but rather to prevent any from being enslaved.",
+    "spans": [
+      {
+        "start": 22,
+        "end": 80,
+        "figure": "anaphora",
+        "why": "“Fear makes us” begins both clauses."
+      },
+      {
+        "start": 160,
+        "end": 224,
+        "figure": "antithesis",
+        "why": "Enslaving others is set against keeping others from being enslaved."
+      }
+    ],
+    "src": [
+      "thuc_crawley"
+    ]
+  },
+  {
+    "id": "sal-cato-feelings",
+    "author": "Cato (Sallust)",
+    "work": "Conspiracy of Catiline",
+    "locus": "52",
+    "cue": "Cato gives his opinion in the senate on the conspirators, after Caesar has spoken.",
+    "text": "Those speakers, as it seems to me, have considered only how to punish the traitors who have raised war against their country, their parents, their altars, and their homes; but the state of affairs warns us rather to secure ourselves against them, than to take counsel as to what sentence we should pass upon them. Other crimes you may punish after they have been committed; but as to this, unless you prevent its commission, you will, when it has once taken effect, in vain appeal to justice.",
+    "spans": [
+      {
+        "start": 206,
+        "end": 312,
+        "figure": "antithesis",
+        "why": "Securing the city against the conspirators is set against only deciding their sentence."
+      }
+    ],
+    "unmarkedFigures": [
+      "enumeratio"
+    ],
+    "src": [
+      "sallust_w"
+    ]
+  },
+  {
+    "id": "aug-ddc-19-38",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.19.38",
+    "cue": "Augustine says that the Christian teacher speaks of great matters, but not always in the majestic style.",
+    "text": "And yet, while our teacher ought to speak of great matters, he ought not always to be speaking of them in a majestic tone, but in a subdued tone when he is teaching, temperately when he is giving praise or blame. When, however, something is to be done, and we are speaking to those who ought, but are not willing, to do it, then great matters must be spoken of with power, and in a manner calculated to sway the mind. And sometimes the same important matter is treated in all these ways at different times, quietly when it is being taught, temperately when its importance is being urged, and powerfully when we are forcing a mind that is averse to the truth to turn and embrace it.",
+    "spans": [
+      {
+        "start": 507,
+        "end": 680,
+        "figure": "tricolon",
+        "why": "The same matter is spoken of in three ways, and each member names a style and the occasion for it."
+      }
+    ],
+    "orig": "Et tamen cum doctor iste debeat rerum dictor esse magnarum, non semper eas debet granditer dicere, sed summisse cum aliquid docetur, temperate cum aliquid vituperatur sive laudatur. Cum vero aliquid agendum est, et ad eos loquimur, qui hoc agere debent nec tamen volunt, tunc ea quae magna sunt, dicenda sunt granditer, et ad flectendos animos congruenter. Et aliquando de una eademque re magna et summisse dicitur si docetur, et temperate si praedicatur, et granditer si aversus inde animus ut convertatur impellitur.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-21-46",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.21.46",
+    "cue": "Augustine explains why Ambrose writes on a very great subject in the subdued style.",
+    "text": "St. Ambrose also, though dealing with a question of very great importance, the equality of the Holy Spirit with the Father and the Son, employs the subdued style, because the object he has in view demands, not beauty of diction, nor the swaying of the mind by the stir of emotion, but facts and proofs.",
+    "spans": [
+      {
+        "start": 206,
+        "end": 301,
+        "figure": "antithesis",
+        "why": "What the subject does not demand is set against what it does demand."
+      }
+    ],
+    "orig": "Sanctus quoque Ambrosius cum agat rem magnam de Spiritu Sancto, ut eum Patri et Filio demonstret aequalem, summisso tamen dicendi genere utitur, quoniam res suscepta non ornamenta verborum aut ad flectendos animos commotionis affectum, sed rerum documenta desiderat.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-22-51",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.22.51",
+    "cue": "Augustine says that the styles may be mixed in one discourse.",
+    "text": "But we are not to suppose that it is against rule to mingle these various styles: on the contrary, every variety of style should be introduced so far as is consistent with good taste. For when we keep monotonously to one style, we fail to retain the hearer's attention; but when we pass from one style to another, the discourse goes off more gracefully, even though it extend to greater length.",
+    "spans": [
+      {
+        "start": 188,
+        "end": 352,
+        "figure": "antithesis",
+        "why": "Keeping to one style is set against passing from one style to another."
+      }
+    ],
+    "orig": "Nec quisquam praeter disciplinam esse existimet ista miscere; immo quantum congrue fieri potest, omnibus generibus dictio varianda est. Nam quando prolixa est in uno genere, minus detinet auditorem. Cum vero fit in aliud ab alio transitus, etiamsi longius est, decentius procedit oratio;",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-23-52",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.23.52",
+    "cue": "Augustine says where each style should be used inside a discourse in another style.",
+    "text": "Again, whatever may be the style of the speech or writing, when knotty questions turn up for solution, accuracy of distinction is required, and this naturally demands the subdued style. And accordingly this style must be used in alternation with the other two styles whenever questions of that sort turn up; just as we must use the temperate style, no matter what may be the general tone of the discourse, whenever praise or blame is to be given without any ulterior reference to the condemnation or acquittal of any one, or to obtaining the concurrence of any one in a course of action. In the majestic style, then, and in the quiet likewise, both the other two styles occasionally find place. The temperate style, on the other hand, not indeed always, but occasionally, needs the quiet style; for example, when, as I have said, a knotty question comes up to be settled, or when some points that are susceptible of ornament are left unadorned and expressed in the quiet style, in order to give greater effect to certain exuberances (as they may be called) of ornament. But the temperate style never needs the aid of the majestic; for its object is to gratify, never to excite, the mind.",
+    "spans": [
+      {
+        "start": 1149,
+        "end": 1186,
+        "figure": "antithesis",
+        "why": "Gratifying the mind is set against exciting it."
+      }
+    ],
+    "orig": "In quocumque autem genere aliqua quaestionum vincula solvenda sunt, acumine opus est, quod sibi summissum genus proprie vindicat. Ac per hoc eo genere utendum est et in aliis duobus generibus, quando eis ista incidunt: sicut laudandum aliquid vel vituperandum, ubi nec damnatio cuiusquam nec liberatio nec ad actionem quamlibet assensio requiritur, in quocumque alio genere occurrerit, genus adhibendum et interponendum est temperatum. In grandi ergo genere inveniunt locos suos duo cetera et in summisso similiter. Temperatum autem genus non quidem semper, sed tamen aliquando summisso indiget, si, ut dixi, quaestio cuius nodus est solvendus, incurrat; vel quando nonnulla quae ornari possent ideo non ornantur, sed summisso sermone dicuntur, ut quibusdam quasi toris ornamentorum praebeant eminentiorem locum. Grande autem genus temperata dictio non requirit; ad delectandos quippe animos, non ad movendos ipsa suscipitur.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-24-54",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.24.54",
+    "cue": "Augustine compares the change that each of the three styles makes in its hearers.",
+    "text": "The quiet style, too, has made a change in many; but it was to teach them what they were ignorant of, or to persuade them of what they thought incredible, not to make them do what they knew they ought to do but were unwilling to do. To break down hardness of this sort, speech needs to be vehement. Praise and censure, too, when they are eloquently expressed, even in the temperate style, produce such an effect on some, that they are not only pleased with the eloquence of the encomiums and censures, but are led to live so as themselves to deserve praise, and to avoid living so as to incur blame. But no one would say that all who are thus delighted change their habits in consequence, whereas all who are moved by the majestic style act accordingly, and all who are taught by the quiet style know or believe a truth which they were previously ignorant of.",
+    "spans": [
+      {
+        "start": 60,
+        "end": 231,
+        "figure": "antithesis",
+        "why": "Teaching and persuading of the truth are set against making the hearer act."
+      }
+    ],
+    "orig": "Submisso etiam dicendi genere sunt plerique mutati, sed ut quod nesciebant scirent, aut quod eis videbatur incredibile crederent, non autem ut agerent quod agendum iam noverant et agere nolebant. Ad huiusmodi namque duritiam flectendam debet granditer dici. Nam et laudes et vituperationes quando eloquenter dicuntur, cum sint in genere temperato, sic afficiunt quosdam ut non solum in laudibus et vituperationibus eloquentia delectentur, verum et ipsi laudabiliter appetant fugiantque vituperabiliter vivere. Sed numquid omnes qui delectantur, mutantur, sicut in grandi genere omnes qui flectuntur, agunt, et in summisso genere omnes qui docentur, sciunt, aut credunt verum esse quod nesciunt?",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-25-55",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.25.55",
+    "cue": "Augustine says that every style aims at persuasion, and names what each style persuades the hearer of.",
+    "text": "For as the function of all eloquence, whichever of these three forms it may assume, is to speak persuasively, and its object is to persuade, an eloquent man will speak persuasively, whatever style he may adopt; but unless he succeeds in persuading, his eloquence has not secured its object. Now in the subdued style, he persuades his hearers that what he says is true; in the majestic style, he persuades them to do what they are aware they ought to do, but do not; in the temperate style, he persuades them that his speech is elegant and ornate.",
+    "spans": [
+      {
+        "start": 295,
+        "end": 545,
+        "figure": "tricolon",
+        "why": "Three parallel members name the three styles and what each persuades of."
+      }
+    ],
+    "orig": "Nam cum eloquentiae sit universale officium, in quocumque istorum trium generum dicere apte ad persuasionem, finis autem, id quod intenderis persuadere dicendo, in quocumque istorum trium generum dicit quidem eloquens apte ad persuasionem, sed nisi persuadeat, ad finem non pervenit eloquentiae. Persuadet autem in summisso genere vera esse quae dicit, persuadet in grandi ut agantur quae agenda esse iam sciuntur nec aguntur; persuadet in genere temperato pulchre ornateque se dicere.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
   }
 ];
