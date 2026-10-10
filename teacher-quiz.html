@@ -209,6 +209,8 @@ const $ = id => document.getElementById(id);
 const LETTERS = ['a','b','c','d','e','f','g','h'];
 const SMALL = {figgorgias:1, antiphon:1};
 const OPTIONAL = {figfurther:1};
+// Sets with no quiz-only corpus: every question comes from the course items.
+const COURSE_ONLY = {effects:1};
 
 const QUIZ_SETS = [];
 ACTS.forEach(a => {
@@ -238,6 +240,8 @@ function buildSetList(){
       ? 'Optional set: the less common figures, drawn from the course selections'
       : SMALL[s.ex]
       ? 'Small bank — the work itself; overlap with the app is unavoidable'
+      : COURSE_ONLY[s.ex]
+      ? 'Drawn from the course items; this set has no quiz-only corpus'
       : 'Half from the course selections, half from the quiz-only corpus';
     html += '<label class="setrow"><input type="checkbox" data-ex="'+s.ex+'">'+
       '<span class="id">'+s.roman+'</span>'+
@@ -429,7 +433,7 @@ function generateItems(){
     const gen = EX[exId] && EX[exId].gen;
     if(!gen) return;
     state.ex = EX[exId];
-    let made = 0, tries = 0, madeHidden = 0, hiddenOut = SMALL[exId] ? true : false, misses = 0;
+    let made = 0, tries = 0, madeHidden = 0, hiddenOut = (SMALL[exId] || COURSE_ONLY[exId]) ? true : false, misses = 0;
     // Alternate course and quiz-only items. When the quiz-only corpus has nothing new to give,
     // stop asking it; when the whole bank has nothing new, print fewer questions rather than a repeat.
     while(made < n && tries < n * 60){
@@ -454,7 +458,7 @@ function generateItems(){
     }
     if(made < n){
       notes.push(title+': '+made+' of '+n+' printed; the bank has no more distinct questions at this difficulty.');
-    } else if(!SMALL[exId] && !OPTIONAL[exId] && madeHidden < Math.floor(n / 2)){
+    } else if(!SMALL[exId] && !OPTIONAL[exId] && !COURSE_ONLY[exId] && madeHidden < Math.floor(n / 2)){
       notes.push(title+': only '+madeHidden+' of '+n+' from the quiz-only corpus; the rest are course items the students have seen.');
     }
   });
