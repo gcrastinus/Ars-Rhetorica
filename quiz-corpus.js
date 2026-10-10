@@ -391,7 +391,7 @@ window.QUIZ_DOCTRINE = [
     correct:1, note:'Helen 8–14 presents logos as a potentate. Aristotle will not grant that account of agency, and the course asks us to recognize it.'},
   {div:'VII', prompt:'In Antiphon’s Second Tetralogy the facts of the throw are agreed. The dispute is therefore',
     options:['Whether a javelin was thrown at all','How to name the act and its cause: whose error (hamartia)','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
-    correct:1, note:'This is forensic oratory at its limit: the narration collapses, and invention has to work on description and cause.'},
+    correct:1, note:'This is forensic oratory at its limit: the narration shrinks to a sentence, and invention has to deal with description and cause.'},
   {div:'VII', prompt:'Augustine keeps Cicero’s three offices. They are',
     options:['Grammar, logic, and rhetoric','To teach, to delight, to move (docere, delectare, flectere)','Ethos, pathos, and logos','Opening, narration, and proof'],
     correct:1, note:'DDC IV: the end is Scripture’s truth, not a fee, and the test of the grand style is tears, not applause.'},

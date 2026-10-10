@@ -220,9 +220,9 @@ DECKS.antiphon = {
 { src:['antiphon'], h:'<p><strong>The case.</strong> During javelin practice a boy runs out, is struck in the side, and dies on the spot. The facts are agreed. The prosecutor (the dead boy’s father) charges not intentional but <em>unintentional</em> homicide. There are four speeches: the prosecution, the defense, the prosecution’s second speech, and the defense’s second. That is what a tetralogy is, a sophistic school-piece in the shape of a trial.</p><p>What is on trial is <strong>cause</strong> and <strong>hamartia</strong>. So the question is who missed: the thrower, whose javelin flew true at the target, or the boy who ran into the line? Pollution (<span class="lat">miasma</span>) hangs over the city until a verdict names the cause. <span class="lat">Erga</span> stand against <span class="lat">logoi</span> (deeds against words). <span class="lat">Doxa</span> stands against <span class="lat">aletheia</span> (opinion against truth). The defendant calls himself <span class="lat">apragmon</span>, no busybody, forced into court by misfortune.</p>' },
 { src:['antiphon'], h:'<p><strong>How to read it.</strong> These are not Ciceronian orations but a sophistic school-piece in forensic form: four speeches, two on each side, and one set of facts. They are a drill in invention for a case whose narrative is finished on the first page, so every later claim is a redescription of the same throw.</p><p>Of each excerpt we should ask three questions. Which <em>side</em> is speaking? Which means of persuasion (<em>pistis</em>) is the speech showing? And which seat of argument (<em>topos</em>: from consequences, from the laws, from more and less, or from the name of the act) does it draw on?</p>',
   q:{ prompt:'In this tetralogy the facts of the throw are agreed. The dispute is therefore',
-      options:['Whether a javelin was thrown at all','How to name the act and its cause: whose error (hamartia)','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
+      options:['Whether any javelin was thrown during the practice at all','How to name the act and its cause: whose error (hamartia)','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
       correct:1,
-      explain:'This is forensic oratory at its limit: the narration collapses, and invention has to work on description and cause. That is why the piece is a school exercise.' } }
+      explain:'This is forensic oratory at its limit: the narration shrinks to a sentence, and invention has to deal with description and cause. That is why the piece is a school exercise.' } }
 ]};
 
 DECKS.augustine = {
@@ -1449,7 +1449,7 @@ EX.species = {
 };
 EX.pisteis = {
   id:'pisteis', title:'The Three Pisteis',
-  instr:'Of the three pisteis, or means of persuasion, which is doing the work here: the speaker’s character (ethos), the hearer’s passions (pathos), or the argument (logos)? All the passages are real. Ten questions make a set; a passage is not repeated in the set.',
+  instr:'Of the three pisteis, or means of persuasion, which the speech is showing here: the speaker’s character (ethos), the hearer’s passions (pathos), or the argument (logos)? All the passages are real. Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
     const item = pickSeen(itemPool('PISTEIS_ITEMS', PISTEIS_ITEMS), x => 'pi:'+x.pid);
@@ -1532,7 +1532,7 @@ EX.topics = {
 };
 EX.ethos = {
   id:'ethos', title:'Character in the speech',
-  instr:'Aristotle says that we trust a speaker for practical wisdom (phronesis), virtue (arete), or goodwill (eunoia), as these are shown in the speech and not borrowed as a reputation from outside. Name which of the three is doing the work. Ten questions; a passage is not repeated in the set.',
+  instr:'Aristotle says that we trust a speaker for practical wisdom (phronesis), virtue (arete), or goodwill (eunoia), as these are shown in the speech and not borrowed as a reputation from outside. Name which of the three the speech is showing. Ten questions; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
     const e = pickSeen(itemPool('ETHOS_ITEMS', ETHOS_ITEMS), x => 'et:'+x.id);
