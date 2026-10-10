@@ -337,8 +337,8 @@ window.QUIZ_ITEMS = {
   ],
   DEBATES:[
     {id:'qd-per-cleon', title:'How to hold the allies',
-      a:{who:'Pericles', pid:'q-thuc-per-140', claim:'Do not yield: the first concession makes a master.'},
-      b:{who:'Cleon', pid:'q-thuc-cleon-40', claim:'Punish rebellion with death, or the empire cannot be held.'},
+      a:{who:'Pericles', pid:'q-thuc-per-140', claim:'Do not yield: the first concession makes a master.', wrong:'Yield on the decree; it will buy a lasting peace.'},
+      b:{who:'Cleon', pid:'q-thuc-cleon-40', claim:'Punish rebellion with death, or the empire cannot be held.', wrong:'Pardon the rebels, or the other allies will fight to the last.'},
       species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.140 / 3.40'}
   ]
 };
