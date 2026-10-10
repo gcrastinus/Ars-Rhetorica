@@ -2124,7 +2124,7 @@ const ACTS = [
      {kind:'ex', ex:'figwhich', tag:'EXERCISE', title:'Which excerpt?', desc:'Four real passages; one of them is using the named figure.'},
      {kind:'ex', ex:'figcicero', tag:'EXERCISE', title:'Cicero’s figures', desc:'The great Roman orator’s use of figures throughout his work, but especially in the orations against Catiline.'},
      {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Almost all Gorgias: opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton); the potentate and the drug.'},
-     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin on the original-text button where we have it.'},
+     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin where we have it.'},
      {kind:'ex', ex:'figfurther', tag:'OPTIONAL', title:'Further figures (optional)', desc:'This set is optional. It drills the less common figures, such as correctio, epizeuxis, polysyndeton, and aposiopesis, which the main sets do not ask about.'}
    ]},
   {roman:'VII', name:'The Whole Case', latin:'causa',

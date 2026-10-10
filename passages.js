@@ -844,7 +844,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 18,
         "figure": "sententia",
-        "why": "The proverb is left to do the work of a speech."
+        "why": "The proverb is left to take the place of a speech."
       }
     ]
   },
@@ -5120,7 +5120,7 @@ window.PASSAGES = [
         "start": 250,
         "end": 296,
         "figure": "dilemma",
-        "why": "He leaves only two outcomes, all slave or all free, and both are unfavourable to those who would keep the nation half slave and half free (the course of Douglas’s policy), since neither outcome leaves the division standing."
+        "why": "He leaves only two outcomes, all slave or all free, and both are unfavorable to those who would keep the nation half slave and half free (the course of Douglas’s policy), since neither outcome leaves the division standing."
       },
       {
         "start": 0,
