@@ -1485,7 +1485,7 @@ EX.enthymeme = {
 };
 EX.stasis = {
   id:'stasis', title:'The Issue (Status)',
-  instr:'Cicero says that every case stands on one of four issues (status): fact, definition, quality, or transference. Name the issue on which each case stands. From difficulty 3, a case on the issue of quality may ask instead which of Cicero’s divisions of that issue the defense uses. Ten questions make a set; a case is not repeated in the set.',
+  instr:'Cicero says that every case stands on one of four issues (status): fact, definition, quality, or transference. We name the issue on which each case stands. From difficulty 3, a case on the issue of quality may ask instead which of Cicero’s divisions of that issue the defense uses. Ten questions make a set; a case is not repeated in the set.',
   src:['cic_inv','cic_part','cic_yonge','lysias_lamb','webster_w','quint'],
   gen(diff){
     const e = pickSeen(itemPool('STASIS_ITEMS', STASIS_ITEMS), x => 'st:'+x.id);
@@ -1830,7 +1830,7 @@ EX.figgorgias = figSet('figgorgias', 'Figures · Gorgias’s Helen',
   'This set is almost all Gorgias. Van Hook’s English is built of opposed clauses (antithesis), equal members (isocolon), and like endings (homoeoteleuton). A set is six passages, and none repeats within it.',
   x => x.track==='gorgias', ['gorgias_vh']);
 EX.figaugustine = figSet('figaugustine', 'Figures · Augustine',
-  'The passages come from the Confessions, On Christian Teaching IV, a letter, and a sermon. Where we have the Latin, it is on the original-text button.',
+  'The passages come from the Confessions, On Christian Teaching IV, a letter, and a sermon. Where we have the Latin, it is under Show the Latin.',
   x => x.author==='Augustine', ['aug_pusey','ddc']);
 EX.figcicero = figSet('figcicero', 'Figures · Cicero',
   'This set follows the great Roman orator’s use of figures throughout his work, but especially in the orations against Catiline. Ten questions; a passage is not repeated in the set.',
@@ -2118,17 +2118,17 @@ const ACTS = [
      {kind:'ex', ex:'effects', tag:'EXERCISE', title:'Choosing among correct sentences', desc:'Several versions of a sentence are all correct, but which one serves the passage best?'}
    ]},
   {roman:'VI', name:'Figures', latin:'figurae',
-   gloss:'Click the marked part of the passage, or say which of four excerpts uses the named figure. The filters are Cicero, Gorgias’s Helen, and Augustine; tragedy and early prose are in the mixed sets. These sets ask only about the commonly taught figures, and an optional set at the end drills the rest.',
+   gloss:'The sets ask us to mark the part of the passage that is the figure, or to say which of four excerpts uses it. The filters are Cicero, Gorgias’s Helen, and Augustine; tragedy and early prose are in the mixed sets. These sets ask only about the commonly taught figures, and an optional set at the end drills the rest.',
    items:[
      {kind:'ex', ex:'figclick', tag:'EXERCISE', title:'Click the figure', desc:'Mixed selections, from Cicero to Sophocles and from Gorgias to the Confessions.'},
      {kind:'ex', ex:'figwhich', tag:'EXERCISE', title:'Which excerpt?', desc:'Four real passages; one of them is using the named figure.'},
      {kind:'ex', ex:'figcicero', tag:'EXERCISE', title:'Cicero’s figures', desc:'The great Roman orator’s use of figures throughout his work, but especially in the orations against Catiline.'},
      {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Almost all Gorgias: opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton); the potentate and the drug.'},
-     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin where we have it.'},
+     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin under Show the Latin where we have it.'},
      {kind:'ex', ex:'figfurther', tag:'OPTIONAL', title:'Further figures (optional)', desc:'This set is optional. It drills the less common figures, such as correctio, epizeuxis, polysyndeton, and aposiopesis, which the main sets do not ask about.'}
    ]},
   {roman:'VII', name:'The Whole Case', latin:'causa',
-   gloss:'From the situation, name the kind of speech (species), its end, the means of persuasion (pistis), and a figure. Paired debates from Greek and Roman historians, and Antiphon’s tetralogy kept as speech to a jury (forensic).',
+   gloss:'From the situation we name the kind of speech (species), its end, the means of persuasion (pistis), and a figure. Paired debates from Greek and Roman historians, and Antiphon’s tetralogy kept as speech to a jury (forensic).',
    items:[
      {kind:'deck', deck:'gorgias', tag:'TUTORIAL', title:'Gorgias and the four aitiai', desc:'Persuasion as a drug; speech (logos) as a powerful ruler; fortune, violence, persuasion, love (the four causes, aitiai).'},
      {kind:'deck', deck:'antiphon', tag:'TUTORIAL', title:'The Second Tetralogy', desc:'Javelin practice; facts agreed; cause and error (hamartia); ritual pollution (miasma); the quiet man who minds his own business (apragmon).'},
@@ -2142,8 +2142,8 @@ const ACTS = [
 const DIFF = {
   1:{gain:10, loss:4,  name:'I',   desc:'Beginning. The names are given and a hint is shown. A right answer is worth ten points. Most sets are ten questions, and a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s Helen are six; the Christian orator is eight.'},
   2:{gain:12, loss:6,  name:'II',  desc:'The wrong answers sit closer to the right one. Twelve points for a right answer; six lost for a wrong one.'},
-  3:{gain:15, loss:8,  name:'III', desc:'Less help. You name the thing from the speech. Fifteen points for a right answer.'},
+  3:{gain:15, loss:8,  name:'III', desc:'Less help. We name the thing from the speech. Fifteen points for a right answer.'},
   4:{gain:18, loss:10, name:'IV',  desc:'Shorter passages and closer wrong answers. Eighteen points for a right answer.'},
-  5:{gain:22, loss:12, name:'V',   desc:'No hint. You judge the speech as it stands. Twenty-two points for a right answer.'}
+  5:{gain:22, loss:12, name:'V',   desc:'No hint. We judge the speech as it stands. Twenty-two points for a right answer.'}
 };
 const SET_LEN = 10;
