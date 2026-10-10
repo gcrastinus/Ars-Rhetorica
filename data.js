@@ -58,6 +58,9 @@ const SRC = {
     full:'Tacitus, <i>Annals</i>, trans. Thomas Gordon. Public domain.', note:'The opening of the Annals in the bank is Gordon (“Kings were the original Magistrates…”).'},
   tacitus_murphy:{kind:'primary', short:'Tacitus, <i>Agricola</i>, trans. Murphy',
     full:'Tacitus, <i>Agricola</i>, trans. Arthur Murphy. Public domain. Calgacus: “where they make a desert, they call it peace.”', note:'Church and Brodribb have “solitude,” not “desert.”'},
+  tacitus_brooks:{kind:'primary', short:'Tacitus, <i>Agricola</i>, Oxford trans. (Brooks)',
+    full:'Tacitus, <i>Agricola</i> 30, the Oxford translation revised, with notes, by Edward Brooks, Jr. Public domain. The opening of Calgacus, from “When I reflect on the causes of the war” through “the remoteness of our situation and of our fame.”',
+    note:'This is not Arthur Murphy, and it is not Church and Brodribb.'},
   plato_jowett:{kind:'primary', short:'Plato, trans. Jowett',
     full:'Plato, Apology, Crito, Phaedrus, Symposium, Menexenus, Protagoras, Gorgias, trans. Benjamin Jowett. Public domain.', note:''},
   demosth:{kind:'primary', short:'Demosthenes, trans. Pickard',
@@ -2106,7 +2109,7 @@ const ACTS = [
      {kind:'ex', ex:'taxisorder', tag:'EXERCISE', title:'The six offices', desc:'Their duties, their order, and when narration shrinks.'}
    ]},
   {roman:'V', name:'Style', latin:'lexis',
-   gloss:'Clear and fitting speech first; metaphor as seeing likeness; the sophistic vice of making style do the work of argument.',
+   gloss:'Clear and fitting speech first; metaphor as seeing likeness; the sophistic vice of making style do the work of argument; and the choice among correct sentences by order, voice, and construction.',
    items:[
      {kind:'deck', deck:'lexis', tag:'TUTORIAL', title:'Virtue of style', desc:'Aristotle III; clarity first; when figures do the work of argument, and when they do not.'},
      {kind:'ex', ex:'lexis', tag:'EXERCISE', title:'Style and the argument', desc:'Does the claim still stand in plain clauses, or is the figure the claim?'},

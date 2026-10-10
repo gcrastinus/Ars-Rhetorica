@@ -739,12 +739,12 @@ window.PASSAGES = [
   {
     "id": "tac-cal-1",
     "author": "Tacitus",
-    "work": "Agricola (Murphy)",
+    "work": "Agricola (Oxford)",
     "locus": "30",
     "cue": "Calgacus before the battle: Britain at the world's end, and Rome as the last enemy.",
     "text": "When I reflect on the causes of the war, and the circumstances of our situation, I feel a strong persuasion that our united efforts on the present day will prove the beginning of universal liberty to Britain. For we are all undebased by slavery; and there is no land behind us, nor does even the sea afford a refuge, whilst the Roman fleet hovers around. Thus the use of arms, which is at all times honorable to the brave, now offers the only safety even to cowards. In all the battles which have yet been fought, with various success, against the Romans, our countrymen may be deemed to have reposed their final hopes and resources in us: for we, the noblest sons of Britain, and therefore stationed in its last recesses, far from the view of servile shores, have preserved even our eyes unpolluted by the contact of subjection. We, at the furthest limits both of land and liberty, have been defended to this day by the remoteness of our situation and of our fame.",
     "src": [
-      "tacitus_murphy"
+      "tacitus_brooks"
     ],
     "spans": [
       {
