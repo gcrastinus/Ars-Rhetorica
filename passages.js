@@ -10146,5 +10146,628 @@ window.PASSAGES = [
     "src": [
       "aug_pusey"
     ]
+  },
+  {
+    "id": "aug-ddc-5-7",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.5.7",
+    "cue": "Augustine warns against eloquence without wisdom and quotes the teachers of rhetoric against it.",
+    "text": "But as some men employ these coarsely, inelegantly, and frigidly, while others use them with acuteness, elegance, and spirit, the work that I am speaking of ought to be undertaken by one who can argue and speak with wisdom, if not with eloquence, and with profit to his hearers, even though he profit them less than he would if he could speak with eloquence too. But we must beware of the man who abounds in eloquent nonsense, and so much the more if the hearer is pleased with what is not worth listening to, and thinks that because the speaker is eloquent what he says must be true. And this opinion is held even by those who think that the art of rhetoric should be taught; for they confess that \"though wisdom without eloquence is of little service to states, yet eloquence without wisdom is frequently a positive injury, and is of service never.\"",
+    "spans": [
+      {
+        "start": 7,
+        "end": 124,
+        "figure": "antithesis",
+        "why": "Three faults of style are set against three virtues in parallel frames."
+      },
+      {
+        "start": 700,
+        "end": 824,
+        "figure": "chiasmus",
+        "why": "Wisdom and eloquence change places in the second member, so the order is crossed; the sentence is Cicero’s (De inventione I.1), and Augustine quotes it."
+      },
+      {
+        "start": 29,
+        "end": 64,
+        "figure": "tricolon",
+        "why": "Three adverbs name the faults of a bad speaker."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis",
+      "tricolon"
+    ],
+    "orig": "Sed cum alii faciant obtunse, deformiter, frigide, alii acute, ornate, vehementer, illum ad hoc opus unde agimus iam oportet accedere, qui potest disputare vel dicere sapienter, etiamsi non potest eloquenter, ut prosit audientibus, etiamsi minus, quam prodesset si et eloquenter posset dicere. Qui vero affluit insipienti eloquentia, tanto magis cavendus est quanto magis ab eo in his quae audire inutile est, delectatur auditor et eum quoniam diserte dicere audit, etiam vere dicere existimat. Haec autem sententia nec illos fugit qui artem rhetoricam docendam putarunt. Fassi sunt enim sapientiam sine eloquentia parum prodesse civitatibus, eloquentiam vero sine sapientia nimium obesse plerumque, prodesse numquam.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-5-8",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.5.8",
+    "cue": "Augustine compares eloquent speakers with wise ones and asks what is better than sound teaching that is pleasant to hear.",
+    "text": "For eloquent speakers are heard with pleasure; wise speakers with profit. And, therefore, Scripture does not say that the multitude of the eloquent, but \"the multitude of the wise is the welfare of the world.\" And as we must often swallow wholesome bitters, so we must always avoid unwholesome sweets. But what is better than wholesome sweetness or sweet wholesomeness? For the sweeter we try to make such things, the easier it is to make their wholesomeness serviceable.",
+    "spans": [
+      {
+        "start": 326,
+        "end": 368,
+        "figure": "chiasmus",
+        "why": "Sweetness and wholesomeness change places, so neither is put before the other."
+      },
+      {
+        "start": 0,
+        "end": 73,
+        "figure": "antithesis",
+        "why": "Eloquent and wise speakers are set side by side, and pleasure is set against profit."
+      },
+      {
+        "start": 214,
+        "end": 300,
+        "figure": "metaphor",
+        "why": "Speech is spoken of as food, so sound teaching that is hard to hear is a wholesome bitter, and pleasing error is an unwholesome sweet."
+      },
+      {
+        "start": 302,
+        "end": 369,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer nothing, and so it asserts that sound teaching spoken pleasantly is best."
+      }
+    ],
+    "unmarkedFigures": [
+      "isocolon",
+      "ellipsis"
+    ],
+    "orig": "Qui enim eloquenter dicunt, suaviter; qui sapienter, salubriter audiuntur. Propter quod non ait Scriptura: Multitudo eloquentium, sed: Multitudo sapientium sanitas est orbis terrarum. Sicut autem saepe sumenda sunt et amara salubria, ita semper vitanda est perniciosa dulcedo. Sed salubri suavitate vel suavi salubritate quid melius? Quanto enim magis illic appetitur suavitas, tanto facilius salubritas prodest.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-6-10",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.6.10",
+    "cue": "Augustine says that in Scripture eloquence follows wisdom without being sought.",
+    "text": "But it is not the qualities which these writers have in common with the heathen orators and poets that give me such unspeakable delight in their eloquence; I am more struck with admiration at the way in which, by an eloquence peculiarly their own, they so use this eloquence of ours that it is not conspicuous either by its presence or its absence: for it did not become them either to condemn it or to make an ostentatious display of it; and if they had shunned it, they would have done the former; if they had made it prominent, they might have appeared to be doing the latter. And in those passages where the learned do note its presence, the matters spoken of are such, that the words in which they are put seem not so much to be sought out by the speaker as spontaneously to suggest themselves; as if wisdom were walking out of its house,—that is, the breast of the wise man, and eloquence, like an inseparable attendant, followed it without being called for.",
+    "spans": [
+      {
+        "start": 885,
+        "end": 963,
+        "figure": "simile",
+        "why": "Eloquence is openly compared to a servant who follows wisdom without being called."
+      },
+      {
+        "start": 800,
+        "end": 842,
+        "figure": "personification",
+        "why": "Wisdom is pictured as a person leaving its house, which Augustine explains as the breast of the wise man."
+      },
+      {
+        "start": 288,
+        "end": 347,
+        "figure": "antithesis",
+        "why": "Presence and absence are opposed, and eloquence in Scripture draws attention by neither."
+      },
+      {
+        "start": 443,
+        "end": 578,
+        "figure": "isocolon",
+        "why": "Two conditional members of the same shape name the two faults that the sacred writers avoided."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis"
+    ],
+    "orig": "Sed non ipsa me plus quam dici potest, in illa eloquentia delectant, quae sunt his viris cum oratoribus Gentilium poetisve communia. Illud magis admiror et stupeo, quod ista nostra eloquentia ita usi sunt per alteram quamdam eloquentiam suam, ut nec deesset eis nec emineret in eis, quia eam nec improbari ab illis nec ostentari oportebat. Quorum alterum fieret si vitaretur, alterum putari posset si facile agnosceretur. Et in quibus forte locis agnoscitur a doctis, tales res dicuntur, ut verba quibus dicuntur, non a dicente adhibita, sed ipsis rebus velut sponte subiuncta videantur, quasi sapientiam de domo sua, id est, pectore sapientis intellegas procedere et tamquam inseparabilem famulam etiam non vocatam sequi eloquentiam.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-7-11",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.7.11",
+    "cue": "Augustine quotes Paul on tribulation, patience, experience, and hope, and asks whether Paul followed the rules of rhetoric.",
+    "text": "For who would not see what the apostle meant to say, and how wisely he has said it, in the following passage: \"We glory in tribulations also: knowing that tribulation worketh patience; and patience, experience; and experience, hope: and hope maketh not ashamed; because the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us\"? Now were any man unlearnedly learned (if I may use the expression) to contend that the apostle had here followed the rules of rhetoric, would not every Christian, learned or unlearned, laugh at him?",
+    "spans": [
+      {
+        "start": 142,
+        "end": 231,
+        "figure": "climax",
+        "why": "Augustine names this figure climax (gradatio) in the sentences that follow, because each term grows out of the one before: patience out of tribulation, experience out of patience, and hope out of experience."
+      },
+      {
+        "start": 494,
+        "end": 556,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer yes, and so it asserts that Paul did not write by the rules of rhetoric."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis",
+      "rhetorical question"
+    ],
+    "orig": "Quis enim non videat quid voluerit dicere et quam sapienter dixerit Apostolus: Gloriamur in tribulationibus, scientes quia tribulatio patientiam operatur, patientia autem probationem, probatio vero spem, spes autem non confundit; quia caritas Dei diffusa est in cordibus nostris per Spiritum Sanctum qui datus est nobis? Hic si quis, ut ita dixerim, imperite peritus artis eloquentiae praecepta Apostolum secutum fuisse contendat, nonne a Christianis doctis indoctisque ridebitur?",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-7-12",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.7.12",
+    "cue": "Augustine says that when Paul defends himself to the Corinthians, wisdom leads and eloquence follows.",
+    "text": "In the Second Epistle to the Corinthians, again, he refutes certain false apostles who had gone out from the Jews, and had been trying to injure his character; and being compelled to speak of himself, though he ascribes this as folly to himself, how wisely and how eloquently he speaks! But wisdom is his guide, eloquence his attendant; he follows the first, the second follows him, and yet he does not spurn it when it comes after him.",
+    "spans": [
+      {
+        "start": 291,
+        "end": 335,
+        "figure": "personification",
+        "why": "Wisdom and eloquence are made into persons, a guide who leads and a servant who follows."
+      },
+      {
+        "start": 337,
+        "end": 381,
+        "figure": "chiasmus",
+        "why": "The order is crossed, since he follows wisdom and eloquence follows him, so he stands between the two."
+      },
+      {
+        "start": 246,
+        "end": 286,
+        "figure": "exclamatio",
+        "why": "Augustine breaks into an open cry of admiration before he explains it."
+      }
+    ],
+    "unmarkedFigures": [
+      "metaphor",
+      "antithesis"
+    ],
+    "orig": "Scribens ad Corinthios, in secunda epistola redarguit quosdam qui erant ex Iudaeis pseudapostoli eique detrahebant. Et quoniam se ipsum praedicare compellitur, hanc sibi velut insipientiam tribuens quam sapienter dicit quamque eloquenter! Sed comes sapientiae, dux eloquentiae, illam sequens, istam praecedens et sequentem non respuens.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-7-13-hebrews",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.7.13",
+    "cue": "Augustine analyzes the questions and answers in Paul’s defense of himself to the Corinthians.",
+    "text": "After this, certain separate sections being put in the interrogatory form, separate sections are also given as answers, three to three: \"Are they Hebrews? so am I. Are they Israelites? so am I. Are they the seed of Abraham? so am I.\" But a fourth section being put likewise in the interrogatory form, the answer is given not in another section (cæsum) but in a clause (membrum): \"Are they the ministers of Christ? (I speak as a fool.) I am more.\" Then the next four sections are given continuously, the interrogatory form being most elegantly suppressed: \"in labors more abundant, in stripes above measure, in prisons more frequent, in deaths oft.\"",
+    "spans": [
+      {
+        "start": 137,
+        "end": 232,
+        "figure": "anaphora",
+        "why": "Are they begins each question, and Augustine notes that the questions and the answers come three to three."
+      },
+      {
+        "start": 556,
+        "end": 646,
+        "figure": "asyndeton",
+        "why": "The four members follow one another with no conjunction; Augustine notes that the question is left out and the sections are given continuously."
+      },
+      {
+        "start": 137,
+        "end": 193,
+        "figure": "epistrophe",
+        "why": "So am I ends each member."
+      }
+    ],
+    "unmarkedFigures": [
+      "rhetorical question",
+      "anaphora"
+    ],
+    "orig": "Hinc iam singulis quibusque caesis interrogando positis singula itidem caesa responsione redduntur, tria tribus: Hebraei sunt? Et ego. Israelitae sunt? Et ego. Semen Abrahae sunt? Et ego. Quarto autem caeso simili interrogatione posito, non alterius caesi, sed membri oppositione respondet: Ministri Christi sunt? (insipiens dico) super ego. Iam caesa quattuor sequentia, remota decentissime interrogatione funduntur: In laboribus plurimum, in carceribus abundantius, in plagis supra modum, in mortibus saepius.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-7-13-perils",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.7.13",
+    "cue": "Augustine analyzes the list of Paul’s perils and the close of his boast to the Corinthians.",
+    "text": "Next fourteen sections burst forth with a vehemence which is most appropriate: \"In journeyings often, in perils of waters, in perils of robbers, in perils by mine own countrymen, in perils by the heathen, in perils in the city, in perils in the wilderness, in perils in the sea, in perils among false brethren, in weariness and painfulness, in watchings often, in hunger and thirst, in fastings often, in cold and nakedness.\" After this comes in a period of three members: \"Besides those things which are without, that which cometh upon me daily, the care of all the churches.\" And to this he adds two clauses in a tone of inquiry: \"Who is weak, and I am not weak? who is offended, and I burn not?\" In fine, this whole passage, as if panting for breath, winds up with a period of two members: \"If I must needs glory, I will glory of the things which concern mine infirmities.\"",
+    "spans": [
+      {
+        "start": 102,
+        "end": 309,
+        "figure": "anaphora",
+        "why": "In perils begins eight members in a row, and Augustine says that these sections burst forth with a fitting vehemence."
+      },
+      {
+        "start": 633,
+        "end": 697,
+        "figure": "rhetorical question",
+        "why": "The questions expect no answer; they assert that Paul shares every weakness and every offense of his churches."
+      },
+      {
+        "start": 708,
+        "end": 762,
+        "figure": "personification",
+        "why": "Augustine speaks of the passage as if it were a runner out of breath after its vehemence."
+      }
+    ],
+    "unmarkedFigures": [
+      "asyndeton"
+    ],
+    "orig": "Deinde quattuordecim caesa decentissimo impetu profluunt: In itineribus saepe, periculis fluminum, periculis latronum, periculis ex genere, periculis ex gentibus, periculis in civitate, periculis in deserto, periculis in mari, periculis in falsis fratribus; in labore et aerumna, in vigiliis saepius, in fame et siti, in ieiuniis saepius, in frigore et nuditate. Post haec interponit trimembrem circuitum: Praeter illa quae extrinsecus sunt, incursus in me quotidianus, sollicitudo omnium Ecclesiarum. Et huic duo membra percontatione subiungit: Quis infirmatur, et ego non infirmor? Quis scandalizatur, et ego non uror? Postremo totus iste quasi anhelans locus bimembri circuitu terminatur: Si gloriari oportet, in his quae infirmitatis meae sunt gloriabor.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-20-40-close",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.20.40",
+    "cue": "Augustine shows how Paul closes passages in the temperate style with a period of two members.",
+    "text": "And how gracefully all this is brought to a close in a period of two members: \"Mind not high things, but condescend to men of low estate!\" And a little afterwards: \"Render therefore to all their dues: tribute to whom tribute is due; custom to whom custom; fear to whom fear; honor to whom honor.\" And these also, though expressed in single clauses, are terminated by a period of two members: \"Owe no man anything, but to love one another.\"",
+    "spans": [
+      {
+        "start": 79,
+        "end": 136,
+        "figure": "antithesis",
+        "why": "High things are set against men of low estate, and Augustine calls the sentence a period of two members."
+      },
+      {
+        "start": 201,
+        "end": 294,
+        "figure": "isocolon",
+        "why": "Four members of the same shape pair each debt with the person to whom it is owed."
+      },
+      {
+        "start": 393,
+        "end": 437,
+        "figure": "antithesis",
+        "why": "Owing nothing is set against the one debt of love, in a period of two members."
+      },
+      {
+        "start": 233,
+        "end": 254,
+        "figure": "ellipsis",
+        "why": "The words is due are left out after the first member, and the hearer supplies them."
+      }
+    ],
+    "unmarkedFigures": [
+      "asyndeton"
+    ],
+    "orig": "Et quam pulchre ista omnia sic effusa bimembri circuitu terminantur: Non alta sapientes, sed humilibus consentientes! Et aliquanto post: In hoc ipso, inquit, perseverantes, reddite omnibus debita: cui tributum, tributum; cui vectigal, vectigal; cui timorem, timorem; cui honorem, honorem. Quae membratim fusa clauduntur etiam ipsa circuitu, quem duo membra contexunt: Nemini quidquam debeatis, nisi ut invicem diligatis.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-20-40-night",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.20.40",
+    "cue": "Augustine quotes Paul’s call to cast off the works of darkness, from a passage that he places in the temperate style.",
+    "text": "And a little farther on: \"The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light. Let us walk honestly, as in the day; not in rioting and drunkenness, not in chambering and wantonness, not in strife and envying: but put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfill the lusts thereof.\"",
+    "spans": [
+      {
+        "start": 26,
+        "end": 68,
+        "figure": "antithesis",
+        "why": "Night and day are opposed, and the coming of the day is the reason for what follows."
+      },
+      {
+        "start": 123,
+        "end": 155,
+        "figure": "metaphor",
+        "why": "Virtue is called the armor of light, which the Christian puts on as a soldier puts on his arms."
+      },
+      {
+        "start": 194,
+        "end": 285,
+        "figure": "anaphora",
+        "why": "Not in begins each of the three members."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis",
+      "tricolon"
+    ],
+    "orig": "Et post paululum: Nox praecessit, inquit, dies autem appropinquavit. Abiciamus itaque opera tenebrarum et induamus arma lucis. Sicut in die honeste ambulemus, non in comessationibus et ebrietatibus, non in cubilibus et impudicitiis, non in contentione et aemulatione; sed induite Dominum Iesum Christum, et carnis providentiam ne feceritis in concupiscentiis.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-20-42-style",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.20.42",
+    "cue": "Augustine explains how the majestic style differs from the temperate, and compares it to a brave man’s weapons.",
+    "text": "The majestic style of speech differs from the temperate style just spoken of, chiefly in that it is not so much decked out with verbal ornaments as exalted into vehemence by mental emotion. It uses, indeed, nearly all the ornaments that the other does; but if they do not happen to be at hand, it does not seek for them. For it is borne on by its own vehemence; and the force of the thought, not the desire for ornament, makes it seize upon any beauty of expression that comes in its way. It is enough for its object that warmth of feeling should suggest the fitting words; they need not be selected by careful elaboration of speech. If a brave man be armed with weapons adorned with gold and jewels, he works feats of valor with those arms in the heat of battle, not because they are costly, but because they are arms; and yet the same man does great execution, even when anger furnishes him with a weapon that he digs out of the ground.",
+    "spans": [
+      {
+        "start": 100,
+        "end": 188,
+        "figure": "antithesis",
+        "why": "Ornament of words is set against the force of feeling, and the majestic style is known by the second."
+      },
+      {
+        "start": 764,
+        "end": 818,
+        "figure": "antithesis",
+        "why": "The brave man uses the weapons because they are weapons, not because they are costly, and so the majestic style uses ornament only as it serves its force."
+      },
+      {
+        "start": 321,
+        "end": 488,
+        "figure": "personification",
+        "why": "The style is spoken of as an agent that is carried along and seizes whatever beauty it meets."
+      },
+      {
+        "start": 873,
+        "end": 906,
+        "figure": "personification",
+        "why": "Anger is made an agent that hands the soldier a weapon; the phrase follows Virgil (Aeneid VII.508)."
+      }
+    ],
+    "unmarkedFigures": [
+      "simile",
+      "exemplum"
+    ],
+    "orig": "Grande autem dicendi genus hoc maxime distat ab isto genere temperato, quod non tam verborum ornatibus comptum est, quam violentum animi affectibus. Nam capit etiam illa ornamenta paene omnia, sed ea si non habuerit, non requirit. Fertur quippe impetu suo et elocutionis pulchritudinem, si occurrerit, vi rerum rapit, non cura decoris assumit. Satis enim est ei propter quod agitur ut verba congruentia non oris eligantur industria, sed pectoris sequantur ardorem. Nam si aurato gemmatoque ferro vir fortis armetur, intentissimus pugnae agit quidem illis armis quod agit, non quia pretiosa, sed quia arma sunt; idem ipse est tamen et valet plurimum, etiam cum rimanti telum ira facit.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-20-42-paul",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.20.42",
+    "cue": "Augustine quotes a passage of Paul in the majestic style, which he says does not lack the ornaments of speech.",
+    "text": "The apostle in the following passage is urging that, for the sake of the ministry of the gospel, and sustained by the consolations of God's grace, we should bear with patience all the evils of this life. It is a great subject, and is treated with power, and the ornaments of speech are not wanting: \"Behold,\" he says, \"now is the accepted time; behold, now is the day of salvation. Giving no offence in anything, that the ministry not blamed: but in all things approving ourselves as the ministers of God, in much patience, in afflictions, in necessities, in distresses, in strifes, in imprisonments, in tumults, in labors, in watchings, in fastings; by pureness, by knowledge, by long-suffering, by kindness, by the Holy Ghost, by love unfeigned, by the word of truth, by the power of God, by the armor of righteousness on the right hand and on the left, by honor and dishonor, by evil report and good report: as deceivers, and yet true; as unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed; as sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.\"",
+    "spans": [
+      {
+        "start": 911,
+        "end": 1001,
+        "figure": "antithesis",
+        "why": "Each member sets what the apostles seem to the world against what they are."
+      },
+      {
+        "start": 319,
+        "end": 380,
+        "figure": "anaphora",
+        "why": "Now is begins both members, so the urgency of the present is said twice."
+      },
+      {
+        "start": 506,
+        "end": 649,
+        "figure": "asyndeton",
+        "why": "Ten hardships are listed one after another with no conjunction between them."
+      }
+    ],
+    "unmarkedFigures": [
+      "anaphora",
+      "isocolon"
+    ],
+    "orig": "Agit Apostolus ut pro evangelico ministerio patienter mala huius temporis, cum solatio donorum Dei, omnia tolerentur. Magna res est, et granditer agitur, nec desunt ornamenta dicendi: Ecce, inquit, nunc tempus acceptabile, ecce nunc dies salutis. Nullam in quoquam dantes offensionem, ut non reprehendatur ministerium, sed in omnibus commendantes nosmetipsos ut Dei ministros, in multa patientia, in tribulationibus, in necessitatibus, in angustiis, in plagis, in carceribus, in seditionibus, in laboribus, in vigiliis, in ieiuniis, in castitate, in scientia, in longanimitate, in benignitate, in Spiritu Sancto, in caritate non ficta, in verbo veritatis, in virtute Dei; per arma iustitiae dextra et sinistra, per gloriam et ignobilitatem, per infamiam et bonam famam, ut seductores et veraces, ut qui ignoramur et cognoscimur, quasi morientes et ecce vivimus, ut coerciti et non mortificati, ut tristes, semper autem gaudentes, sicut egeni, multos autem ditantes, tamquam nihil habentes et omnia possidentes.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-20-43",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.20.43",
+    "cue": "Augustine quotes Paul to the Romans as an example of the majestic style, spoken with both power and beauty.",
+    "text": "And in the same way, writing to the Romans, he urges that the persecutions of this world should be overcome by charity, in assured reliance on the help of God. And he treats this subject with both power and beauty: \"We know,\" he says, \"that all things work together for good to them that love God, to them who are the called according to His purpose. For whom He did foreknow, He also did predestinate to be conformed to the image of His Son, that He might be the first-born among many brethren. Moreover, whom He did predestinate, them He also called; and whom He called, them He also justified; and whom He justified, them He also glorified. What shall we then say to these things? If God be for us, who can be against us? He that spared not His own Son, but delivered Him up for us all, how shall He not with Him also freely give us all things? Who shall lay anything to the charge of God's elect? It is God that justifieth; who is he that condemneth? It is Christ that died, yea, rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us. Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword? (As it is written, For Thy sake we are killed all the day long; we are accounted as sheep for the slaughter.) Nay, in all these things we are more than conquerors, through Him that loved us. For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.\"",
+    "spans": [
+      {
+        "start": 506,
+        "end": 642,
+        "figure": "climax",
+        "why": "Each member takes up the verb of the one before, and the steps rise from predestination to calling, justification, and glory."
+      },
+      {
+        "start": 684,
+        "end": 724,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer no one, and so it asserts that those whom God defends are safe."
+      },
+      {
+        "start": 532,
+        "end": 571,
+        "figure": "anadiplosis",
+        "why": "Called ends one member and is taken up at the head of the next."
+      },
+      {
+        "start": 1444,
+        "end": 1598,
+        "figure": "polysyndeton",
+        "why": "Nor is placed before each member, so each power that might separate us is named and denied in turn."
+      }
+    ],
+    "unmarkedFigures": [
+      "anaphora",
+      "antithesis"
+    ],
+    "orig": "Itemque ad Romanos agit, ut persecutiones huius mundi caritate vincantur, spe certa in adiutorio Dei. Agit autem et granditer et ornate: Scimus, inquit, quoniam diligentibus Deum omnia cooperantur in bonum, his qui secundum propositum vocati sunt. Quoniam quos ante praescivit, et praedestinavit conformes imaginis Filii sui, ut sit ipse primogenitus in multis fratribus. Quos autem praedestinavit, illos et vocavit; et quos vocavit, ipsos et iustificavit; quos autem iustificavit, illos et glorificavit. Quid ergo dicemus ad haec? Si Deus pro nobis, quis contra nos? Qui Filio proprio non pepercit, sed pro nobis omnibus tradidit eum, quomodo non etiam cum illo omnia nobis donavit? Quis accusabit adversus electos Dei? Deus qui iustificat? Quis est qui condemnat? Christus Iesus qui mortuus est, magis autem qui resurrexit, qui et est in dextera Dei, qui et interpellat pro nobis? Quis nos separabit a caritate Christi? Tribulatio? an angustia? an persecutio? an fames? an nuditas? an periculum? an gladius? Sicut scriptum est: \"Quia propter te mortificamur tota die, aestimati sumus ut oves occisionis\". Sed in his omnibus supervincimus per eum qui dilexit nos. Certus sum enim quia neque mors neque vita neque angelus neque principatus neque praesentia neque futura neque virtus neque altitudo neque profundum neque creatura alia poterit nos separare a caritate Dei, quae est in Christo Iesu Domino nostro.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-21-48",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.21.48",
+    "cue": "Augustine quotes Ambrose’s praise of a virgin as an example of the temperate and ornamented style.",
+    "text": "Ambrose also uses the temperate and ornamented style when he is holding up before virgins who have made their profession a model for their imitation, and says: \"She was a virgin not in body only, but also in mind; not mingling the purity of her affection with any dross of hypocrisy; serious in speech; prudent in disposition; sparing of words; delighting in study; not placing her confidence in uncertain riches, but in the prayer of the poor; diligent in labor; reverent in word; accustomed to look to God, not man, as the guide of her conscience; injuring no one, wishing well to all; dutiful to her elders, not envious of her equals; avoiding boastfulness, following reason, loving virtue. When did she wound her parents even by a look? When did she quarrel with her neighbors? When did she spurn the humble, laugh at the weak, or shun the indigent? She is accustomed to visit only those haunts of men that pity would not blush for, nor modesty pass by. There is nothing haughty in her eyes, nothing bold in her words, nothing wanton in her gestures: her bearing is not voluptuous, nor her gait too free, nor her voice petulant; so that her outward appearance is an image of her mind, and a picture of purity.",
+    "spans": [
+      {
+        "start": 366,
+        "end": 443,
+        "figure": "antithesis",
+        "why": "Uncertain riches are set against the prayer of the poor as the ground of her confidence."
+      },
+      {
+        "start": 958,
+        "end": 1053,
+        "figure": "tricolon",
+        "why": "Three members of the same form deny any fault in her eyes, her words, and her gestures."
+      },
+      {
+        "start": 694,
+        "end": 811,
+        "figure": "anaphora",
+        "why": "When did she begins each of the three questions."
+      },
+      {
+        "start": 694,
+        "end": 740,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer never, so it praises her by denying any fault."
+      },
+      {
+        "start": 284,
+        "end": 364,
+        "figure": "asyndeton",
+        "why": "Her virtues are listed one after another with no conjunction between them."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis",
+      "metaphor",
+      "isocolon"
+    ],
+    "orig": "Ambrosius etiam genere dicendi temperato et ornato professis virginibus proponit, tamquam sub exempli forma, quod moribus imitentur, et dicit: Virgo erat non solum corpore, sed etiam mente, quae nullo doli ambitu sincerum adulteraret affectum; corde humilis, verbis gravis, animi prudens, loquendi parcior, legendi studiosior; non in incerto divitiarum, sed in prece pauperis spem reponens; intenta operi, verecunda sermone; arbitrum mentis solita non hominem, sed Deum quaerere; nulli laedere os, bene velle omnibus; assurgere maioribus natu, aequalibus non invidere; fugere iactantiam, rationem sequi, amare virtutem. Quando ista vel vultu laesit parentes? Quando dissensit a propinquis? Quando fastidivit humilem? Quando risit debilem? Quando vitavit inopem? Eos solos sollicita coetus virorum invisere, quos misericordia non erubesceret, neque praeteriret verecundia. Nihil torvum in oculis, nihil in verbis procax, nihil in actu inverecundum; non gestus fractior, non incessus solutior, non vox petulantior, ut ipsa corporis species simulacrum fuerit mentis et figura probitatis.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-21-50",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.21.50",
+    "cue": "Augustine quotes Ambrose’s attack on women who paint their faces as an example of the majestic style.",
+    "text": "Ambrose again, inveighing against such practices, says: \"Hence arise these incentives to vice, that women, in their fear that they may not prove attractive to men, paint their faces with carefully-chosen colors, and then from stains on their features go on to stains on their chastity. What folly it is to change the features of nature into those of painting, and from fear of incurring their husband's disapproval, to proclaim openly that they have incurred their own! For the woman who desires to alter her natural appearance pronounces condemnation on herself; and her eager endeavors to please another prove that she has first been displeasing to herself. And what testimony to thine ugliness can we find, O woman, that is more unquestionable than thine own, when thou art afraid to show thyself? If thou art comely why dost thou hide thy comeliness? If thou art plain, why dost thou lyingly pretend to be beautiful, when thou canst not enjoy the pleasure of the lie either in thine own consciousness or in that of another? For he loves another woman, thou desirest to please another man; and thou art angry if he love another, though he is taught adultery in thee. Thou art the evil promptress of thine own injury. For even the woman who has been the victim of a pander shrinks from acting the pander's part, and though she be vile, it is herself she sins against and not another. The crime of adultery is almost more tolerable than thine; for adultery tampers with modesty, but thou with nature.\"",
+    "spans": [
+      {
+        "start": 1445,
+        "end": 1500,
+        "figure": "antithesis",
+        "why": "Adultery corrupts modesty, but painting the face corrupts nature itself, so the second fault is called the worse."
+      },
+      {
+        "start": 801,
+        "end": 919,
+        "figure": "anaphora",
+        "why": "If thou art begins both questions, and the two cases leave no way out."
+      },
+      {
+        "start": 660,
+        "end": 800,
+        "figure": "rhetorical question",
+        "why": "The question expects the answer none, and so it turns the woman’s fear into evidence against her."
+      },
+      {
+        "start": 221,
+        "end": 284,
+        "figure": "metaphor",
+        "why": "Unchastity is called a stain, the word used for the paint on the face, so the outward fault is shown to lead to the inward one."
+      },
+      {
+        "start": 568,
+        "end": 658,
+        "figure": "antithesis",
+        "why": "Pleasing another is set against displeasing herself."
+      }
+    ],
+    "unmarkedFigures": [
+      "apostrophe",
+      "dilemma",
+      "sententia",
+      "rhetorical question"
+    ],
+    "orig": "Ille vero posterior ut in tales diceret: Hinc illa, inquit, nascuntur incentiva vitiorum, ut quaesitis coloribus ora depingant, dum viris displicere formidarit, et de adulterio vultus meditentur adulterium castitatis. Quanta haec amentia effigiem mutare naturae, picturam quaerere, et dum verentur maritale iudicium, prodere suum? Prior enim de se pronuntiat, quae cupit mutare quod nata est. Ita dum alii studet placere, prius ipsa sibi displicet. Quem iudicem, mulier, veriorem requiremus deformitatis tuae quam te ipsam, quae videri times? Si pulchra es, quid absconderis? Si deformis, cur te formosam esse mentiris, nec tuae conscientiae nec alieni gratiam erroris habitura? Ille enim alteram diligit, tu alteri vis placere, et irasceris si amet aliam, qui adulterare in te docetur. Male magistra es iniuriae tuae. Lenocinari enim refugit etiam quae passa est lenonem, ac licet vilis mulier, non alteri tamen, sed sibi peccat. Tolerabiliora propemodum in adulterio crimina sunt; ibi enim pudicitia, hic natura adulteratur.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
+  },
+  {
+    "id": "aug-ddc-28-61",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.28.61",
+    "cue": "Augustine says that the Christian teacher uses words to make the truth plain, and should prefer wisdom to eloquence.",
+    "text": "To strive about words is not to be careful about the way to overcome error by truth, but to be anxious that your mode of expression should be preferred to that of another. The man who does not strive about words, whether he speak quietly, temperately, or vehemently, uses words with no other purpose than to make the truth plain, pleasing, and effective; for not even love itself, which is the end of the commandment and the fulfilling of the law, can be rightly exercised unless the objects of love are true and not false. For as a man with a comely body but an ill-conditioned mind is a more painful object than if his body too were deformed, so men who teach lies are the more pitiable if they happen to be eloquent in speech. To speak eloquently, then, and wisely as well, is just to express truths which it is expedient to teach in fit and proper words,—words which in the subdued style are adequate, in the temperate, elegant, and in the majestic, forcible. But the man who cannot speak both eloquently and wisely should speak wisely without eloquence, rather than eloquently without wisdom.",
+    "spans": [
+      {
+        "start": 1020,
+        "end": 1096,
+        "figure": "chiasmus",
+        "why": "Wisely and eloquence change places with eloquently and wisdom, so the order is crossed and the preference for wisdom is clear."
+      },
+      {
+        "start": 524,
+        "end": 728,
+        "figure": "simile",
+        "why": "Eloquent teachers of lies are openly compared, with as and so, to a man whose body is fair and whose mind is foul."
+      },
+      {
+        "start": 305,
+        "end": 353,
+        "figure": "tricolon",
+        "why": "Three adjectives name the three ends of speech, to teach, to delight, and to move."
+      },
+      {
+        "start": 25,
+        "end": 170,
+        "figure": "antithesis",
+        "why": "Overcoming error is set against winning praise for one’s style, and only the second is strife about words."
+      }
+    ],
+    "unmarkedFigures": [
+      "antithesis"
+    ],
+    "orig": "Verbis enim contendere est non curare quomodo error veritate vincatur, sed quomodo tua dictio dictioni praeferatur alterius. Porro qui non verbis contendit, sive summisse sive temperate sive granditer dicat, id agit verbis ut veritas pateat, veritas placeat, veritas moveat, quoniam nec ipsa quae praecepti finis et plenitudo legis est caritas, ullo modo esse recta potest, si ea quae diliguntur non vera, sed falsa sunt. Sicut autem cuius pulchrum corpus et deformis est animus, magis dolendus est quam si deforme haberet et corpus, ita qui eloquenter ea quae falsa sunt dicunt magis miserandi sunt, quam si talia deformiter dicerent. Quid est ergo non solum eloquenter, verum etiam sapienter dicere, nisi verba in summisso genere sufficientia, in temperato splendentia, in grandi vehementia, veris tamen rebus, quas audiri oporteat, adhibere? Sed qui utrumque non potest, dicat sapienter quod non dicit eloquenter, potius quam dicat eloquenter quod dicit insipienter.",
+    "olang": "Latin",
+    "track": "augustine",
+    "src": [
+      "ddc"
+    ]
   }
 ];
