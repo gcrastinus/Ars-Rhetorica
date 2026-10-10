@@ -11,6 +11,8 @@ const SRC = {
     full:'Cicero, <i>De inventione</i>, trans. C. D. Yonge (Bohn). Public domain. The three genera; the six parts of the oration.', note:''},
   cic_part:{kind:'primary', short:'Cicero, <i>Partitiones oratoriae</i>',
     full:'Cicero, <i>Partitiones oratoriae</i> (“A Dialogue concerning Oratorical Partitions”), trans. C. D. Yonge (Bohn). Public domain. The three issues of a case.', note:''},
+  cic_topica:{kind:'primary', short:'Cicero, <i>Topica</i>',
+    full:'Cicero, <i>Topica</i> (“The Treatise of M. T. Cicero on Topics”), trans. C. D. Yonge (Bohn). Public domain. The topics, or seats of arguments, with examples from Roman civil law.', note:''},
   cic_orat:{kind:'primary', short:'Cicero, <i>Orator</i> and <i>De oratore</i>',
     full:'Cicero, <i>Orator</i> and <i>De oratore</i>, trans. C. D. Yonge. Public domain. Docere, delectare, movere; the three styles.', note:''},
   cic_cat:{kind:'primary', short:'Cicero, Catilinarians',
@@ -22,7 +24,7 @@ const SRC = {
     full:'Lysias, selected speeches, trans. W. R. M. Lamb, Loeb Classical Library (1930). Public domain in the United States. Lamb died in 1961, so a life-plus-seventy term may still bind abroad until the end of 2031.',
     note:'Quoted from the Perseus text of the Loeb. Footnotes are omitted and spacing is collapsed to single spaces.'},
   arist_freese:{kind:'primary', short:'Aristotle, <i>Rhetoric</i>, trans. Freese',
-    full:'Aristotle, <i>Rhetoric</i>, trans. J. H. Freese, Loeb Classical Library (1926). Public domain in the United States. The passages from Book III in the exercise on style and the argument are quoted from this translation.',
+    full:'Aristotle, <i>Rhetoric</i>, trans. J. H. Freese, Loeb Classical Library (1926). Public domain in the United States. The passages from Book III in the exercise on style and the argument, and the examples from Book II, chapter 23, in the exercise on the topics, are quoted from this translation.',
     note:'Quoted from the Perseus text of the Loeb. Footnotes are omitted and spacing is collapsed to single spaces.'},
   quint:{kind:'primary', short:'Quintilian, <i>Institutio oratoria</i>',
     full:'Quintilian, <i>Institutio oratoria</i>, trans. H. E. Butler, Loeb (1920–22). Public domain in the United States.', note:''},
@@ -141,7 +143,12 @@ DECKS.logos = {
   q:{ prompt:'The accused admits the deed but says that this court has no right to try it. On which issue does the case stand?',
       options:['Fact','Definition','Quality','Transference'],
       correct:3,
-      explain:'An objection to the court, the accuser, the time, the law, the charge, or the penalty is the statement by way of demurrer, which the later tradition calls transference.' } }
+      explain:'An objection to the court, the accuser, the time, the law, the charge, or the penalty is the statement by way of demurrer, which the later tradition calls transference.' } },
+{ src:['arist_freese','cic_topica'], h:'<p><strong>The topics (topoi).</strong> Once the orator knows the issue on which the case stands, he looks for arguments, and both Aristotle and Cicero teach that arguments are found in the topics. Cicero says “that a topic is the seat of an argument, and that an argument is a reason which causes men to believe a thing which would otherwise be doubtful” (<em>Topica</em> 8). A topic is therefore not itself an argument but a general line of reasoning, such as the more and less, definition, or cause, which can supply arguments on any subject.</p><p>Aristotle gives his list in the <em>Rhetoric</em> (II.23), with examples from orators and poets. Among his topics are opposites, relative terms, the more and less, time, definition, division, induction, a previous judgment, the parts, consequences, analogy, cause, and the meaning of a name.</p><p>Cicero wrote the <em>Topics</em> from memory for the lawyer Trebatius, and he took his examples from Roman civil law. Some of his topics are drawn from the subject itself: definition, the enumeration of its parts, and notation (the meaning of the word). Others are drawn from things related to the subject: conjugates (words of the same root), genus and species, similarity and difference, contraries, adjuncts, antecedents and consequents, contradictories, causes and effects, and comparison with what is greater, equal, or less. Arguments from outside the subject come chiefly from authority, and the Greeks call them inartistic (without art).</p><p>The two lists overlap but are not the same, so each question in the exercise keeps to one list, Aristotle’s or Cicero’s.</p>',
+  q:{ prompt:'Aristotle says that a man who beats his father will also beat his neighbors. From which of his topics is the argument drawn?',
+      options:['The more and less','Definition','The meaning of a name','A previous judgment'],
+      correct:0,
+      explain:'Beating one’s father is less likely than beating one’s neighbors, so if a man does the first, we may expect the second. Aristotle calls this “an instance of the rule that, if the less exists, the more also exists” (II.23.4).' } }
 ]};
 
 DECKS.ethos = {
@@ -614,6 +621,80 @@ const STASIS_PARTS = {
   accident:'Accident: fortune prevented what the accused had intended',
   necessity:'Necessity: the accused was compelled by force to do it',
   deprecation:'Deprecation: the act is not defended, and pardon is asked'
+};
+const TOPOI_ITEMS = [
+  {id:"tp-inflect", list:"arist", topic:"inflections", notTopics:["relatives", "name", "definition", "opposites"], text:"…that the just is not entirely good, for in that case good would be predicable of anything that happens justly; but to be justly put to death is not desirable.", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.2 (Freese)", why:"The argument passes from “just” to its derived form “justly”, so that if the just were entirely good, whatever happens justly would be good; but to be justly put to death is not desirable. Aristotle calls this the topic “derived from similar inflections” (II.23.2)."},
+  {id:"tp-diomedon", list:"arist", topic:"relatives", notTopics:["analogy", "moreless", "opposites", "inflections", "turning"], text:"…as Diomedon the tax-gatherer said about the taxes, “If selling is not disgraceful for you, neither is buying disgraceful for us.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.3 (Freese)", why:"Selling and buying are relative terms, so if the one is not disgraceful, neither is the other. Aristotle gives the example under the topic “derived from relative terms” (II.23.3)."},
+  {id:"tp-gods", list:"arist", topic:"moreless", notTopics:["analogy", "induction", "relatives", "judgment"], text:"For instance, if not even the gods know everything, hardly can men;", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.4 (Freese)", why:"Knowledge of everything belongs more probably to the gods than to men, so if the gods lack it, men lack it too. Aristotle says that “if a predicate, which is more probably affirmable of one thing, does not belong to it, it is clear that it does not belong to another of which it is less probably affirmable” (II.23.4)."},
+  {id:"tp-statue", list:"arist", topic:"time", notTopics:["changechoice", "contradiction", "contrary", "relatives", "moreless"], text:"Thus Iphicrates, in his speech against Harmodius, says: “If, before accomplishing anything, I had demanded the statue from you in the event of my success, you would have granted it; will you then refuse it, now that I have succeeded? Do not therefore make a promise when you expect something, and break it when you have received it.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.6 (Freese)", why:"Iphicrates sets what the Athenians would have granted before his success beside what they refuse after it. Aristotle calls this the topic “derived from the consideration of time” (II.23.6)."},
+  {id:"tp-aristophon", list:"arist", topic:"turning", notTopics:["moreless", "contradiction", "relatives", "analogy"], text:"…Iphicrates employed it against Aristophon, when he asked him whether he would have betrayed the fleet for a bribe; when Aristophon said no, “Then,” retorted Iphicrates, “if you, Aristophon, would not have betrayed it, would I, Iphicrates, have done so?”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.7 (Freese)", why:"Iphicrates answers the charge by turning it on Aristophon, who made it. Aristotle describes the topic as “turning upon the opponent what has been said against ourselves” (II.23.7), and he adds that it works only when the opponent “seems the more likely to have committed a crime”."},
+  {id:"tp-daimonion", list:"arist", topic:"definition", notTopics:["name", "parts", "division", "inflections", "judgment"], cue:"The example comes from Socrates’ answer, in Plato’s Apology, to the charge that he did not believe in the gods.", text:"For instance, that the daimonion is nothing else than a god or the work of a god; but he who thinks it to be the work of a god necessarily thinks that gods exist.", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.8 (Freese)", why:"The argument rests on what the daimonion is, because if it is a god or the work of a god, the man who believes in it believes that gods exist. Aristotle says that in such cases “it is by definition and the knowledge of what the thing is in itself that conclusions are drawn” (II.23.8)."},
+  {id:"tp-motives", list:"arist", topic:"division", notTopics:["parts", "induction", "cause", "motive", "crossing"], text:"For example, “There are always three motives for wrongdoing; two are excluded from consideration as impossible; as for the third, not even the accusers assert it.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.10 (Freese)", why:"The speaker divides the possible motives into three and sets aside each of them in turn. Aristotle introduces the example with the words “Another, from division” (II.23.10)."},
+  {id:"tp-horses", list:"arist", topic:"induction", notTopics:["analogy", "moreless", "judgment", "sameresult"], text:"There is another instance in the “law” of Theodectes: “If we do not entrust our own horses to those who have neglected the horses of others, or our ships to those who have upset the ships of others; then, if this is so in all cases, we must not entrust our own safety to those who have failed to preserve the safety of others.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.11 (Freese)", why:"From the cases of horses and of ships the speaker draws a rule for “all cases”, and then he applies it to our own safety. Aristotle gives it as an instance of the topic “from induction” (II.23.11)."},
+  {id:"tp-sappho", list:"arist", topic:"judgment", notTopics:["consequence", "definition", "opposites", "moreless", "incredible", "cause"], text:"…Sappho, “Death is an evil; the gods have so decided, for otherwise they would die.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.12 (Freese)", why:"The gods, by not choosing to die, have judged that death is an evil, and their judgment is not to be contradicted. Aristotle calls this the topic “from a previous judgement”, and he includes the judgment of “those whose judgement it is unseemly to contradict, for instance, the gods” (II.23.12)."},
+  {id:"tp-holyplace", list:"arist", topic:"parts", notTopics:["division", "definition", "induction", "contradiction"], text:"There is an instance of this in the Socrates of Theodectes: “What holy place has he profaned? Which of the gods recognized by the city has he neglected to honor?”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.13 (Freese)", why:"The charge of impiety is examined in its parts, the holy places and the gods of the city, and each part is denied. Aristotle calls this the topic “from enumerating the parts” (II.23.13)."},
+  {id:"tp-education", list:"arist", topic:"consequence", notTopics:["crossing", "opposites", "contrary", "cause"], text:"For instance, education is attended by the evil of being envied, and by the good of being wise; therefore we should not be educated, for we should avoid being envied; nay rather, we should be educated, for we should be wise.", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.14 (Freese)", why:"Education has a bad consequence and a good one, and the speaker argues from either. Aristotle says that this topic consists “in employing the consequence to exhort or dissuade, accuse or defend, praise or blame” (II.23.14)."},
+  {id:"tp-priestess", list:"arist", topic:"crossing", notTopics:["consequence", "opposites", "contrary", "division", "contradiction"], text:"For instance, a priestess refused to allow her son to speak in public; “For if,” said she, “you say what is just, men will hate you; if you say what is unjust, the gods will.” On the other hand, “you should speak in public; for if you say what is just, the gods will love you, if you say what is unjust, men will.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.15 (Freese)", why:"Speaking justly and speaking unjustly are opposites, and each brings both a good and an evil, so the argument can be turned either way. Aristotle says that the topic is used “in regard to two opposites”, when “good and evil follow on each” (II.23.15)."},
+  {id:"tp-tallboys", list:"arist", topic:"analogy", notTopics:["opposites", "relatives", "moreless", "induction", "inflections", "definition", "sameresult", "turning"], text:"For instance, Iphicrates, when they tried to force his son to perform public services because he was tall, although under the legal age, said: “If you consider tall boys men, you must vote that short men are boys.”", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.17 (Freese)", why:"Iphicrates applies to short men the same reasoning that the Athenians apply to tall boys, so that if height can make a boy a man, the lack of it can make a man a boy. Aristotle calls this the topic “derived from analogy in things” (II.23.17)."},
+  {id:"tp-leodamas", list:"arist", topic:"cause", notTopics:["motive", "mistakes", "consequence", "falseopinion", "contradiction", "moreless"], text:"For example, Leodamas, when defending himself against the accusation of Thrasybulus that his name had been posted in the Acropolis but that he had erased it in the time of the Thirty, declared that it was impossible, for the Thirty would have had more confidence in him if his hatred against the people had been graven on the stone.", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.25 (Freese)", why:"Leodamas argues that he had no cause to erase his name, since under the Thirty the inscription would have helped him, and so the erasure did not happen. Aristotle says of this topic, “If the cause exists, the effect exists; if the cause does not exist, the effect does not exist” (II.23.25)."},
+  {id:"tp-polus", list:"arist", topic:"name", notTopics:["inflections", "definition", "analogy"], text:"…Herodicus said of Thrasymachus, “Thou art ever bold in fight,” and of Polus, “Thou art ever Polus (colt) by name and colt by nature,” and of Draco the legislator that his laws were not those of a man, but of a dragon, so severe were they.", src:"arist_freese", cite:"Aristotle, Rhetoric II.23.29 (Freese)", why:"Each saying takes the man’s name as a sign of what he is, since the name of Thrasymachus means bold in fight, Polus means a colt, and the name Draco means a dragon. Aristotle calls this the topic “derived from the meaning of a name” (II.23.29)."},
+  {id:"tp-civillaw", list:"cic", topic:"definition", notTopics:["genus", "species", "parts", "notation", "effects"], text:"\"Civil law is equity established among men who belong to the same city, for the purpose of insuring each man in the possession of his property and rights: and the knowledge of this equity is useful: therefore the knowledge of civil law is useful.\"", src:"cic_topica", cite:"Cicero, Topica 9 (Yonge)", why:"The argument states what civil law is and draws its conclusion from that statement. Cicero says that “a definition is employed with reference to the entire matter under discussion” (Topica 9)."},
+  {id:"tp-slave", list:"cic", topic:"parts", notTopics:["definition", "genus", "species", "contradictories", "difference", "contraries"], text:"\"If a slave has not been declared free either by the censor, or by the praetor's rod, or by the will of his master, he is not free: but none of those things is the case: therefore he is not free.\"", src:"cic_topica", cite:"Cicero, Topica 10 (Yonge)", why:"The ways in which a slave is made free are counted one by one, and since none of them has taken place, he is not free. Cicero calls this “the enumeration of the parts” (Topica 10)."},
+  {id:"tp-assiduus", list:"cic", topic:"notation", notTopics:["conjugates", "definition", "similarity", "genus", "species", "authority"], text:"As the Aelian Sentian law orders an assiduus to support an assiduus, it orders a rich man to support a rich man, for a rich man is an assiduus, called so, as Aelius says, from asse dando.", src:"cic_topica", cite:"Cicero, Topica 10 (Yonge)", why:"The argument rests on the origin of the word assiduus, which Aelius derives from asse dando (the paying of money), so that an assiduus is a rich man. Cicero says that here the argument “is derived from the meaning of a word” (Topica 10), and he later calls this topic notation (notatio)."},
+  {id:"tp-readymoney", list:"cic", topic:"genus", notTopics:["species", "parts", "definition", "similarity", "comparison", "notation", "adjuncts"], text:"Since all the money has been bequeathed to the woman, it is impossible that that ready money which was left in the house should not have been bequeathed.", src:"cic_topica", cite:"Cicero, Topica 13 (Yonge)", why:"Ready money is a kind of money, so the bequest of all the money includes the ready money. Cicero explains that “the species is never separated from the genus as long as it retains its name” (Topica 13)."},
+  {id:"tp-houses", list:"cic", topic:"similarity", notTopics:["comparison", "difference", "genus", "species", "contraries"], text:"\"If those houses have fallen down, or got into disrepair, a life-interest in which is bequeathed to some one, the heir is not bound to restore or to repair them, any more than he is bound to replace a slave, if a slave, a life-interest in whom has been bequeathed to some one, has died.\"", src:"cic_topica", cite:"Cicero, Topica 15 (Yonge)", why:"A house left for someone’s use during life is like a slave left in the same way, so the heir is no more bound to repair the one than to replace the other. Cicero gives this as an argument “derived from similarity” (Topica 15)."},
+  {id:"tp-strongbox", list:"cic", topic:"difference", notTopics:["similarity", "contraries", "species", "genus", "parts", "comparison", "contradictories"], text:"\"It does not follow, if a man has bequeathed to his wife all the money which belonged to him, that therefore he bequeathed all which was down in his books as due to him; for there is a great difference whether the money is laid up in his strong box, or set down as due in his accounts.\"", src:"cic_topica", cite:"Cicero, Topica 16 (Yonge)", why:"Money in the strong box and money owed in the accounts seem to be the same thing, but they differ, so the bequest of the one is not the bequest of the other. Cicero gives this as an argument “derived from difference” (Topica 16)."},
+  {id:"tp-cellars", list:"cic", topic:"contraries", notTopics:["difference", "contradictories", "similarity", "genus", "species", "comparison"], text:"\"That woman to whom her husband has left a life-interest in all his property, has no right, if his cellars of wine and oil are left full, to think that they belong to her; for the use of them is what has been bequeathed to her, and not the misuse: and they are contrary to one another.\"", src:"cic_topica", cite:"Cicero, Topica 17 (Yonge)", why:"Use and misuse are contraries, so a bequest of the use of the property does not give her the wine and oil to consume. Cicero gives this as an argument “derived from contraries” (Topica 17)."},
+  {id:"tp-divorce", list:"cic", topic:"antecedents", notTopics:["causes", "consequents", "effects", "adjuncts", "contradictories"], text:"\"If a divorce has been caused by the fault of the husband, although the woman has demanded it, still she is not bound to leave any of her dowry for her children.\"", src:"cic_topica", cite:"Cicero, Topica 19 (Yonge)", why:"The argument rests on what went before the divorce, namely the husband’s fault, and not on which of the two demanded it. Cicero gives this as his example of the argument “from antecedents” (Topica 19)."},
+  {id:"tp-partywall", list:"cic", topic:"causes", notTopics:["effects", "antecedents", "consequents", "adjuncts", "comparison"], text:"\"All men have a right to add to a common party wall, a wall extending its whole length, either solid or on arches; but if any one in demolishing the common wall should promise to pay for any damages which may arise from his action, he will not be bound to pay for any damage sustained or caused by such arches: for the damage has been done, not by the party which demolished the common wall, but in consequence of some fault in the work, which was built in such a manner as to be unable to support itself.\"", src:"cic_topica", cite:"Cicero, Topica 22 (Yonge)", why:"The damage is traced to what produced it, the faulty building of the arches, and not to the man who pulled down the common wall. Cicero gives this as an argument “derived from efficient causes” (Topica 22)."},
+  {id:"tp-scaevola", list:"cic", topic:"authority", notTopics:["similarity", "comparison", "definition", "effects"], text:"\"In the case of some one building a roof for the purpose of covering a common wall, Publius Scaevola asserted that there was no right of carrying that roof so far that the water which ran off it should run on to any part of any building which did not belong to the owner of the roof. This I affirm to be law.\"", src:"cic_topica", cite:"Cicero, Topica 24 (Yonge)", why:"The argument rests on the opinion of the jurist Publius Scaevola, which is brought in from outside the case. Cicero says that arguments “derived from external circumstances are deduced chiefly from authority” (Topica 24)."}
+];
+// Aristotle's topics of the enthymeme (Rhetoric II.23), named as Freese gives them.
+const TOPOI_ARIST = {
+  opposites:'Opposites: what holds of a thing is tested on its opposite',
+  inflections:'Inflections: what holds of a word holds of its derived forms',
+  relatives:'Relative terms: what holds of one party holds of the other',
+  moreless:'More and less: what fails in the likelier case fails in the less',
+  time:'Time: what would have been granted before is due now as well',
+  turning:'Turning the charge: the accusation is turned on the accuser',
+  definition:'Definition: the conclusion is drawn from what the thing is',
+  division:'Division: the possible cases are listed and each is set aside',
+  induction:'Induction: a general rule is drawn from a number of like cases',
+  judgment:'Previous judgment: those who must be believed have decided it',
+  parts:'Parts: the whole is examined by going through each of its parts',
+  consequence:'Consequence: a thing is urged or opposed by what follows it',
+  crossing:'Two opposites: good and evil follow on each of two contraries',
+  analogy:'Analogy: what is granted in one case holds in its counterpart',
+  sameresult:'Same result: things that have the same result are treated alike',
+  changechoice:'Change of choice: men choose now the contrary of what they chose',
+  motive:'Possible motive: a possible motive is taken as the real one',
+  incredible:'The incredible: a thing so unlikely would not be said if untrue',
+  contradiction:'Contradiction: the opponent’s words and deeds do not agree',
+  falseopinion:'Cause of a slander: the reason for the false opinion is given',
+  cause:'Cause: the effect is judged by whether its cause was present',
+  contrary:'Contrary acts: two contrary courses are examined together',
+  mistakes:'Mistakes: an error that was made is used to accuse or defend',
+  name:'Meaning of a name: the name is taken to show what the person is'
+};
+// Cicero's topics (Topica 8–24), named as Yonge gives them.
+const TOPOI_CIC = {
+  definition:'Definition: the whole matter is unfolded by saying what it is',
+  parts:'Enumeration of the parts: the whole is examined part by part',
+  notation:'Notation: the argument rests on what a word originally meant',
+  conjugates:'Conjugates: the argument rests on words of the same root',
+  genus:'Genus: what is granted of the kind holds of what is under it',
+  species:'Species: the argument turns on which form of the kind is meant',
+  similarity:'Similarity: cases that are alike are to be judged in a like way',
+  difference:'Difference: two things that seem alike are shown to differ',
+  contraries:'Contraries: what holds of a thing is denied of its contrary',
+  adjuncts:'Adjuncts: the argument rests on what goes along with the thing',
+  antecedents:'Antecedents: the argument rests on what went before the act',
+  consequents:'Consequents: the argument rests on what followed after the act',
+  contradictories:'Contradictories: two claims are shown unable to stand together',
+  causes:'Efficient causes: the effect is traced to what produced it',
+  effects:'Effects: the argument rests on what has been brought about',
+  comparison:'Comparison: the case is set beside a greater, equal, or less one',
+  authority:'Authority: a weighty opinion is brought in from outside the case'
 };
 const GREG_PAIRS = [
   {id:'g1', pair:'the joyful and the sad', why:'The first are to be checked lest they run to excess; the second are to be comforted lest they break.', src:'greg'},
@@ -1314,6 +1395,27 @@ EX.stasis = {
     });
   }
 };
+EX.topics = {
+  id:'topics', title:'The Topics',
+  instr:'Cicero says that “a topic is the seat of an argument”, so the orator finds his arguments by going through the topics. Aristotle gives his list of topics in the Rhetoric (II.23), with examples from orators and poets, and Cicero gives a shorter list of his own in the Topics, with examples from Roman civil law. Each example comes from one of the two lists, and its options come from the same list. Name the topic from which the argument is drawn. Ten questions make a set; an example is not repeated in the set.',
+  src:['arist_freese','cic_topica'],
+  gen(diff){
+    const e = pickSeen(itemPool('TOPOI_ITEMS', TOPOI_ITEMS), x => 'tp:'+x.id);
+    const arist = e.list === 'arist';
+    const labels = arist ? TOPOI_ARIST : TOPOI_CIC;
+    const wrong = sample(Object.keys(labels).filter(k => k !== e.topic && (e.notTopics||[]).indexOf(k) < 0), 3);
+    const cue = e.cue ? '<div class="q-cue">'+esc(e.cue)+'</div>' : '';
+    return mcQ({
+      prompt: arist ? 'Aristotle gives this example in the Rhetoric (II.23). From which of his topics is the argument drawn?'
+                    : 'Cicero gives this example in the Topics. From which of his topics is the argument drawn?',
+      options:[labels[e.topic]].concat(wrong.map(k => labels[k])), correct:0,
+      passage: cue + esc(e.text), source:e.cite, src:e.src,
+      note:e.why,
+      also: arist ? 'Aristotle says that a topic is “a head under which several enthymemes are included” (Rhetoric II.26.1).'
+                  : 'Cicero says that “a topic is the seat of an argument” (Topica 8).'
+    });
+  }
+};
 EX.ethos = {
   id:'ethos', title:'Character in the speech',
   instr:'Aristotle says that we trust a speaker for practical wisdom (phronesis), virtue (arete), or goodwill (eunoia), as these are shown in the speech and not borrowed as a reputation from outside. Name which of the three is doing the work. Ten questions; a passage is not repeated in the set.',
@@ -1859,7 +1961,8 @@ const ACTS = [
    items:[
      {kind:'deck', deck:'logos', tag:'TUTORIAL', title:'Enthymeme, example, topics', desc:'The rhetorical syllogism (enthymeme) and the example (paradeigma). A premise the hearers supply is not a defect.'},
      {kind:'ex', ex:'enthymeme', tag:'EXERCISE', title:'Supply the missing premise', desc:'Name the unspoken premise in Cicero, Antiphon, Gorgias, Thucydides, Sophocles, Plato.'},
-     {kind:'ex', ex:'stasis', tag:'EXERCISE', title:'The issue (status)', desc:'Fact, definition, quality, or transference: on which issue does the case stand, in Cicero’s examples and in real speeches?'}
+     {kind:'ex', ex:'stasis', tag:'EXERCISE', title:'The issue (status)', desc:'Fact, definition, quality, or transference: on which issue does the case stand, in Cicero’s examples and in real speeches?'},
+     {kind:'ex', ex:'topics', tag:'EXERCISE', title:'The topics', desc:'From which topic is the argument drawn, in Aristotle’s list in the Rhetoric and in Cicero’s Topics?'}
    ]},
   {roman:'III', name:'Invention · Ethos and Pathos', latin:'ethos et pathos',
    gloss:'The speaker’s character shown in the speech; Aristotle’s account of the passions; Aquinas’s passions concerning good or evil as such (concupiscible) and passions concerning the arduous good or evil (irascible); Gregory the Great’s account of the kinds of men and his contrasts of pairs of listeners.',
