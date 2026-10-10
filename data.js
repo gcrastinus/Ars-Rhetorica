@@ -233,7 +233,7 @@ DECKS.augustine = {
   q:{ prompt:'For Augustine, the sign that a grand-style sermon has succeeded is',
       options:['Applause and the reputation of the preacher','Tears, and a change of life in the hearer','A perfect isocolon in every member','The suppression of all figures as worldly'],
       correct:1,
-      explain:'In DDC IV he asked for groans, not cheers, and the Caterva story is the emblem of this. Figures are permitted, but they are not the end.' } }
+      explain:'In DDC IV he asked for groans, not cheers, and the Caterva story shows this. Figures are permitted, but they are not the end.' } }
 ]};
 
 
@@ -1149,7 +1149,7 @@ const AUG_ITEMS = [
     correct:1, note:'The subdued style is for teaching, the temperate for delighting, and the grand for moving. The orator should mix them and should not use the grand style everywhere.'},
   {id:'au3', pid:'aug-ddc-24',
     prompt:'The sign that the grand style has done its office is',
-    options:['Applause, and a name for the preacher','Tears, and a change: the Caterva ended','Matching endings (homoeoteleuton) in every member','The suppression of everything taken from Cicero'],
+    options:['Applause, and a name for the preacher','Tears, and a change, for the Caterva ended.','Matching endings (homoeoteleuton) in every member','The suppression of everything taken from Cicero'],
     correct:1, note:'He asked for groans, not cheers, and the Caterva story shows flectere.'},
   {id:'au4', pid:'aug-ddc-2',
     prompt:'Why may the Christian use rhetoric?',
@@ -1158,7 +1158,7 @@ const AUG_ITEMS = [
   {id:'au5', pid:'aug-ddc-17',
     prompt:'The temperate style, in Augustine’s account, is especially for',
     options:['Teaching a difficult doctrine so that it is understood','Praise and blame, which delight and make the good attractive','Moving the hearers to act at once, so that their whole life is changed','Teaching only, since delight has no place in Christian speech'],
-    correct:1, note:'The temperate style serves delectare, showing the good as lovely; the grand serves flectere, pushing the will to act.'},
+    correct:1, note:'The temperate style serves delectare, showing the good as lovely; the grand serves flectere, moving the will to act.'},
   {id:'au6', pid:'aug-serm-1',
     prompt:'A sermon that opens by asking to be heard as God’s word in an earthen vessel is chiefly',
     options:['A display of the preacher’s own ethos, as a sophist would make','Teaching (docere) in the subdued style, with some ethos of humility','Moving (flectere) in the grand style, since it calls the hearers to tears','Delighting (delectare) in the temperate style, with praise of the evangelists'],
