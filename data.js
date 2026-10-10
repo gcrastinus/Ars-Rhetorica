@@ -1617,7 +1617,7 @@ EX.taxisorder = {
     }
     const arist = [
       {k:'arist', part:'exordium', prompt:'Aristotle’s opening (prooimion) corresponds to which Latin office?',
-        note:'The prooimion is the opening, and its work is the exordium’s: to make the hearers attentive, teachable, and well-disposed.'},
+        note:'The prooimion is the opening, and its office is the same as that of the exordium: to make the hearers attentive, teachable, and well-disposed.'},
       {k:'arist', part:'narration', prompt:'Aristotle’s statement of the case corresponds to which Latin office?',
         note:'The statement sets out the facts. That is the office of the narration, which should be brief, clear, and plausible.'},
       {k:'arist', part:'peroration', prompt:'Aristotle’s close (epilogos) corresponds to which Latin office?',
@@ -1950,7 +1950,7 @@ EX.whole = {
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
     return {
       kind:'chips',
-      prompt:'Take the case in order: species, the end of that species, the pistis doing the work, and a figure actually in the excerpt.',
+      prompt:'Take the case in order: species, the end of that species, the pistis the speech is showing, and a figure actually in the excerpt.',
       passage: cue + esc(excerpt(p, 380)),
       source: citeP(p), orig:p.orig, olang:p.olang, src: srcOf(p),
       rows:[
