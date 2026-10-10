@@ -390,7 +390,7 @@ window.QUIZ_DOCTRINE = [
     options:['Choosing freely, and therefore being guilty','Acted on, as by a drug or violence, and so not culpable','A logical demonstration from necessary premises','A forensic narration of agreed facts'],
     correct:1, note:'Helen 8–14 presents logos as a potentate. Aristotle will not grant that account of agency, and the course asks us to recognize it.'},
   {div:'VII', prompt:'In Antiphon’s Second Tetralogy the facts of the throw are agreed. The dispute is therefore',
-    options:['Whether a javelin was thrown at all','How to name the act and its cause: whose error (hamartia)','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
+    options:['Whether any javelin was thrown during the practice at all','How to name the act and its cause: whose error (hamartia)','Whether Helen is to be praised or blamed','Whether Athens should sail to Sicily'],
     correct:1, note:'This is forensic oratory at its limit: the narration shrinks to a sentence, and invention has to deal with description and cause.'},
   {div:'VII', prompt:'Augustine keeps Cicero’s three offices. They are',
     options:['Grammar, logic, and rhetoric','To teach, to delight, to move (docere, delectare, flectere)','Ethos, pathos, and logos','Opening, narration, and proof'],

@@ -1457,7 +1457,7 @@ EX.pisteis = {
     const names = ['ethos','pathos','logos'];
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
-      prompt:'Which pistis is doing the chief work in this passage?',
+      prompt:'Which pistis is the speech showing in this passage?',
       options:['Ethos: the speaker as the speech shows him','Pathos: the hearer’s frame of mind','Logos: the argument of the speech itself'],
       correct: names.indexOf(item.pistis),
       passage: cue + esc(excerpt(p, diff >= 4 ? 240 : 400)),
@@ -1604,7 +1604,7 @@ EX.taxis = {
 };
 EX.taxisorder = {
   id:'taxisorder', title:'The six offices',
-  instr:'These questions cover the Latin school’s six offices: their duties, their order, and when one of them shrinks. A set is six questions, so you will not be asked to put the same list in order ten times.',
+  instr:'These questions cover the Latin school’s six offices: their duties, their order, and when one of them shrinks. A set is six questions, so the same list is not put in order ten times.',
   src:['cic_inv'],
   setLen:6,
   gen(diff){
@@ -1616,11 +1616,11 @@ EX.taxisorder = {
       afters.push({k:'after', a:TAXIS_PARTS[i].key, b:TAXIS_PARTS[i+1].key});
     }
     const arist = [
-      {k:'arist', part:'exordium', prompt:'Aristotle’s opening (prooimion) does the work of which Latin office?',
+      {k:'arist', part:'exordium', prompt:'Aristotle’s opening (prooimion) corresponds to which Latin office?',
         note:'The prooimion is the opening, and its work is the exordium’s: to make the hearers attentive, teachable, and well-disposed.'},
-      {k:'arist', part:'narration', prompt:'Aristotle’s statement of the case does the work of which Latin office?',
+      {k:'arist', part:'narration', prompt:'Aristotle’s statement of the case corresponds to which Latin office?',
         note:'The statement sets out the facts. That is the office of the narration, which should be brief, clear, and plausible.'},
-      {k:'arist', part:'peroration', prompt:'Aristotle’s close (epilogos) does the work of which Latin office?',
+      {k:'arist', part:'peroration', prompt:'Aristotle’s close (epilogos) corresponds to which Latin office?',
         note:'The epilogos is the close. Cicero’s peroration recapitulates and moves the hearers.'}
     ];
     const kinds = [{k:'order'}, {k:'shrink'}].concat(duties).concat(pairs).concat(afters).concat(arist);
