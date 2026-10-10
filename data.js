@@ -295,8 +295,8 @@ function srcOf(p){
 }
 const ANT_SIDE = {
   'ant-3.1.1':'prosecution','ant-3.3.1':'prosecution','ant-3.3.4':'prosecution','ant-3.3.5':'prosecution',
-  'ant-3.2.1':'defence','ant-3.2.4':'defence','ant-3.2.6':'defence','ant-3.2.10':'defence',
-  'ant-3.4.1':'defence','ant-3.4.8':'defence'
+  'ant-3.2.1':'defense','ant-3.2.4':'defense','ant-3.2.6':'defense','ant-3.2.10':'defense',
+  'ant-3.4.1':'defense','ant-3.4.8':'defense'
 };
 const TAXIS_PARTS = [
   {key:'exordium', name:'Exordium', duty:'to make the hearers attentive, teachable, and well-disposed.'},
@@ -578,7 +578,7 @@ const DEBATES = [
   {id:'d-myt', title:'Mytilene', a:{who:'Cleon', pid:'thuc-cleon-1', claim:'A democracy that talks cannot hold empire; do not reopen the sentence.', wrong:'Athens is strong enough by sea that the loss of Mytilene does not matter.'}, b:{who:'Diodotus', pid:'thuc-diod-1', claim:'Haste and passion are the two things most opposed to good counsel.', wrong:'Pity and mercy are the two things most needed for good counsel.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 3.37 / 3.42'},
   {id:'d-fun', title:'Pericles’ funeral oration', a:{who:'Pericles (the custom)', pid:'thuc-fun-1', claim:'I shall speak of the city, not only of the men.', wrong:'I shall praise the dead alone, not the city.'}, b:{who:'Pericles (the city)', pid:'thuc-fun-2', claim:'Our constitution does not copy our neighbours; we are an example.', wrong:'Our constitution favors the few, and class decides who advances in public life.'}, species:'epideictic', src:'thuc_crawley', locus:'Thucydides 2.35 / 2.37'},
   {id:'d-cat', title:'The Catilinarian conspirators', a:{who:'Catiline', pid:'sal-cat-consp', claim:'The conspirators are called to dare, as men dispossessed.', wrong:'The conspirators are told to wait for a surer time.'}, b:{who:'Caesar', pid:'sal-caes-1', claim:'Inflict only such penalties as the laws have provided.', wrong:'Put the conspirators to death; the danger allows no delay.'}, species:'deliberative', src:'sallust_w', locus:'Sallust, Catiline 20 / 51'},
-  {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.', wrong:'Intentional homicide; the thrower meant to kill.'}, b:{who:'The thrower (defence)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.', wrong:'The thrower admits that his aim was bad, and asks the jurors to forgive his error.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'},
+  {id:'d-ant', title:'The javelin', a:{who:'The father (prosecution)', pid:'ant-3.1.1', claim:'Unintentional homicide; the thrower caused the death.', wrong:'Intentional homicide; the thrower meant to kill.'}, b:{who:'The thrower (defense)', pid:'ant-3.2.1', claim:'Misfortune forces the quiet man into court; the running-out is the cause.', wrong:'The thrower admits that his aim was bad, and asks the jurors to forgive his error.'}, species:'forensic', src:'antiphon', locus:'Antiphon 3.1 / 3.2'},
   {id:'d-sic', title:'The Sicilian expedition', a:{who:'Nicias', pid:'thuc-nic-sicily', claim:'Athens should ask again whether to sail at all, and not be drawn into a war that is not its own.', wrong:'Athens should sail to Sicily at once, because the Segestans have shown that they can pay for the whole war.'}, b:{who:'Alcibiades', pid:'thuc-alc-1', claim:'Alcibiades has the better right to command, because his display has brought the city fame and profit.', wrong:'Alcibiades should command because he is the oldest and the most experienced of the generals.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 6.9 / 6.16'},
   {id:'d-corc', title:'Corcyra and Corinth at Athens', a:{who:'The Corcyraeans', pid:'thuc-corc', claim:'Athens should receive Corcyra, so that its fleet is not joined to the fleet of Corinth.', wrong:'Athens should receive Corcyra, because Corcyra has always been a loyal ally of Athens.'}, b:{who:'The Corinthians', pid:'thuc-cor-neutral', claim:'Athens cannot ally with Corcyra and remain the friend of Corinth, so it should stay neutral.', wrong:'Athens should settle the quarrel itself as judge, since both cities have asked it to arbitrate between them.'}, species:'deliberative', src:'thuc_crawley', locus:'Thucydides 1.36 / 1.40'},
   {id:'d-plat', title:'Plataea before the Spartan judges', a:{who:'The Plataeans', pid:'thuc-plat-compassion', claim:'The judges should spare the Plataeans and yield to a reasonable compassion.', wrong:'The judges should spare Plataea, since it never fought against Sparta.'}, b:{who:'The Thebans', pid:'thuc-theb-vindicate', claim:'The judges should condemn the Plataeans and so uphold the Hellenic law that they broke.', wrong:'The judges should spare the Plataeans, since the Thebans have forgiven their old wrongs.'}, species:'forensic', src:'thuc_crawley', locus:'Thucydides 3.59 / 3.67'},
@@ -1870,7 +1870,7 @@ EX.antiphon = {
       kind:'chips', prompt:'Read the excerpt. Mark the side, the chief pistis, and the topic.',
       passage: cue + esc(excerpt(p, 420)), source: citeP(p), src:'antiphon',
       rows:[
-        {key:'side', label:'Side', opts:[{label:'Prosecution', v:'prosecution'},{label:'Defence', v:'defence'}]},
+        {key:'side', label:'Side', opts:[{label:'Prosecution', v:'prosecution'},{label:'Defense', v:'defense'}]},
         {key:'pistis', label:'Pistis', opts:[{label:'Ethos', v:'ethos'},{label:'Pathos', v:'pathos'},{label:'Logos', v:'logos'}]},
         {key:'topos', label:'Topos', opts: shuffle(topOpts).map(t => ({label:t, v:t}))}
       ],
@@ -1902,9 +1902,9 @@ EX.debates = {
     if(item.kind === 'species'){
       const opts = ['forensic','deliberative','epideictic'];
       const labels = {
-        forensic:'Forensic: a past act, the just and the unjust',
+        forensic:'Forensic: a past act tried in court, the just and the unjust',
         deliberative:'Deliberative: a future policy, the expedient and the harmful',
-        epideictic:'Epideictic: praise and blame, the noble'
+        epideictic:'Epideictic: praise and blame of the present, the noble and the base'
       };
       return mcQ({
         prompt:'<strong>'+esc(d.title)+'</strong>, '+esc(d.locus)+'.<br>Two voices: <em>'+esc(d.a.who)+'</em> and <em>'+esc(d.b.who)+'</em>. What is the species of the debate?',

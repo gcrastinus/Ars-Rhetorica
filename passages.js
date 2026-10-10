@@ -409,7 +409,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Pro Milone",
     "locus": "1.1",
-    "cue": "The defence of Milo opens by confessing fear and making that fear an argument.",
+    "cue": "The defense of Milo opens by confessing fear and making that fear an argument.",
     "text": "Although I am afraid, gentlemen of the jury, that fear is an unseemly condition in which to begin a speech in defence of the bravest of men; and that it is in the last degree unbecoming, seeing that Titus Annius himself is more anxious for the safety of the state than for his own, that I should be unable to bring to his case a greatness of spirit to equal his; still, the unprecedented aspect of this unprecedented trial alarms my eyes, which, turn where they may, look in vain for the familiar environment of the courts and the traditional procedure of the law. For your assembly is not thronged, as of old, by a ring of listeners; we are not encompassed by our customary concourse; and the troops which you see before all the temples, albeit posted there to prevent violence,",
     "spans": [
       {
@@ -564,7 +564,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 147,
         "figure": "prooimion",
-        "why": "The opening (prooimion) states its own duty, which is to honour the ancestors first."
+        "why": "The opening (prooimion) states its own duty, which is to honor the ancestors first."
       },
       {
         "start": 298,
@@ -763,7 +763,7 @@ window.PASSAGES = [
         "start": 360,
         "end": 466,
         "figure": "antithesis",
-        "why": "Honour for the brave and safety even for cowards are two uses of the same arms."
+        "why": "Honor for the brave and safety even for cowards are two uses of the same arms."
       }
     ]
   },
@@ -809,14 +809,14 @@ window.PASSAGES = [
     "author": "Livy",
     "work": "History of Rome",
     "locus": "1.53",
-    "cue": "Sextus at Gabii: a son's favour, and a father's lesson in treachery.",
+    "cue": "Sextus at Gabii: a son's favor, and a father's lesson in treachery.",
     "text": "Sextus Tarquinius had been sent to them as their general, by the special favour of the gods. By his exposing himself to fatigues and dangers, and by his generosity in dividing the plunder, he was so beloved by the soldiers, that Tarquin the father had not greater power at Rome than the son at Gabii. When he saw he had got sufficient strength collected to support him in any undertaking, he sent one of his confidants to Rome to ask his father what he wished him to do, seeing the gods had granted him the sole management of all affairs at Gabii. To this courier no answer by word of mouth was given, because, I suppose, he appeared of questionable fidelity. The king going into a garden of the palace, as it were to consider of the matter, followed by his son's messenger; walking there for some time in silence, he is said to have struck off the heads of the tallest poppies with his staff.",
     "spans": [
       {
         "start": 58,
         "end": 92,
         "figure": "irony",
-        "why": "The gods' favour is the narrator's dry word for a plot."
+        "why": "The gods' favor is the narrator's dry word for a plot."
       },
       {
         "start": 229,
@@ -1164,7 +1164,7 @@ window.PASSAGES = [
         "start": 290,
         "end": 367,
         "figure": "antithesis",
-        "why": "Vigour and years are two things that do not usually keep company."
+        "why": "Vigor and years are two things that do not usually keep company."
       },
       {
         "start": 198,
@@ -1307,7 +1307,7 @@ window.PASSAGES = [
     "author": "Cicero",
     "work": "Pro Milone",
     "locus": "11",
-    "cue": "Self-defence in the midst of arms: the law itself, he says, authorises the blow.",
+    "cue": "Self-defense in the midst of arms: the law itself, he says, authorizes the blow.",
     "text": "When arms speak, the laws are silent; they bid none to await their word, since he who chooses to await it must pay an undeserved penalty ere he can exact a deserved one. And yet most wisely, and, in a way, tacitly, the law itself authorises self-defence; it forbids not homicide, but the carrying of a weapon with a view to homicide, and consequently when the circumstances of the case and not the carrying of the weapon was being investigated, the man who had employed a weapon in self-defence was not held to have carried that weapon with a view to homicide. So let this consideration be held in view, gentlemen, throughout the case; for I have no doubt that I shall make good my case for the defence, if you will bear in mind (and it is a fact that you cannot forget) that the slaying of a conspirator may be a justifiable act.",
     "spans": [
       {
@@ -1372,14 +1372,14 @@ window.PASSAGES = [
     "author": "Demosthenes",
     "work": "On the Chersonese",
     "locus": "8.1–2",
-    "cue": "Before the advice comes a law for advisers: no malice, no favour, the best policy only.",
+    "cue": "Before the advice comes a law for advisers: no malice, no favor, the best policy only.",
     "text": "It was the duty, men of Athens, of every speaker not to allow either malice or favour to influence any speech which he might make, but simply to declare the policy which he considered to be the best, particularly when your deliberations were concerned with public affairs of great importance. But since there are some who are led on to address you, partly out of contentiousness, partly from causes which I need not discuss, it is for you, men of Athens--you, the People--to dismiss all other considerations, and both in the votes that you give and in the measures that you take to attend solely to what you believe to be for the good of the city. Now our present anxiety arises out of affairs in the Chersonese, and the campaign, now in its eleventh month, which Philip is conducting in Thrace. But most of the speeches which we have heard have been about the acts and intentions of Diopeithes.",
     "spans": [
       {
         "start": 49,
         "end": 109,
         "figure": "antithesis",
-        "why": "Malice and favour are paired, and one prohibition covers both."
+        "why": "Malice and favor are paired, and one prohibition covers both."
       }
     ]
   },
@@ -1410,7 +1410,7 @@ window.PASSAGES = [
     "author": "Thucydides",
     "work": "History of the Peloponnesian War",
     "locus": "2.40",
-    "cue": "Pericles on the Athenian temper: goods kept from their neighbouring vices.",
+    "cue": "Pericles on the Athenian temper: goods kept from their neighboring vices.",
     "text": "We cultivate refinement without extravagance and knowledge without effeminacy; wealth we employ more for use than for show, and place the real disgrace of poverty not in owning to the fact but in declining the struggle against it. Our public men have, besides politics, their private affairs to attend to, and our ordinary citizens, though occupied with the pursuits of industry, are still fair judges of public matters; for, unlike any other nation, regarding him who takes no part in these duties not as unambitious but as useless, we Athenians are able to judge at all events if we cannot originate, and, instead of looking on discussion as a stumbling-block in the way of action, we think it an indispensable preliminary to any wise action at all. Again, in our enterprises we present the singular spectacle of daring and deliberation, each carried to its highest point, and both united in the same persons; although usually decision is the fruit of ignorance, hesitation of reflection.",
     "spans": [
       {
@@ -1441,14 +1441,14 @@ window.PASSAGES = [
     "author": "Plato",
     "work": "Apology",
     "locus": "29d",
-    "cue": "Honour for the city, obedience for God: the sentence he will not commute.",
+    "cue": "Honor for the city, obedience for God: the sentence he will not commute.",
     "text": "Men of Athens, I honour and love you; but I shall obey God rather than you, and while I have life and strength I shall never cease from the practice and teaching of philosophy, exhorting any one whom I meet and saying to him after my manner: You, my friend,—a citizen of the great and mighty and wise city of Athens,—are you not ashamed of heaping up the greatest amount of money and honour and reputation, and caring so little about wisdom and truth and the greatest improvement of the soul, which you never regard or heed at all? And if the person with whom I am arguing, says: Yes, but I do care; then I do not leave him or let him go at once; but I proceed to interrogate and examine and cross-examine him, and if I think that he has no virtue in him, but only says that he has, I reproach him with undervaluing the greater, and overvaluing the less.",
     "spans": [
       {
         "start": 15,
         "end": 74,
         "figure": "antithesis",
-        "why": "He honours the Athenians but will obey God, and that but contains his whole defence."
+        "why": "He honors the Athenians but will obey God, and that but contains his whole defense."
       },
       {
         "start": 317,
@@ -1814,7 +1814,7 @@ window.PASSAGES = [
         "start": 92,
         "end": 169,
         "figure": "antithesis",
-        "why": "Vigour and years together make the riddle of her age."
+        "why": "Vigor and years together make the riddle of her age."
       }
     ]
   },
@@ -2081,7 +2081,7 @@ window.PASSAGES = [
         "start": 25,
         "end": 92,
         "figure": "antithesis",
-        "why": "He argues for their sake rather than his own, and so the defence becomes a warning."
+        "why": "He argues for their sake rather than his own, and so the defense becomes a warning."
       },
       {
         "start": 289,
@@ -2131,7 +2131,7 @@ window.PASSAGES = [
         "start": 114,
         "end": 208,
         "figure": "metaphor",
-        "why": "Sloth is made a neighbour of meekness, a likeness of place."
+        "why": "Sloth is made a neighbor of meekness, a likeness of place."
       },
       {
         "start": 232,
@@ -2559,7 +2559,7 @@ window.PASSAGES = [
         "start": 208,
         "end": 254,
         "figure": "hyperbole",
-        "why": "The exaggeration refutes the defence by making it absurd."
+        "why": "The exaggeration refutes the defense by making it absurd."
       },
       {
         "start": 61,
@@ -3005,7 +3005,7 @@ window.PASSAGES = [
     "author": "Alcibiades (Thucydides)",
     "work": "History of the Peloponnesian War",
     "locus": "6.16",
-    "cue": "Sicily: Alcibiades answers Nicias by defending his splendour as public power.",
+    "cue": "Sicily: Alcibiades answers Nicias by defending his splendor as public power.",
     "text": "Athenians, I have a better right to command than others—I must begin with this as Nicias has attacked me—and at the same time I believe myself to be worthy of it. The things for which I am abused, bring fame to my ancestors and to myself, and to the country profit besides. The Hellenes, after expecting to see our city ruined by the war, concluded it to be even greater than it really is, by reason of the magnificence with which I represented it at the Olympic games, when I sent into the lists seven chariots, a number never before entered by any private person, and won the first prize, and was second and fourth, and took care to have everything else in a style worthy of my victory. Custom regards such displays as honourable, and they cannot be made without leaving behind them an impression of power. Again, any",
     "spans": [
       {
@@ -3072,7 +3072,7 @@ window.PASSAGES = [
         "start": 326,
         "end": 436,
         "figure": "tricolon",
-        "why": "The catalogue of captured cities is used as a warning against display."
+        "why": "The catalog of captured cities is used as a warning against display."
       }
     ],
     "species": "deliberative",
@@ -3960,7 +3960,7 @@ window.PASSAGES = [
         "start": 19,
         "end": 48,
         "figure": "chiasmus",
-        "why": "Evil and good are crossed, and the crossing of the words shows the inversion of judgement."
+        "why": "Evil and good are crossed, and the crossing of the words shows the inversion of judgment."
       },
       {
         "start": 50,
@@ -6157,7 +6157,7 @@ window.PASSAGES = [
         "start": 0,
         "end": 63,
         "figure": "antithesis",
-        "why": "Then is set against now, thought against think, and the judgement does not change."
+        "why": "Then is set against now, thought against think, and the judgment does not change."
       },
       {
         "start": 155,
@@ -6464,7 +6464,7 @@ window.PASSAGES = [
   "author": "Lysias",
   "work": "On the Property of Aristophanes",
   "locus": "19.1",
-  "cue": "A suit over the property of Aristophanes. In this sentence the speaker turns to the defence of his father and of himself.",
+  "cue": "A suit over the property of Aristophanes. In this sentence the speaker turns to the defense of his father and of himself.",
   "text": "It is necessary therefore, even if I have no natural aptitude for the task, to defend my father and myself as best I can.",
   "spans": [],
   "species": "forensic",
@@ -6493,7 +6493,7 @@ window.PASSAGES = [
   "author": "Cicero",
   "work": "For Archias",
   "locus": "1",
-  "cue": "The defence of the poet Archias opens with an inventory of Cicero’s ability, practice, and study, and then names Archias’s claim on them.",
+  "cue": "The defense of the poet Archias opens with an inventory of Cicero’s ability, practice, and study, and then names Archias’s claim on them.",
   "text": "If there is any natural ability in me, O judges,—and I know how slight that is; or if I have any practice as a speaker,—and in that line I do not deny that I have some experience; or if I have any method in my oratory, drawn from my study of the liberal sciences, and from that careful training to which I admit that at no part of my life have I ever been disinclined; certainly, of all those qualities, this Aulus Licinius is entitled to be among the first to claim the benefit from me as his peculiar right.",
   "spans": [
     {
