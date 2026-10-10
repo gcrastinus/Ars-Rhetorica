@@ -345,7 +345,7 @@ window.QUIZ_ITEMS = {
 
 window.QUIZ_DOCTRINE = [
   {div:'I', prompt:'On Aristotle’s definition, rhetoric is first of all',
-    options:['The art of winning any case you are paid to win','The faculty of observing, in a given case, the available means of persuasion','A science of a special subject, like geometry','The study of tropes and figures only'],
+    options:['The art of winning any case the speaker is paid to win','The faculty of observing, in a given case, the available means of persuasion','A science of a special subject, like geometry','The study of tropes and figures only'],
     correct:1, note:'Rhetoric I.2: winning is an effect of the art, and figures belong to lexis (style); the first work of the art is to see what can be said.'},
   {div:'I', prompt:'The three artistic means of persuasion (pisteis) are',
     options:['Grammar, logic, and rhetoric','Ethos, pathos, and logos','Opening, narration, and proof','Teaching, delighting, and moving'],
