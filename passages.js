@@ -770,12 +770,12 @@ window.PASSAGES = [
   {
     "id": "tac-cal-2",
     "author": "Tacitus",
-    "work": "Agricola (Murphy)",
+    "work": "Agricola (Oxford)",
     "locus": "30",
     "cue": "The most famous sentence in the Agricola: names stolen for crimes.",
     "text": "To ravage, to slaughter, to usurp under false titles, they call empire; and where they make a desert, they call it peace.",
     "src": [
-      "tacitus_murphy"
+      "tacitus_brooks"
     ],
     "spans": [
       {
@@ -1740,12 +1740,12 @@ window.PASSAGES = [
   {
     "id": "tac-cal-3",
     "author": "Tacitus",
-    "work": "Agricola (Murphy)",
+    "work": "Agricola (Oxford)",
     "locus": "30",
     "cue": "Rome as a thief of land and sea, of rich and poor alike.",
     "text": "These plunderers of the world, after exhausting the land by their devastations, are rifling the ocean: stimulated by avarice, if their enemy be rich; by ambition, if poor; unsatiated by the East and by the West: the only people who behold wealth and indigence with equal avidity.",
     "src": [
-      "tacitus_murphy"
+      "tacitus_brooks"
     ],
     "spans": [
       {
