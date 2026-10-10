@@ -685,9 +685,9 @@ const TOPOI_ITEMS = [
 ];
 // Aristotle's topics of the enthymeme (Rhetoric II.23), named as Freese gives them.
 const TOPOI_ARIST = {
-  opposites:'Opposites: what holds of one term is examined in its opposite',
+  opposites:'Opposites: what holds for a thing is examined in its opposite',
   inflections:'Inflections: what holds of a word holds for its derived forms',
-  relatives:'Relative terms: what holds for one person holds for the other',
+  relatives:'Relative terms: what is true of one party holds for the other',
   moreless:'More and less: if the likelier case fails, the less must fail',
   time:'Time: what would have been granted earlier is due now as well',
   turning:'Turning the charge: the accusation is turned upon the accuser',
@@ -702,7 +702,7 @@ const TOPOI_ARIST = {
   sameresult:'Same result: things with the same result are held to be alike',
   changechoice:'Change of choice: people choose the contrary of a past choice',
   motive:'Possible motive: a possible motive is taken as the actual one',
-  incredible:'The incredible: a thing so unlikely would not be said falsely',
+  incredible:'The incredible: a thing so unlikely would be said only if true',
   contradiction:'Contradiction: the opponent’s words and deeds are at variance',
   falseopinion:'Cause of a slander: the reason for the false opinion is given',
   cause:'Cause: the effect is decided by whether its cause was present',
