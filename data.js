@@ -887,7 +887,7 @@ const PISTEIS_ITEMS = [
   {pid:'dem-3', pistis:'logos', why:'Money, ships, and a law that the force remain make up a policy argued from its parts.'},
   {pid:'cic-marc-1', pistis:'ethos', why:'The long silence came from grief, not fear, and Cicero’s character is restored with Caesar’s clemency.'},
   {pid:'gor-hel-6', pistis:'logos', why:'Four causes are named, so the case is divided before it is proved.'},
-  {pid:'ant-3.2.10', pistis:'pathos', why:'The speaker raises pollution and the city’s danger if the killer walks, and so the hearer is put in fear.'},
+  {pid:'ant-3.2.10', pistis:'pathos', why:'The father sets his son’s ruin and his own childlessness before the jurors, so that they feel pity.'},
   {pid:'thuc-fun-1', pistis:'ethos', why:'He will not praise as others have praised; the city’s character is his.'},
   // English tradition (public-domain quotations; sources eng_cer, eng_cem, kjv).
   {pid:'eng-henry-liberty-death', pistis:'pathos', why:'The questions and the prayer are meant to make slavery hateful and liberty worth any risk, so the force lies in what the hearers feel.'},
@@ -1856,7 +1856,7 @@ EX.antiphon = {
       'ant-3.2.1':'from character (the apragmon forced into court)',
       'ant-3.2.4':'from cause (the running-out, not the throw)',
       'ant-3.2.6':'from the name of the act (whose hamartia?)',
-      'ant-3.2.10':'from consequences (pollution, miasma)',
+      'ant-3.2.10':'from consequences (the father’s childlessness)',
       'ant-3.3.1':'from refutation of the defense’s descriptions',
       'ant-3.3.4':'from more and less (who missed the target)',
       'ant-3.3.5':'from the city’s pollution if the killer walks',
