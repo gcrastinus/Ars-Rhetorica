@@ -1553,7 +1553,8 @@ EX.ethos = {
       {v:'arete', lab:'Virtue (arete): he seems a good man'},
       {v:'eunoia', lab:'Goodwill (eunoia): he seems to wish the hearers well'}
     ];
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(e.why)+'</div>' : '';
+    // The why note names the answer, so the cue is the passage's context line, or nothing.
+    const cue = diff <= 2 && p && p.cue ? '<div class="q-cue">'+esc(p.cue)+'</div>' : '';
     return mcQ({
       prompt:'Which of the three artistic reasons for trust is this speech chiefly showing?',
       options: labels.map(x => x.lab),
