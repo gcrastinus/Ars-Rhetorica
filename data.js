@@ -1856,7 +1856,7 @@ EX.antiphon = {
       'ant-3.2.1':'from character (the apragmon forced into court)',
       'ant-3.2.4':'from cause (the running-out, not the throw)',
       'ant-3.2.6':'from the name of the act (whose hamartia?)',
-      'ant-3.2.10':'from consequences (the father’s childlessness)',
+      'ant-3.2.10':'from consequences (childlessness)',
       'ant-3.3.1':'from refutation of the defense’s descriptions',
       'ant-3.3.4':'from more and less (who missed the target)',
       'ant-3.3.5':'from the city’s pollution if the killer walks',
