@@ -762,7 +762,7 @@ function renderDeck(){
         });
         const good = i === p.q.correct;
         box.querySelector('#deck-fb').innerHTML =
-          '<div class="feedback '+(good?'good':'bad')+'"><span class="verdict">'+(good?'Just so':'Not quite')+'</span>'+
+          '<div class="feedback '+(good?'good':'bad')+'"><span class="verdict">'+(good?'Correct':'Incorrect')+'</span>'+
           p.q.explain+srcLine(p.src)+'</div>';
         deckAnswered = true;
         $('deck-next').disabled = false;
@@ -976,7 +976,7 @@ function submit(ansMC){
     box.querySelectorAll('.order-item').forEach(x => { x.disabled = true; });
   }
   box.querySelector('#q-fb').innerHTML =
-    '<div class="feedback '+(res.right?'good':'bad')+'"><span class="verdict">'+(res.right?'Right':'Not so')+'</span>'+
+    '<div class="feedback '+(res.right?'good':'bad')+'"><span class="verdict">'+(res.right?'Correct':'Incorrect')+'</span>'+
     res.note+(res.also ? '<span class="also">'+res.also+'</span>' : '')+
     srcLine(q.src || state.ex.src)+'</div>';
   $('ex-submit').style.display = 'none';
