@@ -32,7 +32,7 @@ const P = [];
 
 (function(){
   const t = "Depart then, and rid us of this fear; if it is a well-founded fear, that it may not crush us; if a groundless one, that at last an end may be put to our miserable alarms. If, as you say, I have driven you into the arms of a set of desperate men, then go; you cannot possibly inflict less injury on the republic in the midst of that band than in the midst of this body.";
-  P.push({id:'q-cic-cat1-end', author:'Cicero', work:'First Oration against Catiline', locus:'1.10–11', species:'forensic', src:'cic_cat',
+  P.push({id:'q-cic-cat1-end', author:'Cicero', work:'First Oration against Catiline', locus:'1.18', species:'forensic', src:'cic_cat',
     cue:'The close of the First Catilinarian: leave the city.',
     text:t, spans:qmark(t, [
       {s:'if it is a well-founded fear, that it may not crush us; if a groundless one, that at last an end may be put to our miserable alarms', f:'antithesis', w:'Whether the fears are founded or groundless, both alternatives send him out of the city.'},
