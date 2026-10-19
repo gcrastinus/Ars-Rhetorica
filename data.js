@@ -2123,7 +2123,7 @@ EX.figclick = {
 };
 EX.figwhich = {
   id:'figwhich', title:'Which Excerpt?',
-  instr:'Each question gives four real passages; which one is using the named figure? Ten make a set; the passage that uses the figure is not asked again in the set.',
+  instr:'Each question gives four real passages, and we choose the one that uses the named figure. Ten questions make a set; the passage that uses the figure is not asked again in the set.',
   src:['cic_cat'],
   gen(diff){
     const n = diff<=2?160:120;
@@ -2179,10 +2179,10 @@ function figSet(id, title, instr, pred, src){
   };
 }
 EX.figgorgias = figSet('figgorgias', 'Figures · Gorgias’s Helen',
-  'This set is almost all Gorgias. Van Hook’s English is built of opposed clauses (antithesis), equal members (isocolon), and like endings (homoeoteleuton). A set is six passages, and none repeats within it.',
+  'The passages come from Gorgias’s Encomium of Helen, whose English is built of opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton), and the crossed order (chiasmus). A set is six passages, and none repeats within it.',
   x => x.track==='gorgias', ['gorgias_vh']);
 EX.figaugustine = figSet('figaugustine', 'Figures · Augustine',
-  'The passages come from the Confessions, On Christian Teaching IV, a letter, and a sermon. Where we have the Latin, it is on the Show the Latin button.',
+  'The passages come from the Confessions, On Christian Doctrine IV, a letter, and a sermon. Where we have the Latin, it is on the Show the Latin button. Ten questions; a passage is not repeated in the set.',
   x => x.author==='Augustine', ['aug_pusey','ddc']);
 EX.figcicero = figSet('figcicero', 'Figures · Cicero',
   'This set follows the great Roman orator’s use of figures throughout his work, but especially in the orations against Catiline. Ten questions; a passage is not repeated in the set.',
@@ -2483,8 +2483,8 @@ const ACTS = [
      {kind:'ex', ex:'figclick', tag:'EXERCISE', title:'Click the figure', desc:'Mixed selections, from Cicero to Sophocles and from Gorgias to the Confessions.'},
      {kind:'ex', ex:'figwhich', tag:'EXERCISE', title:'Which excerpt?', desc:'Four real passages; one of them is using the named figure.'},
      {kind:'ex', ex:'figcicero', tag:'EXERCISE', title:'Cicero’s figures', desc:'The great Roman orator’s use of figures throughout his work, but especially in the orations against Catiline.'},
-     {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Almost all Gorgias: opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton); the potentate and the drug.'},
-     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'Confessions and On Christian Teaching IV (De doctrina christiana), with the Latin on the Show the Latin button where we have it.'},
+     {kind:'ex', ex:'figgorgias', tag:'EXERCISE', title:'Gorgias’s Helen', desc:'Gorgias’s Helen: opposed clauses (antithesis), equal members (isocolon), like endings (homoeoteleuton), and the crossed order (chiasmus).'},
+     {kind:'ex', ex:'figaugustine', tag:'EXERCISE', title:'Augustine’s figures', desc:'The Confessions and On Christian Doctrine IV (De doctrina christiana), with the Latin on the Show the Latin button where we have it.'},
      {kind:'ex', ex:'figfurther', tag:'OPTIONAL', title:'Further figures (optional)', desc:'This set is optional. It drills the less common figures, such as correctio, epizeuxis, polysyndeton, and aposiopesis, which the main sets do not ask about.'}
    ]},
   {roman:'VII', name:'The Whole Case', latin:'causa',
