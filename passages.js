@@ -11041,6 +11041,8 @@ window.PASSAGES = [
     "cue": "Augustine says at what age the rules of rhetoric should be learned, and how the quick-witted become eloquent.",
     "text": "It is enough that boys should give attention to it; and even of these, not all who are to be fitted for usefulness in the Church, but only those who are not yet engaged in any occupation of more urgent necessity, or which ought evidently to take precedence of it. For men of quick intellect and glowing temperament find it easier to become eloquent by reading and listening to eloquent speakers than by following rules for eloquence.",
     "spans": [],
+    "orig": "Satis est ut adulescentulorum ista sit cura, nec ipsorum omnium quos utilitati ecclesiasticae cupimus erudiri, sed eorum quos nondum magis urgens, et huic rei sine dubio praeponenda necessitas occupavit. Quoniam si acutum et fervens adsit in genium, facilius adhaeret eloquentia legentibus et audientibus eloquentes, quam eloquentiae praecepta sectantibus.",
+    "olang": "Latin",
     "src": "ddc"
   },
   {
@@ -11051,6 +11053,8 @@ window.PASSAGES = [
     "cue": "Augustine compares learning eloquence with the way infants learn to speak.",
     "text": "And, therefore, as infants cannot learn to speak except by learning words and phrases from those who do speak, why should not men become eloquent without being taught any art of speech, simply by reading and learning the speeches of eloquent men, and by imitating them as far as they can?",
     "spans": [],
+    "orig": "Quapropter, cum ex infantibus loquentes non fiant, nisi locutiones discendo loquentium, cur eloquentes fieri non possunt, nulla eloquendi arte tradita, sed elocutiones eloquentium legendo et audiendo et, quantum assequi conceditur, imitando?",
+    "olang": "Latin",
     "src": "ddc"
   },
   {
