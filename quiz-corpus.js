@@ -226,7 +226,7 @@ window.QUIZ_ITEMS = {
       src:'cic_orat', cite:'Cicero, Pro Archia 16'}
   ],
   PASSIONS:[
-    {id:'qp1', name:'anger', appetite:'irascible', text:'Depart then, and rid us of this fear; if it is a well-founded fear, that it may not crush us.', cite:'Cicero, Catilinarian 1.10–11', src:'cic_cat', why:'Anger at the man still sitting there, joined with the desire that he be gone (Aristotle II.2).'},
+    {id:'qp1', name:'anger', appetite:'irascible', text:'Depart then, and rid us of this fear; if it is a well-founded fear, that it may not crush us.', cite:'Cicero, Catilinarian 1.18', src:'cic_cat', why:'Anger at the man still sitting there, joined with the desire that he be gone (Aristotle II.2).'},
     {id:'qp2', name:'fear', appetite:'irascible', text:'Once a state begins to submit, it will find itself with a master.', cite:'Thucydides 1.140, Pericles', src:'thuc_crawley', why:'This is fear of a future master, a pain from imagining a destructive evil (II.5).'},
     {id:'qp3', name:'confidence', appetite:'irascible', text:'I honour and love you; but I shall obey God rather than you, and while I have life and strength I shall never cease.', cite:'Plato, Apology 29d', src:'plato_jowett', why:'This is confidence, an imagination of safety (II.5), resting on the god’s command against the jury’s threat.'},
     {id:'qp4', name:'pity', appetite:'concupiscible', text:'By this blood, most chaste until a king’s injury was offered to it, I swear.', cite:'Livy 1.59', src:'livy_r', why:'This is pity for the undeserved destruction of the chaste (II.8), turned at once into an oath.'},
@@ -241,7 +241,7 @@ window.QUIZ_ITEMS = {
     {id:'qt3', part:'narration', text:'Xerxes, having thus spoken, was silent; and next Mardonios said: Master, thou dost surpass not only all the Persians who have been before thee.', src:'herodotus', cite:'Herodotus 7.9'},
     {id:'qt4', part:'proof', text:'I know that the spirit of concession is dangerous, and that it is as true of a state as of a man that, once it begins to submit, it will find itself with a master.', src:'thuc_crawley', cite:'Thucydides 1.140'},
     {id:'qt5', part:'refutation', text:'The laws will say: Are you not going by an act of yours to destroy us — the laws, who have brought you up?', src:'plato_jowett', cite:'Plato, Crito 50a–b'},
-    {id:'qt6', part:'peroration', text:'Depart then, and rid us of this fear; if it is a well-founded fear, that it may not crush us; if a groundless one, that at last an end may be put to our miserable alarms.', src:'cic_cat', cite:'Cicero, Catilinarian 1.10–11'},
+    {id:'qt6', part:'peroration', text:'Depart then, and rid us of this fear; if it is a well-founded fear, that it may not crush us; if a groundless one, that at last an end may be put to our miserable alarms.', src:'cic_cat', cite:'Cicero, Catilinarian 1.18'},
     {id:'qt7', part:'peroration', text:'I will suffer neither them nor any other to be king at Rome.', src:'livy_r', cite:'Livy 1.59'},
     {id:'qt8', part:'division', text:'To teach is a necessity, to delight is a beauty, to persuade is a triumph.', src:'ddc', cite:'Augustine, DDC IV.12'}
   ],

@@ -32,7 +32,7 @@ window.PASSAGES = [
     "id": "cic-cat1-2",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.2",
+    "locus": "1.2–3",
     "cue": "The criminal still lives, and he even sits in the senate.",
     "text": "Alas! what degenerate days are these! The senate is well aware of the facts, the consul can perceive them all; but the criminal still lives. Lives? Yes, lives; and even comes down to the senate, takes part in the public deliberations, and marks down with ominous glances every single one of us for massacre. And we, such is our bravery, think we are doing our duty to our country, if we merely keep ourselves out of the way of his reckless words and bloody deeds. No, Catilina, long ere now you should yourself have been led by the consul's orders to execution; and on your own head should have been brought down the destruction which you are now devising for us. The most eminent P. Scipio, the pontifex maximus, was not actually a magistrate when he executed Ti. Gracchus",
     "spans": [
@@ -60,7 +60,7 @@ window.PASSAGES = [
     "id": "cic-cat1-4",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.4",
+    "locus": "1.9",
     "cue": "The night at Laeca's house is named in the senate's hearing.",
     "text": "Merciful heavens! Where are we? In what country, in what city are we dwelling? What is the government under which we live? There are here, here among our fellow-senators, conscript fathers, in this deliberative assembly, the most august, the most important in the world, men who are meditating the destruction of us all, the total ruin of this city and in fact of the civilised world. These persons I see before me now, and I ask them their opinions on affairs of state; and I do not even wound by a single harsh expression men who ought to have been put to death by the sword. You were then, Catilina, at Laeca's house that night; you divided Italy into districts; you decided to what quarter you wished each of your friends to proceed; you chose whom you would leave at Rome and whom you would take with you; you assigned the different points at which the city was to be fired; you promised that you would soon leave Rome yourself; you said that you had still a reason for a brief delay, in the fact that I was not dead; two Roman knights volunteered to set your mind at rest on that point, and undertook to murder me in my bed that very night shortly before daybreak.",
     "spans": [
@@ -94,7 +94,7 @@ window.PASSAGES = [
     "id": "cic-cat1-5",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.5",
+    "locus": "1.10–11",
     "cue": "The consul refuses any longer to share the city with the conspirator.",
     "text": "I will not bear, I will not endure, I will not allow it. Our hearty thanks must be rendered to the immortal gods and especially to Jupiter Stator, from the most ancient times the special protector of this city, for that we have now so often eluded this brutal man, this baneful and vindictive enemy of our country: but the supreme interests of the state must not be too frequently imperilled in the person of a single man. So long as you laid your treacherous plots against me, Catilina, when I was only consul-elect, I resorted for defence to my own private precautions, not to any public protection.",
     "spans": [
@@ -128,7 +128,7 @@ window.PASSAGES = [
     "id": "cic-cat1-6",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.6",
+    "locus": "1.13–15",
     "cue": "Nothing in Rome can please a man whom every loyal citizen fears and hates.",
     "text": "What object indeed is there in this city, Catilina, in which you can feel any pleasure? There is not a man in Rome, outside your band of desperate conspirators, who does not fear you, not a man who does not hate you. Is there any form of personal immorality which has not stained your family life? Is there any scandal to be incurred by private conduct which has not attached itself to your reputation? Is there any evil passion which has not glared from your eyes, any evil deed which has not soiled your hands, any outrageous vice that has not left its mark upon your whole body? Is there any young man, once fascinated by your seductive wiles, whose violence you have not stimulated and whose lust you have not inflamed? What? Not long ago, after having by the death of your former wife created a vacancy in your house for a second match, did you not augment that crime by another too great to be credible? But this I pass over, and am content to leave it unnamed, lest it should be thought that in this community an outrage so brutal should either have been committed or have remained unpunished. I pass over the complete ruin of your financial position, which you will know to be inevitable on the Ides next ensuing. I turn now not to the personal infamy of your vicious life, not to your private embarrassments and iniquities, but to matters which affect the highest interests of the state and the lives and liberties of all of us. Can the light of the sun, Catilina, can the breath of heaven be pleasant to you, when you know that every member of this house knows well that on the 31st of December in the consulship of Lepidus and Tullus you had posted yourself in the comitium with a dagger in your hand?",
     "spans": [
@@ -156,7 +156,7 @@ window.PASSAGES = [
     "id": "cic-cat1-7",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.7",
+    "locus": "1.18",
     "cue": "Rome herself is made to speak, and to send him away.",
     "text": "Your country, Catilina, pleads with you thus, and appeals with mute eloquence: \"For several years now no crime has been committed without your help, no scandal has arisen in which you have not been implicated; you only have escaped scot-free and gone unpunished after killing many of my citizens, after persecuting and plundering my allies; you have been strong enough not only to despise my legal and judicial system, but even to destroy the one and disregard the other. Your earlier crimes, intolerable as they were, I tolerated as best I could: but now it is not tolerable that I should be in a perfect fever of alarm at you alone, that even the slightest sound should arouse my fear of Catilina, and that it should appear impossible for any design to be formed against me in which your evil mind is not concerned. Quit the scene then, and deliver me from these apprehensions. If they are well-founded, withdraw that I may not be utterly destroyed; if they are groundless, go that I may at last cease to be apprehensive.\"",
     "spans": [
@@ -190,7 +190,7 @@ window.PASSAGES = [
     "id": "cic-cat1-13",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.13",
+    "locus": "1.31–32",
     "cue": "The conspiracy is a fever: if one man is killed, the disease returns.",
     "text": "As men stricken with a dangerous disease, when hot and tossing with fever, often seem at first to be relieved by a draught of cold water, but afterwards are much more gravely and severely afflicted; so this disease, which has seized the state, may be temporarily relieved by the punishment of Catilina, but will return with greater severity if his associates are allowed to survive. Let the disloyal then withdraw, let them separate themselves from the loyal, let them herd together in one place, let there be a wall, as I have often said, to sunder them from us. Let them cease to lay plots to assassinate the consul in his own house, let them cease to crowd menacingly round the City Praetor's judgment-seat, let them cease to beleaguer the senate-house with drawn swords and prepare their grenades and matches for firing the city: in short, let the political principles of every man be visibly written upon his forehead.",
     "spans": [
@@ -1926,7 +1926,7 @@ window.PASSAGES = [
     "id": "cic-cat1-8",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.8",
+    "locus": "1.20–21",
     "cue": "The senate's silence is made to speak, giving consent by not speaking.",
     "text": "What is it, Catilina? Do you not heed, do you not mark the silence of the house? Their silence denotes consent. Why do you wait for them to express their sanction in words, when you can see by their silence the nature of their wishes? If I had used this language to my excellent young friend P. Sestius, or to the gallant M. Marcellus, the senate would have been amply justified in laying violent hands upon me, consul as I am, here in this very temple. But in your case, Catilina, their calmness indicates their approval, their tolerance implies their deliberate assent, and their silence is equivalent to loud denunciation of you. Nor is it only these senators, whose resolutions you of course rega",
     "spans": [
@@ -1954,7 +1954,7 @@ window.PASSAGES = [
     "id": "cic-cat1-9",
     "author": "Cicero",
     "work": "First Oration against Catiline",
-    "locus": "1.9",
+    "locus": "1.22",
     "cue": "He asks whether speech can touch Catiline, and answers by going on.",
     "text": "Yet why do I speak? Is it possible that anything can influence a man like you? Is it possible that a man like you will ever reform? That you will ever turn your thoughts to flight? That you will ever contemplate exile? Would indeed that heaven might inspire you with such a thought! Though I see clearly, if you are alarmed at my words and make up your mind to go into exile, what a storm of unpopularity it will bring down upon my head, if not at the present moment while the memory of your crimes is still fresh, at any rate in future ages: but it is well worth while, if only the disastrous consequences are confined to my private fortunes, and do not involve results which are dangerous to the state.",
     "spans": [
@@ -11041,7 +11041,7 @@ window.PASSAGES = [
     "cue": "Augustine says at what age the rules of rhetoric should be learned, and how the quick-witted become eloquent.",
     "text": "It is enough that boys should give attention to it; and even of these, not all who are to be fitted for usefulness in the Church, but only those who are not yet engaged in any occupation of more urgent necessity, or which ought evidently to take precedence of it. For men of quick intellect and glowing temperament find it easier to become eloquent by reading and listening to eloquent speakers than by following rules for eloquence.",
     "spans": [],
-    "orig": "Satis est ut adulescentulorum ista sit cura, nec ipsorum omnium quos utilitati ecclesiasticae cupimus erudiri, sed eorum quos nondum magis urgens, et huic rei sine dubio praeponenda necessitas occupavit. Quoniam si acutum et fervens adsit in genium, facilius adhaeret eloquentia legentibus et audientibus eloquentes, quam eloquentiae praecepta sectantibus.",
+    "orig": "Satis est ut adulescentulorum ista sit cura, nec ipsorum omnium quos utilitati ecclesiasticae cupimus erudiri, sed eorum quos nondum magis urgens, et huic rei sine dubio praeponenda necessitas occupavit. Quoniam si acutum et fervens adsit ingenium, facilius adhaeret eloquentia legentibus et audientibus eloquentes, quam eloquentiae praecepta sectantibus.",
     "olang": "Latin",
     "src": "ddc"
   },
