@@ -764,3 +764,40 @@ Same rules as AE, AF, and AH: realities first, then the principle, then the trad
 
 **ix.marking**
 - every-dependence: "The young gardener waters the roses" for "The brave sailor sees the king" (which repeated "sailor," "brave," and v.dependence's "sees"); conventions paragraph ends toward checking a marked sentence; stored-analysis unchanged.
+
+## AJ. Log: Sections X and XI card pass (19 Oct 2026, Claude; awaiting Timothy's reading)
+
+Same rules as AE, AF, AH, and AI: realities first, then the principle, then the tradition; no example repeated from an earlier card or deck (Preliminaries and Sections I–IX, and earlier decks of X–XI), recalls in general terms; closing clauses toward the following card where they fit; expand only as clarity needs; rules 27a and 27b; no card question may ask about an example the card itself gives in the same respect (X and XI have only placeholders, changed where needed and listed below). Section X's first card now says that the section applies composition to English but that its principles and techniques apply to the other languages as well. Doctrine, citations, and ids unchanged. One commit per deck; every changed file passed `node --check` and the load test. Three groups worked in parallel; afterward the lead replaced in xi.modern "The kettle is boiling" (vii.tropes) with "The bus is late," "The boy broke the window" (x.composition) with "The woodcutter split the log with an axe," and "It is raining" (iii.verb-1) with "The shop is closed." No new translations; the new Latin teaching sentences and the Sanskrit, Arabic, Hebrew, and Chinese forms in the xi.traditions placeholders are composed or from memory, to be checked.
+
+**x.composition**
+- making (first card): adds "This section applies composition to English, but its principles and techniques apply to the other languages as well," and ends toward combining sentences.
+- combining "The hungry kitten cried"; subordination "The rain began. The game stopped," "a former soldier"; modifiers the puppy "called Rex"; voice "The library was founded in 1850"; latin *nūtrīx benigna īnfantī cibum dat* (for *puella bona poētae rosam dat*); closing clauses on subordination and voice.
+
+**x.imitation**
+- tradition ends toward copying a passage word for word; the *Pro Archia* card unchanged.
+
+**x.translation**
+- why "bee"/*apis* for "horse"/*equus*, ends toward why translation is possible; aristotle opens from using a bilingual dictionary and recalls Section I in plain words; word-sense *hōc factō*, *pāx petenda est* (for *urbe captā*, *Carthāgō dēlenda est*); what-lost recalls the *Petros*/*petra* play from Section VII; whorf ends toward Quine's objection.
+- Question placeholder (new rule): word-sense *nōmen mihi est*, *nāve frāctā*, *bellum gerendum est*.
+
+**x.progymnasmata**
+- Rule 27a: "The ancient schools" → "The classical tradition"; "the rhetorical schools" (three places) → rhetoric; "the grammar school" → "the teaching of grammar." maxim "Look before you leap" ("A friend in need" is in vii.schemata).
+- Question placeholders (new rule): chreia and maxim "a saying attributed to Diogenes," "Many hands make light work"; ethopoeia, ecphrasis, syncrisis "what Penelope might say when Odysseus returns," "Rome and Carthage compared."
+**xi.traditions**
+- Realities-first openings on scribal-school (a language kept in school after it is no longer spoken), vyakarana (a text recited word for word for centuries), nahw (a language spreading quickly to new speakers), xiaoxue (reading old books first means learning their writing), root-affix ("player" from "play"), binyanim ("sit"/"set," "rise"/"raise"), full-empty (some words name, others only relate), erya (old words later readers no longer understand).
+- pada: Latin stem *pāc-*, *pāx*, *pācem* ("peace") for *rēg-*/*rēx*/*rēgem* (Sections II–V); root-affix recalls Section III's *audiēbātur*; closing clauses toward the following card on scribal-school, vyakarana, nahw.
+- Question placeholders (new rule): sign AN (*an*, "heaven"; *dingir*, "god") for KA; sandhi *na* + *asti* → *nāsti*; three parts *kabīr*, *thumma*; iʿrāb *qalamun*, *qalaman*, *qalamin*; verbal sentence *qaraʾa ʿaliyyun risālatan*; nominal sentence *al-baytu kabīrun*; verb patterns *g-d-l* (*gadal*, *giddel*, *higdil*); construct state *dvar ha-navi*; six writings 山, 本, 休, 河 (and the standard English names); full and empty words 水, 行, 於, 矣; order without inflection 民畏之. These forms are from memory, to be checked before the questions are written.
+- Kept: "in substance," the Daiches "argued" sentence, the Chomsky family link, the six writings' names, the kāraka sentence, the Analects line Chinese-first.
+**xi.modern**
+- jones: cognates "name," *nōmen*, *onoma*, *nāman* ("mother"/*māter* is in iv.etymology), with the Section IV recall citing "foot"/*pēs*; saussure "The kettle is boiling"; signifier "snow"/*nix*; relations "the young pilot lands"; bloomfield "The tall stranger smiled"; syntactic-structures "The guests arrived" / "Arrived guests the"; phrase-structure "The child reads the story"; transformations "The child spilled the milk" and its passive and question; parameters "opens the door," "under the bridge"; minimalism "the door opens"; morphological-types *spērō*, "geese," "spoke," *sine pecūniā*; alignment *avis volat*, *avis vermem capit*; halliday "Did the baker sell the last loaf?"; poinsot "When we think of an island…".
+- Question placeholders (new rule): three-acts "There is ice on the steps" said as a warning; morphological-types Turkish *el-ler-im*, Latin *dīxī*, Chinese 書; universals "in languages with prepositions, the genitive usually follows its noun"; syntactic-structures "Square silence drinks the morning."
+- Kept as the authors' own: Saussure's "sheep"/"mutton"/*mouton*, Chomsky's "Colorless green ideas" and "John is easy/eager to please," Austin's "I do"; the closing card unchanged.
+
+## AK. Log: Timothy's fixes and rules, evening of 18 Oct 2026
+
+- ii.voice "priscian-four": the resolution reads "We take it like this because…" (for "We take it so because"). The course keeps Donatus's sense of "articulate," voice that can be written; later decks build on that (STYLE-GUIDE-CARDS 27c).
+- ii.letter: "The classical grammarians used the word “letter”…" (for "The ancient grammarians"); card 2 no longer quotes the Latin of Donatus's question and ends "(<i>Ars maior</i> I.2)"; the accidents card defines the accidents of the letter as Section I defines accidents, not by the essence/accident distinction, and the line on "power" is clearer.
+- ii.syllable: the closed-syllable rule keeps vowel length apart from syllable length (*canunt*: a short vowel in a syllable long by position); the "english-division" card explains why the short vowels of "cat," "bed," "sit," "hot," "cup" keep the next consonant when stressed ("hab-it," "rob-in," "cam-el," "wag-on" against "ba-con," "ti-ger," and Latin *ha-bet*).
+- i.review: Section I has one exercise, the Section Review, 120 items in six sets of 20 (AG); sv-syn-13's bins renamed "Every rose," "Some roses (not said to be all)," "No rose."
+- Section X: no particular-languages bar; its first card says composition is applied to English and its principles apply to the other languages.
+- New rules added to STYLE-GUIDE-CARDS.md: no question on the card's own example in the same respect (28); "classical grammarians," never "old" or "ancient grammarians" (27a); build only on settled teaching, and a term keeps the sense the course gave it (27c); keep distinct things distinct, e.g., vowel and syllable length (27d).
