@@ -413,3 +413,28 @@ Two other candidates should wait. Gorgias's *Helen* (Van Hook 1913, public domai
 9. **Imitation models.** Who writes the model imitations: Timothy, or drafts for his approval? They are clearly labeled as the course's own and are on modern subjects, so they do not break the master plan's rule against inventing classical prose, but that should be confirmed.
 10. **Sources to add.** Add *On Christian Doctrine* IV.3 (Shaw) and *De oratore* I.146 (Yonge) to the passage bank for O.5, and approve a public-domain English for memory and delivery (O.4), or keep O.4 to Aristotle alone.
 11. **Palamedes and the *Confessions* paragraph.** Cut gorgias[3] (no passage, no exercise) or keep it as a short paragraph; cut the *Confessions* paragraph from augustine[1].
+
+---
+
+## REVISION-LOG
+
+### Section 3 card pass (19 Oct 2026, Claude; awaiting Timothy's reading)
+
+Decisions applied as settled in the prompt: 1 (the 71-card plan), 2 (a and b), 3, 4, 5, 6, 7, and 11. Decisions 8, 9, and 10 were left for Timothy, so the room guides R.1–R.3 and the Imitation Tablet were not built, and no source was added to the passage bank. The result is 67 cards in 13 decks (71, less the three room guides and gorgias[3]).
+
+- **Engine (index.html).** One sources line per deck, on its first card (deck `sources`); panel `src` notes kept in the data but not shown. Card question options shuffled on each visit. A group with no Division number shows as "Preliminaries."
+- **Card examples kept out of the sets.** Panels carry `taught` keys (for example `species:lys-3-3`, `fig:cic-cat4-1:anaphora`, `greg:the young and the old`), and the species, pisteis, enthymeme, issue, ethos, taxis, Gregory, lexis, and figure sets skip a card's own example in the respect in which the card gives it. Panels also carry `pids`, the passages each card uses (not shown; for the later Imitation Tablet links).
+- **The Art of Rhetoric** (new, `art`; O.1–O.5). Why persuasion is an art; the definition; the five parts (De inventione I.7.9); memory and delivery (Aristotle III.1, Cicero's definitions only); how the art is learned (De oratore I.146 by reference and in Latin; On Christian Doctrine IV.3.4–5 in Shaw; For Archias 14).
+- **What Rhetoric Is** (`orient`; I.1–I.4). orient[4] merged into II.1.
+- **Enthymeme, Example, and Signs** (`logos`; II.1–II.5). logos[0] and logos[3] merged into II.1; the Catilinarian "Lives?" kept once (enthymeme item e1 skipped by the set).
+- **The Issue and the Topics** (new, `issue`; II.6–II.11). The examples for Aristotle's 24 topics and Cicero's 17 are the course's own, because the topics set uses the authors' examples.
+- **The Speaker and the Hearers** (`ethos`; III.1–III.8). Decision 5 applied: the concupiscible/irascible placement is presented as the course's own, with reasons; "hatred"; "confidence," noting Thomas's "daring" (audacia).
+- **Arrangement** (`taxis`; IV.1–IV.7). Decision 4: the Laeca's-house sentences are narration, and the card names the same night told and then pressed as proof; item t13 kept as narration, with a note.
+- **Virtue of Style** (`lexis`; V.1–V.8). The 47 items on Aristotle, Rhetoric III, moved to a new set, "Aristotle on Style" (`aristlexis`); the instruction of "Style and the argument" now describes its 14 items. The Poetics line now quotes Butcher as printed ("to have a command of metaphor").
+- **Choosing among Correct Sentences** (`effects`; E.1–E.5). Kept; sources line only.
+- **The Figures** (new, `figures`; VI.1–VI.6). All 18 core figures and the 23 optional ones; lexis[1]'s claim that the main sets ask only about ten figures is gone.
+- **Reading the Whole Case** (new, `whole`; VII.1–VII.3).
+- **Gorgias** (G.1–G.4). gorgias[3] (Palamedes) cut; course talk cut from G.3; G.4 new.
+- **Antiphon** (A.1–A.2). Speech numbering; the ten topic labels kept and explained, with Aristotle's names where his list has one. The classroom translation is flagged in CITATIONS.md, and the cards quote none of it (II.5 paraphrases 3.2.4).
+- **Augustine** (Au.1–Au.4). Decision 7: "grand" in cards, items, and passage cues; the offices as docere, delectare, flectere, "to teach, to delight, to move"; Shaw's "majestic" and "to persuade" kept inside quotations. The Confessions paragraph cut.
+- Every quotation on the cards was checked against the cited public-domain text (Rhys Roberts at classics.mit.edu; Freese and the Perseus TEI; Butcher, Gutenberg 1974; Yonge, Gutenberg 11080; Shaw and Barmby at CCEL; Butler at LacusCurtius; the English Dominican Summa at New Advent; Crawley, Gutenberg 7142) or against passages.js.
