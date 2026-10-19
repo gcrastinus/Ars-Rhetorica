@@ -3356,7 +3356,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.17.34",
-    "cue": "Three styles for three ends: subdued to teach, temperate to delight, majestic to move.",
+    "cue": "Three styles for three ends: subdued to teach, temperate to delight, grand to move.",
     "text": "He then who, in speaking, aims at enforcing what is good, should not despise any of those three objects, either to teach, or to give pleasure, or to move, and should pray and strive, as we have said above, to be heard with intelligence, with pleasure, and with ready compliance. And when he does this with elegance and propriety, he may justly be called eloquent, even though he do not carry with him the assent of his hearer. For it is these three ends, viz., teaching, giving pleasure, and moving, that the great master of Roman eloquence himself seems to have intended that the following three directions should subserve: He, then, shall be eloquent, who can say little things in a subdued style, moderate things in a temperate style, and great things in a majestic style.",
     "spans": [
       {
@@ -3390,14 +3390,14 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.24.53",
-    "cue": "The majestic style is known by tears, not by applause: Caesarea and the Caterva.",
+    "cue": "The grand style is known by tears, not by applause: Caesarea and the Caterva.",
     "text": "The majestic style, on the other hand, frequently silences the audience by its impressiveness, but calls forth their tears. For example, when at Caesarea in Mauritania I was dissuading the people from that civil, or worse than civil, war which they called Caterva (for it was not fellow citizens merely, but neighbors, brothers, fathers and sons even, who, divided into two factions and armed with stones, fought annually at a certain season of the year for several days continuously, every one killing whomsoever he could), I strove with all the vehemence of speech that I could command to root out and drive from their hearts and lives an evil so cruel and inveterate; it was not, however, when I heard their applause, but when I saw their tears, that I thought I had produced an effect. For the applause showed that they were instructed and delighted, but the tears that they were subdued.",
     "spans": [
       {
         "start": 137,
         "end": 195,
         "figure": "exemplum",
-        "why": "The bishop's own case serves as proof of the majestic style."
+        "why": "The bishop's own case serves as proof of the grand style."
       },
       {
         "start": 671,
@@ -10503,20 +10503,20 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.20.42",
-    "cue": "Augustine explains how the majestic style differs from the temperate, and compares it to a brave man’s weapons.",
+    "cue": "Augustine explains how the grand style differs from the temperate, and compares it to a brave man’s weapons.",
     "text": "The majestic style of speech differs from the temperate style just spoken of, chiefly in that it is not so much decked out with verbal ornaments as exalted into vehemence by mental emotion. It uses, indeed, nearly all the ornaments that the other does; but if they do not happen to be at hand, it does not seek for them. For it is borne on by its own vehemence; and the force of the thought, not the desire for ornament, makes it seize upon any beauty of expression that comes in its way. It is enough for its object that warmth of feeling should suggest the fitting words; they need not be selected by careful elaboration of speech. If a brave man be armed with weapons adorned with gold and jewels, he works feats of valor with those arms in the heat of battle, not because they are costly, but because they are arms; and yet the same man does great execution, even when anger furnishes him with a weapon that he digs out of the ground.",
     "spans": [
       {
         "start": 100,
         "end": 188,
         "figure": "antithesis",
-        "why": "Ornament of words is set against the force of feeling, and the majestic style is known by the second."
+        "why": "Ornament of words is set against the force of feeling, and the grand style is known by the second."
       },
       {
         "start": 764,
         "end": 818,
         "figure": "antithesis",
-        "why": "The brave man uses the weapons because they are weapons, not because they are costly, and so the majestic style uses ornament only as it serves its force."
+        "why": "The brave man uses the weapons because they are weapons, not because they are costly, and so the grand style uses ornament only as it serves its force."
       },
       {
         "start": 321,
@@ -10547,7 +10547,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.20.42",
-    "cue": "Augustine quotes a passage of Paul in the majestic style, which he says does not lack the ornaments of speech.",
+    "cue": "Augustine quotes a passage of Paul in the grand style, which he says does not lack the ornaments of speech.",
     "text": "The apostle in the following passage is urging that, for the sake of the ministry of the gospel, and sustained by the consolations of God's grace, we should bear with patience all the evils of this life. It is a great subject, and is treated with power, and the ornaments of speech are not wanting: \"Behold,\" he says, \"now is the accepted time; behold, now is the day of salvation. Giving no offence in anything, that the ministry not blamed: but in all things approving ourselves as the ministers of God, in much patience, in afflictions, in necessities, in distresses, in strifes, in imprisonments, in tumults, in labors, in watchings, in fastings; by pureness, by knowledge, by long-suffering, by kindness, by the Holy Ghost, by love unfeigned, by the word of truth, by the power of God, by the armor of righteousness on the right hand and on the left, by honor and dishonor, by evil report and good report: as deceivers, and yet true; as unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed; as sorrowful, yet alway rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things.\"",
     "spans": [
       {
@@ -10585,7 +10585,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.20.43",
-    "cue": "Augustine quotes Paul to the Romans as an example of the majestic style, spoken with both power and beauty.",
+    "cue": "Augustine quotes Paul to the Romans as an example of the grand style, spoken with both power and beauty.",
     "text": "And in the same way, writing to the Romans, he urges that the persecutions of this world should be overcome by charity, in assured reliance on the help of God. And he treats this subject with both power and beauty: \"We know,\" he says, \"that all things work together for good to them that love God, to them who are the called according to His purpose. For whom He did foreknow, He also did predestinate to be conformed to the image of His Son, that He might be the first-born among many brethren. Moreover, whom He did predestinate, them He also called; and whom He called, them He also justified; and whom He justified, them He also glorified. What shall we then say to these things? If God be for us, who can be against us? He that spared not His own Son, but delivered Him up for us all, how shall He not with Him also freely give us all things? Who shall lay anything to the charge of God's elect? It is God that justifieth; who is he that condemneth? It is Christ that died, yea, rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us. Who shall separate us from the love of Christ? shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword? (As it is written, For Thy sake we are killed all the day long; we are accounted as sheep for the slaughter.) Nay, in all these things we are more than conquerors, through Him that loved us. For I am persuaded, that neither death, nor life, nor angels, nor principalities, nor powers, nor things present, nor things to come, nor height, nor depth, nor any other creature, shall be able to separate us from the love of God, which is in Christ Jesus our Lord.\"",
     "spans": [
       {
@@ -10680,7 +10680,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.21.50",
-    "cue": "Augustine quotes Ambrose’s attack on women who paint their faces as an example of the majestic style.",
+    "cue": "Augustine quotes Ambrose’s attack on women who paint their faces as an example of the grand style.",
     "text": "Ambrose again, inveighing against such practices, says: \"Hence arise these incentives to vice, that women, in their fear that they may not prove attractive to men, paint their faces with carefully-chosen colors, and then from stains on their features go on to stains on their chastity. What folly it is to change the features of nature into those of painting, and from fear of incurring their husband's disapproval, to proclaim openly that they have incurred their own! For the woman who desires to alter her natural appearance pronounces condemnation on herself; and her eager endeavors to please another prove that she has first been displeasing to herself. And what testimony to thine ugliness can we find, O woman, that is more unquestionable than thine own, when thou art afraid to show thyself? If thou art comely why dost thou hide thy comeliness? If thou art plain, why dost thou lyingly pretend to be beautiful, when thou canst not enjoy the pleasure of the lie either in thine own consciousness or in that of another? For he loves another woman, thou desirest to please another man; and thou art angry if he love another, though he is taught adultery in thee. Thou art the evil promptress of thine own injury. For even the woman who has been the victim of a pander shrinks from acting the pander's part, and though she be vile, it is herself she sins against and not another. The crime of adultery is almost more tolerable than thine; for adultery tampers with modesty, but thou with nature.\"",
     "spans": [
       {
@@ -10906,7 +10906,7 @@ window.PASSAGES = [
     "author": "Augustine",
     "work": "On Christian Doctrine",
     "locus": "4.19.38",
-    "cue": "Augustine says that the Christian teacher speaks of great matters, but not always in the majestic style.",
+    "cue": "Augustine says that the Christian teacher speaks of great matters, but not always in the grand style.",
     "text": "And yet, while our teacher ought to speak of great matters, he ought not always to be speaking of them in a majestic tone, but in a subdued tone when he is teaching, temperately when he is giving praise or blame. When, however, something is to be done, and we are speaking to those who ought, but are not willing, to do it, then great matters must be spoken of with power, and in a manner calculated to sway the mind. And sometimes the same important matter is treated in all these ways at different times, quietly when it is being taught, temperately when its importance is being urged, and powerfully when we are forcing a mind that is averse to the truth to turn and embrace it.",
     "spans": [
       {
