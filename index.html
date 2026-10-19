@@ -1196,24 +1196,39 @@ $('src-back').onclick = () => { show('scr-home'); buildHome(); };
     const body = $('deck-body');
     if(!body) return '';
     const parts = [];
+    /* The deck's title and subtitle are read only on its first card; after that, only the card itself. */
+    const cnt = $('deck-count');
+    const first = !cnt || /^1 of/.test(normalizeText(cnt.textContent));
+    if(first){
+      const title = $('deck-title'), sub = $('deck-sub');
+      if(title) pushText(parts, title.innerText || title.textContent);
+      if(sub) pushText(parts, sub.innerText || sub.textContent);
+    }
     body.querySelectorAll(':scope > .panel').forEach(panel => {
       String(panel.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
     });
     return joinParts(parts);
   }
 
+  /* Exercises are not read aloud, except a question that carries a quoted passage: a passage box
+     (or the original text), a prompt of several lines or long enough to hold a paragraph, a quotation
+     set in the prompt, or options that are themselves excerpts. */
+  function hasPassage(box){
+    const boxes = box.querySelectorAll('.q-passage, .q-original, .q-specimen, .q-sentence, blockquote');
+    if(boxes.length){
+      const t = normalizeText(Array.from(boxes).map(e => e.textContent).join(' '));
+      if(t.length >= 120) return true;
+    }
+    if(Array.from(box.querySelectorAll('.q-prompt')).some(el =>
+      el.querySelector('br') || normalizeText(el.textContent).length >= 200 ||
+      Array.from(el.querySelectorAll('em')).some(em => normalizeText(em.textContent).length >= 60))) return true;
+    return Array.from(box.querySelectorAll('#q-opts .opt')).some(o => o.querySelector('br'));
+  }
   function collectExText(){
     const parts = [];
     function add(t){ pushText(parts, t); }
-    const instr = $('ex-instr');
-    if(instr) add(instr.textContent);
     const box = $('ex-box');
-    if(!box) return joinParts(parts);
-
-    if(state.setDone){
-      add(textFrom(box, {skipButtons:true}));
-      return joinParts(parts);
-    }
+    if(!box || state.setDone || !hasPassage(box)) return '';
 
     const spec = box.querySelector('.q-specimen');
     if(spec) add(spec.innerText);
@@ -1347,7 +1362,8 @@ $('src-back').onclick = () => { show('scr-home'); buildHome(); };
   function startSpeak(){
     const text = collectSpeakText();
     if(!text){
-      speakChunks(['There is nothing to read on this screen.']);
+      const scr = document.querySelector('.screen.active');
+      speakChunks([scr && scr.id === 'scr-ex' ? 'Exercises are read aloud only when a question quotes a passage.' : 'There is nothing to read on this screen.']);
       return;
     }
     speakChunks(chunkText(text));
