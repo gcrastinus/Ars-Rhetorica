@@ -711,7 +711,7 @@ function buildHome(){
   const host = $('home-acts'); host.innerHTML = '';
   ACTS.forEach(a => {
     const wrap = document.createElement('div');
-    wrap.innerHTML = '<div class="act-label">Division '+a.roman+' · '+a.name+'</div>'+
+    wrap.innerHTML = '<div class="act-label">'+(a.roman ? 'Division '+a.roman : 'Preliminaries')+' · '+a.name+'</div>'+
       '<div class="section-gloss"><span class="lat">'+a.latin+'</span> — '+a.gloss+'</div>';
     const grid = document.createElement('div');
     grid.className = 'set-grid';
@@ -744,18 +744,23 @@ function renderDeck(){
   const p = deck.panels[deckI];
   deckAnswered = !p.q;
   const body = $('deck-body');
-  body.innerHTML = '<div class="panel">'+p.h+srcLine(p.src)+'</div>';
+  // One sources line per deck, on its first card; a panel's own src note is kept in the data but not shown.
+  body.innerHTML = '<div class="panel">'+p.h+(deck.sources ? (deckI === 0 ? srcLine(deck.sources) : '') : srcLine(p.src))+'</div>';
   if(p.q){
     const box = document.createElement('div');
     box.className = 'panel';
     box.innerHTML = '<div class="q-prompt">'+p.q.prompt+'</div><div class="opts" id="deck-opts"></div><div id="deck-fb"></div>';
     body.appendChild(box);
     const opts = box.querySelector('#deck-opts');
-    p.q.options.forEach((o, i) => {
+    // Options are shuffled on each visit; the key is the option's index in the data, so it follows the option.
+    const order = shuffle(p.q.options.map((o, i) => i));
+    order.forEach(i => {
+      const o = p.q.options[i];
       const b = document.createElement('button');
-      b.className = 'opt'; b.innerHTML = o;
+      b.className = 'opt'; b.innerHTML = o; b.dataset.k = i;
       b.onclick = () => {
-        opts.querySelectorAll('.opt').forEach((x, j) => {
+        opts.querySelectorAll('.opt').forEach(x => {
+          const j = +x.dataset.k;
           x.disabled = true;
           if(j === p.q.correct) x.classList.add(j === i ? 'right' : 'reveal');
           else if(j === i) x.classList.add('wrong');
@@ -763,7 +768,7 @@ function renderDeck(){
         const good = i === p.q.correct;
         box.querySelector('#deck-fb').innerHTML =
           '<div class="feedback '+(good?'good':'bad')+'"><span class="verdict">'+(good?'Correct':'Incorrect')+'</span>'+
-          p.q.explain+srcLine(p.src)+'</div>';
+          p.q.explain+'</div>';
         deckAnswered = true;
         $('deck-next').disabled = false;
       };
