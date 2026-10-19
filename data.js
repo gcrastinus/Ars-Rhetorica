@@ -90,7 +90,28 @@ const SRC = {
   kjv:{kind:'primary', short:'King James Bible', full:'The Holy Bible, Authorized (King James) Version, 1611. Public domain in the United States.', note:''},
   lincoln_ev:{kind:'primary', short:'Abraham Lincoln, <i>Speeches and Letters</i>', full:'Abraham Lincoln, <i>Speeches &amp; Letters of Abraham Lincoln, 1832–1865</i>, ed. Merwin Roe (Everyman’s Library, 1907). Public domain.', note:''},
   burke_n:{kind:'primary', short:'Edmund Burke, <i>Speech on Conciliation with America</i>', full:'Edmund Burke, <i>Speech on Conciliation with America</i>, ed. Sidney Carleton Newsom (Project Gutenberg no. 5655). Burke’s text of 1775 is public domain.', note:''},
-  webster_w:{kind:'primary', short:'Daniel Webster, <i>Great Speeches and Orations</i>', full:'Daniel Webster, <i>The Great Speeches and Orations of Daniel Webster</i>, ed. Edwin P. Whipple (the Project Gutenberg text, no. 12606, is from a printing of 1923). Public domain in the United States.', note:''}
+  webster_w:{kind:'primary', short:'Daniel Webster, <i>Great Speeches and Orations</i>', full:'Daniel Webster, <i>The Great Speeches and Orations of Daniel Webster</i>, ed. Edwin P. Whipple (the Project Gutenberg text, no. 12606, is from a printing of 1923). Public domain in the United States.', note:''},
+  juvenal_evans:{kind:'primary', short:'Juvenal, <i>Satires</i>, trans. Evans',
+    full:'Juvenal, <i>Satires</i>, trans. Lewis Evans, <i>The Satires of Juvenal, Persius, Sulpicia, and Lucilius</i> (New York: Harper &amp; Brothers, 1881; first published by Bohn). Public domain. Text: Project Gutenberg no. 50657.',
+    note:'Satire III runs from “Although troubled at the departure” through “poets spouting in the month of August.” Satire X runs from “In all the regions which extend from Gades” through “the accomplishment of your wish?”'},
+  johnson_works:{kind:'primary', short:'Samuel Johnson, <i>Works</i> (1825)',
+    full:'Samuel Johnson, <i>London</i> (1738) and <i>The Vanity of Human Wishes</i> (1749), in <i>The Works of Samuel Johnson, LL.D.</i>, vol. 1 (Oxford, 1825). Public domain. Text: Project Gutenberg no. 10835.',
+    note:'<i>London</i>, lines 1–18, and <i>The Vanity of Human Wishes</i>, lines 1–12. The edition’s markers that link the lines to Juvenal’s Latin are omitted.'},
+  horace_smart:{kind:'primary', short:'Horace, <i>Satires</i>, trans. Smart',
+    full:'Horace, <i>Satires</i> II.1, trans. Christopher Smart, revised by T. A. Buckley. Public domain. Text: Project Gutenberg no. 14020.',
+    note:'The lines are II.1.1–12, from “There are some persons to whom I seem too severe” through “ample rewards for your pains.” Smart’s square brackets are his own and are kept.'},
+  pope_gilfillan:{kind:'primary', short:'Alexander Pope, imitation of Horace',
+    full:'Alexander Pope, <i>The First Satire of the Second Book of Horace, Imitated</i> (1733), in <i>The Poetical Works of Alexander Pope</i>, ed. George Gilfillan, vol. 1. Public domain. Text: Project Gutenberg no. 9413.',
+    note:'The passage is lines 1–22. The speakers’ names are printed in roman, and the italics of <i>probatum est</i> are not marked.'},
+  milton_areo:{kind:'primary', short:'John Milton, <i>Areopagitica</i>',
+    full:'John Milton, <i>Areopagitica</i> (1644). Public domain. Text: Project Gutenberg no. 608, whose spelling is modernized.',
+    note:'The opening paragraph runs from “They, who to states” through “incidental to a preface.” The following sentence runs from “And out of those ages” through “which was then established.”'},
+  isocrates_norlin:{kind:'primary', short:'Isocrates, <i>Areopagiticus</i>, trans. Norlin',
+    full:'Isocrates, <i>Areopagiticus</i> (Oration 7), trans. George Norlin, <i>Isocrates</i>, vol. 2 (Loeb Classical Library, 1929). Public domain in the United States.',
+    note:'The passage is sections 7.1–3, quoted from the Perseus text of the Loeb. Footnotes are omitted and spacing is collapsed to single spaces.'},
+  franklin_pine:{kind:'primary', short:'Benjamin Franklin, <i>Autobiography</i>',
+    full:'Benjamin Franklin, <i>Autobiography</i>, ed. Frank Woodworth Pine (New York: Henry Holt, 1916). Public domain. Text: Project Gutenberg no. 20203.',
+    note:'His account of imitating the <i>Spectator</i>, from “About this time I met with an odd volume” through “of which I was extremely ambitious.”'}
 };
 function srcLine(keys){
   if(!keys) return '';

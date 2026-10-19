@@ -489,6 +489,54 @@ details.help p{font-size:16.5px; color:var(--ink-soft); margin:10px 0; line-heig
 a.btn{display:inline-block; text-decoration:none;}
 kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px solid var(--line); padding:1px 6px; border-radius:4px;}
 
+/* ------- whole speeches and the imitation tablet ------- */
+.room-legend{
+  font-style:italic; color:var(--ink-soft); font-size:16.5px; margin-bottom:16px;
+}
+.room-sec{margin-top:18px}
+.room-sec:first-child{margin-top:0}
+.room-locus{
+  font-family:'Cinzel',serif; font-size:13px; letter-spacing:.16em; color:var(--gold); margin-bottom:6px;
+}
+.room-sec .room-p{margin:0 0 12px}
+.room-bank{
+  background:rgba(166,124,46,.18); border-bottom:2px solid var(--gold);
+  cursor:pointer; border-radius:2px;
+}
+.room-bank:hover, .room-bank.on{background:rgba(166,124,46,.32)}
+body.dark .room-bank{background:rgba(201,164,92,.22)}
+body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.40)}
+.room-bank:focus{outline:2px solid var(--gold); outline-offset:2px}
+.room-pass-note{
+  margin:0 0 14px; padding:12px 14px; border-left:2px solid var(--gold-soft);
+  background:var(--panel2); border-radius:0 8px 8px 0;
+}
+.room-pass-note p{margin:0 0 8px; font-size:16.5px; color:var(--ink-soft); line-height:1.45}
+.room-pass-note p:last-child{margin-bottom:0}
+.room-hit-lead{font-style:italic}
+.room-hit-locus{
+  font-family:'Cinzel',serif; font-size:12px; letter-spacing:.12em; color:var(--gold); margin-right:8px;
+}
+.imit-grid{
+  display:grid; grid-template-columns:1fr 1fr; gap:16px; align-items:start; margin-bottom:16px;
+}
+.imit-col{
+  border:1px solid var(--line); background:var(--card); border-radius:14px;
+  padding:20px 22px; box-shadow:var(--shadow); min-width:0;
+}
+.imit-col h3, .panel h3{
+  font-family:'Cinzel',serif; font-size:20px; font-weight:600; line-height:1.3; margin-bottom:6px;
+}
+.imit-work{font-style:italic; color:var(--ink-soft); margin:0 0 2px; line-height:1.35}
+.imit-locus{font-style:italic; color:var(--ink-soft); font-size:16px; margin:0 0 12px}
+.imit-text{font-size:18px; line-height:1.55}
+.imit-text p{margin:0 0 12px}
+.imit-text p:last-child{margin-bottom:0}
+.imit-text.verse{white-space:pre-wrap; overflow-wrap:break-word; font-size:17.5px; line-height:1.45}
+@media (max-width:720px){
+  .imit-grid{grid-template-columns:1fr}
+}
+
 </style>
 </head>
 <body>
@@ -539,6 +587,7 @@ kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px
     <div class="diff-desc" id="diff-desc"></div>
     <div class="rule"></div>
     <div id="home-acts"></div>
+    <div id="home-read"></div>
     <div class="btn-row" style="margin-top:40px">
       <button class="btn" id="btn-progress">Progress</button>
       <button class="btn" id="btn-sources">Sources</button>
@@ -592,6 +641,29 @@ kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px
     <div class="btn-row"><button class="btn" id="src-back">← Home</button></div>
   </div>
 
+  <div class="screen" id="scr-room">
+    <header>
+      <div class="ornament">❦ ❦ ❦</div>
+      <h1 id="room-title" style="font-size:32px"></h1>
+      <div class="subtitle" id="room-sub"></div>
+    </header>
+    <div class="panel" id="room-panel">
+      <p class="room-legend">Passages already in the course are marked in the text.</p>
+      <div id="room-body"></div>
+    </div>
+    <div class="btn-row"><button class="btn" id="room-back" type="button">← Home</button></div>
+  </div>
+
+  <div class="screen" id="scr-imit">
+    <header>
+      <div class="ornament">❦ ❦ ❦</div>
+      <h1 style="font-size:32px">The Imitation Tablet</h1>
+      <div class="subtitle">Published imitations are set beside their models.</div>
+    </header>
+    <div id="imit-body"></div>
+    <div class="btn-row"><button class="btn" id="imit-back" type="button">← Home</button></div>
+  </div>
+
   <div class="screen" id="scr-prog">
     <header>
       <div class="ornament">❦ ❦ ❦</div>
@@ -607,6 +679,8 @@ kbd{font-family:'Cinzel',serif; font-size:11px; letter-spacing:.08em; border:1px
 </div>
 <script src="passages.js"></script>
 <script src="data.js"></script>
+<script src="rooms.js"></script>
+<script src="imitations.js"></script>
 <script>
 
 const $ = id => document.getElementById(id);
@@ -729,6 +803,7 @@ function buildHome(){
     wrap.appendChild(grid);
     host.appendChild(wrap);
   });
+  buildReading();
 }
 
 let deck = null, deckI = 0, deckAnswered = false;
@@ -1083,6 +1158,390 @@ function renderSources(){
 $('btn-sources').onclick = () => { renderSources(); show('scr-src'); };
 $('src-back').onclick = () => { show('scr-home'); buildHome(); };
 
+/* ---- whole speeches (rooms.js) and the imitation tablet (imitations.js) ---- */
+let roomReturn = 'scr-home';
+
+function readingCard(tag, title, desc, onOpen){
+  const card = document.createElement('button');
+  card.type = 'button';
+  card.className = 'set-card';
+  const num = document.createElement('div');
+  num.className = 'set-num';
+  num.textContent = tag;
+  const h = document.createElement('h3');
+  h.textContent = title;
+  const p = document.createElement('p');
+  p.textContent = desc;
+  const begin = document.createElement('span');
+  begin.className = 'begin';
+  begin.textContent = 'Begin';
+  card.appendChild(num);
+  card.appendChild(h);
+  card.appendChild(p);
+  card.appendChild(begin);
+  card.onclick = onOpen;
+  return card;
+}
+function readingSection(label, gloss){
+  const wrap = document.createElement('div');
+  const lab = document.createElement('div');
+  lab.className = 'section-label';
+  lab.textContent = label;
+  const g = document.createElement('div');
+  g.className = 'section-gloss';
+  g.textContent = gloss;
+  const grid = document.createElement('div');
+  grid.className = 'set-grid';
+  wrap.appendChild(lab);
+  wrap.appendChild(g);
+  wrap.appendChild(grid);
+  return {wrap:wrap, grid:grid};
+}
+function roomSubtitle(room){
+  const bits = [];
+  if(room.author) bits.push(room.author);
+  if(room.work) bits.push(room.work);
+  if(room.loci) bits.push(room.loci);
+  return bits.join(', ');
+}
+function buildReading(){
+  const host = $('home-read');
+  if(!host) return;
+  host.innerHTML = '';
+  const rooms = window.ROOMS;
+  const imit = window.IMITATIONS;
+  if(!rooms && !imit) return;
+  const rule = document.createElement('div');
+  rule.className = 'rule';
+  host.appendChild(rule);
+  if(rooms){
+    const sec = readingSection('The speeches', 'Four speeches are given in full. Where a passage is already in the course, it is marked in the text.');
+    Object.keys(rooms).forEach(id => {
+      const room = rooms[id];
+      const place = roomSubtitle(room);
+      const desc = place ? 'The speech is given in full, from ' + place + '.' : 'The speech is given in full.';
+      const card = readingCard('Reading', room.title || id, desc, () => openRoom(id, 'scr-home'));
+      card.dataset.room = id;
+      sec.grid.appendChild(card);
+    });
+    host.appendChild(sec.wrap);
+  }
+  if(imit){
+    const sec = readingSection('Imitation', 'A published imitation is set beside the passage it follows.');
+    const card = readingCard('Reading', 'The Imitation Tablet',
+      'Four published imitations are set beside the passages they follow, with Franklin’s account of the method and a parallel between two speeches over the war dead.',
+      () => openImitation());
+    card.dataset.imit = 'tablet';
+    sec.grid.appendChild(card);
+    host.appendChild(sec.wrap);
+  }
+}
+
+/* Quotes and commas are set aside only to find a bank passage whose printing differs by those marks. */
+function normMap(s){
+  const skip = {',':1, '"':1, '\u201C':1, '\u201D':1, '\u2018':1, '\u2019':1};
+  let n = '', map = [];
+  let i = 0;
+  while(i < s.length){
+    if(skip[s[i]]){ i++; continue; }
+    if(/\s/.test(s[i])){
+      let j = i;
+      while(j < s.length && (/\s/.test(s[j]) || skip[s[j]])) j++;
+      if(n.length && n.charAt(n.length - 1) !== ' '){
+        n += ' ';
+        map.push(i);
+      }
+      i = j;
+      continue;
+    }
+    n += s[i];
+    map.push(i);
+    i++;
+  }
+  return {n:n, map:map};
+}
+function roomModel(room){
+  const pieces = [];
+  let full = '';
+  (room.sections || []).forEach(sec => {
+    (sec.paras || []).forEach(text => {
+      if(full.length) full += ' ';
+      const start = full.length;
+      full += text;
+      pieces.push({locus:sec.locus || '', text:text, start:start, end:start + text.length});
+    });
+  });
+  return {full:full, pieces:pieces};
+}
+function roomHits(full){
+  const hits = [];
+  const nm = normMap(full);
+  (window.PASSAGES || []).forEach(p => {
+    const t = p.text || '';
+    if(t.length < 40) return;
+    const at = full.indexOf(t);
+    if(at >= 0){
+      if(full.indexOf(t, at + 1) >= 0) return;
+      hits.push({id:p.id, start:at, end:at + t.length});
+      return;
+    }
+    const pn = normMap(t);
+    if(pn.n.length < 40) return;
+    const ni = nm.n.indexOf(pn.n);
+    if(ni < 0 || nm.n.indexOf(pn.n, ni + 1) >= 0) return;
+    const start = nm.map[ni];
+    const end = nm.map[ni + pn.n.length - 1] + 1;
+    if(start == null || !(end > start)) return;
+    hits.push({id:p.id, start:start, end:end});
+  });
+  return hits;
+}
+function markedHtml(text, base, hits){
+  const local = [];
+  hits.forEach(h => {
+    const a = Math.max(h.start, base);
+    const b = Math.min(h.end, base + text.length);
+    if(a < b) local.push({a:a - base, b:b - base, id:h.id});
+  });
+  if(!local.length) return esc(text);
+  const cutSet = {0:1};
+  cutSet[text.length] = 1;
+  local.forEach(r => { cutSet[r.a] = 1; cutSet[r.b] = 1; });
+  const pts = Object.keys(cutSet).map(k => +k).sort((a, b) => a - b);
+  let html = '';
+  for(let i = 0; i < pts.length - 1; i++){
+    const a = pts[i], b = pts[i + 1];
+    if(a === b) continue;
+    const ids = [];
+    local.forEach(r => { if(r.a <= a && r.b >= b && ids.indexOf(r.id) < 0) ids.push(r.id); });
+    const slice = esc(text.slice(a, b));
+    if(ids.length) html += '<span class="room-bank" role="button" tabindex="0" data-ids="' + ids.join(' ') + '">' + slice + '</span>';
+    else html += slice;
+  }
+  return html;
+}
+function renderRoom(id){
+  const room = window.ROOMS && window.ROOMS[id];
+  if(!room) return;
+  $('room-title').textContent = room.title || '';
+  $('room-sub').textContent = roomSubtitle(room);
+  const body = $('room-body');
+  body.innerHTML = '';
+  const model = roomModel(room);
+  const hits = roomHits(model.full);
+  let sec = null;
+  let last = null;
+  model.pieces.forEach(piece => {
+    if(piece.locus !== last){
+      sec = document.createElement('div');
+      sec.className = 'room-sec';
+      const loc = document.createElement('div');
+      loc.className = 'room-locus';
+      loc.textContent = piece.locus;
+      sec.appendChild(loc);
+      body.appendChild(sec);
+      last = piece.locus;
+    }
+    const p = document.createElement('p');
+    p.className = 'room-p';
+    p.innerHTML = markedHtml(piece.text, piece.start, hits);
+    sec.appendChild(p);
+  });
+  const panel = $('room-panel');
+  const old = panel.querySelector(':scope > .src');
+  if(old) old.remove();
+  const holder = document.createElement('div');
+  holder.innerHTML = srcLine(room.src);
+  if(holder.firstChild) panel.appendChild(holder.firstChild);
+}
+function openRoom(id, back){
+  roomReturn = back || 'scr-home';
+  renderRoom(id);
+  const btn = $('room-back');
+  if(btn) btn.textContent = roomReturn === 'scr-home' ? '← Home' : '← Back';
+  show('scr-room');
+}
+function openRoomNote(span){
+  const ids = span.getAttribute('data-ids') || '';
+  const para = span.closest('p');
+  const existing = $('room-pass-note');
+  const same = existing && existing.dataset.for === ids && para && existing.previousElementSibling === para;
+  if(existing) existing.remove();
+  document.querySelectorAll('#room-body .room-bank.on').forEach(s => s.classList.remove('on'));
+  if(same || !para) return;
+  span.classList.add('on');
+  const note = document.createElement('div');
+  note.id = 'room-pass-note';
+  note.className = 'room-pass-note';
+  note.dataset.for = ids;
+  const lead = document.createElement('p');
+  lead.className = 'room-hit-lead';
+  lead.textContent = 'These words are already in the course.';
+  note.appendChild(lead);
+  ids.split(/\s+/).forEach(pid => {
+    const psg = (window.PASSAGES || []).find(x => x.id === pid);
+    if(!psg) return;
+    const line = document.createElement('p');
+    if(psg.locus){
+      const loc = document.createElement('span');
+      loc.className = 'room-hit-locus';
+      loc.textContent = psg.locus;
+      line.appendChild(loc);
+    }
+    if(psg.cue) line.appendChild(document.createTextNode(psg.cue));
+    note.appendChild(line);
+  });
+  para.insertAdjacentElement('afterend', note);
+}
+function bindRoomNotes(){
+  const body = $('room-body');
+  if(!body || body.dataset.bound) return;
+  body.dataset.bound = '1';
+  body.addEventListener('click', ev => {
+    const span = ev.target.closest && ev.target.closest('.room-bank');
+    if(span) openRoomNote(span);
+  });
+  body.addEventListener('keydown', ev => {
+    if(ev.key !== 'Enter' && ev.key !== ' ') return;
+    const span = ev.target.closest && ev.target.closest('.room-bank');
+    if(!span) return;
+    ev.preventDefault();
+    openRoomNote(span);
+  });
+}
+
+/* A newline before a lowercase word is a wrapped line in the prose, not a new paragraph. */
+function proseBlocks(text){
+  const lines = String(text || '').split('\n');
+  const out = [];
+  let cur = '';
+  lines.forEach(line => {
+    if(!cur){ cur = line; return; }
+    if(/^[a-z]/.test(line)) cur += ' ' + line;
+    else { out.push(cur); cur = line; }
+  });
+  if(cur) out.push(cur);
+  return out;
+}
+function imitColumn(side, form, role){
+  const col = document.createElement('div');
+  col.className = 'imit-col';
+  col.dataset.role = role;
+  const roleEl = document.createElement('div');
+  roleEl.className = 'set-num';
+  roleEl.textContent = role;
+  const h = document.createElement('h3');
+  h.textContent = side.author || '';
+  const work = document.createElement('p');
+  work.className = 'imit-work';
+  work.textContent = side.work || '';
+  const locus = document.createElement('p');
+  locus.className = 'imit-locus';
+  locus.textContent = side.locus || '';
+  const text = document.createElement('div');
+  text.className = 'imit-text' + (form === 'verse' ? ' verse' : '');
+  if(form === 'verse') text.textContent = side.text || '';
+  else proseBlocks(side.text).forEach(para => {
+    const p = document.createElement('p');
+    p.textContent = para;
+    text.appendChild(p);
+  });
+  col.appendChild(roleEl);
+  col.appendChild(h);
+  col.appendChild(work);
+  col.appendChild(locus);
+  col.appendChild(text);
+  const holder = document.createElement('div');
+  holder.innerHTML = srcLine(side.src);
+  if(holder.firstChild) col.appendChild(holder.firstChild);
+  return col;
+}
+function parallelClaim(note){
+  const s = String(note || '');
+  const cut = s.indexOf('The texts are in rooms.js');
+  return (cut >= 0 ? s.slice(0, cut) : s).trim();
+}
+function renderImitation(){
+  const host = $('imit-body');
+  if(!host) return;
+  host.innerHTML = '';
+  const data = window.IMITATIONS;
+  if(!data) return;
+  (data.pairs || []).forEach(pair => {
+    const grid = document.createElement('div');
+    grid.className = 'imit-grid';
+    grid.dataset.pair = pair.id || '';
+    grid.appendChild(imitColumn(pair.model || {}, pair.form, 'Model'));
+    grid.appendChild(imitColumn(pair.imitation || {}, pair.form, 'Imitation'));
+    host.appendChild(grid);
+  });
+  if(data.method){
+    const lab = document.createElement('div');
+    lab.className = 'section-label';
+    lab.textContent = 'The method';
+    host.appendChild(lab);
+    const panel = document.createElement('div');
+    panel.className = 'panel';
+    panel.id = 'imit-method';
+    const h = document.createElement('h3');
+    h.textContent = data.method.author || '';
+    const work = document.createElement('p');
+    work.className = 'imit-work';
+    work.textContent = data.method.work || '';
+    const locus = document.createElement('p');
+    locus.className = 'imit-locus';
+    locus.textContent = data.method.locus || '';
+    const text = document.createElement('div');
+    text.className = 'imit-text';
+    proseBlocks(data.method.text).forEach(para => {
+      const p = document.createElement('p');
+      p.textContent = para;
+      text.appendChild(p);
+    });
+    panel.appendChild(h);
+    panel.appendChild(work);
+    panel.appendChild(locus);
+    panel.appendChild(text);
+    const holder = document.createElement('div');
+    holder.innerHTML = srcLine(data.method.src);
+    if(holder.firstChild) panel.appendChild(holder.firstChild);
+    host.appendChild(panel);
+  }
+  if(data.parallel){
+    const lab = document.createElement('div');
+    lab.className = 'section-label';
+    lab.textContent = 'A parallel';
+    host.appendChild(lab);
+    const panel = document.createElement('div');
+    panel.className = 'panel';
+    panel.id = 'imit-parallel';
+    const p = document.createElement('p');
+    p.textContent = parallelClaim(data.parallel.note);
+    panel.appendChild(p);
+    const row = document.createElement('div');
+    row.className = 'btn-row';
+    (data.parallel.rooms || []).forEach(id => {
+      const room = window.ROOMS && window.ROOMS[id];
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'btn';
+      b.textContent = room && room.title ? room.title : id;
+      b.dataset.room = id;
+      b.onclick = () => openRoom(id, 'scr-imit');
+      row.appendChild(b);
+    });
+    panel.appendChild(row);
+    host.appendChild(panel);
+  }
+}
+function openImitation(){
+  renderImitation();
+  show('scr-imit');
+}
+if($('room-back')) $('room-back').onclick = () => { show(roomReturn); if(roomReturn === 'scr-home') buildHome(); };
+if($('imit-back')) $('imit-back').onclick = () => { show('scr-home'); buildHome(); };
+bindRoomNotes();
+
 /* ---- text-to-speech (browser voice) ----
    Reads the study card / intro / current question — not chrome (back, level,
    score, exercise name). On the home screen, reads the intro and each section
@@ -1172,8 +1631,8 @@ $('src-back').onclick = () => { show('scr-home'); buildHome(); };
     const how = home.querySelector('details.help');
     if(how) addDetailsText(how, add);
 
-    home.querySelectorAll('#home-acts > div').forEach(block => {
-      const label = block.querySelector('.act-label');
+    home.querySelectorAll('#home-acts > div, #home-read > div').forEach(block => {
+      const label = block.querySelector('.act-label, .section-label');
       const gloss = block.querySelector('.section-gloss');
       if(label) add(label.textContent);
       if(gloss) add(gloss.textContent);
@@ -1299,6 +1758,23 @@ $('src-back').onclick = () => { show('scr-home'); buildHome(); };
     if(scr.id === 'scr-prog'){
       const body = $('prog-body');
       return body ? textFrom(body, {skipButtons:true}) : '';
+    }
+    if(scr.id === 'scr-room' || scr.id === 'scr-imit'){
+      const parts = [];
+      const h = scr.querySelector('header');
+      if(h){
+        const h1 = h.querySelector('h1');
+        const sub = h.querySelector('.subtitle');
+        if(h1) pushText(parts, h1.textContent);
+        if(sub) pushText(parts, sub.textContent);
+      }
+      const legend = scr.querySelector('.room-legend');
+      if(legend) pushText(parts, legend.textContent);
+      const body = scr.querySelector('#room-body, #imit-body');
+      if(body) String(body.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
+      const src = scr.querySelector('#room-panel > .src');
+      if(src) pushText(parts, src.innerText || src.textContent);
+      return joinParts(parts);
     }
     return textFrom(scr, {skipButtons:true});
   }
