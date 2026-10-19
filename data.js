@@ -559,10 +559,22 @@ function cardTaught(key){
   if(!cardTaught.set){
     const s = {};
     Object.keys(DECKS).forEach(k => DECKS[k].panels.forEach(p => (p.taught || []).forEach(t => { s[t] = 1; })));
+    ITEM_SKIP.forEach(t => { s[t] = 1; });
     cardTaught.set = s;
   }
   return !!cardTaught.set[key];
 }
+// Items whose answer a card already gives in the same respect, though the card does not list them among its own examples.
+const ITEM_SKIP = [
+  'enth:e13',          // the card on how a speech shows character states Alcibiades' argument from his splendor
+  'enth:eng-e3',       // the card on proof and refutation explains Henry's absurd consequence of delay
+  'pistis:plato-ap-3', // the card on fear and shame gives Apology 29d as the rousing of shame
+  'ethos:et4',         // the card on the three means calls Cicero's opening for Milo a modest speaker honoring his client
+  'ethos:et18',        // the card on the chief means calls Caesar's warning against passion logos
+  'lexis:lx8',         // the Gorgias card on the four causes says that any one cause would acquit
+  'lexis:lx10',        // the card on tears says the grand style succeeds when the hearer is changed
+  'debsp:d-fun', 'debsp:d-plat', 'debsp:d-ant' // the card on the ten debates names the kind of these three
+];
 const SPECIES_MAP = {
   'cic-cat1-1':'deliberative','cic-cat1-2':'deliberative','cic-cat1-4':'deliberative','cic-cat1-5':'deliberative',
   'cic-cat1-6':'deliberative','cic-cat1-7':'deliberative','cic-cat1-8':'deliberative','cic-cat1-9':'deliberative',
@@ -723,7 +735,7 @@ const ENTHYMEMES = [
   {id:'e11', said:'Inflict only such penalties as the laws have provided.', missing:'A penalty not in the law is itself a new crime against the republic.',
     distractors:['In a time of danger the senate may set any penalty that the safety of the state requires.','The heavier the penalty, the surer the deterrent.','The laws were written for ordinary crimes, and a conspiracy against the state is not one.'], src:'sallust_w', cite:'Sallust, Catiline 51, Caesar'},
   {id:'e12', said:'Give me chastity and continency, only not yet.', missing:'A prayer that postpones the good it names is still a love of the old disease.',
-    distractors:['A prayer for chastity is answered the moment it is spoken, whenever its fulfilment comes.','To ask for a good is already to will it wholly.','To ask for a virtue at a later time is already to possess that virtue in the present.'], src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
+    distractors:['A prayer for chastity is answered the moment it is spoken, whenever its fulfillment comes.','To ask for a good is already to will it wholly.','To ask for a virtue at a later time is already to possess that virtue in the present.'], src:'aug_pusey', cite:'Augustine, Confessions VIII (Pusey)'},
   {id:'e13', said:'I have a better right to command than others — I must begin with this as Nicias has attacked me.', missing:'The man whose private splendor brings the city profit is fit to command.',
     distractors:['A man who spends his wealth on display is unfit to be trusted with the city’s fleet.','A general’s private life has no bearing on command.','Command belongs to the oldest citizen, whatever his wealth or his reputation abroad.'], src:'thuc_crawley', cite:'Thucydides 6.16, Alcibiades'},
   {id:'e14', said:'An eloquent man must speak so as to teach, to delight, and to persuade.', missing:'These three offices belong to the same orator, not to three different arts.',
@@ -744,15 +756,15 @@ const ENTHYMEMES = [
   {id:'eng-e5', said:'If you do not succeed, you are without resource: for, conciliation failing, force remains; but, force failing, no further hope of reconciliation is left.', missing:'A course that leaves a second resource if it fails is to be tried before one that leaves none.', distractors:['The surest course is to be tried first, whatever is left to us if it should fail.','Force should be tried first, because conciliation can still be offered to the colonies after a victory has been won.','Once conciliation has failed, no other course is open, so it should be kept for last.'], src:'eng_cer', cite:'Edmund Burke, Speech on Conciliation with the Colonies (1775)'},
   {id:'eng-e6', said:'Ambition must be made to counteract ambition.', missing:'Since men are not angels, power can be checked only by setting one interest against another.', distractors:['Men in power can be trusted to restrain themselves once they have sworn an oath to the constitution.','Ambition should be removed from government, since a free state needs only virtuous men.','The vote of the people alone is enough to keep every branch of the government within its bounds.'], src:'eng_cer', cite:'James Madison, The Federalist no. 51 (1788)'},
   {id:"e-nic-folly", said:"Now it is folly to go against men who could not be kept under even if conquered, while failure would leave us in a very different position from that which we occupied before the enterprise.", missing:"A city ought not to vote an expedition that cannot hold its conquest and that leaves it worse if it fails.",
-    distractors:["Egesta has already paid the cost of the fleet, so the sailing adds no danger and no new enemy to Athens.", "A summer voyage returns before winter, and a city that sails in fair weather cannot come home any worse.", "The treaty sworn at Sparta forbids any Athenian ship to leave port while that peace still stands in force."], src:"thuc_crawley", cite:"Thucydides 6.11, Nicias", why:"Nicias calls the sailing “folly” because those men “could not be kept under even if conquered,” and because failure would leave Athens in “a very different position”. The hearers supply the premise that an expedition of that kind ought not to be voted."},
+    distractors:["A city should sail against any enemy it can defeat, whether or not it can hold what it wins afterward.", "An expedition is worth its risk whenever victory is possible, since failure abroad costs a city little.", "A conquest far from home is easier to hold than one near at hand, because the conquered cannot easily rebel."], src:"thuc_crawley", cite:"Thucydides 6.11, Nicias", why:"Nicias calls the sailing “folly” because those men “could not be kept under even if conquered,” and because failure would leave Athens in “a very different position”. The hearers supply the premise that an expedition of that kind ought not to be voted."},
   {id:"e-nic-fear", said:"The Hellenes in Sicily would fear us most if we never went there at all, and next to this, if after displaying our power we went away again as soon as possible.", missing:"The safer course is the one that leaves a distant enemy most afraid of us.",
     distractors:["A people fears only the army that has already landed and begun to burn its towns.", "Sicily will send tribute of her own accord if Athens never shows a fleet at all.", "Fear of Athens ends as soon as a treaty is signed and the Spartans go home."], src:"thuc_crawley", cite:"Thucydides 6.11, Nicias", why:"He says the Hellenes in Sicily “would fear us most if we never went there at all,” and next if Athens displayed her power and left. The unstated premise is that Athens should choose the course that leaves those Hellenes most afraid."},
   {id:"e-nic-egest", said:"Our struggle, therefore, if we are wise, will not be for the barbarian Egestaeans in Sicily, but how to defend ourselves most effectually against the oligarchical machinations of Lacedaemon.", missing:"A wise city fights the enemy at her door before she fights for a distant ally.",
-    distractors:["Egesta keeps a larger fleet than Sparta and Corinth can put to sea together.", "The oligarchs at Sparta have already voted to lay down their arms and abandon the war.", "A barbarian ally is always a safer cause for Athens than any Greek city close to home."], src:"thuc_crawley", cite:"Thucydides 6.11, Nicias", why:"The struggle of a wise city, he says, “will not be for the barbarian Egestaeans in Sicily, but how to defend ourselves” against Sparta. The hearers must supply that the nearer danger is the one a wise city meets first."},
+    distractors:["A city keeps its allies only by sending help to every one of them, however far away, before it looks to its own walls.", "The enemy at the door is the least danger, because he is already known.", "A barbarian ally is always a safer cause for Athens than any Greek city close to home."], src:"thuc_crawley", cite:"Thucydides 6.11, Nicias", why:"The struggle of a wise city, he says, “will not be for the barbarian Egestaeans in Sicily, but how to defend ourselves” against Sparta. The hearers must supply that the nearer danger is the one a wise city meets first."},
   {id:"e-corc-navy", said:"For your first endeavour should be to prevent, if possible, the existence of any naval power except your own; failing this, to secure the friendship of the strongest that does exist.", missing:"A rival fleet that is not a friend will be turned against the city that let it grow.",
-    distractors:["Corinth has no ships in the water and cannot join her fleet to any other city.", "Athens is safest when every neighboring city is encouraged to build a navy of her own.", "A naval power grows more friendly to Athens in proportion as Athens leaves it alone."], src:"thuc_crawley", cite:"Thucydides 1.35, Corcyra", why:"The Corcyraeans tell Athens her “first endeavour should be to prevent” any naval power but her own, and failing that to secure “the friendship of the strongest that does exist.” The premise they leave to the assembly is that a rival fleet, if not a friend, will be used against her."},
+    distractors:["A navy that a city allows to grow will stay grateful to the city that did not hinder it.", "Athens is safest when every neighboring city is encouraged to build a navy of her own.", "A naval power grows more friendly to Athens in proportion as Athens leaves it alone."], src:"thuc_crawley", cite:"Thucydides 1.35, Corcyra", why:"The Corcyraeans tell Athens her “first endeavour should be to prevent” any naval power but her own, and failing that to secure “the friendship of the strongest that does exist.” The premise they leave to the assembly is that a rival fleet, if not a friend, will be used against her."},
   {id:"e-corc-colony", said:"let her know that every colony that is well treated honours its parent state, but becomes estranged from it by injustice.", missing:"Corinth has treated this colony unjustly, so Corcyra owes her no honor and may seek another ally.",
-    distractors:["Every colony remains the subject of its founder, and a wrong done by the parent only increases the honor owed.", "Corcyra was planted by Athens, and the tribute she pays that city is the honor a colony always owes.", "A parent that has been unjust is owed a greater honor, and the colony may not seek any other ally."], src:"thuc_crawley", cite:"Thucydides 1.34, Corcyra", why:"They answer Corinth with the rule that “every colony that is well treated honours its parent state, but becomes estranged from it by injustice.” The hearers supply that Corcyra’s estrangement follows from Corinth’s injustice, and so the colony is free to seek another ally."},
+    distractors:["Every colony remains the subject of its founder, and a wrong done by the parent only increases the honor owed.", "A colony that has been wronged should bear it in silence, since a quarrel with its founder shames them both.", "A parent that has been unjust is owed a greater honor, and the colony may not seek any other ally."], src:"thuc_crawley", cite:"Thucydides 1.34, Corcyra", why:"They answer Corinth with the rule that “every colony that is well treated honours its parent state, but becomes estranged from it by injustice.” The hearers supply that Corcyra’s estrangement follows from Corinth’s injustice, and so the colony is free to seek another ally."},
   {id:"e-cori-aux", said:"For you cannot become their auxiliary and remain our friend; if you join in their attack, you must share the punishment which the defenders inflict on them.", missing:"The ally of an attacker shares the penalty that the defender inflicts.",
     distractors:["Athens can arm Corcyra against Corinth and still be counted Corinth’s friend.", "A defender never turns his punishment upon the ally of the city that attacked him.", "Friendship between two cities survives any fleet sent against one of their colonies."], src:"thuc_crawley", cite:"Thucydides 1.40, Corinth", why:"Corinth tells Athens “you cannot become their auxiliary and remain our friend”, and that if Athens joins the attack she must “share the punishment which the defenders inflict”. The premise is that the ally of an attacker is treated as a party to the attack."},
   {id:"e-cori-punish", said:"It is now our turn to benefit by the principle that we laid down at Lacedaemon, that every power has a right to punish her own allies.", missing:"A principle a city has already used for herself she must allow another city to use.",
@@ -1198,7 +1210,7 @@ const PISTEIS_ITEMS = [
   {pid:'gor-hel-8', pistis:'logos', why:'Gorgias makes a claim about what logos is and offers it as the ground of Helen’s acquittal.'},
   {pid:'thuc-diod-1', pistis:'logos', why:'Diodotus argues from the nature of counsel: haste and passion oppose good deliberation.'},
   {pid:'ant-3.1.1', pistis:'logos', why:'The facts are agreed, so the charge is a description of cause.'},
-  {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual captatio (the bid for the jury’s goodwill), and his manner of speaking becomes the proof of his character.'},
+  {pid:'plato-ap-1', pistis:'ethos', why:'Socrates refuses the usual bid for the jury’s goodwill, and his manner of speaking becomes the proof of his character.'},
   {pid:'aug-chast', pistis:'pathos', why:'The divided will is shown so that the hearer feels the shame of “not yet.”'},
   {pid:'thuc-fun-2', pistis:'ethos', why:'Athens is characterized, and the city’s ethos becomes the speaker’s.'},
   {pid:'sal-caes-1', pistis:'logos', why:'Caesar argues from the laws and from the consequences of a novel penalty.'},
@@ -1751,7 +1763,7 @@ function mcQ(opts){
 const EX = {};
 EX.species = {
   id:'species', title:'The Three Species',
-  instr:'Name the species, or kind of speech, by the office of the hearer: forensic (the past; the just and the unjust), deliberative (the future; the expedient and the harmful), or epideictic (the present; the noble and the shameful). Ten questions make a set; at difficulty 1 each is worth 10, and 100 completes the set.',
+  instr:'We name the species, or kind of speech, by what the hearers are asked to judge: forensic (the past; the just and the unjust), deliberative (the future; the expedient and the harmful), or epideictic (the present; the noble and the shameful). A passage from a mixed speech takes the chief species of the speech, that is, what its hearers are asked to decide. Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
     const dup = dupTextIds();
@@ -1777,7 +1789,7 @@ EX.species = {
 };
 EX.pisteis = {
   id:'pisteis', title:'The Three Pisteis',
-  instr:'Of the three pisteis, or means of persuasion, which the speech is showing here: the speaker’s character (ethos), the hearer’s passions (pathos), or the argument (logos)? All the passages are real. Ten questions make a set; a passage is not repeated in the set.',
+  instr:'We name the means of persuasion (pistis) that the passage chiefly relies on: the speaker’s character (ethos), the hearers’ feeling (pathos), or the argument (logos). Most passages use more than one, so the question is which one the passage chiefly uses. Ten questions make a set; a passage is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
     const item = pickSeen(itemPool('PISTEIS_ITEMS', PISTEIS_ITEMS).filter(x => !cardTaught('pistis:'+x.pid)), x => 'pi:'+x.pid);
@@ -1786,18 +1798,18 @@ EX.pisteis = {
     const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
       prompt:'Which pistis is the speech showing in this passage?',
-      options:['Ethos: the speaker as the speech shows him','Pathos: the hearer’s frame of mind','Logos: the argument of the speech itself'],
+      options:['Ethos: the character of the speaker','Pathos: the feeling of the hearers','Logos: the argument of the speech'],
       correct: names.indexOf(item.pistis),
       passage: cue + esc(excerpt(p, diff >= 4 ? 240 : 400)),
       source: citeP(p), orig: p.orig, olang: p.olang, src: srcOf(p),
       note: item.pistis.charAt(0).toUpperCase()+item.pistis.slice(1)+'. '+item.why,
-      also:'A passage may use more than one pistis (Aristotle I.2), so name the one the speech is showing.'
+      also:'A passage may use more than one pistis (Aristotle I.2), so the question is which one it chiefly relies on.'
     });
   }
 };
 EX.enthymeme = {
   id:'enthymeme', title:'Supply the Missing Premise',
-  instr:'The enthymeme, or rhetorical syllogism, leaves a premise for the hearers to supply, and the task is to name that premise. Ten questions make a set; an example is not repeated in the set.',
+  instr:'The enthymeme, or rhetorical syllogism, leaves out a premise that the hearers supply. We name the general statement that joins the stated reason to the conclusion. Ten questions make a set; an example is not repeated in the set.',
   src:['arist_rhet'],
   gen(diff){
     const e = pickSeen(itemPool('ENTHYMEMES', ENTHYMEMES).filter(x => !cardTaught('enth:'+x.id)), x => 'en:'+x.id);
@@ -1839,7 +1851,7 @@ EX.stasis = {
 };
 EX.topics = {
   id:'topics', title:'The Topics',
-  instr:'Cicero says that “a topic is the seat of an argument”, so the orator finds his arguments by going through the topics. Aristotle gives his list of topics in the Rhetoric (II.23), with examples from orators and poets, and Cicero gives a shorter list of his own in the Topics, with examples from Roman civil law. Each example comes from one of the two lists, and its options come from the same list. We name the topic from which the argument is drawn. Ten questions make a set; an example is not repeated in the set.',
+  instr:'Cicero says that “a topic is the seat of an argument,” so the orator finds his arguments by going through the topics. Aristotle gives his list of topics in the Rhetoric (II.23), with examples from orators and poets, and Cicero gives a shorter list of his own in the Topics, with examples from Roman civil law. Each example comes from one of the two lists, and its options come from the same list. We name the topic from which the argument is drawn. Ten questions make a set; an example is not repeated in the set.',
   src:['arist_freese','cic_topica'],
   gen(diff){
     const e = pickSeen(itemPool('TOPOI_ITEMS', TOPOI_ITEMS), x => 'tp:'+x.id);
@@ -2231,7 +2243,7 @@ EX.debates = {
   setLen:6,
   gen(diff){
     const kinds = [];
-    itemPool('DEBATES', DEBATES).forEach(d => { kinds.push({d, kind:'species'}); kinds.push({d, kind:'claim'}); });
+    itemPool('DEBATES', DEBATES).forEach(d => { if(!cardTaught('debsp:'+d.id)) kinds.push({d, kind:'species'}); kinds.push({d, kind:'claim'}); });
     // A pair already asked in this set is not offered again, whichever question it was asked under.
     const used = (state.sessionSeen || []).filter(k => /^db:/.test(k)).map(k => k.split(':')[1]);
     const unused = kinds.filter(x => used.indexOf(x.d.id) < 0);
