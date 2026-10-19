@@ -937,26 +937,26 @@ window.PASSAGES = [
     "author": "Gregory the Great",
     "work": "Pastoral Rule",
     "locus": "II.5",
-    "cue": "The pastor is to be near in pity and high in prayer, and not to drop either.",
-    "text": "The ruler should be a near neighbour to every one in sympathy, and exalted above all in contemplation, so that through the bowels of loving-kindness he may transfer the infirmities of others to himself, and by loftiness of speculation transcend even himself in his aspiration after the invisible; lest either in seeking high things he despise the weak things of his neighbours, or in suiting himself to the weak things of his neighbours he relinquish his aspiration after high things. For hence it is that Paul is caught up into Paradise and explores the secrets of the third heaven, and, yet, though borne aloft in that contemplation of things invisible, recalls the vision of his mind to the bed of the carnal, and directs how they should have intercourse with each other in their hidden privacy, saying, But on account of fornication let every man have his own wife, and let every woman have her own husband.",
+    "cue": "Jacob's ladder and Moses' tabernacle: the preacher rises in contemplation and comes down in compassion.",
+    "text": "Hence Jacob, the Lord looking down from above, and oil being poured down on the stone, saw angels ascending and descending; to signify, that true preachers not only aspire in contemplation to the holy head of the Church, that is to the Lord, above, but also descend in commiseration downward to His members. Hence Moses goes frequently in and out of the tabernacle, and he who is wrapped into contemplation within is busied outside with the affairs of those who are subject to infirmity. Within he considers the secret things of God; without he carries the burdens of the carnal.",
     "spans": [
       {
-        "start": 20,
-        "end": 101,
+        "start": 98,
+        "end": 122,
         "figure": "antithesis",
-        "why": "Near and exalted are the two heights of the same office."
+        "why": "Ascending and descending are the two motions of one ladder, as contemplation and compassion are two motions of one office."
       },
       {
-        "start": 111,
-        "end": 201,
-        "figure": "metaphor",
-        "why": "Bowels is the old word for mercy as a bodily taking-on."
+        "start": 156,
+        "end": 306,
+        "figure": "antithesis",
+        "why": "Aspire above is set against descend downward, so the preacher is high toward the Lord and low toward His members."
       },
       {
-        "start": 297,
-        "end": 450,
+        "start": 488,
+        "end": 578,
         "figure": "antithesis",
-        "why": "There are two dangers on either side of one course: contempt of the weak, or loss of the high."
+        "why": "Within and without, considers and carries: the same man looks on God and bears the weak."
       }
     ]
   },
