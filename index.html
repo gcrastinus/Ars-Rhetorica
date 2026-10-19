@@ -647,6 +647,7 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
       <h1 id="room-title" style="font-size:32px"></h1>
       <div class="subtitle" id="room-sub"></div>
     </header>
+    <div class="panel" id="room-guide" hidden></div>
     <div class="panel" id="room-panel">
       <p class="room-legend">Passages already in the course are marked in the text.</p>
       <div id="room-body"></div>
@@ -1325,6 +1326,7 @@ function renderRoom(id){
   if(!room) return;
   $('room-title').textContent = room.title || '';
   $('room-sub').textContent = roomSubtitle(room);
+  renderRoomGuide(id);
   const body = $('room-body');
   body.innerHTML = '';
   const model = roomModel(room);
@@ -1354,12 +1356,31 @@ function renderRoom(id){
   holder.innerHTML = srcLine(room.src);
   if(holder.firstChild) panel.appendChild(holder.firstChild);
 }
+/* The guide card at the head of a room (ROOM_GUIDES in data.js). A link to the room already open is shown as plain text. */
+function renderRoomGuide(id){
+  const box = $('room-guide');
+  if(!box) return;
+  const g = (typeof ROOM_GUIDES !== 'undefined') && ROOM_GUIDES[id];
+  if(!g){ box.innerHTML = ''; box.hidden = true; return; }
+  box.innerHTML = g.h + srcLine(g.src);
+  box.querySelectorAll('a.room-link').forEach(a => {
+    if(a.dataset.room === id || !(window.ROOMS && window.ROOMS[a.dataset.room])){
+      a.replaceWith(document.createTextNode(a.textContent));
+    }
+  });
+  box.hidden = false;
+}
+document.addEventListener('click', ev => {
+  const a = ev.target.closest && ev.target.closest('#room-guide a.room-link');
+  if(a){ ev.preventDefault(); openRoom(a.dataset.room, roomReturn); }
+});
 function openRoom(id, back){
   roomReturn = back || 'scr-home';
   renderRoom(id);
   const btn = $('room-back');
   if(btn) btn.textContent = roomReturn === 'scr-home' ? '← Home' : '← Back';
   show('scr-room');
+  window.scrollTo(0, 0);
 }
 function openRoomNote(span){
   const ids = span.getAttribute('data-ids') || '';
@@ -1768,6 +1789,8 @@ bindRoomNotes();
         if(h1) pushText(parts, h1.textContent);
         if(sub) pushText(parts, sub.textContent);
       }
+      const guide = scr.querySelector('#room-guide');
+      if(guide && !guide.hidden) String(guide.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
       const legend = scr.querySelector('.room-legend');
       if(legend) pushText(parts, legend.textContent);
       const body = scr.querySelector('#room-body, #imit-body');
