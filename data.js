@@ -1926,7 +1926,7 @@ EX.pathos = {
 };
 EX.taxis = {
   id:'taxis', title:'Name the Part',
-  instr:'Cicero names six offices of the oration: the opening (exordium), the facts (narratio), the laying-out of the points in dispute (partitio), the proof (confirmatio), the answer to the other side (reprehensio), and the close (peroratio). Ten questions make a set; a passage is not repeated in the set.',
+  instr:'Cicero names six offices of the oration: the exordium, the narration (narratio), the division (partitio), the proof (confirmatio), the refutation (reprehensio), and the peroration (peroratio). We name the office that the part of the passage performs. Ten questions make a set; a passage is not repeated in the set.',
   src:['cic_inv'],
   gen(diff){
     const e = pickSeen(itemPool('TAXIS_ITEMS', TAXIS_ITEMS).filter(x => !cardTaught('taxis:'+x.id)), x => 'tx:'+x.id);
@@ -1945,7 +1945,7 @@ EX.taxis = {
 };
 EX.taxisorder = {
   id:'taxisorder', title:'The six offices',
-  instr:'These questions cover the Latin school’s six offices: their duties, their order, and when one of them shrinks. A set is six questions, so the same list is not put in order ten times.',
+  instr:'These questions cover the six offices of the oration as Cicero names them: their duties, their order, how Aristotle’s parts answer to them, and when one of them shrinks. A set is six questions.',
   src:['cic_inv'],
   setLen:6,
   gen(diff){
@@ -1957,12 +1957,12 @@ EX.taxisorder = {
       afters.push({k:'after', a:TAXIS_PARTS[i].key, b:TAXIS_PARTS[i+1].key});
     }
     const arist = [
-      {k:'arist', part:'exordium', prompt:'Aristotle’s opening (prooimion) corresponds to which Latin office?',
-        note:'The prooimion is the opening, and its office is the same as that of the exordium: to make the hearers attentive, teachable, and well-disposed.'},
-      {k:'arist', part:'narration', prompt:'Aristotle’s statement of the case corresponds to which Latin office?',
+      {k:'arist', part:'exordium', prompt:'Aristotle’s introduction (prooimion) corresponds to which of Cicero’s offices?',
+        note:'The introduction opens the speech, and its office is the same as that of the exordium: to make the hearers attentive, teachable, and well-disposed.'},
+      {k:'arist', part:'narration', prompt:'Aristotle’s statement of the case corresponds to which of Cicero’s offices?',
         note:'The statement sets out the facts. That is the office of the narration, which should be brief, clear, and plausible.'},
-      {k:'arist', part:'peroration', prompt:'Aristotle’s close (epilogos) corresponds to which Latin office?',
-        note:'The epilogos is the close. Cicero’s peroration recapitulates and moves the hearers.'}
+      {k:'arist', part:'peroration', prompt:'Aristotle’s epilogue (epilogos) corresponds to which of Cicero’s offices?',
+        note:'The epilogue closes the speech, as Cicero’s peroration does, which recapitulates and moves the hearers.'}
     ];
     const kinds = [{k:'order'}, {k:'shrink'}].concat(duties).concat(pairs).concat(afters).concat(arist);
     const item = pickSeen(kinds, x => 'txo:'+x.k+':'+(x.part||'')+':'+(x.a||'')+':'+(x.b||''));
@@ -1972,7 +1972,7 @@ EX.taxisorder = {
       const shuffled = shuffle(TAXIS_PARTS.map(p => p.key));
       return {
         kind:'order',
-        prompt:'Click the six offices in school order, from opening to close.',
+        prompt:'Click the six offices in the order Cicero gives them, from exordium to peroration.',
         keys: shuffled,
         labels: shuffled.map(k => labels[k]),
         target: TAXIS_PARTS.map(t => t.key),
@@ -1980,7 +1980,7 @@ EX.taxisorder = {
         check(ans){
           const right = Array.isArray(ans) && ans.join() === TAXIS_PARTS.map(t=>t.key).join();
           return {right, note: right ? 'Exordium, narration, division, proof, refutation, peroration.'
-                                    : 'The school order is opening, facts, points in dispute, proof, the other side, and close.',
+                                    : 'Cicero’s order is exordium, narration, division, proof, refutation, and peroration.',
             also:'See De inventione I. The six are offices, and a tetralogy may shrink the narration.'};
         }
       };
@@ -1988,7 +1988,7 @@ EX.taxisorder = {
     if(item.k === 'shrink'){
       return mcQ({
         prompt:'When the facts are agreed and only the cause is in dispute, which office shrinks?',
-        options:['Peroration, because there is nothing to feel','Narration, because the story is not the fight','Proof, because there are no arguments left','Exordium, because the jury is already paying attention'],
+        options:['Peroration, because there is nothing to feel','Narration, because the facts are not in dispute','Proof, because there are no arguments left','Exordium, because the jury is already paying attention'],
         correct:1, src:'cic_inv',
         note:'The narration can be a single sentence, while proof and refutation swell. Antiphon’s tetralogy is built on that situation.',
         also:'The six are offices, not a template; a funeral oration, for example, is not a proof of a crime.'
@@ -1998,10 +1998,10 @@ EX.taxisorder = {
       const A = TAXIS_PARTS.find(t => t.key===item.a);
       const B = TAXIS_PARTS.find(t => t.key===item.b);
       return mcQ({
-        prompt:'In the Latin school order, which office comes first?',
-        options:[A.name, B.name, 'The same office', 'Not an office'],
+        prompt:'In Cicero’s order, which of these two offices comes first?',
+        options:[A.name, B.name],
         correct:0, src:'cic_inv',
-        note: A.name+' precedes '+B.name+'. The school order is opening, facts, points in dispute, proof, the other side, and close.',
+        note: A.name+' precedes '+B.name+'. Cicero’s order is exordium, narration, division, proof, refutation, and peroration.',
         also:'Proof and refutation are two offices, and we should not collapse them into one.'
       });
     }
@@ -2021,7 +2021,7 @@ EX.taxisorder = {
       const rest = TAXIS_PARTS.filter(t => t.key!==item.b);
       const opts = nameOpts(B, rest, diff<=2 ? 2 : 3);
       return mcQ({
-        prompt:'In the Latin school order, which office comes immediately after the '+A.name+'?',
+        prompt:'In Cicero’s order, which office comes immediately after the '+A.name.toLowerCase()+'?',
         options: opts.map(t => t.name),
         correct:0, src:'cic_inv',
         note: B.name+' follows '+A.name+'.',
@@ -2461,7 +2461,7 @@ const ACTS = [
      {kind:'ex', ex:'greg', tag:'EXERCISE', title:'Gregory’s hearers', desc:'Why the same vice is not admonished in the same way.'}
    ]},
   {roman:'IV', name:'Arrangement', latin:'taxis',
-   gloss:'Arrangement of the speech. Aristotle names four parts: the opening (prooimion), the statement of facts, the proof, and the close (epilogos). The Latin school names six offices of the oration: the opening (exordium), the facts (narratio), the laying-out of the points (partitio), the proof (confirmatio), the answer to the other side (reprehensio), and the close (peroratio). These are offices a part of the speech may perform, not a template to force on every speech.',
+   gloss:'Arrangement of the speech. Aristotle names at most four parts: the introduction, the statement, the argument, and the epilogue. Cicero names six offices of the oration: the exordium, the narration (narratio), the division (partitio), the proof (confirmatio), the refutation (reprehensio), and the peroration (peroratio). These are offices a part of the speech may perform, not a template to force on every speech.',
    items:[
      {kind:'deck', deck:'taxis', tag:'TUTORIAL', title:'The parts of the oration', desc:'The six offices: opening (exordium), facts (narratio), division (partitio), proof (confirmatio), refutation (reprehensio), close (peroratio); the six in the First Catilinarian; arrangement fitted to the species.'},
      {kind:'ex', ex:'taxis', tag:'EXERCISE', title:'Name the part', desc:'Which office of the oration is this part of the passage performing?'},
