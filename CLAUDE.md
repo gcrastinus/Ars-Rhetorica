@@ -20,6 +20,7 @@ Rules
 12. Quote exactly as written. Never modernize or correct the spelling inside a quotation.
 13. Use American spelling: license, meter, center, color.
 14. Use few dashes. Use a comma, parentheses or a semicolon instead.
+15. A list set out on separate lines begins its own paragraph. The lead-in sentence ends with a colon and closes its paragraph (</p>), and the list follows in a new <p>, items separated by <br>, so the list stands apart from the preceding text (Timothy, Oct 19, 2026). Never run a list on from the colon with a <br> inside the same paragraph: write "…(De inventione I.7.9):</p><p><strong>Invention</strong> …<br>…</p>", not "…(De inventione I.7.9):<br><strong>Invention</strong> …".
 
 Examples (OLD → NEW)
 
