@@ -154,9 +154,15 @@ Two notes. First, **quoting John of St. Thomas's definitions is fine** (Timothy,
 
 ### Naming the tradition
 
-27a. **Do not write "the schools" or "the old schools" for the tradition** (Timothy, 18 Oct 2026). Say "grammarians," "the classical grammarians," "the scholastics," or "the classical tradition," and speak of the tradition well (for example, "for more than a thousand years grammarians took it as the starting point of their art"). Never "old grammarians." A proper name or a quotation ("the schools of rhetoric," "the Carolingian schools") may stay.
+27a. **Do not write "the schools" or "the old schools" for the tradition** (Timothy, 18 Oct 2026). Say "grammarians," "the classical grammarians," "the scholastics," or "the classical tradition," and speak of the tradition well (for example, "for more than a thousand years grammarians took it as the starting point of their art"). Never "old grammarians." A proper name or a quotation ("the schools of rhetoric," "the Carolingian schools") may stay. Never "the old grammarians" or "the ancient grammarians" either: say "the classical grammarians" (Timothy, 18 Oct 2026; e.g., ii.letter "The classical grammarians used the word “letter”…").
 
 27b. **Quotations: the English first, in quotation marks, then the Latin (or Greek) in parentheses after it** (Timothy, 18 Oct 2026), e.g., voice is “the motion of air perceptible to hearing, as far as lies in itself” (<i>vox est aer ictus sensibilis auditu, quantum in ipso est</i>; <i>Ars maior</i> I.1). This holds everywhere unless the Latin itself is being studied (a Latin form, scansion, a Latin example sentence), where the Latin may come first with its translation.
+
+### Building on settled teaching
+
+27c. **A later card builds only on what earlier cards have settled, and a term keeps the sense the course gave it** (Timothy, 18 Oct 2026). Where the tradition uses a word in two senses, the course says which one it takes and why, and every later card uses that one. Examples: "articulate voice" is Donatus's, voice that can be written (ii.voice "priscian-four" settles it, so ii.letter can open "We have seen that articulate voice is voice that can be written"); "accident" in Section II and after is Section I's grammatical accident (ii.letter's accidents are defined as in Section I, not by the essence/accident distinction).
+
+27d. **Keep distinct things distinct when a rule could blur them** (Timothy, 18 Oct 2026). For example, a closed syllable is long by position, but its vowel stays short (*canunt*); length of vowel and length of syllable are not the same.
 
 ### Question points (and, by the same rules, exercise items)
 
@@ -167,6 +173,7 @@ Two notes. First, **quoting John of St. Thomas's definitions is fine** (Timothy,
    - Test only what has been taught by that point (ITEM-LIST rule 4). Use the course's settled terms in options and explanations (e.g., "conventional sign," not "given sign"; "prays," not "wishes").
    - Explanations begin with the content, in full sentences; the renderer supplies "Correct" or "Incorrect." An explanation says why the right answer is right and, where useful, why the most tempting wrong option is wrong.
    - When a card's text changes, reread its question point and fix any option or explanation that no longer matches.
+   - **A question never asks about the card's own example in the same respect in which the card gives it** (Timothy, 18 Oct 2026). If the card divides *pa-tris*, no question asks how to divide *patris*; use a fresh example, or ask about the card's example in a different respect. This holds for question points, `qpTodo` placeholders, and exercise items drawn from a deck.
    - Section V decks and others carry `qpTodo` placeholders (186 in II–XI): write each as a point with exactly three variants (A, B, C) after the deck's cards are revised, so the questions match the final text.
 
 ### Recitations
