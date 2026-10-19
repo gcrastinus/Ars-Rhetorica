@@ -11032,5 +11032,37 @@ window.PASSAGES = [
     "src": [
       "ddc"
     ]
+  },
+  {
+    "id": "aug-ddc-3-4",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.3.4",
+    "cue": "Augustine says at what age the rules of rhetoric should be learned, and how the quick-witted become eloquent.",
+    "text": "It is enough that boys should give attention to it; and even of these, not all who are to be fitted for usefulness in the Church, but only those who are not yet engaged in any occupation of more urgent necessity, or which ought evidently to take precedence of it. For men of quick intellect and glowing temperament find it easier to become eloquent by reading and listening to eloquent speakers than by following rules for eloquence.",
+    "spans": [],
+    "src": "ddc"
+  },
+  {
+    "id": "aug-ddc-3-5",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.3.5",
+    "cue": "Augustine compares learning eloquence with the way infants learn to speak.",
+    "text": "And, therefore, as infants cannot learn to speak except by learning words and phrases from those who do speak, why should not men become eloquent without being taught any art of speech, simply by reading and learning the speeches of eloquent men, and by imitating them as far as they can?",
+    "spans": [],
+    "src": "ddc"
+  },
+  {
+    "id": "cic-deorat-1-146",
+    "author": "Cicero",
+    "work": "On the Orator",
+    "locus": "1.146",
+    "cue": "Crassus explains what the precepts of rhetoric are and where they came from.",
+    "text": "But I consider that with regard to all precepts the case is this, not that orators by adhering to them have obtained distinction in eloquence, but that certain persons have noticed what men of eloquence practiced of their own accord, and formed rules accordingly; so that eloquence has not sprung from art, but art from eloquence; not that, as I said before, I entirely reject art, for it is, though not essentially necessary to oratory, yet proper for a man of liberal education to learn.",
+    "spans": [],
+    "orig": "Verum ego hanc vim intellego esse in praeceptis omnibus, non ut ea secuti oratores eloquentiae laudem sint adepti, sed, quae sua sponte homines eloquentes facerent. ea quosdam observasse atque collegisse; sic esse non eloquentiam ex artificio, sed artificium ex eloquentia natum; quod tamen, ut ante dixi, non eicio; est enim, etiam si minus necessarium ad bene dicendum, tamen ad cognoscendum non inliberale.",
+    "olang": "Latin",
+    "src": "cic_orat"
   }
 ];
