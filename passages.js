@@ -11413,5 +11413,667 @@ window.PASSAGES = [
     "orig": "Verum ego hanc vim intellego esse in praeceptis omnibus, non ut ea secuti oratores eloquentiae laudem sint adepti, sed, quae sua sponte homines eloquentes facerent. ea quosdam observasse atque collegisse; sic esse non eloquentiam ex artificio, sed artificium ex eloquentia natum; quod tamen, ut ante dixi, non eicio; est enim, etiam si minus necessarium ad bene dicendum, tamen ad cognoscendum non inliberale.",
     "olang": "Latin",
     "src": "cic_orat"
+  },
+  {
+    "id": "thuc-arch-provide",
+    "author": "Archidamus (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.83",
+    "cue": "Archidamus tells Sparta to provide money before the talk of the allies carries the city away.",
+    "text": "First, then, let us provide money, and not allow ourselves to be carried away by the talk of our allies before we have done so: as we shall have the largest share of responsibility for the consequences be they good or bad, we have also a right to a tranquil inquiry respecting them.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-per-chamber",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.141",
+    "cue": "Pericles says the Peloponnesians lack the single council-chamber that prompt action needs.",
+    "text": "In a single battle the Peloponnesians and their allies may be able to defy all Hellas, but they are incapacitated from carrying on a war against a power different in character from their own, by the want of the single council-chamber requisite to prompt and vigorous action, and the substitution of a diet composed of various races, in which every state possesses an equal vote, and each presses its own ends, a condition of things which generally results in no action at all.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-per-houses",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.143",
+    "cue": "Pericles says that men, and not houses and land, are what a city must not lose.",
+    "text": "We must cry not over the loss of houses and land but of men’s lives; since houses and land do not gain men, but men them.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-herm-future",
+    "author": "Hermocrates (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "4.62",
+    "cue": "Hermocrates says that the incalculable future frightens both sides into thinking before they attack.",
+    "text": "Vengeance is not necessarily successful because wrong has been done, or strength sure because it is confident; but the incalculable element in the future exercises the widest influence, and is the most treacherous, and yet in fact the most useful of all things, as it frightens us all equally, and thus makes us consider before attacking each other.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-nic-surprises",
+    "author": "Nicias (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "7.61",
+    "cue": "Nicias tells the soldiers to remember the surprises of war and to fight again with hope.",
+    "text": "But let the Athenians among you who have already had experience of many wars, and the allies who have joined us in so many expeditions, remember the surprises of war, and with the hope that fortune will not be always against us, prepare to fight again in a manner worthy of the number which you see yourselves to be.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-plat-entreat",
+    "author": "The Plataeans (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.59",
+    "cue": "The Plataeans supplicate the judges by the tombs of their fathers, and ask not to be given up to the Thebans.",
+    "text": "…we supplicate you by the tombs of your fathers, and appeal to those that are gone to save us from falling into the hands of the Thebans and their dearest friends from being given up to their most detested foes.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-sthen-same",
+    "author": "Sthenelaidas (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "1.86",
+    "cue": "Sthenelaidas says Sparta must not put off until tomorrow the help that allies need today.",
+    "text": "We meanwhile are the same then and now, and shall not, if we are wise, disregard the wrongs of our allies, or put off till to-morrow the duty of assisting those who must suffer to-day.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-alc-profit",
+    "author": "Alcibiades (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "6.16",
+    "cue": "Alcibiades says that the things for which he is abused bring fame to him and profit to the country.",
+    "text": "The things for which I am abused, bring fame to my ancestors and to myself, and to the country profit besides.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-diod-speech",
+    "author": "Diodotus (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.42",
+    "cue": "Diodotus says that the man who claims speech should not expound action is either senseless or interested.",
+    "text": "As for the argument that speech ought not to be the exponent of action, the man who uses it must be either senseless or interested: senseless if he believes it possible to treat of the uncertain future through any other medium; interested if, wishing to carry a disgraceful measure and doubting his ability to speak well in a bad cause, he thinks to frighten opponents and hearers by well-aimed calumny.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-diod-paid",
+    "author": "Diodotus (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.42",
+    "cue": "Diodotus says it is intolerable to accuse a speaker of making a display in order to be paid.",
+    "text": "What is still more intolerable is to accuse a speaker of making a display in order to be paid for it.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-diod-interests",
+    "author": "Diodotus (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.44",
+    "cue": "Diodotus says the question for sensible men is the city’s interests, not the guilt of Mytilene.",
+    "text": "However, I have not come forward either to oppose or to accuse in the matter of Mitylene; indeed, the question before us as sensible men is not their guilt, but our interests.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-diod-future",
+    "author": "Diodotus (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "3.44",
+    "cue": "Diodotus says the assembly is deliberating for the future more than for the present.",
+    "text": "I consider that we are deliberating for the future more than for the present; and where Cleon is so positive as to the useful deterrent effects that will follow from making rebellion capital, I, who consider the interests of the future quite as much as he, as positively maintain the contrary.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-per-cease",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "2.60",
+    "cue": "Pericles tells the Athenians to cease grieving for private losses and to see to the safety of the commonwealth.",
+    "text": "Cease then to grieve for your private afflictions, and address yourselves instead to the safety of the commonwealth.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-per-ready",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "2.60",
+    "cue": "Pericles tells the Athenians to keep the lustre of their name and to turn from private grief to the safety of the commonwealth.",
+    "text": "Born, however, as you are, citizens of a great state, and brought up, as you have been, with habits equal to your birth, you should be ready to face the greatest disasters and still to keep unimpaired the lustre of your name. For the judgment of mankind is as relentless to the weakness that falls short of a recognized renown, as it is jealous of the arrogance that aspires higher than its due. Cease then to grieve for your private afflictions, and address yourselves instead to the safety of the commonwealth.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-fun-palm",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "2.40",
+    "cue": "Pericles says the palm of courage belongs to those who know hardship and pleasure and still do not shrink from danger.",
+    "text": "But the palm of courage will surely be adjudged most justly to those, who best know the difference between hardship and pleasure and yet are never tempted to shrink from danger.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "thuc-fun-lac",
+    "author": "Pericles (Thucydides)",
+    "work": "History of the Peloponnesian War",
+    "locus": "2.39",
+    "cue": "Pericles sets the Lacedaemonians, who invade with their confederates, against the Athenians, who advance unsupported.",
+    "text": "In proof of this it may be noticed that the Lacedaemonians do not invade our country alone, but bring with them all their confederates; while we Athenians advance unsupported into the territory of a neighbour, and fighting upon a foreign soil usually vanquish with ease men who are defending their homes.",
+    "src": [
+      "thuc_crawley"
+    ],
+    "spans": []
+  },
+  {
+    "id": "cic-cat1-tardy",
+    "author": "Cicero",
+    "work": "First Oration against Catiline",
+    "locus": "1.5",
+    "cue": "Cicero says that an order for Catilina’s arrest would be blamed for coming too late, not for being too harsh.",
+    "text": "If then at last, Catilina, I order your arrest or your execution, I shall presumably have more reason to fear that all loyal citizens will declare my action too tardy than that a single person will pronounce it too harsh.",
+    "src": "cic_cat",
+    "spans": []
+  },
+  {
+    "id": "cic-cat1-day",
+    "author": "Cicero",
+    "work": "First Oration against Catiline",
+    "locus": "1.7",
+    "cue": "Cicero asks whether he was right not only about the plot but about the exact day.",
+    "text": "Was I not right then, Catilina, not only as to the nature of the affair, abominable and incredible as it was, but even, what is much more astonishing, as to the exact day?",
+    "src": "cic_cat",
+    "spans": []
+  },
+  {
+    "id": "cic-cat1-perish",
+    "author": "Cicero",
+    "work": "First Oration against Catiline",
+    "locus": "1.5",
+    "cue": "Cicero says Catilina will perish only when no one in Rome can deny that the execution is just.",
+    "text": "You will perish in the end; but not till it is certain there will be no one in Rome so shameless, so desperate, so exactly the counterpart of yourself, as not to admit the justice of your execution.",
+    "src": "cic_cat",
+    "spans": []
+  },
+  {
+    "id": "cic-cat1-waiting",
+    "author": "Cicero",
+    "work": "First Oration against Catiline",
+    "locus": "1.6",
+    "cue": "Cicero asks what Catilina is waiting for, once night and the walls of his house no longer hide the plot.",
+    "text": "And as a matter of fact, Catilina, for what are you waiting now, if the shades of night can no longer veil your abominable conferences, and if the walls of your private house can no longer contain the phrases used by your fellow-conspirators?",
+    "src": "cic_cat",
+    "spans": []
+  },
+  {
+    "id": "cic-cat1-worth",
+    "author": "Cicero",
+    "work": "First Oration against Catiline",
+    "locus": "1.22",
+    "cue": "Cicero says the unpopularity is worth bearing if the danger stays with his private fortunes and does not touch the state.",
+    "text": "…but it is well worth while, if only the disastrous consequences are confined to my private fortunes, and do not involve results which are dangerous to the state.",
+    "src": "cic_cat",
+    "spans": []
+  },
+  {
+    "id": "cic-marc-clemency",
+    "author": "Cicero",
+    "work": "Pro Marcello",
+    "locus": "1.1",
+    "cue": "Cicero says he cannot pass over in silence the clemency and moderation of the man who holds supreme power.",
+    "text": "For such humanity, such exceptional, nay, unheard-of clemency, such invariable moderation exhibited by one who has attained supreme power, such incredible and almost superhuman loftiness of mind I find it impossible to pass by in silence.",
+    "src": "cic_orat",
+    "spans": []
+  },
+  {
+    "id": "cic-milo-yonge-1",
+    "author": "Cicero",
+    "work": "Pro Milone",
+    "locus": "1",
+    "cue": "Cicero says that Milo is more disturbed for the safety of the republic than for his own, and that the advocate cannot bring a matching greatness of mind.",
+    "text": "…when Titus Annius Milo himself is more disturbed for the safety of the republic than for his own, that I should not be able to bring to the cause a similar greatness of mind…",
+    "src": [
+      "cic_yonge"
+    ],
+    "spans": []
+  },
+  {
+    "id": "cic-milo-yonge-11",
+    "author": "Cicero",
+    "work": "Pro Milone",
+    "locus": "11",
+    "cue": "Cicero says that the laws are silent when arms are raised, and that the man who waits suffers an undeserved penalty.",
+    "text": "For laws are silent when arms are raised, and do not expect themselves to be waited for, when he who waits will have to suffer an undeserved penalty before he can exact a merited punishment.",
+    "src": [
+      "cic_yonge"
+    ],
+    "spans": []
+  },
+  {
+    "id": "cic-man-3",
+    "author": "Cicero",
+    "work": "On the Manilian Law",
+    "locus": "3",
+    "cue": "Cicero says that he is unaccustomed to this place, and that the virtue of Pompey is a cause in which eloquence can hardly fail.",
+    "text": "And, above all things, I see that I have reason to rejoice on this account, that, since I am speaking in this place, to which I am so entirely unaccustomed, I have a cause to advocate in which eloquence can hardly fail any one; for I have to speak of the eminent and extraordinary virtue of Cnaeus Pompey; and it is harder for me to find out how to end a discourse on such a subject, than how to begin one.",
+    "src": [
+      "cic_yonge"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-understood",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.12.27",
+    "cue": "Augustine says that a man has said his say once he is understood, whatever his manner of saying it.",
+    "text": "If, however, he is understood, he has said his say, whatever may have been his manner of saying it.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-pleased",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.12.27",
+    "cue": "Augustine says that the audience must be pleased in order to secure attention, and persuaded in order to be moved to action.",
+    "text": "And as the hearer must be pleased in order to secure his attention, so he must be persuaded in order to move him to action.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-teach-clear",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.12.28",
+    "cue": "Augustine says that true eloquence in teaching makes clear what was obscure.",
+    "text": "For teaching, of course, true eloquence consists, not in making people like what they disliked, nor in making them do what they shrank from, but in making clear what was obscure; yet if this be done without grace of style, the benefit does not extend beyond the few eager students who are anxious to know whatever is to be learnt, however rude and unpolished the form in which it is put; and who, when they have succeeded in their object, find the plain truth pleasant food enough.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-trinity",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.19.38",
+    "cue": "Augustine asks whether the Trinity in unity should be taught otherwise than by calm discussion.",
+    "text": "Or ought he who is teaching the Trinity in unity to speak of it otherwise than in the method of calm discussion, so that in regard to a subject which it is not easy to comprehend, we may understand as much as it is given us to understand?",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-praise-live",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.24.54",
+    "cue": "Augustine says that praise and censure, even in the temperate style, lead some to live so as to deserve praise.",
+    "text": "Praise and censure, too, when they are eloquently expressed, even in the temperate style, produce such an effect on some, that they are not only pleased with the eloquence of the encomiums and censures, but are led to live so as themselves to deserve praise, and to avoid living so as to incur blame.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-both-sides",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.2.3",
+    "cue": "Augustine asks why good men do not engage eloquence on the side of truth, when bad men use it for wicked causes.",
+    "text": "Since, then, the faculty of eloquence is available for both sides, and is of very great service in the enforcing either of wrong or right, why do not good men study to engage it on the side of truth, when bad men use it to obtain the triumph of wicked and worthless causes, and to further injustice and error?",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-groans",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.24.53",
+    "cue": "Augustine says that powerful eloquence is shown by groans, tears, and at last a change of life, more than by applause.",
+    "text": "In many other cases besides I have observed that men show the effect made on them by the powerful eloquence of a wise man, not by clamorous applause so much as by groans, sometimes even by tears, finally by change of life.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-delight-act",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.24.54",
+    "cue": "Augustine says that those who are only delighted do not change their habits, while those moved by the majestic style act.",
+    "text": "But no one would say that all who are thus delighted change their habits in consequence, whereas all who are moved by the majestic style act accordingly, and all who are taught by the quiet style know or believe a truth which they were previously ignorant of.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-quietly",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.19.38",
+    "cue": "Augustine says that the same matter is treated quietly when it is taught, temperately when it is urged, and powerfully when an averse mind must be turned.",
+    "text": "And sometimes the same important matter is treated in all these ways at different times, quietly when it is being taught, temperately when its importance is being urged, and powerfully when we are forcing a mind that is averse to the truth to turn and embrace it.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-ornaments",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.20.42",
+    "cue": "Augustine says that the grand style uses ornaments when they are at hand, and does not seek them.",
+    "text": "It uses, indeed, nearly all the ornaments that the other does; but if they do not happen to be at hand, it does not seek for them. For it is borne on by its own vehemence; and the force of the thought, not the desire for ornament, makes it seize upon any beauty of expression that comes in its way.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-ebb",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.22.51",
+    "cue": "Augustine says that after quieter matter the discourse can return to what must be treated forcibly, ebbing and flowing like the sea.",
+    "text": "But after the interposition of matter that we have to treat in a quieter style, we can return with good effect to that which must be treated forcibly, thus making the tide of eloquence to ebb and flow like the sea.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-knot",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.23.52",
+    "cue": "Augustine says that the temperate style sometimes needs the quiet style, as when a knotty question comes up to be settled.",
+    "text": "The temperate style, on the other hand, not indeed always, but occasionally, needs the quiet style; for example, when, as I have said, a knotty question comes up to be settled, or when some points that are susceptible of ornament are left unadorned and expressed in the quiet style, in order to give greater effect to certain exuberances (as they may be called) of ornament.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-quiet-know",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.24.54",
+    "cue": "Augustine says that those taught by the quiet style know or believe a truth of which they were previously ignorant.",
+    "text": "…all who are taught by the quiet style know or believe a truth which they were previously ignorant of.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "aug-ddc-applause",
+    "author": "Augustine",
+    "work": "On Christian Doctrine",
+    "locus": "4.24.54",
+    "cue": "Augustine says that frequent applause is no proof that the speaker is using the majestic style.",
+    "text": "If frequent and vehement applause follows a speaker, we are not to suppose on that account that he is speaking in the majestic style; for this effect is often produced both by the accurate distinctions of the quiet style, and by the beauties of the temperate.",
+    "src": [
+      "ddc"
+    ],
+    "spans": []
+  },
+  {
+    "id": "gor-hel-causes",
+    "author": "Gorgias",
+    "work": "Encomium of Helen",
+    "locus": "5",
+    "cue": "Gorgias says he will predicate the causes by which it was natural that Helen went to Troy.",
+    "text": "Passing over in my present discourse the time now past, I will proceed to the beginning of my intended discussion and will predicate the causes by reason of which it was natural that Helen went to Troy.",
+    "src": [
+      "gorgias_vh"
+    ],
+    "spans": []
+  },
+  {
+    "id": "gor-hel-shown",
+    "author": "Gorgias",
+    "work": "Encomium of Helen",
+    "locus": "15",
+    "cue": "Gorgias says that if Helen was won by persuasion she deserves commiseration and not condemnation.",
+    "text": "Now, it has been shown that, if Helen was won over by persuasion, she is deserving of commiseration, and not condemnation.",
+    "src": [
+      "gorgias_vh"
+    ],
+    "spans": []
+  },
+  {
+    "id": "gor-hel-poetry",
+    "author": "Gorgias",
+    "work": "Encomium of Helen",
+    "locus": "9",
+    "cue": "Gorgias says that poetry is composition in meter, and that through discourse the soul suffers what it hears.",
+    "text": "All poetry I ordain and proclaim to be composition in meter; the listeners of which are affected by passionate trepidation and compassionate perturbation and likewise tearful lamentation, since through discourse the soul suffers, as if its own, the felicity and infelicity of property and person of others.",
+    "src": [
+      "gorgias_vh"
+    ],
+    "spans": []
+  },
+  {
+    "id": "gor-hel-twain",
+    "author": "Gorgias",
+    "work": "Encomium of Helen",
+    "locus": "10",
+    "cue": "Gorgias says that two arts of witchery and sorcery have been found, which disturb the heart and trouble art.",
+    "text": "For there have been discovered arts twain of witchery and sorcery, which are consternation to the heart and perturbation to art.",
+    "src": [
+      "gorgias_vh"
+    ],
+    "spans": []
+  },
+  {
+    "id": "plato-ap-heaven",
+    "author": "Plato",
+    "work": "Apology",
+    "locus": "17c",
+    "cue": "Socrates says he will use the words that occur to him, because he is confident in the justice of his cause.",
+    "text": "No, by heaven! but I shall use the words and arguments which occur to me at the moment; for I am confident in the justice of my cause.",
+    "src": "plato_jowett",
+    "spans": []
+  },
+  {
+    "id": "sal-caes-dignity",
+    "author": "Julius Caesar (Sallust)",
+    "work": "Conspiracy of Catiline",
+    "locus": "51",
+    "cue": "Caesar warns the senate not to let indignation weigh more than its own dignity and character.",
+    "text": "Similar caution, Conscript Fathers, is to be observed by yourselves, that the guilt of Lentulus, and the other conspirators, may not have greater weight with you than your own dignity, and that you may not regard your indignation more than your character.",
+    "src": [
+      "sallust_w"
+    ],
+    "spans": []
+  },
+  {
+    "id": "sal-caes-punic",
+    "author": "Julius Caesar (Sallust)",
+    "work": "Conspiracy of Catiline",
+    "locus": "51",
+    "cue": "Caesar says the ancestors considered what was worthy of themselves, rather than what might be inflicted on their enemies.",
+    "text": "Throughout the Punic war, too, though the Carthaginians, both during peace and in suspension of arms, were guilty of many acts of injustice, yet our ancestors never took occasion to retaliate, but considered rather what was worthy of themselves, than what might be justly inflicted on their enemies.",
+    "src": [
+      "sallust_w"
+    ],
+    "spans": []
+  },
+  {
+    "id": "dem-phil1-winter",
+    "author": "Demosthenes",
+    "work": "First Philippic",
+    "locus": "32",
+    "cue": "Demosthenes names the winter stations that would let a standing force lie close to the coast.",
+    "text": "As our winter-stations for the army we have Lemnos, Thasos, Sciathos, and the islands in that region, which have harbours and corn, and are well supplied with all that an army needs.",
+    "src": [
+      "demosth"
+    ],
+    "spans": []
+  },
+  {
+    "id": "dem-phil3-peace",
+    "author": "Demosthenes",
+    "work": "Third Philippic",
+    "locus": "9",
+    "cue": "Demosthenes says that a peace in which Philip may master everything up to Athens, while Athens does not meet him, is madness.",
+    "text": "But if any man's conception of peace is that it is a state in which Philip can master all that intervenes till at last he comes to attack ourselves, such a conception, in the first place, is madness; and, in the second place, this peace that he speaks of is a peace which you are to observe towards Philip, while he does not observe it towards you: and this it is—this power to carry on war against you, without being met by any hostilities on your part—that Philip is purchasing with all the money that he is spending.",
+    "src": [
+      "demosth"
+    ],
+    "spans": []
+  },
+  {
+    "id": "dem-rhod-decision",
+    "author": "Demosthenes",
+    "work": "For the Freedom of the Rhodians",
+    "locus": "15.2",
+    "cue": "Demosthenes says that a right decision will meet the city’s slanderers with a practical and glorious refutation.",
+    "text": "For if your decision in regard to it is what it should be, you will find yourselves meeting the calumnies of those who are slandering this city with a practical and a glorious refutation.",
+    "src": [
+      "demosth"
+    ],
+    "spans": []
+  },
+  {
+    "id": "lys-24-3",
+    "author": "Lysias",
+    "work": "On the Refusal of a Pension to the Invalid",
+    "locus": "24.3",
+    "cue": "The speaker says his accuser envies him because, even with this misfortune, he is the better citizen.",
+    "text": "So now, gentlemen, it is clear that he envies me because, although I have to bear this sore misfortune, I am a better citizen than he is.",
+    "src": [
+      "lysias_lamb"
+    ],
+    "spans": []
+  },
+  {
+    "id": "lys-1-2",
+    "author": "Lysias",
+    "work": "On the Murder of Eratosthenes: Defence",
+    "locus": "1.2",
+    "cue": "The speaker says that all men abominate this outrage.",
+    "text": "Thus you see, sirs, how all men abominate this outrage.",
+    "src": [
+      "lysias_lamb"
+    ],
+    "spans": []
+  },
+  {
+    "id": "lys-19-2",
+    "author": "Lysias",
+    "work": "On the Property of Aristophanes",
+    "locus": "19.2",
+    "cue": "The speaker sets his enemies’ artifice against his own inexperience.",
+    "text": "You see, of course, the artifice and the alacrity of my enemies; of these there is no need to speak; whereas everyone who knows me is aware of my inexperience.",
+    "src": [
+      "lysias_lamb"
+    ],
+    "spans": []
+  },
+  {
+    "id": "lys-3-4",
+    "author": "Lysias",
+    "work": "Against Simon",
+    "locus": "3.4",
+    "cue": "The speaker asks not to be thought worse for a desire to which all mankind are liable, if he has borne it in an orderly spirit.",
+    "text": "…I ask you not to think the worse of me for that, since you know that all mankind are liable to desire, but that he may be the best and most temperate who is able to bear its misfortunes in the most orderly spirit.",
+    "src": [
+      "lysias_lamb"
+    ],
+    "spans": []
+  },
+  {
+    "id": "eng-burke-compass",
+    "author": "Edmund Burke",
+    "work": "Reflections on the Revolution in France",
+    "locus": "(1791)",
+    "cue": "Burke says that when ancient opinions and rules of life are taken away, the loss cannot be estimated.",
+    "text": "When ancient opinions and rules of life are taken away, the loss cannot possibly be estimated.",
+    "src": "burke_refl",
+    "spans": []
+  },
+  {
+    "id": "eng-webster-knapp-infer",
+    "author": "Daniel Webster",
+    "work": "Argument in the Murder Trial of John Francis Knapp",
+    "locus": "(1830)",
+    "cue": "Webster says that if the meeting was not upon this business, someone would have told what it was for, and the Knapps do not explain it.",
+    "text": "If it were not upon this business, let it be told what it was for. Joseph Knapp could explain it; Frank Knapp might explain it. But they do not explain it; and the inference is against them.",
+    "src": "webster_w",
+    "spans": []
+  },
+  {
+    "id": "eng-henry-gale",
+    "author": "Patrick Henry",
+    "work": "Speech to the Second Virginia Convention",
+    "locus": "(1775)",
+    "cue": "Henry says the next gale will bring the clash of arms, and that the brethren are already in the field.",
+    "text": "The next gale that sweeps from the north will bring to our ears the clash of resounding arms! Our brethren are already in the field!",
+    "src": "henry_wirt",
+    "spans": []
+  },
+  {
+    "id": "eng-henry-battle",
+    "author": "Patrick Henry",
+    "work": "Speech to the Second Virginia Convention",
+    "locus": "(1775)",
+    "cue": "Henry says the battle is not to the strong alone, but to the vigilant, the active, and the brave.",
+    "text": "The battle, sir, is not to the strong alone; it is to the vigilant, the active, the brave.",
+    "src": "henry_wirt",
+    "spans": []
   }
 ];
