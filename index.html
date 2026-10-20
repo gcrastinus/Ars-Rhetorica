@@ -112,7 +112,13 @@ body{
 .speak-rate-menu li[aria-selected="true"]{
   color:var(--gold); background:var(--paper2, var(--panel));
 }
+#home-jump{
+  position:fixed; top:14px; left:16px; z-index:50;
+  padding:10px 16px; text-transform:uppercase;
+}
+body.ex-screen #home-jump{display:none}
 @media (max-width:420px){
+  #home-jump{top:12px; left:12px; padding:8px 12px; font-size:12px}
   .top-right-controls{top:12px; right:12px; gap:6px}
   #dark-toggle{width:40px; height:40px; font-size:18px}
   .speak-unit{height:40px; border-radius:20px}
@@ -122,7 +128,7 @@ body{
 
 
 
-.wrap{max-width:880px; margin:0 auto; padding:34px 22px 90px}
+.wrap{max-width:880px; margin:0 auto; padding:76px 22px 90px}
 .screen{display:none}
 .screen.active{display:block; animation:fade .4s ease}
 @keyframes fade{from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:none}}
@@ -485,7 +491,7 @@ table.para tr:nth-child(even) td{background:var(--panel2)}
 .ladder text{font-family:'EB Garamond',serif}
 
 @media print{
-  #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls{display:none}
+  #dark-toggle, #speak-toggle, #speak-rate, .speak-unit, .top-right-controls, #home-jump{display:none}
   .set-card{break-inside:avoid}
 }
 
@@ -670,6 +676,7 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
 </style>
 </head>
 <body>
+<button id="home-jump" class="btn" type="button">Home</button>
 <div id="top-right-controls" class="top-right-controls">
 <div id="speak-unit" class="speak-unit">
 <button id="speak-toggle" type="button" title="Read this screen aloud" aria-label="Read this screen aloud">▶</button>
@@ -895,6 +902,7 @@ function show(id){
   if(window.__arsStopSpeak) window.__arsStopSpeak();
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   $(id).classList.add('active');
+  document.body.classList.toggle('ex-screen', id === 'scr-ex');
   window.scrollTo(0, 0);
 }
 function setDark(on){
@@ -1433,6 +1441,7 @@ $('prog-reset').onclick = () => {
   save(); renderProgress();
 };
 $('dark-toggle').onclick = () => setDark(!state.dark);
+if($('home-jump')) $('home-jump').onclick = () => { show('scr-home'); buildHome(); };
 
 function openSrcModal(key){
   const e = SRC[key];
