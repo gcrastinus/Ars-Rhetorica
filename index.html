@@ -925,20 +925,10 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
 }
 
 /* The Recitation Tablet button shows only on the homepage; below 1100px the page starts below it.
-   In Ars Rhetorica the Home button holds the top-left corner, so on the homepage the Tablet sits just below it,
-   and the callout and the top space move down by the same amount. */
-.recite-open{top:66px}
-.recite-callout{top:74px}
-@media (max-width:1240px){ body.recite-nudge .wrap{padding-top:240px} }
-@media (max-width:1100px){ body:not(.off-home) .wrap{padding-top:170px} }
-@media (max-width:640px){
-  .recite-callout{top:164px}
-  body.recite-nudge .wrap{padding-top:300px}
-}
-@media (max-width:420px){
-  .recite-open{top:58px}
-  .recite-callout{top:148px}
-}
+   On the homepage the Home button is hidden, so the Tablet holds the top-left corner, as in Ars Grammatica. */
+body:not(.off-home) #home-jump{display:none}
+@media (max-width:1100px){ body:not(.off-home) .wrap{padding-top:118px} }
+@media (max-width:640px){ body.recite-nudge .wrap{padding-top:300px} }
 
 </style>
 </head>
@@ -1116,7 +1106,7 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
       <div class="recite-desc-body">
         <p>One of the oldest and best-proven ways to study is to read a section of a book, or study a topic, in one sitting, then close your notes and write down everything you remember, in as much detail as you can. This is called "recitation," and this tablet lets you do it.</p>
         <p>After you finish studying a part of the course, close it and open the Recitation Tablet. Choose the part you just finished from the menu, then write down, in order, everything you can remember about it. This is not easy. But the difficulty is what produces results, especially the moment when you feel you remember nothing more and then keep searching.</p>
-        <p>When you have finished, click "See Full Recitation." You will see a complete outline of the material with every point stated simply. The outline is a checklist: go through it carefully and mark exactly what you included correctly and what you missed. The app will remind you to recite the same material again after a few days, since each new recall fixes it more firmly.</p>
+        <p>When you have finished, click "See Full Recitation." You will see a complete outline of the material with every point stated simply. The outline is a checklist: go through it carefully and mark exactly what you included correctly and what you missed. The course will remind you to recite the same material again after a few days, since each new recall fixes it more firmly.</p>
       </div>
     </details>
     <div class="recite-tools">
