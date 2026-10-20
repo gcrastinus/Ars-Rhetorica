@@ -18,6 +18,8 @@ passages.js     public-domain passage bank (figures marked)
 
 Progress is stored in this browser under `ars-rhetorica-progress`. Nothing leaves the machine.
 
+The Recitation Tablet (top left of the home screen, the same tablet as Ars Grammatica's) offers each study deck once it has been finished, and each Division once all its decks are finished: the student writes out the doctrine from memory, then opens the deck's outline (the `recitation` field of each deck in `data.js`) and checks off the points covered. The home screen asks for a recitation again after 3, 7, and 30 days. The code is `recitation.js` (shared with Ars Grammatica) and `recitation-adapter.js`.
+
 ## How to proceed
 
 Act I’s study deck first — *The counterpart of dialectic* — then *The three species* at difficulty I. Most sets are ten questions. At difficulty I each item is worth ten points, and a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s Helen are six questions; the Christian orator is eight. Difficulty changes the item, not only the score.
