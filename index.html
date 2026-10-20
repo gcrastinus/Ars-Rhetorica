@@ -640,6 +640,25 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
 .imit-text p{margin:0 0 12px}
 .imit-text p:last-child{margin-bottom:0}
 .imit-text.verse{white-space:pre-wrap; overflow-wrap:break-word; font-size:17.5px; line-height:1.45}
+.imit-write{margin-bottom:22px}
+.imit-prompt{font-style:italic; color:var(--ink-soft); margin:0 0 12px}
+.imit-draft{
+  font-family:'EB Garamond', Georgia, 'Times New Roman', serif; font-size:19px; line-height:1.5;
+  width:100%; min-height:168px; resize:vertical; display:block;
+  border:1px solid var(--line); background:var(--panel2); color:var(--ink);
+  border-radius:10px; padding:12px 14px;
+}
+.imit-draft:focus{outline:none; border-color:var(--gold)}
+.imit-checks{margin-top:16px}
+.imit-check-lead{
+  font-family:'Cinzel',serif; font-size:13px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--gold); margin:0 0 8px;
+}
+.imit-check{
+  display:flex; gap:10px; align-items:flex-start;
+  margin:0 0 8px; font-size:17.5px; line-height:1.45; color:var(--ink); cursor:pointer;
+}
+.imit-check input{margin-top:6px; flex:0 0 auto; width:16px; height:16px; accent-color:var(--gold)}
 @media (max-width:720px){
   .imit-grid{grid-template-columns:1fr}
 }
@@ -838,7 +857,7 @@ function pickSeen(arr, idFn){
 
 const KEY = 'ars-rhetorica-progress';
 const state = { dark:false, diff:1, ex:null, q:null, locked:false, score:0, answered:0, correct:0, streak:0, sessionSeen:[], setI:0, setDone:false, setLen:10, speakRate:1 };
-const store = { totals:{}, score:0, bestStreak:0, mistakes:[], dark:null, diff:1, seen:{} };
+const store = { totals:{}, score:0, bestStreak:0, mistakes:[], dark:null, diff:1, seen:{}, imitations:{} };
 let chipSel = {};
 let orderSel = [];
 let figPicked = null;
@@ -847,7 +866,8 @@ function save(){
   try{
     localStorage.setItem(KEY, JSON.stringify({
       totals: store.totals, score: store.score, bestStreak: store.bestStreak,
-      mistakes: store.mistakes, dark: state.dark, speakRate: state.speakRate, diff: state.diff, seen: store.seen || {}
+      mistakes: store.mistakes, dark: state.dark, speakRate: state.speakRate, diff: state.diff, seen: store.seen || {},
+      imitations: store.imitations || {}
     }));
   }catch(e){}
 }
@@ -861,6 +881,7 @@ function load(){
     store.bestStreak = o.bestStreak || 0;
     store.mistakes = o.mistakes || [];
     store.seen = o.seen || {};
+    store.imitations = o.imitations || {};
     if(o.dark !== undefined && o.dark !== null) state.dark = o.dark;
     if(o.speakRate) state.speakRate = o.speakRate;
     if(o.diff) state.diff = o.diff;
@@ -1869,6 +1890,7 @@ function renderImitation(){
       if(pair.order) grid.dataset.order = pair.order;
       pairSides(pair).forEach(side => grid.appendChild(imitColumn(side.data, pair.form, side.role)));
       host.appendChild(grid);
+      host.appendChild(imitAttempt(pair));
     });
   }
   if(data.parallel){
@@ -1898,6 +1920,101 @@ function renderImitation(){
     host.appendChild(panel);
   }
 }
+/* What each model does, so an attempt can be compared with it. Nothing here is scored. */
+const PAIR_CHECKS = {
+  'johnson-london': [
+    'The speaker is troubled at a friend\u2019s departure, and still commends the decision to leave the city.',
+    'A lonely place is preferred to the crowded city.',
+    'The dangers of the city are named one after another.',
+    'The last danger named is the poets reciting in August, together with fire and falling houses.'
+  ],
+  'johnson-vanity': [
+    'The survey runs from Gades in the west to the Ganges in the east.',
+    'Few can tell a real blessing from one that only seems to be a blessing.',
+    'The questions ask what anyone fears or wishes as reason would direct.',
+    'An undertaking begun under favorable auspices is repented of when the wish is gained.'
+  ],
+  'pope-horace': [
+    'One party finds the satire too severe, and another finds it weak and easily written.',
+    'The poet asks Trebatius for advice, and the advice is to write nothing.',
+    'The poet answers that he cannot sleep.',
+    'The adviser offers sleep by swimming and wine, or praise of Caesar undertaken for the reward.'
+  ],
+  'milton-isocrates': [
+    'The speaker comes forward on the public safety while the city is at peace and strong.',
+    'The city\u2019s ships, peace, empire, and allies are listed as reasons for confidence.',
+    'The hearers\u2019 confidence is granted.',
+    'The same strength is then given as the reason for the speaker\u2019s anxiety.',
+    'Cities that feel most secure are said to fall into danger most often.'
+  ]
+};
+let imitSaveTimer = 0;
+function imitSaved(id){
+  const all = store.imitations || {};
+  const row = all[id];
+  return row && typeof row === 'object' ? row : {text:'', checks:[]};
+}
+function saveImitDrafts(){
+  const next = Object.assign({}, store.imitations || {});
+  document.querySelectorAll('.imit-write').forEach(block => {
+    const id = block.dataset.pair;
+    if(!id) return;
+    const area = block.querySelector('textarea');
+    const checks = Array.from(block.querySelectorAll('.imit-check input')).map(box => !!box.checked);
+    next[id] = {text: area ? area.value : '', checks: checks};
+  });
+  store.imitations = next;
+  save();
+}
+function scheduleImitSave(){
+  clearTimeout(imitSaveTimer);
+  imitSaveTimer = setTimeout(saveImitDrafts, 250);
+}
+function imitAttempt(pair){
+  const panel = document.createElement('div');
+  panel.className = 'panel imit-write';
+  panel.dataset.pair = pair.id || '';
+  const lab = document.createElement('div');
+  lab.className = 'set-num';
+  lab.textContent = 'Paraphrase or imitation';
+  const prompt = document.createElement('p');
+  prompt.className = 'imit-prompt';
+  prompt.textContent = 'A paraphrase states in plain words what the model says and what it does, or an imitation does that same thing on a new subject.';
+  const area = document.createElement('textarea');
+  area.className = 'imit-draft';
+  area.rows = 7;
+  area.setAttribute('aria-label', 'Paraphrase or imitation');
+  area.spellcheck = true;
+  const saved = imitSaved(pair.id);
+  area.value = saved.text || '';
+  area.addEventListener('input', scheduleImitSave);
+  area.addEventListener('paste', ev => ev.preventDefault());
+  area.addEventListener('drop', ev => ev.preventDefault());
+  const checks = document.createElement('div');
+  checks.className = 'imit-checks';
+  const lead = document.createElement('p');
+  lead.className = 'imit-check-lead';
+  lead.textContent = 'The model does these things.';
+  checks.appendChild(lead);
+  (PAIR_CHECKS[pair.id] || []).forEach((line, i) => {
+    const label = document.createElement('label');
+    label.className = 'imit-check';
+    const box = document.createElement('input');
+    box.type = 'checkbox';
+    box.checked = !!(saved.checks && saved.checks[i]);
+    box.addEventListener('change', saveImitDrafts);
+    const span = document.createElement('span');
+    span.textContent = line;
+    label.appendChild(box);
+    label.appendChild(span);
+    checks.appendChild(label);
+  });
+  panel.appendChild(lab);
+  panel.appendChild(prompt);
+  panel.appendChild(area);
+  panel.appendChild(checks);
+  return panel;
+}
 function openImitation(){
   renderImitation();
   show('scr-imit');
@@ -1914,6 +2031,14 @@ function roomIndex(){
   Object.keys(window.ROOMS || {}).forEach(id => {
     const model = roomModel(window.ROOMS[id]);
     const hits = roomHits(model.full);
+    hits.forEach(h => {
+      let locus = '';
+      model.pieces.forEach(piece => {
+        if(h.start >= piece.start && h.start < piece.end) locus = piece.locus;
+      });
+      if(!locus) model.pieces.forEach(piece => { if(piece.start <= h.start) locus = piece.locus; });
+      h.locus = locus;
+    });
     rooms[id] = {full: model.full, hits: hits, nm: normMap(model.full)};
     hits.forEach(h => { if(!byPid[h.id]) byPid[h.id] = id; });
   });
@@ -2009,11 +2134,18 @@ function roomGoto(id, hit, label){
   a.textContent = label || (room && room.title) || id;
   return a;
 }
+/* The link names the room's own section. A bank locus is kept when it is itself one of those sections. */
 function lociFor(hits, room){
   const out = [];
+  const idx = roomIndex();
+  const sections = ((window.ROOMS && window.ROOMS[room] && window.ROOMS[room].sections) || []).map(s => s.locus);
+  const stored = (idx.rooms[room] && idx.rooms[room].hits) || [];
   hits.filter(h => h.room === room && h.pid).forEach(h => {
     const p = (typeof passageById === 'function') ? passageById(h.pid) : null;
-    const locus = (p && p.locus) || '';
+    const bank = (p && p.locus) || '';
+    const hit = stored.find(x => x.id === h.pid);
+    const sec = (hit && hit.locus) || '';
+    const locus = (bank && sections.indexOf(bank) >= 0) ? bank : (sec || bank);
     if(!locus || out.some(x => x.locus === locus)) return;
     out.push({locus: locus, hit: h});
   });
@@ -2313,7 +2445,19 @@ document.addEventListener('click', ev => {
       const src = scr.querySelector('#room-panel > .src');
       if(src) pushText(parts, src.innerText || src.textContent);
       const body = scr.querySelector('#room-body, #imit-body');
-      if(body) String(body.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
+      if(body && scr.id === 'scr-imit'){
+        Array.from(body.children).forEach(child => {
+          if(!child.classList.contains('imit-write')){
+            String(child.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
+            return;
+          }
+          const note = child.querySelector('.imit-prompt');
+          if(note) pushText(parts, note.textContent);
+          const area = child.querySelector('textarea');
+          if(area) pushText(parts, area.value);
+          child.querySelectorAll('.imit-check-lead, .imit-check span').forEach(el => pushText(parts, el.textContent));
+        });
+      }else if(body) String(body.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
       return joinParts(parts);
     }
     return textFrom(scr, {skipButtons:true});

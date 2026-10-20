@@ -1,4 +1,4 @@
-/* Ars Rhetorica: full texts for the whole-speech rooms (not yet shown; the room screens are to be built later).
+/* Ars Rhetorica: full texts for the whole-speech rooms (the room screens are built).
    Each text is taken from the public-domain source named in CITATIONS.md and prepared as passages.js is:
    spacing collapsed to single spaces, footnote markers and the sources' navigation omitted, spelling and
    punctuation kept as printed. Pericles: Crawley, Project Gutenberg 7142, the paragraph-opening quotation

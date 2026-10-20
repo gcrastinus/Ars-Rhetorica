@@ -95,7 +95,7 @@ A claim in this application is admitted only if it was read in one of these work
 - **English and American speakers and writers**, from Shakespeare to 1919 (Burke, Lincoln, Patrick Henry, Grattan, Johnson, Swift, Madison, Macaulay, and others). Quoted verbatim, with the spelling as printed, from Ward Farnsworth, *Farnsworth’s Classical English Rhetoric* (Godine, 2011) and *Farnsworth’s Classical English Metaphor* (Godine, 2016); sources `eng_cer` and `eng_cem`. The quotations are public domain in the United States, and each is cited by author, work, and date. Farnsworth’s commentary is not used.
 - **King James Bible** (Authorized Version, 1611), as quoted by Farnsworth; source `kjv`. Public domain in the United States.
 
-## Whole-speech rooms (rooms.js; the room screens are not yet built)
+## Whole-speech rooms (rooms.js; the room screens are built)
 
 Each full text is taken from the source named below and prepared as passages.js is: spacing collapsed to single spaces, footnote markers and the sites' navigation omitted, spelling and punctuation kept as printed. Each was checked paragraph by paragraph against the downloaded source on 19 Oct 2026, and every passage of the same speech already in passages.js is an exact substring of the room text.
 
@@ -104,7 +104,7 @@ Each full text is taken from the source named below and prepared as passages.js 
 - **For Archias**, sections 1–32, trans. C. D. Yonge, from the Perseus TEI (https://github.com/PerseusDL/canonical-latinLit, data/phi0474/phi016, "perseus-eng2"), the text that Perseus shows as 1999.02.0019; Yonge's footnotes omitted. The Perseus web pages returned an error (503) on 19 Oct 2026, so the TEI file was used.
 - **The Gettysburg Address** (1863), in *Speeches & Letters of Abraham Lincoln, 1832–1865*, ed. Merwin Roe (Everyman's Library, 1907), Project Gutenberg #14721, "Address at the Dedication of the National Cemetery at Gettysburg." This version reads "But in a larger sense we cannot dedicate" and "honoured," where the sentence quoted from Farnsworth in passages.js (eng-lincoln-gettysburg-hallow) reads "But, in a larger sense, we cannot dedicate"; the two are different printed versions, and each is kept as its source prints it.
 
-## Imitation pairs (imitations.js; the Imitation Tablet is not yet built)
+## Imitation pairs (imitations.js; the Imitation Tablet is built)
 
 Real, published imitations set beside their models, passage to passage; nothing is written for the course. Prose is copied with spacing collapsed to single spaces and Gutenberg's double hyphen printed as a dash; verse is copied line by line. Editorial note markers, footnote numbers, Gilfillan's line numbers, and Gutenberg's underscores for italics are omitted; spelling and punctuation are kept as printed. Copied 19 Oct 2026.
 

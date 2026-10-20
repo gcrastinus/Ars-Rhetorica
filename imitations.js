@@ -1,4 +1,4 @@
-/* Ars Rhetorica: imitation pairs (not yet shown; the Imitation Tablet is to be built later).
+/* Ars Rhetorica: imitation pairs (the Imitation Tablet is built).
    Each pair is a real, published, public-domain imitation set beside its model, passage to passage; nothing here is
    written for the course. Texts are copied from the editions named in CITATIONS.md: prose with spacing collapsed to
    single spaces, verse line by line; editorial note markers, footnote numbers, line numbers, and Gutenberg's italic
