@@ -7494,6 +7494,351 @@ window.PASSAGES = [
   ]
 },
 {
+  "id": "arist-rhet-3.3.1b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.1",
+  "cue": "Aristotle quotes compound phrases of Lycophron and of Gorgias as examples of frigid style.",
+  "text": "as when Lycophron speaks of the “many-faced sky of the mighty-topped earth,” “narrow-passaged shore”; and Gorgias of “a begging-poet flatterer,” … for all these appear poetical because they are compound.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3f",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle gives phrases of Alcidamas, a sophist, in which a plain noun is lengthened.",
+  "text": "not “to the Isthmian games” but “to the solemn assembly of the Isthmian games”; not “laws”, but “the laws, the rulers of states”; not “running”, but “with a race-like impulse of the soul”…",
+  "spans": [],
+  "unmarkedFigures": [
+    "epithet"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3g",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle says what an excess of epithets does in prose, with the example of white milk.",
+  "text": "thus, in poetry it is appropriate to speak of white milk, but in prose it is less so; and if epithets are employed to excess, they reveal the art and make it evident that it is poetry.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.3h",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.3",
+  "cue": "Aristotle says when a compound word may be used, and what follows if that use is abused.",
+  "text": "People use compound words, when a thing has no name and the word is easy to combine, as … to pass time; but if the practice is abused, the style becomes entirely poetical.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.3.4d",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.3.4",
+  "cue": "Aristotle quotes two metaphors of Gorgias and says what is wrong with them.",
+  "text": "as when Gorgias says: “Affairs pale and bloodless”; “you have sown shame and reaped misfortune”; for this is too much like poetry.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.1b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.1",
+  "cue": "Aristotle sets a simile about Achilles beside the metaphor that calls him a lion.",
+  "text": "When the poet says of Achilles, he rushed on like a lion, it is a simile; if he says, “a lion, he rushed on,” it is a metaphor; for because both are courageous, he transfers the sense and calls Achilles a lion.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.2b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.2",
+  "cue": "Aristotle says how the simile is to be used, once it has been set beside the metaphor.",
+  "text": "Similes must be used like metaphors, which only differ in the manner stated.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.4.4b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.4.4",
+  "cue": "Aristotle finishes a metaphor from proportion. Dionysus is the god of wine, and Ares the god of war.",
+  "text": "if the goblet is the shield of Dionysus, then the shield may properly be called the goblet of Ares.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.4b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.4",
+  "cue": "Aristotle contrasts the voice of Theodorus, a famous tragic actor, with the voices of the other actors.",
+  "text": "Such was the case with the voice of Theodorus as contrasted with that of the rest of the actors; for his seemed to be the voice of the speaker, that of the others the voice of someone else.",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.10c",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.10",
+  "cue": "Aristotle tells of two names for one sacred office, and of what Iphicrates, an Athenian general, called Callias.",
+  "text": "otherwise he would not have called him mendicant priest but torch-bearer; both titles indeed have to do with a divinity, but the one is honorable, the other dishonorable.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.3",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.3",
+  "cue": "Aristotle says when fine language fails to fit the speaker or the subject, even in poetry.",
+  "text": "even in poetry, if fine language were used by a slave or a very young man, or about quite unimportant matters, it would be hardly becoming; for even here due proportion consists in contraction and amplification as the subject requires.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.12b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.12",
+  "cue": "Aristotle explains a riddle about the cupping-glass, a heated cup that physicians pressed onto the skin.",
+  "text": "There was no name for what took place, but as in both cases there is a kind of application, he called the application of the cupping-glass gluing.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.2.15b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.2.15",
+  "cue": "Aristotle quotes diminutives from the Babylonians of Aristophanes, forms that name a thing as smaller.",
+  "text": "as Aristophanes in the Babylonians jestingly uses “goldlet, cloaklet, affrontlet, diseaselet” instead of “gold, cloak, affront, disease.”",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.2b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.2",
+  "cue": "Aristotle compares runners at the goal with an audience that is waiting for a speech to end.",
+  "text": "That explains why runners, just when they have reached the goal, lose their breath and strength, whereas before, when the end is in sight, they show no signs of fatigue.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.3b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.3",
+  "cue": "Aristotle says why verse is easier to learn than prose, which is also why the periodic style is easy to remember.",
+  "text": "that explains why all learn verse with greater facility than prose, for it has number by which it can be measured.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.9.4b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.9.4",
+  "cue": "Aristotle judges a tragic line about Calydon, a city of Aetolia, which is not in the Peloponnesus.",
+  "text": "as in the iambics of Sophocles, This is Calydon, territory of the land of Pelops; for by a division of this kind it is possible to suppose the contrary of the fact, as in the example, that Calydon is in Peloponnesus.",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.5",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.5",
+  "cue": "Aristotle says why an antithetical sentence is popular, and he quotes a line in which war is set against peace.",
+  "text": "As to style, popularity of form is due to antithetical statement; for instance, “accounting the peace that all shared to be a war against their private interests,” where “war” is opposed to “peace”;",
+  "spans": [],
+  "unmarkedFigures": [
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.2b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.2",
+  "cue": "Aristotle gives Homer’s metaphor for old age, and says what the likeness teaches.",
+  "text": "for when Homer calls old age stubble, he teaches and informs us through the genus; for both have lost their bloom.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.3b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.3",
+  "cue": "Aristotle says what follows when the similes of the poets are well constructed.",
+  "text": "The similes of the poets also have the same effect; wherefore, if they are well constructed, an impression of smartness is produced.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.10.4",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.10.4",
+  "cue": "Aristotle says which enthymemes are popular, and which give the audience nothing to learn.",
+  "text": "those which, when stated, are not understood, are not popular, but only those which are understood the moment they are stated, or those of which the meaning, although not clear at first, comes a little later",
+  "spans": [],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.2b",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.2",
+  "cue": "Aristotle gives two expressions in which a word sets an action before the eyes.",
+  "text": "“thee, like a sacred animal ranging at will” expresses actuality, and in Thereupon the Greeks shooting forward with their feet the word “shooting” contains both actuality and metaphor.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.4",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.4",
+  "cue": "Aristotle quotes a simile of Homer in which the waves are given movement and life.",
+  "text": "In his popular similes also he proceeds in the same manner with inanimate things: Arched, foam-crested, some in front, others behind; for he gives movement and life to all, and actuality is movement.",
+  "spans": [],
+  "unmarkedFigures": [
+    "simile",
+    "metaphor",
+    "personification"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.16",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.16",
+  "cue": "Aristotle says who uses hyperbole most often, and for whom it is unbecoming.",
+  "text": "Wherefore those who are in a passion most frequently make use of them: … Wherefore it is unbecoming for elderly people to make use of them.",
+  "spans": [],
+  "unmarkedFigures": [
+    "hyperbole"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
+  "id": "arist-rhet-3.11.10",
+  "author": "Aristotle",
+  "work": "Rhetoric",
+  "locus": "III.11.10",
+  "cue": "Aristotle says what makes one expression smarter than another.",
+  "text": "The more special qualities the expression possesses, the smarter it appears; for instance, if the words contain a metaphor, and a metaphor of a special kind, antithesis, and equality of clauses, and actuality.",
+  "spans": [],
+  "unmarkedFigures": [
+    "metaphor",
+    "antithesis"
+  ],
+  "src": [
+    "arist_freese"
+  ]
+},
+{
   "id": "thuc-arch-money",
   "author": "Archidamus (Thucydides)",
   "work": "History of the Peloponnesian War",
