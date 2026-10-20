@@ -673,6 +673,273 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
   .room-sec .room-p{font-size:18.5px; line-height:1.62}
 }
 
+/* Recitation Tablet: a fixed writing-tablet button, twice the height of the speak controls. */
+.recite-open{
+  position:fixed; top:14px; left:16px; z-index:50;
+  width:88px; height:88px; padding:0;
+  display:flex; align-items:center; justify-content:center;
+  color:var(--gold); background:var(--card);
+  border:1px solid var(--line); border-radius:16px;
+  box-shadow:var(--shadow); cursor:pointer;
+  transition:transform .15s, border-color .15s;
+}
+.recite-open:hover{transform:scale(1.06); border-color:var(--gold-soft)}
+.recite-icon{width:58px; height:58px; display:block}
+.recite-icon .tab-wood{fill:none; stroke:var(--gold-soft); stroke-width:1.3}
+.recite-icon .tab-rule{fill:none; stroke:var(--gold-soft); stroke-width:.6; opacity:.55}
+.recite-icon .tab-wax{fill:none}
+.recite-icon .tab-hole{fill:var(--gold-soft)}
+.recite-icon .tab-cord{fill:none; stroke:var(--gold-soft); stroke-width:.9; stroke-linecap:round; opacity:.8}
+.recite-icon .tab-script{fill:none; stroke:var(--gold-soft); stroke-width:1; stroke-linecap:round; opacity:.7}
+.recite-icon .tab-corner{display:none}
+.recite-icon .tab-stylus{fill:none; stroke:var(--gold); stroke-width:1.3; stroke-linecap:round}
+.recite-icon .tab-stylus-end{fill:var(--gold)}
+body.recite-lock .recite-open{visibility:hidden}
+@media (max-width:420px){
+  .recite-open{top:12px; left:12px; width:80px; height:80px; border-radius:14px}
+  .recite-icon{width:52px; height:52px}
+}
+@keyframes recite-glow{
+  0%, 100%{box-shadow:var(--shadow), 0 0 0 0 rgba(201,164,92,0)}
+  50%{box-shadow:var(--shadow), 0 0 22px 8px rgba(201,164,92,.5)}
+}
+.recite-open.is-glow{animation:recite-glow 3.6s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){
+  .recite-open.is-glow{animation:none; box-shadow:var(--shadow), 0 0 16px 4px rgba(201,164,92,.4)}
+}
+.recite-callout{
+  position:fixed; top:22px; left:116px; z-index:50;
+  max-width:min(300px, calc(100vw - 148px));
+  margin:0; padding:12px 14px; text-align:left; cursor:pointer;
+  font-family:'EB Garamond', Georgia, serif; font-size:17px; line-height:1.4;
+  font-weight:400; letter-spacing:0; text-transform:none;
+  color:var(--ink); background:var(--card);
+  border:1px solid var(--line); border-left:3px solid var(--gold-soft);
+  border-radius:12px; box-shadow:var(--shadow);
+}
+.recite-callout[hidden]{display:none !important}
+.recite-callout{padding-right:34px}
+.recite-callout-x{position:absolute; top:6px; right:10px; font-size:20px; line-height:1; color:var(--ink-soft); opacity:.75}
+.recite-callout:hover .recite-callout-x{opacity:1; color:var(--ink)}
+.recite-callout:hover{border-color:var(--gold-soft)}
+.recite-callout:focus-visible{outline:2px solid var(--gold); outline-offset:2px}
+@media (max-width:1240px){
+  body.recite-nudge .wrap{padding-top:190px}
+}
+@media (max-width:640px){
+  .recite-callout{top:112px; left:16px; right:16px; max-width:none}
+  body.recite-nudge .wrap{padding-top:300px}
+}
+@media (max-width:420px){
+  .recite-callout{top:104px; left:12px; right:12px}
+}
+.recite-due{
+  text-align:center; font-style:italic; color:var(--ink-soft); font-size:16.5px;
+  margin:16px auto 0; max-width:680px; line-height:1.55;
+}
+.recite-due[hidden]{display:none}
+.recite-due-btn{
+  font-family:inherit; font-size:inherit; font-style:normal; color:var(--gold);
+  background:none; border:none; border-bottom:1px solid var(--gold-soft);
+  padding:0 1px; cursor:pointer;
+}
+.recite-due-btn:hover{color:var(--ink)}
+body.recite-lock{overflow:hidden}
+.recite-overlay{
+  position:fixed; inset:0; z-index:40;
+  display:flex; padding:64px 3vw 3vh;
+  background:rgba(43, 33, 24, .46);
+}
+body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
+.recite-overlay[hidden]{display:none}
+.recite-panel{
+  flex:1; min-height:0; min-width:0;
+  display:flex; flex-direction:column;
+  background:var(--paper); color:var(--ink);
+  border:1px solid var(--line); border-radius:16px;
+  box-shadow:var(--shadow); padding:20px 22px 16px;
+}
+.recite-panel .btn{text-transform:none; letter-spacing:.04em}
+.recite-top{display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:8px}
+.recite-top h2{
+  font-family:'Cinzel',serif; font-size:clamp(20px, 2.2vw, 28px);
+  font-weight:600; letter-spacing:.04em;
+}
+.recite-desc{
+  margin:0 0 14px; background:var(--card); color:var(--ink);
+  border:1px solid var(--line); border-left:3px solid var(--gold-soft);
+  border-radius:10px; box-shadow:var(--shadow);
+}
+.recite-desc summary{
+  cursor:pointer; list-style:none;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  font-family:'Cinzel',serif; font-size:16px; letter-spacing:.03em; color:var(--gold);
+  padding:10px 14px;
+}
+.recite-desc summary::-webkit-details-marker{display:none}
+.recite-desc summary::after{
+  content:"▾"; color:var(--gold); font-size:14px; line-height:1; transition:transform .15s;
+}
+.recite-desc:not([open]) summary::after{transform:rotate(-90deg)}
+.recite-desc-body{max-height:min(42vh, 22em); overflow:auto; padding:0 16px 12px}
+.recite-desc p{font-size:18px; line-height:1.5; margin:0 0 10px}
+.recite-desc p:last-child{margin-bottom:0}
+.recite-tools{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+.recite-picker{position:relative; flex:1; min-width:min(100%, 260px)}
+.recite-menu-btn{
+  width:100%; display:flex; justify-content:space-between; align-items:center; gap:12px;
+  text-align:left; font-family:'Cinzel',serif; font-size:16px; letter-spacing:.03em;
+  color:var(--ink); background:var(--card); border:1px solid var(--line); border-radius:9px;
+  padding:10px 14px; cursor:pointer; box-shadow:var(--shadow);
+}
+.recite-menu-btn:hover{border-color:var(--gold-soft)}
+#recite-menu-label{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.recite-caret{color:var(--gold); flex:none}
+.recite-menu-list{
+  position:absolute; left:0; right:0; top:calc(100% + 6px); z-index:5;
+  max-height:min(52vh, 440px); overflow:auto;
+  background:var(--card); border:1px solid var(--line); border-radius:12px;
+  box-shadow:var(--shadow); padding:6px;
+}
+.recite-menu-list[hidden]{display:none}
+.recite-menu-head{
+  font-family:'Cinzel',serif; font-size:12px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--gold); padding:10px 12px 4px;
+}
+.recite-menu-head:first-child{padding-top:4px}
+.recite-opt{
+  display:block; width:100%; text-align:left;
+  font-family:'EB Garamond',Georgia,serif; font-size:18px; line-height:1.35;
+  color:var(--ink); background:transparent; border:none; border-radius:8px;
+  padding:8px 12px; cursor:pointer;
+}
+.recite-opt:hover:not(:disabled){background:var(--panel)}
+.recite-opt.is-on{background:var(--panel)}
+.recite-opt:disabled{opacity:.48; cursor:default}
+.recite-opt-note{display:block; font-style:italic; font-size:14.5px; color:var(--ink-soft); margin-top:1px}
+.recite-opt-section{font-family:'Cinzel',serif; font-size:15px; letter-spacing:.02em; margin-top:2px}
+.recite-note{margin:8px 0 0; font-style:italic; font-size:15.5px; color:var(--ink-soft)}
+.recite-note[hidden]{display:none}
+.recite-columns{
+  flex:1; min-height:0; display:grid; grid-template-columns:1fr; gap:14px; margin-top:12px;
+}
+.recite-columns.is-split{grid-template-columns:1fr 1fr}
+.recite-text{
+  width:100%; height:100%; min-height:220px; resize:none; box-sizing:border-box;
+  font-family:'EB Garamond',Georgia,serif; font-size:20px; line-height:1.5;
+  color:var(--ink); background:var(--panel2); caret-color:var(--ink);
+  border:1px solid var(--line); border-radius:14px; padding:16px 18px; box-shadow:var(--shadow);
+}
+.recite-text:focus{outline:none; border-color:var(--gold)}
+.recite-text[readonly]{background:var(--panel)}
+.recite-text:disabled{opacity:.72}
+.recite-full{
+  height:100%; min-height:0; overflow:auto; box-sizing:border-box;
+  background:var(--card); border:1px solid var(--line); border-radius:14px;
+  padding:16px 16px 8px; box-shadow:var(--shadow);
+}
+.recite-full[hidden]{display:none}
+.recite-full-h{
+  font-family:'Cinzel',serif; font-size:13px; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--gold); margin-bottom:10px;
+}
+.recite-deck-h{
+  font-family:'Cinzel',serif; font-size:16px; font-weight:600;
+  letter-spacing:.03em; margin:14px 0 8px; color:var(--ink);
+}
+.recite-point{display:flex; gap:10px; align-items:flex-start; margin:0 0 10px; cursor:pointer}
+.recite-point input{margin-top:6px; width:16px; height:16px; flex:none; accent-color:var(--gold)}
+.recite-point span{font-size:17.5px; line-height:1.45}
+.recite-open:focus-visible, .recite-menu-btn:focus-visible, .recite-opt:focus-visible, .recite-desc summary:focus-visible{
+  outline:2px solid var(--gold); outline-offset:2px;
+}
+@media (max-width:800px){
+  .recite-overlay{padding:60px 10px 10px}
+  .recite-panel{padding:14px; border-radius:12px}
+  .recite-columns.is-split{grid-template-columns:1fr; grid-template-rows:minmax(180px, 1fr) minmax(180px, 1fr)}
+  .recite-text{min-height:160px}
+}
+.recite-print{display:none}
+@media print{
+  @page{margin:0.65in 0.7in}
+  body.recite-printing{
+    background:#fff !important; overflow:visible !important;
+    height:auto !important; min-height:0 !important;
+  }
+  body.recite-printing .wrap,
+  body.recite-printing #top-right-controls,
+  body.recite-printing #recite-open,
+  body.recite-printing #recite-callout,
+  body.recite-printing #recite-overlay,
+  body.recite-printing .screen{display:none !important}
+  #recite-callout{display:none !important}
+  body.recite-printing #recite-sheet{
+    display:block !important;
+    background:#fff !important; color:#2b2118 !important;
+    font-family:'EB Garamond', Georgia, 'Times New Roman', serif;
+    font-size:12pt; line-height:1.4;
+  }
+  .recite-print-head{
+    border-bottom:1pt solid #2b2118; margin:0 0 12pt; padding:0 0 6pt;
+    break-after:avoid; page-break-after:avoid;
+  }
+  .recite-print-head h1{
+    font-family:'Cinzel', Georgia, serif; font-size:16pt; font-weight:600;
+    letter-spacing:.03em; line-height:1.25; margin:0 0 2pt; color:#2b2118;
+  }
+  .recite-print-date{
+    font-family:'EB Garamond', Georgia, 'Times New Roman', serif;
+    font-style:italic; font-size:12pt; margin:0; color:#2b2118;
+  }
+  .recite-print-cols{
+    display:grid; grid-template-columns:1fr 1fr; column-gap:20pt; align-items:start;
+  }
+  .recite-print-col h2{
+    font-family:'Cinzel', Georgia, serif; font-size:10pt; font-weight:600;
+    letter-spacing:.14em; text-transform:uppercase; margin:0 0 8pt; color:#2b2118;
+    break-after:avoid; page-break-after:avoid;
+  }
+  .recite-print-col + .recite-print-col{
+    border-left:0.75pt solid #9a8b6e; padding-left:16pt;
+  }
+  .recite-print-text{
+    white-space:pre-wrap; font-size:12pt; line-height:1.45; color:#2b2118;
+  }
+  .recite-print-deck{
+    font-family:'Cinzel', Georgia, serif; font-size:11pt; font-weight:600;
+    letter-spacing:.03em; margin:12pt 0 6pt; color:#2b2118;
+    break-after:avoid; page-break-after:avoid;
+  }
+  .recite-print-point{
+    display:flex; align-items:flex-start; gap:7pt; margin:0 0 7pt;
+    break-inside:avoid; page-break-inside:avoid; color:#2b2118;
+  }
+  .recite-print-box{
+    box-sizing:border-box; width:11pt; height:11pt; margin-top:2pt; flex:none;
+    border:1pt solid #2b2118; border-radius:1pt;
+    display:flex; align-items:center; justify-content:center;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .recite-print-box svg{display:block; width:9pt; height:9pt}
+  .recite-print-point div{flex:1; min-width:0; font-size:12pt; line-height:1.45}
+}
+
+/* The Recitation Tablet button shows only on the homepage; below 1100px the page starts below it.
+   In Ars Rhetorica the Home button holds the top-left corner, so on the homepage the Tablet sits just below it,
+   and the callout and the top space move down by the same amount. */
+.recite-open{top:66px}
+.recite-callout{top:74px}
+@media (max-width:1240px){ body.recite-nudge .wrap{padding-top:240px} }
+@media (max-width:1100px){ body:not(.off-home) .wrap{padding-top:170px} }
+@media (max-width:640px){
+  .recite-callout{top:164px}
+  body.recite-nudge .wrap{padding-top:300px}
+}
+@media (max-width:420px){
+  .recite-open{top:58px}
+  .recite-callout{top:148px}
+}
+
 </style>
 </head>
 <body>
@@ -694,6 +961,26 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
 <button id="dark-toggle" title="Light / dark" aria-label="Toggle dark mode">☾</button>
 </div>
 
+<button type="button" id="recite-open" class="recite-open" title="Recitation Tablet" aria-label="Recitation Tablet">
+  <svg class="recite-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+    <rect class="tab-wood" x="3" y="2.5" width="44" height="59" rx="2.5"/>
+    <rect class="tab-rule" x="7.2" y="6.6" width="35.6" height="50.8" rx="1"/>
+    <rect class="tab-wax" x="9.3" y="8.7" width="31.4" height="46.6"/>
+    <circle class="tab-hole" cx="6.15" cy="14.2" r="1.25"/>
+    <circle class="tab-hole" cx="6.15" cy="49.8" r="1.25"/>
+    <path class="tab-cord" d="M6.15 15.4C3.7 20.2 3.7 43.8 6.15 48.6"/>
+    <g class="tab-script">
+      <path d="M14 21h9.2M25 21h6.6M33.2 21.35h4.4"/>
+      <path d="M14 28.6h6.8M22.5 28.6h10.6"/>
+      <path d="M14 36.2h11.8M27.6 36.2h6.2"/>
+    </g>
+    <path class="tab-corner" d="M35.4 8.8h6.6v6.6"/>
+    <line class="tab-stylus" x1="29" y1="53.2" x2="55.2" y2="39.6"/>
+    <path class="tab-stylus-end" d="M29.48 54.13 L23.6 58.43 Q22.61 56.52 21.62 54.61 L28.52 52.27 Z"/>
+    <path class="tab-stylus-end" d="M61.24 36.47 L55.59 40.35 L54.81 38.85 Z"/>
+  </svg>
+</button>
+<button type="button" id="recite-callout" class="recite-callout" hidden><span class="recite-callout-x" aria-hidden="true">×</span>You have finished <span id="recite-callout-name"></span>. The best way to continue toward mastery is to set out the whole subject yourself, then check your account against the full recitation.</button>
 <div class="wrap">
 
   <div class="screen active" id="scr-home">
@@ -710,6 +997,8 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
       Ciceronian in its arrangement, and Augustinian in its offices, because for Augustine the orator aims to teach, delight, and move
       (<span class="lat">docere, delectare, flectere</span>).
     </div>
+
+    <div id="recite-due" class="recite-due" hidden></div>
 
     <details class="help">
       <summary>How to Proceed</summary>
@@ -816,6 +1105,41 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:rgba(201,164,92,.
   </div>
 
 </div>
+<div id="recite-overlay" class="recite-overlay" hidden>
+  <div class="recite-panel" role="dialog" aria-modal="true" aria-labelledby="recite-heading">
+    <div class="recite-top">
+      <h2 id="recite-heading">Recitation Tablet</h2>
+      <button type="button" class="btn" id="recite-close">Close</button>
+    </div>
+    <details class="recite-desc" id="recite-desc" open>
+      <summary>What is recitation?</summary>
+      <div class="recite-desc-body">
+        <p>One of the oldest and best-proven ways to study is to read a section of a book, or study a topic, in one sitting, then close your notes and write down everything you remember, in as much detail as you can. This is called "recitation," and this tablet lets you do it.</p>
+        <p>After you finish studying a part of the course, close it and open the Recitation Tablet. Choose the part you just finished from the menu, then write down, in order, everything you can remember about it. This is not easy. But the difficulty is what produces results, especially the moment when you feel you remember nothing more and then keep searching.</p>
+        <p>When you have finished, click "See Full Recitation." You will see a complete outline of the material with every point stated simply. The outline is a checklist: go through it carefully and mark exactly what you included correctly and what you missed. The app will remind you to recite the same material again after a few days, since each new recall fixes it more firmly.</p>
+      </div>
+    </details>
+    <div class="recite-tools">
+      <div class="recite-picker" id="recite-picker">
+        <button type="button" class="recite-menu-btn" id="recite-menu-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="recite-menu-list">
+          <span id="recite-menu-label">Choose a deck</span>
+          <span class="recite-caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="recite-menu-list" id="recite-menu-list" role="listbox" hidden></div>
+      </div>
+      <button type="button" class="btn" id="recite-see" disabled>See full recitation</button>
+      <button type="button" class="btn" id="recite-print" hidden>Print</button>
+      <button type="button" class="btn" id="recite-new" hidden>Start a new recitation</button>
+    </div>
+    <p class="recite-note" id="recite-note" hidden>Write a fuller recitation to see the full one.</p>
+    <div class="recite-columns" id="recite-columns">
+      <textarea id="recite-text" class="recite-text" aria-label="Recitation" spellcheck="true" disabled></textarea>
+      <div id="recite-full" class="recite-full" hidden></div>
+    </div>
+  </div>
+</div>
+<div id="recite-sheet" class="recite-print" aria-hidden="true"></div>
+
 <script src="passages.js"></script>
 <script src="data.js"></script>
 <script src="rooms.js"></script>
@@ -874,7 +1198,8 @@ function save(){
     localStorage.setItem(KEY, JSON.stringify({
       totals: store.totals, score: store.score, bestStreak: store.bestStreak,
       mistakes: store.mistakes, dark: state.dark, speakRate: state.speakRate, diff: state.diff, seen: store.seen || {},
-      imitations: store.imitations || {}
+      imitations: store.imitations || {},
+      recite: store.recite || {}
     }));
   }catch(e){}
 }
@@ -889,6 +1214,7 @@ function load(){
     store.mistakes = o.mistakes || [];
     store.seen = o.seen || {};
     store.imitations = o.imitations || {};
+    store.recite = (o.recite && typeof o.recite === 'object') ? o.recite : {};
     if(o.dark !== undefined && o.dark !== null) state.dark = o.dark;
     if(o.speakRate) state.speakRate = o.speakRate;
     if(o.diff) state.diff = o.diff;
@@ -904,6 +1230,7 @@ function show(id){
   $(id).classList.add('active');
   document.body.classList.toggle('ex-screen', id === 'scr-ex');
   window.scrollTo(0, 0);
+  if(typeof reciteScreenChanged === 'function') reciteScreenChanged(id);
 }
 function setDark(on){
   state.dark = on;
@@ -1122,9 +1449,9 @@ function buildHome(){
   buildReading();
 }
 
-let deck = null, deckI = 0, deckAnswered = false;
+let deck = null, deckI = 0, deckAnswered = false, deckKey = '';
 function openDeck(key){
-  deck = DECKS[key]; deckI = 0;
+  deck = DECKS[key]; deckI = 0; deckKey = key;
   $('deck-title').textContent = deck.title;
   $('deck-sub').textContent = deck.sub;
   renderDeck();
@@ -1175,7 +1502,10 @@ function renderDeck(){
   window.scrollTo(0, 0);
 }
 $('deck-next').onclick = () => {
-  if(deckI === deck.panels.length - 1){ show('scr-home'); buildHome(); }
+  if(deckI === deck.panels.length - 1){
+    if(typeof reciteDeckFinished === 'function') reciteDeckFinished(deckKey);
+    show('scr-home'); buildHome();
+  }
   else { deckI++; renderDeck(); }
 };
 $('deck-back').onclick = () => {
@@ -2614,5 +2944,8 @@ buildDiffRow();
 buildHome();
 
 </script>
+<script src="recitation-adapter.js"></script>
+<script src="recitation.js"></script>
+<script>reciteScreenChanged(document.querySelector('.screen.active').id);</script>
 </body>
 </html>
