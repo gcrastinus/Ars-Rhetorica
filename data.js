@@ -2725,7 +2725,7 @@ const ACTS = [
      {kind:'deck', deck:'ethos', tag:'TUTORIAL', title:'The speaker and the audience', desc:'Practical wisdom (phronesis), virtue (arete), goodwill (eunoia), and how a speech shows them; ten of Aristotle’s passions, placed on Aquinas’s division; Gregory’s pairs.'},
      {kind:'ex', ex:'ethos', tag:'EXERCISE', title:'Character in the speech', desc:'Which of the three (practical wisdom, virtue, goodwill) is the speech itself showing?'},
      {kind:'ex', ex:'pathos', tag:'EXERCISE', title:'Name the passion', desc:'Anger, pity, fear, shame, indignation, confidence, love, kindness, hatred, and emulation, from real passages.'},
-     {kind:'ex', ex:'greg', tag:'EXERCISE', title:'Gregory’s pairs', desc:'Why the same vice is not admonished in the same way.'}
+     {kind:'ex', ex:'greg', tag:'EXERCISE', title:'Gregory’s contrasting audiences', desc:'Why the same vice is not admonished in the same way.'}
    ]},
   {roman:'IV', name:'Arrangement', latin:'taxis',
    gloss:'Arrangement of the speech. Aristotle names at most four parts: the introduction, the statement, the argument, and the epilogue. Cicero names six offices of the oration: the exordium, the narration (narratio), the division (partitio), the proof (confirmatio), the refutation (reprehensio), and the peroration (peroratio). These are offices a part of the speech may perform, not a template to force on every speech.',
