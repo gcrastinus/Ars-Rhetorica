@@ -22,7 +22,7 @@
   --shadow:none;
 }
 body.dark{
-  --paper:#14090c; --paper2:#0e0608; --card:#1c0e12; --ink:#e9dfc8; --ink-soft:#c4a99a;
+  --paper:#2a161b; --paper2:#211115; --card:#331c22; --ink:#e9dfc8; --ink-soft:#c4a99a;
   --line:#4a3330; --frame:#6b5348; --wine:#c45c58; --sage:#4f7355; --accent:#8fa8c8;
   --orn:#efe3c6; --hover:#2a161c;
   --gold:var(--ink-soft); --gold-soft:var(--frame);
@@ -41,16 +41,16 @@ html{
   scrollbar-width:thin;
 }
 html:has(body.dark){
-  background:#14090c;
+  background:#2a161b;
   color-scheme:dark;
-  scrollbar-color:#6b5348 #14090c;
+  scrollbar-color:#6b5348 #2a161b;
 }
 ::-webkit-scrollbar{width:12px; height:12px}
 ::-webkit-scrollbar-track{background:#e6dcc2}
 ::-webkit-scrollbar-thumb{background:#d3c29c; border-radius:0; border:3px solid #e6dcc2}
 ::-webkit-scrollbar-thumb:hover{background:#5a4a38}
-html:has(body.dark)::-webkit-scrollbar-track{background:#14090c}
-html:has(body.dark)::-webkit-scrollbar-thumb{background:#6b5348; border-color:#14090c}
+html:has(body.dark)::-webkit-scrollbar-track{background:#2a161b}
+html:has(body.dark)::-webkit-scrollbar-thumb{background:#6b5348; border-color:#2a161b}
 html:has(body.dark)::-webkit-scrollbar-thumb:hover{background:#8a7064}
 body{
   font-family:var(--text);
@@ -263,7 +263,7 @@ h1{font-family:var(--display); font-size:44px; font-weight:600; letter-spacing:.
 /* Dark --panel sits on --card. The strip uses the track shade so it stays set off, and the hover goes a step lighter. */
 body.dark .set-card .ex-strip{background:var(--track)}
 body.dark .set-card .ex-link:hover,
-body.dark .set-card .ex-link:focus-visible{background:#3d2228; color:var(--ink)}
+body.dark .set-card .ex-link:focus-visible{background:#45272e; color:var(--ink)}
 .set-card .ex-opt{
   font-family:var(--display); font-size:10px; letter-spacing:.12em;
   text-transform:uppercase; color:var(--gold-soft);
