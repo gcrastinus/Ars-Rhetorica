@@ -5,71 +5,77 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ars Rhetorica — Quiz Maker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root{
   --paper:#f6f0e1; --paper2:#efe6cf; --card:#fffdf4; --ink:#2b2118; --ink-soft:#5a4a38;
-  --gold:#a67c2e; --gold-soft:#c9a45c; --line:#d9c9a3; --sage:#48664c; --wine:#7b2d26;
-  --panel:#f4ecd8; --panel2:#fbf6e8; --sel-text:#f3e9cf; --shadow:0 2px 14px rgba(74,58,32,.10);
+  --line:#d9c9a3; --frame:#d3c29c; --sage:#48664c; --wine:#7b2d26; --accent:#1e3a5f;
+  --orn:#6b4a2b; --hover:#ede4cf;
+  --display:'Libre Caslon Display', Georgia, serif;
+  --text:'Libre Caslon Text', Georgia, serif;
+  --panel:#f4ecd8; --panel2:#fbf6e8;
 }
 *{box-sizing:border-box; margin:0; padding:0}
-body{font-family:'EB Garamond', Georgia, serif; color:var(--ink); min-height:100vh; font-size:18px; line-height:1.5;
+body{font-family:var(--text); font-variant-numeric:oldstyle-nums; color:var(--ink); min-height:100vh; font-size:17px; line-height:1.6;
   background:var(--paper)}
-#maker{max-width:880px; margin:0 auto; padding:28px 20px 100px}
-header{text-align:center; margin-bottom:18px}
-.ornament{color:var(--gold); font-size:20px; letter-spacing:.4em; margin:4px 0}
-h1{font-family:'Cinzel',serif; font-size:34px; font-weight:600; letter-spacing:.05em}
-.sub{font-style:italic; color:var(--ink-soft); font-size:18px; margin-top:2px}
-.rule{display:flex; align-items:center; gap:12px; margin:16px auto; max-width:480px; color:var(--gold)}
-.rule::before,.rule::after{content:""; flex:1; height:1px; background:linear-gradient(90deg,transparent,var(--gold-soft))}
-.rule::after{background:linear-gradient(90deg,var(--gold-soft),transparent)}
-details.help{max-width:720px; margin:0 auto 18px; background:var(--card); border:1px solid var(--line);
-  border-left:4px solid var(--wine); border-radius:10px; padding:12px 16px; box-shadow:var(--shadow)}
-details.help summary{cursor:pointer; font-weight:600; color:var(--gold); font-family:'Cinzel',serif; font-size:14px; letter-spacing:.06em}
+.orn{width:14px; height:14px; color:var(--orn)}
+#maker{max-width:760px; margin:0 auto; padding:48px 28px 100px}
+header{text-align:center; margin-bottom:8px}
+.ornament{display:block; width:18px; height:18px; margin:0 auto 28px; color:var(--orn)}
+h1{font:400 40px/1.15 var(--display); letter-spacing:0; font-weight:400; color:var(--ink)}
+.sub{font-style:italic; color:var(--ink-soft); font-size:19px; margin-top:14px}
+.rule{display:block; width:96px; height:0; margin:40px auto; border:0; border-top:1px solid var(--ink)}
+details.help{max-width:34em; margin:0 auto 18px; background:transparent; border:1px solid var(--frame);
+  border-radius:0; padding:12px 16px}
+details.help summary{cursor:pointer; font-family:var(--text); font-weight:400; font-size:15px; letter-spacing:.04em;
+  font-variant:small-caps; color:var(--ink-soft)}
 details.help p{margin-top:10px; font-size:15.5px; color:var(--ink-soft)}
-.card{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px;
-  margin:14px 0; box-shadow:var(--shadow)}
-.card h2{font-family:'Cinzel',serif; font-size:15px; letter-spacing:.1em; text-transform:uppercase; color:var(--gold); margin-bottom:10px}
+.card{background:transparent; border:1px solid var(--frame); border-radius:0; padding:18px 20px; margin:14px 0}
+.card h2{font-family:var(--text); font-size:15px; font-weight:400; letter-spacing:.04em; text-transform:none;
+  font-variant:small-caps; color:var(--ink-soft); margin-bottom:10px}
 .fields{display:flex; gap:14px; flex-wrap:wrap}
 .field{flex:1 1 180px}
 .field label{display:block; font-size:13px; color:var(--ink-soft); margin-bottom:4px}
-input[type=text],input[type=number],select{font:inherit; width:100%; padding:8px 10px; border:1px solid var(--line);
-  border-radius:8px; background:var(--panel2); color:var(--ink)}
-.setlist{max-height:420px; overflow:auto; border:1px solid var(--line); border-radius:10px; background:var(--panel2); padding:6px 8px}
+input[type=text],input[type=number],select{font:inherit; width:100%; padding:8px 10px; border:1px solid var(--frame);
+  border-radius:0; background:transparent; color:var(--ink)}
+.setlist{max-height:420px; overflow:auto; border:1px solid var(--frame); border-radius:0; background:var(--paper2); padding:6px 8px}
 .setrow{display:flex; align-items:flex-start; gap:10px; padding:7px 8px; border-bottom:1px dashed var(--line); cursor:pointer}
 .setrow:last-child{border-bottom:none}
-.setrow input{margin-top:4px; accent-color:var(--wine)}
-.setrow .id{font-family:'Cinzel',serif; color:var(--gold); min-width:52px; font-size:13px}
+.setrow input{margin-top:4px; accent-color:var(--accent)}
+.setrow .id{font-family:var(--text); font-variant:small-caps; letter-spacing:.04em; color:var(--ink-soft); min-width:52px; font-size:13px}
 .setrow .nm{font-size:16px}
 .setrow .nm .meta{display:block; font-size:13px; color:var(--ink-soft); font-style:italic}
-.acthead{font-family:'Cinzel',serif; font-size:12px; letter-spacing:.14em; text-transform:uppercase; color:var(--gold);
-  padding:10px 8px 4px}
+.acthead{font-family:var(--text); font-size:13px; font-weight:400; letter-spacing:.04em; text-transform:none;
+  font-variant:small-caps; color:var(--ink-soft); padding:10px 8px 4px}
 .minibtns{display:flex; gap:8px; flex-wrap:wrap; margin:8px 0 0}
-.minibtns button,.mbtn{font:inherit; cursor:pointer; background:var(--panel); border:1px solid var(--line);
-  border-radius:18px; padding:5px 12px; color:var(--ink-soft); font-size:14px}
-.minibtns button:hover,.mbtn:hover{border-color:var(--gold); color:var(--ink)}
+.minibtns button,.mbtn{font:inherit; cursor:pointer; background:transparent; border:1px solid var(--frame);
+  border-radius:0; padding:5px 12px; color:var(--ink); font-size:15px;
+  transition:background-color .25s ease}
+.minibtns button:hover,.mbtn:hover{background:var(--hover); color:var(--ink)}
 .check{display:flex; align-items:center; gap:8px; margin-top:10px; font-size:16px; color:var(--ink)}
-.check input{accent-color:var(--wine)}
-.makebar{position:sticky; bottom:0; background:linear-gradient(0deg, var(--paper) 55%, transparent);
+.check input{accent-color:var(--accent)}
+.makebar{position:sticky; bottom:0; background:linear-gradient(0deg, var(--paper) 70%, transparent);
   padding:14px 0 18px; display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-top:18px}
-.primary{font-family:'Cinzel',serif; letter-spacing:.06em; background:var(--wine); color:#f6f0e1;
-  border:none; border-radius:24px; padding:12px 22px; cursor:pointer; font-size:15px}
-.primary:hover{filter:brightness(1.08)}
-.primary:disabled{opacity:.45; cursor:not-allowed}
-.status{margin:12px 0; padding:10px 14px; border-radius:10px; font-size:15px; color:var(--ink-soft);
-  border:1px solid var(--line); background:var(--panel)}
+.primary{font-family:var(--text); letter-spacing:0; background:transparent; color:var(--ink);
+  border:1px solid var(--ink); border-radius:0; padding:10px 26px; cursor:pointer; font-size:16px;
+  transition:background-color .25s ease}
+.primary:hover{background:var(--hover)}
+.primary:disabled{color:color-mix(in srgb, var(--ink) 35%, var(--paper));
+  border-color:color-mix(in srgb, var(--frame) 60%, var(--paper)); cursor:not-allowed}
+.status{margin:12px 0; padding:10px 14px; border-radius:0; font-size:15px; color:var(--ink-soft);
+  border:1px solid var(--frame); background:transparent}
 .status.ok{border-color:var(--sage); color:var(--sage)}
 .status.err{border-color:var(--wine); color:var(--wine)}
-.backlink{display:inline-block; margin-bottom:8px; font-size:14.5px; color:var(--ink-soft); text-decoration:none}
-.backlink:hover{color:var(--gold)}
+.backlink{display:inline-block; margin-bottom:8px; font-size:15px; color:var(--accent); text-decoration:none}
+.backlink:hover{color:var(--accent)}
 
-#paper{display:none; background:#fff; color:#111; border-radius:12px; margin:22px 0 0;
-  font-family:Georgia,"Times New Roman",serif; box-shadow:0 8px 36px rgba(74,58,32,.25)}
+#paper{display:none; background:#fff; color:#111; border-radius:0; margin:22px 0 0;
+  font-family:var(--text); box-shadow:none; border:1px solid var(--frame)}
 #paper.show{display:block}
 .sheet{padding:32px 38px 40px}
 .sheet + .sheet{border-top:6px double #ccc}
 .qhead{border-bottom:2px solid #111; padding-bottom:8px; margin-bottom:12px}
-.qhead h1{font-family:'Cinzel',serif; font-size:20px; margin:0 0 3px; letter-spacing:.04em; font-weight:600}
+.qhead h1{font-family:var(--display); font-size:20px; margin:0 0 3px; letter-spacing:0; font-weight:400}
 .qhead .meta{font-size:12.5px; color:#444; font-family:Helvetica,Arial,sans-serif}
 .namerow{display:flex; gap:24px; font-size:13px; margin:0 0 12px; font-family:Helvetica,Arial,sans-serif}
 .namerow span{flex:1; border-bottom:1px solid #444; padding-bottom:2px}
@@ -115,13 +121,14 @@ ol.keys{margin:0; padding:0; list-style:none; counter-reset:qn}
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="star" viewBox="0 0 16 16"><path d="M8 0 C8.6 5 11 7.4 16 8 C11 8.6 8.6 11 8 16 C7.4 11 5 8.6 0 8 C5 7.4 7.4 5 8 0Z" fill="currentColor"/></symbol></defs></svg>
 <div id="maker">
   <a class="backlink" href="index.html">⟵ Return to Ars Rhetorica</a>
   <header>
-    <div class="ornament">❦</div>
+    <svg class="ornament orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
     <h1>Quiz Maker</h1>
     <div class="sub">Printable quizzes with a complete answer key — for instructors</div>
-    <div class="rule">❧</div>
+    <div class="rule"></div>
   </header>
 
   <details class="help">
