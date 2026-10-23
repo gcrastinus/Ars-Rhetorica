@@ -1357,6 +1357,92 @@ kbd{font-family:var(--text); letter-spacing:0; border-color:var(--frame); border
 /* Oct 23: lighter lines on the play and dark-mode controls. */
 #dark-toggle, .speak-unit, .speak-unit *{border-color:var(--frame) !important}
 #speak-toggle, #speak-rate, .speak-rate, .speak-rate-btn, .recite-open, #recite-open{border-color:var(--frame) !important}
+/* Guided Path (guided.js): the path toggle, lock notes and states, the level picker, the content reviews,
+   and the Progress & Review panel. Same frames, hover, and type as the rest of the course. */
+.path-row{margin:0 0 4px}
+.diff-btn.path-btn{width:auto; min-width:150px; height:44px; padding:0 22px; font-size:16px}
+.guided-note{max-width:34em; margin:14px auto 0; text-align:center}
+.guided-note[hidden]{display:none}
+.gp-line{font-style:italic; color:var(--ink-soft); font-size:16px; line-height:1.5; margin:0}
+.guided-note .btn-row{margin-top:14px}
+.lock-note{
+  max-width:34em; margin:-14px auto 22px; text-align:center;
+  font-style:italic; font-size:15px; line-height:1.45; color:var(--ink-soft);
+}
+.lock-note[hidden]{display:none}
+#scr-level .lock-note{margin:18px auto 0}
+#scr-level .q-instr{max-width:34em; margin:22px auto 22px; font-size:16.5px; line-height:1.5}
+#gp-storage{margin:14px auto 0}
+#diff-section[hidden]{display:none}
+details.help[hidden]{display:none}
+.set-card .ex-state, .ex-pane-item .ex-state{
+  display:block; font-family:var(--text); font-size:12px; font-weight:400; letter-spacing:.04em;
+  text-transform:none; font-variant:small-caps; color:var(--ink-soft); line-height:1.2;
+}
+.ex-pane-item .ex-state{margin-bottom:3px}
+.ex-state.st-mastered, .ex-state.st-lapsed{color:var(--accent)}
+.set-card .ex-link.locked, .ex-pane-item.locked{cursor:not-allowed; color:color-mix(in srgb, var(--ink) 40%, var(--paper))}
+.set-card .ex-link.locked:hover, .ex-pane-item.locked:hover{background:transparent; color:color-mix(in srgb, var(--ink) 40%, var(--paper))}
+.ex-pane-item.locked .ex-pane-name, .ex-pane-item.locked .ex-pane-desc{color:inherit}
+.set-card.review-bar .tile-main{padding:9px 20px 9px 16px}
+.set-card.review-bar h3{font-size:17px}
+.set-card.review-bar p{font-size:13.5px; font-style:italic}
+.set-card.review-bar.locked{cursor:default; color:color-mix(in srgb, var(--ink) 50%, var(--paper))}
+.set-card.review-bar.locked:hover{background:transparent; color:color-mix(in srgb, var(--ink) 50%, var(--paper))}
+.lp-levels{display:flex; flex-direction:column; align-items:center; gap:10px; margin:8px auto 0}
+.btn.lp-lvl{
+  display:flex; align-items:baseline; gap:14px; flex-wrap:wrap; text-align:left;
+  width:min(520px, 100%); padding:12px 20px;
+}
+.lp-lvl .lp-num{font-family:var(--display); font-size:18px; color:var(--accent); min-width:76px}
+.lp-lvl .lp-name{flex:1; min-width:180px; font-size:15.5px; color:var(--ink-soft)}
+.lp-lvl .lp-lock{flex-basis:100%; font-size:13px; font-style:italic; color:inherit; padding-left:90px}
+.btn.lp-lvl:disabled .lp-num, .btn.lp-lvl:disabled .lp-name{color:inherit}
+.gp-box{
+  width:min(560px, 100%); margin:22px auto 0; padding:18px 22px;
+  border:1px solid var(--frame); background:transparent; text-align:left;
+}
+.gp-box[hidden]{display:none}
+.gp-box p{font-size:16.5px; line-height:1.5; margin:0 0 8px; color:var(--ink)}
+.gp-box p:last-child{margin-bottom:0}
+.gp-box strong{font-weight:400; font-family:var(--display); font-size:18px}
+.gp-box .btn-row{margin-top:12px}
+.gp-note{border-color:var(--accent)}
+.gp-today{max-width:34em; margin:0 auto; text-align:center; color:var(--ink-soft)}
+.gp-today p{margin:0 0 8px}
+.gp-agenda{width:min(520px, 100%); margin:0 auto; font-size:16px}
+.gp-agenda-row{display:flex; justify-content:space-between; gap:14px; padding:6px 4px; border-bottom:1px solid var(--frame); color:var(--ink-soft)}
+.gp-tier{
+  width:min(520px, 100%); margin:22px auto 8px; font-family:var(--text); font-size:14px;
+  letter-spacing:.05em; font-variant:small-caps; color:var(--ink-soft);
+}
+.gp-ladder{width:min(520px, 100%); margin:0 auto; display:flex; flex-direction:column; gap:6px}
+.gp-row{
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px;
+  padding:9px 14px; border:1px solid var(--frame); background:transparent;
+}
+.gp-row.st-locked{color:color-mix(in srgb, var(--ink) 50%, var(--paper))}
+.gp-title{flex:1; min-width:150px; font-family:var(--display); font-size:17px}
+.gp-chip{
+  font-size:12.5px; letter-spacing:.05em; font-variant:small-caps; color:var(--ink-soft);
+  border:1px solid var(--frame); padding:1px 8px; white-space:nowrap;
+}
+.gp-row.st-mastered .gp-chip, .gp-row.st-lapsed .gp-chip{color:var(--accent); border-color:var(--accent)}
+.gp-row.st-passed .gp-chip{color:var(--ink); border-color:var(--ink-soft)}
+.gp-detail{flex-basis:100%; font-size:14.5px; font-style:italic; color:var(--ink-soft)}
+.gp-row.st-locked .gp-detail{color:inherit}
+.recall-missed{max-width:34em; margin:22px auto 0; text-align:left}
+.recall-missed-h{font-family:var(--text); font-size:14px; letter-spacing:.05em; font-variant:small-caps; color:var(--ink-soft); text-align:center}
+.recall-missed p{font-size:16px; line-height:1.5; margin:0 0 12px; color:var(--ink-soft)}
+.recall-missed p strong{font-weight:400; color:var(--ink)}
+@media (max-width:560px){
+  .diff-btn.path-btn{min-width:0; flex:1 1 0; padding:0 12px}
+  .path-row{flex-wrap:nowrap}
+  .set-card .ex-state{font-size:11px}
+  .lp-lvl .lp-lock{padding-left:0}
+  .gp-box{padding:14px 16px}
+}
+
 </style>
 </head>
 <body>
@@ -1425,16 +1511,33 @@ kbd{font-family:var(--text); letter-spacing:0; border-color:var(--frame); border
       <p><strong>What to do in an exercise.</strong> Read the excerpt, then choose your answer. A right answer gains points; a wrong answer loses some. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option; <kbd>Enter</kbd> submits. Where the original Latin or Greek can be displayed, the Show the Latin button shows it. Sources for all texts are given in place.</p>
       <p><strong>The special sections.</strong> Gorgias’s <em>Helen</em> is a tutorial and a figures set of its own (persuasion as a drug; the four aitiai). Antiphon’s Second Tetralogy is kept as forensic. Some key debates from Thucydides (Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles, Catiline and Caesar) are paired below as well. The texts also include Augustine on the Christian orator and some passages from the Confessions.</p>
     </details>
+    <details class="help" id="guided-help" hidden>
+      <summary>How the Guided Path Works</summary>
+      <p><strong>Two paths.</strong> Free Practice opens every exercise at once and keeps no record for the Guided Path. The Guided Path opens the exercises in order, judges when each is passed and when it is mastered, and brings mastered exercises back for spaced review. Its record is kept only in this browser, and only once tracking is turned on under Progress &amp; Review; the Export button there saves a copy.</p>
+      <p><strong>The order of the path.</strong> The exercises open in eight steps, in the order of the art: the three species; the three pisteis; the enthymeme, the issue, and the topics; character and the passions; the parts of the oration; style and the figures; the whole case (Antiphon, the paired debates, and the whole-case set); and last, Augustine’s Christian orator and Gregory’s contrasting audiences. Each step opens when every exercise of the step before it is passed. The study decks are always open, and the optional set of further figures is never required.</p>
+      <p><strong>Passing an exercise.</strong> An exercise is passed when nine of the last ten answers at Level III or above are correct, on at least two different days. Levels IV and V of an exercise open only after it is passed.</p>
+      <p><strong>Mastery.</strong> An exercise is mastered (★) when eight of the last ten answers at Level V are correct, on at least two different days.</p>
+      <p><strong>Review.</strong> A mastered exercise returns for review after 1, 3, 7, 16, and then 35 days. Each review asks three questions: if all three are right, the next review comes after the longer interval, but if one is missed, the exercise returns to daily review. The level of the questions rises as the intervals lengthen, from Level III to Level V. Today’s Review gathers everything that is due, interleaves it, and then names the next exercise to learn. A missed review never closes an exercise that has been opened.</p>
+      <p><strong>Content reviews.</strong> After each Division’s decks and exercises comes a short review of the doctrine itself, one for each deck. It asks for definitions and distinctions from memory, and on the Guided Path it is ready one day after the deck is finished and one of its exercises is passed. These reviews open nothing and close nothing.</p>
+    </details>
 
     <div class="rule"></div>
-    <div class="section-label">Difficulty</div>
-    <div class="diff-row" id="diff-row"></div>
-    <div class="diff-desc" id="diff-desc"></div>
+    <div class="diff-row path-row" role="group" aria-label="Choose a path">
+      <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true">Free Practice</button>
+      <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false">Guided Path</button>
+    </div>
+    <div id="guided-note" class="guided-note"></div>
+    <p id="gp-storage" class="lock-note" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
+    <div id="diff-section">
+      <div class="section-label">Difficulty</div>
+      <div class="diff-row" id="diff-row"></div>
+      <div class="diff-desc" id="diff-desc"></div>
+    </div>
     <div class="rule"></div>
     <div id="home-acts"></div>
     <div id="home-read"></div>
     <div class="btn-row" style="margin-top:40px">
-      <button class="btn" id="btn-progress">Progress</button>
+      <button class="btn" id="btn-progress">Progress &amp; Review</button>
       <button class="btn" id="btn-sources">Sources</button>
       <a class="btn" id="btn-syll" href="https://syllogistica.studiuminstitute.org/">Ars Syllogistica ⟶</a>
       <a class="btn" href="https://github.com/gcrastinus/ars-grammatica">Ars Grammatica</a>
@@ -1513,12 +1616,35 @@ kbd{font-family:var(--text); letter-spacing:0; border-color:var(--frame); border
     <div class="btn-row"><button class="btn" id="imit-back" type="button">← Home</button></div>
   </div>
 
+  <div class="screen" id="scr-level">
+    <header>
+      <svg class="ornament orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
+      <h1 id="lv-title"></h1>
+      <div class="subtitle">Choose a level</div>
+    </header>
+    <div class="q-instr" id="lv-instr"></div>
+    <div class="lp-levels" id="lv-levels"></div>
+    <p class="lock-note" id="lv-record"></p>
+    <div class="btn-row"><button class="btn" id="lv-back" type="button">← Home</button></div>
+  </div>
+
   <div class="screen" id="scr-prog">
     <header>
       <svg class="ornament orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
-      <h1>Progress</h1>
+      <h1>Progress &amp; Review</h1>
     </header>
+    <div class="gp-box gp-note" id="gp-note" hidden></div>
+    <div id="prog-guided"></div>
+    <div class="section-label">All Practice</div>
     <div id="prog-body"></div>
+    <div class="section-label">Backup</div>
+    <div class="section-gloss">Export saves the progress kept in this browser as a file, which is the only way to carry it to another device or to keep a copy; Import restores it. The file holds the Guided Path record and the course’s record of answers, finished decks, and recitations.</div>
+    <div class="btn-row">
+      <button class="btn" id="prog-export" type="button">Export progress</button>
+      <button class="btn" id="prog-import" type="button">Import progress</button>
+      <input type="file" id="prog-import-file" accept=".json,application/json" hidden>
+    </div>
+    <div class="teacher-note"><a href="progress-report.html" target="_blank" rel="noopener">For instructors, a progress report from an exported file ⟶</a></div>
     <div class="btn-row">
       <button class="btn" id="prog-back">← Home</button>
       <button class="btn" id="prog-reset">Erase all progress</button>
@@ -1618,7 +1744,8 @@ function save(){
   try{
     localStorage.setItem(KEY, JSON.stringify({
       totals: store.totals, score: store.score, bestStreak: store.bestStreak,
-      mistakes: store.mistakes, dark: state.dark, speakRate: state.speakRate, diff: state.diff, seen: store.seen || {},
+      mistakes: store.mistakes, dark: state.dark, speakRate: state.speakRate,
+      diff: (window.GP ? GP.savedDiff() : state.diff), seen: store.seen || {},
       imitations: store.imitations || {},
       recite: store.recite || {}
     }));
@@ -1774,7 +1901,8 @@ function deckTile(it, exercises){
       lab.textContent = exItem.title;
       b.appendChild(lab);
       b.title = exItem.desc;
-      b.onclick = ev => { ev.stopPropagation(); startEx(EX[exItem.ex]); };
+      b.onclick = ev => { ev.stopPropagation(); beginEx(EX[exItem.ex]); };
+      if(window.GP) GP.decorateLink(b, exItem.ex);
       strip.appendChild(b);
     });
   }
@@ -1835,8 +1963,9 @@ function openExPane(deckItem, exercises, returnFocus){
     b.onclick = ev => {
       ev.stopPropagation();
       closeExPane({silent:true});
-      startEx(EX[exItem.ex]);
+      beginEx(EX[exItem.ex]);
     };
+    if(window.GP) GP.decorateLink(b, exItem.ex);
     box.appendChild(b);
   });
   pane.appendChild(box);
@@ -1871,9 +2000,16 @@ function buildHome(){
       grid.appendChild(deckTile(it, deckExercises(it.deck)));
     });
     wrap.appendChild(grid);
+    if(window.GP) GP.decorateAct(wrap, grid, a);
     host.appendChild(wrap);
   });
   buildReading();
+  if(window.GP) GP.homeNote();
+}
+/* On the Guided Path an exercise opens through the level picker (guided.js); in Free Practice it starts at once. */
+function beginEx(e){
+  if(window.GP && GP.isGuided()) GP.pickLevel(e);
+  else startEx(e);
 }
 
 let deck = null, deckI = 0, deckAnswered = false, deckKey = '';
@@ -1977,7 +2113,11 @@ function startEx(e){
 }
 function nextQ(){
   if(state.setDone){ show('scr-home'); buildHome(); return; }
+  if(window.GP && GP.reviewActive()){ GP.reviewNext(); return; }
   if(state.answered >= state.setLen){ renderSetDone(); return; }
+  askQ();
+}
+function askQ(){
   state.q = state.ex.gen(state.diff);
   state.locked = false;
   chipSel = {}; orderSel = []; figPicked = null;
@@ -1985,6 +2125,12 @@ function nextQ(){
   updateScore();
 }
 function updateScore(){
+  const gt = window.GP && GP.scoreText();
+  if(gt){
+    $('ex-score').textContent = gt;
+    $('set-bar-i').style.width = Math.min(100, (state.answered / Math.max(1, state.setLen)) * 100) + '%';
+    return;
+  }
   const max = state.setLen * DIFF[state.diff].gain;
   $('ex-score').textContent =
     'Question '+(Math.min(state.answered+1, state.setLen))+' of '+state.setLen+
@@ -1996,6 +2142,14 @@ function updateScore(){
 function renderSetDone(){
   if(window.__arsStopSpeak) window.__arsStopSpeak();
   state.setDone = true;
+  if(state.ex.recall && window.GP){
+    GP.recallDone();
+    $('ex-submit').style.display = 'none';
+    $('ex-next').style.display = '';
+    $('ex-next').textContent = 'Home';
+    $('set-bar-i').style.width = '100%';
+    return;
+  }
   const max = state.setLen * DIFF[state.diff].gain;
   $('ex-box').innerHTML =
     '<div class="panel complete-card"><svg class="orn complete-orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>'+
@@ -2125,12 +2279,16 @@ function submit(ansMC){
   if(res.right){ state.correct++; state.streak++; state.score += gain;
                  if(state.streak > store.bestStreak) store.bestStreak = state.streak; }
   else { state.streak = 0; state.score = Math.max(0, state.score - loss); }
-  store.score += res.right ? gain : 0;
-  recordAnswer(state.ex.id, res.right);
-  if(!res.right){
-    store.mistakes.push({ex: state.ex.title, q: (q.source || q.prompt || '').replace(/<[^>]+>/g,'').slice(0,180), note: res.note});
-    if(store.mistakes.length > 60) store.mistakes.shift();
-    save();
+  if(window.GP) GP.onAnswer(res.right);
+  // A content review (guided.js) is recall of the deck, not practice, so it does not enter the course's counts.
+  if(!state.ex.recall){
+    store.score += res.right ? gain : 0;
+    recordAnswer(state.ex.id, res.right);
+    if(!res.right){
+      store.mistakes.push({ex: state.ex.title, q: (q.source || q.prompt || '').replace(/<[^>]+>/g,'').slice(0,180), note: res.note});
+      if(store.mistakes.length > 60) store.mistakes.shift();
+      save();
+    }
   }
   const box = $('ex-box');
   if(q.kind === 'mc'){
@@ -2168,7 +2326,7 @@ function submit(ansMC){
 
 $('ex-submit').onclick = () => { if(!state.locked) submit(null); };
 $('ex-next').onclick = () => nextQ();
-$('ex-quit').onclick = () => { show('scr-home'); buildHome(); };
+$('ex-quit').onclick = () => { if(window.GP) GP.cancelReview(); show('scr-home'); buildHome(); };
 
 document.addEventListener('keydown', ev => {
   if(!$('scr-ex').classList.contains('active')) return;
@@ -2183,6 +2341,7 @@ document.addEventListener('keydown', ev => {
 });
 
 function renderProgress(){
+  if(window.GP) GP.renderPanel();
   const ids = Object.keys(store.totals);
   let seen = 0, right = 0;
   ids.forEach(k => { seen += store.totals[k].seen; right += store.totals[k].right; });
@@ -2220,8 +2379,10 @@ function renderProgress(){
 $('btn-progress').onclick = () => { renderProgress(); show('scr-prog'); };
 $('prog-back').onclick = () => { show('scr-home'); buildHome(); };
 $('prog-reset').onclick = () => {
+  if(!confirm('Erase all progress, including the Guided Path record? This cannot be undone. Finished decks and recitations are kept.')) return;
   store.totals = {}; store.score = 0; store.bestStreak = 0; store.mistakes = []; store.seen = {};
-  save(); renderProgress();
+  if(window.GP) GP.eraseAll();
+  save(); renderProgress(); buildHome();
 };
 $('dark-toggle').onclick = () => setDark(!state.dark);
 if($('home-jump')) $('home-jump').onclick = () => { show('scr-home'); buildHome(); };
@@ -3224,10 +3385,7 @@ document.addEventListener('click', ev => {
       if(body) String(body.innerText || '').split(/\n+/).forEach(line => pushText(parts, line));
       return joinParts(parts);
     }
-    if(scr.id === 'scr-prog'){
-      const body = $('prog-body');
-      return body ? textFrom(body, {skipButtons:true}) : '';
-    }
+    if(scr.id === 'scr-prog') return textFrom(scr, {skipButtons:true});
     if(scr.id === 'scr-room' || scr.id === 'scr-imit'){
       const parts = [];
       const h = scr.querySelector('header');
@@ -3408,6 +3566,7 @@ buildHome();
 </script>
 <script src="recitation-adapter.js"></script>
 <script src="recitation.js"></script>
+<script src="guided.js"></script>
 <script>reciteScreenChanged(document.querySelector('.screen.active').id);</script>
 <script src="tab-lock.js" data-app="Ars Rhetorica" data-key="arsRhetorica.activeTab"></script>
 </body>
