@@ -1353,6 +1353,14 @@ kbd{font-family:var(--text); letter-spacing:0; border-color:var(--frame); border
   .recite-open{border-radius:0}
 }
 
+
+/* Oct 22: the main column a third wider, for readability (cards 520px to 693px, matching Ars Grammatica). Every width is the earlier one times 4/3; all still shrink to fit a phone. */
+.wrap{max-width:1013px}
+.set-card, button.set-card, .sec-rule, .q-progress{width:min(693px, 100%)}
+.act-gloss, .section-gloss, .intro-note, .panel, details.help{max-width:45.33em}
+.q-box{max-width:747px}
+details.check{width:min(747px, 100%)}
+.designer-credit{max-width:48em}
 </style>
 </head>
 <body>
@@ -1403,6 +1411,7 @@ kbd{font-family:var(--text); letter-spacing:0; border-color:var(--frame); border
       <h1>Ars Rhetorica</h1>
       <div class="subtitle">The third art of the trivium</div>
     </header>
+    <div class="rule"></div>
 
     <div class="intro-note">
       <strong>Rhetoric is the faculty of observing, in any given case, the available means of persuasion of what is true.</strong>
