@@ -39,15 +39,15 @@ const GPC = {
     {key:'t1', label:'The three species', ids:['species'], gate:'The three species', plural:false},
     {key:'t2', label:'The three pisteis', ids:['pisteis'], gate:'The three pisteis', plural:false},
     {key:'t3', label:'Invention by argument', ids:['enthymeme','stasis','topics'], gate:'the exercises of Division II', plural:true},
-    {key:'t4', label:'Character and the passions', ids:['ethos','pathos'], gate:'Character in the speech and Name the passion', plural:true},
+    {key:'t4', label:'Character and the passions', ids:['ethos','pathos','greg'], gate:'Character in the speech and Name the passion', plural:true},
     {key:'t5', label:'Arrangement', ids:['taxis','taxisorder'], gate:'the exercises of Division IV', plural:true},
     {key:'t6', label:'Style and the figures', ids:['lexis','aristlexis','effects','figclick','figwhich','figcicero','figgorgias','figaugustine','figfurther'],
-      gate:'the exercises of Divisions V and VI (all but the optional set)', plural:true},
+      gate:'Style and the argument, Aristotle on Style, Click the figure, and Which excerpt?', plural:true},
     {key:'t7', label:'The whole case', ids:['antiphon','debates','whole'], gate:'the Antiphon set, the paired debates, and the whole case', plural:true},
-    {key:'t8', label:'Augustine and Gregory', ids:['augoffice','greg'], gate:'', plural:true}
+    {key:'t8', label:'Augustine', ids:['augoffice'], gate:'', plural:false}
   ],
   /* optional sets open with their tier but are never required to open the next one */
-  OPTIONAL : ['figfurther']
+  OPTIONAL : ['greg','effects','figcicero','figgorgias','figaugustine','figfurther']
 };
 const isOptional = id => GPC.OPTIONAL.indexOf(id) >= 0;
 const PREREQS = {}, TIER_OF = {};
