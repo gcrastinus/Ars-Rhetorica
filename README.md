@@ -18,6 +18,8 @@ passages.js     public-domain passage bank (figures marked)
 
 Progress is stored in this browser under `ars-rhetorica-progress`. Nothing leaves the machine.
 
+**Free Practice and the Guided Path.** A toggle on the home screen chooses the path. Free Practice opens everything. The Guided Path (`guided.js`, ported from Ars Logica's) opens the exercises in eight steps (species; pisteis; enthymeme, issue, and topics; ethos and pathos; the six offices; style and the figures; Antiphon, the debates, and the whole case; Augustine and Gregory). A set is passed at 9 of the last 10 right at Level III or above across two days, which also opens Levels IV and V, and mastered at 8 of 10 at Level V across two days. Mastered sets return in Today's Review after 1, 3, 7, 16, and 35 days. Each deck has a content review (`RECALL` in `data.js`), ready on the Guided Path one day after the deck is finished and one of its exercises is passed. Reviews gate nothing. The Guided record is opt-in, kept under `ars-rhetorica-guided` (the path under `ars-rhetorica-path`), and exported with the course record from Progress & Review. `progress-report.html` turns an exported file into a report and grade for instructors.
+
 The Recitation Tablet (top left of the home screen, the same tablet as Ars Grammatica's) offers each study deck once it has been finished, and each Division once all its decks are finished: the student writes out the doctrine from memory, then opens the deck's outline (the `recitation` field of each deck in `data.js`) and checks off the points covered. The home screen asks for a recitation again after 3, 7, and 30 days. The code is `recitation.js` (shared with Ars Grammatica) and `recitation-adapter.js`.
 
 ## How to proceed
