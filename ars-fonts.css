@@ -23,7 +23,7 @@ html[data-font="italic"] body{font-synthesis:none; font-size-adjust:.59}
 html[data-font="fraktur"]{--display:'Ars Greek', 'UnifrakturMaguntia', 'Ars Fallback', var(--std-display); --text:'Ars Greek', 'UnifrakturMaguntia', 'Ars Fallback', var(--std-text)}
 html[data-font="copperplate"]{--display:'Ars Greek', 'Pinyon Script', 'Ars Fallback', var(--std-display); --text:'Ars Greek', 'Pinyon Script', 'Ars Fallback', var(--std-text)}
 html[data-font="fraktur"] body, html[data-font="copperplate"] body{font-synthesis:none}
-html:is([data-font="fraktur"],[data-font="copperplate"]) body *:not(:is(button:not(.set-card, .cumul-bar), input, select, textarea, option, label, svg, .speak-rate-menu, .set-menu, .font-note, .btn, .btn-row, .opt, .opts, .q-instr, .deck-hint, .recite-opt-note, .recite-menu-list, .tab-lock-card, .ex-opt, .answer-row, table, caption, th, td, kbd, .room-locus, .act-label .n, .prog-cell, .chev, .room-bank, .ex-table, .paradigm, .endings), :is(button:not(.set-card, .cumul-bar), input, select, textarea, option, label, svg, .speak-rate-menu, .set-menu, .font-note, .btn, .btn-row, .opt, .opts, .q-instr, .deck-hint, .recite-opt-note, .recite-menu-list, .tab-lock-card, .ex-opt, .answer-row, table, caption, th, td, kbd, .room-locus, .act-label .n, .prog-cell, .chev, .room-bank, .ex-table, .paradigm, .endings) *){text-transform:none !important; letter-spacing:0 !important; font-variant:normal !important}
+html:is([data-font="fraktur"],[data-font="copperplate"]) body *:not(.directions, .directions *, :is(button:not(.set-card, .cumul-bar), input, select, textarea, option, label, svg, .speak-rate-menu, .set-menu, .font-note, .btn, .btn-row, .opt, .opts, .q-instr, .deck-hint, .recite-opt-note, .recite-menu-list, .tab-lock-card, .ex-opt, .answer-row, table, caption, th, td, kbd, .room-locus, .act-label .n, .prog-cell, .chev, .room-bank, .ex-table, .paradigm, .endings), :is(button:not(.set-card, .cumul-bar), input, select, textarea, option, label, svg, .speak-rate-menu, .set-menu, .font-note, .btn, .btn-row, .opt, .opts, .q-instr, .deck-hint, .recite-opt-note, .recite-menu-list, .tab-lock-card, .ex-opt, .answer-row, table, caption, th, td, kbd, .room-locus, .act-label .n, .prog-cell, .chev, .room-bank, .ex-table, .paradigm, .endings) *){text-transform:none !important; letter-spacing:0 !important; font-variant:normal !important}
 html[data-font="copperplate"] body{font-size-adjust:.53; color:#1c140d; -webkit-text-stroke:.35px currentColor}
 html[data-font="copperplate"] body.dark{color:#f3ead6}
 /* the standard font is kept here */
@@ -60,8 +60,11 @@ html[data-font="fraktur"] body.dark :is(.intro-note)::first-letter{color:#f2a08a
 @media print{ .set-wrap{display:none !important} }
 #set-btn:hover, #set-btn[aria-expanded="true"]{background:var(--hover)}
 /* long reading text and feedback in the script fonts get more line spacing */
-html:is([data-font="italic"],[data-font="copperplate"]) :is(p, li, .feedback, .fb, .verdict, .explain){line-height:1.6}
+html:is([data-font="italic"],[data-font="copperplate"]) :is(p, li, .feedback, .fb, .verdict, .explain):not(.directions, .directions *){line-height:1.6}
 /* phones: wide tables scroll sideways inside themselves instead of widening the page */
 @media (max-width:480px){ html[data-font] table{display:block; max-width:100%; overflow-x:auto} html[data-font] body{overflow-wrap:break-word} }
 /* arrows, checks and similar symbols: one consistent fallback */
 html[data-font] :is(.chev, .set-check){font-family:var(--std-text), 'DejaVu Sans', 'Segoe UI Symbol', sans-serif}
+/* directions and instructions (marked .directions in the markup): the standard face at the standard size, whatever font is chosen */
+html[data-font] :is(.directions, .directions *):not(kbd, code){--display:var(--std-display); --text:var(--std-text); font-size-adjust:none !important; -webkit-text-stroke:0 !important}
+html[data-font] .directions{font-family:var(--std-text)}

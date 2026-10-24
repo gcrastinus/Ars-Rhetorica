@@ -2569,7 +2569,7 @@ EX.species = {
       epideictic:'Epideictic: the spectator, praise and blame, the noble'
     };
     const opts = ['forensic','deliberative','epideictic'];
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(p.cue||'')+'</div>' : '';
     return mcQ({
       prompt:'What is the species of this speech?',
       options: opts.map(k => labels[k]),
@@ -2589,7 +2589,7 @@ EX.pisteis = {
     const item = pickSeen(itemPool('PISTEIS_ITEMS', PISTEIS_ITEMS).filter(x => !cardTaught('pistis:'+x.pid)), x => 'pi:'+x.pid);
     const p = passageById(item.pid) || pickPass(null, 'pi');
     const names = ['ethos','pathos','logos'];
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||item.why)+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(p.cue||item.why)+'</div>' : '';
     return mcQ({
       prompt:'Which pistis is the speech showing in this passage?',
       options:['Ethos: the character of the speaker','Pathos: the feeling of the hearers','Logos: the argument of the speech'],
@@ -2623,7 +2623,7 @@ EX.stasis = {
   src:['cic_inv','cic_part','cic_yonge','lysias_lamb','webster_w','quint'],
   gen(diff){
     const e = pickSeen(itemPool('STASIS_ITEMS', STASIS_ITEMS).filter(x => !cardTaught('stasis:'+x.id)), x => 'st:'+x.id);
-    const cue = e.cue ? '<div class="q-cue">'+esc(e.cue)+'</div>' : '';
+    const cue = e.cue ? '<div class="q-cue directions">'+esc(e.cue)+'</div>' : '';
     const also = 'Cicero says that every controversy “contains a question either about a fact, or about a name, or about a class, or about an action” (De inventione I.8).';
     if(e.part && diff >= 3 && rand([0,1])){
       const wrong = sample(Object.keys(STASIS_PARTS).filter(k => k !== e.part && (e.notParts||[]).indexOf(k) < 0), 3);
@@ -2652,7 +2652,7 @@ EX.topics = {
     const arist = e.list === 'arist';
     const labels = arist ? TOPOI_ARIST : TOPOI_CIC;
     const wrong = sample(Object.keys(labels).filter(k => k !== e.topic && (e.notTopics||[]).indexOf(k) < 0), 3);
-    const cue = e.cue ? '<div class="q-cue">'+esc(e.cue)+'</div>' : '';
+    const cue = e.cue ? '<div class="q-cue directions">'+esc(e.cue)+'</div>' : '';
     return mcQ({
       prompt: arist ? 'Aristotle gives this example in the Rhetoric (II.23). From which of his topics is the argument drawn?'
                     : 'Cicero gives this example in the Topics. From which of his topics is the argument drawn?',
@@ -2673,7 +2673,7 @@ EX.ethos = {
     const p = passageById(e.pid);
     // An item with its own options asks which words of the passage show one of the three.
     if(e.options){
-      const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
+      const cue = diff <= 2 ? '<div class="q-cue directions">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
       return mcQ({
         prompt: e.prompt, options: e.options, correct: e.correct,
         passage: cue + (p ? esc(p.text) : ''),
@@ -2688,7 +2688,7 @@ EX.ethos = {
       {v:'eunoia', lab:'Goodwill (eunoia): he wishes the good of his hearers'}
     ];
     // The why note names the answer, so the cue is the passage's context line, or nothing.
-    const cue = diff <= 2 && p && p.cue ? '<div class="q-cue">'+esc(p.cue)+'</div>' : '';
+    const cue = diff <= 2 && p && p.cue ? '<div class="q-cue directions">'+esc(p.cue)+'</div>' : '';
     return mcQ({
       prompt:'Which of the three artistic reasons for trust is this speech chiefly showing?',
       options: labels.map(x => x.lab),
@@ -2852,7 +2852,7 @@ function lexisGen(pred, also){
   return function(diff){
     const e = pickSeen(itemPool('LEXIS_ITEMS', LEXIS_ITEMS).filter(x => pred(x) && !cardTaught('lexis:'+x.id)), x => 'lx:'+x.id);
     const p = passageById(e.pid);
-    const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
     return mcQ({
       prompt: e.prompt,
       options: e.options, correct: e.correct,
@@ -2881,7 +2881,7 @@ EX.effects = {
   src:['appown','quint','arist_freese','cic_orat'],
   gen(diff){
     const e = pickSeen(itemPool('EFFECT_ITEMS', EFFECT_ITEMS), x => 're:'+x.id);
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(EFFECT_KINDS[e.kind])+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(EFFECT_KINDS[e.kind])+'</div>' : '';
     return mcQ({
       prompt: esc(e.prompt),
       options: e.versions.map(esc), correct:0,
@@ -2901,7 +2901,7 @@ EX.figclick = {
     const core = askCore(p);
     const target = (diff <= 2) ? core[0] : rand(core);
     const gloss = FIGURE_GLOSS[target.figure] || target.why;
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(p.cue||'')+'</div>' : '';
     return {
       kind:'figclick',
       prompt:'Click the part of the passage that is <strong>'+esc(target.figure)+'</strong> <span style="color:var(--ink-soft);font-style:italic">('+esc(gloss)+')</span>.',
@@ -2957,7 +2957,7 @@ function figSet(id, title, instr, pred, src){
       const spans = speechSpans(p);
       const core = askCore(p);
       const target = (diff <= 2) ? core[0] : rand(core);
-      const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
+      const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(p.cue||'')+'</div>' : '';
       const gloss = diff<=2 ? ' <em>('+esc(FIGURE_GLOSS[target.figure]||target.why||'')+')</em>' : '';
       return {
         kind:'figclick',
@@ -3011,7 +3011,7 @@ EX.antiphon = {
     const topos = toposMap[p.id] || 'from cause';
     const topoi = Object.keys(toposMap).map(k => toposMap[k]);
     const topOpts = [topos].concat(shuffle(topoi.filter(t => t !== topos)).slice(0,3));
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'Second Tetralogy: the facts are agreed, and the fight is over cause.')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(p.cue||'Second Tetralogy: the facts are agreed, and the fight is over cause.')+'</div>' : '';
     return {
       kind:'chips', prompt:'Read the excerpt. Mark the side, the chief pistis, and the topic.',
       passage: cue + esc(excerpt(p, 420)), source: citeP(p), src:'antiphon',
@@ -3093,7 +3093,7 @@ EX.whole = {
     ['anaphora','metaphor','tricolon','irony'].forEach(f => { if(figOpts.indexOf(f)<0) figOpts.push(f); });
     figOpts = shuffle(figOpts).slice(0,4);
     if(figOpts.indexOf(fig)<0){ figOpts[3] = fig; figOpts = shuffle(figOpts); }
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(p.cue||'')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(p.cue||'')+'</div>' : '';
     return {
       kind:'chips',
       prompt:'Take the case in order: species, the end of that species, the pistis the speech is showing, and a figure actually in the excerpt.',
@@ -3124,7 +3124,7 @@ EX.augoffice = {
   gen(diff){
     const e = pickSeen(itemPool('AUG_ITEMS', AUG_ITEMS), x => 'au:'+x.id);
     const p = passageById(e.pid);
-    const cue = diff <= 2 ? '<div class="q-cue">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+(p ? esc(p.cue||'') : '')+'</div>' : '';
     return mcQ({
       prompt: e.prompt,
       options: e.options, correct: e.correct,
@@ -3210,7 +3210,7 @@ EX.figfurther = {
         also:'This figure is in the optional tier; the main figures exercises do not ask about it.'
       });
     }
-    const cue = diff <= 2 ? '<div class="q-cue">'+esc(yes.cue||'')+'</div>' : '';
+    const cue = diff <= 2 ? '<div class="q-cue directions">'+esc(yes.cue||'')+'</div>' : '';
     return {
       kind:'figclick',
       prompt:'Click the part of the passage that is <strong>'+esc(fig)+'</strong> <span style="color:var(--ink-soft);font-style:italic">('+esc(gloss)+')</span>.',
