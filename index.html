@@ -63,6 +63,7 @@ body{
 .top-right-controls{
   position:fixed; top:14px; right:16px;
   display:flex; align-items:center; gap:8px; z-index:50;
+  background:var(--paper);
 }
 .top-right-controls #dark-toggle{
   position:static; top:auto; right:auto;
@@ -946,17 +947,18 @@ body:not(.off-home) #home-jump{display:none}
 .ornament.mark, svg.mark{display:block; width:18px; height:18px; margin:0 auto 28px}
 #dark-toggle{
   width:auto; height:auto; border-radius:0; padding:4px 10px;
-  border:1px solid var(--ink); background:none; color:var(--ink);
+  border:1px solid var(--ink); background:var(--paper); color:var(--ink);
   font-family:var(--text); font-size:16px; font-weight:400; letter-spacing:0;
   line-height:1.4; text-transform:none; box-shadow:none;
   transition:background-color .25s ease;
 }
 #dark-toggle:hover{transform:none; background:var(--hover)}
 .speak-unit{
-  height:auto; border-radius:0; border:1px solid var(--ink); background:none; box-shadow:none;
+  height:auto; border-radius:0; border:1px solid var(--ink); background:var(--paper); box-shadow:none;
 }
 #speak-toggle{
   width:auto; padding:4px 10px; border-radius:0; color:var(--ink); font-size:15px;
+  background:var(--paper);
 }
 #speak-toggle.speaking, #speak-toggle.speaking:hover{background:var(--ink); color:var(--paper)}
 #speak-toggle:hover, .speak-rate-btn:hover, .speak-rate.open .speak-rate-btn{
@@ -964,7 +966,7 @@ body:not(.off-home) #home-jump{display:none}
 }
 .speak-rate-btn{
   border-radius:0; color:var(--ink); border-left-color:var(--ink);
-  font-family:var(--text); letter-spacing:0;
+  font-family:var(--text); letter-spacing:0; background:var(--paper);
 }
 .speak-rate-menu{border-radius:0; border-color:var(--frame); box-shadow:none}
 .speak-rate-menu li{font-family:var(--text); letter-spacing:0; border-radius:0; color:var(--ink-soft)}
@@ -1118,6 +1120,8 @@ body.dark .set-card .ex-link:focus-visible{background:#3a2228; color:var(--ink)}
   border-color:color-mix(in srgb, var(--frame) 60%, var(--paper));
   background:transparent;
 }
+#home-jump{background:var(--paper)}
+#home-jump:hover:not(:disabled){background:var(--hover)}
 .diff-btn{
   font-family:var(--text); font-weight:400; letter-spacing:0; border-radius:0;
   border:1px solid var(--frame); background:transparent; color:var(--ink-soft);
