@@ -8,7 +8,7 @@ Sibling applications: **Ars Grammatica** and **Ars Syllogistica**. Same engine, 
 
 ## 0. What this app is for
 
-Grammar asks whether the utterance is well formed (*congruitas*). Logic asks whether what is said is true, and what follows. **Rhetoric asks whether the hearer is moved to see it.**
+Grammar asks whether the utterance is well formed (*congruitas*). Logic asks whether what is said is true, and what follows. **Rhetoric asks whether the hearer is moved to see the truth that has been expressed.**
 
 *The moon is made of green cheese* is congruous and false. *Him go store yesterday* is incongruous and may well be true. A speech may be both well formed and true, and still fail — if it does not find the available means of persuasion in this case, for these hearers.
 
@@ -20,7 +20,7 @@ The app does not grade compositions. It trains the eye on real speeches: to name
 |---|---|---|---|
 | **Grammar** | is the utterance well formed? | *congruitas* | solecism / barbarism |
 | **Logic** | is the proposition true, and what follows? | truth, validity | falsity / fallacy |
-| **Rhetoric** | will the hearer be moved to see it? | persuasion | ineffectiveness |
+| **Rhetoric** | will the hearer be moved to see the truth that has been expressed? | persuasion | ineffectiveness |
 
 ### Relation to the sisters
 
