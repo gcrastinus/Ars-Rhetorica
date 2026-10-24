@@ -1459,6 +1459,20 @@ body.dark #scr-home .set-card:not(.soon):not(.locked):hover{background:color-mix
 details.help a{color:inherit; text-decoration:none; border-bottom:1px dotted var(--frame)}
 details.help a:hover{color:var(--accent)}
 </style>
+<script>
+/* Font choice (arsFont): set before first paint; the web font loads only when chosen. */
+(function(){
+  var F={plain:'Atkinson+Hyperlegible+Next:ital,wght@0,400;0,700;1,400;1,700',garamond:'EB+Garamond:ital,wght@0,400;0,600;1,400;1,600',italic:'Felipa',fraktur:'UnifrakturMaguntia',copperplate:'Pinyon+Script'};
+  window.arsLoadFont=function(k){
+    if(!F[k]) return; var id='arsfont-'+k;
+    if(document.getElementById(id)) return;
+    var l=document.createElement('link'); l.id=id; l.rel='stylesheet';
+    l.href='https://fonts.googleapis.com/css2?family='+F[k]+'&display=swap'; document.head.appendChild(l);
+  };
+  try{ var k=localStorage.getItem('arsFont'); if(F[k]){ document.documentElement.setAttribute('data-font',k); arsLoadFont(k); } }catch(e){}
+})();
+</script>
+<link rel="stylesheet" href="ars-fonts.css">
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="star" viewBox="0 0 16 16"><path d="M8 0 C8.6 5 11 7.4 16 8 C11 8.6 8.6 11 8 16 C7.4 11 5 8.6 0 8 C5 7.4 7.4 5 8 0Z" fill="currentColor"/></symbol></defs></svg>
@@ -3585,5 +3599,6 @@ buildHome();
 <script src="guided.js"></script>
 <script>reciteScreenChanged(document.querySelector('.screen.active').id);</script>
 <script src="tab-lock.js" data-app="Ars Rhetorica" data-key="arsRhetorica.activeTab"></script>
+<script src="ars-fonts.js"></script>
 </body>
 </html>
