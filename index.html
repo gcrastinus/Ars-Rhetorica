@@ -1450,6 +1450,10 @@ details.help[hidden]{display:none}
 
 /* Oct 24: home study buttons hover a shade lighter in dark mode, as in Ars Logica. */
 body.dark #scr-home .set-card:not(.soon):not(.locked):hover{background:color-mix(in srgb, var(--ink) 8%, var(--paper))}
+
+/* Oct 24: home title ornament as in Ars Grammatica, 3 of the same star side by side. */
+#scr-home .mark-row{display:flex; justify-content:center; gap:10px; margin:0 auto 28px; font-size:0; line-height:0; color:var(--orn)}
+#scr-home .mark-row svg.mark{display:block; width:18px; height:18px; margin:0}
 </style>
 </head>
 <body>
@@ -1496,7 +1500,7 @@ body.dark #scr-home .set-card:not(.soon):not(.locked):hover{background:color-mix
 
   <div class="screen active" id="scr-home">
     <header>
-      <svg class="ornament orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
+      <div class="ornament mark-row"><svg class="orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg><svg class="orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg><svg class="orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg></div>
       <h1>Ars Rhetorica</h1>
       <div class="subtitle">The third art of the trivium</div>
     </header>
