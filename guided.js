@@ -379,7 +379,7 @@ function recallDone(){
   }
   let html = '<div class="panel complete-card"><svg class="orn complete-orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>'+
     '<p class="complete-h">Review complete</p>'+
-    '<p style="font-size:28px;margin:12px 0">'+right+' of '+n+' recalled</p>';
+    '<p class="directions" style="font-size:28px;margin:12px 0">'+right+' of '+n+' recalled</p>';
   if(e.missed.length){
     html += '<div class="recall-missed"><p class="recall-missed-h">Questions missed</p>' +
       e.missed.map(it => '<p><strong>'+esc(it.q)+'</strong><br>'+esc(it.a[0])+'. '+esc(it.why)+'</p>').join('') + '</div>';

@@ -1557,7 +1557,7 @@ details.help a:hover{color:var(--accent)}
       <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false">Guided Path</button>
     </div>
     <div id="guided-note" class="guided-note directions"></div>
-    <p id="gp-storage" class="lock-note" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
+    <p id="gp-storage" class="lock-note directions" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
     <div id="diff-section">
       <div class="section-label">Difficulty</div>
       <div class="diff-row" id="diff-row"></div>
@@ -1581,7 +1581,7 @@ details.help a:hover{color:var(--accent)}
     <header>
       <svg class="ornament orn mark" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>
       <h1 id="deck-title"></h1>
-      <div class="subtitle" id="deck-sub"></div>
+      <div class="subtitle directions" id="deck-sub"></div>
     </header>
     <div class="q-progress" aria-hidden="true"><i id="deck-bar"></i></div>
     <div id="deck-body"></div>
@@ -2184,7 +2184,7 @@ function renderSetDone(){
   $('ex-box').innerHTML =
     '<div class="panel complete-card"><svg class="orn complete-orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>'+
     '<p class="complete-h">Set complete</p>'+
-    '<p style="font-size:28px;margin:12px 0">'+state.correct+' of '+state.setLen+' · '+state.score+' / '+max+'</p>'+
+    '<p class="directions" style="font-size:28px;margin:12px 0">'+state.correct+' of '+state.setLen+' · '+state.score+' / '+max+'</p>'+
     '<p style="color:var(--ink-soft)">At difficulty I a right answer is worth ten points. A clean run of a ten-question set is 100; a shorter set finishes at ten points times its own question count. Higher difficulties change the question and the points.</p></div>';
   $('ex-submit').style.display = 'none';
   $('ex-next').style.display = '';
