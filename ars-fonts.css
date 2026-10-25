@@ -40,9 +40,11 @@ html[data-font="copperplate"] :is(.intro-note)::first-letter{font-size:4.6em; li
 /* Medieval Gothic: a rubricated initial, a red Fraktur capital in a thin ochre frame with a faint tint and four corner dots */
 html[data-font="fraktur"] :is(.intro-note)::first-letter{font-size:3.25em; line-height:1; margin:5px 14px 2px 0; padding:.04em .14em .02em; color:#b0301c; border:1px solid #a8822f; background:radial-gradient(circle,#a8822f 1.6px,transparent 2.2px) 2px 2px/6px 6px no-repeat, radial-gradient(circle,#a8822f 1.6px,transparent 2.2px) right 2px top 2px/6px 6px no-repeat, radial-gradient(circle,#a8822f 1.6px,transparent 2.2px) left 2px bottom 2px/6px 6px no-repeat, radial-gradient(circle,#a8822f 1.6px,transparent 2.2px) right 2px bottom 2px/6px 6px no-repeat, rgba(176,48,28,.07)}
 html[data-font="fraktur"] body.dark :is(.intro-note)::first-letter{color:#f2a08a; border-color:#d8b46c; background:radial-gradient(circle,#d8b46c 1.6px,transparent 2.2px) 2px 2px/6px 6px no-repeat, radial-gradient(circle,#d8b46c 1.6px,transparent 2.2px) right 2px top 2px/6px 6px no-repeat, radial-gradient(circle,#d8b46c 1.6px,transparent 2.2px) left 2px bottom 2px/6px 6px no-repeat, radial-gradient(circle,#d8b46c 1.6px,transparent 2.2px) right 2px bottom 2px/6px 6px no-repeat, rgba(242,160,138,.10)}
-/* the note on the current font, above the credit line */
-.font-note{max-width:600px; margin:28px auto 10px; font-family:var(--std-text) !important; font-style:normal !important; font-size:16px; line-height:1.55; color:var(--ink-soft); text-align:center; -webkit-text-stroke:0; font-size-adjust:none}
-.font-note b{color:var(--ink); font-weight:700}
+/* the note on the current font, appended as the last element of the main page */
+/* Oct 24: font details note in very small, faint print, the last thing on the main page (AA 4.5:1+ against the page). */
+.font-note{max-width:36rem; margin:3.5rem auto 1.25rem; padding:0 1rem; font-family:var(--std-text) !important; font-style:normal !important; font-weight:400; font-size:.75rem !important; line-height:1.5 !important; color:#786a58 !important; text-align:center; overflow-wrap:break-word; -webkit-text-stroke:0; font-size-adjust:none}
+body.dark .font-note{color:#998076 !important}
+.font-note b{color:inherit !important; font-weight:700}
 /* the + button and its menu (it replaces the separate dark-mode button, which stays hidden for its logic) */
 #dark-toggle[hidden]{display:none !important}
 #set-btn{min-width:44px; padding:0 12px; border-radius:0; border:1px solid var(--frame); background:var(--paper); color:var(--ink); font-size:26px; line-height:1.2; box-shadow:none; transition:background-color .25s ease; font-family:var(--std-text); font-weight:400; cursor:pointer; display:flex; align-items:center; justify-content:center}

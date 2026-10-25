@@ -17,7 +17,7 @@
   host.appendChild(wrap);
   dark.hidden = true;
   const credit = document.querySelector('.designer-credit');
-  if(credit && !$('font-note')){ const p = document.createElement('p'); p.className = 'font-note'; p.id = 'font-note'; p.setAttribute('aria-live','polite'); credit.parentNode.insertBefore(p, credit); }
+  if(credit && !$('font-note')){ const p = document.createElement('p'); p.className = 'font-note'; p.id = 'font-note'; p.setAttribute('aria-live','polite'); credit.parentNode.appendChild(p); }
   const btn = $('set-btn'), menu = $('set-menu');
   const cur = () => document.documentElement.getAttribute('data-font') || 'standard';
   function apply(k){
