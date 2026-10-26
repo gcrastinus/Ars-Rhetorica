@@ -70,3 +70,9 @@ html[data-font] :is(.chev, .set-check){font-family:var(--std-text), 'DejaVu Sans
 /* directions and instructions (marked .directions in the markup): the standard face at the standard size, whatever font is chosen */
 html[data-font] :is(.directions, .directions *):not(kbd, code){--display:var(--std-display); --text:var(--std-text); font-size-adjust:none !important; -webkit-text-stroke:0 !important}
 html[data-font] .directions{font-family:var(--std-text)}
+
+/* Medieval Gothic only: woodcut title initial A (du Bellay, Paris 1549, Gallica/BnF, public domain) */
+.title-initial{display:none}
+html[data-font="fraktur"] header h1 .title-initial{display:inline-block; height:1.85em; width:auto; vertical-align:-.22em;
+  margin:0 .03em 0 0; border-radius:4px; box-shadow:0 0 0 1px var(--frame)}
+html[data-font="fraktur"] header h1 .title-a{display:none}
