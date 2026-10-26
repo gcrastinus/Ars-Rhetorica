@@ -26,6 +26,8 @@
   }
   function setFont(k){ apply(k); try{ localStorage.setItem('arsFont', k); }catch(e){} sync(); }
   const box = menu.querySelector('.set-fonts');
+  /* load every font now so each option label shows in its own face */
+  if(window.arsLoadFont) FONTS.forEach(([k])=>arsLoadFont(k));
   FONTS.forEach(([k,label])=>{
     const b = document.createElement('button');
     b.type = 'button'; b.setAttribute('role','menuitemradio'); b.dataset.font = k;

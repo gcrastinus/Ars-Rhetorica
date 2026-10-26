@@ -59,6 +59,14 @@ body.dark .font-note{color:#998076 !important}
 .set-check{width:20px; flex:none; text-align:center; font-weight:700}
 .set-menu [aria-checked="true"]{background:var(--hover); font-weight:700}
 .set-menu [aria-checked="true"] .set-check::before{content:"✓"}
+/* each font option is shown in its own face, large for legibility (as in Ars Logica) */
+.set-menu .set-fonts button{font-size:22px; line-height:1.25; font-size-adjust:none}
+.set-menu .set-fonts [data-font="standard"] span+span{font-family:'Libre Caslon Text', Georgia, serif}
+.set-menu .set-fonts [data-font="plain"] span+span{font-family:'Atkinson Hyperlegible Next', sans-serif}
+.set-menu .set-fonts [data-font="garamond"] span+span{font-family:'EB Garamond', Georgia, serif; font-size:24px}
+.set-menu .set-fonts [data-font="italic"] span+span{font-family:'Felipa', Georgia, serif; font-size:27px; font-weight:400}
+.set-menu .set-fonts [data-font="fraktur"] span+span{font-family:'UnifrakturMaguntia', Georgia, serif; font-size:28px; font-weight:400}
+.set-menu .set-fonts [data-font="copperplate"] span+span{font-family:'Pinyon Script', Georgia, serif; font-size:33px; font-weight:400; line-height:1.4; -webkit-text-stroke:.3px currentColor}
 @media print{ .set-wrap{display:none !important} }
 #set-btn:hover, #set-btn[aria-expanded="true"]{background:var(--hover)}
 /* long reading text and feedback in the script fonts get more line spacing */
