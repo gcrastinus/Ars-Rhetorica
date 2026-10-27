@@ -37,21 +37,21 @@ html{
   min-height:100%;
   background:#f6f0e1;
   color-scheme:light;
-  scrollbar-color:#d3c29c #e6dcc2;
-  scrollbar-width:thin;
+  scrollbar-color:#8a6d3b #e6dcc2;
+  scrollbar-width:auto;
 }
 html:has(body.dark){
   background:#2a161b;
   color-scheme:dark;
-  scrollbar-color:#6b5348 #2a161b;
+  scrollbar-color:#b8977a #2a161b;
 }
-::-webkit-scrollbar{width:12px; height:12px}
-::-webkit-scrollbar-track{background:#e6dcc2}
-::-webkit-scrollbar-thumb{background:#d3c29c; border-radius:0; border:3px solid #e6dcc2}
+::-webkit-scrollbar{width:20px; height:20px}
+::-webkit-scrollbar-track{background:#e6dcc2; border-left:1px solid #b89f6d}
+::-webkit-scrollbar-thumb{background:#8a6d3b; border-radius:0; border:3px solid #e6dcc2}
 ::-webkit-scrollbar-thumb:hover{background:#5a4a38}
-html:has(body.dark)::-webkit-scrollbar-track{background:#2a161b}
-html:has(body.dark)::-webkit-scrollbar-thumb{background:#6b5348; border-color:#2a161b}
-html:has(body.dark)::-webkit-scrollbar-thumb:hover{background:#8a7064}
+html:has(body.dark)::-webkit-scrollbar-track{background:#2a161b; border-left-color:#6b5348}
+html:has(body.dark)::-webkit-scrollbar-thumb{background:#b8977a; border-color:#2a161b}
+html:has(body.dark)::-webkit-scrollbar-thumb:hover{background:#d9bc9f}
 body{
   font-family:var(--text);
   font-variant-numeric:oldstyle-nums;
