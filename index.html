@@ -684,7 +684,7 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:color-mix(in srgb
 /* Recitation Tablet: a fixed writing-tablet button, twice the height of the speak controls. */
 .recite-open{
   position:fixed; top:14px; left:16px; z-index:50;
-  width:88px; height:88px; padding:0;
+  width:66px; height:66px; padding:0;
   display:flex; align-items:center; justify-content:center;
   color:var(--gold); background:var(--card);
   border:1px solid var(--line); border-radius:16px;
@@ -692,7 +692,7 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:color-mix(in srgb
   transition:transform .15s, border-color .15s;
 }
 .recite-open:hover{transform:scale(1.06); border-color:var(--gold-soft)}
-.recite-icon{width:58px; height:58px; display:block}
+.recite-icon{width:44px; height:44px; display:block}
 .recite-icon .tab-wood{fill:none; stroke:var(--gold-soft); stroke-width:1.3}
 .recite-icon .tab-rule{fill:none; stroke:var(--gold-soft); stroke-width:.6; opacity:.55}
 .recite-icon .tab-wax{fill:none}
@@ -704,8 +704,8 @@ body.dark .room-bank:hover, body.dark .room-bank.on{background:color-mix(in srgb
 .recite-icon .tab-stylus-end{fill:var(--gold)}
 body.recite-lock .recite-open{visibility:hidden}
 @media (max-width:420px){
-  .recite-open{top:12px; left:12px; width:80px; height:80px; border-radius:14px}
-  .recite-icon{width:52px; height:52px}
+  .recite-open{top:12px; left:12px; width:60px; height:60px; border-radius:12px}
+  .recite-icon{width:39px; height:39px}
 }
 @keyframes recite-glow{
   0%, 100%{box-shadow:0 0 0 0 transparent}
@@ -716,7 +716,7 @@ body.recite-lock .recite-open{visibility:hidden}
   .recite-open.is-glow{animation:none; box-shadow:0 0 12px 3px color-mix(in srgb, var(--orn) 35%, transparent)}
 }
 .recite-callout{
-  position:fixed; top:22px; left:116px; z-index:50;
+  position:fixed; top:22px; left:94px; z-index:50;
   max-width:min(300px, calc(100vw - 148px));
   margin:0; padding:12px 14px; text-align:left; cursor:pointer;
   font-family:var(--text); font-size:17px; line-height:1.4;
@@ -735,11 +735,11 @@ body.recite-lock .recite-open{visibility:hidden}
   body.recite-nudge .wrap{padding-top:190px}
 }
 @media (max-width:640px){
-  .recite-callout{top:112px; left:16px; right:16px; max-width:none}
+  .recite-callout{top:92px; left:16px; right:16px; max-width:none}
   body.recite-nudge .wrap{padding-top:300px}
 }
 @media (max-width:420px){
-  .recite-callout{top:104px; left:12px; right:12px}
+  .recite-callout{top:84px; left:12px; right:12px}
 }
 .recite-due{
   text-align:center; font-style:italic; color:var(--ink-soft); font-size:16.5px;
