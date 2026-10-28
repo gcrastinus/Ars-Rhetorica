@@ -872,6 +872,14 @@ body.dark .recite-overlay{background:rgba(0, 0, 0, .62)}
   .recite-columns.is-split{grid-template-columns:1fr; grid-template-rows:minmax(180px, 1fr) minmax(180px, 1fr)}
   .recite-text{min-height:160px}
 }
+/* A short screen (a phone held sideways): the columns no longer fit under the tools, so the panel scrolls and the
+   writing area and the full recitation take a fixed height instead of filling the rest of the panel (28 Oct 2026). */
+@media (max-height:560px){
+  .recite-panel{overflow-y:auto; overscroll-behavior:contain}
+  .recite-panel > *{flex-shrink:0}
+  .recite-columns, .recite-columns.is-split{flex:none; grid-template-rows:none}
+  .recite-text, .recite-full{height:min(240px, calc(100vh - 150px)); min-height:150px}
+}
 .recite-print{display:none}
 @media print{
   @page{margin:0.65in 0.7in}
