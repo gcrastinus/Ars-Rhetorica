@@ -1383,6 +1383,50 @@ kbd{font-family:var(--text); letter-spacing:0; border-color:var(--frame); border
 #scr-level .q-instr{max-width:34em; margin:22px auto 22px; font-size:16.5px; line-height:1.5}
 #gp-storage{margin:14px auto 0}
 #diff-section[hidden]{display:none}
+/* Oct 28: Level and Path as explained rows with menus, as in Ars Grammatica. The text at the left describes the choice made. */
+.choice-rows{max-width:32em; margin:0 auto 6px; font-size:17px; text-align:left}
+.choice-row{display:flex; align-items:center; gap:14px 22px; padding:16px 0; border-top:1px solid var(--line)}
+.choice-row:first-child{border-top:0}
+.choice-text{flex:1; min-width:0; text-align:left}
+.choice-label{font-family:var(--display); font-size:21px; line-height:1.2; color:var(--wine); margin:0 0 4px}
+.choice-expl{font-size:17px; line-height:1.4; color:var(--ink-soft); margin:0}
+.choice-menu{position:relative; flex:none; width:11.5em; font-size:18px}
+.choice-btn{
+  display:flex; align-items:center; justify-content:space-between; gap:8px; width:100%; min-height:44px;
+  padding:6px 12px; font-family:var(--text); font-size:18px; line-height:1.2; text-align:left;
+  color:var(--ink); background:transparent; border:2px solid var(--frame); border-radius:0; cursor:pointer
+}
+.choice-btn:hover{border-color:var(--ink-soft)}
+.choice-btn:focus-visible, .choice-btn:focus{outline:3px solid var(--ink); outline-offset:3px}
+.choice-btn:disabled{cursor:default; color:var(--ink-soft); border-color:var(--line)}
+.choice-btn:disabled:hover{border-color:var(--line)}
+.choice-btn-text{flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.choice-caret{flex:none; font-size:18px; line-height:1; color:var(--ink)}
+.choice-btn:disabled .choice-caret{visibility:hidden}
+.choice-btn[aria-expanded="true"] .choice-caret{transform:rotate(180deg)}
+.choice-list{
+  position:absolute; z-index:40; top:calc(100% + 4px); right:0; min-width:100%; width:max-content; max-width:min(18em, 92vw);
+  max-height:min(60vh, 22em); overflow:auto; margin:0; padding:4px 0; list-style:none;
+  background:var(--card); color:var(--ink); border:1px solid var(--frame); border-radius:0;
+  box-shadow:0 6px 18px rgba(43,33,24,.14)
+}
+body.dark .choice-list{box-shadow:0 6px 18px rgba(0,0,0,.4)}
+.choice-list[hidden]{display:none}
+.choice-list:focus{outline:none}
+.choice-list [role="option"]{
+  display:flex; align-items:center; gap:10px; min-height:44px; padding:6px 14px 6px 10px;
+  font-family:var(--text); font-size:18px; line-height:1.25; cursor:pointer; user-select:none
+}
+.choice-list [role="option"].is-on{background:color-mix(in srgb, var(--ink) 7%, var(--card))}
+.choice-list [role="option"].is-active{outline:3px solid var(--ink); outline-offset:-3px}
+.choice-mark{flex:none; width:1.1em; text-align:center; color:var(--ink)}
+#diff-section, #path-row{display:none !important}
+@media (max-width:560px){
+  .choice-row{flex-direction:column; align-items:stretch}
+  .choice-menu{width:100%}
+  .choice-list{left:0; right:0; width:auto; max-width:none}
+}
+@media print{.choice-rows, .choice-rule{display:none}}
 details.help[hidden]{display:none}
 .set-card .ex-state, .ex-pane-item .ex-state{
   display:block; font-family:var(--text); font-size:12px; font-weight:400; letter-spacing:.04em;
@@ -1539,16 +1583,36 @@ details.help a:hover{color:var(--accent)}
 
     <div id="recite-due" class="recite-due" hidden></div>
 
+    <div class="rule"></div>
+    <div class="choice-rows directions">
+      <div class="choice-row">
+        <div class="choice-text">
+          <div class="choice-label" id="level-label">Level</div>
+          <p class="choice-expl" id="level-expl" aria-live="polite">The level is the difficulty of the exercises in Free Practice, from Level I to Level V.</p>
+        </div>
+        <div class="choice-menu" id="level-menu"></div>
+      </div>
+      <div class="choice-row">
+        <div class="choice-text">
+          <div class="choice-label" id="path-label">Path</div>
+          <p class="choice-expl" id="path-expl" aria-live="polite">Free Practice opens every exercise at once and keeps no record.</p>
+        </div>
+        <div class="choice-menu" id="path-menu"></div>
+      </div>
+    </div>
+    <div class="diff-row path-row" id="path-row" role="group" aria-label="Choose a path" hidden>
+      <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true" tabindex="-1">Free Practice</button>
+      <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false" tabindex="-1">Guided Path</button>
+    </div>
     <details class="help directions">
-      <summary>How to Proceed</summary>
-      <p><strong>Where to begin.</strong> Open the first tutorial, <em>The Art of Rhetoric</em>, and read it through. Then try <em>The three species</em> at difficulty I. Most sets are ten questions. At difficulty I each is worth ten points, and a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s <em>Helen</em> are sets of six; the Christian orator is a set of eight. A counter shows how far along you are.</p>
-      <p><strong>What to do in an exercise.</strong> Read the excerpt, then choose your answer. A right answer gains points; a wrong answer loses some. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option; <kbd>Enter</kbd> submits. Where the original Latin or Greek can be displayed, the Show the Latin button shows it. Sources for all texts are given in place.</p>
-      <p><strong>The special sections.</strong> Gorgias’s <em>Helen</em> is a tutorial and a figures set of its own (persuasion as a drug; the four aitiai). Antiphon’s Second Tetralogy is kept as forensic. Some key debates from Thucydides (Archidamus and Sthenelaidas, Cleon and Diodotus, Pericles, Catiline and Caesar) are paired below as well. The texts also include Augustine on the Christian orator and some passages from the Confessions.</p>
+      <summary>Before You Begin</summary>
+      <p><strong>Where to begin.</strong> Open the first tutorial, <em>The Art of Rhetoric</em>, and read it through. Then try <em>The three species</em> at Level I. Most sets are ten questions, and at Level I each right answer is worth ten points, so a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s <em>Helen</em> are sets of six; the Christian orator is a set of eight. A counter shows how far along you are.</p>
+      <p><strong>In an exercise.</strong> Read the excerpt, then choose your answer. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option, and <kbd>Enter</kbd> submits. Where the original Latin or Greek can be shown, the Show the Latin button shows it. Sources for all texts are given in place.</p>
       <p>For a general introduction to the classical liberal arts and the trivium, see <a href="https://studiuminstitute.org/trivium/">Preface to the Trivium</a>.</p>
     </details>
     <details class="help directions" id="guided-help" hidden>
-      <summary>How the Guided Path Works</summary>
-      <p><strong>Two paths.</strong> Free Practice opens every exercise at once and keeps no record for the Guided Path. The Guided Path opens the exercises in order, judges when each is passed and when it is mastered, and brings mastered exercises back for spaced review. Its record is kept only in this browser, and only once tracking is turned on under Progress &amp; Review; the Export button there saves a copy.</p>
+      <summary>Using the Guided Path</summary>
+      <p><strong>Keeping the record.</strong> The record is kept only in this browser, and only once tracking is turned on under Progress &amp; Review; the Export button there saves a copy.</p>
       <p><strong>The order of the path.</strong> The exercises open in eight steps, in the order of the art: the three species; the three pisteis; the enthymeme, the issue, and the topics; character and the passions; the parts of the oration; style and the figures; the whole case (Antiphon, the paired debates, and the whole-case set); and last, Augustine’s Christian orator and Gregory’s contrasting audiences. Each step opens when every exercise of the step before it is passed. The study decks are always open, and the optional set of further figures is never required.</p>
       <p><strong>Passing an exercise.</strong> An exercise is passed when nine of the last ten answers at Level III or above are correct, on at least two different days. Levels IV and V of an exercise open only after it is passed.</p>
       <p><strong>Mastery.</strong> An exercise is mastered (★) when eight of the last ten answers at Level V are correct, on at least two different days.</p>
@@ -1556,11 +1620,6 @@ details.help a:hover{color:var(--accent)}
       <p><strong>Content reviews.</strong> After each Division’s decks and exercises comes a short review of the doctrine itself, one for each deck. It asks for definitions and distinctions from memory, and on the Guided Path it is ready one day after the deck is finished and one of its exercises is passed. These reviews open nothing and close nothing.</p>
     </details>
 
-    <div class="rule"></div>
-    <div class="diff-row path-row" role="group" aria-label="Choose a path">
-      <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true">Free Practice</button>
-      <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false">Guided Path</button>
-    </div>
     <div id="guided-note" class="guided-note directions"></div>
     <p id="gp-storage" class="lock-note directions" hidden>This browser is not permitting storage, so progress will last only for this visit. The Export button under Progress &amp; Review keeps a copy.</p>
     <div id="diff-section">
@@ -1832,6 +1891,7 @@ function buildDiffRow(){
     host.appendChild(b);
   }
   $('diff-desc').textContent = DIFF[state.diff].desc;
+  if(window.renderStartChoices) window.renderStartChoices();
 }
 /* An exercise is a strip on its deck tile, in the order of the section.
    More than three sets share one Exercises button, which opens a pane.
@@ -2190,7 +2250,7 @@ function renderSetDone(){
     '<div class="panel complete-card"><svg class="orn complete-orn" viewBox="0 0 16 16" aria-hidden="true"><use href="#star"/></svg>'+
     '<p class="complete-h">Set complete</p>'+
     '<p class="directions" style="font-size:28px;margin:12px 0">'+state.correct+' of '+state.setLen+' · '+state.score+' / '+max+'</p>'+
-    '<p style="color:var(--ink-soft)">At difficulty I a right answer is worth ten points. A clean run of a ten-question set is 100; a shorter set finishes at ten points times its own question count. Higher difficulties change the question and the points.</p></div>';
+    '<p style="color:var(--ink-soft)">At Level I a right answer is worth ten points. A clean run of a ten-question set is 100; a shorter set finishes at ten points times its own question count. Higher difficulties change the question and the points.</p></div>';
   $('ex-submit').style.display = 'none';
   $('ex-next').style.display = '';
   $('ex-next').textContent = 'Home';

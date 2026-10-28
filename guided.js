@@ -133,6 +133,7 @@ function reflectPath(){
   if(gb){ gb.classList.toggle('sel', g); gb.setAttribute('aria-pressed', String(g)); }
   const help = $('guided-help'); if(help) help.hidden = !g;
   const diff = $('diff-section'); if(diff) diff.hidden = g;
+  if(window.renderStartChoices) window.renderStartChoices();
   notice();
 }
 function savedDiff(){ return guided() ? practiceDiff : state.diff; }
@@ -695,4 +696,128 @@ window.GP = {
 };
 reflectPath();
 buildHome();
+
+  /* ---------------- Level and Path menus (Oct 28), as in Ars Logica and Ars Grammatica ---------------- */
+  (function startChoices(){
+    const roman = d => DIFF[d].name;
+    const LEVEL_WORDS = {
+      1:'the names are given and a hint is shown.',
+      2:'the wrong answers sit closer to the right one.',
+      3:'less help: you name the thing from the speech.',
+      4:'shorter passages, and wrong answers that sit closer to the right one.',
+      5:'no hint: you judge the speech as it stands.'
+    };
+    function levelExpl(d){
+      return 'Level ' + roman(d) + ': ' + LEVEL_WORDS[d] + ' A right answer earns ' + DIFF[d].gain + ' points and a wrong answer takes away ' + DIFF[d].loss + '.';
+    }
+    const PATH_EXPL = {
+      practice: 'Free Practice opens every exercise at once, at the level chosen above, and keeps no record of your progress.',
+      guided: 'The Guided Path opens the exercises in order, judges when each is passed and when it is mastered, and brings mastered exercises back for spaced review.'
+    };
+    const GUIDED_LEVEL = 'On the Guided Path you choose the level when you open each exercise, and reviews set their own, so this menu applies to Free Practice only.';
+    const menus = {};
+    let open = null;
+    function close(focusBtn){
+      const m = open; if(!m) return;
+      open = null; m.list.hidden = true; m.btn.setAttribute('aria-expanded','false'); m.list.removeAttribute('aria-activedescendant');
+      if(focusBtn) m.btn.focus();
+    }
+    function active(m, i){
+      const o = [...m.list.children]; if(!o.length) return;
+      m.active = Math.max(0, Math.min(o.length-1, i));
+      o.forEach((x,k)=>x.classList.toggle('is-active', k===m.active));
+      m.list.setAttribute('aria-activedescendant', o[m.active].id);
+      o[m.active].scrollIntoView({block:'nearest'});
+    }
+    function show(m, at){
+      if(m.btn.disabled) return;
+      if(open && open!==m) close(false);
+      open = m; m.list.hidden = false; m.btn.setAttribute('aria-expanded','true');
+      const sel = m.cfg.options().findIndex(o=>m.cfg.isOn(o.value));
+      active(m, at==='last' ? m.cfg.options().length-1 : at==='first' ? 0 : Math.max(0, sel));
+      m.list.focus();
+    }
+    function pick(m, i){ const o = m.cfg.options()[i]; if(!o) return; close(true); m.cfg.pick(o.value); }
+    function jump(m, ch){
+      const opts = m.cfg.options(), now = Date.now();
+      m.typed = (now-(m.typedAt||0) < 700 ? (m.typed||'') : '') + ch.toLowerCase(); m.typedAt = now;
+      const from = m.typed.length>1 ? m.active : m.active+1;
+      for(let k=0;k<opts.length;k++){ const i=(from+k)%opts.length; if(opts[i].label.toLowerCase().indexOf(m.typed)===0 || String(opts[i].value).toLowerCase()===m.typed) return i; }
+      return -1;
+    }
+    function make(key, cfg){
+      const host = $(key+'-menu'); if(!host) return;
+      const btn = document.createElement('button');
+      btn.type='button'; btn.id=key+'-btn'; btn.className='choice-btn';
+      btn.setAttribute('aria-haspopup','listbox'); btn.setAttribute('aria-expanded','false');
+      btn.setAttribute('aria-labelledby', key+'-label '+key+'-btn'); btn.setAttribute('aria-describedby', key+'-expl');
+      btn.innerHTML = '<span class="choice-btn-text"></span><span class="choice-caret" aria-hidden="true">▾</span>';
+      const list = document.createElement('ul');
+      list.id=key+'-list'; list.className='choice-list'; list.setAttribute('role','listbox'); list.setAttribute('aria-labelledby', key+'-label');
+      list.tabIndex=-1; list.hidden=true;
+      host.replaceChildren(btn, list);
+      const m = menus[key] = {key, cfg, btn, list, active:0};
+      btn.addEventListener('click', ()=>{ if(open===m) close(true); else show(m); });
+      btn.addEventListener('keydown', e=>{
+        if(['ArrowDown','ArrowUp','Enter',' '].includes(e.key)){ e.preventDefault(); show(m); }
+        else if(e.key==='Home'){ e.preventDefault(); show(m,'first'); }
+        else if(e.key==='End'){ e.preventDefault(); show(m,'last'); }
+      });
+      list.addEventListener('keydown', e=>{
+        const n = cfg.options().length;
+        if(e.key==='ArrowDown'){ e.preventDefault(); active(m, m.active+1); }
+        else if(e.key==='ArrowUp'){ e.preventDefault(); active(m, m.active-1); }
+        else if(e.key==='Home'){ e.preventDefault(); active(m, 0); }
+        else if(e.key==='End'){ e.preventDefault(); active(m, n-1); }
+        else if(e.key==='Enter' || e.key===' '){ e.preventDefault(); pick(m, m.active); }
+        else if(e.key==='Escape'){ e.preventDefault(); e.stopPropagation(); close(true); }
+        else if(e.key==='Tab'){ close(false); }
+        else if(e.key.length===1 && /\S/.test(e.key) && !e.ctrlKey && !e.metaKey && !e.altKey){ e.preventDefault(); const i = jump(m, e.key); if(i>=0) active(m, i); }
+      });
+      list.addEventListener('click', e=>{ const li = e.target.closest('[role="option"]'); if(li) pick(m, [...list.children].indexOf(li)); });
+      list.addEventListener('mousemove', e=>{ const li = e.target.closest('[role="option"]'); if(li){ const i=[...list.children].indexOf(li); if(i!==m.active) active(m,i); } });
+    }
+    document.addEventListener('pointerdown', e=>{ if(open && !open.btn.parentNode.contains(e.target)) close(false); });
+    function draw(m){
+      const opts = m.cfg.options();
+      m.btn.querySelector('.choice-btn-text').textContent = m.cfg.text();
+      m.btn.disabled = !!(m.cfg.disabled && m.cfg.disabled());
+      if(m.btn.disabled && open===m) close(false);
+      if(!m.list.children.length){
+        m.list.replaceChildren(...opts.map(o=>{
+          const li = document.createElement('li');
+          li.id = m.key+'-opt-'+o.value; li.setAttribute('role','option'); li.dataset.value = o.value;
+          li.innerHTML = '<span class="choice-mark" aria-hidden="true"></span><span class="choice-name"></span>';
+          li.querySelector('.choice-name').textContent = o.label;
+          return li;
+        }));
+      }
+      [...m.list.children].forEach((li,i)=>{
+        const on = m.cfg.isOn(opts[i].value);
+        li.setAttribute('aria-selected', on?'true':'false'); li.classList.toggle('is-on', on);
+        li.querySelector('.choice-mark').textContent = on ? '✓' : '';
+      });
+    }
+    make('level', {
+      options: ()=>[1,2,3,4,5].map(d=>({value:d, label:'Level '+roman(d)})),
+      isOn: v=>v===state.diff,
+      text: ()=> guided() ? 'By exercise' : 'Level '+roman(state.diff),
+      disabled: ()=> guided(),
+      pick: v=>{ state.diff = v; practiceDiff = v; save(); buildDiffRow(); }
+    });
+    make('path', {
+      options: ()=>[{value:'practice', label:'Free Practice'},{value:'guided', label:'Guided Path'}],
+      isOn: v=>v===path,
+      text: ()=> guided() ? 'Guided Path' : 'Free Practice',
+      pick: v=>{ if(v!==path) setPath(v); }
+    });
+    function renderStartChoices(){
+      Object.values(menus).forEach(draw);
+      const set = (id,t)=>{ const e=$(id); if(e && e.textContent!==t) e.textContent=t; };
+      set('level-expl', guided() ? GUIDED_LEVEL : levelExpl(state.diff));
+      set('path-expl', PATH_EXPL[guided() ? 'guided' : 'practice']);
+    }
+    window.renderStartChoices = renderStartChoices;
+    renderStartChoices();
+  })();
 })();
