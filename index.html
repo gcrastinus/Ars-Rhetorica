@@ -1027,6 +1027,11 @@ h1{
   float:left; font:400 4.1em/0.8 var(--display); color:var(--accent); margin:6px 10px 0 0;
 }
 .intro-note strong{font-weight:400; color:inherit; font-family:inherit}
+.intro-note .intro-rule{border:0; border-top:1px solid var(--ink-soft); margin:22px 0 18px; height:0}
+.intro-note .intro-use{margin:0 0 10px; font-size:15px; line-height:1.55; color:var(--ink-soft); max-width:85%; margin-left:auto; margin-right:auto}
+.intro-note .intro-use-head{font-weight:700; font-family:inherit; color:var(--ink-soft)}
+.intro-note .intro-preface{max-width:85%; margin:16px auto 0; border:1px solid var(--frame); background:var(--paper); padding:10px 18px; text-align:center; font-size:16px}
+.intro-note .intro-preface a{color:var(--wine); text-decoration:none; border-bottom:1px dotted var(--gold-soft)}
 .set-grid{
   display:flex; flex-direction:column; align-items:center; gap:12px; margin-top:0; width:100%;
 }
@@ -1587,6 +1592,10 @@ details.help a:hover{color:var(--accent)}
       Rhetoric asks whether the hearer is moved to see the truth that has been expressed. This course is Aristotelian in its principles,
       Ciceronian in its arrangement, and Augustinian in its offices, because for Augustine the orator aims to teach, delight, and move
       (<span class="lat">docere, delectare, flectere</span>).
+      <div class="intro-rule" aria-hidden="true"></div>
+      <p class="intro-use"><b class="intro-use-head">This course teaches the doctrines of the art of rhetoric; but, as with the art of grammar, to acquire the art in itself students must read widely, write at length and in depth, and practice speaking.</b></p>
+      <p class="intro-use">The study and exercises here build rhetoric&rsquo;s foundation: its principles, parts, and figures are learned and drilled. But the art of rhetoric itself, that is, the art that is ordered to persuasion and truth, is perfected only by practice: wide reading of good authors and orators, extensive writing, and frequent speaking (cf. Augustine, <i>De doctrina christiana</i> IV.3.4&ndash;5; Cicero, <i>De oratore</i> I.150). As with Ars Grammatica, students can go as deeply as they wish into the doctrine and exercises here, but they should not think this course can replace a wide knowledge of good authors and practice in writing and speaking.</p>
+      <div class="intro-preface"><a href="https://studiuminstitute.org/trivium/">Preface to the Trivium</a></div>
     </div>
 
     <div id="recite-due" class="recite-due" hidden></div>
@@ -1612,12 +1621,6 @@ details.help a:hover{color:var(--accent)}
       <button class="diff-btn path-btn sel" type="button" id="path-free" aria-pressed="true" tabindex="-1">Free Practice</button>
       <button class="diff-btn path-btn" type="button" id="path-guided" aria-pressed="false" tabindex="-1">Guided Path</button>
     </div>
-    <details class="help directions">
-      <summary>Before You Begin</summary>
-      <p><strong>Where to begin.</strong> Open the first tutorial, <em>The Art of Rhetoric</em>, and read it through. Then try <em>The three species</em> at Level I. Most sets are ten questions, and at Level I each right answer is worth ten points, so a clean run of ten is 100. The six offices, the paired debates, and Gorgias’s <em>Helen</em> are sets of six; the Christian orator is a set of eight. A counter shows how far along you are.</p>
-      <p><strong>In an exercise.</strong> Read the excerpt, then choose your answer. Keys <kbd>1</kbd>–<kbd>4</kbd> choose a multiple-choice option, and <kbd>Enter</kbd> submits. Where the original Latin or Greek can be shown, the Show the Latin button shows it. Sources for all texts are given in place.</p>
-      <p>For a general introduction to the classical liberal arts and the trivium, see <a href="https://studiuminstitute.org/trivium/">Preface to the Trivium</a>.</p>
-    </details>
     <details class="help directions" id="guided-help" hidden>
       <summary>Using the Guided Path</summary>
       <p><strong>Keeping the record.</strong> The record is kept only in this browser, and only once tracking is turned on under Progress &amp; Review; the Export button there saves a copy.</p>
@@ -3346,9 +3349,6 @@ document.addEventListener('click', ev => {
 
     const intro = home.querySelector('.intro-note');
     if(intro) add(intro.textContent);
-
-    const how = home.querySelector('details.help');
-    if(how) addDetailsText(how, add);
 
     home.querySelectorAll('#home-acts > div, #home-read > div').forEach(block => {
       const label = block.querySelector('.act-label, .section-label');
