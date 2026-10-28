@@ -84,3 +84,19 @@ html[data-font] .directions{font-family:var(--std-text)}
 html[data-font="fraktur"] header h1 .title-initial{display:inline-block; height:1.85em; width:auto; vertical-align:-.22em;
   margin:0 .03em 0 0; border-radius:4px; box-shadow:0 0 0 1px var(--frame)}
 html[data-font="fraktur"] header h1 .title-a{display:none}
+
+/* Studium Institute row at the bottom of the + menu: the name goes home, the arrow lists the three apps. */
+.si-nav{border-top:1px solid var(--frame); margin-top:6px}
+.si-row{display:flex; align-items:stretch}
+.si-nav a, .si-nav .si-tog{font-family:var(--std-text) !important; font-size:18px; line-height:1.3; color:var(--ink); background:transparent; border:0; border-radius:0; text-decoration:none; cursor:pointer; text-transform:none; letter-spacing:0; font-variant:normal; font-weight:400}
+.si-nav .si-name{flex:1; display:block; padding:10px 16px; white-space:nowrap}
+.si-nav .si-tog, .set-menu .si-nav .si-tog{width:auto; flex:none; display:flex; align-items:center; justify-content:center; margin:0; padding:10px 16px}
+.si-tog span{display:inline-block; transition:transform .15s}
+.si-tog[aria-expanded="true"] span{transform:rotate(180deg)}
+.si-nav .si-list{padding:0 0 4px}
+.si-nav .si-list a{display:block; padding:8px 16px 8px 36px; font-size:17px; white-space:nowrap}
+.si-nav a:hover, .si-nav .si-tog:hover{background:var(--hover)}
+.si-nav a:focus-visible, .si-nav .si-tog:focus-visible{outline:3px solid var(--ink); outline-offset:-3px}
+.si-nav .si-list a[aria-current]{font-weight:700}
+
+.set-menu{max-height:calc(100vh - 80px); max-height:calc(100dvh - 80px); overflow-y:auto}

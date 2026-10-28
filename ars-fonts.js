@@ -4,6 +4,19 @@
   const $ = id => document.getElementById(id);
   const FONTS = [['standard','Classic Modern'],['plain','Plain Modern'],['garamond','Renaissance Printed'],['italic','Renaissance Italic'],['fraktur','Medieval Gothic'],['copperplate','Cursive']];
   const NOTES = {"plain": "<b>Font: Plain Modern</b>, set in Atkinson Hyperlegible Next. The Braille Institute of America, named for its founder J. Robert Atkinson, released the first Atkinson Hyperlegible in 2019 to make reading easier for people with low vision. It is a grotesque sans serif with distinct, unambiguous letterforms, and this refined edition, Next, came to Google Fonts in 2025 with new weights, better kerning and wider language support. Designed by the Braille Institute, Applied Design Works, Elliott Scott, Megan Eiswerth and Letters From Sweden; SIL Open Font License 1.1.", "standard": "<b>Font: Classic Modern</b>, set in Libre Caslon Text and Libre Caslon Display. These are revivals of the Caslon types that William Caslon first cut in London in the 18th century, drawn here after the hand-lettered Caslons of 1950s advertising. Designed by Pablo Impallari (Impallari Type); SIL Open Font License 1.1.", "fraktur": "<b>Font: Medieval Gothic</b>, set in UnifrakturMaguntia. It is a German blackletter (Fraktur) in the tradition that began with Gutenberg's types at Mainz, and it is based on Peter Wiegel's Berthold Mainzer Fraktur, which follows a 1901 typeface by Carl Albert Fahrenwaldt. Designed by j. 'mach' wust after Peter Wiegel; SIL Open Font License 1.1. Initial A: du Bellay, La Défense et illustration de la langue française (Paris, 1549), Gallica/BnF, public domain.", "garamond": "<b>Font: Renaissance Printed</b>, set in EB Garamond. It revives the roman types that Claude Garamont cut in Paris in the mid-16th century, as they appear in the Berner specimen printed at Frankfurt in 1592. Designed by Georg Duffner and Octavio Pardo; SIL Open Font License 1.1.", "italic": "<b>Font: Renaissance Italic</b>, set in Felipa. It follows the Italian chancery cursive, the hand that Ludovico degli Arrighi taught in his writing books of the 1520s and that Aldus Manutius first brought into print as italic type at Venice in 1501, here redrawn with a contemporary feeling. Designed by Fontstage; SIL Open Font License 1.1.", "copperplate": "<b>Font: Cursive</b>, set in Pinyon Script. It is a round hand script in the manner of 18th-century English copperplate, the writing that masters of penmanship engraved on copper plates for their copybooks. Designed by Nicole Fally; SIL Open Font License 1.1."};
+  /* Studium Institute row: the name links home; the arrow expands the list of the three apps. */
+  function siNav(idp){
+    const APPS = [['grammatica','Ars Grammatica'],['logica','Ars Logica'],['rhetorica','Ars Rhetorica']];
+    const here = (location.hostname.split('.')[0] || '').replace('syllogistica','logica');
+    const d = document.createElement('div'); d.className = 'si-nav';
+    d.innerHTML = '<div class="si-row"><a class="si-name" role="menuitem" href="https://studiuminstitute.org">Studium Institute</a>'
+      + '<button type="button" class="si-tog" id="'+idp+'-tog" aria-expanded="false" aria-controls="'+idp+'-list" aria-label="Show the three apps"><span aria-hidden="true">▾</span></button></div>'
+      + '<div class="si-list" id="'+idp+'-list" role="group" aria-label="The three apps" hidden>'
+      + APPS.map(a=>'<a role="menuitem" href="https://'+a[0]+'.studiuminstitute.org"'+(a[0]===here?' aria-current="page"':'')+'>'+a[1]+'</a>').join('') + '</div>';
+    const tog = d.querySelector('.si-tog'), list = d.querySelector('.si-list');
+    tog.onclick = e=>{ e.stopPropagation(); const o = list.hidden; list.hidden = !o; tog.setAttribute('aria-expanded', String(o)); tog.setAttribute('aria-label', o ? 'Hide the three apps' : 'Show the three apps'); };
+    return d;
+  }
   const host = $('top-right-controls'), dark = $('dark-toggle');
   if(!host || !dark) return;
   /* the + button goes last, at the far top right; the old dark-mode button stays in the page, hidden, for its logic */
@@ -14,6 +27,7 @@
     + '<button type="button" role="menuitemcheckbox" id="set-dark" aria-checked="false"><span class="set-check" aria-hidden="true"></span><span>Dark mode</span></button>'
     + '<div class="set-sep" role="separator"></div><div class="set-head" id="set-font-head">Font</div>'
     + '<div class="set-fonts" role="group" aria-labelledby="set-font-head"></div></div>';
+  wrap.querySelector('.set-menu').appendChild(siNav('si'));
   host.appendChild(wrap);
   dark.hidden = true;
   const credit = document.querySelector('.designer-credit');
@@ -41,7 +55,7 @@
     box.querySelectorAll('[data-font]').forEach(b=>b.setAttribute('aria-checked', String(b.dataset.font===k)));
     $('set-dark').setAttribute('aria-checked', String(document.body.classList.contains('dark')));
   }
-  const items = () => [...menu.querySelectorAll('button')];
+  const items = () => [...menu.querySelectorAll('button, a[href]')].filter(e=>!e.closest('[hidden]'));
   function close(focusBtn){ menu.hidden = true; btn.setAttribute('aria-expanded','false'); if(focusBtn) btn.focus(); }
   function open(){ sync(); menu.hidden = false; btn.setAttribute('aria-expanded','true'); (menu.querySelector('[aria-checked="true"][data-font]')||items()[0]).focus(); }
   btn.onclick = e=>{ e.stopPropagation(); if(menu.hidden) open(); else close(); };
